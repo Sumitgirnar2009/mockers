@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container-fluid p-3">
+      <!-- Header -->
+      <div class="d-flex justify-content-between align-items-center mb-3">
+        <div><app-timer></app-timer></div>
+      </div>
+
+      <!-- Section Tabs -->
+      <app-section-tabs></app-section-tabs>
+
+      <!-- Main Content -->
+      <div class="row">
+        <!-- Question Panel -->
+        <div class="col-12 col-lg-8 mb-3">
+          <app-questions [currentQuestion]="currentQuestion"></app-questions>
+
+
+        <!-- Side Panel -->
+        <div class="col-12 col-lg-4">
+          <app-legend></app-legend>
+          <app-navigator></app-navigator>
+          <button class="btn btn-danger w-100 mt-3">Submit</button>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
