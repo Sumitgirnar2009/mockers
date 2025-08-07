@@ -11,7 +11,7 @@ import { QuestionModel } from '../../models/question.model';
   selector: 'app-quiz',
   imports: [Legend, Questions, Navigator, Timer, SectionTabs],
   templateUrl: './quiz.html',
-  styleUrl: './quiz.css'
+  styleUrl: './quiz.css',
 })
 export class Quiz {
 
@@ -21,17 +21,41 @@ export class Quiz {
 
   currentQuestion!: QuestionModel;
 
-  ngOnInit() {
-    this.currentQuestionNumber = 3 // Load first question
-    this.currentQuestion = this.quizService.getQuestion(this.currentQuestionNumber);
+  ngOnInit() {;
+    this.currentQuestionNumber = 1 // Load first question
+    this.currentQuestion = this.quizService.fetchQuestion(this.currentQuestionNumber);
+    console.log("Current Question in ngOnInit:", this.currentQuestion);
   }
-  
+
+  handleNextQuestion(updatedQuestion: QuestionModel) {
+    console.log("Inside handleNextQuestion:");
+    this.quizService.saveQuestionStateSnapshot(updatedQuestion, updatedQuestion.id);
+    if (this.currentQuestionNumber < 100) {
+    this.currentQuestionNumber += 1;
+    this.currentQuestion = this.quizService.fetchQuestion(this.currentQuestionNumber);
+    }
+    console.log("Current Question after next:", this.currentQuestion);
+  }
+
   onSelectQuestion(index: number) {
     this.currentQuestionNumber = index;
-    this.currentQuestion = this.quizService.getQuestion(this.currentQuestionNumber);
+    this.currentQuestion = this.quizService.fetchQuestion(this.currentQuestionNumber);
   }
 
-  
+  handlePreviousQuestion(questionId: number) {
+    if (questionId > 1) {
+      this.currentQuestionNumber -= 1;
+      this.currentQuestion = this.quizService.fetchQuestion(this.currentQuestionNumber);
+    }
+  }
+
+  handleNavigateQuestion(questionId: number) {
+    this.currentQuestionNumber = questionId;
+    this.currentQuestion = this.quizService.fetchQuestion(this.currentQuestionNumber);
+  }
+
 
 }
+
+
 

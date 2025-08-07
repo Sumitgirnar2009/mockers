@@ -1,9 +1,14 @@
+import { QuestionStatus } from '../service/fetchquestion'; 
+
+
 export interface QuestionModel {
   id: number;
   text: string;
   options: string[];
   selectedOption?: number;
-  visited: boolean;
-  markedForReview: boolean;
+  IsVisited: boolean;
+  IsMarkedForReview: boolean;
+  IsAnswered: boolean;
+  IsSaved?: boolean; 
 }
 

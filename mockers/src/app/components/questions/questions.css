@@ -1,0 +1,20 @@
+/* Make the selected checkbox red */
+.red-checkbox {
+  accent-color: red;
+}
+
+/* Remove the default active background color */
+.list-group-item.active {
+  background-color: transparent;
+  border-color: #dee2e6;
+  color: inherit;
+  
+}
+
+/* Optional: Add some hover effect */
+.list-group-item:hover {
+  background-color: #f8f9fa;
+ 
+}
+
+

@@ -3,20 +3,27 @@
   <p class="fw-semibold">{{ currentQuestion.text }}</p>
 
   <div class="list-group">
-    <label *ngFor="let option of currentQuestion.options; let i = index" class="list-group-item"
-      [class.active]="currentQuestion.selectedOption === i">
-      <input class="form-check-input me-2" type="radio" name="option" [value]="i"
-        [checked]="currentQuestion.selectedOption === i" />
+    <label
+      *ngFor="let option of currentQuestion.options; let i = index"
+      class="list-group-item d-flex align-items-center"
+    >
+      <input
+        type="radio"
+        name="option"
+        class="form-check-input me-2"
+        [value]="i"
+        [checked]="currentQuestion.selectedOption === i"
+        (change)="currentQuestion.selectedOption = i"
+        [class.red-checkbox]="currentQuestion.selectedOption === i"
+      />
       {{ option }}
     </label>
-
-    <div class="mt-3">
-      <button class="btn btn-warning me-2">Mark for Review</button>
-      <button class="btn btn-outline-secondary me-2">Clear Response</button>
-      <button class="btn btn-success">Save & Next</button>
-    </div>
-
   </div>
 </div>
 
-<!-- (change)="onOptionSelect(currentQuestion.id)" -->
+<div class="mt-3">
+  <button class="btn btn-warning me-2" (click)="markForReviewAndNext()">Mark for Review & Next</button>
+  <button class="btn btn-outline-secondary me-2" (click)="currentQuestion.selectedOption = -1">Clear Response</button> 
+  <button class="btn btn-success" (click)="saveAndNext()">Save & Next</button>
+  <button class="btn btn-success" (click)="previous()">Previous</button>
+</div>

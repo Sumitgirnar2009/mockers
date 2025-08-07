@@ -1,0 +1,51 @@
+.box {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+.box-1 {
+  background-color: #dcdcdc;
+  color: #333;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+}
+
+.box-2 {
+  background-color: #e74c3c;
+  clip-path: polygon(50% 0%, 100% 30%, 100% 100%, 0% 100%, 0% 30%);
+}
+
+.box-3 {
+  background-color: #2ecc71;
+  clip-path: polygon(50% 0%, 100% 35%, 80% 100%, 20% 100%, 0% 35%);
+}
+
+.box-4, .box-5 {
+  background-color: #8e44ad;
+  border-radius: 50%;
+}
+
+.box-5 {
+  position: relative;
+}
+
+.box-5::after {
+  content: '✔';
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
+  background-color: #d4edda;
+  color: green;
+  font-size: 10px;
+  width: 14px;
+  height: 14px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 14px;
+  font-weight: bold;
+}
