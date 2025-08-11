@@ -2,18 +2,23 @@ import { Component } from '@angular/core';
 import { Legend } from '../legend/legend';
 import { Questions } from '../questions/questions';
 import { Navigator } from '../navigator/navigator';
-import { Timer } from '../timer/timer';
 import { SectionTabs } from '../section-tabs/section-tabs';
 import { Fetchquestion } from '../../service/fetchquestion';
 import { QuestionModel } from '../../models/question.model';
+import { TimerComponent } from '../timer/timer';
 
 @Component({
   selector: 'app-quiz',
-  imports: [Legend, Questions, Navigator, Timer, SectionTabs],
+  imports: [Legend, Questions, Navigator, TimerComponent, SectionTabs],
   templateUrl: './quiz.html',
   styleUrl: './quiz.css',
 })
 export class Quiz {
+
+
+  handleCurrentSection($event: string) {
+  throw new Error('Method not implemented.');
+  }
 
   constructor(private quizService: Fetchquestion) { }
 

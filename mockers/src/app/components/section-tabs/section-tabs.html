@@ -1,8 +1,35 @@
-    <ul class="nav nav-tabs mb-3">
-        <li class="nav-item">
-          <a class="nav-link active">Physics</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link">Chemistry</a>
-        </li>
-    </ul>
+<ul class="nav nav-tabs mb-3">
+    <!-- Group 1: Physics + Chemistry -->
+    <li class="nav-item">
+        <a 
+          class="nav-link" 
+          [class.active]="selectedSection === 'Physics'" 
+          (click)="onSectionChange('Physics')">
+          Physics
+        </a>
+    </li>
+    <li class="nav-item">
+        <a 
+          class="nav-link" 
+          [class.active]="selectedSection === 'Chemistry'" 
+          (click)="onSectionChange('Chemistry')">
+          Chemistry
+        </a>
+    </li>
+
+    <!-- Separator -->
+    <li class="nav-item disabled" 
+        style="pointer-events: none; border-left: 2px solid #ccc; margin: 0 10px;">
+    </li>
+
+    <!-- Group 2: Maths -->
+    <li class="nav-item">
+        <a 
+          class="nav-link text-primary fw-bold" 
+          [class.active]="selectedSection === 'Maths'" 
+          style="background-color: #f8f9fa;" 
+          (click)="onSectionChange('Maths')">
+          Maths
+        </a>
+    </li>
+</ul>
