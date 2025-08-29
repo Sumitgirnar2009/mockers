@@ -1,0 +1,48 @@
+.legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 10px;
+  max-width: 420px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1 1 45%; /* responsive: 2 per row on medium, full width on small */
+}
+
+.legend-box {
+  width: 28px;
+  height: 28px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Colors from exam UI */
+.answered {
+  background-color: #66bb6a; /* green */
+}
+.not-answered {
+  background-color: #e74c3c; /* red */
+}
+.not-visited {
+  background-color: #b0b0b0; /* gray */
+}
+.marked-review {
+  background-color: #8e44ad; /* violet */
+}
+.answered-review {
+  background-color: #66bb6a;
+  border: 3px solid #8e44ad; /* green with violet border */
+}
+
+.legend-label {
+  font-size: clamp(12px, 2vw, 14px);
+}

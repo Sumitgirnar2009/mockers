@@ -1,13 +1,42 @@
+/* Base box styles */
 .box {
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  font-weight: bold;
-  text-align: center;
-  color: white;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  border-radius: 8px;
   cursor: pointer;
+  background: #f1f1f1;
+  transition: transform 0.2s ease;
 }
 
+
+
+/* On tablets (≤ 768px) → slightly smaller */
+@media (max-width: 768px) {
+  .box {
+    width: 50px;
+    height: 50px;
+    font-size: 14px;
+  }
+}
+
+/* On mobile (≤ 576px) → even smaller */
+@media (max-width: 576px) {
+  .box {
+    width: 40px;
+    height: 40px;
+    font-size: 12px;
+  }
+
+  .question-grid {
+    gap: 6px; /* reduce spacing */
+  }
+}
+
+/* Box 1: Gray square */
 .box-1 {
   background-color: #dcdcdc;
   color: #333;
@@ -15,25 +44,31 @@
   border-radius: 4px;
 }
 
+/* Box 2: Pure Red polygon */
 .box-2 {
-  background-color: #e74c3c;
+  background-color: #ff0000; /* complete red */
   clip-path: polygon(50% 0%, 100% 30%, 100% 100%, 0% 100%, 0% 30%);
 }
 
+/* Box 3: Pure Green polygon */
 .box-3 {
-  background-color: #2ecc71;
+  background-color: #00ff00; /* complete green */
   clip-path: polygon(50% 0%, 100% 35%, 80% 100%, 20% 100%, 0% 35%);
 }
 
-.box-4, .box-5 {
-  background-color: #8e44ad;
+/* Box 4 & 5: Pure Violet circles */
+.box-4,
+.box-5 {
+  background-color: #8a2be2; /* complete violet */
   border-radius: 50%;
 }
 
+/* Box 5: With checkmark */
 .box-5 {
   position: relative;
 }
 
+/* Checkmark styling */
 .box-5::after {
   content: '✔';
   position: absolute;
@@ -41,7 +76,7 @@
   right: -5px;
   background-color: #d4edda;
   color: green;
-  font-size: 10px;
+  font-size: clamp(8px, 1.5vw, 12px); /* responsive checkmark font */
   width: 14px;
   height: 14px;
   text-align: center;
@@ -49,3 +84,14 @@
   line-height: 14px;
   font-weight: bold;
 }
+
+
+.current-section {
+  background: linear-gradient(135deg, #6ea0ec, #6610f2); /* Professional gradient */
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+
+

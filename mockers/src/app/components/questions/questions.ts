@@ -3,11 +3,12 @@ import { QuestionModel } from '../../models/question.model';
 import { NgFor, NgIf } from '@angular/common';
 import { QuestionStatus } from '../../service/fetchquestion';
 import { flatMap } from 'rxjs';
+import { ModPipe } from '../../mod-pipe';
 
 
 @Component({
   selector: 'app-questions',
-  imports: [NgIf, NgFor],
+  imports: [NgIf, NgFor,ModPipe],
   templateUrl: './questions.html',
   styleUrl: './questions.css'
 })

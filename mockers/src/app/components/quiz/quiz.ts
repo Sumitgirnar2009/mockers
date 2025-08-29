@@ -14,17 +14,11 @@ import { TimerComponent } from '../timer/timer';
   styleUrl: './quiz.css',
 })
 export class Quiz {
-
-
-  handleCurrentSection($event: string) {
-  throw new Error('Method not implemented.');
-  }
-
   constructor(private quizService: Fetchquestion) { }
 
   currentQuestionNumber!: number
-
   currentQuestion!: QuestionModel;
+  currentSection!: String
 
   ngOnInit() {;
     this.currentQuestionNumber = 1 // Load first question
@@ -38,7 +32,10 @@ export class Quiz {
     if (this.currentQuestionNumber < 100) {
     this.currentQuestionNumber += 1;
     this.currentQuestion = this.quizService.fetchQuestion(this.currentQuestionNumber);
-    }
+    if(this.currentQuestionNumber>50){
+      this.currentSection = "Chemistry"
+    }    
+  }
     console.log("Current Question after next:", this.currentQuestion);
   }
 
@@ -51,12 +48,22 @@ export class Quiz {
     if (questionId > 1) {
       this.currentQuestionNumber -= 1;
       this.currentQuestion = this.quizService.fetchQuestion(this.currentQuestionNumber);
+      if(this.currentQuestionNumber>50){
+        this.currentSection = "Chemistry"
+      }   
+      if(this.currentQuestionNumber<=50){
+        this.currentSection = "Physics"
+      }   
     }
   }
 
   handleNavigateQuestion(questionId: number) {
     this.currentQuestionNumber = questionId;
     this.currentQuestion = this.quizService.fetchQuestion(this.currentQuestionNumber);
+  }
+
+  handleCurrentSection(section: string) {
+    this.currentSection = section
   }
 
 

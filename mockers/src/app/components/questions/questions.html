@@ -1,29 +1,76 @@
 <div *ngIf="currentQuestion">
-  <h5>Question No. {{ currentQuestion.id }}</h5>
-  <p class="fw-semibold">{{ currentQuestion.text }}</p>
+  <h5>Question No. {{ currentQuestion.id | mod:50 }}</h5>
+
+  <p class="fw-semibold">{{ currentQuestion.question.text }}</p>
+  
+  <!-- Question image -->
+  <div *ngIf="currentQuestion.question.image" 
+       class="mb-2" 
+       style="width: 100%; background-color: white; display: inline-block;">
+    <img 
+      [src]="currentQuestion.question.image" 
+      alt="Question Image" 
+      class="img-fluid rounded" 
+      style="max-height: 250px; object-fit: contain; display: block;" />
+  </div>
 
   <div class="list-group">
     <label
       *ngFor="let option of currentQuestion.options; let i = index"
-      class="list-group-item d-flex align-items-center"
+      class="list-group-item d-flex flex-column align-items-start"
+      style="background-color: white;"
     >
-      <input
-        type="radio"
-        name="option"
-        class="form-check-input me-2"
-        [value]="i"
-        [checked]="currentQuestion.selectedOption === i"
-        (change)="currentQuestion.selectedOption = i"
-        [class.red-checkbox]="currentQuestion.selectedOption === i"
-      />
-      {{ option }}
+      <div class="d-flex align-items-center w-100">
+        <input
+          type="radio"
+          name="option"
+          class="form-check-input me-2"
+          [value]="i"
+          [checked]="currentQuestion.selectedOption === i"
+          (change)="currentQuestion.selectedOption = i"
+          [class.red-checkbox]="currentQuestion.selectedOption === i"
+        />
+        <span>{{ option.text }}</span>
+      </div>
+
+      <!-- Option image -->
+      <div *ngIf="option.image" class="mt-1" style="width: 100%; background-color: white; display: inline-block;">
+        <img
+          [src]="option.image"
+          alt="Option Image"
+          class="img-fluid rounded"
+          style="max-height: 150px; object-fit: contain; display: block;"
+        />
+      </div>
     </label>
   </div>
 </div>
 
-<div class="mt-3">
-  <button class="btn btn-warning me-2" (click)="markForReviewAndNext()">Mark for Review & Next</button>
-  <button class="btn btn-outline-secondary me-2" (click)="currentQuestion.selectedOption = -1">Clear Response</button> 
-  <button class="btn btn-success" (click)="saveAndNext()">Save & Next</button>
-  <button class="btn btn-success" (click)="previous()">Previous</button>
+
+
+<div class="d-flex flex-wrap gap-2 mt-4 p-3 bg-light rounded-3 shadow-sm action-buttons">
+  <!-- Mark for Review -->
+  <button class="btn btn-warning d-flex align-items-center" (click)="markForReviewAndNext()">
+    <i class="bi bi-bookmark-star me-2"></i>
+    <span>Mark for Review</span>
+  </button>
+  
+  <!-- Clear Response -->
+  <button class="btn btn-outline-danger d-flex align-items-center" 
+          (click)="currentQuestion.selectedOption = -1">
+    <i class="bi bi-eraser me-2"></i>
+    <span>Clear</span>
+  </button>
+  
+  <!-- Save & Next -->
+  <button class="btn btn-success d-flex align-items-center ms-auto" (click)="saveAndNext()">
+    <span>Save & Next</span>
+    <i class="bi bi-arrow-right ms-2"></i>
+  </button>
+  
+  <!-- Previous -->
+  <button class="btn btn-outline-primary d-flex align-items-center" (click)="previous()">
+    <i class="bi bi-arrow-left me-2"></i>
+    <span>Previous</span>
+  </button>
 </div>

@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Output } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { QuestionModel } from '../../models/question.model';
@@ -14,12 +14,13 @@ import { Fetchquestion } from '../../service/fetchquestion';
 export class Navigator {
  numbers: number[];
  @Output() navigateQuestion = new EventEmitter<number>();
+ @Input() currentSection!: String;
 
  snapshot: ReadonlyMap<number, QuestionModel>;
  
   constructor(private fetchQuestionService: Fetchquestion) {
     // Create an array from 0 to 99 (100 elements)
-    this.numbers = Array.from({ length: 100 }, (_, k) => k); 
+    this.numbers = Array.from({ length: 100 }, (_, k) => k + 1);
     this.snapshot = this.fetchQuestionService.getQuestionStateSnapshot();
 
   }
@@ -34,6 +35,15 @@ export class Navigator {
       default: return 'box-1';
     }
   }
+
+  getSectionNumbers() {
+  if (this.currentSection === 'Physics') {
+    return this.numbers.slice(0, 50); // 1–50
+  } else if (this.currentSection === 'Chemistry') {
+    return this.numbers.slice(50, 100); // 51–100
+  }
+  return [];
+}
 
   getStatus(index: number): string {
     const question = this.snapshot.get(index);
@@ -52,7 +62,6 @@ export class Navigator {
     }
 
   }
-
 
   navigateTo(index: number): void {
     // Implement your navigation logic here

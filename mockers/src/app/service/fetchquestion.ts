@@ -1,6 +1,10 @@
 import { Injectable } from '@angular/core';
 import { QuestionModel } from '../models/question.model'; // Adjust the import path as necessary
-import sampleQuestions from '../static-data/sample-questions.json';
+import sampleQuestions from '../../assets/static-data/sample-questions.json';
+import { Subject } from 'rxjs';
+import { QuestionObj } from '../models/question.model';
+import { OptionObj } from '../models/question.model';
+
 
 export enum QuestionStatus {
   NotVisited = 'NotVisited',
@@ -41,7 +45,7 @@ export class Fetchquestion {
 
     const questionModel: QuestionModel = {
       id: question.id,
-      text: question.text,
+      question : question.question,
       options: question.options,
       selectedOption: -1,
       IsVisited: true,
