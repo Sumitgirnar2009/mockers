@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>MHT CET Mocker — Home</title>
+
+    <!-- Bootstrap 4 CSS (CDN) -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+   
+  </head>
+  <body>
+    <!-- Header -->
+    <app-navbar></app-navbar>
+
+    <main role="main">
+
+    <app-carousel></app-carousel>
+      <!-- Carousel -->
+      
+
+      <!-- Marketing messaging and featurettes -->
+      <div class="container marketing">
+        <!-- Three columns -->
+        <!-- Featurette Section -->
+        <!-- <div class="container marketing my-5">
+          <div class="row">
+            <div class="col-lg-4 text-center">
+              <img
+                class="rounded-circle shadow-sm mb-3"
+                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=280&q=80"
+                alt="Performance"
+                width="140"
+                height="140"
+              />
+              <h3 class="fw-bold">Performance</h3>
+              <p class="text-muted">
+                Insightful reports with actionable tips and revision plans
+                tailored to your weak areas.
+              </p>
+              <a
+                class="btn btn-outline-primary btn-sm px-3"
+                href="#"
+                role="button"
+              >
+                View Reports »
+              </a>
+            </div> -->
+
+        <!-- <div class="col-lg-4 text-center">
+              <img
+                class="rounded-circle shadow-sm mb-3"
+                src="https://images.unsplash.com/photo-1523307730659-0a5a1b7b6c94?auto=format&fit=crop&w=280&q=80"
+                alt="Leaderboard"
+                width="140"
+                height="140"
+              />
+              <h3 class="fw-bold">Leaderboard</h3>
+              <p class="text-muted">
+                Timed contests and rank comparisons help you benchmark
+                performance against peers.
+              </p>
+              <a
+                class="btn btn-outline-success btn-sm px-3"
+                href="#"
+                role="button"
+              >
+                Leaderboard »
+              </a>
+            </div>
+
+            <div class="col-lg-4 text-center">
+              <img
+                class="rounded-circle shadow-sm mb-3"
+                src="https://images.unsplash.com/photo-1522204582562-09d3d2e09b3e?auto=format&fit=crop&w=280&q=80"
+                alt="Resources"
+                width="140"
+                height="140"
+              />
+              <h3 class="fw-bold">Resources</h3>
+              <p class="text-muted">
+                Curated study material, formulas, and quick guides to help you
+                prepare better.
+              </p>
+              <a
+                class="btn btn-outline-warning btn-sm px-3"
+                href="#"
+                role="button"
+              >
+                Explore »
+              </a>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- FEATURETTES -->
+        <!-- Mock Tests Featurette -->
+        <hr class="featurette-divider" />
+
+        <!-- Mock Tests Section -->
+        <section class="mock-test-section">
+          <div class="container">
+            <h2 class="section-title">Mock Tests</h2>
+
+            <div class="mock-test-list">
+              <!-- First test (free) -->
+              <div class="mock-test-item free">
+                <h3>Mock Test 1</h3>
+                <p>Try this free mock test to start your preparation!</p>
+<button class="start-btn" [routerLink]="['quiz']">Start Test</button>
+              </div>
+
+              <!-- Locked tests -->
+              <div class="mock-test-item locked">
+                <h3>Mock Test 2</h3>
+                <p>Unlock to access this test.</p>
+                <button class="unlock-btn">
+                  <i class="fas fa-lock"></i> Unlock
+                </button>
+              </div>
+
+              <div class="mock-test-item locked">
+                <h3>Mock Test 3</h3>
+                <p>Unlock to access this test.</p>
+                <button class="unlock-btn">
+                  <i class="fas fa-lock"></i> Unlock
+                </button>
+              </div>
+              <!-- More tests link -->
+              <div class="mock-test-item more-tests">
+                <button class="more-btn">See More Tests</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <hr class="featurette-divider" />
+
+        <!-- Mock Test Features Section -->
+        <section class="mocktest-featurettes py-5 bg-light">
+          <div class="container">
+            <h2 class="text-center mb-5">Mock Test Features</h2>
+
+            <div class="row g-4 justify-content-center">
+              <!-- Feature 1: Actual Exam Alike -->
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 text-center shadow-sm p-3">
+                  <div class="icon mb-3">
+                    <i class="fas fa-pencil-alt fa-3x text-success"></i>
+                  </div>
+                  <div class="card-body p-2">
+                    <h5 class="card-title">Actual Exam Alike</h5>
+                    <p class="card-text">
+                      Experience tests just like the real exam with timed
+                      sections and exam-like interface.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Feature 2: Solution & Analysis -->
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 text-center shadow-sm p-3">
+                  <div class="icon mb-3">
+                    <i class="fas fa-lightbulb fa-3x text-warning"></i>
+                  </div>
+                  <div class="card-body p-2">
+                    <h5 class="card-title">Solution & Analysis</h5>
+                    <p class="card-text">
+                      Detailed solutions and explanations for every question
+                      help you understand mistakes and improve faster.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Feature 3: Performance Review -->
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 text-center shadow-sm p-3">
+                  <div class="icon mb-3">
+                    <i class="fas fa-chart-line fa-3x text-primary"></i>
+                  </div>
+                  <div class="card-body p-2">
+                    <h5 class="card-title">Performance Review</h5>
+                    <p class="card-text">
+                      Get a detailed analysis of your strengths, weaknesses, and
+                      areas to improve.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Feature 4: Leaderboard -->
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                <div class="card h-100 text-center shadow-sm p-3">
+                  <div class="icon mb-3">
+                    <i class="fas fa-trophy fa-3x text-danger"></i>
+                  </div>
+                  <div class="card-body p-2">
+                    <h5 class="card-title">Leaderboard</h5>
+                    <p class="card-text">
+                      Compete with peers and see where you stand with our
+                      test-wise leaderboard.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Include Font Awesome CDN -->
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+              MHT Common Entrance Test Highlights
+            </h2>
+            <p class="lead">
+              Every piece of information related to the MHT CET that can be
+              beneficial for your preparation is mentioned below in a clear
+              tabular format.
+            </p>
+
+            <table class="table table-bordered table-striped">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">ASPECT</th>
+                  <th scope="col">DETAILS</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Examination Name</td>
+                  <td>Maharashtra Health and Technical Common Entrance Test</td>
+                </tr>
+                <tr>
+                  <td>Exam Regulating Authority</td>
+                  <td>Maharashtra State Common Entrance Test Cell</td>
+                </tr>
+                <tr>
+                  <td>Frequency of the Exam</td>
+                  <td>Annual: once a year</td>
+                </tr>
+                <tr>
+                  <td>Examination Mode</td>
+                  <td>Online: Computer-based test</td>
+                </tr>
+                <tr>
+                  <td>Number of Sections</td>
+                  <td>
+                    Two<br />
+                    • Section 1: Physics and Chemistry<br />
+                    • Section 2: Maths or Biology
+                  </td>
+                </tr>
+                <tr>
+                  <td>Type of Questions and Total Number</td>
+                  <td>
+                    150 multiple-choice questions (50 questions for each
+                    subject)
+                  </td>
+                </tr>
+                <tr>
+                  <td>Duration of the Exam</td>
+                  <td>3 hours</td>
+                </tr>
+                <tr>
+                  <td>Official Website</td>
+                  <td>
+                    <a href="https://cetcell.mahacet.org/" target="_blank"
+                      >https://cetcell.mahacet.org/</a
+                    >
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div
+            class="col-md-5 d-flex align-items-center justify-content-center"
+          >
+            <img
+              class="featurette-image mx-auto"
+              src="https://mocktest.mahacet.org/Images/WebsiteLogo.png"
+              alt="MHT CET Logo"
+              style="
+                max-width: 220px;
+                height: auto;
+                padding: 10px;
+                background: #fff;
+                border-radius: 12px;
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+              "
+            />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+              MHT CET Mock Test.
+              <span class="text-muted">Practice smarter, not harder.</span>
+            </h2>
+            <p class="lead">
+              To deal with doubts and confusion during exam preparation, Mockers
+              subject experts have curated the
+              <strong>MHT CET Mock Test</strong> in an online MCQ format with
+              detailed solutions. These step-wise explanations help you
+              understand the intent of each question and the best techniques to
+              solve them.
+            </p>
+            <p class="lead">
+              Thousands of aspirants already use the Mockers MHT CET Mock Test
+              to make their preparation easier. Now it’s your turn to level up
+              your exam journey by practising for free.
+            </p>
+            <ul class="lead">
+              <li>
+                <strong>Practice Numerous Problems:</strong> Cover questions
+                aligned with the actual syllabus.
+              </li>
+              <li>
+                <strong>Master Time Management:</strong> Live timers improve
+                speed and pacing for the real exam.
+              </li>
+              <li>
+                <strong>Understand CBT Mode:</strong> Familiarize yourself with
+                the Computer-Based Test interface.
+              </li>
+              <li>
+                <strong>Get Analysis Reports:</strong> Discover your strengths
+                and weaknesses to fine-tune preparation.
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-5">
+            <img
+              class="featurette-image img-fluid mx-auto"
+              src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=500&q=80"
+              alt="MHT CET mock test preparation"
+            />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+              Scheme of Examination for MHT CET
+            </h2>
+            <p class="lead">
+              The details of the examination scheme related to the MHT CET are
+              mentioned below for your reference.
+            </p>
+            <ul class="lead">
+              <li>
+                The MHT CET is conducted online (Computer Based Test) for
+                Physics, Chemistry, Mathematics, and Biology at various centers
+                across the state and outside Maharashtra.
+              </li>
+              <li>
+                You may appear in one or both examinations. Once selected, the
+                choice of exam cannot be changed.
+              </li>
+              <li>
+                Questions are based on the syllabus prescribed by the State
+                Council of Educational Research and Training Maharashtra.
+              </li>
+              <li>
+                No negative marking. The difficulty level is similar to JEE
+                Mains and NEET, with application-based questions.
+              </li>
+              <li>
+                The exam includes <strong>3 question papers</strong> of
+                multiple-choice questions, each paper carrying
+                <strong>100 marks</strong>.
+              </li>
+            </ul>
+
+            <table class="table table-bordered table-striped mt-3">
+              <thead class="thead-dark">
+                <tr>
+                  <th>Paper</th>
+                  <th>Subject</th>
+                  <th>No. of Questions (Std. XI + Std. XII)</th>
+                  <th>Marks per Question</th>
+                  <th>Total Marks</th>
+                  <th>Duration</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>I</td>
+                  <td>Mathematics</td>
+                  <td>10 + 40</td>
+                  <td>2</td>
+                  <td>100</td>
+                  <td>90 min</td>
+                </tr>
+                <tr>
+                  <td>II</td>
+                  <td>Physics</td>
+                  <td>10 + 40</td>
+                  <td>1</td>
+                  <td>100</td>
+                  <td>90 min</td>
+                </tr>
+                <tr>
+                  <td>II</td>
+                  <td>Chemistry</td>
+                  <td>10 + 40</td>
+                  <td>1</td>
+                  <td>100</td>
+                  <td>90 min</td>
+                </tr>
+                <tr>
+                  <td>III</td>
+                  <td>Biology</td>
+                  <td>20 + 80</td>
+                  <td>1</td>
+                  <td>100</td>
+                  <td>90 min</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <p class="lead">
+              The exam medium is English, Marathi, and Urdu for Physics,
+              Chemistry, and Biology. For Mathematics, the medium is English
+              only. Exam centers are available across Maharashtra and selected
+              neighboring states.
+            </p>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">
+              Time Management Tools.
+              <span class="text-muted">Simulate real exam pressure.</span>
+            </h2>
+            <p class="lead">
+              Timed sections, smart timers and review flags help you master
+              pacing and avoid last-minute panic.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img
+              class="featurette-image img-fluid mx-auto"
+              src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=500&q=80"
+              alt="Time management"
+            />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+        <!-- /END THE FEATURETTES -->
+      </div>
+      <!-- /.container -->
+
+      <!-- FOOTER -->
+      <footer class="container mt-5 mb-5">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>
+          © 2025 MHT CET Mocker · <a href="#">Privacy</a> ·
+          <a href="#">Terms</a>
+        </p>
+      </footer>
+    </main>
+
+    <!-- JS scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    <!-- Optional: pause carousel when user interacts -->
+    <script>
+      // Pause on hover (useful on touch devices too)
+      $("#myCarousel").carousel({ pause: "hover" });
+    </script>
+  </body>
+</html>
+
+
+

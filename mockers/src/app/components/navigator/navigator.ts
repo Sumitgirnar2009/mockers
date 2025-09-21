@@ -16,14 +16,40 @@ export class Navigator {
  @Output() navigateQuestion = new EventEmitter<number>();
  @Input() currentSection!: String;
 
- snapshot: ReadonlyMap<number, QuestionModel>;
+snapshot: ReadonlyMap<number, QuestionModel> = new Map();
+//  snapshot: ReadonlyMap<number, QuestionModel>;
  
-  constructor(private fetchQuestionService: Fetchquestion) {
-    // Create an array from 0 to 99 (100 elements)
-    this.numbers = Array.from({ length: 100 }, (_, k) => k + 1);
-    this.snapshot = this.fetchQuestionService.getQuestionStateSnapshot();
+//   constructor(private fetchQuestionService: Fetchquestion) {
+//     // Create an array from 0 to 99 (100 elements)
+//     this.numbers = Array.from({ length: 100 }, (_, k) => k + 1);
+//     this.snapshot = this.fetchQuestionService.getQuestionStateSnapshot();
+//   }
 
-  }
+
+constructor(private fetchQuestionService: Fetchquestion) {
+  // Create an array from 1 to 100 (question numbers)
+  this.numbers = Array.from({ length: 100 }, (_, k) => k + 1);
+
+  // Initialize snapshot map
+  const tempMap = new Map<number, QuestionModel>();
+
+  // Fetch snapshot for each question (example using attemptId)
+  const attemptId = 'f4fdac68-e519-4a7a-9c08-28f802b4b5fb';
+  this.numbers.forEach((questionNumber) => {
+    this.fetchQuestionService.getSnapshotFromApi(attemptId, questionNumber).subscribe({
+      next: (res) => {
+        if (res.status === 200 && res.body) {
+          tempMap.set(questionNumber, res.body);
+        } 
+
+        // Update readonly snapshot reference
+        this.snapshot = tempMap;
+      },
+      error: (err) => console.error(`Error fetching snapshot for question ${questionNumber}:`, err)
+    });
+  });
+}
+
 
   getBoxClass(status: string): string {
     switch (status) {

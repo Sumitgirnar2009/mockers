@@ -1,12 +1,16 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterModule, RouterOutlet } from '@angular/router';
 import { Quiz } from "./components/quiz/quiz";
+import { Homepage } from "./components/home/homepage/homepage";
+
+
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Quiz],
+  standalone: true,
+  imports: [RouterLink,RouterOutlet, RouterModule, Homepage],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrls: ['./app.css']
 })
 export class App {
   protected readonly title = signal('mockers');

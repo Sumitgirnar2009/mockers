@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Professional Test UI</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       crossorigin="anonymous"
     />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
-
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
 
     <style>
       /* Global Styling */
@@ -37,18 +47,18 @@
       }
 
       /* Make the navbar feel like a modern dashboard */
-.navbar-brand {
-  font-size: 1.25rem;
-  letter-spacing: 0.5px;
-}
+      .navbar-brand {
+        font-size: 1.25rem;
+        letter-spacing: 0.5px;
+      }
 
-.timer-box {
-  font-size: 0.9rem;
-}
+      .timer-box {
+        font-size: 0.9rem;
+      }
 
-.dropdown-menu {
-  border-radius: 0.75rem;
-}
+      .dropdown-menu {
+        border-radius: 0.75rem;
+      }
 
       .timer-box {
         background: #fff;
@@ -79,45 +89,55 @@
 
   <body>
     <!-- Navbar with User Info -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm p-2">
-  <div class="container-fluid">
-    <!-- Brand -->
-    <a class="navbar-brand fw-bold text-primary" href="#">
-      <i class="bi bi-journal-text me-2"></i> Test Portal
-    </a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm p-2">
+      <div class="container-fluid">
+        <!-- Brand -->
+        <a class="navbar-brand fw-bold text-primary" href="#">
+          <i class="bi bi-journal-text me-2"></i> Test Portal {{ attemptId() }}
+        </a>
 
-    <!-- Timer (always visible) -->
-    <div class="order-lg-2 mx-auto">
-      <div class="timer-box px-3 py-1 bg-light rounded-pill border small fw-semibold text-dark">
-        <app-timer></app-timer>
+        <!-- Timer (always visible) -->
+        <div class="order-lg-2 mx-auto">
+          <div
+            class="timer-box px-3 py-1 bg-light rounded-pill border small fw-semibold text-dark"
+          >
+            <app-timer></app-timer>
+          </div>
+        </div>
+
+        <!-- Toggler for mobile -->
+        <button
+          class="navbar-toggler ms-auto"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarContent"
+          aria-controls="navbarContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Right side -->
+        <div class="collapse navbar-collapse order-lg-3" id="navbarContent">
+          <div
+            class="d-flex align-items-center ms-lg-auto flex-column flex-lg-row gap-3 mt-3 mt-lg-0"
+          >
+          
+            <!-- Direct links -->
+          <a class="nav-link text-dark fw-semibold" href="#">
+        <!-- <i class="bi bi-person"></i> {{ (userData$ | async)?.userData?.username || 'Guest' }} -->
+        <i class="bi bi-person"></i>  'Guest' 
+
+</a>
+            <a class="nav-link text-dark fw-semibold" href="#">
+              <i class="bi bi-gear"></i> Settings
+            </a>
+
+          </div>
+        </div>
       </div>
-    </div>
-
-    <!-- Toggler for mobile -->
-    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
-      aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <!-- Right side -->
-    <div class="collapse navbar-collapse order-lg-3" id="navbarContent">
-      <div class="d-flex align-items-center ms-lg-auto flex-column flex-lg-row gap-3 mt-3 mt-lg-0">
-
-        <!-- Direct links -->
-        <a class="nav-link text-dark fw-semibold" href="#">
-          <i class="bi bi-person"></i> Profile
-        </a>
-        <a class="nav-link text-dark fw-semibold" href="#">
-          <i class="bi bi-gear"></i> Settings
-        </a>
-        <a class="nav-link text-danger fw-semibold" href="#">
-          <i class="bi bi-box-arrow-right"></i> Logout
-        </a>
-      </div>
-    </div>
-  </div>
-</nav>
-
+    </nav>
 
     <!-- Page Content -->
     <div class="container-fluid p-3">
@@ -134,7 +154,8 @@
         <div class="col-12 col-lg-8">
           <div class="card-custom">
             <app-questions
-              [currentQuestion]="currentQuestion"
+              [currentQuestionModel]="currentQuestionModel"
+              [currentQuestionData]="currentQuestionData"
               (saveStatusAndNext)="handleNextQuestion($event)"
               (saveStatusAndPrev)="handlePreviousQuestion($event)"
             >
@@ -143,9 +164,12 @@
         </div>
 
         <!-- Right Sidebar -->
-        <div class="col-12 col-lg-4">
+        <!-- <div class="col-12 col-lg-4">
           <div class="card-custom">
-            <app-legend class="w-100 mb-3"></app-legend>
+            <app-legend
+              [currentSection]="currentSection"
+              class="w-100 mb-3"
+            ></app-legend>
             <app-navigator
               [currentSection]="currentSection"
               (navigateQuestion)="handleNavigateQuestion($event)"
@@ -158,7 +182,7 @@
               Submit
             </button>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
 
@@ -172,7 +196,9 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
       rel="stylesheet"
     />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

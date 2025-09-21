@@ -1,0 +1,107 @@
+<header>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-custom">
+    <!-- Logo + Brand -->
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img
+        src="https://mocktest.mahacet.org/Images/WebsiteLogo.png"
+        alt="MHT CET Logo"
+        style="height: 40px; margin-right: 10px"
+      />
+      <span class="brand-text">MHT CET Mocker</span>
+    </a>
+
+    <!-- Toggler for mobile -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarCollapse"
+      aria-controls="navbarCollapse"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu -->
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Mock Tests</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Leaderboard</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Resources</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+      </ul>
+
+      <!-- Right Side: Sign In / Register -->
+      <div class="auth-buttons">
+
+         <a (click)="login()" class="btn btn-register">
+          <i class="fas fa-user-plus"></i> Log in
+        </a>
+        <a (click)="login()" class="btn btn-register">
+          <i class="fas fa-user-plus"></i> Log in
+        </a>
+        <a
+          href="https://ap-south-18nwzrk7h3.auth.ap-south-1.amazoncognito.com/signup?client_id=99k2hi7sg439ftqdp3imf3ru&response_type=code&scope=email+openid+phone&redirect_uri=http%3A%2F%2Flocalhost%3A4200%2F"
+          class="btn btn-register"
+        >
+          <i class="fas fa-user-plus"></i> Register
+        </a>
+
+        <a (click)="logout()" class="btn btn-register">
+          <i class="fas fa-user-plus"></i> Log Out
+        </a>
+        <!-- Profile Dropdown -->
+        <div class="dropdown">
+          <a
+            href="#"
+            class="btn btn-register dropdown-toggle"
+            id="profileDropdown"
+            role="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <!-- Navbar profile section -->
+            <span *ngIf="isAuthenticated()">
+              <i class="fas fa-user-circle"></i> Profile {{ user()?.username }}
+            </span>
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end shadow-sm"
+            aria-labelledby="profileDropdown"
+          >
+            <li>
+              <a class="dropdown-item" href="#">
+                <i class="fas fa-id-card me-2"></i> User Details
+              </a>
+            </li>
+            <li>
+              <a
+                class="dropdown-item"
+                href="https://ap-south-18nwzrk7h3.auth.ap-south-1.amazoncognito.com/forgotPassword?client_id=99k2hi7sg439ftqdp3imf3ru&response_type=code&scope=email+openid+phone&redirect_uri=http%3A%2F%2Flocalhost%3A4200%2F"
+              >
+                <i class="fas fa-unlock-alt me-2"></i> Forgot Password
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">
+                <i class="fas fa-question-circle me-2"></i> Forgot Username
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>

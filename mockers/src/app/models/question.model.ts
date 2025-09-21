@@ -2,14 +2,20 @@ import { QuestionStatus } from '../service/fetchquestion';
 
 
 export interface QuestionModel {
+  attemptId?: string;
   id: number;
-  question: QuestionObj;   
-  options: OptionObj[];
   selectedOption?: number;
   IsVisited: boolean;
   IsMarkedForReview: boolean;
   IsAnswered: boolean;
   IsSaved?: boolean;
+}
+
+export interface QuestionData {
+  quizId : string;
+  id: number;
+  question: QuestionObj;   
+  options: OptionObj[];
 }
 
 export interface QuestionObj {

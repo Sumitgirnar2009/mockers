@@ -1,14 +1,14 @@
-<div *ngIf="currentQuestion">
-  <h5>Question No. {{ currentQuestion.id | mod:50 }}</h5>
+<div *ngIf="currentQuestionData">
+  <h5>Question No. {{ currentQuestionData.id | mod:50 }}</h5>
 
-  <p class="fw-semibold">{{ currentQuestion.question.text }}</p>
+  <p class="fw-semibold">{{ currentQuestionData.question.text }}</p>
   
   <!-- Question image -->
-  <div *ngIf="currentQuestion.question.image" 
+  <div *ngIf="currentQuestionData.question.image" 
        class="mb-2" 
        style="width: 100%; background-color: white; display: inline-block;">
     <img 
-      [src]="currentQuestion.question.image" 
+      [src]="currentQuestionData.question.image" 
       alt="Question Image" 
       class="img-fluid rounded" 
       style="max-height: 250px; object-fit: contain; display: block;" />
@@ -16,7 +16,7 @@
 
   <div class="list-group">
     <label
-      *ngFor="let option of currentQuestion.options; let i = index"
+      *ngFor="let option of currentQuestionData.options; let i = index"
       class="list-group-item d-flex flex-column align-items-start"
       style="background-color: white;"
     >
@@ -26,9 +26,9 @@
           name="option"
           class="form-check-input me-2"
           [value]="i"
-          [checked]="currentQuestion.selectedOption === i"
-          (change)="currentQuestion.selectedOption = i"
-          [class.red-checkbox]="currentQuestion.selectedOption === i"
+          [checked]="currentQuestionModel.selectedOption === i"
+          (change)="currentQuestionModel.selectedOption = i"
+          [class.red-checkbox]="currentQuestionModel.selectedOption === i"
         />
         <span>{{ option.text }}</span>
       </div>
@@ -57,7 +57,7 @@
   
   <!-- Clear Response -->
   <button class="btn btn-outline-danger d-flex align-items-center" 
-          (click)="currentQuestion.selectedOption = -1">
+          (click)="currentQuestionModel.selectedOption = -1">
     <i class="bi bi-eraser me-2"></i>
     <span>Clear</span>
   </button>
