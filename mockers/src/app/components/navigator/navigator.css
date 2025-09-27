@@ -6,106 +6,86 @@
   align-items: center;
   justify-content: center;
   font-weight: 500;
-  border-radius: 8px;
+  border-radius: 6px;
   cursor: pointer;
-  background: #f1f1f1;
-  transition: transform 0.2s ease;
+  background: #E0E0E0; /* default Not Visited */
+  color: #343a40;
+  border: 1px solid #BDBDBD;
+  transition: all 0.2s ease;
 }
 
-
-
-/* On tablets (≤ 768px) → slightly smaller */
-@media (max-width: 768px) {
-  .box {
-    width: 50px;
-    height: 50px;
-    font-size: 14px;
-  }
+/* Hover */
+.box:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
 }
 
-/* On mobile (≤ 576px) → even smaller */
-@media (max-width: 576px) {
-  .box {
-    width: 40px;
-    height: 40px;
-    font-size: 12px;
-  }
-
-  .question-grid {
-    gap: 6px; /* reduce spacing */
-  }
-}
-
-/* Box 1: Gray square */
+/* Not visited */
 .box-1 {
-  background-color: #dcdcdc;
-  color: #333;
-  border: 2px solid #aaa;
-  border-radius: 4px;
+  background-color: #E0E0E0;
+  color: #495057;
+  border: 1px solid #BDBDBD;
 }
 
-
-/* Box 3: Darker Red polygon */
+/* Not Answered / Current */
 .box-2 {
-  background: linear-gradient(to bottom, #ff7043, #b71c1c); /* orange → dark red */
-  clip-path: polygon(50% 0%, 100% 35%, 80% 100%, 20% 100%, 0% 35%);
-  border: 2px solid #7f0000; /* very dark red border */
-  color: white;
-  font-weight: bold;
-  text-align: center;
+  background-color: #E57373; /* softer red */
+  border: 1px solid #D32F2F; /* slightly darker soft red */
+  color: #fff;
+  font-weight: 600;
 }
 
 
-/* Box 3: Pure Green polygon */
+/* Answered */
 .box-3 {
-    background: linear-gradient(to bottom, #a8e063, #56ab2f); /* light to dark green */
-  clip-path: polygon(50% 0%, 100% 30%, 100% 100%, 0% 100%, 0% 30%);
-  border: 2px solid #4caf50; /* green border */
-  color: white;
-  font-weight: bold;
-  text-align: center;
+  background-color: #8BC34A; /* green */
+  border: 1px solid #558B2F; /* darker green border */
+  color: #fff;
+  font-weight: 600;
 }
 
-/* Box 4 & 5: Pure Violet circles */
-.box-4,
-.box-5 {
-  background: linear-gradient(to bottom, #9d50bb, #6e48aa); /* violet gradient */
-  border-radius: 50%;
-  border: 2px solid #4a148c; /* deep purple border */
-  color: white;
-  font-weight: bold;
-  text-align: center;
+/* Marked for Review */
+.box-4 {
+  background-color: #673AB7; /* purple */
+  border: 1px solid #4527A0;
+  color: #fff;
+  font-weight: 600;
 }
 
-/* Box 5: With checkmark */
+/* Answered & Marked */
 .box-5 {
+  background-color: #5E35B1; /* darker violet */
+  border: 1px solid #311B92;
+  color: #fff;
+  font-weight: 600;
   position: relative;
 }
 
-/* Checkmark styling */
+/* Checkmark */
 .box-5::after {
   content: '✔';
   position: absolute;
-  bottom: -5px;
-  right: -5px;
-  background-color: #d4edda;
-  color: green;
-  font-size: clamp(8px, 1.5vw, 12px); /* responsive checkmark font */
-  width: 14px;
-  height: 14px;
+  bottom: -6px;
+  right: -6px;
+  background-color: #4CAF50; /* green checkmark */
+  color: white;
+  font-size: 11px;
+  width: 16px;
+  height: 16px;
   text-align: center;
   border-radius: 50%;
-  line-height: 14px;
+  line-height: 16px;
   font-weight: bold;
+  box-shadow: 0 0 4px rgba(0,0,0,0.25);
 }
 
-
+/* Current section header */
 .current-section {
-  background: linear-gradient(135deg, #6ea0ec, #6610f2); /* Professional gradient */
+  background: linear-gradient(135deg, #3949AB, #5E35B1); /* professional blue → violet gradient */
   font-size: 1.25rem;
   font-weight: 600;
   letter-spacing: 0.5px;
+  border-radius: 6px;
+  padding: 6px 12px;
+  color: white;
 }
-
-
-

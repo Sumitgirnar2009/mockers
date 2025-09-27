@@ -101,7 +101,8 @@
           <div
             class="timer-box px-3 py-1 bg-light rounded-pill border small fw-semibold text-dark"
           >
-            <app-timer></app-timer>
+             <app-timer
+            ></app-timer>
           </div>
         </div>
 
@@ -123,17 +124,14 @@
           <div
             class="d-flex align-items-center ms-lg-auto flex-column flex-lg-row gap-3 mt-3 mt-lg-0"
           >
-          
             <!-- Direct links -->
-          <a class="nav-link text-dark fw-semibold" href="#">
-        <!-- <i class="bi bi-person"></i> {{ (userData$ | async)?.userData?.username || 'Guest' }} -->
-        <i class="bi bi-person"></i>  'Guest' 
-
-</a>
+            <a class="nav-link text-dark fw-semibold" href="#">
+              <i class="bi bi-person"></i> {{ username ? username : "Guest" }}
+              <!-- <i class="bi bi-person"></i>  'Guest'  -->
+            </a>
             <a class="nav-link text-dark fw-semibold" href="#">
               <i class="bi bi-gear"></i> Settings
             </a>
-
           </div>
         </div>
       </div>
@@ -145,6 +143,9 @@
       <div class="card-custom">
         <app-section-tabs
           (currentSection)="handleCurrentSection($event)"
+          [attemptId]="attemptId()"
+          [attemptModel]="attemptModel()"
+          [quizId]="quizId"
         ></app-section-tabs>
       </div>
 
@@ -156,6 +157,7 @@
             <app-questions
               [currentQuestionModel]="currentQuestionModel"
               [currentQuestionData]="currentQuestionData"
+              [attemptId]="attemptId()"
               (saveStatusAndNext)="handleNextQuestion($event)"
               (saveStatusAndPrev)="handlePreviousQuestion($event)"
             >
@@ -164,15 +166,15 @@
         </div>
 
         <!-- Right Sidebar -->
-        <!-- <div class="col-12 col-lg-4">
+        <div class="col-12 col-lg-4">
           <div class="card-custom">
             <app-legend
               [currentSection]="currentSection"
               class="w-100 mb-3"
             ></app-legend>
             <app-navigator
-              [currentSection]="currentSection"
               (navigateQuestion)="handleNavigateQuestion($event)"
+              [currentSection]="currentSection"
               class="w-100 mb-3"
             >
             </app-navigator>
@@ -182,7 +184,7 @@
               Submit
             </button>
           </div>
-        </div> -->
+        </div>
       </div>
     </div>
 

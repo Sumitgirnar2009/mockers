@@ -1,7 +1,7 @@
-import { Injectable } from '@angular/core';
+import { Injectable, signal } from '@angular/core';
 import { QuestionModel } from '../models/question.model'; // Adjust the import path as necessary
 import sampleQuestions from '../../assets/static-data/sample-questions.json';
-import { catchError, map, Observable, of, Subject, switchMap, throwError } from 'rxjs';
+import { catchError, map, Observable, of, Subject, switchMap, tap, throwError } from 'rxjs';
 import { QuestionObj } from '../models/question.model';
 import { OptionObj } from '../models/question.model';
 import { QuestionData } from '../models/question.model';
@@ -40,13 +40,18 @@ export class Fetchquestion {
 
   res: { status: number; body: QuestionData | null } | null = null;
 
+  public questionMapSignal = signal<Map<number, QuestionData>>(new Map());
+
+
 
 
   constructor(private http: HttpClient, private oidcSecurityService: OidcSecurityService) { }
 
-  questionStateSnapshot: Map<number, QuestionModel> = new Map();
+  // questionStateSnapshot: Map<number, QuestionModel> = new Map();
+  public questionStateSnapshot = signal<Map<number, QuestionModel>>(new Map());
 
-  attemptId: string = 'f4fdac68-e519-4a7a-9c08-28f802b4b5fb';
+
+
 
   //  * Fetch a fresh ID Token from Cognito
   getApiToken(): Observable<string> {
@@ -60,222 +65,121 @@ export class Fetchquestion {
     )
   }
 
-  getQuestionStateSnapshot(): Map<number, QuestionModel> {
-    return this.questionStateSnapshot;
-  }
-
-  saveQuestionStateSnapshot(questionModel: QuestionModel, questionId: number) {
-    // Simulate saving question status in a database
-    console.log("Saving question state snapshot for question ID:", questionId, "with state:", questionModel)
-    this.questionStateSnapshot.set(questionId, questionModel);
-
-
-    // saveSnapshot(questionId, questionModel);
-  }
-
-  // fetchQuestion(questionNumber: number): { questionData: QuestionData; questionModel: QuestionModel } {
-
-  //   //fetch question first 
-  //   this.getQuestionFromApi('37a81c5d-6362-41e4-aaf3-9d925579f538', 1).subscribe({
-  //     next: (res) => {
-  //       console.log('API Status:', res.status);
-  //       console.log('Question Data:', res.body);
-  //     },
-  //     error: (err) => {
-  //       console.error('API Error:', err);
-  //     }
-  //   });
-
-  // //fetch question first by doing the api call
-
-  // //fetch snapshot here if it exists then return that snapshot 
-  // // if not present then create new snapshot with default values and return that snapshot
-  // //at last save the snapshot by doing the other api call to save the snapshot
-
-  //   // const currQuestionModel = this.getSnapshotFromApi(this.attemptId, questionNumber);
-
-
-  //   this.getSnapshotFromApi('f4fdac68-e519-4a7a-9c08-28f802b4b5fb', 5).subscribe({
-  //     next: (res) => {
-  //       console.log('API Status:', res.status);
-  //       console.log('Snapshot:', res.body);
-
-  //       if (res.status == 200 && res.body) {
-
-  //       }
-
-  //     },
-  //     error: (err) => {
-  //       console.error('Error fetching snapshot:', err);
-  //     }
-  //   });
-
-
-
-  //   const cachedQuestion = this.questionStateSnapshot.get(questionNumber);
-
-
-  //   if (currQuestionModel !== undefined) {
-  //     // console.log("Fetching from cache for question number:", questionNumber);
-
-  //     // return {
-  //     //   questionData: { "quizId": "37a81c5d-6362-41e4-aaf3-9d925579f538", "id": 3, "question": { "text": "A force of 10 N is applied to move an object 5 m. How much work is done?", "image": "NA" }, "options": [{ "text": "25 J", "image": "NA" }, { "text": "50 J", "image": "NA" }, { "text": "75 J", "image": "NA" }, { "text": "100 J", "image": "NA" }] },
-  //     //   questionModel: cachedQuestion
-  //     // };
-
-
-
-  //   }
-
-
-  //   else {
-
-  //     console.log("Fetching from api for question number:", questionNumber);
-
-
-  //     const questionModel: QuestionModel = {
-  //       attemptId: "f4fdac68-e519-4a7a-9c08-28f802b4b5fb",
-  //       id: questionNumber,
-  //       selectedOption: -1,
-  //       IsVisited: true,
-  //       IsMarkedForReview: false,
-  //       IsAnswered: false,
-  //       IsSaved: false,
-  //     };
-
-
-
-
-  //     this.saveQuestionStateSnapshot(questionModel, questionNumber);
-  //     return {
-  //       questionData: res.body,
-  //       questionModel: questionModel
-  //     };
-
-
-
-  //   }
-
-  // }
 
   fetchQuestion(
-    questionNumber: number
+    questionNumber: number,
+    attemptId : string
   ): Observable<{ questionData: QuestionData | null; questionModel: QuestionModel }> {
-    console.log("Fetching from API for question number:", questionNumber);
+    console.log("Fetching locally for question number:", questionNumber);
 
-    // 1. Fetch Question
-    return this.getQuestionFromApi('37a81c5d-6362-41e4-aaf3-9d925579f538', questionNumber).pipe(
-      switchMap((questionRes) => {
-        console.log('Question API Status:', questionRes.status);
-        console.log('Question Data:', questionRes.body);
+    const questionData = this.questionMapSignal().get(questionNumber) || null;
+    console.log("Question Data from local cache:", questionData);
 
-        const questionData = questionRes.body;
+    // Get snapshot from map, or create a new one if missing
+    const questionModelFromMap = this.questionStateSnapshot().get(questionNumber);
+    const questionModel: QuestionModel = questionModelFromMap ?? {
+      attemptId: attemptId,
+      questionId: questionNumber,
+      selectedOption: -1,
+      IsVisited: true,
+      IsMarkedForReview: false,
+      IsAnswered: false,
+      IsSaved: false,
+    };
 
-        // 2. Fetch Snapshot
-        console.log("Fetching snapshot for question number:", questionNumber);
-        return this.getSnapshotFromApi('f4fdac68-e519-4a7a-9c08-28f802b4b5fb', questionNumber).pipe(
-          map((snapshotRes) => {
-            console.log('Snapshot API Status:', snapshotRes.status);
-            console.log('Snapshot Data:', snapshotRes.body);
+    // If it was missing, save to backend
+    if (!questionModelFromMap) {
+      console.log("Creating new snapshot locally", questionModel);
+      return this.saveQuestionStateSnapshotToDB(questionModel, questionNumber).pipe(
+        map(() => ({ questionData, questionModel }))
+      );
+    }
 
-            return {
-              questionData,
-              questionModel: snapshotRes.body!
-            };
-          }),
-          catchError((err: HttpErrorResponse) => {
-            if (err.status === 404) {
-              // ✅ Snapshot not found → create new one
-              const questionModel: QuestionModel = {
-                attemptId: "f4fdac68-e519-4a7a-9c08-28f802b4b5fb",
-                id: questionNumber,
-                selectedOption: -1,
-                IsVisited: true,
-                IsMarkedForReview: false,
-                IsAnswered: false,
-                IsSaved: false,
-              };
-
-              console.log("Snapshot 404 → creating new one", questionModel);
-
-              // ✅ Save snapshot and then return it
-              return this.saveQuestionStateSnapshotToDB(questionModel, questionNumber).pipe(
-                map(() => ({
-                  questionData,
-                  questionModel
-                })),
-                catchError((saveErr) => {
-                  console.error("Snapshot save failed", saveErr);
-                  // fallback: still return model so UI doesn’t break
-                  return of({ questionData, questionModel });
-                })
-              );
-            }
-
-            // ❌ For any other error → rethrow
-            console.error("Snapshot fetch failed", err);
-            return throwError(() => err);
-          })
-        );
-      })
-    );
+    // Otherwise, return existing snapshot
+    console.log("Before return", questionData, questionModel);
+    return of({ questionData, questionModel });
   }
 
 
+  // getQuestionFromApi(
+  //   quizId: string,
+  //   questionId: number
+  // ): Observable<{ status: number; body: QuestionData | null }> {
+  //   return this.getApiToken().pipe(
+  //     switchMap((token: string) => {
+  //       const headers = new HttpHeaders({
+  //         Authorization: `Bearer ${token}`
+  //       });
 
-  getQuestionFromApi(
-    quizId: string,
-    questionId: number
-  ): Observable<{ status: number; body: QuestionData | null }> {
+  //       return this.http.get<QuestionData>(
+  //         `${this.getQuestionApiUrl}?quizId=${quizId}&questionId=${questionId}`,
+  //         {
+  //           headers,
+  //           observe: 'response'
+  //         }
+  //       );
+  //     }),
+  //     map((response: HttpResponse<QuestionData>) => {
+  //       return {
+  //         status: response.status,
+  //         body: response.body ?? null
+  //       };
+  //     })
+  //   );
+  // }
+
+
+  /** Load all questions and initialize signal */
+  loadAllQuestionsToCache(quizId: string): Observable<void> {
     return this.getApiToken().pipe(
-      switchMap((token: string) => {
-        const headers = new HttpHeaders({
-          Authorization: `Bearer ${token}`
-        });
-
-        return this.http.get<QuestionData>(
-          `${this.getQuestionApiUrl}?quizId=${quizId}&questionId=${questionId}`,
-          {
-            headers,
-            observe: 'response'
-          }
+      switchMap((token) => {
+        const headers = new HttpHeaders({ Authorization: `Bearer ${token}` });
+        return this.http.get<QuestionData[]>(
+          `${this.getQuestionApiUrl}?quizId=${quizId}&questionId=ALL`,
+          { headers }
         );
       }),
-      map((response: HttpResponse<QuestionData>) => {
-        return {
-          status: response.status,
-          body: response.body ?? null
-        };
+      map((questions: QuestionData[]) => {
+        const map = new Map<number, QuestionData>();
+        questions.forEach(q => map.set(Number(q.id), q));
+        this.questionMapSignal.set(map); // initialize signal
       })
     );
   }
 
-  getSnapshotFromApi(
-    attemptId: string,
-    questionId: number
-  ): Observable<{ status: number; body: QuestionModel | null }> {
-    return this.getApiToken().pipe(
-      switchMap((token: string) => {
-        const headers = new HttpHeaders({
-          Authorization: `Bearer ${token}`
-        });
-
-        return this.http.get<QuestionModel>(
-          `${this.getSnapshotApiUrl}?attemptid=${attemptId}&questionId=${questionId}`,
-          {
-            headers,
-            observe: 'response' // ✅ get full HTTP response
-          }
-        );
-      }),
-      map((response: HttpResponse<QuestionModel>) => {
-        return {
-          status: response.status,
-          body: response.body ?? null
-        };
-      })
-    );
+  /** Get a specific question (signal value) */
+  getQuestionfromCache(questionId: number): QuestionData | undefined {
+    return this.questionMapSignal().get(questionId); // use get() instead of []
   }
+
+
+  // getSnapshotFromApi(
+  //   attemptId: string,
+  //   questionId: number
+  // ): Observable<{ status: number; body: QuestionModel | null }> {
+  //   return this.getApiToken().pipe(
+  //     switchMap((token: string) => {
+  //       const headers = new HttpHeaders({
+  //         Authorization: `Bearer ${token}`
+  //       });
+
+  //       return this.http.get<QuestionModel>(
+  //         `${this.getSnapshotApiUrl}?attemptid=${attemptId}&questionId=${questionId}`,
+  //         {
+  //           headers,
+  //           observe: 'response' // ✅ get full HTTP response
+  //         }
+  //       );
+  //     }),
+  //     map((response: HttpResponse<QuestionModel>) => {
+  //       return {
+  //         status: response.status,
+  //         body: response.body ?? null
+  //       };
+  //     })
+  //   );
+  // }
+
 
   saveQuestionStateSnapshotToDB(
     questionModel: QuestionModel,
@@ -300,19 +204,55 @@ export class Fetchquestion {
           IsSaved: questionModel.IsSaved,
         };
 
-
-
         return this.http.post<any>(
-          this.getSnapshotApiUrl,  // ✅ payload in request body
+          this.getSnapshotApiUrl,
           payload,
           { headers, observe: 'response' }
         );
       }),
-      map((response: HttpResponse<any>) => ({
-        status: response.status,
-        body: response.body ?? null
-      }))
+      map((response: HttpResponse<any>) => {
+        // ✅ Update only this question in local cache
+        const updated = new Map(this.questionStateSnapshot());
+        updated.set(questionNumber, questionModel);
+        this.questionStateSnapshot.set(updated);
+
+        return {
+          status: response.status,
+          body: response.body ?? null
+        };
+      })
     );
   }
+
+
+
+  getAllSnapshotFromCache(): Map<number, QuestionModel> {
+    console.log("Question State snapshot", this.questionStateSnapshot());
+    return this.questionStateSnapshot();
+  }
+
+
+  /** Load all snapshots for an attemptId and populate signal Map */
+  loadAllSnapshotsToCache(attemptId: string): Observable<void> {
+    return this.getApiToken().pipe(
+      switchMap((token: string) => {
+        const headers = new HttpHeaders({
+          Authorization: `Bearer ${token}`
+        });
+
+        return this.http.get<QuestionModel[]>(
+          `${this.getSnapshotApiUrl}?attemptid=${attemptId}&questionId=ALL`,
+          { headers }
+        );
+      }),
+      map((snapshots: QuestionModel[]) => {
+        const snapshotMap = new Map<number, QuestionModel>();
+        snapshots.forEach((s) => snapshotMap.set(s.questionId, s));
+        this.questionStateSnapshot.set(snapshotMap); // populate signal
+      })
+    );
+  }
+
+
 
 }

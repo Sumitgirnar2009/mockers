@@ -14,6 +14,8 @@ export class UserService {
 
   constructor() {
     // Subscribe to userData$
+
+
     this.oidcSecurityService.userData$.subscribe(({ userData }) => {
       this.user.set(userData);
       console.log('User Data from userData$:', userData);
@@ -35,14 +37,7 @@ export class UserService {
       // Update signals if needed
       this.user.set(userData);
       this.isAuthenticated.set(isAuthenticated);
-
-
     });
-
-
- 
-
-
   }
 
   getUser() {

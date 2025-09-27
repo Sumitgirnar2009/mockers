@@ -26,9 +26,9 @@
           name="option"
           class="form-check-input me-2"
           [value]="i"
-          [checked]="currentQuestionModel.selectedOption === i"
-          (change)="currentQuestionModel.selectedOption = i"
-          [class.red-checkbox]="currentQuestionModel.selectedOption === i"
+          [checked]="currentQuestionModel.selectedOption === i+1"
+          (change)="currentQuestionModel.selectedOption = i+1"
+          [class.red-checkbox]="currentQuestionModel.selectedOption === i+1"
         />
         <span>{{ option.text }}</span>
       </div>

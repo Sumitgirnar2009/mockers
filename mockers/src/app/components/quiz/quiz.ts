@@ -13,24 +13,22 @@ import { signIn } from '@aws-amplify/auth';
 import { v4 as uuidv4 } from 'uuid';
 import { UserService } from '../../service/logged-in-user-service';
 import { ModPipe } from '../../mod-pipe';
-
-
+import { forkJoin, switchMap, tap } from 'rxjs';
+import { Attempt, HandleAttemptId } from '../../service/handle-attempt-id';
 
 
 
 @Component({
   selector: 'app-quiz',
-  imports: [Legend, Questions, Navigator, TimerComponent, SectionTabs, AsyncPipe],
+  imports: [Legend, Questions, Navigator, TimerComponent, SectionTabs],
   templateUrl: './quiz.html',
   styleUrl: './quiz.css',
 })
 export class Quiz {
 
-  userservice = inject(UserService);
-  constructor(private quizService: Fetchquestion) { }
 
-
-
+  // userservice = inject(UserService);
+  constructor(private quizService: Fetchquestion, private userService: UserService,private handleAttempt: HandleAttemptId) { }
 
   currentQuestionNumber!: number
 
@@ -42,31 +40,26 @@ export class Quiz {
   currentQuestionModel!: QuestionModel;
   currentQuestionData!: QuestionData | null;
   currentSection!: string
+  quizId!: string
+  username!: string
   attemptId = signal<string>('');
+  // attemptId! : string
+  attemptModel = signal<Attempt | null>(null);
 
   private modPipe = new ModPipe(); // instantiate pipe
 
 
-  ngOnInit() {
+  ngOnInit(): void {
 
-    // if authenticated and current quiz not in progress for logged in user, generate new attemptId else retain existing attemptId if not authenticated user, attempt test as guest and generate new attemptId
-    if (this.userservice.getIsAuthenticated()) {
-      this.userservice.getUser();
+    // Initialize attemptId
 
-      console.log(this.userservice.getUser());
+    console.log("Starting quiz for user ",this.userService.getUser().username)
+    
+    const username = this.userService.getUser().username
+    this.username = username
+    this.quizId = '37a81c5d-6362-41e4-aaf3-9d925579f538';
 
-      // if getattemptstatus(username, quizid) == "inprogress" {
-      //   this.attemptId.set(existingAttemptId)
-      // }
-
-      // else {
-      //   this.attemptId.set(uuidv4());
-      //   saveattemptidtoDb(username, quizid, this.attemptId())
-      // }
-    }
-
-
-    // this.currentQuestionNumber = 1 // Load first question
+    // Fetch or create attempt on startup
 
     const savedQuestionNumber = localStorage.getItem('currentQuestionNumber');
 
@@ -75,95 +68,121 @@ export class Quiz {
       this.currPhyQuestionNumber.set(Number(this.currPhyQuestionNumber));
       this.currChemQuestionNumber.set(Number(this.currChemQuestionNumber));
       this.currMathQuestionNumber.set(Number(this.currMathQuestionNumber));
-
-
     } else {
       this.currentQuestionNumber = 1;
       localStorage.setItem('currentQuestionNumber', this.currentQuestionNumber.toString());
       localStorage.setItem('currPhyQuestionNumber', this.currPhyQuestionNumber().toString());
       localStorage.setItem('currChemQuestionNumber', this.currChemQuestionNumber().toString());
       localStorage.setItem('currMathQuestionNumber', this.currMathQuestionNumber().toString());
-
     }
 
-    //  return {
-    //     questionData,
-    //     questionModel
-    //   };
+    console.log("Before loading all questions", this.currentQuestionNumber);
 
-    console.log("Current Question Number in ngOnInit: before fetching", this.currentQuestionNumber);
+    this.handleAttempt.getOrCreateActiveAttempt(username, this.quizId).pipe(
+      tap(attempt => {
+        console.log('Attempt loaded in startup component', attempt);
+        this.attemptId.set(attempt.attemptId);
+        this.attemptModel.set(attempt);
+        console.log("Attempt Id for current quiz", this.attemptId());
+      }),
+      switchMap(() =>
+        forkJoin({
+          questions: this.quizService.loadAllQuestionsToCache(this.quizId),
+          snapshots: this.quizService.loadAllSnapshotsToCache(this.attemptId())
+        })
+      )
+    ).subscribe({
+      next: () => {
+        console.log('✅ All questions and snapshots loaded');
 
+        // Now fetch the current question
+        console.log("Fetching question on ngOnInit:", this.currentQuestionNumber);
+        this.quizService.fetchQuestion(this.currentQuestionNumber,this.attemptId()).subscribe({
+          next: ({ questionData, questionModel }) => {
+            this.currentQuestionData = questionData;
+            this.currentQuestionModel = questionModel;
 
-      this.quizService.fetchQuestion(this.currentQuestionNumber).subscribe({
-        next: ({ questionData, questionModel }) => {
-          this.currentQuestionData = questionData;
-          this.currentQuestionModel = questionModel;
-          console.log('Question Data:', questionData);
-          console.log('Question Model:', questionModel);
-        },
-        error: (err) => {
-          console.error('Error fetching question Details:', err);
-        }
-      });
+            // ✅ Move log *here*, after data is assigned
+            console.log("📌 Current Question in ngOnInit:", this.currentQuestionData, this.currentQuestionModel);
+          },
+          error: (err) => {
+            console.error('❌ Error fetching question Details:', err);
+          }
+        });
+      },
+      error: (err) => console.error('❌ Failed to load data', err)
+    });
 
-    console.log("Current Question in ngOnInit:", this.currentQuestionData, this.currentQuestionModel);
+    console.log("After initiating load of all questions");
+
   }
-
-
-
 
   handleNextQuestion(updatedQuestion: QuestionModel) {
-    console.log("Inside handleNextQuestion:");
-    this.quizService.saveQuestionStateSnapshot(updatedQuestion, updatedQuestion.id);
-    if (this.currentQuestionNumber < 100) {
-      this.currentQuestionNumber += 1;
-      localStorage.setItem('currentQuestionNumber', this.currentQuestionNumber.toString());
+    console.log("Inside handleNextQuestion:", updatedQuestion);
 
-      // const { questionData, questionModel } = this.quizService.fetchQuestion(this.currentQuestionNumber);
-      // this.currentQuestionData = questionData
-      // this.currentQuestionModel = questionModel;
+    this.quizService.saveQuestionStateSnapshotToDB(updatedQuestion, updatedQuestion.questionId)
+      .subscribe({
+        next: () => {
+          if (this.currentQuestionNumber < 100) {
+            this.currentQuestionNumber += 1;
+            localStorage.setItem('currentQuestionNumber', this.currentQuestionNumber.toString());
 
-      this.quizService.fetchQuestion(this.currentQuestionNumber).subscribe({
-        next: ({ questionData, questionModel }) => {
-          this.currentQuestionData = questionData;
-          this.currentQuestionModel = questionModel;
-          console.log('Question Data:', questionData);
-          console.log('Question Model:', questionModel);
+            // const { questionData, questionModel } = this.quizService.fetchQuestion(this.currentQuestionNumber);
+            // this.currentQuestionData = questionData
+            // this.currentQuestionModel = questionModel;
+
+            this.quizService.fetchQuestion(this.currentQuestionNumber,this.attemptId()).subscribe({
+              next: ({ questionData, questionModel }) => {
+                this.currentQuestionData = questionData;
+                this.currentQuestionModel = questionModel;
+                console.log('Question Data:', questionData);
+                console.log('Question Model:', questionModel);
+              },
+              error: (err) => {
+                console.error('Error fetching question:', err);
+              }
+            });
+
+            console.log("Current Question in ngOnInit:", this.currentQuestionData, this.currentQuestionModel); if (this.currentQuestionNumber > 50) {
+              this.currentSection = "Chemistry"
+            }
+          }
+          console.log("Current Question in ngOnInit:", this.currentQuestionData, this.currentQuestionModel);
         },
-        error: (err) => {
-          console.error('Error fetching question:', err);
-        }
+        error: (err) => console.error("Failed to save snapshot", err)
       });
 
-      console.log("Current Question in ngOnInit:", this.currentQuestionData, this.currentQuestionModel); if (this.currentQuestionNumber > 50) {
-        this.currentSection = "Chemistry"
-      }
-    }
-    console.log("Current Question in ngOnInit:", this.currentQuestionData, this.currentQuestionModel);
+
   }
+
+  
 
   onSelectQuestion(index: number) {
     this.currentQuestionNumber = index;
     localStorage.setItem('currentQuestionNumber', this.currentQuestionNumber.toString());
-     this.quizService.fetchQuestion(this.currentQuestionNumber).subscribe({
-        next: ({ questionData, questionModel }) => {
-          this.currentQuestionData = questionData;
-          this.currentQuestionModel = questionModel;
-          console.log('Question Data:', questionData);
-          console.log('Question Model:', questionModel);
-        },
-        error: (err) => {
-          console.error('Error fetching question:', err);
-        }
-      });
+    this.quizService.fetchQuestion(this.currentQuestionNumber,this.attemptId()).subscribe({
+      next: ({ questionData, questionModel }) => {
+        this.currentQuestionData = questionData;
+        this.currentQuestionModel = questionModel;
+        console.log('Question Data:', questionData);
+        console.log('Question Model:', questionModel);
+      },
+      error: (err) => {
+        console.error('Error fetching question:', err);
+      }
+    });
   }
 
+
+
   handlePreviousQuestion(questionId: number) {
+    console.log("Inside handlePrevQuestion:", questionId);
+
     if (questionId > 1) {
       this.currentQuestionNumber -= 1;
       localStorage.setItem('currentQuestionNumber', this.currentQuestionNumber.toString());
 
-        this.quizService.fetchQuestion(this.currentQuestionNumber).subscribe({
+      this.quizService.fetchQuestion(this.currentQuestionNumber,this.attemptId()).subscribe({
         next: ({ questionData, questionModel }) => {
           this.currentQuestionData = questionData;
           this.currentQuestionModel = questionModel;
@@ -188,27 +207,32 @@ export class Quiz {
     this.currentQuestionNumber = questionId;
     localStorage.setItem('currentQuestionNumber', this.currentQuestionNumber.toString());
 
-       this.quizService.fetchQuestion(this.currentQuestionNumber).subscribe({
-        next: ({ questionData, questionModel }) => {
-          this.currentQuestionData = questionData;
-          this.currentQuestionModel = questionModel;
-          console.log('Question Data:', questionData);
-          console.log('Question Model:', questionModel);
-        },
-        error: (err) => {
-          console.error('Error fetching question:', err);
-        }
-      });
+    this.quizService.fetchQuestion(this.currentQuestionNumber,this.attemptId()).subscribe({
+      next: ({ questionData, questionModel }) => {
+        this.currentQuestionData = questionData;
+        this.currentQuestionModel = questionModel;
+        console.log('Question Data:', questionData);
+        console.log('Question Model:', questionModel);
+      },
+      error: (err) => {
+        console.error('Error fetching question:', err);
+      }
+    });
+  }
+
+  handleCurrentQuestion(currentQuestion : number) {
+    this.currentQuestionNumber = currentQuestion
   }
 
   handleCurrentSection(section: string) {
+    console.log("Inside handleCurrentSection:", section, this.currentQuestionNumber);
     this.currentSection = section
     this.setCurrSecQuesNo(this.currentQuestionNumber)
 
     if (this.currentSection == "Physics") {
       const phyQ = localStorage.getItem('currPhyQuestionNumber');
       this.currentQuestionNumber = phyQ ? Number(phyQ) : 1;
-        this.quizService.fetchQuestion(this.currentQuestionNumber).subscribe({
+      this.quizService.fetchQuestion(this.currentQuestionNumber,this.attemptId()).subscribe({
         next: ({ questionData, questionModel }) => {
           this.currentQuestionData = questionData;
           this.currentQuestionModel = questionModel;
@@ -225,7 +249,7 @@ export class Quiz {
       // this.currentQuestionNumber = 51;
       const ChemQ = localStorage.getItem('currChemQuestionNumber');
       this.currentQuestionNumber = ChemQ ? Number(ChemQ) : 51;
-        this.quizService.fetchQuestion(this.currentQuestionNumber).subscribe({
+      this.quizService.fetchQuestion(this.currentQuestionNumber,this.attemptId()).subscribe({
         next: ({ questionData, questionModel }) => {
           this.currentQuestionData = questionData;
           this.currentQuestionModel = questionModel;
@@ -240,7 +264,7 @@ export class Quiz {
     if (this.currentSection == "Maths") {
       const mathQ = localStorage.getItem('currMathQuestionNumber');
       this.currentQuestionNumber = mathQ ? Number(mathQ) : 101;
-   this.quizService.fetchQuestion(this.currentQuestionNumber).subscribe({
+      this.quizService.fetchQuestion(this.currentQuestionNumber,this.attemptId()).subscribe({
         next: ({ questionData, questionModel }) => {
           this.currentQuestionData = questionData;
           this.currentQuestionModel = questionModel;

@@ -19,6 +19,7 @@ export class Questions {
 
   @Input() currentQuestionModel!: QuestionModel;
   @Input() currentQuestionData!: QuestionData | null;
+  @Input() attemptId!: string;
   @Output() saveStatusAndNext = new EventEmitter<QuestionModel>();
   @Output() saveStatusAndPrev = new EventEmitter<number>();
 
@@ -27,7 +28,7 @@ export class Questions {
 
       this.currentQuestionModel.IsMarkedForReview = true;
       this.currentQuestionModel.IsSaved = false
-      
+      this.currentQuestionModel.attemptId = this.attemptId      
       if(this.currentQuestionModel.selectedOption != -1) {
         this.currentQuestionModel.IsAnswered = true
       }
@@ -38,16 +39,18 @@ export class Questions {
   }
 
   saveAndNext() {
-    console.log("Inside saveAndNext method");
+    console.log("Inside saveAndNext method",this.currentQuestionModel);
     if (this.currentQuestionModel) {
 
       this.currentQuestionModel.IsVisited = true;
       this.currentQuestionModel.IsSaved = true;
       this.currentQuestionModel.IsMarkedForReview = false;
+      this.currentQuestionModel.attemptId = this.attemptId      
+
       
       if (this.currentQuestionModel.selectedOption !== -1) {
         this.currentQuestionModel.IsAnswered = true;
-      } 
+      }
       else {
         this.currentQuestionModel.IsAnswered = false;
         this.currentQuestionModel.IsSaved = false;
@@ -61,8 +64,9 @@ export class Questions {
   }
 
   previous() {
-    if (this.currentQuestionModel && this.currentQuestionModel.id > 1) {
-      this.saveStatusAndPrev.emit(this.currentQuestionModel.id);
+    console.log("Inside previous method",this.currentQuestionModel);
+    if (this.currentQuestionModel) {
+      this.saveStatusAndPrev.emit(this.currentQuestionModel.questionId);
       console.log("Moving to previous question...");
     }
   }

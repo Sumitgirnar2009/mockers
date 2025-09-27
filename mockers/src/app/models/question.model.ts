@@ -3,7 +3,7 @@ import { QuestionStatus } from '../service/fetchquestion';
 
 export interface QuestionModel {
   attemptId?: string;
-  id: number;
+  questionId: number;
   selectedOption?: number;
   IsVisited: boolean;
   IsMarkedForReview: boolean;
