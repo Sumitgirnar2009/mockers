@@ -5,7 +5,7 @@ import { Navigator } from '../navigator/navigator';
 import { SectionTabs } from '../section-tabs/section-tabs';
 import { Fetchquestion } from '../../service/fetchquestion';
 import { QuestionData, QuestionModel } from '../../models/question.model';
-import { TimerComponent } from '../timer/timer';
+import { Timer } from '../timer/timer';
 import { OidcSecurityService } from 'angular-auth-oidc-client';
 import { AsyncPipe, NgIf } from '@angular/common';
 import { JsonPipe } from '@angular/common';
@@ -20,7 +20,8 @@ import { Attempt, HandleAttemptId } from '../../service/handle-attempt-id';
 
 @Component({
   selector: 'app-quiz',
-  imports: [Legend, Questions, Navigator, TimerComponent, SectionTabs],
+  standalone:true,
+  imports: [Legend, Questions, Navigator, Timer, SectionTabs],
   templateUrl: './quiz.html',
   styleUrl: './quiz.css',
 })
@@ -43,7 +44,7 @@ export class Quiz {
   quizId!: string
   username!: string
   attemptId = signal<string>('');
-  // attemptId! : string
+  startTime = signal<string>('');
   attemptModel = signal<Attempt | null>(null);
 
   private modPipe = new ModPipe(); // instantiate pipe
@@ -82,8 +83,9 @@ export class Quiz {
       tap(attempt => {
         console.log('Attempt loaded in startup component', attempt);
         this.attemptId.set(attempt.attemptId);
+        this.startTime.set(attempt.startTime);
         this.attemptModel.set(attempt);
-        console.log("Attempt Id for current quiz", this.attemptId());
+        console.log("Attempt Id for current quiz", this.attemptId(),this.attemptModel(),this.startTime());
       }),
       switchMap(() =>
         forkJoin({
@@ -301,6 +303,7 @@ export class Quiz {
       console.warn("Invalid question number:", currentQuestionNumber);
     }
   }
+
 
   // @HostListener('window:beforeunload', ['$event'])
   // unloadNotification($event: BeforeUnloadEvent) {

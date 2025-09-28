@@ -27,7 +27,6 @@ export enum QuestionStatus {
 // }
 
 
-// attemptid - Quizid -- username -- questionId -- selectedOption -- isVisited -- IsMarkedForReview -- IsAnswered -- IsSaved partition key : username,attemptId
 
 
 @Injectable({
