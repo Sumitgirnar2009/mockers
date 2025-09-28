@@ -101,12 +101,9 @@
           <div
             class="timer-box px-3 py-1 bg-light rounded-pill border small fw-semibold text-dark"
           >
-<!-- Pass the entire attemptModel, child will extract startTime -->
-<!-- Use attemptModel directly -->
-          <app-timer [startTime]="startTime"> </app-timer>
-
-
-
+            <!-- Pass the entire attemptModel, child will extract startTime -->
+            <!-- Use attemptModel directly -->
+            <app-timer [startTime]="startTime"> </app-timer>
           </div>
         </div>
 
@@ -184,6 +181,7 @@
             </app-navigator>
             <button
               class="btn btn-danger w-100 mt-4 shadow-sm fw-bold rounded-pill"
+              (click)="submitTest()"
             >
               Submit
             </button>

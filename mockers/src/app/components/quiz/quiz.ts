@@ -15,12 +15,13 @@ import { UserService } from '../../service/logged-in-user-service';
 import { ModPipe } from '../../mod-pipe';
 import { forkJoin, switchMap, tap } from 'rxjs';
 import { Attempt, HandleAttemptId } from '../../service/handle-attempt-id';
+import { SubmitTestService } from '../../service/submit-test-service';
 
 
 
 @Component({
   selector: 'app-quiz',
-  standalone:true,
+  standalone: true,
   imports: [Legend, Questions, Navigator, Timer, SectionTabs],
   templateUrl: './quiz.html',
   styleUrl: './quiz.css',
@@ -29,7 +30,7 @@ export class Quiz {
 
 
   // userservice = inject(UserService);
-  constructor(private quizService: Fetchquestion, private userService: UserService,private handleAttempt: HandleAttemptId) { }
+  constructor(private quizService: Fetchquestion, private userService: UserService, private handleAttempt: HandleAttemptId,private submitTestService: SubmitTestService) { }
 
   currentQuestionNumber!: number
 
@@ -54,8 +55,8 @@ export class Quiz {
 
     // Initialize attemptId
 
-    console.log("Starting quiz for user ",this.userService.getUser().username)
-    
+    console.log("Starting quiz for user ", this.userService.getUser().username)
+
     const username = this.userService.getUser().username
     this.username = username
     this.quizId = '37a81c5d-6362-41e4-aaf3-9d925579f538';
@@ -85,7 +86,7 @@ export class Quiz {
         this.attemptId.set(attempt.attemptId);
         this.startTime.set(attempt.startTime);
         this.attemptModel.set(attempt);
-        console.log("Attempt Id for current quiz", this.attemptId(),this.attemptModel(),this.startTime());
+        console.log("Attempt Id for current quiz", this.attemptId(), this.attemptModel(), this.startTime());
       }),
       switchMap(() =>
         forkJoin({
@@ -99,7 +100,7 @@ export class Quiz {
 
         // Now fetch the current question
         console.log("Fetching question on ngOnInit:", this.currentQuestionNumber);
-        this.quizService.fetchQuestion(this.currentQuestionNumber,this.attemptId()).subscribe({
+        this.quizService.fetchQuestion(this.currentQuestionNumber, this.attemptId()).subscribe({
           next: ({ questionData, questionModel }) => {
             this.currentQuestionData = questionData;
             this.currentQuestionModel = questionModel;
@@ -133,7 +134,7 @@ export class Quiz {
             // this.currentQuestionData = questionData
             // this.currentQuestionModel = questionModel;
 
-            this.quizService.fetchQuestion(this.currentQuestionNumber,this.attemptId()).subscribe({
+            this.quizService.fetchQuestion(this.currentQuestionNumber, this.attemptId()).subscribe({
               next: ({ questionData, questionModel }) => {
                 this.currentQuestionData = questionData;
                 this.currentQuestionModel = questionModel;
@@ -157,12 +158,12 @@ export class Quiz {
 
   }
 
-  
+
 
   onSelectQuestion(index: number) {
     this.currentQuestionNumber = index;
     localStorage.setItem('currentQuestionNumber', this.currentQuestionNumber.toString());
-    this.quizService.fetchQuestion(this.currentQuestionNumber,this.attemptId()).subscribe({
+    this.quizService.fetchQuestion(this.currentQuestionNumber, this.attemptId()).subscribe({
       next: ({ questionData, questionModel }) => {
         this.currentQuestionData = questionData;
         this.currentQuestionModel = questionModel;
@@ -184,7 +185,7 @@ export class Quiz {
       this.currentQuestionNumber -= 1;
       localStorage.setItem('currentQuestionNumber', this.currentQuestionNumber.toString());
 
-      this.quizService.fetchQuestion(this.currentQuestionNumber,this.attemptId()).subscribe({
+      this.quizService.fetchQuestion(this.currentQuestionNumber, this.attemptId()).subscribe({
         next: ({ questionData, questionModel }) => {
           this.currentQuestionData = questionData;
           this.currentQuestionModel = questionModel;
@@ -209,7 +210,7 @@ export class Quiz {
     this.currentQuestionNumber = questionId;
     localStorage.setItem('currentQuestionNumber', this.currentQuestionNumber.toString());
 
-    this.quizService.fetchQuestion(this.currentQuestionNumber,this.attemptId()).subscribe({
+    this.quizService.fetchQuestion(this.currentQuestionNumber, this.attemptId()).subscribe({
       next: ({ questionData, questionModel }) => {
         this.currentQuestionData = questionData;
         this.currentQuestionModel = questionModel;
@@ -222,7 +223,7 @@ export class Quiz {
     });
   }
 
-  handleCurrentQuestion(currentQuestion : number) {
+  handleCurrentQuestion(currentQuestion: number) {
     this.currentQuestionNumber = currentQuestion
   }
 
@@ -234,7 +235,7 @@ export class Quiz {
     if (this.currentSection == "Physics") {
       const phyQ = localStorage.getItem('currPhyQuestionNumber');
       this.currentQuestionNumber = phyQ ? Number(phyQ) : 1;
-      this.quizService.fetchQuestion(this.currentQuestionNumber,this.attemptId()).subscribe({
+      this.quizService.fetchQuestion(this.currentQuestionNumber, this.attemptId()).subscribe({
         next: ({ questionData, questionModel }) => {
           this.currentQuestionData = questionData;
           this.currentQuestionModel = questionModel;
@@ -251,7 +252,7 @@ export class Quiz {
       // this.currentQuestionNumber = 51;
       const ChemQ = localStorage.getItem('currChemQuestionNumber');
       this.currentQuestionNumber = ChemQ ? Number(ChemQ) : 51;
-      this.quizService.fetchQuestion(this.currentQuestionNumber,this.attemptId()).subscribe({
+      this.quizService.fetchQuestion(this.currentQuestionNumber, this.attemptId()).subscribe({
         next: ({ questionData, questionModel }) => {
           this.currentQuestionData = questionData;
           this.currentQuestionModel = questionModel;
@@ -266,7 +267,7 @@ export class Quiz {
     if (this.currentSection == "Maths") {
       const mathQ = localStorage.getItem('currMathQuestionNumber');
       this.currentQuestionNumber = mathQ ? Number(mathQ) : 101;
-      this.quizService.fetchQuestion(this.currentQuestionNumber,this.attemptId()).subscribe({
+      this.quizService.fetchQuestion(this.currentQuestionNumber, this.attemptId()).subscribe({
         next: ({ questionData, questionModel }) => {
           this.currentQuestionData = questionData;
           this.currentQuestionModel = questionModel;
@@ -304,12 +305,32 @@ export class Quiz {
     }
   }
 
+  submitTest() {
+    const confirmSubmit = window.confirm(
+      "⚠️ You are about to submit the test.\n" +
+      "Once submitted, you will not be able to attempt it again.\n\n" +
+      "Do you want to continue?"
+    );
 
-  // @HostListener('window:beforeunload', ['$event'])
-  // unloadNotification($event: BeforeUnloadEvent) {
-  //   $event.preventDefault();
-  //   $event.returnValue = '⚠️ All data can be lost if you refresh the page.';
-  // }
+    if (!confirmSubmit) {
+      // User clicked Cancel
+      return;
+    }
+
+    // Call your service to submit test here
+    this.submitTestService.submitTest(this.attemptId()).subscribe({
+      next: (res) => {
+        alert(`✅ Test submitted successfully!\nYour marks: ${res.marks}`);
+        // optionally navigate to result page
+      },
+      error: (err) => {
+        console.error('Error submitting test', err);
+        alert('❌ Failed to submit test. Please try again.');
+      }
+    });
+  }
+
+
 
 
 }
