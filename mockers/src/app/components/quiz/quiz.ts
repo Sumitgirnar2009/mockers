@@ -1,4 +1,4 @@
-import { Component, HostListener, inject, signal } from '@angular/core';
+import { Component, HostListener, inject, NgZone, signal } from '@angular/core';
 import { Legend } from '../legend/legend';
 import { Questions } from '../questions/questions';
 import { Navigator } from '../navigator/navigator';
@@ -16,25 +16,28 @@ import { ModPipe } from '../../mod-pipe';
 import { forkJoin, switchMap, tap } from 'rxjs';
 import { Attempt, HandleAttemptId } from '../../service/handle-attempt-id';
 import { SubmitTestService } from '../../service/submit-test-service';
+import { Router } from '@angular/router';
 
 
 
 @Component({
   selector: 'app-quiz',
   standalone: true,
-  imports: [Legend, Questions, Navigator, Timer, SectionTabs],
+  imports: [Legend, Questions, Navigator, Timer, SectionTabs, NgIf],
   templateUrl: './quiz.html',
   styleUrl: './quiz.css',
 })
 export class Quiz {
 
 
+
+
   // userservice = inject(UserService);
-  constructor(private quizService: Fetchquestion, private userService: UserService, private handleAttempt: HandleAttemptId,private submitTestService: SubmitTestService) { }
+  constructor(private quizService: Fetchquestion, private userService: UserService, private handleAttempt: HandleAttemptId, private submitTestService: SubmitTestService, private router: Router, private ngZone: NgZone) { }
 
   currentQuestionNumber!: number
 
-  // Signals for section-wise question numbers
+  // Signals for section-wise question numbersZZ
   currPhyQuestionNumber = signal<number>(1);
   currChemQuestionNumber = signal<number>(51);
   currMathQuestionNumber = signal<number>(101);
@@ -47,6 +50,8 @@ export class Quiz {
   attemptId = signal<string>('');
   startTime = signal<string>('');
   attemptModel = signal<Attempt | null>(null);
+  quizStartTimeSignal = signal(new Date().toISOString());
+
 
   private modPipe = new ModPipe(); // instantiate pipe
 
@@ -158,6 +163,9 @@ export class Quiz {
 
   }
 
+ onTimeEnd() {
+  this.submitTest(true); // skipConfirm = true → submit directly
+}
 
 
   onSelectQuestion(index: number) {
@@ -305,25 +313,39 @@ export class Quiz {
     }
   }
 
-  submitTest() {
-    const confirmSubmit = window.confirm(
-      "⚠️ You are about to submit the test.\n" +
-      "Once submitted, you will not be able to attempt it again.\n\n" +
-      "Do you want to continue?"
-    );
+  isLoading = false;
 
-    if (!confirmSubmit) {
-      // User clicked Cancel
-      return;
+  submitTest(skipConfirm: boolean = false) {
+    // Only show confirmation if not skipping
+    if (!skipConfirm) {
+      const confirmSubmit = window.confirm(
+        "⚠️ You are about to submit the test.\n" +
+        "Once submitted, you will not be able to attempt it again.\n\n" +
+        "Do you want to continue?"
+      );
+
+      if (!confirmSubmit) return;
     }
 
-    // Call your service to submit test here
-    this.submitTestService.submitTest(this.attemptId()).subscribe({
+    this.isLoading = true;
+
+    this.submitTestService.submitTest(this.attemptId(), this.username).subscribe({
       next: (res) => {
-        alert(`✅ Test submitted successfully!\nYour marks: ${res.marks}`);
-        // optionally navigate to result page
+        this.isLoading = false; // hide spinner
+
+        // Wait for DOM to update before alert
+        this.ngZone.runOutsideAngular(() => {
+          setTimeout(() => {
+            this.ngZone.run(() => {
+              localStorage.clear();
+              alert(`✅ Test submitted successfully!\nYour marks: ${res}`);
+              this.router.navigate(['/home']);
+            });
+          }, 100); // small delay allows spinner to disappear
+        });
       },
       error: (err) => {
+        this.isLoading = false;
         console.error('Error submitting test', err);
         alert('❌ Failed to submit test. Please try again.');
       }
@@ -332,8 +354,9 @@ export class Quiz {
 
 
 
-
 }
+
+
 
 
 // @HostListener('document:contextmenu', ['$event'])

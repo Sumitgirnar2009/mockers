@@ -1,0 +1,10 @@
+div {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+div.warning {
+  color: red; /* Turns red in last 1 minute */
+}
