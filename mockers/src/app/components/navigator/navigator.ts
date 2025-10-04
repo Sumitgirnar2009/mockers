@@ -20,7 +20,7 @@ export class Navigator {
   snapshots = computed(() => this.fetchQuestionService.getAllSnapshotFromCache());
   numbers: number[];
   constructor(private fetchQuestionService: Fetchquestion) {
-    this.numbers = Array.from({ length: 100 }, (_, k) => k + 1);
+    this.numbers = Array.from({ length: 150 }, (_, k) => k + 1);
     const savedQuestionNumber = localStorage.getItem('currentQuestionNumber');
     if (savedQuestionNumber && Number(savedQuestionNumber) <= 50) {
       this.currentSection = 'Physics';
@@ -51,9 +51,12 @@ export class Navigator {
       return this.numbers.slice(0, 50); // 1–50
     } else if (this.currentSection === 'Chemistry') {
       return this.numbers.slice(50, 100); // 51–100
+    } else if (this.currentSection === 'Maths') {
+      return this.numbers.slice(100, 150); // 101–150
     }
     return [];
   }
+
 
   getStatus(index: number): string {
     const question = this.snapshots().get(index);

@@ -131,7 +131,7 @@ export class Quiz {
     this.quizService.saveQuestionStateSnapshotToDB(updatedQuestion, updatedQuestion.questionId)
       .subscribe({
         next: () => {
-          if (this.currentQuestionNumber < 100) {
+          if (this.currentQuestionNumber < 150) {
             this.currentQuestionNumber += 1;
             localStorage.setItem('currentQuestionNumber', this.currentQuestionNumber.toString());
 
@@ -151,9 +151,20 @@ export class Quiz {
               }
             });
 
-            console.log("Current Question in ngOnInit:", this.currentQuestionData, this.currentQuestionModel); if (this.currentQuestionNumber > 50) {
-              this.currentSection = "Chemistry"
+            console.log(
+              "Current Question in ngOnInit:",
+              this.currentQuestionData,
+              this.currentQuestionModel
+            );
+
+            if (this.currentQuestionNumber > 100) {
+              this.currentSection = "Maths";
+            } else if (this.currentQuestionNumber > 50) {
+              this.currentSection = "Chemistry";
+            } else {
+              this.currentSection = "Physics";
             }
+
           }
           console.log("Current Question in ngOnInit:", this.currentQuestionData, this.currentQuestionModel);
         },
@@ -163,9 +174,9 @@ export class Quiz {
 
   }
 
- onTimeEnd() {
-  this.submitTest(true); // skipConfirm = true → submit directly
-}
+  onTimeEnd() {
+    this.submitTest(true); // skipConfirm = true → submit directly
+  }
 
 
   onSelectQuestion(index: number) {
@@ -210,6 +221,9 @@ export class Quiz {
       }
       if (this.currentQuestionNumber <= 50) {
         this.currentSection = "Physics"
+      }
+      if (this.currentQuestionNumber >100) {
+        this.currentSection = "Maths"
       }
     }
   }
