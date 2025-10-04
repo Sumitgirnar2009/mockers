@@ -1,0 +1,23 @@
+<div class="declaration-container">
+  <h2>Declaration</h2>
+  <p>
+    I hereby declare that I will attempt this test with honesty and integrity.
+    I understand that any form of malpractice will lead to disqualification.
+  </p>
+
+  <div class="checkbox-container">
+    <input type="checkbox" id="agree" [(ngModel)]="agreed" />
+    <label for="agree">I have read and agree to the declaration</label>
+  </div>
+
+  <div class="btn-group">
+    <button class="prev-btn" [routerLink]="['/instructions']">Previous</button>
+    <button
+      class="start-btn"
+      [disabled]="!agreed"
+      [routerLink]="agreed ? ['/quiz'] : null"
+    >
+      I’m Ready to Begin
+    </button>
+  </div>
+</div>
