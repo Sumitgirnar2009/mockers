@@ -1,0 +1,33 @@
+<section class="mock-test-section">
+  <div class="container">
+    <h2 class="section-title">Mock Tests</h2>
+
+    <div class="mock-test-list">
+      <!-- First test (free) -->
+      <div class="mock-test-item free">
+        <h3><b>PCM FULL SYLLABUS TEST 1</b></h3>
+        <p>Try this free mock test to start your preparation!</p>
+        <button class="start-btn" [routerLink]="['/instructions', pcm_fst1_quizId]">
+          Start Test
+        </button>
+      </div>
+
+      <!-- Locked tests -->
+      <div class="mock-test-item locked">
+        <h3>Mock Test 2</h3>
+        <p>Unlock to access this test.</p>
+        <button class="unlock-btn"><i class="fas fa-lock"></i> Unlock</button>
+      </div>
+
+      <div class="mock-test-item locked">
+        <h3>Mock Test 3</h3>
+        <p>Unlock to access this test.</p>
+        <button class="unlock-btn"><i class="fas fa-lock"></i> Unlock</button>
+      </div>
+      <!-- More tests link -->
+      <div class="mock-test-item more-tests">
+        <button class="more-btn">See More Tests</button>
+      </div>
+    </div>
+  </div>
+</section>

@@ -16,7 +16,7 @@ import { ModPipe } from '../../mod-pipe';
 import { forkJoin, switchMap, tap } from 'rxjs';
 import { Attempt, HandleAttemptId } from '../../service/handle-attempt-id';
 import { SubmitTestService } from '../../service/submit-test-service';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 
 
@@ -33,7 +33,7 @@ export class Quiz {
 
 
   // userservice = inject(UserService);
-  constructor(private quizService: Fetchquestion, private userService: UserService, private handleAttempt: HandleAttemptId, private submitTestService: SubmitTestService, private router: Router, private ngZone: NgZone) { }
+  constructor(private quizService: Fetchquestion, private userService: UserService, private handleAttempt: HandleAttemptId, private submitTestService: SubmitTestService, private router: Router, private ngZone: NgZone,private route: ActivatedRoute) { }
 
   currentQuestionNumber!: number
 
@@ -50,7 +50,6 @@ export class Quiz {
   attemptId = signal<string>('');
   startTime = signal<string>('');
   attemptModel = signal<Attempt | null>(null);
-  quizStartTimeSignal = signal(new Date().toISOString());
 
 
   private modPipe = new ModPipe(); // instantiate pipe
@@ -64,7 +63,8 @@ export class Quiz {
 
     const username = this.userService.getUser().username
     this.username = username
-    this.quizId = '37a81c5d-6362-41e4-aaf3-9d925579f538';
+    this.quizId = this.route.snapshot.paramMap.get('quizId')!;
+    console.log('Quiz ID:', this.quizId);
 
     // Fetch or create attempt on startup
 

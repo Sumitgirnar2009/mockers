@@ -112,7 +112,7 @@
             <!-- Pass the entire attemptModel, child will extract startTime -->
             <!-- Use attemptModel directly -->
             <app-timer
-              [startTime]="quizStartTimeSignal"
+              [startTime]="startTime"
               (timerEnded)="onTimeEnd()"
             >
             </app-timer>

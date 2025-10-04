@@ -6,10 +6,13 @@ import { Declaration } from './quiz-start/declaration/declaration';
 
 
 export const routes: Routes = [
-  { path: 'instructions', component: Instructions },
-  { path: 'declaration', component: Declaration },
+  { path: 'instructions/:quizId', component: Instructions },
+  { path: 'declaration/:quizId', component: Declaration },
   { path: '', component: Homepage }, // Default route
   { path: 'home', component: Homepage }, // Default route
-  { path: 'quiz', component: Quiz },
+  { path: 'quiz/:quizId', component: Quiz },
   { path: '**', redirectTo: '' } // Optional wildcard route for 404 redirect
 ];
+
+
+

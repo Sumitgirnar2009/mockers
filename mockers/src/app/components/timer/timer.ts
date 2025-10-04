@@ -16,6 +16,7 @@ export class Timer implements OnDestroy {
   constructor() {
     effect(() => {
       const time = this.startTime();
+      console.log('Timer received start time:', time);
       if (time) {
         this.startTimer(time);
       }
@@ -26,7 +27,7 @@ export class Timer implements OnDestroy {
     this.stopTimer();
 
     const startDate = new Date(startTime);
-    const totalDuration = 20 * 60; // ✅ 10 minutes = 600 seconds
+    const totalDuration = 10*60; // 1 minute 20 seconds in seconds (for testing)
 
     const updateTimer = () => {
       const now = new Date();

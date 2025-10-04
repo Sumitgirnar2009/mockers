@@ -1,8 +1,8 @@
 <div class="declaration-container">
   <h2>Declaration</h2>
   <p>
-    I hereby declare that I will attempt this test with honesty and integrity.
-    I understand that any form of malpractice will lead to disqualification.
+    I hereby declare that I will attempt this test with honesty and integrity. I
+    understand that any form of malpractice will lead to disqualification.
   </p>
 
   <div class="checkbox-container">
@@ -12,11 +12,7 @@
 
   <div class="btn-group">
     <button class="prev-btn" [routerLink]="['/instructions']">Previous</button>
-    <button
-      class="start-btn"
-      [disabled]="!agreed"
-      [routerLink]="agreed ? ['/quiz'] : null"
-    >
+    <button class="start-btn" [disabled]="!agreed" (click)="startQuiz()">
       I’m Ready to Begin
     </button>
   </div>
