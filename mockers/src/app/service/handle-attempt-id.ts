@@ -10,7 +10,7 @@ export interface Attempt {
   quizId: string;
   startTime: string;
   endTime: string | null;
-  status: 'inprogress' | 'complete';
+  status: 'inprogress' | 'completed';
   physicsMarks: number;
   chemistryMarks: number;
   mathsMarks: number;

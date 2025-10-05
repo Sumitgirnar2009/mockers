@@ -7,7 +7,7 @@ import { MockTestDisplay } from "../mock-test-display/mock-test-display";
 
 @Component({
   selector: 'app-homepage',
-  imports: [Navbar, Carousel, RouterLink, MockTestDisplay],
+  imports: [Navbar, Carousel, MockTestDisplay],
   templateUrl: './homepage.html',
   styleUrl: './homepage.css'
 })

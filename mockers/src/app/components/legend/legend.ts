@@ -6,7 +6,7 @@ import { AllSectionsLegend } from '../../models/section-legend.model';
 
 @Component({
   selector: 'app-legend',
-  imports: [NgFor,KeyValuePipe,CommonModule],
+  imports: [CommonModule],
   templateUrl: './legend.html',
   styleUrl: './legend.css'
 })

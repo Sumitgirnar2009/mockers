@@ -3,12 +3,56 @@
     <h2 class="section-title">Mock Tests</h2>
 
     <div class="mock-test-list">
-      <!-- First test (free) -->
-      <div class="mock-test-item free">
-        <h3><b>PCM FULL SYLLABUS TEST 1</b></h3>
-        <p>Try this free mock test to start your preparation!</p>
-        <button class="start-btn" [routerLink]="['/instructions', pcm_fst1_quizId]">
-          Start Test
+      <!-- Dynamic quiz cards -->
+      <div
+        class="mock-test-item"
+        *ngFor="let quiz of quizRecords; let i = index"
+        [ngClass]="quiz.quizType"
+      >
+        <!-- Quiz name -->
+        <h3>
+          <b>{{ quiz.quizName }}</b>
+        </h3>
+
+        <p>
+          {{
+            quiz.quizType === "free"
+              ? "Try this free mock test to start your preparation!"
+              : "This is a paid test. Subscribe to start."
+          }}
+        </p>
+
+        <!-- Continue or Start button with attempt no -->
+        <button
+          *ngIf="quiz.isProgress; else startButton"
+          class="continue-btn"
+          (click)="onQuizAction(quiz)"
+        >
+          Continue Test — Attempt
+          <span class="highlight">{{ quiz.attemptNo }}</span>
+        </button>
+
+        <ng-template #startButton>
+          <button
+            class="start-btn"
+            (click)="onQuizAction(quiz)"
+            [title]="
+              quiz.quizType !== 'free'
+                ? 'Subscribe to access'
+                : 'Click to start the test'
+            "
+          >
+            Start Test — Attempt
+            <span class="highlight">{{ quiz.attemptNo }}</span>
+          </button>
+        </ng-template>
+
+        <!-- Updated button text -->
+        <button
+          class="view-btn"
+          [routerLink]="['/attempts-analysis', quiz.quizId]"
+        >
+          View previous attempts performance
         </button>
       </div>
 
@@ -24,9 +68,16 @@
         <p>Unlock to access this test.</p>
         <button class="unlock-btn"><i class="fas fa-lock"></i> Unlock</button>
       </div>
-      <!-- More tests link -->
+
+      <!-- More tests - Updated with centered, professional button -->
       <div class="mock-test-item more-tests">
-        <button class="more-btn">See More Tests</button>
+        <div class="more-tests-container">
+          <button class="more-btn">
+            <span class="more-btn-text">See More Tests</span>
+            <i class="fas fa-chevron-down more-btn-icon"></i>
+          </button>
+          <p class="more-tests-description">Explore our full test library</p>
+        </div>
       </div>
     </div>
   </div>

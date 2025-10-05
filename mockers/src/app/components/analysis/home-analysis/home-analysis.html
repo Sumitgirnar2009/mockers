@@ -1,0 +1,100 @@
+<!-- Header Section -->
+<header class="analysis-header">
+  <div class="container">
+    <div class="header-content">
+      <div class="user-info">
+        <i class="fas fa-user-circle"></i>
+        <span>{{ username }}</span>
+        <span>{{ quizId }}</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Attempts Section -->
+<section class="attempts-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Performance Analysis</h2>
+      <div class="filter-options">
+        <select class="filter-select">
+          <option value="all">All Attempts</option>
+          <option value="completed">Completed</option>
+          <option value="in-progress">In Progress</option>
+        </select>
+      </div>
+    </div>
+
+    <div *ngIf="attempts().length; else noAttempts" class="attempts-list">
+      <div class="attempt-item" *ngFor="let attempt of attempts()" [ngClass]="'status-' + attempt.status">
+        
+        <!-- Attempt Header -->
+        <div class="attempt-main-info">
+          <div class="attempt-title">
+            <h3>
+              Attempt <span class="highlight">#{{ attempt["attemptNo"] }}</span>
+            </h3>
+            <p class="attempt-id">ID: {{ attempt.attemptId }}</p>
+            <span class="status-indicator" [ngClass]="attempt.status">
+              <i class="status-dot" [ngClass]="{
+                'completed': 'fas fa-check-circle',
+                'in-progress': 'fas fa-clock'
+              }[attempt.status]"></i>
+              {{ attempt.status | titlecase }}
+            </span>
+          </div>
+          
+          <div class="attempt-meta">
+            <div class="meta-item">
+              <strong>Started:</strong>
+              <span>{{ attempt['startTime'] | date:'medium' }}</span>
+            </div>
+            <div class="meta-item">
+              <strong>Completed:</strong>
+              <span>{{ attempt['endTime'] ? (attempt['endTime'] | date:'medium') : 'In Progress' }}</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Marks Section -->
+        <div class="marks-section">
+          <div class="total-score">
+            <div class="score-label">Total Score</div>
+            <div class="score-value">{{ attempt['totalMarks'] }}</div>
+          </div>
+          
+          <div class="subject-scores">
+            <div class="subject-score">
+              <span class="subject-name">Physics</span>
+              <span class="subject-marks">{{ attempt['physicsMarks'] }}</span>
+            </div>
+            <div class="subject-score">
+              <span class="subject-name">Chemistry</span>
+              <span class="subject-marks">{{ attempt['chemistryMarks'] }}</span>
+            </div>
+            <div class="subject-score">
+              <span class="subject-name">Mathematics</span>
+              <span class="subject-marks">{{ attempt['mathsMarks'] }}</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Action Button -->
+        <div class="attempt-actions">
+          <button class="analysis-btn" [disabled]="attempt.status !== 'completed'">
+            <i class="fas fa-chart-line"></i>
+            View Detailed Analysis
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <ng-template #noAttempts>
+      <div class="no-attempts-state">
+        <i class="fas fa-clipboard-list"></i>
+        <p class="no-attempts-msg">No attempts found for this quiz.</p>
+        <button class="primary-btn" routerLink="/mock-tests">Start Your First Attempt</button>
+      </div>
+    </ng-template>
+  </div>
+</section>

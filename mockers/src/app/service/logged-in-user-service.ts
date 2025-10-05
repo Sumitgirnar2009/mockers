@@ -43,6 +43,9 @@ export class UserService {
   getUser() {
     return this.user();
   }
+  getUserSignal() {
+    return this.user;
+  }
 
   getIsAuthenticated() {
     return this.isAuthenticated();
