@@ -1,0 +1,200 @@
+/* Make the selected checkbox red */
+.red-checkbox {
+  accent-color: red;
+}
+
+/* Remove the default active background color */
+.list-group-item.active {
+  background-color: transparent;
+  border-color: #dee2e6;
+  color: inherit;
+  
+}
+
+/* Optional: Add some hover effect */
+.list-group-item:hover {
+  background-color: #f8f9fa;
+ 
+}
+
+
+/* --------------------------- */
+/* Question Container & Text   */
+/* --------------------------- */
+h5 {
+  font-size: clamp(14px, 1.5vw, 18px); /* responsive heading */
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+p.fw-semibold {
+  font-size: clamp(15px, 1.6vw, 20px);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+/* --------------------------- */
+/* Question Image              */
+/* --------------------------- */
+div img {
+  max-width: 100%;
+  max-height: 250px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  border-radius: 0.375rem; /* rounded corners like Bootstrap */
+}
+
+/* --------------------------- */
+/* Options List                */
+/* --------------------------- */
+.list-group-item {
+  font-size: clamp(14px, 1.5vw, 16px);
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa; /* subtle hover like popular sites */
+}
+
+/* --------------------------- */
+/* Radio Buttons               */
+/* --------------------------- */
+input[type="radio"].form-check-input {
+  width: 1.1em;
+  height: 1.1em;
+  accent-color: #0d6efd; /* Bootstrap primary blue */
+}
+
+.red-checkbox {
+  accent-color: #e74c3c; /* selected accent for clarity */
+}
+
+/* --------------------------- */
+/* Option Images               */
+/* --------------------------- */
+.list-group-item img {
+  max-height: 150px;
+  object-fit: contain;
+  margin-top: 0.5rem;
+  border-radius: 0.375rem;
+  display: block;
+  width: 100%;
+}
+
+/* --------------------------- */
+/* Action Buttons Container    */
+/* --------------------------- */
+.d-flex.flex-wrap.gap-2 {
+  font-size: clamp(13px, 1.5vw, 16px);
+}
+
+/* --------------------------- */
+/* Buttons                     */
+/* --------------------------- */
+.btn {
+  font-size: clamp(13px, 1.4vw, 16px);
+  padding: 0.5rem 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease;
+}
+
+.btn i {
+  font-size: 1.1em;
+}
+
+.btn:hover {
+  transform: scale(1.02);
+}
+
+/* Primary & Success & Warning & Outline Buttons */
+.btn-success {
+  background-color: #198754;
+  border-color: #198754;
+  color: #fff;
+}
+
+.btn-success:hover {
+  background-color: #157347;
+  border-color: #157347;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #212529;
+}
+
+.btn-warning:hover {
+  background-color: #e0a800;
+  border-color: #d39e00;
+}
+
+.btn-outline-danger {
+  color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-outline-danger:hover {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.btn-outline-primary {
+  color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-outline-primary:hover {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
+/* --------------------------- */
+/* Responsive Adjustments      */
+/* --------------------------- */
+@media (max-width: 576px) {
+  .btn {
+    font-size: 13px;
+    padding: 0.45rem 0.65rem;
+  }
+  
+  h5 {
+    font-size: 14px;
+  }
+  
+  p.fw-semibold {
+    font-size: 15px;
+  }
+}
+
+/* ✅ Laptop/Desktop - keep current layout */
+.action-buttons {
+  flex-direction: row;
+  align-items: center;
+}
+
+/* 📱 Mobile adjustment */
+@media (max-width: 576px) {
+  .action-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .action-buttons .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .action-buttons .ms-auto {
+    margin-left: 0 !important; /* reset Bootstrap's ms-auto */
+  }
+}

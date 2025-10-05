@@ -1,7 +1,7 @@
 import { Component, signal, effect } from '@angular/core';
 import { UserService } from '../../../service/logged-in-user-service';
 import { OidcSecurityService } from 'angular-auth-oidc-client';
-import { Router, ActivatedRoute } from '@angular/router';
+import { Router, ActivatedRoute, RouterLink } from '@angular/router';
 import { HttpClient, HttpHeaders, HttpParams } from '@angular/common/http';
 import { Observable, switchMap, map } from 'rxjs';
 import { DatePipe, JsonPipe, NgClass, NgForOf, NgIf, TitleCasePipe } from '@angular/common';
@@ -17,7 +17,7 @@ interface Attempt {
 
 @Component({
   selector: 'app-home-analysis',
-  imports: [JsonPipe, NgIf, NgForOf, TitleCasePipe, NgClass, DatePipe],
+  imports: [ NgIf, NgForOf, TitleCasePipe, NgClass, DatePipe,RouterLink],
   templateUrl: './home-analysis.html',
   styleUrl: './home-analysis.css'
 })
