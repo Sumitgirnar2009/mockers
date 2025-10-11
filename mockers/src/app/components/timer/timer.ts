@@ -27,7 +27,7 @@ export class Timer implements OnDestroy {
     this.stopTimer();
 
     const startDate = new Date(startTime);
-    const totalDuration = 10*60; // 1 minute 20 seconds in seconds (for testing)
+    const totalDuration = 1*60; // 1 minute 20 seconds in seconds (for testing)
 
     const updateTimer = () => {
       const now = new Date();

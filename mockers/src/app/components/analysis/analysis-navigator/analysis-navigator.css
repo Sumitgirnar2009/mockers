@@ -1,0 +1,91 @@
+/* Base box styles */
+.box {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #E0E0E0; /* default Not Visited */
+  color: #343a40;
+  border: 1px solid #BDBDBD;
+  transition: all 0.2s ease;
+}
+
+/* Hover */
+.box:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+}
+
+/* Not visited */
+.box-1 {
+  background-color: #E0E0E0;
+  color: #495057;
+  border: 1px solid #BDBDBD;
+}
+
+/* Not Answered / Current */
+.box-2 {
+  background-color: #E57373; /* softer red */
+  border: 1px solid #D32F2F; /* slightly darker soft red */
+  color: #fff;
+  font-weight: 600;
+}
+
+
+/* Answered */
+.box-3 {
+  background-color: #8BC34A; /* green */
+  border: 1px solid #558B2F; /* darker green border */
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Marked for Review */
+.box-4 {
+  background-color: #673AB7; /* purple */
+  border: 1px solid #4527A0;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Answered & Marked */
+.box-5 {
+  background-color: #5E35B1; /* darker violet */
+  border: 1px solid #311B92;
+  color: #fff;
+  font-weight: 600;
+  position: relative;
+}
+
+/* Checkmark */
+.box-5::after {
+  content: '✔';
+  position: absolute;
+  bottom: -6px;
+  right: -6px;
+  background-color: #4CAF50; /* green checkmark */
+  color: white;
+  font-size: 11px;
+  width: 16px;
+  height: 16px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 16px;
+  font-weight: bold;
+  box-shadow: 0 0 4px rgba(0,0,0,0.25);
+}
+
+/* Current section header */
+.current-section {
+  background: linear-gradient(135deg, #3949AB, #5E35B1); /* professional blue → violet gradient */
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border-radius: 6px;
+  padding: 6px 12px;
+  color: white;
+}
