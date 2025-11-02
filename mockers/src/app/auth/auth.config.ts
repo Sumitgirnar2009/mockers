@@ -3,7 +3,7 @@ import { OpenIdConfiguration } from 'angular-auth-oidc-client';
 
 export const authConfig: OpenIdConfiguration = {
   authority: 'https://cognito-idp.ap-south-1.amazonaws.com/ap-south-1_8nWZrk7h3',
-  redirectUrl: 'http://www.mockers.com.s3-website.ap-south-1.amazonaws.com/',
+  redirectUrl: 'https://www.sumitgirnar.xyz/',
   clientId: '99k2hi7sg439ftqdp3imf3ru',
   scope: 'email openid phone',
   responseType: 'code',
