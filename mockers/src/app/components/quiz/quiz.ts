@@ -13,7 +13,7 @@ import { signIn } from '@aws-amplify/auth';
 import { v4 as uuidv4 } from 'uuid';
 import { UserService } from '../../service/logged-in-user-service';
 import { ModPipe } from '../../mod-pipe';
-import { forkJoin, switchMap, tap } from 'rxjs';
+import { delay, forkJoin, of, switchMap, tap } from 'rxjs';
 import { Attempt, HandleAttemptId } from '../../service/handle-attempt-id';
 import { SubmitTestService } from '../../service/submit-test-service';
 import { ActivatedRoute, Router } from '@angular/router';
@@ -33,7 +33,7 @@ export class Quiz {
 
 
   // userservice = inject(UserService);
-  constructor(private quizService: Fetchquestion, private userService: UserService, private handleAttempt: HandleAttemptId, private submitTestService: SubmitTestService, private router: Router, private ngZone: NgZone,private route: ActivatedRoute) { }
+  constructor(private quizService: Fetchquestion, private userService: UserService, private handleAttempt: HandleAttemptId, private submitTestService: SubmitTestService, private router: Router, private ngZone: NgZone, private route: ActivatedRoute) { }
 
   currentQuestionNumber!: number
 
@@ -50,6 +50,12 @@ export class Quiz {
   attemptId = signal<string>('');
   startTime = signal<string>('');
   attemptModel = signal<Attempt | null>(null);
+
+  isQuizLoading: boolean = true;
+  startTimer: boolean = false;
+  timerStartTime!: string;      // backend start time
+  quizLoadedTime!: Date;        // when all quiz data ready
+
 
 
   private modPipe = new ModPipe(); // instantiate pipe
@@ -84,6 +90,7 @@ export class Quiz {
     }
 
     console.log("Before loading all questions", this.currentQuestionNumber);
+    this.isQuizLoading = true;
 
     this.handleAttempt.getOrCreateActiveAttempt(username, this.quizId).pipe(
       tap(attempt => {
@@ -95,13 +102,15 @@ export class Quiz {
       }),
       switchMap(() =>
         forkJoin({
-          questions: this.quizService.loadAllQuestionsToCache(this.quizId),
+          questions: this.quizService.loadAllQuestionsToCache(this.quizId), // 4s delay
           snapshots: this.quizService.loadAllSnapshotsToCache(this.attemptId())
         })
       )
+
     ).subscribe({
       next: () => {
         console.log('✅ All questions and snapshots loaded');
+
 
         // Now fetch the current question
         console.log("Fetching question on ngOnInit:", this.currentQuestionNumber);
@@ -112,11 +121,22 @@ export class Quiz {
 
             // ✅ Move log *here*, after data is assigned
             console.log("📌 Current Question in ngOnInit:", this.currentQuestionData, this.currentQuestionModel);
+
+            this.quizLoadedTime = new Date();
+
+            this.isQuizLoading = false;
+
+            setTimeout(() => {
+              this.startTimer = true;
+            }, 0)
+
+            console.log("⏱ Timer starts from:", this.timerStartTime, "at", this.quizLoadedTime)
           },
           error: (err) => {
             console.error('❌ Error fetching question Details:', err);
           }
         });
+
       },
       error: (err) => console.error('❌ Failed to load data', err)
     });
@@ -222,7 +242,7 @@ export class Quiz {
       if (this.currentQuestionNumber <= 50) {
         this.currentSection = "Physics"
       }
-      if (this.currentQuestionNumber >100) {
+      if (this.currentQuestionNumber > 100) {
         this.currentSection = "Maths"
       }
     }

@@ -6,46 +6,53 @@ import { Component, effect, Input, signal, Signal, Output, EventEmitter, OnDestr
   styleUrls: ['./timer.css']
 })
 export class Timer implements OnDestroy {
-  @Input() startTime!: Signal<string>;
-  @Output() timerEnded = new EventEmitter<void>(); // Event to notify parent
+  @Input() startTime!: Signal<string>;             // From backend — quiz start time
+  @Input() currentTimeAtStart!: Date;              // When quiz fully loaded
+  @Output() timerEnded = new EventEmitter<void>(); // Emits when time is over
 
   displayTime = signal('00:00');
-  isWarning = signal(false); // Turns true in last 1 minute
+  isWarning = signal(false);
   private intervalId: any;
 
   constructor() {
     effect(() => {
       const time = this.startTime();
-      console.log('Timer received start time:', time);
-      if (time) {
-        this.startTimer(time);
+      console.log('⏱ Timer received start time:', time);
+
+      if (time && this.currentTimeAtStart) {
+        this.startTimer(time, this.currentTimeAtStart);
       }
     });
   }
 
-  private startTimer(startTime: string) {
+  private startTimer(startTime: string, currentTimeAtStart: Date) {
     this.stopTimer();
 
     const startDate = new Date(startTime);
-    const totalDuration = 1*60; // 1 minute 20 seconds in seconds (for testing)
+    const nowAtStart = new Date(currentTimeAtStart);
+
+    const totalDuration = 60 * 60+10; // e.g., 1 hour total quiz duration
+
+    // ✅ Calculate elapsed time till quiz fully loaded
+    const elapsedBeforeLoad = Math.floor((nowAtStart.getTime() - startDate.getTime()) / 1000);
+    let remainingSeconds = Math.max(0, totalDuration - elapsedBeforeLoad);
+
+    console.log(`⏳ Elapsed before quiz loaded: ${elapsedBeforeLoad}s, Remaining: ${remainingSeconds}s`);
 
     const updateTimer = () => {
-      const now = new Date();
-      const elapsedSeconds = Math.floor((now.getTime() - startDate.getTime()) / 1000);
-      const remainingSeconds = Math.max(0, totalDuration - elapsedSeconds);
+      remainingSeconds = Math.max(0, remainingSeconds - 1);
 
-      // Turn red if last 1 minute
       this.isWarning.set(remainingSeconds <= 60);
-
       this.updateDisplay(remainingSeconds);
 
       if (remainingSeconds <= 0) {
         this.stopTimer();
         this.displayTime.set('00:00');
-        this.timerEnded.emit(); // Notify parent
+        this.timerEnded.emit();
       }
     };
 
+    // Start ticking
     updateTimer();
     this.intervalId = setInterval(updateTimer, 1000);
   }

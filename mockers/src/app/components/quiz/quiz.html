@@ -89,6 +89,14 @@
 
   <body>
     <!-- Navbar with User Info -->
+    <!-- 🔹 QUIZ LOADING SPINNER (shown before quiz starts) -->
+    <div *ngIf="isQuizLoading" class="loader-backdrop">
+      <div class="loader-modal">
+        <div class="spinner"></div>
+        <p>Loading your quiz, please wait...</p>
+      </div>
+    </div>
+
     <!-- Loader Modal -->
     <div *ngIf="isLoading" class="loader-backdrop">
       <div class="loader-modal">
@@ -112,9 +120,11 @@
             <!-- Pass the entire attemptModel, child will extract startTime -->
             <!-- Use attemptModel directly -->
             <app-timer
+              *ngIf="startTimer"
               [startTime]="startTime"
-              (timerEnded)="onTimeEnd()"
+              [currentTimeAtStart]="quizLoadedTime"
             >
+              (timerEnded)="onTimeEnd()"
             </app-timer>
           </div>
         </div>

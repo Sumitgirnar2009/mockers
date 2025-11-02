@@ -35,7 +35,7 @@ export class AnalysisQuestions {
 
   previous(): void {
     if (this.currentQuestionIndex > 1) {
-      this.saveStatusAndNext.emit(this.currentQuestionIndex);
+      this.saveStatusAndPrev.emit(this.currentQuestionIndex);
     }
   }
 

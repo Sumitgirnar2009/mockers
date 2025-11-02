@@ -38,6 +38,8 @@ export class DetailAnalysis implements OnInit {
   currentSection: string | undefined;
   currentQuestionNo: number = 1;
   currentQuestion: QuestionData | null = null;
+  loading = true; // initially true
+
 
   constructor(
     private route: ActivatedRoute,
@@ -54,23 +56,29 @@ export class DetailAnalysis implements OnInit {
   }
 
   ngOnInit(): void {
-    if (!this.username || !this.attemptId) return;
+  if (!this.username || !this.attemptId) return;
 
-    // Fetch both snapshot and questions and then load the first question
-    forkJoin({
-      snapshot: this.loadSnapshot(),
-      questions: this.loadAllQuestionsToCache(this.quizId)
-    }).subscribe({
-      next: () => {
-        this.currentQuestionNo = 1;
-        this.currentQuestion = this.questionMap.get(this.currentQuestionNo) || null;
-        this.currentQuestionModel = this.snapshotMap.get(this.currentQuestionNo)!;
-        console.log("First question loaded:", this.currentQuestion);
-        console.log("First snapshot loaded:", this.currentQuestionModel);
-      },
-      error: err => console.error('Error loading data:', err)
-    });
-  }
+  this.loading = true; // start spinner
+
+  forkJoin({
+    snapshot: this.loadSnapshot(),
+    questions: this.loadAllQuestionsToCache(this.quizId)
+  }).subscribe({
+    next: () => {
+      this.currentQuestionNo = 1;
+      this.currentQuestion = this.questionMap.get(this.currentQuestionNo) || null;
+      this.currentQuestionModel = this.snapshotMap.get(this.currentQuestionNo)!;
+      console.log("First question loaded:", this.currentQuestion);
+      console.log("First snapshot loaded:", this.currentQuestionModel);
+      this.loading = false; // stop spinner
+    },
+    error: err => {
+      console.error('Error loading data:', err);
+      this.loading = false; // stop spinner even on error
+    }
+  });
+}
+
 
   private getApiToken() {
     return this.oidcSecurityService.getIdToken().pipe(
@@ -149,6 +157,16 @@ export class DetailAnalysis implements OnInit {
 
   handlePreviousQuestion(index: number) {
     this.currentQuestionNo = index - 1;
+    if(this.currentQuestionNo < 51 && this.currentQuestionNo > 0) {
+      this.currentSection = 'Physics';
+    } else if(this.currentQuestionNo < 101 && this.currentQuestionNo > 50) {
+      this.currentSection = 'Chemistry';
+    } else if(this.currentQuestionNo < 151 && this.currentQuestionNo > 100) {
+      this.currentSection = 'Maths';
+    } else {
+      this.currentSection = 'Physics';
+    }
+      
     this.currentQuestion = this.questionMap.get(this.currentQuestionNo) || null;
     this.currentQuestionModel = this.snapshotMap.get(this.currentQuestionNo)!;
 
@@ -156,6 +174,16 @@ export class DetailAnalysis implements OnInit {
   }
   handleNextQuestion(index: number) {
     this.currentQuestionNo = index + 1;
+
+        if(this.currentQuestionNo < 51 && this.currentQuestionNo > 0) {
+      this.currentSection = 'Physics';
+    } else if(this.currentQuestionNo < 101 && this.currentQuestionNo > 50) {
+      this.currentSection = 'Chemistry';
+    } else if(this.currentQuestionNo < 151 && this.currentQuestionNo > 100) {
+      this.currentSection = 'Maths';
+    } else {
+      this.currentSection = 'Physics';
+    }
     this.currentQuestion = this.questionMap.get(this.currentQuestionNo) || null;
     this.currentQuestionModel = this.snapshotMap.get(this.currentQuestionNo)!;
 

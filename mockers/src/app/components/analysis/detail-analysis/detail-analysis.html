@@ -1,4 +1,12 @@
-<div class="container-fluid p-3">
+<!-- Spinner -->
+<div *ngIf="loading" class="d-flex justify-content-center align-items-center" style="height: 100vh;">
+  <div class="spinner-border text-primary" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+</div>
+
+<!-- Main Content -->
+<div *ngIf="!loading" class="container-fluid p-3">
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm p-2 mb-3">
     <div class="container-fluid">
@@ -8,9 +16,7 @@
 
       <!-- Timer -->
       <div class="order-lg-2 mx-auto">
-        <div
-          class="timer-box px-3 py-1 bg-light rounded-pill border small fw-semibold text-dark"
-        >
+        <div class="timer-box px-3 py-1 bg-light rounded-pill border small fw-semibold text-dark">
           <!-- Timer content here -->
         </div>
       </div>
@@ -30,9 +36,7 @@
 
       <!-- Right side -->
       <div class="collapse navbar-collapse order-lg-3" id="navbarContent">
-        <div
-          class="d-flex align-items-center ms-lg-auto flex-column flex-lg-row gap-3 mt-3 mt-lg-0"
-        >
+        <div class="d-flex align-items-center ms-lg-auto flex-column flex-lg-row gap-3 mt-3 mt-lg-0">
           <a class="nav-link text-dark fw-semibold" href="#">
             <i class="bi bi-person"></i> {{ username || "Guest" }}
           </a>
@@ -45,11 +49,10 @@
   </nav>
 
   <!-- Section Tabs -->
-<app-analysis-section-tabs
-  (currentSection)="handleCurrentSection($event)"
-  [currentQuestionNo]="currentQuestionNo"
-></app-analysis-section-tabs>
-
+  <app-analysis-section-tabs
+    (currentSection)="handleCurrentSection($event)"
+    [currentQuestionNo]="currentQuestionNo"
+  ></app-analysis-section-tabs>
 
   <!-- Main Content -->
   <div class="row">
@@ -63,9 +66,8 @@
           [currentQuestionModel]="currentQuestionModel"
           [currentQuestionIndex]="currentQuestionNo || 0"
           (saveStatusAndNext)="handleNextQuestion($event)"
-              (saveStatusAndPrev)="handlePreviousQuestion($event)"
-          >
-          
+          (saveStatusAndPrev)="handlePreviousQuestion($event)"
+        >
         </app-analysis-questions>
       </div>
     </div>
@@ -83,10 +85,11 @@
     </div>
   </div>
 
-  <!-- Snapshot JSON (optional, debug) -->
-  <!-- <div class="card-custom mt-3">
+  <!-- Optional Snapshot JSON for debugging -->
+  <!--
+  <div class="card-custom mt-3">
     <h2>Attempt Snapshot</h2>
     <pre>{{ snapshotObject | json }}</pre>
   </div>
-</div> -->
+  -->
 </div>
