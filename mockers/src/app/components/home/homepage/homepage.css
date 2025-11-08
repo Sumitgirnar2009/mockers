@@ -1,142 +1,367 @@
     body {
-        padding-top: 72px;
-      }
+      padding-top: 72px;
+    }
 
-      /* Navbar gradient and style */
-      .navbar-gradient {
-        background: linear-gradient(90deg, #0062e6 0%, #33aeff 100%);
-        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-      }
-      .navbar-brand {
-        font-weight: 700;
-        letter-spacing: 0.4px;
-        color: #fff !important;
-      }
+    /* Navbar gradient and style */
+    .navbar-gradient {
+      background: linear-gradient(90deg, #0062e6 0%, #33aeff 100%);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    }
 
-      /* Carousel images */
+    .navbar-brand {
+      font-weight: 700;
+      letter-spacing: 0.4px;
+      color: #fff !important;
+    }
+
+    /* Carousel images */
+    .carousel-item img {
+      width: 100%;
+      height: 480px;
+      object-fit: cover;
+    }
+
+    @media (max-width: 768px) {
       .carousel-item img {
-        width: 100%;
-        height: 480px;
-        object-fit: cover;
+        height: 320px;
       }
-      @media (max-width: 768px) {
-        .carousel-item img {
-          height: 320px;
-        }
+    }
+
+    /* Captions */
+    .carousel-caption {
+      text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    /* Marketing/feature styles */
+    .marketing {
+      margin-top: 2.5rem;
+    }
+
+    .rounded-circle {
+      object-fit: cover;
+    }
+
+    /* Featurette */
+    .featurette-divider {
+      margin: 4rem 0;
+      border-top: 1px solid #eee;
+    }
+
+    .featurette-heading {
+      font-weight: 600;
+    }
+
+    .featurette-image {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+    }
+
+    /* Buttons */
+    .btn-register {
+      background: #ffc107;
+      color: #212529;
+      font-weight: 700;
+      border: none;
+    }
+
+    .btn-register:hover {
+      opacity: 0.95;
+    }
+
+    /* Accessibility focus */
+    .nav-link:focus,
+    .btn:focus {
+      outline: 3px solid rgba(51, 174, 255, 0.25);
+      outline-offset: 2px;
+    }
+
+    .navbar-custom {
+      background: rgba(25, 42, 86, 0.9);
+      /* Deep blue glass effect */
+      backdrop-filter: blur(6px);
+      padding: 0.8rem 2rem;
+      box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .navbar-brand .brand-text {
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: #fff;
+    }
+
+    .navbar-nav .nav-link {
+      color: #f1f1f1 !important;
+      margin: 0 12px;
+      position: relative;
+      transition: all 0.3s ease;
+    }
+
+    .navbar-nav .nav-link::after {
+      content: "";
+      position: absolute;
+      width: 0%;
+      height: 2px;
+      left: 0;
+      bottom: -4px;
+      background: #ffcc00;
+      transition: width 0.3s ease;
+    }
+
+    .navbar-nav .nav-link:hover::after {
+      width: 100%;
+    }
+
+    .auth-buttons .btn {
+      border-radius: 25px;
+      padding: 6px 16px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+
+    .btn-signin {
+      color: #fff;
+      border: 1px solid #fff;
+      margin-right: 10px;
+    }
+
+    .btn-signin:hover {
+      background: #fff;
+      color: #192a56;
+    }
+
+    .btn-register {
+      background: #ffcc00;
+      color: #192a56;
+      font-weight: 600;
+    }
+
+    .btn-register:hover {
+      background: #e6b800;
+      color: #fff;
+    }
+
+    .hover-card {
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .hover-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-title {
+      font-weight: 600;
+      font-size: 1.2rem;
+    }
+
+    /* Professional white-blue theme */
+    body {
+      background-color: #f8fbff;
+      /* soft blue-white background */
+      color: #333;
+      font-family: "Poppins", sans-serif;
+    }
+
+    .feature-card {
+      background-color: #ffffff;
+      border-radius: 15px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 123, 255, 0.15);
+    }
+
+    .feature-card .icon i {
+      color: #007bff;
+      /* primary blue tone */
+    }
+
+    .feature-card .card-title {
+      color: #0056b3;
+    }
+
+    .feature-card .card-text {
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 576px) {
+      .feature-card {
+        padding: 1rem;
       }
 
-      /* Captions */
-      .carousel-caption {
-        text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+      .feature-card .icon i {
+        font-size: 2.2rem;
       }
 
-      /* Marketing/feature styles */
-      .marketing {
-        margin-top: 2.5rem;
-      }
-      .rounded-circle {
-        object-fit: cover;
+      .feature-card .card-title {
+        font-size: 1.1rem;
       }
 
-      /* Featurette */
-      .featurette-divider {
-        margin: 4rem 0;
-        border-top: 1px solid #eee;
+      .feature-card .card-text {
+        font-size: 0.9rem;
       }
-      .featurette-heading {
-        font-weight: 600;
-      }
-      .featurette-image {
-        width: 100%;
-        max-width: 500px;
-        height: auto;
-        border-radius: 8px;
-        box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+    }
+
+    body {
+      background-color: #f8fbff;
+      /* soft blue-white background */
+      color: #333;
+      font-family: "Poppins", sans-serif;
+    }
+
+    .feature-card {
+      background-color: #ffffff;
+      border-radius: 15px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 123, 255, 0.15);
+    }
+
+    .feature-card .icon i {
+      color: #007bff;
+    }
+
+    .feature-card .card-title {
+      color: #0056b3;
+    }
+
+    .feature-card .card-text {
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 576px) {
+      .feature-card {
+        padding: 1rem;
       }
 
-      /* Buttons */
-      .btn-register {
-        background: #ffc107;
-        color: #212529;
-        font-weight: 700;
-        border: none;
-      }
-      .btn-register:hover {
-        opacity: 0.95;
+      .feature-card .icon i {
+        font-size: 2.2rem;
       }
 
-      /* Accessibility focus */
-      .nav-link:focus,
-      .btn:focus {
-        outline: 3px solid rgba(51, 174, 255, 0.25);
-        outline-offset: 2px;
+      .feature-card .card-title {
+        font-size: 1.1rem;
       }
 
-      .navbar-custom {
-        background: rgba(25, 42, 86, 0.9); /* Deep blue glass effect */
-        backdrop-filter: blur(6px);
-        padding: 0.8rem 2rem;
-        box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+      .feature-card .card-text {
+        font-size: 0.9rem;
       }
-      .navbar-brand .brand-text {
-        font-weight: 600;
-        font-size: 1.25rem;
-        color: #fff;
-      }
-      .navbar-nav .nav-link {
-        color: #f1f1f1 !important;
-        margin: 0 12px;
-        position: relative;
-        transition: all 0.3s ease;
-      }
-      .navbar-nav .nav-link::after {
-        content: "";
-        position: absolute;
-        width: 0%;
-        height: 2px;
-        left: 0;
-        bottom: -4px;
-        background: #ffcc00;
-        transition: width 0.3s ease;
-      }
-      .navbar-nav .nav-link:hover::after {
-        width: 100%;
-      }
-      .auth-buttons .btn {
-        border-radius: 25px;
-        padding: 6px 16px;
-        font-weight: 500;
-        transition: all 0.3s ease;
-      }
-      .btn-signin {
-        color: #fff;
-        border: 1px solid #fff;
-        margin-right: 10px;
-      }
-      .btn-signin:hover {
-        background: #fff;
-        color: #192a56;
-      }
-      .btn-register {
-        background: #ffcc00;
-        color: #192a56;
-        font-weight: 600;
-      }
-      .btn-register:hover {
-        background: #e6b800;
-        color: #fff;
+    }
+
+    body {
+      background-color: #f8fbff;
+      /* soft blue-white background */
+      color: #333;
+      font-family: "Poppins", sans-serif;
+    }
+
+    /* Card styling */
+    .feature-card {
+      background-color: #ffffff;
+      border-radius: 15px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 123, 255, 0.15);
+    }
+
+    /* Icon and text colors */
+    .feature-card .icon i {
+      color: #007bff;
+    }
+
+    .feature-card .card-title {
+      color: #0056b3;
+    }
+
+    .feature-card .card-text {
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 576px) {
+      .feature-card {
+        padding: 1rem;
       }
 
-      .hover-card {
-        transition: transform 0.2s ease, box-shadow 0.2s ease;
-      }
-      .hover-card:hover {
-        transform: translateY(-6px);
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-      }
-      .card-title {
-        font-weight: 600;
-        font-size: 1.2rem;
+      .feature-card .icon i {
+        font-size: 2.2rem;
       }
 
-     
+      .feature-card .card-title {
+        font-size: 1.1rem;
+      }
+
+      .feature-card .card-text {
+        font-size: 0.9rem;
+      }
+    }
+
+    body {
+  background-color: #f8fbff; /* soft blue-white background */
+  color: #333;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Featurette Section */
+.featurette-heading {
+  color: #0056b3;
+}
+
+.featurette ul {
+  list-style-type: disc;
+  margin-left: 1rem;
+}
+
+.table {
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+  padding: 0.75rem;
+}
+
+.table thead {
+  background-color: #e3f2fd;
+  font-weight: 600;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f9ff;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .featurette-heading {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .featurette ul {
+    font-size: 0.95rem;
+  }
+
+  .table th,
+  .table td {
+    font-size: 0.9rem;
+  }
+}

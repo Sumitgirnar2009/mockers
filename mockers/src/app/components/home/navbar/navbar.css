@@ -166,3 +166,24 @@
       }
     }
 
+/* --- Logo adjustments --- */
+.navbar-logo {
+  height: 100%;              /* Fill navbar height */
+  max-height: 60px;          /* Prevent oversizing */
+  object-fit: contain;       /* Maintain aspect ratio */
+  margin-right: 10px;
+  padding: 4px;              /* Small padding for visual balance */
+  background-color: transparent; /* Ensure transparent background */
+  border-radius: 6px;        /* Optional: slight rounding looks cleaner */
+}
+
+/* For navbar to match image background perfectly */
+.navbar-custom {
+  background: rgba(25, 42, 86, 0.95); /* Deep navy tone */
+  backdrop-filter: blur(6px);
+  min-height: 64px; /* ensures consistent navbar height */
+  display: flex;
+  align-items: center;
+}
+
+

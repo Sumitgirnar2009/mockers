@@ -9,20 +9,17 @@
         *ngFor="let quiz of quizRecords; let i = index"
         [ngClass]="quiz.quizType"
       >
-        <!-- Quiz name -->
-        <h3>
-          <b>{{ quiz.quizName }}</b>
-        </h3>
+        <h3><b>{{ quiz.quizName }}</b></h3>
 
         <p>
           {{
-            quiz.quizType === "free"
-              ? "Try this free mock test to start your preparation!"
-              : "This is a paid test. Subscribe to start."
+            quiz.quizType === 'free'
+              ? 'Try this free mock test to start your preparation!'
+              : 'This is a paid test. Subscribe to start.'
           }}
         </p>
 
-        <!-- Continue or Start button with attempt no -->
+        <!-- Continue or Start button -->
         <button
           *ngIf="quiz.isProgress; else startButton"
           class="continue-btn"
@@ -47,36 +44,41 @@
           </button>
         </ng-template>
 
-        <!-- Updated button text -->
         <button
           class="view-btn"
           [routerLink]="['/attempts-analysis', quiz.quizId]"
         >
-          View previous attempts performance
+          View Previous Attempts
         </button>
       </div>
 
-      <!-- Locked tests -->
+      <!-- Locked Tests -->
       <div class="mock-test-item locked">
         <h3>Mock Test 2</h3>
         <p>Unlock to access this test.</p>
-        <button class="unlock-btn"><i class="fas fa-lock"></i> Unlock</button>
+        <button class="unlock-btn">
+          <i class="fas fa-lock"></i> Unlock
+        </button>
       </div>
 
       <div class="mock-test-item locked">
         <h3>Mock Test 3</h3>
         <p>Unlock to access this test.</p>
-        <button class="unlock-btn"><i class="fas fa-lock"></i> Unlock</button>
+        <button class="unlock-btn">
+          <i class="fas fa-lock"></i> Unlock
+        </button>
       </div>
 
-      <!-- More tests - Updated with centered, professional button -->
+      <!-- More Tests -->
       <div class="mock-test-item more-tests">
         <div class="more-tests-container">
           <button class="more-btn">
             <span class="more-btn-text">See More Tests</span>
             <i class="fas fa-chevron-down more-btn-icon"></i>
           </button>
-          <p class="more-tests-description">Explore our full test library</p>
+          <p class="more-tests-description">
+            Explore our complete test library
+          </p>
         </div>
       </div>
     </div>
