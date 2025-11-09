@@ -13,12 +13,11 @@ export class UserService {
   isAuthenticated = signal(false);
 
   constructor() {
-    // Subscribe to userData$
-
-
+    // Subscribe to userData$ (contains claims from Id token / user info endpoint)
     this.oidcSecurityService.userData$.subscribe(({ userData }) => {
+      // Update the user signal with all claims
       this.user.set(userData);
-      console.log('User Data from userData$:', userData);
+      console.log('User Data from userData$ (all attributes):', userData);
     });
 
     // Subscribe to isAuthenticated$
@@ -28,21 +27,30 @@ export class UserService {
     });
 
     // Check authentication on service init
-    this.oidcSecurityService.checkAuth().subscribe(({ isAuthenticated, userData, accessToken,idToken }) => {
+    this.oidcSecurityService.checkAuth().subscribe(({ isAuthenticated, userData, accessToken, idToken }) => {
       console.log('Authenticated (checkAuth):', isAuthenticated);
-      console.log('User Data (checkAuth):', userData);
+      console.log('User Data (checkAuth - all attributes):', userData);
       console.log('Access Token (checkAuth):', accessToken);
       console.log('id Token (checkAuth):', idToken);
 
-      // Update signals if needed
+      // Update signals
       this.user.set(userData);
       this.isAuthenticated.set(isAuthenticated);
+
+      // OPTIONAL: Log individual optional attributes if you know their keys
+      const optionalAttrs = ['phone_number', 'picture', 'preferred_username'];
+      optionalAttrs.forEach(attr => {
+        if (userData && userData[attr]) {
+          console.log(`Optional attribute - ${attr}:`, userData[attr]);
+        }
+      });
     });
   }
 
   getUser() {
     return this.user();
   }
+
   getUserSignal() {
     return this.user;
   }

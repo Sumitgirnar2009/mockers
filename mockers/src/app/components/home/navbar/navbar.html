@@ -70,10 +70,8 @@
             <!-- Navbar profile section -->
             <span *ngIf="isAuthenticated()">
               <i class="fas fa-user-circle"></i>
-              <div>Profile (username): {{ user()?.username }}</div>
-              <div>Preferred Username: {{ user()?.preferred_username }}</div>
-              <div>Name: {{ user()?.name }}</div>
-              <div>Email: {{ user()?.email }}</div>
+              Profile {{ user()?.preferred_username }},
+              {{ user()?.preferred_username || user()?.username }}
             </span>
           </a>
           <ul
