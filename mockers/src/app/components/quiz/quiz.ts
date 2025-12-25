@@ -23,13 +23,27 @@ import { ActivatedRoute, Router } from '@angular/router';
 @Component({
   selector: 'app-quiz',
   standalone: true,
-  imports: [Legend, Questions, Navigator, Timer, SectionTabs, NgIf],
+  imports: [Questions, Navigator, Timer, SectionTabs, NgIf],
   templateUrl: './quiz.html',
   styleUrl: './quiz.css',
 })
 export class Quiz {
 
 
+//  user: any;
+  isAuthenticated: any;
+  user: any;
+//   isMenuOpen = false; // controls mobile menu
+//   oidcSecurityService: any;
+
+//   constructor(private userService: UserService) {
+//     // assign signals/observables from service
+//     this.user = this.userService.user;
+//     
+
+//     console.log(this.user());
+//     console.log(this.isAuthenticated());
+//   }
 
 
   // userservice = inject(UserService);
@@ -68,8 +82,10 @@ export class Quiz {
     console.log("Starting quiz for user ", this.userService.getUser().username)
 
     const username = this.userService.getUser().username
+    this.user= this.userService.getUser()
     this.username = username
     this.quizId = this.route.snapshot.paramMap.get('quizId')!;
+    this.isAuthenticated = this.userService.isAuthenticated;
     console.log('Quiz ID:', this.quizId);
 
     // Fetch or create attempt on startup

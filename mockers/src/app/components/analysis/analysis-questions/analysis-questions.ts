@@ -1,15 +1,19 @@
-import { Component, EventEmitter, Input, Output, SimpleChanges } from '@angular/core';
+import { Component, EventEmitter, inject, Input, Output, SimpleChanges } from '@angular/core';
 import { QuestionData, QuestionModel } from '../../../models/question.model';
 import { NgClass, NgFor, NgIf } from '@angular/common';
+import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
+import { LatexPipe } from '../../../pipes/latex-pipe';
 
 @Component({
   selector: 'app-analysis-questions',
   standalone: true,
-  imports: [NgFor, NgIf, NgClass],
+  imports: [NgFor, NgIf, NgClass,LatexPipe],
   templateUrl: './analysis-questions.html',
   styleUrls: ['./analysis-questions.css']
 })
 export class AnalysisQuestions {
+
+    private sanitizer = inject(DomSanitizer);
 
   @Input() snapshotMap!: Map<number, QuestionModel>; // received from parent
   @Input() questionMap!: Map<number, QuestionData>;  // received from parent
@@ -20,6 +24,34 @@ export class AnalysisQuestions {
   @Output() saveStatusAndNext = new EventEmitter<number>();
   @Output() saveStatusAndPrev = new EventEmitter<number>();
   
+   ngOnInit() {
+    this.loadKatexStyles();
+  }
+
+    private loadKatexStyles() {
+    if (!document.querySelector('link[href*="katex"]')) {
+      const link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = 'https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css';
+      document.head.appendChild(link);
+    }
+  }
+
+  
+  /**
+   * Safely gets text content, handling null/undefined values
+   */
+  getSafeText(text: string | null | undefined): string {
+    return text ?? '';
+  }
+
+  /**
+   * Sanitizes HTML content for safe rendering
+   */
+  sanitizeHtml(html: string): SafeHtml {
+    return this.sanitizer.bypassSecurityTrustHtml(html);
+  }
+
 
   get questionsArray(): QuestionData[] {
     return Array.from(this.questionMap?.values() || []);
@@ -39,23 +71,31 @@ export class AnalysisQuestions {
     }
   }
 
-  getOptionClass(optionNumber: number): string {
-  if (!this.currentQuestionModel) {
-    // Question not visited
-    return 'bg-light';
+getOptionClass(optionNumber: number) {
+  const selected = this.currentQuestionModel?.selectedOption;
+  const correct = this.currentQuestion?.correctAnswer;
+
+  // Not attempted → only show correct
+  if (selected === -1) {
+    return optionNumber === correct ? 'correct-option' : '';
   }
 
-  if (this.currentQuestionModel.selectedOption === -1) {
-    // Question visited but not answered
-    return 'bg-light';
+  // Correct answer selected
+  if (optionNumber === selected && selected === correct) {
+    return 'correct-selected';
   }
 
-  // Dummy correct answer logic: assume option 1 is correct
-  if (this.currentQuestionModel.selectedOption === optionNumber) {
-    return optionNumber === 1 ? 'bg-success text-white' : 'bg-danger text-white';
+  // Wrong answer selected
+  if (optionNumber === selected && selected !== correct) {
+    return 'wrong-selected';
   }
 
-  return 'bg-light';
+  // Highlight correct answer
+  if (optionNumber === correct) {
+    return 'correct-option';
+  }
+
+  return '';
 }
 
 

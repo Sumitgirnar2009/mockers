@@ -186,4 +186,27 @@
   align-items: center;
 }
 
+/* Show username on mobile under/next to brand */
+.username-text {
+  color: #ffcc00;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+/* Only visible on small screens */
+@media (min-width: 992px) {
+  .username-text {
+    display: none !important;
+  }
+}
+.username-text {
+  color: #ffcc00;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.username-text i {
+  font-size: 1.1rem;
+}
+
 

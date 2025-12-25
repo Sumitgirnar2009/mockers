@@ -5,8 +5,15 @@
       <img
         src="assets/web-images/web_logo.png"
         alt="MHT CET Logo"
-        class="navbar-logo"
+        class="navbar-logo me-2"
       />
+
+    <!-- 👇 Username visible only on mobile -->
+<span class="username-text ms-2 d-lg-none d-flex align-items-center">
+  <i class="bi bi-person-circle me-1"></i>
+  {{ user()?.preferred_username || user()?.username || "Guest" }}
+</span>
+
     </a>
 
     <!-- Toggler for mobile -->
@@ -57,6 +64,7 @@
         <a (click)="logout()" class="btn btn-register">
           <i class="fas fa-user-plus"></i> Log Out
         </a>
+
         <!-- Profile Dropdown -->
         <div class="dropdown">
           <a
@@ -67,11 +75,9 @@
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-            <!-- Navbar profile section -->
             <span *ngIf="isAuthenticated()">
               <i class="fas fa-user-circle"></i>
-              Profile {{ user()?.preferred_username }},
-              {{ user()?.preferred_username || user()?.username }}
+              Profile {{ user()?.preferred_username || user()?.username }}
             </span>
           </a>
           <ul

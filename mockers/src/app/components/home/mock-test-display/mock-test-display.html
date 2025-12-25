@@ -1,6 +1,10 @@
 <section class="mock-test-section">
   <div class="container">
-    <h2 class="section-title">Mock Tests</h2>
+    <!-- Enhanced Header -->
+    <div class="section-header">
+      <h2 class="section-title">Mock Tests</h2>
+      <p class="section-subtitle">Accelerate your learning journey with curated practice tests</p>
+    </div>
 
     <div class="mock-test-list">
       <!-- Dynamic quiz cards -->
@@ -9,75 +13,149 @@
         *ngFor="let quiz of quizRecords; let i = index"
         [ngClass]="quiz.quizType"
       >
-        <h3><b>{{ quiz.quizName }}</b></h3>
+        <!-- Quiz Status Badge -->
+        <div class="quiz-badge" [ngClass]="quiz.quizType">
+          {{ quiz.quizType === 'free' ? 'FREE' : 'PREMIUM' }}
+        </div>
 
-        <p>
-          {{
-            quiz.quizType === 'free'
-              ? 'Try this free mock test to start your preparation!'
-              : 'This is a paid test. Subscribe to start.'
-          }}
-        </p>
+        <!-- Progress Indicator -->
+        <div class="quiz-progress" *ngIf="quiz.isProgress">
+          <div class="progress-text">In Progress</div>
+          <div class="progress-bar">
+            <div class="progress-fill"></div>
+          </div>
+        </div>
 
-        <!-- Continue or Start button -->
-        <button
-          *ngIf="quiz.isProgress; else startButton"
-          class="continue-btn"
-          (click)="onQuizAction(quiz)"
-        >
-          Continue Test — Attempt
-          <span class="highlight">{{ quiz.attemptNo }}</span>
-        </button>
+        <div class="quiz-content">
+          <h3 class="quiz-title"><b>{{ quiz.quizName }}</b></h3>
 
-        <ng-template #startButton>
+          <p class="quiz-description">
+            {{
+              quiz.quizType === 'free'
+                ? 'Try this free mock test to start your preparation!'
+                : 'This is a paid test. Subscribe to start.'
+            }}
+          </p>
+
+          <!-- Quiz Meta Info -->
+          <div class="quiz-meta">
+            <div class="meta-item">
+              <i class="fas fa-clock"></i>
+              <span>60 min</span>
+            </div>
+            <div class="meta-item">
+              <i class="fas fa-question-circle"></i>
+              <span>30 Qs</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="quiz-actions">
+          <!-- Continue or Start button -->
           <button
-            class="start-btn"
+            *ngIf="quiz.isProgress; else startButton"
+            class="btn continue-btn"
             (click)="onQuizAction(quiz)"
-            [title]="
-              quiz.quizType !== 'free'
-                ? 'Subscribe to access'
-                : 'Click to start the test'
-            "
           >
-            Start Test — Attempt
+            <i class="fas fa-play-circle"></i>
+            Continue Test — Attempt
             <span class="highlight">{{ quiz.attemptNo }}</span>
           </button>
-        </ng-template>
 
-        <button
-          class="view-btn"
-          [routerLink]="['/attempts-analysis', quiz.quizId]"
-        >
-          View Previous Attempts
-        </button>
+          <ng-template #startButton>
+            <button
+              class="btn start-btn"
+              (click)="onQuizAction(quiz)"
+              [title]="
+                quiz.quizType !== 'free'
+                  ? 'Subscribe to access'
+                  : 'Click to start the test'
+              "
+              [class.premium-locked]="quiz.quizType !== 'free'"
+            >
+              <i class="fas fa-rocket" *ngIf="quiz.quizType === 'free'"></i>
+              <i class="fas fa-crown" *ngIf="quiz.quizType !== 'free'"></i>
+              {{ quiz.quizType === 'free' ? 'Start Test' : 'Unlock Test' }} — Attempt
+              <span class="highlight">{{ quiz.attemptNo }}</span>
+            </button>
+          </ng-template>
+
+          <button
+            class="btn view-btn"
+            [routerLink]="['/attempts-analysis', quiz.quizId]"
+          >
+            <i class="fas fa-chart-line"></i>
+            View Analysis
+          </button>
+        </div>
       </div>
 
       <!-- Locked Tests -->
       <div class="mock-test-item locked">
-        <h3>Mock Test 2</h3>
-        <p>Unlock to access this test.</p>
-        <button class="unlock-btn">
-          <i class="fas fa-lock"></i> Unlock
-        </button>
+        <div class="quiz-badge locked">
+          <i class="fas fa-lock"></i> PREMIUM
+        </div>
+        <div class="quiz-content">
+          <h3 class="quiz-title">Mock Test 2</h3>
+          <p class="quiz-description">Unlock to access this test and detailed performance analytics</p>
+          
+          <div class="quiz-meta">
+            <div class="meta-item">
+              <i class="fas fa-clock"></i>
+              <span>90 min</span>
+            </div>
+            <div class="meta-item">
+              <i class="fas fa-question-circle"></i>
+              <span>45 Qs</span>
+            </div>
+          </div>
+        </div>
+        <div class="quiz-actions">
+          <button class="btn unlock-btn">
+            <i class="fas fa-crown"></i> Unlock Premium
+          </button>
+        </div>
       </div>
 
       <div class="mock-test-item locked">
-        <h3>Mock Test 3</h3>
-        <p>Unlock to access this test.</p>
-        <button class="unlock-btn">
-          <i class="fas fa-lock"></i> Unlock
-        </button>
+        <div class="quiz-badge locked">
+          <i class="fas fa-lock"></i> PREMIUM
+        </div>
+        <div class="quiz-content">
+          <h3 class="quiz-title">Mock Test 3</h3>
+          <p class="quiz-description">Unlock to access this test and detailed performance analytics</p>
+          
+          <div class="quiz-meta">
+            <div class="meta-item">
+              <i class="fas fa-clock"></i>
+              <span>120 min</span>
+            </div>
+            <div class="meta-item">
+              <i class="fas fa-question-circle"></i>
+              <span>60 Qs</span>
+            </div>
+          </div>
+        </div>
+        <div class="quiz-actions">
+          <button class="btn unlock-btn">
+            <i class="fas fa-crown"></i> Unlock Premium
+          </button>
+        </div>
       </div>
 
       <!-- More Tests -->
       <div class="mock-test-item more-tests">
         <div class="more-tests-container">
-          <button class="more-btn">
-            <span class="more-btn-text">See More Tests</span>
+          <div class="more-tests-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <button class="btn more-btn">
+            <span class="more-btn-text">Explore More Tests</span>
             <i class="fas fa-chevron-down more-btn-icon"></i>
           </button>
           <p class="more-tests-description">
-            Explore our complete test library
+            Discover our complete test library with 100+ specialized assessments
           </p>
         </div>
       </div>

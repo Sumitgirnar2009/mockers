@@ -9,7 +9,6 @@ import { MockTestDisplay } from "../mock-test-display/mock-test-display";
   selector: 'app-homepage',
   imports: [Navbar, Carousel, MockTestDisplay],
   templateUrl: './homepage.html',
-  styleUrl: './homepage.css'
 })
 export class Homepage {
 

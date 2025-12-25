@@ -31,7 +31,7 @@ export class Timer implements OnDestroy {
     const startDate = new Date(startTime);
     const nowAtStart = new Date(currentTimeAtStart);
 
-    const totalDuration = 60 * 60+10; // e.g., 1 hour total quiz duration
+    const totalDuration = 120*60; // e.g., 1 hour total quiz duration
 
     // ✅ Calculate elapsed time till quiz fully loaded
     const elapsedBeforeLoad = Math.floor((nowAtStart.getTime() - startDate.getTime()) / 1000);

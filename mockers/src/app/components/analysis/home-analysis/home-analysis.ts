@@ -28,6 +28,8 @@ export class HomeAnalysis {
   attempts = signal<Attempt[]>([]);
   isLoggedIn = signal<boolean>(false);
   inProgress = signal<boolean>(false);
+  user: any;
+
 
   private readonly attemptsUrl = 'https://3xwi0sy6xk.execute-api.ap-south-1.amazonaws.com/dev1';
 
@@ -39,6 +41,7 @@ export class HomeAnalysis {
     private route: ActivatedRoute
   ) {
     // Get quizId from route
+    this.user= this.userService.getUser()
     this.quizId = this.route.snapshot.paramMap.get('quizId');
     console.log('📌 Quiz ID:', this.quizId);
 

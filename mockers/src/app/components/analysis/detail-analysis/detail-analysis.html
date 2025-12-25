@@ -10,9 +10,9 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm p-2 mb-3">
     <div class="container-fluid">
-      <a class="navbar-brand fw-bold text-primary" href="#">
+      <!-- <a class="navbar-brand fw-bold text-primary" href="#">
         <i class="bi bi-journal-text me-2"></i> Test Portal {{ attemptId }}
-      </a>
+      </a> -->
 
       <!-- Timer -->
       <div class="order-lg-2 mx-auto">
@@ -38,11 +38,11 @@
       <div class="collapse navbar-collapse order-lg-3" id="navbarContent">
         <div class="d-flex align-items-center ms-lg-auto flex-column flex-lg-row gap-3 mt-3 mt-lg-0">
           <a class="nav-link text-dark fw-semibold" href="#">
-            <i class="bi bi-person"></i> {{ username || "Guest" }}
+            <!-- <i class="bi bi-person"></i> {{ username || "Guest" }} -->
           </a>
-          <a class="nav-link text-dark fw-semibold" href="#">
+          <!-- <a class="nav-link text-dark fw-semibold" href="#">
             <i class="bi bi-gear"></i> Settings
-          </a>
+          </a> -->
         </div>
       </div>
     </div>
@@ -75,7 +75,7 @@
     <!-- Right Column: Legends & Navigator -->
     <div class="col-12 col-lg-4 mb-3">
       <div class="card-custom">
-        <app-analysis-legends></app-analysis-legends>
+        <!-- <app-analysis-legends></app-analysis-legends> -->
         <app-analysis-navigator
           (navigateQuestion)="handleNavigateQuestion($event)"
           [currentSection]="currentSection"

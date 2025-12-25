@@ -4,8 +4,8 @@
     <div class="header-content">
       <div class="user-info">
         <i class="fas fa-user-circle"></i>
-        <span>{{ username }}</span>
-        <span>{{ quizId }}</span>
+        {{ user.preferred_username || user.username || 'Guest' }}
+        <!-- <span>{{ quizId }}</span> -->
       </div>
     </div>
   </div>
@@ -37,7 +37,7 @@
             <h3>
               Attempt <span class="highlight">#{{ attempt["attemptNo"] }}</span>
             </h3>
-            <p class="attempt-id">ID: {{ attempt.attemptId }}</p>
+            <!-- <p class="attempt-id">ID: {{ attempt.attemptId }}</p> -->
             <span class="status-indicator" [ngClass]="attempt.status">
               <i
                 class="status-dot"

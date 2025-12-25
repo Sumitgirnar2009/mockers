@@ -16,6 +16,8 @@ export interface QuestionData {
   id: number;
   question: QuestionObj;   
   options: OptionObj[];
+  correctAnswer: number;
+  FullMarks: number;
 }
 
 export interface QuestionObj {

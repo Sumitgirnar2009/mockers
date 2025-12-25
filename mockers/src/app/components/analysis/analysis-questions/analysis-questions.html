@@ -1,85 +1,138 @@
-<div *ngIf="currentQuestion">
-  <!-- Question Header -->
-  <div class="d-flex justify-content-between align-items-center mb-2">
-    <h5>Question No. {{ currentQuestion.id }}</h5>
+<div *ngIf="currentQuestion" class="p-2">
 
-    <!-- Badge for question status -->
-    <span *ngIf="!currentQuestionModel" class="badge bg-secondary fs-6">
-      Not Visited
-    </span>
-    <span
-      *ngIf="currentQuestionModel && currentQuestionModel.selectedOption === -1"
-      class="badge bg-warning fs-6"
-    >
-      Not Answered
-    </span>
+  <!-- Header -->
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <h5 class="fw-bold">Question No. {{ currentQuestion.id }}</h5>
+
+    <!-- Status Badge -->
+    <ng-container>
+      <span *ngIf="!currentQuestionModel" class="badge bg-secondary fs-6">Not Visited</span>
+
+      <span
+        *ngIf="currentQuestionModel && currentQuestionModel.selectedOption === -1"
+        class="badge bg-warning fs-6"
+      >
+        Not Answered
+      </span>
+
+      <span
+        *ngIf="currentQuestionModel && currentQuestionModel.selectedOption !== -1"
+        class="badge bg-info fs-6"
+      >
+        Attempted
+      </span>
+    </ng-container>
   </div>
 
   <!-- Question Text -->
-  <p class="fw-semibold">{{ currentQuestion.question.text }}</p>
+  <p class="fw-semibold question-text"
+     [innerHTML]="sanitizeHtml(getSafeText(currentQuestion.question.text) | latex)">
+  </p>
 
   <!-- Question Image -->
   <div
-    *ngIf="
-      currentQuestion.question.image &&
-      currentQuestion.question.image !== 'NA' &&
-      currentQuestion.question.image !== 'null' &&
-      currentQuestion.question.image !== '-'
-    "
-    class="mb-2"
-    style="width: 100%; background-color: white; display: inline-block"
+    *ngIf="currentQuestion.question.image && currentQuestion.question.image !== 'NA'"
+    class="mb-3 text-center"
   >
-    <img
-      [src]="currentQuestion.question.image"
-      alt="Question Image"
-      class="img-fluid rounded"
-      style="max-height: 250px; object-fit: contain; display: block"
-    />
+    <img [src]="currentQuestion.question.image"
+         alt="Question Image"
+         class="img-fluid rounded border"
+         style="max-height: 250px; object-fit: contain" />
   </div>
 
-  <!-- Options List -->
+  <!-- Options -->
   <div class="list-group">
+
     <label
       *ngFor="let option of currentQuestion.options; let i = index"
-      class="list-group-item d-flex flex-column align-items-start"
+      class="list-group-item d-flex flex-column align-items-start py-3"
       [ngClass]="getOptionClass(i + 1)"
     >
+
       <div class="d-flex align-items-center w-100">
+
+        <!-- Radio -->
         <input
           type="radio"
           name="option"
           class="form-check-input me-2"
-          [value]="i"
           [checked]="currentQuestionModel?.selectedOption === i + 1"
           disabled
         />
-        <span>{{ option.text }}</span>
+
+        <!-- Option Text -->
+        <span class="flex-grow-1"
+              [innerHTML]="sanitizeHtml(getSafeText(option.text) | latex)">
+        </span>
+
+        <!-- Indicators (tick/cross) -->
+        <span class="ms-2">
+          <!-- Correct answer tick -->
+          <i *ngIf="currentQuestion.correctAnswer === i + 1"
+             class="bi bi-check-circle-fill text-success fs-5"></i>
+
+          <!-- Wrong answer cross -->
+          <i *ngIf="currentQuestionModel?.selectedOption === i + 1 &&
+                   currentQuestion.correctAnswer !== i + 1"
+             class="bi bi-x-circle-fill text-danger fs-5"></i>
+        </span>
+
       </div>
 
       <!-- Option Image -->
-      <div *ngIf="option.image && option.image !== 'NA'" class="mt-1 w-100">
-        <img
-          [src]="option.image"
-          alt="Option Image"
-          class="img-fluid rounded"
-          style="max-height: 150px; object-fit: contain"
-        />
+      <div *ngIf="option.image && option.image !== 'NA'" class="mt-2 w-100">
+        <img [src]="option.image"
+             alt="Option Image"
+             class="img-fluid rounded border"
+             style="max-height: 150px; object-fit: contain" />
       </div>
+
     </label>
+
   </div>
 
-  <!-- Navigation Buttons -->
-  <div class="d-flex justify-content-between mt-4 p-3 bg-light rounded-3 shadow-sm action-buttons">
-    <!-- Previous Button -->
+
+  <!-- Marks Summary Box -->
+  <div class="mt-4 p-3 border rounded bg-light shadow-sm">
+    <h6 class="fw-bold">Marks Summary</h6>
+
+    <p class="mb-1">Full Marks: <strong>{{ currentQuestion.FullMarks }}</strong></p>
+
+    <p class="mb-1" *ngIf="currentQuestionModel?.selectedOption === -1">
+      Scored: <strong>0</strong> (Not Attempted)
+    </p>
+
+    <p class="mb-1" *ngIf="currentQuestionModel?.selectedOption !== -1">
+      Scored:
+      <strong>
+        {{
+          currentQuestionModel?.selectedOption === currentQuestion.correctAnswer
+            ? currentQuestion.FullMarks
+            : 0
+        }}
+      </strong>
+    </p>
+
+    <p class="mt-2">
+      Correct Answer:
+      <strong class="text-success">
+        Option {{ currentQuestion.correctAnswer }}
+      </strong>
+    </p>
+  </div>
+
+
+  <!-- Buttons -->
+  <div class="d-flex justify-content-between mt-4 p-3 bg-light rounded-3 shadow-sm">
     <button class="btn btn-outline-primary d-flex align-items-center" (click)="previous()">
       <i class="bi bi-arrow-left me-2"></i>
-      <span>Previous</span>
+      Previous
     </button>
 
-    <!-- Next Button -->
     <button class="btn btn-success d-flex align-items-center" (click)="Next()">
-      <span>Next</span>
+      Next
       <i class="bi bi-arrow-right ms-2"></i>
     </button>
   </div>
+
 </div>
