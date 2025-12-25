@@ -264,6 +264,15 @@ ngOnDestroy(): void {
     }
   }
 
+  // Add this method to your Questions class
+getOptionLetter(index: number): string {
+  return String.fromCharCode(65 + index); // A, B, C, D, etc.
+}
+
+// Also add this method to handle loading states if needed
+isLoading(): boolean {
+  return !this.currentQuestionData;
+}
   /**
    * Handles option selection
    */
@@ -272,6 +281,7 @@ ngOnDestroy(): void {
       this.currentQuestionModel.selectedOption = optionIndex + 1;
     }
   }
+  
 
   /**
    * Clears the current selection

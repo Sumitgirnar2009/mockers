@@ -1,10 +1,20 @@
 div {
-  font-size: 2rem;
-  font-weight: bold;
-  color: black;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #0d6efd;
   text-align: center;
+  letter-spacing: 1px;
 }
 
+/* Last 1 minute */
 div.warning {
-  color: red; /* Turns red in last 1 minute */
+  color: #dc3545;
+  animation: pulse 1s infinite;
+}
+
+/* Subtle pulse animation */
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.6; }
+  100% { opacity: 1; }
 }

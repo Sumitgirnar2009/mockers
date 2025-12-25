@@ -1,130 +1,129 @@
 @if (currentQuestionData) {
 <div class="question-wrapper">
-
-  <!-- Question Number -->
-  <h5 class="fw-bold">
-    Question No. {{ currentQuestionData.id | mod : 50 }}
-  </h5>
+  
+  <!-- Question Header with Number and Status -->
+  <div class="question-header">
+    <div class="question-number">
+      Question {{ currentQuestionData.id | mod : 50 }}
+    </div>
+    @if (currentQuestionModel?.IsMarkedForReview) {
+    <span class="question-status">
+      <i class="bi bi-bookmark-star-fill me-1"></i> Marked for Review
+    </span>
+    }
+  </div>
 
   <!-- Question Text -->
-  <p
-    class="fw-semibold question-text"
-    [innerHTML]="
-      sanitizeHtml(getSafeText(currentQuestionData.question.text) | latex)
-    ">
-  </p>
+  <div class="question-text-container">
+    <div class="question-text" 
+         [innerHTML]="sanitizeHtml(getSafeText(currentQuestionData.question.text) | latex)">
+    </div>
+  </div>
 
   <!-- Question Image -->
-  @if (
-    currentQuestionData.question.image &&
-    currentQuestionData.question.image.trim() !== '' &&
-    currentQuestionData.question.image.trim().toUpperCase() !== 'NA'
-  ) {
-<!-- Replace the current question image div with: -->
-<div class="mb-3 question-image">
-  <img
-    [src]="currentQuestionData.question.image"
-    alt="Question Image"
-    class="question-img zoomable-image"
-    (click)="openImageModal(currentQuestionData.question.image, $event)"
-    title="Click to enlarge"
-  />
-</div>
+  @if (currentQuestionData.question.image &&
+      currentQuestionData.question.image.trim() !== '' &&
+      currentQuestionData.question.image.trim().toUpperCase() !== 'NA') {
+  <div class="question-image">
+    <img
+      [src]="currentQuestionData.question.image"
+      alt="Question Image"
+      class="question-img zoomable-image"
+      (click)="openImageModal(currentQuestionData.question.image, $event)"
+      title="Click to enlarge"
+    />
+    <small class="text-muted d-block mt-2">
+      <i class="bi bi-zoom-in me-1"></i> Click image to zoom
+    </small>
+  </div>
   }
 
-  <!-- Options -->
-  <div class="list-group">
-
+  <!-- Options Container -->
+  <div class="options-container">
     @for (option of currentQuestionData.options; track i; let i = $index) {
+    <div class="option-item" 
+         [class.selected]="isOptionSelected(i)"
+         (click)="onOptionSelect(i)">
+      
+      <!-- Option Letter -->
+      <div class="option-letter">
+        {{ getOptionLetter(i) }}
+      </div>
+      
+      <!-- Option Radio Indicator -->
+      <div class="option-radio"></div>
 
-    <label class="list-group-item option-item" (click)="onOptionSelect(i)">
-
-      <div class="d-flex align-items-start gap-2">
-
-        <!-- Radio -->
-        <input
-          type="radio"
-          name="option"
-          class="form-check-input mt-1"
-          [checked]="isOptionSelected(i)"
-        />
-
-        <!-- Option Content -->
-        <div class="option-content">
-
-          <!-- Option Text -->
-          <div
-            class="option-text"
-            [innerHTML]="sanitizeHtml(getSafeText(option.text) | latex)">
-          </div>
-
-          <!-- Option Image -->
-          @if (
-            option.image &&
-            option.image.trim() !== '' &&
-            option.image.trim().toUpperCase() !== 'NA'
-          ) {
-        <!-- Replace the current option image div with: -->
-<div class="mt-2">
-  <img
-    [src]="option.image"
-    alt="Option Image"
-    class="option-img zoomable-image"
-    (click)="$event.stopPropagation(); openImageModal(option.image, $event)"
-    title="Click to enlarge"
-  />
-</div>
-          }
-
+      <!-- Option Content -->
+      <div class="option-content">
+        
+        <!-- Option Text -->
+        <div class="option-text"
+             [innerHTML]="sanitizeHtml(getSafeText(option.text) | latex)">
         </div>
 
+        <!-- Option Image -->
+        @if (option.image &&
+            option.image.trim() !== '' &&
+            option.image.trim().toUpperCase() !== 'NA') {
+        <div class="option-image">
+          <img
+            [src]="option.image"
+            alt="Option Image"
+            class="option-img zoomable-image"
+            (click)="$event.stopPropagation(); openImageModal(option.image, $event)"
+            title="Click to enlarge"
+          />
+        </div>
+        }
       </div>
-    </label>
-
+    </div>
     }
   </div>
 </div>
 }
 
 <!-- Image Modal -->
-<!-- Image Modal -->
-<div
-  class="modal fade image-modal"
-  id="imageModal"
-  tabindex="-1"
-  aria-labelledby="imageModalLabel"
-  aria-hidden="true"
-  #imageModal>
-  <div class="modal-dialog modal-dialog-centered modal-lg">
+<div class="modal fade image-modal" 
+     id="imageModal" 
+     tabindex="-1" 
+     aria-labelledby="imageModalLabel" 
+     aria-hidden="true" 
+     #imageModal>
+  <div class="modal-dialog modal-dialog-centered modal-xl">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="imageModalLabel">
-          <i class="bi bi-image me-2"></i> Image Preview
+          <i class="bi bi-zoom-in me-2"></i> Image Preview
         </h5>
         <div class="zoom-controls">
-          <button type="button" class="btn btn-sm btn-outline-secondary" 
-                  (click)="zoomOut()" title="Zoom Out">
+          <button type="button" 
+                  class="btn btn-sm btn-outline-light" 
+                  (click)="zoomOut()" 
+                  title="Zoom Out">
             <i class="bi bi-dash-lg"></i>
           </button>
-          <span class="zoom-level mx-2">{{ (zoomLevel * 100).toFixed(0) }}%</span>
-          <button type="button" class="btn btn-sm btn-outline-secondary" 
-                  (click)="zoomIn()" title="Zoom In">
+          <span class="zoom-level">{{ (zoomLevel * 100).toFixed(0) }}%</span>
+          <button type="button" 
+                  class="btn btn-sm btn-outline-light" 
+                  (click)="zoomIn()" 
+                  title="Zoom In">
             <i class="bi bi-plus-lg"></i>
           </button>
-          <button type="button" class="btn btn-sm btn-outline-secondary ms-2" 
-                  (click)="resetZoom()" title="Reset Zoom">
-            <i class="bi bi-zoom-out"></i>
+          <button type="button" 
+                  class="btn btn-sm btn-outline-light ms-2" 
+                  (click)="resetZoom()" 
+                  title="Reset Zoom">
+            <i class="bi bi-arrow-counterclockwise"></i>
           </button>
         </div>
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="modal"
-          aria-label="Close"
-          (click)="resetZoom()">
+        <button type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+                (click)="resetZoom()">
         </button>
       </div>
-      <div class="modal-body p-0">
+      <div class="modal-body">
         <div class="image-container-modal" #imageContainer>
           <img
             [src]="selectedImage"
@@ -139,53 +138,47 @@
           />
         </div>
       </div>
-      <div class="modal-footer justify-content-between">
+      <div class="modal-footer">
         <small class="text-muted">
-          Use mouse wheel to zoom • Click and drag to pan
+          <i class="bi bi-mouse me-1"></i> Scroll to zoom • 
+          <i class="bi bi-arrows-move ms-2 me-1"></i> Drag to pan
         </small>
         <div>
-         
-          <button
-            type="button"
-            class="btn btn-primary btn-sm"
-            data-bs-dismiss="modal"
-            (click)="resetZoom()">
-            Close
+          <button type="button"
+                  class="btn btn-primary btn-sm"
+                  data-bs-dismiss="modal"
+                  (click)="resetZoom()">
+            <i class="bi bi-x-lg me-1"></i> Close
           </button>
         </div>
       </div>
     </div>
   </div>
 </div>
-<!-- Action Buttons -->
-<div
-  class="d-flex flex-wrap gap-2 mt-4 p-3 bg-light rounded-3 shadow-sm action-buttons">
 
-  <button
-    class="btn btn-warning d-flex align-items-center"
-    (click)="markForReviewAndNext()">
-    <i class="bi bi-bookmark-star me-2"></i>
+<!-- Action Buttons -->
+<div class="action-buttons">
+  <button class="action-btn btn-review"
+          (click)="markForReviewAndNext()">
+    <i class="bi bi-bookmark-star btn-icon"></i>
     <span>Mark for Review</span>
   </button>
 
-  <button
-    class="btn btn-outline-danger d-flex align-items-center"
-    (click)="clearSelection()">
-    <i class="bi bi-eraser me-2"></i>
-    <span>Clear</span>
+  <button class="action-btn btn-clear"
+          (click)="clearSelection()">
+    <i class="bi bi-eraser btn-icon"></i>
+    <span>Clear Answer</span>
   </button>
 
-  <button
-    class="btn btn-success d-flex align-items-center ms-auto"
-    (click)="saveAndNext()">
+  <button class="action-btn btn-save"
+          (click)="saveAndNext()">
     <span>Save & Next</span>
-    <i class="bi bi-arrow-right ms-2"></i>
+    <i class="bi bi-arrow-right btn-icon"></i>
   </button>
 
-  <button
-    class="btn btn-outline-primary d-flex align-items-center"
-    (click)="previous()">
-    <i class="bi bi-arrow-left me-2"></i>
+  <button class="action-btn btn-prev"
+          (click)="previous()">
+    <i class="bi bi-arrow-left btn-icon"></i>
     <span>Previous</span>
   </button>
 </div>
