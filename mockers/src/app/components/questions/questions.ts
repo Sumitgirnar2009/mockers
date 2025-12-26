@@ -75,7 +75,7 @@ openImageModal(imageSrc: string, event?: Event): void {
   }
   
   this.selectedImage = imageSrc;
-  this.zoomLevel = 2;
+  this.zoomLevel = 1.2;
   this.translateX = 0;
   this.translateY = 0;
   
@@ -109,7 +109,7 @@ zoomOut(): void {
  * Reset zoom
  */
 resetZoom(): void {
-  this.zoomLevel = 2;
+  this.zoomLevel = 1.2;
   this.translateX = 0;
   this.translateY = 0;
 }

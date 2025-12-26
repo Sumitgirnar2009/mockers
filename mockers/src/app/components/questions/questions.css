@@ -1,3 +1,4 @@
+
 /* ===========================================
    Professional Ed-Tech Quiz Interface - No Scroll
 =========================================== */
@@ -41,11 +42,16 @@
   box-shadow: var(--shadow-sm);
   border: 1px solid var(--gray-200);
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-  overflow: hidden; /* Prevent any overflow */
-  max-height: calc(100vh - 180px); /* Fixed height based on viewport */
+
+  /* ALLOW FULL EXPANSION */
+  height: auto;
+  max-height: none;
+  overflow: visible;
+
   display: flex;
   flex-direction: column;
 }
+
 
 /* ---------------------------
    Question Header & Number
@@ -148,14 +154,16 @@
 .options-container {
   background: white;
   border-radius: var(--radius-md);
-  overflow-y: auto; /* Only vertical scroll here */
-  overflow-x: hidden;
   margin-top: 1rem;
   border: 1px solid var(--gray-200);
-  flex: 1; /* Take remaining space */
-  min-height: 0; /* Important for flex child scrolling */
-  max-height: calc(100vh - 450px); /* Limit height */
+
+  /* NO SCROLL */
+  overflow: visible;
+  max-height: none;
+  height: auto;
+  flex: none;
 }
+
 
 /* Custom scrollbar for options */
 .options-container::-webkit-scrollbar {
@@ -711,3 +719,4 @@
 body.modal-open {
   overflow: hidden;
 }
+
