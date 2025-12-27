@@ -160,8 +160,8 @@
   /* FLEXIBLE SCROLL */
   overflow-y: auto;
   flex: 1 1 auto;
-  min-height: 0;
-  max-height: 60vh; /* Limit to 60% of viewport height */
+  /* min-height: 0;
+  max-height: 60vh; Limit to 60% of viewport height */
 }
 
 /* Custom scrollbar for options */
@@ -505,7 +505,7 @@
 /* Tablet Landscape (992px to 1199px) */
 @media (max-width: 1199px) and (min-width: 768px) {
   .options-container {
-    max-height: 55vh;
+    /* max-height: 55vh; */
   }
   
   .action-btn {
@@ -525,7 +525,7 @@
   }
   
   .options-container {
-    max-height: 50vh;
+    /* max-height: 50vh; */
   }
   
   .action-buttons {
@@ -557,7 +557,7 @@
   }
   
   .options-container {
-    max-height: 45vh;
+    /* max-height: 45vh; */
   }
   
   .action-buttons {
@@ -596,7 +596,7 @@
   }
   
   .options-container {
-    max-height: 40vh;
+    /* max-height: 40vh; */
   }
   
   .action-buttons {
@@ -627,7 +627,7 @@
   }
   
   .options-container {
-    max-height: 35vh;
+    /* max-height: 35vh; */
   }
   
   .option-item {
@@ -687,7 +687,7 @@
   }
   
   .options-container {
-    max-height: 50vh;
+    /* max-height: 50vh; */
   }
   
   .question-img {
@@ -756,7 +756,7 @@ body.modal-open {
   }
   
   .options-container {
-    max-height: none;
+    /* max-height: none; */
     overflow: visible;
   }
 }
