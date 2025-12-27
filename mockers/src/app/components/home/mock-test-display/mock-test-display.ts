@@ -18,7 +18,8 @@ export class MockTestDisplay implements OnInit {
 
   // Quiz IDs
   pcm_fst1_quizId = '37a81c5d-6362-41e4-aaf3-9d925579f538';
-  pcm_fst2_quizId = '36a81c5d-6362-41e4-aaf3-9d925579f512';
+  pcm_fst2_quizId = '9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41';
+  pcm_fst3_quizId = 'd19e7b35-3f0c-4a92-b8d1-6a4c0f5e8b22'; // MHT CET 2025 Shift 2 19th april
 
   // User + Attempt signals
   username!: string;
@@ -30,7 +31,8 @@ export class MockTestDisplay implements OnInit {
   // Quiz Records
   quizRecords: QuizRecord[] = [
     { quizId: this.pcm_fst1_quizId, quizName: 'PCM FULL SYLLABUS TEST 1', quizType: 'free', isProgress: false, attemptNo: 1 },
-    { quizId: this.pcm_fst2_quizId, quizName: 'PCM FULL SYLLABUS TEST 2', quizType: 'free', isProgress: false, attemptNo: 1 }
+    { quizId: this.pcm_fst2_quizId, quizName: 'PCM FULL SYLLABUS TEST 2', quizType: 'free', isProgress: false, attemptNo: 1 },
+    { quizId: this.pcm_fst3_quizId, quizName: 'PCM FULL SYLLABUS TEST 3', quizType: 'free', isProgress: false, attemptNo: 1 }
   ];
 
   private readonly attemptsUrl = 'https://3xwi0sy6xk.execute-api.ap-south-1.amazonaws.com/dev1';

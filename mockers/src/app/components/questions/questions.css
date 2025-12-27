@@ -110,7 +110,7 @@
 
 .question-text {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   line-height: 1.6;
   color: var(--dark-color);
   font-weight: 600;
@@ -494,7 +494,7 @@
   }
   
   .question-text {
-    font-size: 1rem;
+    font-size: 1.3rem;
     padding: 0.625rem;
   }
   
