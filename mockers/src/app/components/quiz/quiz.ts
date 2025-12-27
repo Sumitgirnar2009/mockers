@@ -388,7 +388,7 @@ export class Quiz {
           setTimeout(() => {
             this.ngZone.run(() => {
               localStorage.clear();
-              alert(`✅ Test submitted successfully!\nYour marks: ${res}`);
+              alert(`✅ Test submitted successfully! Go to Home Page to view your results.`);
               this.router.navigate(['/home']);
             });
           }, 100); // small delay allows spinner to disappear

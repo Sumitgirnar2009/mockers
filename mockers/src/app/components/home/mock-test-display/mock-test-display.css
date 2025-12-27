@@ -506,3 +506,319 @@
     font-size: 0.95rem;
   }
 }
+
+.subscribe-btn {
+  background: linear-gradient(135deg, #f59e0b, #f97316);
+  color: white;
+}
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-card {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  width: 360px;
+}
+
+/* Backdrop */
+.modal-backdrop {
+  position: fixed;
+  inset: 0; /* top:0 right:0 bottom:0 left:0 */
+  background: rgba(0, 0, 0, 0.65);
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Modal Card */
+.modal-card {
+  background: #ffffff;
+  width: 90%;
+  max-width: 420px;
+  border-radius: 14px;
+  padding: 24px 26px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+
+  animation: scaleIn 0.25s ease-out;
+}
+
+/* Title */
+.modal-card h3 {
+  margin: 0 0 12px;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+/* Benefits */
+.modal-card .benefits {
+  margin: 16px 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.modal-card .benefits li {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+}
+
+/* Actions */
+.modal-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.pay-btn {
+  flex: 1;
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  color: white;
+  font-weight: 600;
+}
+
+.cancel-btn {
+  flex: 1;
+  background: #f3f4f6;
+  color: #374151;
+}
+
+/* Animation */
+@keyframes scaleIn {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Backdrop */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  z-index: 1000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Card */
+.modal-card {
+  background: #fff;
+  width: 92%;
+  max-width: 440px;
+  border-radius: 14px;
+  padding: 24px;
+  box-shadow: 0 25px 60px rgba(0,0,0,0.3);
+  animation: fadeIn 0.25s ease-out;
+}
+
+.modal-title {
+  margin-bottom: 6px;
+  font-size: 1.3rem;
+}
+
+.modal-subtitle {
+  color: #6b7280;
+  margin-bottom: 16px;
+}
+
+/* Plans */
+.plans {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.plan {
+  display: flex;
+  gap: 10px;
+  border: 1px solid #e5e7eb;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.plan input {
+  accent-color: #16a34a;
+}
+
+/* Benefits */
+.benefits {
+  list-style: none;
+  padding: 0;
+  margin: 14px 0;
+}
+
+.benefits li {
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+}
+
+/* Actions */
+.modal-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.pay-btn {
+  flex: 1;
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  color: white;
+  font-weight: 600;
+}
+
+.cancel-btn {
+  flex: 1;
+  background: #f3f4f6;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Card */
+.modal-card {
+  background: linear-gradient(180deg, #ffffff, #f9fafb);
+  width: 92%;
+  max-width: 420px;
+  border-radius: 16px;
+  padding: 26px;
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.35);
+  animation: popIn 0.3s ease-out;
+}
+
+/* Header */
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.price-badge {
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-weight: 700;
+}
+
+/* Subtitle */
+.modal-subtitle {
+  margin-top: 6px;
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+
+/* Divider */
+.divider {
+  height: 1px;
+  background: #e5e7eb;
+  margin: 18px 0;
+}
+
+/* Benefits */
+.benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.benefits li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+}
+
+.benefits i {
+  color: #22c55e;
+  font-size: 1rem;
+}
+
+/* Trust */
+.trust-note {
+  margin-top: 14px;
+  font-size: 0.85rem;
+  color: #6b7280;
+  text-align: center;
+}
+
+/* Actions */
+.modal-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.pay-btn {
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  color: white;
+  font-weight: 700;
+  padding: 12px;
+  border-radius: 10px;
+  transition: transform 0.15s ease;
+}
+
+.pay-btn:hover {
+  transform: translateY(-1px);
+}
+
+.cancel-btn {
+  background: transparent;
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+/* Animation */
+@keyframes popIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+

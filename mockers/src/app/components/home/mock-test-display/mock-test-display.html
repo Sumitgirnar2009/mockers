@@ -3,7 +3,9 @@
     <!-- Enhanced Header -->
     <div class="section-header">
       <h2 class="section-title">Mock Tests</h2>
-      <p class="section-subtitle">Accelerate your learning journey with curated practice tests</p>
+      <p class="section-subtitle">
+        Accelerate your learning journey with curated practice tests
+      </p>
     </div>
 
     <div class="mock-test-list">
@@ -15,7 +17,7 @@
       >
         <!-- Quiz Status Badge -->
         <div class="quiz-badge" [ngClass]="quiz.quizType">
-          {{ quiz.quizType === 'free' ? 'FREE' : 'PREMIUM' }}
+          {{ quiz.quizType === "free" ? "FREE" : "PREMIUM" }}
         </div>
 
         <!-- Progress Indicator -->
@@ -27,13 +29,15 @@
         </div>
 
         <div class="quiz-content">
-          <h3 class="quiz-title"><b>{{ quiz.quizName }}</b></h3>
+          <h3 class="quiz-title">
+            <b>{{ quiz.quizName }}</b>
+          </h3>
 
           <p class="quiz-description">
             {{
-              quiz.quizType === 'free'
-                ? 'Try this free mock test to start your preparation!'
-                : 'This is a paid test. Subscribe to start.'
+              quiz.quizType === "free"
+                ? "Try this free mock test to start your preparation!"
+                : "This is a paid test. Subscribe to start."
             }}
           </p>
 
@@ -52,95 +56,40 @@
 
         <!-- Action Buttons -->
         <div class="quiz-actions">
-          <!-- Continue or Start button -->
-          <button
-            *ngIf="quiz.isProgress; else startButton"
-            class="btn continue-btn"
-            (click)="onQuizAction(quiz)"
-          >
-            <i class="fas fa-play-circle"></i>
-            Continue Test — Attempt
-            <span class="highlight">{{ quiz.attemptNo }}</span>
-          </button>
-
-          <ng-template #startButton>
+          <!-- FREE QUIZ -->
+          <ng-container *ngIf="quiz.quizType === 'free'; else lockedQuiz">
             <button
-              class="btn start-btn"
+              *ngIf="quiz.isProgress; else startButton"
+              class="btn continue-btn"
               (click)="onQuizAction(quiz)"
-              [title]="
-                quiz.quizType !== 'free'
-                  ? 'Subscribe to access'
-                  : 'Click to start the test'
-              "
-              [class.premium-locked]="quiz.quizType !== 'free'"
             >
-              <i class="fas fa-rocket" *ngIf="quiz.quizType === 'free'"></i>
-              <i class="fas fa-crown" *ngIf="quiz.quizType !== 'free'"></i>
-              {{ quiz.quizType === 'free' ? 'Start Test' : 'Unlock Test' }} — Attempt
+              Continue Test — Attempt
               <span class="highlight">{{ quiz.attemptNo }}</span>
             </button>
+
+            <ng-template #startButton>
+              <button class="btn start-btn" (click)="onQuizAction(quiz)">
+                Start Test — Attempt
+                <span class="highlight">{{ quiz.attemptNo }}</span>
+              </button>
+            </ng-template>
+
+            <!-- View Analysis ONLY for FREE -->
+            <button
+              class="btn view-btn"
+              [routerLink]="['/attempts-analysis', quiz.quizId]"
+            >
+              View Analysis
+            </button>
+          </ng-container>
+
+          <!-- PAID / SUBSCRIPTION QUIZ -->
+          <ng-template #lockedQuiz>
+            <button class="btn subscribe-btn" (click)="onSubscribe(quiz)">
+              <i class="fas fa-lock"></i>
+              Subscribe to Unlock
+            </button>
           </ng-template>
-
-          <button
-            class="btn view-btn"
-            [routerLink]="['/attempts-analysis', quiz.quizId]"
-          >
-            <i class="fas fa-chart-line"></i>
-            View Analysis
-          </button>
-        </div>
-      </div>
-
-      <!-- Locked Tests -->
-      <div class="mock-test-item locked">
-        <div class="quiz-badge locked">
-          <i class="fas fa-lock"></i> PREMIUM
-        </div>
-        <div class="quiz-content">
-          <h3 class="quiz-title">Mock Test 2</h3>
-          <p class="quiz-description">Unlock to access this test and detailed performance analytics</p>
-          
-          <div class="quiz-meta">
-            <div class="meta-item">
-              <i class="fas fa-clock"></i>
-              <span>90 min</span>
-            </div>
-            <div class="meta-item">
-              <i class="fas fa-question-circle"></i>
-              <span>45 Qs</span>
-            </div>
-          </div>
-        </div>
-        <div class="quiz-actions">
-          <button class="btn unlock-btn">
-            <i class="fas fa-crown"></i> Unlock Premium
-          </button>
-        </div>
-      </div>
-
-      <div class="mock-test-item locked">
-        <div class="quiz-badge locked">
-          <i class="fas fa-lock"></i> PREMIUM
-        </div>
-        <div class="quiz-content">
-          <h3 class="quiz-title">Mock Test 3</h3>
-          <p class="quiz-description">Unlock to access this test and detailed performance analytics</p>
-          
-          <div class="quiz-meta">
-            <div class="meta-item">
-              <i class="fas fa-clock"></i>
-              <span>120 min</span>
-            </div>
-            <div class="meta-item">
-              <i class="fas fa-question-circle"></i>
-              <span>60 Qs</span>
-            </div>
-          </div>
-        </div>
-        <div class="quiz-actions">
-          <button class="btn unlock-btn">
-            <i class="fas fa-crown"></i> Unlock Premium
-          </button>
         </div>
       </div>
 
@@ -162,3 +111,57 @@
     </div>
   </div>
 </section>
+
+<!-- Subscription Modal -->
+<div class="modal-backdrop" *ngIf="showSubscribeModal()">
+  <div class="modal-card">
+
+    <!-- Header -->
+    <div class="modal-header">
+      <h3 class="modal-title">{{ selectedQuiz()?.quizName }}</h3>
+      <span class="price-badge">₹200</span>
+    </div>
+
+    <p class="modal-subtitle">
+      One-time payment · Lifetime access
+    </p>
+
+    <!-- Divider -->
+    <div class="divider"></div>
+
+    <!-- Benefits -->
+    <ul class="benefits">
+      <li>
+        <i class="fas fa-check-circle"></i>
+        Full access to all mock tests
+      </li>
+      <li>
+        <i class="fas fa-chart-line"></i>
+        Detailed performance analysis
+      </li>
+      <li>
+        <i class="fas fa-infinity"></i>
+        Unlimited attempts
+      </li>
+    </ul>
+
+    <!-- Trust -->
+    <div class="trust-note">
+      🔒 Secure payment powered by Razorpay
+    </div>
+
+    <!-- Actions -->
+    <div class="modal-actions">
+      <button class="btn pay-btn" (click)="startPayment()">
+        <i class="fas fa-lock"></i>
+        Pay ₹200 & Unlock
+      </button>
+
+      <button class="btn cancel-btn" (click)="closeSubscribeModal()">
+        Not now
+      </button>
+    </div>
+
+  </div>
+</div>
+
