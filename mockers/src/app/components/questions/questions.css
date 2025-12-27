@@ -1,6 +1,6 @@
-
 /* ===========================================
    Professional Ed-Tech Quiz Interface - No Scroll
+   RESPONSIVE VERSION
 =========================================== */
 
 /* ---------------------------
@@ -42,16 +42,15 @@
   box-shadow: var(--shadow-sm);
   border: 1px solid var(--gray-200);
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-
+  
   /* ALLOW FULL EXPANSION */
   height: auto;
-  max-height: none;
+  min-height: 0;
   overflow: visible;
-
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
-
 
 /* ---------------------------
    Question Header & Number
@@ -63,12 +62,12 @@
   margin-bottom: 1rem;
   padding-bottom: 0.75rem;
   border-bottom: 2px solid var(--primary-light);
-  flex-shrink: 0; /* Prevent shrinking */
+  flex-shrink: 0;
 }
 
 .question-number {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1.25rem;
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
   font-weight: 700;
   color: var(--primary-color);
   display: flex;
@@ -80,21 +79,21 @@
   content: 'Q';
   background: var(--primary-color);
   color: white;
-  width: 28px;
-  height: 28px;
+  width: clamp(24px, 6vw, 28px);
+  height: clamp(24px, 6vw, 28px);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.85rem;
+  font-size: clamp(0.75rem, 2vw, 0.85rem);
   font-weight: 600;
 }
 
 /* Question Status Badge */
 .question-status {
-  font-size: 0.75rem;
+  font-size: clamp(0.7rem, 2vw, 0.75rem);
   font-weight: 600;
-  padding: 0.25rem 0.6rem;
+  padding: clamp(0.2rem, 1vw, 0.25rem) clamp(0.5rem, 1.5vw, 0.6rem);
   border-radius: 20px;
   background: var(--primary-light);
   color: var(--primary-color);
@@ -110,15 +109,15 @@
 
 .question-text {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 1.3rem;
-  line-height: 1.6;
+  font-size: clamp(1rem, 3vw, 1.3rem);
+  line-height: 1.5;
   color: var(--dark-color);
   font-weight: 600;
   margin: 0;
-  padding: 0.75rem;
+  padding: clamp(0.5rem, 2vw, 0.75rem);
   background: var(--gray-100);
   border-radius: var(--radius-md);
-  border-left: 4px solid var(--primary-color);
+  border-left: clamp(3px, 1vw, 4px) solid var(--primary-color);
   overflow-wrap: break-word;
   word-break: break-word;
 }
@@ -127,14 +126,15 @@
    Question Image Styling
 --------------------------- */
 .question-image {
-  margin: 1rem 0;
+  margin: clamp(0.75rem, 2vw, 1rem) 0;
   text-align: center;
   flex-shrink: 0;
 }
 
 .question-img {
   max-width: 100%;
-  max-height: 180px;
+  max-height: clamp(140px, 25vh, 180px);
+  width: auto;
   height: auto;
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-md);
@@ -149,21 +149,20 @@
 }
 
 /* ---------------------------
-   Options Container - SCROLL ONLY HERE
+   Options Container - FLEXIBLE HEIGHT
 --------------------------- */
 .options-container {
   background: white;
   border-radius: var(--radius-md);
   margin-top: 1rem;
   border: 1px solid var(--gray-200);
-
-  /* NO SCROLL */
-  overflow: visible;
-  max-height: none;
-  height: auto;
-  flex: none;
+  
+  /* FLEXIBLE SCROLL */
+  overflow-y: auto;
+  flex: 1 1 auto;
+  min-height: 0;
+  max-height: 60vh; /* Limit to 60% of viewport height */
 }
-
 
 /* Custom scrollbar for options */
 .options-container::-webkit-scrollbar {
@@ -185,7 +184,7 @@
 }
 
 .option-item {
-  padding: 1rem 1.25rem;
+  padding: clamp(0.75rem, 2vw, 1rem) clamp(1rem, 2.5vw, 1.25rem);
   border: none;
   border-bottom: 1px solid var(--gray-200);
   transition: var(--transition);
@@ -193,8 +192,8 @@
   background: white;
   display: flex;
   align-items: flex-start;
-  gap: 0.75rem;
-  flex-shrink: 0; /* Prevent option shrinking */
+  gap: clamp(0.5rem, 1.5vw, 0.75rem);
+  flex-shrink: 0;
 }
 
 .option-item:last-child {
@@ -214,9 +213,9 @@
 
 /* Option Letter Indicator */
 .option-letter {
-  width: 32px;
-  height: 32px;
-  min-width: 32px;
+  width: clamp(26px, 8vw, 32px);
+  height: clamp(26px, 8vw, 32px);
+  min-width: clamp(26px, 8vw, 32px);
   background: var(--gray-100);
   border-radius: 6px;
   display: flex;
@@ -226,7 +225,7 @@
   color: var(--gray-700);
   font-family: 'Source Sans Pro', sans-serif;
   transition: var(--transition);
-  font-size: 0.9rem;
+  font-size: clamp(0.8rem, 2.5vw, 0.9rem);
 }
 
 .option-item:hover .option-letter {
@@ -244,12 +243,12 @@
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
-  min-width: 0; /* Important for text truncation */
+  gap: clamp(0.25rem, 1vw, 0.5rem);
+  min-width: 0;
 }
 
 .option-text {
-  font-size: 1rem;
+  font-size: clamp(0.9rem, 2.5vw, 1rem);
   line-height: 1.5;
   color: var(--dark-color);
   font-weight: 500;
@@ -259,8 +258,8 @@
 
 /* Option Image */
 .option-img {
-  max-width: 200px;
-  max-height: 120px;
+  max-width: clamp(120px, 40vw, 200px);
+  max-height: clamp(60px, 15vh, 120px);
   height: auto;
   border-radius: var(--radius-sm);
   box-shadow: var(--shadow-sm);
@@ -278,9 +277,9 @@
 
 /* Custom Radio Button */
 .option-radio {
-  width: 20px;
-  height: 20px;
-  min-width: 20px;
+  width: clamp(18px, 5vw, 20px);
+  height: clamp(18px, 5vw, 20px);
+  min-width: clamp(18px, 5vw, 20px);
   border: 2px solid var(--gray-400);
   border-radius: 50%;
   display: flex;
@@ -292,8 +291,8 @@
 
 .option-radio::after {
   content: '';
-  width: 10px;
-  height: 10px;
+  width: clamp(8px, 3vw, 10px);
+  height: clamp(8px, 3vw, 10px);
   border-radius: 50%;
   background: var(--primary-color);
   transform: scale(0);
@@ -309,36 +308,37 @@
 }
 
 /* ---------------------------
-   Action Buttons Container - NO SCROLL
+   Action Buttons Container - RESPONSIVE
 --------------------------- */
 .action-buttons {
   background: white;
   border-radius: var(--radius-lg);
-  padding: 1rem 1.5rem;
+  padding: clamp(0.75rem, 2vw, 1rem) clamp(1rem, 2.5vw, 1.5rem);
   box-shadow: var(--shadow-sm);
   border: 1px solid var(--gray-200);
   display: flex;
-  gap: 0.75rem;
+  gap: clamp(0.5rem, 1.5vw, 0.75rem);
   flex-wrap: wrap;
   margin-top: 1rem;
-  flex-shrink: 0; /* Prevent shrinking */
+  flex-shrink: 0;
 }
 
 /* Button Base Styles */
 .action-btn {
-  padding: 0.75rem 1.25rem;
+  padding: clamp(0.625rem, 2vw, 0.75rem) clamp(1rem, 2.5vw, 1.25rem);
   border-radius: var(--radius-md);
   font-weight: 600;
   font-family: 'Inter', sans-serif;
-  font-size: 0.9rem;
+  font-size: clamp(0.8rem, 2.5vw, 0.9rem);
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: clamp(0.375rem, 1vw, 0.5rem);
   transition: var(--transition);
   border: 2px solid transparent;
-  min-width: 120px;
+  min-width: min(120px, 25vw);
   justify-content: center;
   white-space: nowrap;
+  flex: 1 1 auto;
 }
 
 .action-btn:hover {
@@ -376,7 +376,6 @@
   background: linear-gradient(135deg, var(--success-color), #05b085);
   color: white;
   border: none;
-  margin-left: auto;
 }
 
 .btn-save:hover {
@@ -396,7 +395,7 @@
 
 /* Button Icons */
 .btn-icon {
-  font-size: 1rem;
+  font-size: clamp(0.9rem, 3vw, 1rem);
 }
 
 /* ---------------------------
@@ -407,18 +406,20 @@
   overflow: hidden;
   border: none;
   box-shadow: var(--shadow-lg);
+  max-width: 95vw;
+  margin: 0 auto;
 }
 
 .image-modal .modal-header {
   background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
   color: white;
   border: none;
-  padding: 1rem 1.25rem;
+  padding: clamp(0.75rem, 2vw, 1rem) clamp(1rem, 2.5vw, 1.25rem);
 }
 
 .image-modal .modal-title {
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: clamp(1rem, 3vw, 1.1rem);
 }
 
 .image-modal .modal-body {
@@ -427,7 +428,7 @@
 }
 
 .image-modal .image-container-modal {
-  height: 60vh;
+  height: clamp(40vh, 60vh, 70vh);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -445,7 +446,7 @@
 .image-modal .modal-footer {
   background: var(--gray-100);
   border-top: 1px solid var(--gray-200);
-  padding: 0.75rem 1.25rem;
+  padding: clamp(0.5rem, 1.5vw, 0.75rem) clamp(1rem, 2.5vw, 1.25rem);
 }
 
 /* Zoom Controls */
@@ -460,8 +461,8 @@
 }
 
 .zoom-controls .btn {
-  width: 32px;
-  height: 32px;
+  width: clamp(28px, 8vw, 32px);
+  height: clamp(28px, 8vw, 32px);
   padding: 0;
   display: flex;
   align-items: center;
@@ -476,143 +477,101 @@
 }
 
 .zoom-level {
-  min-width: 50px;
+  min-width: clamp(40px, 10vw, 50px);
   text-align: center;
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: clamp(0.8rem, 2.5vw, 0.9rem);
 }
 
 /* ---------------------------
-   Responsive Design
+   Enhanced Responsive Design
 --------------------------- */
 
-/* Tablet */
-@media (max-width: 992px) {
+/* Large Desktop (1200px and above) */
+@media (min-width: 1200px) {
   .question-wrapper {
-    padding: 1.25rem;
-    max-height: calc(100vh - 160px);
-  }
-  
-  .question-text {
-    font-size: 1.3rem;
-    padding: 0.625rem;
-  }
-  
-  .question-img {
-    max-height: 160px;
-  }
-  
-  .options-container {
-    max-height: calc(100vh - 420px);
-  }
-  
-  .option-item {
-    padding: 0.875rem 1rem;
-  }
-  
-  .option-letter {
-    width: 28px;
-    height: 28px;
-    min-width: 28px;
-    font-size: 0.85rem;
-  }
-  
-  .option-text {
-    font-size: 0.95rem;
-  }
-  
-  .option-img {
-    max-width: 180px;
-    max-height: 100px;
+    padding: 2rem;
   }
   
   .action-buttons {
-    padding: 0.875rem 1.25rem;
+    gap: 1rem;
+  }
+  
+  .action-btn {
+    min-width: 140px;
+  }
+}
+
+/* Tablet Landscape (992px to 1199px) */
+@media (max-width: 1199px) and (min-width: 768px) {
+  .options-container {
+    max-height: 55vh;
+  }
+  
+  .action-btn {
+    min-width: min(110px, 20vw);
+  }
+}
+
+/* Tablet Portrait (768px to 991px) */
+@media (max-width: 991px) {
+  .question-wrapper {
+    padding: 1.25rem;
+  }
+  
+  .question-header {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .options-container {
+    max-height: 50vh;
+  }
+  
+  .action-buttons {
     gap: 0.625rem;
   }
   
   .action-btn {
-    padding: 0.625rem 1rem;
-    min-width: 110px;
-    font-size: 0.85rem;
+    flex: 1 1 calc(50% - 0.625rem);
+    min-width: auto;
   }
 }
 
-/* Mobile */
-@media (max-width: 768px) {
+/* Mobile Landscape (576px to 767px) */
+@media (max-width: 767px) {
   .question-wrapper {
     padding: 1rem;
     border-radius: var(--radius-md);
-    max-height: calc(100vh - 140px);
+    margin-bottom: 0.75rem;
   }
   
   .question-header {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.5rem;
-    margin-bottom: 0.75rem;
   }
   
-  .question-number {
-    font-size: 1.1rem;
-  }
-  
-  .question-number::before {
-    width: 24px;
-    height: 24px;
-    font-size: 0.8rem;
-  }
-  
-  .question-text {
-    font-size: 0.95rem;
-    padding: 0.5rem;
-    border-left-width: 3px;
-  }
-  
-  .question-img {
-    max-height: 140px;
+  .question-status {
+    align-self: flex-start;
   }
   
   .options-container {
-    max-height: calc(100vh - 380px);
-  }
-  
-  .option-item {
-    padding: 0.75rem 0.875rem;
-    gap: 0.625rem;
-  }
-  
-  .option-letter {
-    width: 26px;
-    height: 26px;
-    min-width: 26px;
-    font-size: 0.8rem;
-  }
-  
-  .option-text {
-    font-size: 0.9rem;
-  }
-  
-  .option-img {
-    max-width: 150px;
-    max-height: 90px;
+    max-height: 45vh;
   }
   
   .action-buttons {
-    padding: 0.75rem;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 0.5rem;
-    flex-direction: column;
   }
   
   .action-btn {
-    width: 100%;
-    min-width: unset;
-    justify-content: center;
-    padding: 0.75rem;
+    flex: 1 1 calc(50% - 0.5rem);
+    min-width: auto;
   }
   
   .btn-save {
-    margin-left: 0;
     order: 1;
   }
   
@@ -627,76 +586,116 @@
   .btn-prev {
     order: 4;
   }
-  
-  .image-modal .image-container-modal {
-    height: 50vh;
-  }
 }
 
-/* Small Mobile */
-@media (max-width: 480px) {
+/* Mobile Portrait (max-width: 575px) */
+@media (max-width: 575px) {
   .question-wrapper {
     padding: 0.875rem;
-    margin-bottom: 0.75rem;
-    max-height: calc(100vh - 130px);
-  }
-  
-  .question-text {
-    font-size: 0.9rem;
-    padding: 0.5rem;
-  }
-  
-  .question-img {
-    max-height: 120px;
+    margin-bottom: 0.5rem;
   }
   
   .options-container {
-    max-height: calc(100vh - 360px);
+    max-height: 40vh;
+  }
+  
+  .action-buttons {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .action-btn {
+    width: 100%;
+    flex: none;
+  }
+  
+  .option-img {
+    max-width: 100%;
+    max-height: clamp(50px, 10vh, 80px);
+  }
+}
+
+/* Very Small Mobile (max-width: 375px) */
+@media (max-width: 375px) {
+  .question-wrapper {
+    padding: 0.75rem;
+  }
+  
+  .question-text {
+    font-size: 0.95rem;
+    padding: 0.5rem;
+  }
+  
+  .options-container {
+    max-height: 35vh;
   }
   
   .option-item {
     padding: 0.625rem 0.75rem;
-    gap: 0.5rem;
   }
   
   .option-letter {
-    width: 24px;
-    height: 24px;
-    min-width: 24px;
+    width: 22px;
+    height: 22px;
+    min-width: 22px;
     font-size: 0.75rem;
-  }
-  
-  .option-radio {
-    width: 18px;
-    height: 18px;
-    min-width: 18px;
-  }
-  
-  .option-radio::after {
-    width: 8px;
-    height: 8px;
   }
   
   .option-text {
     font-size: 0.85rem;
   }
+}
+
+/* ---------------------------
+   Touch Device Optimizations
+--------------------------- */
+@media (hover: none) and (pointer: coarse) {
+  .option-item:hover {
+    transform: none;
+  }
+  
+  .option-item:hover .option-letter {
+    background: var(--gray-100);
+    color: var(--gray-700);
+  }
+  
+  .option-item:active {
+    background: var(--primary-light);
+    transform: translateX(4px);
+  }
+  
+  .option-item:active .option-letter {
+    background: var(--primary-color);
+    color: white;
+  }
+  
+  .action-btn:hover {
+    transform: none;
+  }
+  
+  .action-btn:active {
+    transform: translateY(-2px);
+  }
+}
+
+/* ---------------------------
+   Orientation Specific
+--------------------------- */
+@media (orientation: landscape) and (max-height: 600px) {
+  .question-wrapper {
+    padding: 0.75rem;
+  }
+  
+  .options-container {
+    max-height: 50vh;
+  }
+  
+  .question-img {
+    max-height: 100px;
+  }
   
   .option-img {
-    max-width: 130px;
-    max-height: 80px;
-  }
-  
-  .action-buttons {
-    padding: 0.625rem;
-  }
-  
-  .action-btn {
-    padding: 0.625rem;
-    font-size: 0.8rem;
-  }
-  
-  .btn-icon {
-    font-size: 0.9rem;
+    max-height: 60px;
   }
 }
 
@@ -713,6 +712,28 @@
   outline-offset: 2px;
 }
 
+/* High Contrast Mode Support */
+@media (prefers-contrast: high) {
+  .option-item.selected {
+    outline: 3px solid var(--primary-color);
+  }
+  
+  .action-btn {
+    border-width: 2px;
+  }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .option-item,
+  .action-btn,
+  .question-img,
+  .option-img {
+    transition: none;
+    transform: none !important;
+  }
+}
+
 /* ---------------------------
    Prevent Body Scroll When Modal Open
 --------------------------- */
@@ -720,3 +741,22 @@ body.modal-open {
   overflow: hidden;
 }
 
+/* ---------------------------
+   Print Styles
+--------------------------- */
+@media print {
+  .question-wrapper {
+    box-shadow: none;
+    border: 1px solid #000;
+    page-break-inside: avoid;
+  }
+  
+  .action-buttons {
+    display: none;
+  }
+  
+  .options-container {
+    max-height: none;
+    overflow: visible;
+  }
+}
