@@ -248,7 +248,7 @@
 }
 
 .option-text {
-  font-size: clamp(0.9rem, 2.5vw, 1rem);
+  font-size: clamp(0.9rem, 2.5vw, 1.25rem);
   line-height: 1.5;
   color: var(--dark-color);
   font-weight: 500;
