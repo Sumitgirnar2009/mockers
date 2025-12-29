@@ -2,7 +2,7 @@
 .mock-test-section {
   padding: 3rem 1rem;
   background: #f8fbff; /* Changed from gradient blue to light background */
-  min-height: 100vh;
+  /* min-height: 100vh; */
   font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
 }
 
