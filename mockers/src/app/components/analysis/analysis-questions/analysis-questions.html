@@ -4,24 +4,74 @@
   <div class="d-flex justify-content-between align-items-center mb-3">
     <h5 class="fw-bold">Question No. {{ currentQuestion.id }}</h5>
 
-    <!-- Status Badge -->
-    <ng-container>
-      <span *ngIf="!currentQuestionModel" class="badge bg-secondary fs-6">Not Visited</span>
+    <!-- Status Badges -->
+    <div class="d-flex gap-2 align-items-center">
+      
+      <!-- Correctness Badge (Primary indicator) -->
+      <ng-container *ngIf="currentQuestionModel">
+        <!-- Correct Answer Badge -->
+        <span
+          *ngIf="currentQuestionModel.selectedOption !== -1 && 
+                 currentQuestionModel.selectedOption === currentQuestion.correctAnswer"
+          class="badge d-flex align-items-center gap-1 fs-6"
+          style="background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%); padding: 0.5rem 0.75rem;"
+        >
+          <i class="bi bi-check-circle-fill"></i>
+          Correct
+        </span>
 
-      <span
-        *ngIf="currentQuestionModel && currentQuestionModel.selectedOption === -1"
-        class="badge bg-warning fs-6"
+        <!-- Incorrect Answer Badge -->
+        <span
+          *ngIf="currentQuestionModel.selectedOption !== -1 && 
+                 currentQuestionModel.selectedOption !== currentQuestion.correctAnswer"
+          class="badge d-flex align-items-center gap-1 fs-6"
+          style="background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%); padding: 0.5rem 0.75rem;"
+        >
+          <i class="bi bi-x-circle-fill"></i>
+          Incorrect
+        </span>
+
+        <!-- Not Attempted Badge -->
+        <span
+          *ngIf="currentQuestionModel.selectedOption === -1"
+          class="badge bg-secondary d-flex align-items-center gap-1 fs-6"
+          style="padding: 0.5rem 0.75rem;"
+        >
+          <i class="bi bi-dash-circle-fill"></i>
+          Not Attempted
+        </span>
+      </ng-container>
+
+      <!-- Not Visited Badge -->
+      <span 
+        *ngIf="!currentQuestionModel" 
+        class="badge bg-secondary d-flex align-items-center gap-1 fs-6"
+        style="padding: 0.5rem 0.75rem;"
       >
-        Not Answered
+        <i class="bi bi-eye-slash-fill"></i>
+        Not Visited
       </span>
 
-      <span
-        *ngIf="currentQuestionModel && currentQuestionModel.selectedOption !== -1"
-        class="badge bg-info fs-6"
-      >
-        Attempted
-      </span>
-    </ng-container>
+      <!-- Status Badge (Secondary indicator - Optional, you can remove if too cluttered) -->
+      <ng-container *ngIf="currentQuestionModel">
+        <span
+          *ngIf="currentQuestionModel.selectedOption !== -1"
+          class="badge bg-info text-dark fs-6"
+          style="padding: 0.5rem 0.75rem;"
+        >
+          Attempted
+        </span>
+
+        <span
+          *ngIf="currentQuestionModel.selectedOption === -1"
+          class="badge bg-warning text-dark fs-6"
+          style="padding: 0.5rem 0.75rem;"
+        >
+          Not Answered
+        </span>
+      </ng-container>
+
+    </div>
   </div>
 
   <!-- Question Text -->
