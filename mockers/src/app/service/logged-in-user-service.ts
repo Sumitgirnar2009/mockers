@@ -62,11 +62,20 @@ export class UserService {
   login(): void {
     this.oidcSecurityService.authorize();
   }
-
   logout(): void {
-    if (window.sessionStorage) {
-      window.sessionStorage.clear();
-    }
-    window.location.href = "https://ap-south-18nwzrk7h3.auth.ap-south-1.amazoncognito.com/logout?client_id=99k2hi7sg439ftqdp3imf3ru&logout_uri=https://www.sumitgirnar.xyz/";
+    // 1. Call OIDC logout
+    this.oidcSecurityService.logoff().subscribe();
+
+    // 2. Clear local state
+    this.user.set(null);
+    this.isAuthenticated.set(false);
+
+    // 3. Clear session storage
+    sessionStorage?.clear();
+
+    // 4. Redirect to home
+    setTimeout(() => window.location.href = "/", 100);
   }
 }
+
+

@@ -54,8 +54,11 @@
         <a (click)="login()" class="btn btn-register">
           <i class="fas fa-user-plus"></i> Log in
         </a>
+        <a (click)="login()" class="btn btn-register">
+          <i class="fas fa-user-plus"></i> Log in with Google   
+        </a>
         <a
-          href="https://ap-south-18nwzrk7h3.auth.ap-south-1.amazoncognito.com/signup?client_id=99k2hi7sg439ftqdp3imf3ru&redirect_uri=https%3A%2F%2Fwww.sumitgirnar.xyz%2F&response_type=code&scope=email%20openid%20phone&nonce=2ae569e6fcccd1dc15ae3c838da39e6c369gLbXce&state=2533f8c0c2f2af699977184e6bdab85aafoxPzhB3&code_challenge=z3tEfsfwCJiK9-Vcr1Px-uvFD-18yhp4siXhXWw3v6E&code_challenge_method=S256"
+          href="https://ap-south-18nwzrk7h3.auth.ap-south-1.amazoncognito.com/signup?client_id=99k2hi7sg439ftqdp3imf3ru&response_type=code&scope=email+openid+phone+profile&redirect_uri=http%3A%2F%2Flocalhost%3A4200%2F"
           class="btn btn-register"
         >
           <i class="fas fa-user-plus"></i> Register
@@ -92,7 +95,7 @@
             <li>
               <a
                 class="dropdown-item"
-                href="https://ap-south-18nwzrk7h3.auth.ap-south-1.amazoncognito.com/forgotPassword?client_id=99k2hi7sg439ftqdp3imf3ru&response_type=code&scope=email+openid+phone&redirect_uri=http%3A%2F%2Flocalhost%3A4200%2F"
+                href="https://ap-south-18nwzrk7h3.auth.ap-south-1.amazoncognito.com/forgotPassword?client_id=99k2hi7sg439ftqdp3imf3ru&response_type=code&scope=email+openid+phone+profile&redirect_uri=http%3A%2F%2Flocalhost%3A4200%2F"
               >
                 <i class="fas fa-unlock-alt me-2"></i> Forgot Password
               </a>
