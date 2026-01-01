@@ -115,4 +115,15 @@
       </div>
     </div>
   </nav>
+
+  <!-- Add this at the end of the navbar, right before closing header tag -->
+<div class="notification-container" *ngIf="showNotification">
+  <div class="notification alert" [ngClass]="notificationClass" role="alert">
+    <div class="d-flex align-items-center">
+      <i [class]="notificationIcon"></i>
+      <span class="ms-2">{{ notificationMessage }}</span>
+    </div>
+    <button type="button" class="btn-close" (click)="dismissNotification()" aria-label="Close"></button>
+  </div>
+</div>
 </header>
