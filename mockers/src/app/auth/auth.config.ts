@@ -24,7 +24,7 @@ export const authConfig: OpenIdConfiguration = {
   authority: 'https://cognito-idp.ap-south-1.amazonaws.com/ap-south-1_8nWZrk7h3',
   redirectUrl: getRedirectUrl(),
   clientId: '99k2hi7sg439ftqdp3imf3ru',
-  scope: 'email openid phone profile offline_access',
+  scope: 'email openid phone profile',
   responseType: 'code',
   silentRenew: true,
   useRefreshToken: true,
