@@ -1,35 +1,33 @@
 // auth/auth.config.ts
 import { OpenIdConfiguration } from 'angular-auth-oidc-client';
 
-// Determine current environment
-const isProduction = window.location.hostname !== 'localhost';
+// ==============================================
+// MANUAL CONFIGURATION - Update this when deploying
+// ==============================================
+// Options:
+// 1 = http://localhost:4200/ (Development)
+// 2 = https://www.crackcet.in/ (Production)
+// 3 = https://www.sumitgirnar.xyz/ (Alternative)
+// ==============================================
+const ENVIRONMENT = 2; // ← CHANGE THIS NUMBER WHEN DEPLOYING
+// ==============================================
 
-// Environment-specific redirect URLs
-const getRedirectUrl = (): string => {
-  const hostname = window.location.hostname;
-  
-  if (hostname === 'localhost') {
-    return 'http://localhost:4200/';
-  } else if (hostname === 'www.crackcet.in' || hostname === 'crackcet.in') {
-    return 'https://www.crackcet.in/';
-  } else if (hostname === 'www.sumitgirnar.xyz' || hostname === 'sumitgirnar.xyz') {
-    return 'https://www.sumitgirnar.xyz/';
-  } else {
-    // Fallback for other domains
-    return `https://${hostname}/`;
-  }
+// Just redirect URLs mapped to environments
+const redirectUrls = {
+  1: 'http://localhost:4200/',
+  2: 'https://www.crackcet.in/',
+  3: 'https://www.sumitgirnar.xyz/',
 };
 
 export const authConfig: OpenIdConfiguration = {
   authority: 'https://cognito-idp.ap-south-1.amazonaws.com/ap-south-1_8nWZrk7h3',
-  redirectUrl: getRedirectUrl(),
+  redirectUrl: redirectUrls[ENVIRONMENT],
   clientId: '99k2hi7sg439ftqdp3imf3ru',
   scope: 'email openid phone profile',
   responseType: 'code',
   silentRenew: true,
   useRefreshToken: true,
   autoUserInfo: true,
-  logLevel: isProduction ? 0 : 1, // Verbose logging in dev, none in prod
 };
 
 // Export Cognito Hosted UI domain for registration/password reset
