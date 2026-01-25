@@ -173,10 +173,16 @@ export class MockTestDisplay implements OnInit {
 
     this.paymentService.verifySubscriptionPayment(payload)
       .subscribe({
-        next: (res) => {
-          console.log('✅ Subscription activated', res);
-          this.showSuccessModal();
-        },
+       next: (res) => {
+  console.log('✅ Subscription activated', res);
+
+  // 🔴 IMPORTANT
+  this.isRedirectingToPayment.set(false);
+  this.showSubscribeModal.set(false);
+  document.body.style.overflow = '';
+
+  this.showSuccessModal();
+},
         error: (err) => {
           console.error('❌ Payment verification failed', err);
           this.isRedirectingToPayment.set(false); // Add this line
@@ -306,14 +312,20 @@ export class MockTestDisplay implements OnInit {
 
     // Handle continue button
     const continueBtn = document.getElementById('continueBtn');
-    continueBtn?.addEventListener('click', () => {
-      backdrop.style.animation = 'fadeOut 0.3s ease-out';
-      setTimeout(() => {
-        backdrop.remove();
-        // Navigate to dashboard
-        // this.router.navigate(['/dashboard']);
-      }, 300);
-    });
+  continueBtn?.addEventListener('click', () => {
+  backdrop.style.animation = 'fadeOut 0.3s ease-out';
+
+  setTimeout(() => {
+    backdrop.remove();
+
+    // ✅ UNLOCK BODY SCROLL
+    document.body.style.overflow = '';
+
+    // ✅ NAVIGATE
+    this.router.navigate(['/home']);
+  }, 300);
+});
+
 
     // Add fadeOut animation
     style.textContent += `

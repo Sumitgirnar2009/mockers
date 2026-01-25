@@ -69,7 +69,11 @@ export class UserService {
     window.sessionStorage.clear();
   }
 
-  window.location.href = "https://ap-south-18nwzrk7h3.auth.ap-south-1.amazoncognito.com/logout?client_id=99k2hi7sg439ftqdp3imf3ru&logout_uri=http://localhost:4200/";
+  // window.location.href = "https://ap-south-18nwzrk7h3.auth.ap-south-1.amazoncognito.com/logout?client_id=99k2hi7sg439ftqdp3imf3ru&logout_uri=http://localhost:4200/";
+
+  
+  window.location.href = "https://ap-south-18nwzrk7h3.auth.ap-south-1.amazoncognito.com/logout?client_id=99k2hi7sg439ftqdp3imf3ru&logout_uri=https://www.crackcet.in/";
+  
 
 }
 
