@@ -90,13 +90,16 @@ export class MockTestDisplay implements OnInit {
       return;
     }
 
-    if (quiz.quizType !== 'free') {
+    // 🚫 Only non-premium users should see subscribe modal
+    if (quiz.quizType === 'subscription' && !this.isPremiumUser) {
       this.onSubscribe(quiz);
       return;
     }
 
+    // ✅ Free OR premium user → start test
     this.router.navigate(['/instructions', quiz.quizId]);
   }
+
 
 
 
@@ -362,60 +365,60 @@ export class MockTestDisplay implements OnInit {
 
   startPayment(): void {
 
-  // 🚫 Guard: User must be logged in
-  if (!this.isLoggedIn()) {
-    alert('⚠️ Please login to start the test and proceed with payment.');
-    this.showSubscribeModal.set(false);
-    return;
-  }
+    // 🚫 Guard: User must be logged in
+    if (!this.isLoggedIn()) {
+      alert('⚠️ Please login to start the test and proceed with payment.');
+      this.showSubscribeModal.set(false);
+      return;
+    }
 
-  // Show loading notification
-  this.isRedirectingToPayment.set(true);
+    // Show loading notification
+    this.isRedirectingToPayment.set(true);
 
-  const amount = 1 * 100; // ₹999 subscription
+    const amount = 1 * 100; // ₹999 subscription
 
-  this.paymentService
-    .createRazorpayOrder(amount, this.username)
-    .subscribe({
-      next: (order) => {
-        setTimeout(() => {
-          const options: any = {
-            key: 'rzp_live_RwikgNB9m7itAJ',
-            amount: order.amount,
-            currency: 'INR',
-            name: 'Crack CET',
-            description: 'MHT-CET Full Test Series',
-            order_id: order.id,
-
-            handler: (response: any) => {
-              this.verifySubscriptionPayment(response);
-            },
-
-            modal: {
-              ondismiss: () => {
-                this.isRedirectingToPayment.set(false);
-                this.showSubscribeModal.set(false);
-                console.log('Payment cancelled by user');
-              }
-            }
-          };
-
-          new (window as any).Razorpay(options).open();
-
+    this.paymentService
+      .createRazorpayOrder(amount, this.username)
+      .subscribe({
+        next: (order) => {
           setTimeout(() => {
-            this.showSubscribeModal.set(false);
-            this.isRedirectingToPayment.set(false);
-          }, 500);
+            const options: any = {
+              key: 'rzp_live_RwikgNB9m7itAJ',
+              amount: order.amount,
+              currency: 'INR',
+              name: 'Crack CET',
+              description: 'MHT-CET Full Test Series',
+              order_id: order.id,
 
-        }, 800);
-      },
-      error: (err) => {
-        console.error('❌ Order creation failed', err);
-        this.isRedirectingToPayment.set(false);
-        alert('Failed to create order. Please try again.');
-      }
-    });
-}
+              handler: (response: any) => {
+                this.verifySubscriptionPayment(response);
+              },
+
+              modal: {
+                ondismiss: () => {
+                  this.isRedirectingToPayment.set(false);
+                  this.showSubscribeModal.set(false);
+                  console.log('Payment cancelled by user');
+                }
+              }
+            };
+
+            new (window as any).Razorpay(options).open();
+
+            setTimeout(() => {
+              this.showSubscribeModal.set(false);
+              this.isRedirectingToPayment.set(false);
+            }, 500);
+
+          }, 800);
+        },
+        error: (err) => {
+          console.error('❌ Order creation failed', err);
+          this.isRedirectingToPayment.set(false);
+          alert('Failed to create order. Please try again.');
+        }
+      });
+  }
 
 
 
