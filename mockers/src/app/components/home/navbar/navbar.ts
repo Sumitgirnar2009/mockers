@@ -1,5 +1,5 @@
 import { CommonModule, NgIf } from '@angular/common';
-import { Component, OnInit, HostListener, OnDestroy } from '@angular/core';
+import { Component, OnInit, HostListener, OnDestroy, Input } from '@angular/core';
 import { UserService } from '../../../service/logged-in-user-service';
 import { authConfig, cognitoHostedUIDomain } from '../../../auth/auth.config';
 import { Subscription } from 'rxjs';
@@ -18,6 +18,9 @@ interface Notification {
   styleUrls: ['./navbar.css']
 })
 export class Navbar implements OnInit, OnDestroy {
+
+  @Input() isPremiumUser!: boolean;
+   
   user: any;
   isAuthenticated: any;
   isMenuOpen = false;

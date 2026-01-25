@@ -28,7 +28,7 @@ export class UserService {
 
     // Check authentication on service init
     this.oidcSecurityService.checkAuth().subscribe(({ isAuthenticated, userData, accessToken, idToken }) => {
-      console.log('Authenticated (checkAuth):', isAuthenticated);
+      console.info('Authenticated (checkAuth):', isAuthenticated);
       console.log('User Data (checkAuth - all attributes):', userData);
       console.log('Access Token (checkAuth):', accessToken);
       console.log('id Token (checkAuth):', idToken);

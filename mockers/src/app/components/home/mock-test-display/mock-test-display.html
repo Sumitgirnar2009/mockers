@@ -13,11 +13,21 @@
       <div
         class="mock-test-item"
         *ngFor="let quiz of quizRecords; let i = index"
-        [ngClass]="quiz.quizType"
+        [ngClass]="{
+          'free': quiz.quizType === 'free',
+          'premium': quiz.quizType === 'subscription',
+          'premium-unlocked': quiz.quizType === 'subscription' && isPremiumUser
+        }"
       >
         <!-- Quiz Status Badge -->
         <div class="quiz-badge" [ngClass]="quiz.quizType">
           {{ quiz.quizType === "free" ? "FREE" : "PREMIUM" }}
+        </div>
+
+        <!-- Premium Access Indicator (for premium users) -->
+        <div class="premium-access-badge" *ngIf="quiz.quizType === 'subscription' && isPremiumUser">
+          <i class="fas fa-gem"></i>
+          <span>Premium Access</span>
         </div>
 
         <!-- Progress Indicator -->
@@ -31,14 +41,19 @@
         <div class="quiz-content">
           <h3 class="quiz-title">
             <b>{{ quiz.quizName }}</b>
+            <!-- Premium Crown Icon -->
+            <i class="fas fa-crown premium-crown" *ngIf="quiz.quizType === 'subscription'"></i>
           </h3>
 
           <p class="quiz-description">
-            {{
-              quiz.quizType === "free"
-                ? "Try this free mock test to start your preparation!"
-                : "This is a paid test. Subscribe to start."
-            }}
+            <ng-container *ngIf="quiz.quizType === 'free'">
+              Try this free mock test to start your preparation!
+            </ng-container>
+            <ng-container *ngIf="quiz.quizType === 'subscription' && isPremiumUser">
+            </ng-container>
+            <ng-container *ngIf="quiz.quizType === 'subscription' && !isPremiumUser">
+              This is a premium test. Subscribe to unlock exclusive features.
+            </ng-container>
           </p>
 
           <!-- Quiz Meta Info -->
@@ -51,15 +66,20 @@
               <i class="fas fa-question-circle"></i>
               <span>180 Qs</span>
             </div>
+            <!-- Premium Feature Badge -->
+            <div class="meta-item premium-meta" *ngIf="quiz.quizType === 'subscription' && isPremiumUser">
+              <i class="fas fa-chart-line"></i>
+              <!-- <span>Analytics</span> -->
+            </div>
           </div>
         </div>
 
         <!-- Action Buttons -->
         <div class="quiz-actions">
           <!-- FREE QUIZ -->
-          <ng-container *ngIf="quiz.quizType === 'free'; else lockedQuiz">
+          <ng-container *ngIf="quiz.quizType === 'free'">
             <button
-              *ngIf="quiz.isProgress; else startButton"
+              *ngIf="quiz.isProgress; else startFreeButton"
               class="btn continue-btn"
               (click)="onQuizAction(quiz)"
             >
@@ -67,14 +87,14 @@
               <span class="highlight">{{ quiz.attemptNo }}</span>
             </button>
 
-            <ng-template #startButton>
+            <ng-template #startFreeButton>
               <button class="btn start-btn" (click)="onQuizAction(quiz)">
                 Start Test — Attempt
                 <span class="highlight">{{ quiz.attemptNo }}</span>
               </button>
             </ng-template>
 
-            <!-- View Analysis ONLY for FREE -->
+            <!-- View Analysis -->
             <button
               class="btn view-btn"
               [routerLink]="['/attempts-analysis', quiz.quizId]"
@@ -83,16 +103,45 @@
             </button>
           </ng-container>
 
-          <!-- PAID / SUBSCRIPTION QUIZ -->
-          <ng-template #lockedQuiz>
+          <!-- PREMIUM QUIZ - User HAS Premium -->
+          <ng-container *ngIf="quiz.quizType === 'subscription' && isPremiumUser">
+            <button
+              *ngIf="quiz.isProgress; else startPremiumButton"
+              class="btn continue-premium-btn"
+              (click)="onQuizAction(quiz)"
+            >
+              <i class="fas fa-play-circle"></i>
+              Continue Test — Attempt
+              <span class="highlight">{{ quiz.attemptNo }}</span>
+            </button>
+
+            <ng-template #startPremiumButton>
+              <button class="btn start-premium-btn" (click)="onQuizAction(quiz)">
+                <i class="fas fa-rocket"></i>
+                Start Test — Attempt
+                <span class="highlight">{{ quiz.attemptNo }}</span>
+              </button>
+            </ng-template>
+
+            <!-- View Premium Analysis -->
+            <button
+              class="btn view-premium-btn"
+              [routerLink]="['/attempts-analysis', quiz.quizId]"
+            >
+              <i class="fas fa-chart-bar"></i>
+              View Analysis
+            </button>
+          </ng-container>
+
+          <!-- PREMIUM QUIZ - User does NOT have Premium -->
+          <ng-container *ngIf="quiz.quizType === 'subscription' && !isPremiumUser">
             <button class="btn subscribe-btn" (click)="onSubscribe(quiz)">
               <i class="fas fa-lock"></i>
               Subscribe to Unlock
             </button>
-          </ng-template>
+          </ng-container>
         </div>
       </div>
-
 
       <!-- More Tests -->
       <div class="mock-test-item more-tests">
@@ -100,10 +149,6 @@
           <div class="more-tests-icon">
             <i class="fas fa-graduation-cap"></i>
           </div>
-          <!-- <button class="btn more-btn">
-            <span class="more-btn-text">Explore More Tests</span>
-            <i class="fas fa-chevron-down more-btn-icon"></i>
-          </button> -->
           <p class="more-tests-description">
             More tests coming soon! Stay tuned for updates.
           </p>
@@ -116,7 +161,6 @@
 <!-- Subscription Modal -->
 <div class="modal-backdrop" *ngIf="showSubscribeModal()">
   <div class="modal-card">
-
     <!-- Header -->
     <div class="modal-header">
       <h3 class="modal-title">{{ selectedQuiz()?.quizName }}</h3>
@@ -151,9 +195,16 @@
       🔒 Secure payment powered by Razorpay
     </div>
 
+    <!-- Loading Notification -->
+    <div class="loading-notification" *ngIf="isRedirectingToPayment()">
+      <div class="spinner"></div>
+      <p>Redirecting to Razorpay...</p>
+      <small>Please wait while we prepare your payment</small>
+    </div>
+
     <!-- Actions -->
-    <div class="modal-actions">
-      <button class="btn pay-btn" (click)="startPayment()">
+    <div class="modal-actions" *ngIf="!isRedirectingToPayment()">
+      <button class="btn pay-btn" (click)="startPayment()" [disabled]="isRedirectingToPayment()">
         <i class="fas fa-lock"></i>
         Pay ₹200 & Unlock
       </button>
@@ -162,7 +213,5 @@
         Not now
       </button>
     </div>
-
   </div>
 </div>
-
