@@ -40,7 +40,7 @@ export class MockTestDisplay implements OnInit {
   // Quiz Records
   quizRecords: QuizRecord[] = [
     { quizId: this.pcm_fst1_quizId, quizName: 'PCM FULL SYLLABUS TEST 1', quizType: 'free', isProgress: false, attemptNo: 1 },
-    { quizId: this.pcm_fst2_quizId, quizName: 'PCM FULL SYLLABUS TEST 2', quizType: 'free', isProgress: false, attemptNo: 1 },
+    { quizId: this.pcm_fst2_quizId, quizName: 'PCM FULL SYLLABUS TEST 2', quizType: 'subscription', isProgress: false, attemptNo: 1 },
     // { quizId: this.pcm_fst2_quizId, quizName: 'PCM FULL SYLLABUS TEST 2', quizType: 'subscription', isProgress: false,attemptNo: 1 },
     // { quizId: this.pcm_fst3_quizId, quizName: 'PCM FULL SYLLABUS TEST 3', quizType: 'free', isProgress: false, attemptNo: 1 }
   ];
@@ -361,55 +361,62 @@ export class MockTestDisplay implements OnInit {
   }
 
   startPayment(): void {
-    // Show loading notification
-    this.isRedirectingToPayment.set(true);
 
-    const amount = 1 * 100; // ₹999 subscription
-
-    this.paymentService
-      .createRazorpayOrder(amount, this.username)
-      .subscribe({
-        next: (order) => {
-          // Small delay for better UX
-          setTimeout(() => {
-            const options: any = {
-              key: 'rzp_live_RwikgNB9m7itAJ',
-              amount: order.amount,
-              currency: 'INR',
-              name: 'Crack CET',
-              description: 'MHT-CET Full Test Series',
-              order_id: order.id,
-
-              handler: (response: any) => {
-                this.verifySubscriptionPayment(response);
-              },
-
-              modal: {
-                ondismiss: () => {
-                  // Reset loading state if user closes Razorpay modal
-                  this.isRedirectingToPayment.set(false);
-                  this.showSubscribeModal.set(false);
-                  console.log('Payment cancelled by user');
-                }
-              }
-            };
-
-            new (window as any).Razorpay(options).open();
-
-            // Close subscription modal after opening Razorpay
-            setTimeout(() => {
-              this.showSubscribeModal.set(false);
-              this.isRedirectingToPayment.set(false);
-            }, 500);
-          }, 800);
-        },
-        error: (err) => {
-          console.error('❌ Order creation failed', err);
-          this.isRedirectingToPayment.set(false);
-          alert('Failed to create order. Please try again.');
-        }
-      });
+  // 🚫 Guard: User must be logged in
+  if (!this.isLoggedIn()) {
+    alert('⚠️ Please login to start the test and proceed with payment.');
+    this.showSubscribeModal.set(false);
+    return;
   }
+
+  // Show loading notification
+  this.isRedirectingToPayment.set(true);
+
+  const amount = 1 * 100; // ₹999 subscription
+
+  this.paymentService
+    .createRazorpayOrder(amount, this.username)
+    .subscribe({
+      next: (order) => {
+        setTimeout(() => {
+          const options: any = {
+            key: 'rzp_live_RwikgNB9m7itAJ',
+            amount: order.amount,
+            currency: 'INR',
+            name: 'Crack CET',
+            description: 'MHT-CET Full Test Series',
+            order_id: order.id,
+
+            handler: (response: any) => {
+              this.verifySubscriptionPayment(response);
+            },
+
+            modal: {
+              ondismiss: () => {
+                this.isRedirectingToPayment.set(false);
+                this.showSubscribeModal.set(false);
+                console.log('Payment cancelled by user');
+              }
+            }
+          };
+
+          new (window as any).Razorpay(options).open();
+
+          setTimeout(() => {
+            this.showSubscribeModal.set(false);
+            this.isRedirectingToPayment.set(false);
+          }, 500);
+
+        }, 800);
+      },
+      error: (err) => {
+        console.error('❌ Order creation failed', err);
+        this.isRedirectingToPayment.set(false);
+        alert('Failed to create order. Please try again.');
+      }
+    });
+}
+
 
 
 

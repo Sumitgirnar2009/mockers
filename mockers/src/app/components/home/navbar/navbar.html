@@ -11,10 +11,18 @@
       </a>
 
       <!-- Username badge - visible only on mobile when logged in -->
-      <div class="d-lg-none d-flex align-items-center order-lg-3" *ngIf="isAuthenticated()">
+      <div
+        class="d-lg-none d-flex align-items-center order-lg-3"
+        *ngIf="isAuthenticated()"
+      >
         <span class="username-badge">
           <i class="bi bi-person-circle"></i>
           {{ user()?.preferred_username || user()?.username || "User" }}
+
+          <!-- Mobile Premium Indicator -->
+          <span *ngIf="isPremiumUser" class="premium-pill ms-2">
+            <i class="bi bi-star-fill"></i>
+          </span>
         </span>
       </div>
 
@@ -85,24 +93,39 @@
                 aria-expanded="false"
               >
                 <i class="bi bi-person-circle me-2"></i>
+
                 <span class="d-none d-lg-inline">
-                  {{ user()?.preferred_username || user()?.username || "Profile" }}
+                  {{
+                    user()?.preferred_username || user()?.username || "Profile"
+                  }}
                 </span>
+
+                <!-- PREMIUM BADGE (NAVBAR ONLY) -->
+                <span *ngIf="isPremiumUser" class="premium-badge-navbar ms-2">
+                  <i class="bi bi-patch-check-fill me-1"></i>Premium
+                </span>
+
                 <span class="d-lg-none">Profile</span>
               </button>
-              <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="profileDropdown">
+
+              <ul
+                class="dropdown-menu dropdown-menu-end shadow"
+                aria-labelledby="profileDropdown"
+              >
                 <li>
                   <div class="dropdown-header">
-                    <strong>{{ user()?.preferred_username || user()?.username }}</strong>
-                    <small class="d-block text-muted">{{ user()?.email || "" }}</small>
-                 </div>
+                    <strong>{{
+                      user()?.preferred_username || user()?.username
+                    }}</strong>
+                    <small class="d-block text-muted">{{
+                      user()?.email || ""
+                    }}</small>
+                  </div>
                 </li>
-                <li><hr class="dropdown-divider"></li>
-                <li>
-               
-                </li>
-                <li>
-                <li><hr class="dropdown-divider"></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li></li>
+                <li></li>
+                <li><hr class="dropdown-divider" /></li>
                 <li>
                   <button class="dropdown-item text-danger" (click)="logout()">
                     <i class="bi bi-box-arrow-right me-2"></i>Sign Out
@@ -117,13 +140,18 @@
   </nav>
 
   <!-- Add this at the end of the navbar, right before closing header tag -->
-<div class="notification-container" *ngIf="showNotification">
-  <div class="notification alert" [ngClass]="notificationClass" role="alert">
-    <div class="d-flex align-items-center">
-      <i [class]="notificationIcon"></i>
-      <span class="ms-2">{{ notificationMessage }}</span>
+  <div class="notification-container" *ngIf="showNotification">
+    <div class="notification alert" [ngClass]="notificationClass" role="alert">
+      <div class="d-flex align-items-center">
+        <i [class]="notificationIcon"></i>
+        <span class="ms-2">{{ notificationMessage }}</span>
+      </div>
+      <button
+        type="button"
+        class="btn-close"
+        (click)="dismissNotification()"
+        aria-label="Close"
+      ></button>
     </div>
-    <button type="button" class="btn-close" (click)="dismissNotification()" aria-label="Close"></button>
   </div>
-</div>
 </header>
