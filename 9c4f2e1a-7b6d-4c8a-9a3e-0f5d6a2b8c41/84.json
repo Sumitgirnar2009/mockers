@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "84"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following is one of the product of ozonolysis?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "alcohol"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "acid"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "aldehyde"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "ester"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Ozonolysis is the cleavage of alkenes or alkynes using ozone. For alkenes, the reaction typically produces carbonyl compounds. Depending on the substitution pattern of the double bond, the products can be aldehydes, ketones, or a mixture of both. Aldehydes are common products when the carbon of the double bond has at least one hydrogen. Acids may form if further oxidation occurs, but the direct products are aldehydes/ketones. Alcohols and esters are not formed directly in ozonolysis. Thus, the correct answer is aldehyde, which corresponds to option C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

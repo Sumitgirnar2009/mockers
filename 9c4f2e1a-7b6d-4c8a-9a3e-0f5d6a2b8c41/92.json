@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "92"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which from following cations develops lowest value of spin only magnetic moment?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\mathrm{V^{3+}}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\mathrm{Cr^{3+}}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\mathrm{Mn^{2+}}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\mathrm{Fe^{2+}}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Spin-only magnetic moment is given by:\n\n$$\\mu = \\sqrt{n(n+2)} \\text{ BM}$$\n\nwhere n = number of unpaired electrons.\n\nElectronic configurations:\n\n- V³⁺ (Z=23): [Ar] 3d² → n = 2 → μ = √(2×4) = √8 ≈ 2.83 BM\n- Cr³⁺ (Z=24): [Ar] 3d³ → n = 3 → μ = √(3×5) = √15 ≈ 3.87 BM\n- Mn²⁺ (Z=25): [Ar] 3d⁵ → n = 5 → μ = √(5×7) = √35 ≈ 5.92 BM\n- Fe²⁺ (Z=26): [Ar] 3d⁶ → n = 4 → μ = √(4×6) = √24 ≈ 4.90 BM\n\nThe smallest μ is for V³⁺.\n\nThus, the correct answer is Option A: V³⁺."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

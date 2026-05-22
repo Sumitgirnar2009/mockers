@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "21"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In the depletion layer of reverse biased p-n junction, the"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "electric field is very small."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "potential is maximum."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "electric field is maximum."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "potential is zero."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "In the depletion layer of a reverse biased p-n junction, immobile ions create a strong electric field.\n\nThis electric field opposes the flow of majority charge carriers.\n\nThe electric field is strongest (maximum) across the depletion region because this is where the immobile charges are present.\n\nFinal answer:\n\nThe electric field is maximum in the depletion layer of a reverse biased p-n junction.\n\nTherefore, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

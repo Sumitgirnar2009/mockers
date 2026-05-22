@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "3"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A stone of mass 1 kg tied to a light inextensible string of length $L = \\frac{5}{3}$ m is rotating in a circular path of radius $L$ in a vertical plane. If the ratio of maximum tension in the string to the minimum tension in the string is 3, the speed of the stone at the highest point of the circle is ($g =$ acceleration due to gravity)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\sqrt{gL}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\sqrt{2gL}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\sqrt{4gL}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\sqrt{8gL}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given:\n\nMass $m = 1$ kg\nLength $L = \\frac{5}{3}$ m\n$\\frac{T_{max}}{T_{min}} = 3$\n\nStep 1: Tensions at highest and lowest points\n\nAt highest point: $T_{min} = \\frac{mv_h^2}{L} - mg$\n\nAt lowest point: $T_{max} = \\frac{mv_l^2}{L} + mg$\n\nStep 2: Energy conservation\n\n$\\frac{1}{2}mv_l^2 = \\frac{1}{2}mv_h^2 + mg(2L)$\n\n$v_l^2 = v_h^2 + 4gL$\n\nStep 3: Substitute in tension ratio\n\n$\\frac{T_{max}}{T_{min}} = \\frac{\\frac{m(v_h^2 + 4gL)}{L} + mg}{\\frac{mv_h^2}{L} - mg} = 3$\n\nStep 4: Simplify\n\n$\\frac{v_h^2 + 4gL + gL}{v_h^2 - gL} = 3$\n\n$\\frac{v_h^2 + 5gL}{v_h^2 - gL} = 3$\n\n$v_h^2 + 5gL = 3v_h^2 - 3gL$\n\n$5gL + 3gL = 3v_h^2 - v_h^2$\n\n$8gL = 2v_h^2$\n\n$v_h^2 = 4gL$\n\n$v_h = \\sqrt{4gL}$\n\nFinal answer:\n\nThe speed of the stone at the highest point is $\\sqrt{4gL}$\n\nTherefore, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

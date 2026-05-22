@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "48"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "The fundamental frequency of a closed pipe of length $L$ is equal to the second overtone of a pipe open at both the ends of length $XL$. The value of $X$ is (Neglect end correction)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "4"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "5"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "6"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "7"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a closed pipe (one end closed, one end open) of length L, the fundamental frequency is given by:\n$$f_{\\text{closed}} = \\frac{v}{4L}$$\n\nFor an open pipe (both ends open) of length XL, the second overtone corresponds to the third harmonic. The frequency of the third harmonic is:\n$$f_{\\text{open, 3rd}} = 3 \\times \\frac{v}{2(XL)} = \\frac{3v}{2XL}$$\n\nEquating the two frequencies:\n$$\\frac{v}{4L} = \\frac{3v}{2XL}$$\n\nCancel v from both sides:\n$$\\frac{1}{4L} = \\frac{3}{2XL}$$\n\nCross-multiply:\n$$2XL = 12L$$\n\nDivide both sides by 2L:\n$$X = 6$$\n\nThus, the value of X is 6, which matches option C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

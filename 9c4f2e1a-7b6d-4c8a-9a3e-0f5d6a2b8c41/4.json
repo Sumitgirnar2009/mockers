@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "4"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If only 5% of the total current is to be passed through galvanometer of resistance $G$, then the resistance of the shunt will be"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{G}{15}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{G}{17}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{G}{19}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{G}{21}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given:\n\nOnly 5% of total current passes through galvanometer.\n\nSo, $I_g = 5\\%$ of $I = \\frac{5}{100}I = \\frac{I}{20}$\n\nCurrent through shunt: $I_s = I - I_g = I - \\frac{I}{20} = \\frac{19I}{20}$\n\nIn parallel combination, voltage across galvanometer = voltage across shunt\n\n$I_g \\times G = I_s \\times S$\n\n$\\frac{I}{20} \\times G = \\frac{19I}{20} \\times S$\n\nCancel $\\frac{I}{20}$ on both sides:\n\n$G = 19S$\n\n$S = \\frac{G}{19}$\n\nFinal answer:\n\nThe resistance of the shunt is $\\frac{G}{19}$\n\nTherefore, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

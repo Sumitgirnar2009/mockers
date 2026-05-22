@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "19"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Two particles of equal mass '$m$' move in a circle of radius '$r$' under the action of their mutual gravitational attraction. The speed of each particle will be ($G =$ Universal gravitational constant)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\sqrt{\\frac{Gm}{4r}}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\sqrt{\\frac{Gm}{r}}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\sqrt{\\frac{Gm}{2r}}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\sqrt{\\frac{4Gm}{r}}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given:\n\nTwo particles, each of mass $m$, move in a circle of radius $r$ due to their mutual gravitational attraction.\n\nStep 1: Gravitational force between the particles\n\nThe distance between the particles is $2r$ (as they are on opposite ends of the diameter).\n\n$F = \\frac{Gm^2}{(2r)^2} = \\frac{Gm^2}{4r^2}$\n\nStep 2: Required centripetal force for each particle\n\nEach particle moves in a circle of radius $r$ about the center of mass.\n\n$F_{\\text{centripetal}} = \\frac{mv^2}{r}$\n\nStep 3: Equate gravitational force and centripetal force\n\nThe gravitational force provides the necessary centripetal force:\n\n$\\frac{mv^2}{r} = \\frac{Gm^2}{4r^2}$\n\nStep 4: Solve for $v$\n\nDivide both sides by $m$:\n\n$\\frac{v^2}{r} = \\frac{Gm}{4r^2}$\n\nMultiply both sides by $r$:\n\n$v^2 = \\frac{Gm}{4r}$\n\nTake square root:\n\n$v = \\sqrt{\\frac{Gm}{4r}}$\n\nFinal answer:\n\nThe speed of each particle is $\\sqrt{\\frac{Gm}{4r}}$\n\nTherefore, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

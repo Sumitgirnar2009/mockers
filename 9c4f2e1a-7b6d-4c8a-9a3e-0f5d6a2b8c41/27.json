@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "27"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "A string of mass 0.1 kg/m has length 0.9 m. It is fixed at both ends and stretched such that it has a tension of 40 N. The string vibrates in three segments with amplitude 0.3 cm. The amplitude (maximum) of the particle velocity is (in m/s)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "π/2"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "π/3"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "π/5"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "π/6"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: μ = 0.1 kg/m, L = 0.9 m, T = 40 N, n = 3 segments (3rd harmonic), A = 0.3 cm = 0.003 m.\n\nStep 1: Wave speed on string\nv = √(T/μ) = √(40/0.1) = √400 = 20 m/s\n\nStep 2: Frequency of nth harmonic for fixed ends\nf_n = n v / (2L)\nFor n = 3: f = 3 × 20 / (2 × 0.9) = 60 / 1.8 = 100/3 Hz\n\nStep 3: Angular frequency\nω = 2πf = 2π × (100/3) = 200π/3 rad/s\n\nStep 4: Maximum particle velocity\nv_max = A × ω = 0.003 × (200π/3) = (0.6π)/3 = 0.2π = π/5 m/s\n\nThus, amplitude of particle velocity = π/5 m/s.\n\nCorrect option: C"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

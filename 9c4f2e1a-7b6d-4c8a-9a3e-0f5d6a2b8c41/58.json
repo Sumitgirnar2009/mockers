@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "58"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "What is the molar mass of compound represented by following structure formula? (OH)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41/q58.jpg"
+  },
+  "Option1Stmt": {
+    "S": "36 g mol$^{-1}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "46 g mol$^{-1}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "22 g mol$^{-1}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "32 g mol$^{-1}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For the given structure, molecular formula is $C_2H_6O$.\n\n∴ Molar mass of the compound\n\n$$= (\\text{Mass of C} \\times 2) + (\\text{Mass of H} \\times 6) + (\\text{Mass of O} \\times 1)$$\n\n$$= (12 \\times 2) + (1 \\times 6) + (16 \\times 1)$$\n\n$$= 24 + 6 + 16$$\n\n$$= 46 \\, \\text{g mol}^{-1}$$"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

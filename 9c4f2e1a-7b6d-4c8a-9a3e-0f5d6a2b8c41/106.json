@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "106"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The point of intersection of the diagonals of the rectangle whose sides are contained in the lines $x = 8, x = 10, y = 11$ and $y = 12$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\left( \\frac{9}{2}, 23 \\right)$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\left( 9, \\frac{23}{2} \\right)$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\left( 7, \\frac{21}{2} \\right)$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\left( \\frac{7}{2}, 21 \\right)$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The four sides of the rectangle are vertical lines x = 8 and x = 10, and horizontal lines y = 11 and y = 12. Thus the vertices are A(8,11), B(10,11), C(10,12), D(8,12).\n\nDiagonal AC joins A(8,11) and C(10,12). Its equation using two-point form:\n$$\\frac{y-11}{12-11} = \\frac{x-8}{10-8} \\Rightarrow \\frac{y-11}{1} = \\frac{x-8}{2} \\Rightarrow 2(y-11) = x-8 \\Rightarrow x - 2y + 14 = 0.$$\n\nDiagonal BD joins B(10,11) and D(8,12):\n$$\\frac{y-11}{12-11} = \\frac{x-10}{8-10} \\Rightarrow \\frac{y-11}{1} = \\frac{x-10}{-2} \\Rightarrow -2(y-11) = x-10 \\Rightarrow x + 2y - 32 = 0.$$\n\nSolving the two equations: Adding gives 2x - 18 = 0 → x = 9. Substitute into x + 2y - 32 = 0 → 9 + 2y - 32 = 0 → 2y = 23 → y = 23/2.\n\nThus the intersection point is (9, 23/2), which matches option B."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41/q106-sol.png"
+  }
+}

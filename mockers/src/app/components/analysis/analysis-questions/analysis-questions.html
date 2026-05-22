@@ -185,4 +185,33 @@
     </button>
   </div>
 
+  <!-- Solution Section -->
+  <div class="mt-4" *ngIf="currentQuestion?.solution?.text || (currentQuestion?.solution?.image && currentQuestion?.solution?.image !== 'NA')">
+    <div class="card border-info">
+      <div class="card-header bg-info text-white fw-bold">
+        <i class="bi bi-lightbulb me-2"></i>
+        Solution
+      </div>
+      <div class="card-body">
+        <!-- Solution Image -->
+        <div
+          *ngIf="currentQuestion?.solution?.image && currentQuestion?.solution?.image !== 'NA'"
+          class="mb-3 text-center"
+        >
+          <img
+            [src]="currentQuestion?.solution?.image"
+            alt="Solution Image"
+            class="img-fluid rounded border"
+            style="max-height: 250px; object-fit: contain"
+          />
+        </div>
+
+        <!-- Solution Text -->
+        <p class="mb-0"
+           [innerHTML]="sanitizeHtml((currentQuestion?.solution?.text || 'No solution available') | latex)">
+        </p>
+      </div>
+    </div>
+  </div>
+
 </div>

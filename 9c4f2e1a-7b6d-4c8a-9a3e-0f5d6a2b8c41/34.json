@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "34"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "Light of wavelength $\\lambda$ strikes a photoelectric surface and electrons are ejected with energy $E$. If $E$ is to be increased to twice the original value, the wavelength changes to $\\lambda_1$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\lambda_1 < \\lambda/2$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\lambda_1 = \\lambda$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\lambda_1 > \\lambda/2$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\lambda_1 = \\lambda/2$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "From Einstein's photoelectric equation: $E = \\frac{hc}{\\lambda} - \\phi$ and $2E = \\frac{hc}{\\lambda_1} - \\phi$, where $\\phi$ is the work function.\n\nSubtracting the first equation from the second: $E = \\frac{hc}{\\lambda_1} - \\frac{hc}{\\lambda}$.\n\nFrom the first equation: $\\frac{hc}{\\lambda} = E + \\phi$.\n\nSubstituting: $E = \\frac{hc}{\\lambda_1} - (E + \\phi)$ → $\\frac{hc}{\\lambda_1} = 2E + \\phi$.\n\nIf $\\lambda_1 = \\frac{\\lambda}{2}$, then $\\frac{hc}{\\lambda_1} = \\frac{2hc}{\\lambda} = 2(E + \\phi) = 2E + 2\\phi$, which is greater than $2E + \\phi$.\n\nThus to get exactly $2E + \\phi$, we need $\\frac{hc}{\\lambda_1} < \\frac{2hc}{\\lambda}$, i.e., $\\lambda_1 > \\frac{\\lambda}{2}$.\n\nTherefore, the correct option is C: $\\lambda_1 > \\lambda/2$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

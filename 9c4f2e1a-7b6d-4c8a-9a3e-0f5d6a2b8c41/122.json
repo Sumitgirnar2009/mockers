@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "122"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The ratios of sides in a triangle ABC are 5 : 12 : 13 and its area is 270. Then sides of the triangle are"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "5, 12, 13"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "10, 24, 26"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "15, 36, 39"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "20, 48, 52"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let the common multiple be $x$. Then the sides are $5x$, $12x$, $13x$.\n\nCheck if the triangle is right-angled using cosine rule:\n$$\\cos C = \\frac{(5x)^2 + (12x)^2 - (13x)^2}{2 \\times 5x \\times 12x} = \\frac{25x^2 + 144x^2 - 169x^2}{120x^2} = 0$$\nThus $C = 90^\\circ$. So the sides $5x$ and $12x$ form the right angle.\n\nArea of right-angled triangle = $\\frac{1}{2} \\times (5x) \\times (12x) = 30x^2$.\nGiven area = 270, so:\n$$30x^2 = 270 \\Rightarrow x^2 = 9 \\Rightarrow x = 3$$\n\nHence the sides are $5 \\times 3 = 15$, $12 \\times 3 = 36$, and $13 \\times 3 = 39$.\n\nThus the correct option is C: 15, 36, 39."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

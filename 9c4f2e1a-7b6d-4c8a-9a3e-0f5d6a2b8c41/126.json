@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "126"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The solution of the differential equation $x \\frac{d^2y}{dx^2} = 1$ at $x = y = 1$ with $\\frac{dy}{dx} = 0$ at $x = 1$, is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$y = x \\log x + x + 2$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$y = x \\log x - x + 2$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$x = x \\log x + 2$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$x \\log x - x = y$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The given differential equation is:\n$$x \\frac{d^2y}{dx^2} = 1 \\quad \\Rightarrow \\quad \\frac{d^2y}{dx^2} = \\frac{1}{x}$$\n\nIntegrate both sides with respect to $x$:\n$$\\frac{dy}{dx} = \\log x + c \\quad \\text{(i)}$$\n\nGiven that $\\frac{dy}{dx} = 0$ when $x = 1$. Substituting in (i):\n$$0 = \\log 1 + c \\Rightarrow c = 0$$\n\nThus $\\frac{dy}{dx} = \\log x$.\n\nIntegrate again:\n$$y = x \\log x - x + k \\quad \\text{(ii)}$$\n\nGiven $x = y = 1$. Substituting in (ii):\n$$1 = 1 \\cdot \\log 1 - 1 + k \\Rightarrow 1 = 0 - 1 + k \\Rightarrow k = 2$$\n\nTherefore the solution is:\n$$y = x \\log x - x + 2$$\n\nHence the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

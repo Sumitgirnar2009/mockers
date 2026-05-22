@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "128"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If the sum of the squares of the distance of the point $P(x, y, z)$ from the coordinate axes is 242, then the distance of the point $P$ from the origin is ______ units."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "121"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "11"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "22"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{121}{2}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Distance of $P(x,y,z)$ from x-axis = $\\sqrt{y^2+z^2}$, from y-axis = $\\sqrt{x^2+z^2}$, from z-axis = $\\sqrt{x^2+y^2}$.\n\nSum of squares: $(y^2+z^2) + (x^2+z^2) + (x^2+y^2) = 2(x^2+y^2+z^2) = 242$.\n\nThus $x^2+y^2+z^2 = 121$.\n\nDistance from origin = $\\sqrt{x^2+y^2+z^2} = \\sqrt{121} = 11$.\n\nHence correct option is B: 11."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

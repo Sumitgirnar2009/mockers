@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "31"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "When a ceiling fan is switched off, its angular velocity falls to $\\frac{1}{3}^{\\text{rd}}$ while it makes 24 rotations. How many more rotations will it make before coming to rest?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "3"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "6"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "9"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "12"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let initial angular velocity be $\\omega_0$. After 24 rotations, angular velocity becomes $\\frac{\\omega_0}{3}$.\n\nUsing equation of motion for constant angular deceleration $\\alpha$:\n$$\\omega^2 = \\omega_0^2 - 2\\alpha \\theta$$\nwhere $\\theta = 24 \\times 2\\pi$ rad (24 rotations).\n\n$$\\left(\\frac{\\omega_0}{3}\\right)^2 = \\omega_0^2 - 2\\alpha (48\\pi)$$\n$$\\frac{\\omega_0^2}{9} = \\omega_0^2 - 96\\pi \\alpha$$\n$$96\\pi \\alpha = \\omega_0^2 - \\frac{\\omega_0^2}{9} = \\frac{8\\omega_0^2}{9}$$\n$$\\alpha = \\frac{8\\omega_0^2}{9 \\times 96\\pi} = \\frac{\\omega_0^2}{108\\pi}$$\n\nNow for the remaining motion: initial angular velocity $\\frac{\\omega_0}{3}$, final $0$:\n$$0 = \\left(\\frac{\\omega_0}{3}\\right)^2 - 2\\alpha \\theta_2$$\n$$\\theta_2 = \\frac{(\\omega_0^2/9)}{2\\alpha} = \\frac{\\omega_0^2/9}{2 \\times (\\omega_0^2 / 108\\pi)} = \\frac{\\omega_0^2}{9} \\times \\frac{108\\pi}{2\\omega_0^2}$$\n$$\\theta_2 = \\frac{108\\pi}{18} = 6\\pi \\text{ rad}$$\n\nIn rotations: $\\theta_2 = \\frac{6\\pi}{2\\pi} = 3$ rotations.\n\nThus, it will make 3 more rotations before coming to rest.\n\nCorrect option: A"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "129"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If the points $A(2-x, 2, 2)$, $B(2, 2-y, 2)$, $C(2, 2, 2-z)$ and $D(1, 1, 1)$ are coplanar, then the locus of point $P(x, y, z)$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z} = 1$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z} = 0$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{1}{1+x} + \\frac{1}{1+y} + \\frac{1}{1+z} = 1$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{1}{x} + \\frac{1}{2y} + \\frac{1}{3z} = 0$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Vectors: $\\overrightarrow{AB} = (x, -y, 0)$, $\\overrightarrow{AC} = (x, 0, -z)$, $\\overrightarrow{AD} = (x-1, -1, -1)$.\n\nFor coplanarity, scalar triple product = 0:\n$$\\begin{vmatrix} x & -y & 0 \\\\ x & 0 & -z \\\\ x-1 & -1 & -1 \\end{vmatrix} = 0.$$\n\nExpanding: $x(0 \\cdot (-1) - (-z)(-1)) - (-y)(x \\cdot (-1) - (-z)(x-1)) + 0 = 0$.\n\nSimplify: $x(0 - z) + y(-x + z(x-1)) = -xz + y(-x + xz - z) = -xz - xy + xyz - yz = 0$.\n\nDivide by $xyz$ (assuming non-zero): $-\\frac{1}{y} - \\frac{1}{z} + 1 - \\frac{1}{x} = 0 \\Rightarrow \\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z} = 1$.\n\nThus the locus is $\\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z} = 1$, which matches option A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

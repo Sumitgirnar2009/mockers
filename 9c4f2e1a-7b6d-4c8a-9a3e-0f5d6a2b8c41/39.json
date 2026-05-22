@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "39"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "An alternating voltage $E = 100\\sqrt{2} \\sin(50t)$ is connected to a $2\\mu F$ capacitor through an a.c. ammeter. The ammeter reading will be"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "10 mA"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "5 mA"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "20 mA"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "30 mA"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The AC voltage is given by $E = E_0 \\sin(\\omega t)$ with $E_0 = 100\\sqrt{2}$ V and $\\omega = 50$ rad/s.\n\nCapacitance: $C = 2\\mu F = 2 \\times 10^{-6}$ F.\n\nCapacitive reactance: $X_C = \\frac{1}{\\omega C} = \\frac{1}{50 \\times 2 \\times 10^{-6}} = \\frac{1}{10^{-4}} = 10^4 \\, \\Omega = 10000\\, \\Omega$.\n\nPeak current: $I_0 = \\frac{E_0}{X_C} = \\frac{100\\sqrt{2}}{10000} = \\frac{\\sqrt{2}}{100} = 0.01414$ A = 14.14 mA.\n\nRMS current (ammeter reading): $I_{\\text{rms}} = \\frac{I_0}{\\sqrt{2}} = \\frac{14.14}{1.414} = 10$ mA.\n\nThus, the ammeter reads 10 mA, which matches option A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

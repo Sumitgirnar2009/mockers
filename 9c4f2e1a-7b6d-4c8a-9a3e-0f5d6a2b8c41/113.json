@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "113"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The value of $$\\int_{1}^{4} \\log[x] \\, dx$$, where $[x]$ is the greatest integer function less than or equal to $x$ is equal to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\log 5$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\log 6$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\log 2$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\log 3$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $I = \\int_{1}^{4} \\log[x] \\, dx$. Splitting the integral at integer points: $$I = \\int_{1}^{2} \\log1 \\, dx + \\int_{2}^{3} \\log2 \\, dx + \\int_{3}^{4} \\log3 \\, dx$$ $$= 0 + \\log2 \\cdot (3-2) + \\log3 \\cdot (4-3) = \\log2 + \\log3 = \\log(2 \\times 3) = \\log6.$$ Hence the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

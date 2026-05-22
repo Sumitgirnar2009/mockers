@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "42"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "The ratio of the wavelength of the last line of Paschen series to that of Balmer series is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{9}{4}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{3}{2}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{2}{3}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{4}{9}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "# Explanation\n\n## Step 1: Formula for wavelength in hydrogen spectrum (Rydberg formula)\n\nThe wavelength of a spectral line is given by:\n\n$$\\frac{1}{\\lambda} = RZ^2 \\left( \\frac{1}{n_1^2} - \\frac{1}{n_2^2} \\right)$$\n\nwhere:\n- $R$ = Rydberg constant\n- $Z$ = atomic number (for hydrogen, $Z = 1$)\n- $n_1$ = lower energy level\n- $n_2$ = higher energy level, $n_2 > n_1$\n\n---\n\n## Step 2: Balmer series \"last line\"\n\nBalmer series: $n_1 = 2, n_2 = \\infty$ (last line means limit, $n_2 \\to \\infty$):\n\nSo, for the last line:\n\n$$\\frac{1}{\\lambda_B} = R \\left( \\frac{1}{2^2} - 0 \\right) = R \\cdot \\frac{1}{4}$$\n\nSo,\n\n$$\\lambda_B = \\frac{1}{R} \\times 4 = \\frac{4}{R}$$\n\n---\n\n## Step 3: Paschen series \"last line\"\n\nPaschen series: $n_1 = 3, n_2 = \\infty$ (last line):\n\nSo,\n\n$$\\frac{1}{\\lambda_P} = R \\left( \\frac{1}{3^2} - 0 \\right) = R \\cdot \\frac{1}{9}$$\n\nSo,\n\n$$\\lambda_P = \\frac{1}{R} \\times 9 = \\frac{9}{R}$$\n\n---\n\n## Step 4: Ratio of wavelengths\n\nRatio =\n\n$$\\frac{\\lambda_P}{\\lambda_B} = \\frac{\\frac{9}{R}}{\\frac{4}{R}} = \\frac{9}{4}$$\n\n---\n\n## Step 5: Final Answer\n\nCorrect option: A"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

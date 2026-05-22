@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "8"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $\\lambda_1$ and $\\lambda_2$ are the wavelengths of the first member of the Balmer and Paschen series in hydrogen atom respectively, then the ratio of respective frequencies, $f_1 / f_2$, is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "20 : 7"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "27 : 5"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "50 : 9"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "108 : 7"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given:\n\n$\\lambda_1$ = wavelength of first member of Balmer series\n$\\lambda_2$ = wavelength of first member of Paschen series\n\nStep 1: Formula for hydrogen spectral series\n\n$\\frac{1}{\\lambda} = R\\left(\\frac{1}{n_1^2} - \\frac{1}{n_2^2}\\right)$\n\nwhere $R$ is Rydberg constant.\n\nStep 2: For first member of Balmer series\n\nBalmer series: $n_1 = 2$, first member means $n_2 = 3$\n\n$\\frac{1}{\\lambda_1} = R\\left(\\frac{1}{2^2} - \\frac{1}{3^2}\\right) = R\\left(\\frac{1}{4} - \\frac{1}{9}\\right) = R\\left(\\frac{9 - 4}{36}\\right) = \\frac{5R}{36}$\n\nStep 3: For first member of Paschen series\n\nPaschen series: $n_1 = 3$, first member means $n_2 = 4$\n\n$\\frac{1}{\\lambda_2} = R\\left(\\frac{1}{3^2} - \\frac{1}{4^2}\\right) = R\\left(\\frac{1}{9} - \\frac{1}{16}\\right) = R\\left(\\frac{16 - 9}{144}\\right) = \\frac{7R}{144}$\n\nStep 4: Frequency ratio\n\nFrequency $f = \\frac{c}{\\lambda}$, so $f \\propto \\frac{1}{\\lambda}$\n\n$\\frac{f_1}{f_2} = \\frac{1/\\lambda_1}{1/\\lambda_2} = \\frac{\\lambda_2}{\\lambda_1} = \\frac{144/7R}{36/5R} = \\frac{144}{7} \\times \\frac{5}{36} = \\frac{144 \\times 5}{7 \\times 36} = \\frac{720}{252} = \\frac{20}{7}$\n\nThus, $f_1 : f_2 = 20 : 7$\n\nFinal answer:\n\nThe ratio of frequencies is $20 : 7$\n\nTherefore, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

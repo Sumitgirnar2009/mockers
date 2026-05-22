@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "55"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "Identify the compound formed by action of chromyl chloride on toluene in presence of CS₂ and hydrolysed further?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Chlorobenzene"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Benzal chloride"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Benzaldehyde"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Benzoic acid"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The reaction of chromyl chloride (CrO₂Cl₂) with toluene in the presence of CS₂ is known as the Etard reaction. In this reaction, the methyl group of toluene is selectively oxidized to an aldehyde group. The intermediate complex formed is then hydrolyzed to yield benzaldehyde (C₆H₅CHO).\n\nThus, the correct answer is Benzaldehyde, which corresponds to option C."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41/q55-sol.png"
+  }
+}

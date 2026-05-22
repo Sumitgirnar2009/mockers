@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "65"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "Which from following elements is NOT regarded as transition element?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Ni"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Fe"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Ag"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Hg"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Transition elements are defined as elements that have partially filled d-subshells in their ground state or in any of their common oxidation states.\n\n- Ni (Nickel): Atomic number 28, electronic configuration [Ar] 3d⁸ 4s² → has partially filled d-orbital, so it is a transition element.\n- Fe (Iron): Atomic number 26, electronic configuration [Ar] 3d⁶ 4s² → has partially filled d-orbital, so it is a transition element.\n- Ag (Silver): Atomic number 47, electronic configuration [Kr] 4d¹⁰ 5s¹ → In ground state, d-orbital is completely filled (d¹⁰). However, in its common oxidation state +1, the configuration is 4d¹⁰ (still completely filled). But Ag is still considered a transition element by IUPAC definition because it belongs to d-block (Group 11) and has partially filled d-orbital in some oxidation states? Actually, Ag is a d-block element and is considered a transition element.\n- Hg (Mercury): Atomic number 80, electronic configuration [Xe] 4f¹⁴ 5d¹⁰ 6s² → d-orbital is completely filled in ground state and also in its common oxidation states (+1 and +2, where configuration becomes 5d¹⁰ or 5d⁹? Wait: Hg²⁺: [Xe] 4f¹⁴ 5d¹⁰ 6s⁰ → still 5d¹⁰ (completely filled). Since it has completely filled d-orbital in both ground state and common oxidation states, Hg is NOT regarded as a transition element. It is a post-transition element.\n\nThus, the element that is NOT regarded as a transition element is Mercury (Hg), which corresponds to option D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

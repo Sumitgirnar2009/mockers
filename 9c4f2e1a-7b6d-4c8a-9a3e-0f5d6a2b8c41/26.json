@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "26"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "For a common emitter transistor, if $\\frac{I_C}{I_E} = 0.95$, then the current gain is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "47.5"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "44"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "19"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "15"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given:\n\n$\\frac{I_C}{I_E} = 0.95$\n\nStep 1: Relationship between currents in transistor\n\n$I_E = I_C + I_B$\n\nTherefore, $I_B = I_E - I_C$\n\nStep 2: Current gain $\\beta$ for common emitter\n\n$\\beta = \\frac{I_C}{I_B} = \\frac{I_C}{I_E - I_C}$\n\nStep 3: Substitute the given ratio\n\nSince $\\frac{I_C}{I_E} = 0.95$, we have $I_C = 0.95 I_E$\n\n$\\beta = \\frac{0.95 I_E}{I_E - 0.95 I_E} = \\frac{0.95 I_E}{0.05 I_E} = \\frac{0.95}{0.05} = 19$\n\nFinal answer:\n\nThe current gain is 19.\n\nTherefore, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

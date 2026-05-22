@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "145"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $x + \\log_{15}(5 + 3^x) = x \\log_{15} 5 + \\log_{15} 24$, then $x =$ ______"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "5"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "2"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "8"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $x + \\log_{15}(5 + 3^x) = x \\log_{15} 5 + \\log_{15} 24$.\n\nRewrite $x$ as $x \\log_{15} 15$. Then:\n$$\\log_{15} 15^x + \\log_{15}(5 + 3^x) = \\log_{15} 5^x + \\log_{15} 24$$\n$$\\Rightarrow \\log_{15} [15^x (5 + 3^x)] = \\log_{15} (5^x \\cdot 24)$$\n$$\\Rightarrow 15^x (5 + 3^x) = 5^x \\cdot 24$$\n\nSince $15^x = 3^x \\cdot 5^x$, substitute:\n$$3^x \\cdot 5^x (5 + 3^x) = 5^x \\cdot 24$$\nCancel $5^x$ (positive):\n$$3^x (5 + 3^x) = 24$$\n$$\\Rightarrow 3^{2x} + 5 \\cdot 3^x - 24 = 0$$\n\nLet $t = 3^x > 0$. Then $t^2 + 5t - 24 = 0 \\Rightarrow (t+8)(t-3)=0$.\nThus $t = 3$ (reject $t = -8$).\nSo $3^x = 3 \\Rightarrow x = 1$.\n\nHence the correct answer is A: 1."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

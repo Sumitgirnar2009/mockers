@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "66"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "Which from following is the correct relationship between molar conductivity ($\\Lambda$), conductivity ($k$) and molarity ($M$) of solution for electrolyte?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$k = \\frac{\\Lambda \\times C}{1000}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\Lambda = \\frac{100 \\times k}{C}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\Lambda = \\frac{k \\times C}{1000}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$k = \\frac{1000 \\times C}{\\Lambda}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The correct relationship between molar conductivity ($\\Lambda$), conductivity ($k$), and concentration (molarity, $C$) is:\n\n$$\\Lambda = \\frac{k \\times 1000}{C}$$\n\nwhere,\n- $\\Lambda$ = molar conductivity ($S \\, cm^2 \\, mol^{-1}$),\n- $k$ = conductivity ($S \\, cm^{-1}$),\n- $C$ = concentration in mol $L^{-1}$.\n\nLet's analyze the options:\n\n**Option A:** $k = \\frac{\\Lambda \\times C}{1000}$ (incorrect manipulation)\n\n**Option B:** $\\Lambda = \\frac{100 \\times k}{C}$ (incorrect factor)\n\n**Option C:** $\\Lambda = \\frac{k \\times C}{1000}$ (incorrect formula)\n\n**Option D:** $k = \\frac{1000 \\times C}{\\Lambda}$ (incorrect manipulation)\n\nNone of these match the correct formula. However, if we rearrange the correct relationship:\n\n$$\\Lambda = \\frac{k \\times 1000}{C}$$\n\nOR\n\n$$k = \\frac{\\Lambda \\times C}{1000}$$\n\nSo, Option A is correct.\n\nFinal Answer: **Option A** $k = \\frac{\\Lambda \\times C}{1000}$ is correct."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

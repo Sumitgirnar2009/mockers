@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "29"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "The molar specific heat of an ideal gas at constant pressure and constant volume is $C_p$ and $C_v$ respectively. If $R$ is the universal gas constant and the ratio of $C_p$ to $C_v$ is $\\gamma$, then $C_p$ is equal to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\left(\\frac{\\gamma - 1}{\\gamma + 1}\\right) R$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{(\\gamma - 1)R}{\\gamma}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{R \\gamma}{\\gamma - 1}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{R \\gamma}{\\gamma + 1}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $C_p - C_v = R$ and $\\gamma = \\frac{C_p}{C_v}$.\n\nStep 1: Express $C_p$ in terms of $C_v$.\n$$C_p = \\gamma C_v$$\n\nStep 2: Substitute in $C_p - C_v = R$.\n$$\\gamma C_v - C_v = R$$\n$$(\\gamma - 1) C_v = R$$\n$$C_v = \\frac{R}{\\gamma - 1}$$\n\nStep 3: Find $C_p$.\n$$C_p = \\gamma C_v = \\gamma \\times \\frac{R}{\\gamma - 1} = \\frac{\\gamma R}{\\gamma - 1}$$\n\nThus, $C_p = \\frac{R \\gamma}{\\gamma - 1}$.\n\nCorrect option: C"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

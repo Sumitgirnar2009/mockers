@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "62"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "In a first order reaction concentration of reactant decreases from 20 milli mol dm$^{-3}$ to 8 milli mol dm$^{-3}$ in 40 minutes, find rate constant of reaction?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "0.011 minute$^{-1}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "0.023 minute$^{-1}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "0.032 minute$^{-1}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "0.041 minute$^{-1}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let the initial concentration of reactant, [R]₀ = 20 milli mol dm⁻³\n\nFinal concentration after time t = 40 min, [R] = 8 milli mol dm⁻³\n\nFor a first order reaction, the rate law is:\n\n$$k = \\frac{1}{t} \\ln \\left( \\frac{[R]_0}{[R]} \\right)$$\n\nSubstitute the values:\n\n[R]₀ = 20\n\n[R] = 8\n\nt = 40 min\n\n$$k = \\frac{1}{40} \\ln \\left( \\frac{20}{8} \\right)$$\n\nCalculate 20/8:\n\n$$\\frac{20}{8} = 2.5$$\n\nSo,\n\n$$k = \\frac{1}{40} \\ln (2.5)$$\n\nNow, calculate ln(2.5):\n\n$$\\ln(2.5) \\approx 0.916$$\n\nNow calculate k:\n\n$$k = \\frac{0.916}{40}$$\n\n$$k = 0.0229 \\, \\text{min}^{-1}$$\n\nRounding off, k ≈ 0.023 min⁻¹\n\nCorrect Option: B 0.023 minute⁻¹"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

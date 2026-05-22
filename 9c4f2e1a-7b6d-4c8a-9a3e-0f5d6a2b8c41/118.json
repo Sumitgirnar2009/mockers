@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "118"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In a bank, the principal increases continuously at a rate of $x\\%$ per year. Then the rate $x$, if ₹100 double itself in 10 years, is ( $\\log 2 = 0.6931$ )"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "6.93%"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "9.63%"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "6.09%"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "3.69%"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The principal increases at a rate of $x\\%$ per year, so:\n$$\\frac{dP}{dt} = \\frac{x}{100} \\times P$$\n\nSeparating the variables:\n$$\\frac{dP}{P} = \\frac{x}{100} \\, dt$$\n\nIntegrating both sides:\n$$\\log P = \\frac{x}{100} t + c \\quad \\text{...... (i)}$$\n\nWhen $t = 0$, $P = 100$:\n$$\\log 100 = c$$\n\nWhen $t = 10$, $P = 200$. Substituting into (i):\n$$\\log 200 = \\frac{x}{100} \\times 10 + \\log 100$$\n\n$$\\log 200 - \\log 100 = \\frac{x}{10}$$\n\n$$\\log 2 = \\frac{x}{10}$$\n\n$$x = 10 \\log 2 = 10 \\times 0.6931 = 6.931\\%$$\n\nThus the required rate is approximately 6.93%, which corresponds to option A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

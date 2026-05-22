@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "148"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Consider the three statements\n\n$$p : \\forall n \\in \\mathbb{N}, 10n - 3 \\text{ is a prime number, when } n \\text{ is not divisible by } 3.$$\n\n$$q : \\frac{2}{\\sqrt{3}}, -\\frac{1}{\\sqrt{3}}, \\frac{-1}{\\sqrt{3}} \\text{ are the direction cosines of a directed line.}$$\n\n$$r : \\sin x \\text{ is an increasing function in the interval } \\left[-\\frac{\\pi}{2}, \\frac{\\pi}{2}\\right].$$\n\nThen which of the following statement pattern has truth value true?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$(p \\land q) \\leftrightarrow r$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$(p \\to q) \\to r$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$(\\sim p \\lor q) \\land r$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$(\\sim p \\land \\sim q) \\leftrightarrow r$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "p : ∀n ∈ N, 10n − 3 is prime number, when n is not divisible by 3.\n\nFor n = 1, 10n − 3 = 7, which is prime.\nFor n = 2, 10n − 3 = 17, which is prime\nFor n = 4, 10n − 3 = 37, which is prime\nFor n = 5, 10n − 3 = 47 which is prime\nFor n = 8, 10n − 3 = 77 which is composite\n∴ Statement does not hold for all n.\n∴ p is false.\n\nq : l = 2/√3, m = -2/√3, n = -1/√3\nl² + m² + n² = (2/√3)² + (-2/√3)² + (-1/√3)² = 4/3 + 4/3 + 1/3 = 3 ≠ 1\n∴ 2/√3, -2/√3, -1/√3 cannot be direction cosines of a line.\n∴ q is false.\n\nr : sin x is increasing in interval [-π/2, π/2]\nf(x) = sin x\nf'(x) = cos x\ncos x ≥ 0 in [-π/2, π/2]\n∴ sin x is increasing in [-π/2, π/2]\n∴ r is true.\n\nFrom all options, (~ p ∨ q) ∧ r ≡ (T ∨ F) ∧ T ≡ T"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "54"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "Calculate the percent dissociation of 0.02 m solution if its freezing point depression is 0.046 K. [$K_f$ for water = 1.86 K kg mol$^{-1}$; $n = 2$]"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "12.3%"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "23.6%"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "35.0%"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "48.1%"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given data:\n- Molality, m = 0.02 m\n- Depression in freezing point, ΔTf = 0.046 K\n- Cryoscopic constant, Kf = 1.86 K kg mol⁻¹\n- Number of ions after dissociation, n = 2\n\nStep 1: Write formula for depression in freezing point\nΔTf = i × Kf × m\nwhere i is the van't Hoff factor.\n\nStep 2: Calculate van't Hoff factor i\ni = ΔTf / (Kf × m)\nSubstitute values:\ni = 0.046 / (1.86 × 0.02) = 0.046 / 0.0372 ≈ 1.24\n\nStep 3: Relate i to degree of dissociation (α)\nFor a salt AB which dissociates as AB → A⁺ + B⁻ (n = 2 ions):\ni = 1 + (n - 1)α\nHere, n = 2:\ni = 1 + (2 - 1)α = 1 + α\nα = i - 1\nα = 1.24 - 1 = 0.24\n\nStep 4: Find percent dissociation\nPercent dissociation = α × 100% = 0.24 × 100% = 24% ≈ 23.6%\n\nThus, the percent dissociation is approximately 23.6%, which matches option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

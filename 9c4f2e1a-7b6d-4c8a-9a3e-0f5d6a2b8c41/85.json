@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "85"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Find molar mass of nonvolatile solute when 20 g of it dissolved in 200 g water at 300 K. [Relative lowering of vapour pressure = 0.02]"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$120 \\, \\text{g mol}^{-1}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$110 \\, \\text{g mol}^{-1}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$90 \\, \\text{g mol}^{-1}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$100 \\, \\text{g mol}^{-1}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given:\nMass of solute w₂ = 20 g\nMass of solvent (water) w₁ = 200 g\nRelative lowering Δp/p⁰ = 0.02\nMolar mass of water M₁ = 18 g/mol\n\nFor dilute solutions:\nΔp/p⁰ ≈ n₂/n₁ = (w₂/M₂) / (w₁/M₁) = (w₂ × M₁) / (w₁ × M₂)\n\nSubstitute values:\n0.02 = (20 × 18) / (200 × M₂) = 360 / (200 × M₂)\n\nRearrange:\n0.02 × 200 × M₂ = 360\n4 × M₂ = 360\nM₂ = 360 / 4 = 90 g/mol\n\nThus, the correct option is C: 90 g mol⁻¹"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

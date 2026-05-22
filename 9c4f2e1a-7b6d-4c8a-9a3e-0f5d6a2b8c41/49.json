@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "49"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "In the case of constant '$\\alpha$' and '$\\beta$' of a transistor ($\\alpha$ and $\\beta$ are current ratios)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\beta < 1, \\alpha > 1$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\beta > 1, \\alpha < 1$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\alpha = \\beta$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\alpha = \\beta^2$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a transistor, $\\alpha$ (common base current gain) is defined as $\\alpha = I_C / I_E$, while $\\beta$ (common emitter current gain) is $\\beta = I_C / I_B$.\n\nThe relationship between them is: $\\beta = \\alpha / (1 - \\alpha)$, or equivalently $\\alpha = \\beta / (1 + \\beta)$.\n\nIn typical transistors, $\\alpha$ is slightly less than 1 (usually between 0.95 and 0.99), and $\\beta$ is much greater than 1 (typically from 20 to 200 or more).\n\nThus, we always have $\\beta > 1$ and $\\alpha < 1$.\n\nChecking the options:\n- Option A: $\\beta < 1, \\alpha > 1$ → Incorrect.\n- Option B: $\\beta > 1, \\alpha < 1$ → Correct.\n- Option C: $\\alpha = \\beta$ → Incorrect, they are not equal.\n- Option D: $\\alpha = \\beta^2$ → Incorrect.\n\nHence, the correct answer is option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

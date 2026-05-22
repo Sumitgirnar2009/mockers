@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "15"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "When source of sound moves towards a stationary observer, the apparent frequency heard by him"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "increases and wavelength also increases."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "increases while wavelength decreases."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "remains the same while wavelength decreases."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "decreases and wavelength remains the same."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "When a source of sound moves towards a stationary observer, the Doppler effect takes place.\n\nStep 1: Formula for apparent frequency\n\nIf the source moves towards a stationary observer, the apparent frequency $f'$ heard by the observer is:\n\n$f' = \\frac{v}{v - v_s} f$\n\nwhere,\n$f$ = actual frequency of the source\n$v$ = speed of sound in air\n$v_s$ = speed of the source towards the observer\n\nStep 2: Effect on frequency\n\nSince the denominator $v - v_s$ is less than $v$, $f' > f$.\n\nTherefore, the apparent frequency increases.\n\nStep 3: Effect on wavelength\n\nThe wavelength $\\lambda'$ of the sound received by the observer is:\n\n$\\lambda' = \\frac{v - v_s}{f}$\n\nSince $v_s$ is positive (source moves towards observer), $v - v_s < v$, hence $\\lambda' < \\lambda$ (where $\\lambda = \\frac{v}{f}$).\n\nTherefore, wavelength decreases.\n\nFinal answer:\n\nThe apparent frequency increases while wavelength decreases.\n\nThus, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

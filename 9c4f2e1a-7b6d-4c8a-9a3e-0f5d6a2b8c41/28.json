@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "28"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A thin uniform rod of mass m and length L is pivoted at one end so that it can rotate in a vertical plane. The free end is held vertically above pivot and then released. The angular acceleration of the rod when it makes an angle θ with the vertical is [consider negligible friction at the pivot] (g = acceleration due to gravity)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41/q28.jpeg"
+  },
+  "Option1Stmt": {
+    "S": "g sin θ / 2L"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "3g cos θ / 2L"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "3g sin θ / 2L"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "2g cos θ / 3L"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: Mass = m, Length = L, Pivot at one end, Released from horizontal position (free end held vertically above pivot means rod is horizontal initially, angle θ measured from vertical).\n\nStep 1: Torque about pivot when rod makes angle θ with vertical\nWeight mg acts at center (L/2 from pivot). Perpendicular distance from pivot to line of action of weight = (L/2) sin θ.\nTorque τ = mg × (L/2) sin θ.\n\nStep 2: Moment of inertia about pivot\nFor a thin uniform rod about one end: I = mL²/3.\n\nStep 3: Relate torque and angular acceleration\nτ = I α\n⇒ (mgL sin θ)/2 = (mL²/3) α\n⇒ α = (3g sin θ) / (2L).\n\nFinal answer: Angular acceleration = 3g sin θ / 2L.\n\nCorrect option: C"
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41/q28-sol.jpeg"
+  }
+}

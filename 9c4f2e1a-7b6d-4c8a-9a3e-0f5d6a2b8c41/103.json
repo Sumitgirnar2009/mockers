@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "103"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $[2p - 3r \\quad q \\quad s] + [3p + 2q \\quad r \\quad s] = m[p \\quad r \\quad s] + n[q \\quad r \\quad s] + t[p \\quad q \\quad s]$, then the values of $m, n, t$ respectively are"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "2, 3, 3"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "3, 4, 5"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "1, 2, 3"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "3, 5, 2"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Expand the left-hand side using linearity of the scalar triple product:\n\nFirst term: $[2p - 3r, q, s] = 2[p, q, s] - 3[r, q, s]$\nSince $[r, q, s] = -[q, r, s]$, we get $-3[r, q, s] = 3[q, r, s]$.\nThus first term = $2[p, q, s] + 3[q, r, s]$.\n\nSecond term: $[3p + 2q, r, s] = 3[p, r, s] + 2[q, r, s]$.\n\nAdding both terms:\nLHS = $2[p, q, s] + 3[q, r, s] + 3[p, r, s] + 2[q, r, s]$\n= $3[p, r, s] + (3+2)[q, r, s] + 2[p, q, s]$\n= $3[p, r, s] + 5[q, r, s] + 2[p, q, s]$.\n\nComparing with RHS $m[p, r, s] + n[q, r, s] + t[p, q, s]$ gives:\n$m = 3$, $n = 5$, $t = 2$.\n\nThus the correct option is D: 3, 5, 2."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

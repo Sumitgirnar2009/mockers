@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "35"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "For ideal non-rigid diatomic gas, the value of $\\frac{R}{C_V}$ is nearly $\\left(\\gamma = \\frac{C_P}{C_V} = \\frac{9}{7}\\right)$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "0.4"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "0.66"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "0.28"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "1.28"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "We know for any ideal gas: $C_P - C_V = R$, so $C_P = C_V + R$.\n\nThe adiabatic index is defined as $\\gamma = \\frac{C_P}{C_V}$.\n\nSubstituting the expression for $C_P$: $\\gamma = \\frac{C_V + R}{C_V} = 1 + \\frac{R}{C_V}$.\n\nRearranging gives: $\\frac{R}{C_V} = \\gamma - 1$.\n\nGiven $\\gamma = \\frac{9}{7}$, we get $\\frac{R}{C_V} = \\frac{9}{7} - 1 = \\frac{2}{7} \\approx 0.2857$.\n\nHence the required value is nearly 0.28, which corresponds to option C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

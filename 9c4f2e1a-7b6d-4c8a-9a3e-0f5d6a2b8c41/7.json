@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "7"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Black sphere of radius $R$ radiates power $P$ at certain temperature $T$. If the temperature is doubled, the radius gets doubled. Now the power radiated would be"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$4P$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$8P$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$16P$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$64P$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given:\n\nInitial radius: $R_1 = R$\nInitial temperature: $T_1 = T$\nInitial power radiated: $P_1 = P$\n\nFinal radius: $R_2 = 2R$\nFinal temperature: $T_2 = 2T$\n\nStep 1: Stefan-Boltzmann law for black body radiation\n\nPower radiated: $P = \\sigma A T^4$\n\nwhere $\\sigma$ is Stefan-Boltzmann constant and $A$ is surface area.\n\nFor a sphere: $A = 4\\pi R^2$\n\nTherefore, $P \\propto R^2 T^4$\n\nStep 2: Write the ratio\n\n$\\frac{P_2}{P_1} = \\frac{R_2^2 T_2^4}{R_1^2 T_1^4}$\n\n$\\frac{P_2}{P_1} = \\frac{(2R)^2 \\times (2T)^4}{R^2 \\times T^4}$\n\nStep 3: Simplify\n\n$\\frac{P_2}{P_1} = \\frac{4R^2 \\times 16T^4}{R^2 T^4}$\n\n$\\frac{P_2}{P_1} = 4 \\times 16 = 64$\n\nStep 4: Calculate new power\n\n$P_2 = 64 \\times P_1 = 64P$\n\nFinal answer:\n\nThe new power radiated is $64P$\n\nTherefore, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

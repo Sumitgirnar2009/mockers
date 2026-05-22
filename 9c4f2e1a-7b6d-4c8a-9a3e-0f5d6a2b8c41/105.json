@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "105"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A plane passes through $(1, -2, 1)$ and is perpendicular to the planes $2x - 2y + z = 0$ and $x - y + 2z = 4$. The distance of the point $(1, 2, 2)$ from this plane is ______ units."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\sqrt{2}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$2\\sqrt{2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\sqrt{3}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let the required plane be $a(x-1) + b(y+2) + c(z-1) = 0$ since it passes through (1, -2, 1).\n\nSince it is perpendicular to the given planes, the normal vector (a, b, c) is perpendicular to the normals of those planes. Thus:\n$$2a - 2b + c = 0 \\quad \\text{(from first plane)}$$\n$$a - b + 2c = 0 \\quad \\text{(from second plane)}$$\n\nSolving these equations: subtract twice the second from the first? Alternatively, solve systematically: From second, a = b - 2c. Substitute into first: 2(b-2c) - 2b + c = 2b - 4c - 2b + c = -3c = 0 ⇒ c = 0. Then a = b. Choose a = -3, b = -3, c = 0 (non-zero multiples are fine).\n\nThus the plane equation becomes $-3(x-1) -3(y+2) + 0(z-1) = 0$ ⇒ divide by -3: (x-1) + (y+2) = 0 ⇒ x + y + 1 = 0.\n\nDistance from point (1,2,2) to this plane: $$d = \\frac{|1+2+1|}{\\sqrt{1^2+1^2}} = \\frac{4}{\\sqrt{2}} = 2\\sqrt{2}.$$\n\nHence the correct answer is option C: $2\\sqrt{2}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

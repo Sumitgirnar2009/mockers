@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "57"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "Which from following compounds has lowest $pK_b$ value?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "N-Ethylethanamine"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Propan-2-amine"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$NH_3$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Benzenamine"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The $pK_b$ value is a measure of basicity: lower $pK_b$ means stronger base.\n\nComparing the given compounds:\n- N-Ethylethanamine (diethylamine) is a secondary aliphatic amine. Secondary aliphatic amines are generally more basic than primary amines and ammonia due to +I effect of alkyl groups.\n- Propan-2-amine (isopropylamine) is a primary aliphatic amine. It is basic but less than diethylamine.\n- Ammonia ($NH_3$) is less basic than aliphatic amines because it lacks alkyl groups that donate electrons.\n- Benzenamine (aniline) is an aromatic amine. The lone pair on nitrogen is delocalized into the benzene ring, making it the weakest base among these.\n\nBasicity order: N-Ethylethanamine > Propan-2-amine > $NH_3$ > Benzenamine.\n\nSince lower $pK_b$ means stronger base, N-Ethylethanamine has the lowest $pK_b$ value.\n\nThus, the correct answer is Option A: N-Ethylethanamine."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

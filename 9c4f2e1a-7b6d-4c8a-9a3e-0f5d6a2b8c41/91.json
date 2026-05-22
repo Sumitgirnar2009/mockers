@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "91"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The solubility product of a sparingly soluble salt AX is $4.9 \\times 10^{-13}$. What is its solubility in mol·dm$^{-3}$?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$2.4 \\times 10^{-13}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$4.9 \\times 10^{-7}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$7.0 \\times 10^{-7}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$7.0 \\times 10^{-13}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a sparingly soluble salt AX, the dissociation is:\n\n$$AX(s) \\rightleftharpoons A^+(aq) + X^-(aq)$$\n\nLet solubility be S mol/dm³. Then at equilibrium:\n$$[A^+] = S,\\quad [X^-] = S$$\n\nSolubility product:\n$$K_{sp} = [A^+][X^-] = S \\times S = S^2$$\n\nGiven $K_{sp} = 4.9 \\times 10^{-13}$:\n$$S = \\sqrt{4.9 \\times 10^{-13}} = \\sqrt{49 \\times 10^{-14}} = 7 \\times 10^{-7} \\text{ mol/dm}^3$$\n\nThus, the solubility is $7.0 \\times 10^{-7}$ mol dm⁻³, which corresponds to option C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

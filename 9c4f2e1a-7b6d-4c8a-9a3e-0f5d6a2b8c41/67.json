@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "67"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "Which from following solids is isotropic?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Glass"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Ceramics"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Graphite"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Ice"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Isotropic solids have the same physical properties in all directions. They do not have a regular, long-range ordered arrangement of atoms or molecules. Amorphous solids are isotropic.\n\n- Glass: Amorphous solid → isotropic.\n- Ceramics: Usually polycrystalline but can be anisotropic; generally not isotropic.\n- Graphite: Crystalline solid with layered structure → anisotropic.\n- Ice: Crystalline solid → anisotropic.\n\nThus, the isotropic solid among the options is Glass, which corresponds to option A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

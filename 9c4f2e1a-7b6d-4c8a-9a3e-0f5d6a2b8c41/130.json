@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "130"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If the lines $$\\frac{3-x}{2} = \\frac{5y-2}{3\\lambda+1} = 5 - z$$ and $$\\frac{x+2}{-1} = \\frac{1-3y}{7} = \\frac{4-z}{2\\mu}$$ are at right angles, then $7\\lambda - 10\\mu =$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "143"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{23}{3}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "137"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{137}{5}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "First line: $\\frac{3-x}{2} = \\frac{5y-2}{3\\lambda+1} = 5 - z$. Rewrite as $\\frac{x-3}{-2} = \\frac{y-2/5}{(3\\lambda+1)/5} = \\frac{z-5}{-1}$. Direction ratios: $(-2, \\frac{3\\lambda+1}{5}, -1)$. Multiply by 5: $(-10, 3\\lambda+1, -5)$.\n\nSecond line: $\\frac{x+2}{-1} = \\frac{1-3y}{7} = \\frac{4-z}{2\\mu}$. Rewrite $1-3y = -3(y-1/3)$, so $\\frac{x+2}{-1} = \\frac{y-1/3}{-7/3} = \\frac{z-4}{-2\\mu}$. Direction ratios: $(-1, -7/3, -2\\mu)$. Multiply by 3: $(-3, -7, -6\\mu)$.\n\nFor perpendicular lines, dot product of direction ratios = 0:\n$(-10)(-3) + (3\\lambda+1)(-7) + (-5)(-6\\mu) = 0$\n$30 - 7(3\\lambda+1) + 30\\mu = 0$\n$30 - 21\\lambda - 7 + 30\\mu = 0$\n$23 - 21\\lambda + 30\\mu = 0$\n$21\\lambda - 30\\mu = 23$.\n\nNow $7\\lambda - 10\\mu = \\frac{1}{3}(21\\lambda - 30\\mu) = \\frac{23}{3}$.\n\nThus the correct option is B: $\\frac{23}{3}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

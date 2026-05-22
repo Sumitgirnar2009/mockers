@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "78"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "What are the respective oxidation states of sulphur atoms numbered 1 to 4 in tetrathionate ion shown below?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41/q78.png"
+  },
+  "Option1Stmt": {
+    "S": "$0, +5, +5, 0$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$+5, 0, 0, +5$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$+2, 0, 0, +2$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$+2, -1, -1, +2$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Tetrathionate ion has the formula $\\mathrm{S_4O_6^{2-}}$. Its structure consists of two central sulfur atoms bonded to each other, each also bonded to a terminal $\\mathrm{SO_3}$ group. The terminal sulfur atoms (positions 1 and 4) are each bonded to three oxygen atoms (oxidation state $-2$ each) and one sulfur atom. To satisfy the overall charge of $-2$, the sum of oxidation states of all four sulfur atoms must be $+10$ (since $6 \\times (-2) = -12$, and $-12 + 10 = -2$). For the terminal S atoms, typical oxidation state is $+5$ because $+5 + 3(-2) = -1$, but that is per atom; the two terminal S together give $+10$, leaving the two central S atoms with $0$ each (they are bonded only to each other and to the terminal S atoms). Thus the oxidation states are $+5, 0, 0, +5$ for S1 to S4 respectively, matching option B."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41/q78-sol.png"
+  }
+}

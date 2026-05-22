@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "132"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The feasible region represented by the given constraints $$2x + 3y \\geq 12, \\quad -x + y \\leq 3, \\quad x \\leq 4, \\quad y \\geq 3$$ is denoted by"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41/q132.png"
+  },
+  "Option1Stmt": {
+    "S": "$S_1$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$S_2$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$S_3$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$S_4$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The feasible region must satisfy all constraints:\n- $2x + 3y \\geq 12$: region above the line $2x+3y=12$ (non-origin side).\n- $-x + y \\leq 3$: region below the line $y \\leq x+3$ (origin side).\n- $x \\leq 4$: region to the left of $x=4$.\n- $y \\geq 3$: region above $y=3$.\n- Additionally, $x \\geq 0, y \\geq 0$ (implicit from context).\n\nFrom the given graph in the image, the region satisfying all these conditions in the first quadrant is labeled $S_1$. Therefore the correct option is A: $S_1$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

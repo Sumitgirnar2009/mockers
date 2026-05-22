@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "71"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify the product of following reaction. \n\nFormaldehyde + Benzaldehyde $\\xrightarrow{\\text{conc. NaOH}}$ then $\\mathrm{H_3O^+}$ $\\rightarrow$ product"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Phenyl methanol and methanol"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Methanol and benzoic acid"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Methanoic acid and phenyl methanol"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Methanoic acid and benzoic acid"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "This is a cross Cannizzaro reaction. Both formaldehyde and benzaldehyde lack α-hydrogen atoms, so they undergo disproportionation in the presence of concentrated NaOH. Formaldehyde is preferentially oxidized to methanoic acid (formic acid), while benzaldehyde is reduced to phenyl methanol (benzyl alcohol). After acidification with H₃O⁺, the products are methanoic acid and phenyl methanol.\n\nThus, the correct answer is Option C: Methanoic acid and phenyl methanol."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41/q71-sol.png"
+  }
+}

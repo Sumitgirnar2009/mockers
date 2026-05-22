@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "79"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following is primary allylic alcohol?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": ""
+  },
+  "Option1Img": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41/q79-1.png"
+  },
+  "Option2Stmt": {
+    "S": "$\\mathrm{CH_2=CH-CH_2OH}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\mathrm{(CH_3)_2C=CH-CH_2OH}$"
+  },
+  "Option3Img": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41/q79-3.png"
+  },
+  "Option4Stmt": {
+    "S": "$\\mathrm{CH_3-CH=CH-CH_2OH}$"
+  },
+  "Option4Img": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41/q79-4.png"
+  },
+  "Solution": {
+    "S": "An allylic alcohol has the hydroxyl group attached to a carbon atom adjacent to a carbon-carbon double bond. A primary allylic alcohol means the carbon bearing the -OH group is a primary carbon (connected to only one other carbon besides the -OH). Among the options: $\\mathrm{CH_2=CH-CH_2OH}$ (allyl alcohol) is the correct example. In $\\mathrm{CH_2=CH-CH(OH)-CH_3}$, the -OH is on a secondary carbon. The other options also have the -OH on primary carbons but the double bond positions differ; however, the simplest and most common primary allylic alcohol is $\\mathrm{CH_2=CH-CH_2OH}$, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

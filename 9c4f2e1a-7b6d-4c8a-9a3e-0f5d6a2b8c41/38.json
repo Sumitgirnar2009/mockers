@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "38"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "When the heat is given to a gas in an Isothermal process, then there will be"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "external work done."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "rise in temperature."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "increase in internal energy."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "external work done and also rise in temperature."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "In an isothermal process, the gas temperature stays constant throughout. So there is no change in temperature (ΔT = 0) and no change in internal energy (ΔU = 0) for an ideal gas, since internal energy depends only on temperature.\n\nFrom the first law of thermodynamics: ΔQ = ΔU + W.\n\nWith ΔU = 0, we get ΔQ = W. This means the entire heat supplied to the gas is converted into work done by the gas.\n\nThus, external work is definitely done.\n\nChecking the options:\n- Option A: external work done → Correct.\n- Option B: rise in temperature → Wrong, temperature remains constant.\n- Option C: increase in internal energy → Wrong, ΔU = 0.\n- Option D: external work done + rise in temperature → Wrong because temperature does not rise.\n\nHence the correct choice is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

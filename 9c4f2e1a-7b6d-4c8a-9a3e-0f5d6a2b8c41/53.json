@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "53"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "Which of the following compounds has maximum covalent character?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "LiCl"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "LiI"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "NaCl"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "NaI"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "To find which compound has maximum covalent character, we use Fajans' Rules (Class 11, NCERT, Chemical Bonding and Molecular Structure).\n\nAccording to Fajans' Rules:\nSmaller cation and larger anion → more covalent character.\nCations with higher charge polarise anions more.\nLarger anion is more easily polarised.\n\nComparing the options:\n- Cation: Li⁺ (smaller) vs Na⁺ (larger)\n- Anion: Cl⁻ (smaller) vs I⁻ (larger)\n\nCovalent character increases with smaller cation and larger anion.\nLi⁺ is smaller than Na⁺, so Li-compounds will be more covalent than Na-compounds.\nI⁻ is larger than Cl⁻, so I-compounds will be more covalent than Cl-compounds.\n\nAmong the given choices:\n- LiI: Smallest cation (Li⁺), largest anion (I⁻)\n- LiCl: Smallest cation (Li⁺), smaller anion (Cl⁻)\n- NaI: Larger cation (Na⁺), largest anion (I⁻)\n- NaCl: Larger cation (Na⁺), smaller anion (Cl⁻)\n\nHence, maximum covalent character will be in LiI.\n\nFinal answer: LiI"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

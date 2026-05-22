@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "50"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "The scale of a galvanometer is divided into 160 equal divisions. The galvanometer shows full scale deflection of 16 mA and maximum voltage is 80 mV. Now the range is changed so that galvanometer reads 160 V. The required resistance to be connected is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$9995\\Omega$ in series."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$4995\\Omega$ in series."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$9.5 \\times 10^{-3}\\Omega$ in parallel."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$4.95 \\times 10^{-3}\\Omega$ in parallel."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given:\n$$I_g = 16 \\text{ mA} = 16 \\times 10^{-3} \\text{ A}$$\n$$V_g = 80 \\text{ mV} = 80 \\times 10^{-3} \\text{ V}$$\n\nThe galvanometer's internal resistance $R_g$ will be:\n$$R_g = \\frac{V_g}{I_g} = \\frac{80 \\times 10^{-3}}{16 \\times 10^{-3}} = 5\\Omega$$\n\nTo increase the range of the galvanometer to 160 V, resistance needs to be connected in series to limit the current through the galvanometer to its full-scale deflection current when 160 V is applied.\n\nThis configuration converts the galvanometer into a voltmeter with a range of 160 V.\n\nFor a voltmeter, the total voltage ($V$) across the galvanometer and the series resistor is given by:\n$$V = I_g (R_g + R_s)$$\n\nSubstituting the values, we get:\n$$160 = 16 \\times 10^{-3} (5 + R_s)$$\n$$R_s = \\frac{160}{16 \\times 10^{-3}} - 5 = 10000 - 5 = 9995\\Omega$$\n\nThus, the correct answer is $9995\\Omega$ in series."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

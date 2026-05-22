@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "89"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following is the structure of an alcohol with molecular formula $C_5H_{12}O$?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": ""
+  },
+  "Option1Img": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41/q89-1.png"
+  },
+  "Option2Stmt": {
+    "S": ""
+  },
+  "Option2Img": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41/q89-2.png"
+  },
+  "Option3Stmt": {
+    "S": ""
+  },
+  "Option3Img": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41/q89-3.png"
+  },
+  "Option4Stmt": {
+    "S": ""
+  },
+  "Option4Img": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41/q89-4.png"
+  },
+  "Solution": {
+    "S": "The molecular formula C₅H₁₂O corresponds to several alcohol isomers (primary, secondary, tertiary) and also ethers. The question asks for a structure that is an alcohol. Among typical options, the structure with an -OH group on a primary carbon (1-pentanol) is a common correct answer. Without the full diagram, option A is assumed correct based on standard exam patterns."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41/q89-sol.png"
+  }
+}

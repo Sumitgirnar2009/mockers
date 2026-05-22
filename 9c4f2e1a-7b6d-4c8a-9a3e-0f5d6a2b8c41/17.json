@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "17"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The frequency of fourth overtone of a closed pipe is in unison with the fifth overtone of an open pipe. The ratio of length of closed pipe to that of open pipe is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "2 : 3"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "3 : 4"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "4 : 5"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "5 : 6"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given:\n\nFourth overtone of closed pipe = Fifth overtone of open pipe\n\nStep 1: Frequencies in closed and open pipes\n\nLet length of closed pipe = $L_1$\nLet length of open pipe = $L_2$\n\nFor a closed pipe, only odd harmonics are present.\n$n$-th overtone = $(2n + 1)$-th harmonic.\n\nFourth overtone ($n = 4$) gives harmonic number = $2 \\times 4 + 1 = 9$\n\nFrequency: $f_{\\text{closed}} = \\frac{9v}{4L_1}$\n\nFor an open pipe, all harmonics are present.\n$n$-th overtone = $(n + 1)$-th harmonic.\n\nFifth overtone ($n = 5$) gives harmonic number = $5 + 1 = 6$\n\nFrequency: $f_{\\text{open}} = \\frac{6v}{2L_2} = \\frac{3v}{L_2}$\n\nStep 2: Set frequencies equal (in unison)\n\n$\\frac{9v}{4L_1} = \\frac{3v}{L_2}$\n\nCancel $v$ from both sides:\n\n$\\frac{9}{4L_1} = \\frac{3}{L_2}$\n\nCross multiply:\n\n$9L_2 = 12L_1$\n\n$\\frac{L_1}{L_2} = \\frac{9}{12} = \\frac{3}{4}$\n\nStep 3: Final answer\n\nThe ratio of length of closed pipe to open pipe is $3 : 4$\n\nTherefore, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

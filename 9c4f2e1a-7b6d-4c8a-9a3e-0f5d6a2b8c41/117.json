@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "117"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $y = y(x)$ satisfies $$\\left( \\frac{2 + \\sin x}{1 + y} \\right) \\frac{dy}{dx} = -\\cos x$$ such that $y(0) = 2$, then $y\\left(\\frac{\\pi}{2}\\right)$ is equal to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "4"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "3"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "2"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "1"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The given differential equation is:\n$$\\left( \\frac{2 + \\sin x}{1 + y} \\right) \\frac{dy}{dx} = -\\cos x$$\n\nSeparating variables:\n$$\\frac{dy}{1 + y} = -\\frac{\\cos x}{2 + \\sin x} \\, dx$$\n\nIntegrating both sides:\n$$\\int \\frac{dy}{1 + y} = -\\int \\frac{\\cos x}{2 + \\sin x} \\, dx$$\n\nLet $u = 2 + \\sin x$, then $du = \\cos x \\, dx$. Thus:\n$$\\log(1 + y) = -\\log|2 + \\sin x| + \\log c$$\n$$\\Rightarrow \\log(1 + y) + \\log(2 + \\sin x) = \\log c$$\n$$\\Rightarrow (1 + y)(2 + \\sin x) = c \\quad \\text{(i)}$$\n\nGiven $y(0) = 2$ (when $x = 0$, $y = 2$):\n$$(1 + 2)(2 + \\sin 0) = c \\Rightarrow 3 \\times 2 = c \\Rightarrow c = 6$$\n\nSubstituting $c = 6$ in (i):\n$$(y + 1)(2 + \\sin x) = 6 \\quad \\Rightarrow \\quad y = \\frac{6}{2 + \\sin x} - 1$$\n\nNow evaluate at $x = \\frac{\\pi}{2}$:\n$$y\\left(\\frac{\\pi}{2}\\right) = \\frac{6}{2 + \\sin \\frac{\\pi}{2}} - 1 = \\frac{6}{2 + 1} - 1 = \\frac{6}{3} - 1 = 2 - 1 = 1$$\n\nThus $y\\left(\\frac{\\pi}{2}\\right) = 1$, which corresponds to option D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

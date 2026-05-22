@@ -84,6 +84,8 @@ export class LatexPipe implements PipeTransform {
   private escapeHtml(text: string): string {
     const div = document.createElement('div');
     div.textContent = text;
-    return div.innerHTML;
+    
+    return div.innerHTML.replace(/\n/g, '<br>');
   }
+
 }

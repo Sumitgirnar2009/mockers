@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "120"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The number of common tangents that can be drawn to the circles $$x^2 + y^2 - 6x = 0$$ and $$x^2 + y^2 + 6x + 2y + 1 = 0$$ is ______"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "0"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "3"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "2"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "4"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "First circle: $x^2 + y^2 - 6x = 0$.\nComplete the square: $(x-3)^2 - 9 + y^2 = 0 \\Rightarrow (x-3)^2 + y^2 = 9$.\nCentre $C_1 = (3,0)$, radius $r_1 = 3$.\n\nSecond circle: $x^2 + y^2 + 6x + 2y + 1 = 0$.\nComplete the square: $(x+3)^2 - 9 + (y+1)^2 - 1 + 1 = 0 \\Rightarrow (x+3)^2 + (y+1)^2 = 9$.\nCentre $C_2 = (-3,-1)$, radius $r_2 = 3$.\n\nDistance between centres:\n$$d = \\sqrt{(3 - (-3))^2 + (0 - (-1))^2} = \\sqrt{6^2 + 1^2} = \\sqrt{37} \\approx 6.08.$$\n\n$r_1 + r_2 = 3 + 3 = 6$.\nSince $d > r_1 + r_2$, the circles are externally separate. Therefore they have 4 common tangents (2 direct and 2 transverse).\n\nHence the correct answer is option D: 4."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

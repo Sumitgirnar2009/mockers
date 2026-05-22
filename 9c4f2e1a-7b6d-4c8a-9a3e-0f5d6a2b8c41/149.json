@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "149"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $A = \\begin{bmatrix} \\cos\\theta & \\sin\\theta & 0 \\\\ -\\sin\\theta & \\cos\\theta & 0 \\\\ 0 & 0 & 1 \\end{bmatrix}$, where $A_{21}, A_{22}, A_{23}$ are cofactors of $a_{21}, a_{22}, a_{23}$ respectively, then the value of $a_{21}A_{21} + a_{22}A_{22} + a_{23}A_{23} =$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$-1$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "0"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "2"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "$$A = \\begin{bmatrix} \\cos\\theta & \\sin\\theta & 0 \\\\ -\\sin\\theta & \\cos\\theta & 0 \\\\ 0 & 0 & 1 \\end{bmatrix}$$\n\n$$A_{21} = (-1)^{2+1} M_{21} = (-1)^3 \\begin{vmatrix} \\sin\\theta & 0 \\\\ 0 & 1 \\end{vmatrix} = -\\sin\\theta$$\n\n$$A_{22} = (-1)^{2+2} M_{22} = (-1)^4 \\begin{vmatrix} \\cos\\theta & 0 \\\\ 0 & 1 \\end{vmatrix} = \\cos\\theta$$\n\n$$A_{23} = (-1)^{2+3} M_{23} = (-1)^{5} \\begin{vmatrix} \\cos\\theta & \\sin\\theta \\\\ 0 & 0 \\end{vmatrix} = 0$$\n\n$$\\therefore a_{21}A_{21} + a_{22}A_{22} + a_{23}A_{23} = (-\\sin\\theta)(-\\sin\\theta) + (\\cos\\theta)(\\cos\\theta) + 0 = \\sin^2\\theta + \\cos^2\\theta = 1$$"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

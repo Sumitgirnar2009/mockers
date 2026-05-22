@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "59"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "For the cell reaction, $$\\mathrm{Zn(s)} + 2\\mathrm{Ag^+(aq)} \\rightarrow \\mathrm{Zn^{2+}(aq)} + 2\\mathrm{Ag(s)}$$ Cell potential is less than $E^\\circ_{\\text{cell}}$ by 0.0592 V at 298 K when"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$[\\mathrm{Zn^{2+}}] = 1$ M and $[\\mathrm{Ag^+}] = 0.1$ M"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$[\\mathrm{Zn^{2+}}] = 1$ M and $[\\mathrm{Ag^+}] = 0.01$ M"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$[\\mathrm{Zn^{2+}}] = 0.1$ M and $[\\mathrm{Ag^+}] = 1$ M"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$[\\mathrm{Zn^{2+}}] = 0.01$ M and $[\\mathrm{Ag^+}] = 1$ M"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The Nernst equation for the given cell reaction at 298 K is:\n\n$$E_{\\text{cell}} = E^\\circ_{\\text{cell}} - \\frac{0.0592}{n} \\log Q$$\n\nHere, $n = 2$ (number of electrons transferred).\n\nThe reaction quotient $Q = \\frac{[\\mathrm{Zn^{2+}}]}{[\\mathrm{Ag^+}]^2}$.\n\nGiven that $E_{\\text{cell}}$ is less than $E^\\circ_{\\text{cell}}$ by 0.0592 V, we have:\n\n$$E^\\circ_{\\text{cell}} - E_{\\text{cell}} = 0.0592 = \\frac{0.0592}{2} \\log Q$$\n\n$$\\log Q = 2$$\n\n$$Q = 10^2 = 100$$\n\nSo, $\\frac{[\\mathrm{Zn^{2+}}]}{[\\mathrm{Ag^+}]^2} = 100$.\n\nChecking the options:\n- Option A: $[\\mathrm{Zn^{2+}}] = 1$, $[\\mathrm{Ag^+}] = 0.1$ → $Q = 1 / (0.1)^2 = 100$ → Correct.\n- Option B: $[\\mathrm{Zn^{2+}}] = 1$, $[\\mathrm{Ag^+}] = 0.01$ → $Q = 1 / (0.0001) = 10000$ → Incorrect.\n- Option C: $[\\mathrm{Zn^{2+}}] = 0.1$, $[\\mathrm{Ag^+}] = 1$ → $Q = 0.1 / 1 = 0.1$ → Incorrect.\n- Option D: $[\\mathrm{Zn^{2+}}] = 0.01$, $[\\mathrm{Ag^+}] = 1$ → $Q = 0.01 / 1 = 0.01$ → Incorrect.\n\nThus, the correct condition is given in Option A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

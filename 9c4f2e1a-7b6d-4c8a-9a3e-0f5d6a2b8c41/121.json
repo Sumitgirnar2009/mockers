@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "121"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The sum to infinite terms of the series $$\\tan^{-1} \\left( \\frac{1}{3} \\right) + \\tan^{-1} \\left( \\frac{2}{9} \\right) + \\ldots + \\tan^{-1} \\left( \\frac{2^{n-1}}{1+2^{2n-1}} \\right) + \\ldots$$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{\\pi}{4}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{\\pi}{2}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{\\pi}{6}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{\\pi}{3}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The general term of the series is $\\tan^{-1} \\left( \\frac{2^{n-1}}{1+2^{2n-1}} \\right)$.\n\nWe can rewrite it as:\n$$\\frac{2^{n-1}}{1+2^{2n-1}} = \\frac{2^n - 2^{n-1}}{1 + 2^n \\cdot 2^{n-1}}$$\n\nUsing the formula $\\tan^{-1} a - \\tan^{-1} b = \\tan^{-1} \\left( \\frac{a-b}{1+ab} \\right)$, we get:\n$$\\tan^{-1} \\left( \\frac{2^n - 2^{n-1}}{1 + 2^n \\cdot 2^{n-1}} \\right) = \\tan^{-1} 2^n - \\tan^{-1} 2^{n-1}$$\n\nThus the series telescopes:\n$$S_n = (\\tan^{-1} 2 - \\tan^{-1} 1) + (\\tan^{-1} 4 - \\tan^{-1} 2) + \\ldots + (\\tan^{-1} 2^n - \\tan^{-1} 2^{n-1})$$\n$$= \\tan^{-1} 2^n - \\tan^{-1} 1 = \\tan^{-1} 2^n - \\frac{\\pi}{4}$$\n\nTaking the limit as $n \\to \\infty$:\n$$S_\\infty = \\lim_{n\\to\\infty} \\tan^{-1} 2^n - \\frac{\\pi}{4} = \\frac{\\pi}{2} - \\frac{\\pi}{4} = \\frac{\\pi}{4}$$\n\nHence the correct option is A: $\\frac{\\pi}{4}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

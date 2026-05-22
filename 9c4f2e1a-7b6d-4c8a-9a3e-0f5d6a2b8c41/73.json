@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "73"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which from following coordinate complexes contains the ligand 'en'?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Tetraamminecopper (II) ion"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Bis(ethylenediamine) dithiocyanatoplatinum (IV)"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Pentacarbonyliron (O)"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Tetracyanonickelate (II)"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The ligand 'en' stands for ethylenediamine, which is a bidentate ligand with the formula $\\mathrm{NH_2CH_2CH_2NH_2}$.\n\n- Option A: Tetraamminecopper (II) ion contains ammonia ($\\mathrm{NH_3}$) ligands, not 'en'.\n- Option B: Bis(ethylenediamine) dithiocyanatoplatinum (IV) contains ethylenediamine ligands (indicated by 'bis(ethylenediamine)'), so it contains 'en'.\n- Option C: Pentacarbonyliron (O) contains carbonyl ($\\mathrm{CO}$) ligands, not 'en'.\n- Option D: Tetracyanonickelate (II) contains cyanide ($\\mathrm{CN^-}$) ligands, not 'en'.\n\nThus, the correct answer is Option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

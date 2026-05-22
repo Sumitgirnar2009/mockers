@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "114"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The order and degree of differential equation of all tangent lines to the parabola $x^2 = 4y$ is respectively."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1, 2"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "2, 2"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "3, 1"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "4, 1"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given equation of parabola: $x^2 = 4y$\n\nHere $a = 1$.\n\nThe equation of tangent to the parabola $x^2 = 4y$ in slope form is:\n$$x = my + \\frac{a}{m} = my + \\frac{1}{m}$$\n\nRewriting:\n$$mx = m^2 y + 1$$\n\nDifferentiating with respect to $x$ (considering $\\frac{dy}{dx} = m$):\n$$x \\cdot \\frac{dy}{dx} = \\left(\\frac{dy}{dx}\\right)^2 y + 1$$\n\nThis is the differential equation of all tangents.\n\nOrder = 1 (highest derivative $\\frac{dy}{dx}$)\n\nDegree = 2 (power of $\\frac{dy}{dx}$ after clearing radicals/fractions).\n\nThus the correct option is A: 1, 2."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

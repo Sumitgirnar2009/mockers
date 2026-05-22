@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "33"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "One end of a capillary tube is dipped in water, the rise of water column is '$h$'. The upward force of 98 dyne due to surface tension is balanced by the force due to the weight of the water column. The inner circumference of the capillary is (surface tension of water = $7 \\times 10^{-2} \\, \\text{Nm}^{-1}$)."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1.4 cm"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "0.7 cm"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "0.14 cm"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "0.07 cm"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "## Identify Given Quantities and Units:\n\nUpward force due to surface tension ($F_{\\text{Tr}}$) = 98 dyne  \nSurface tension of water ($\\sigma$) = $7 \\times 10^{-2} \\, \\text{Nm}^{-1}$  \n\nWe need to find the inner circumference ($L$) of the capillary.\n\n## Ensure Consistent Units:\n\nThe force is given in dyne (CGS unit), and surface tension is in $\\text{Nm}^{-1}$ (SI unit). Convert surface tension to CGS units (dyne/cm) for consistency.\n\nWe know $1 \\, \\text{N} = 10^5 \\, \\text{dyne}$ and $1 \\, \\text{m} = 100 \\, \\text{cm}$.\n\n$$\\sigma = 7 \\times 10^{-2} \\times 10^3 \\, \\text{dyne/cm}$$\n$$\\sigma = 7 \\times 10^{1} \\, \\text{dyne/cm}$$\n$$\\sigma = 70 \\, \\text{dyne/cm}$$\n\n## Recall the Formula for Upward Force due to Surface Tension:\n\nThe upward force due to surface tension ($F_{\\text{Tr}}$) acting along the inner circumference ($L$) of the capillary tube is given by:\n$$F_{\\text{Tr}} = \\sigma \\times L \\times \\cos \\theta$$\nwhere $\\theta$ is the angle of contact between water and glass.\n\n## Consider the Angle of Contact:\n\nFor pure water in a clean glass capillary tube, the angle of contact ($\\theta$) is approximately $0^\\circ$.\nTherefore, $\\cos \\theta = \\cos 0^\\circ = 1$.\n\n## Simplify the Formula:\n\nSubstituting $\\cos \\theta = 1$:\n$$F_{\\text{Tr}} = \\sigma \\times L$$\n\n## Solve for the Inner Circumference ($L$):\n\n$$L = \\frac{F_{\\text{Tr}}}{\\sigma}$$\n\n## Substitute Values and Calculate:\n\n$$L = \\frac{98 \\, \\text{dyne}}{70 \\, \\text{dyne/cm}}$$\n$$L = \\frac{98}{70} \\, \\text{cm}$$\n$$L = \\frac{14 \\times 7}{10 \\times 7} \\, \\text{cm}$$\n$$L = \\frac{14}{10} \\, \\text{cm}$$\n$$L = 1.4 \\, \\text{cm}$$\n\n## Final Answer:\n\nOption A: 1.4 cm"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

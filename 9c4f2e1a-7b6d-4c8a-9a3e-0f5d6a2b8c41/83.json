@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "83"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which from following polymers is obtained by addition polymerisation method?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Nylon 6"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Terylene"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Nylon 6,6"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Teflon"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Addition polymerization involves the joining of monomers without the loss of any small molecules, typically via free radical, cationic, or anionic mechanisms. Among the given options:\n- Nylon 6 is prepared by ring-opening polymerization of caprolactam (condensation type).\n- Terylene (polyethylene terephthalate) is a condensation polymer from ethylene glycol and terephthalic acid.\n- Nylon 6,6 is a condensation polymer from hexamethylenediamine and adipic acid.\n- Teflon (polytetrafluoroethylene) is obtained by free radical addition polymerization of tetrafluoroethylene monomer.\n\nThus, the correct answer is Option D: Teflon."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41/q83-sol.png"
+  }
+}

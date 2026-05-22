@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "30"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "Two charges $q_1 = +6q$ and $q_2 = -3q$ are placed as shown in the figure. A proton is placed on the x-axis away from $q_2$. To keep the proton in equilibrium, the distance between $q_1$ and the proton is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41/q30.jpg"
+  },
+  "Option1Stmt": {
+    "S": "$\\left(\\frac{\\sqrt{2}}{\\sqrt{2} - 1}\\right) L$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$2L$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{L}{2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\left(\\frac{\\sqrt{2}}{\\sqrt{2} + 1}\\right) L$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let the distance between $q_2$ and the proton be $a$. Then the distance between $q_1$ and the proton is $L + a$.\n\nFor equilibrium, net electric field at the proton must be zero:\n$$\\frac{k q_1}{(L+a)^2} + \\frac{k q_2}{a^2} = 0$$\n\nSubstitute $q_1 = +6q$, $q_2 = -3q$:\n$$\\frac{6q}{(L+a)^2} - \\frac{3q}{a^2} = 0$$\n$$\\frac{6q}{(L+a)^2} = \\frac{3q}{a^2}$$\n$$\\frac{2}{(L+a)^2} = \\frac{1}{a^2}$$\n\nTaking square roots (positive distances):\n$$\\frac{\\sqrt{2}}{L+a} = \\frac{1}{a}$$\n$$\\sqrt{2} a = L + a$$\n$$\\sqrt{2}a - a = L$$\n$$a = \\frac{L}{\\sqrt{2} - 1}$$\n\nDistance between $q_1$ and proton:\n$$L + a = L + \\frac{L}{\\sqrt{2} - 1} = \\frac{(\\sqrt{2} - 1)L + L}{\\sqrt{2} - 1} = \\frac{\\sqrt{2} L}{\\sqrt{2} - 1}$$\n\nThus, the required distance is $\\left(\\frac{\\sqrt{2}}{\\sqrt{2} - 1}\\right) L$.\n\nCorrect option: A"
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41/q30-sol.jpeg"
+  }
+}

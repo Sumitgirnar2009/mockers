@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "43"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "Three identical polaroids $P_1, P_2$ and $P_3$ are placed one after another. The pass axis of $P_2$ and $P_3$ are inclined at an angle of 60° and 90° with respect to axis of $P_1$. The source has an intensity 256 W/m². The intensity of light at point 'O' is $(\\cos 30^\\circ = \\sqrt{3}/2, \\cos 60^\\circ = 0.5)$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41/q43.jpeg"
+  },
+  "Option1Stmt": {
+    "S": "24 W/m²"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "20 W/m²"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "16 W/m²"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "8 W/m²"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The three polaroids are arranged in order $P_1, P_2, P_3$. Using Malus' law:\n\nAfter passing through $P_1$, the intensity becomes half:\n$$I_1 = \\frac{I_0}{2} = \\frac{256}{2} = 128 \\text{ W/m}^2$$\n\nAngle between $P_1$ and $P_2$ is $60^\\circ$, so intensity after $P_2$:\n$$I_2 = I_1 \\cos^2 60^\\circ = 128 \\times \\left(\\frac{1}{2}\\right)^2 = 128 \\times \\frac{1}{4} = 32 \\text{ W/m}^2$$\n\nAngle between $P_2$ and $P_3$: $P_3$ is at $90^\\circ$ to $P_1$, and $P_2$ is at $60^\\circ$ to $P_1$, so the angle between $P_2$ and $P_3$ is $90^\\circ - 60^\\circ = 30^\\circ$.\n\nThus, intensity after $P_3$:\n$$I_3 = I_2 \\cos^2 30^\\circ = 32 \\times \\left(\\frac{\\sqrt{3}}{2}\\right)^2 = 32 \\times \\frac{3}{4} = 24 \\text{ W/m}^2$$\n\nSo the final intensity at point O is 24 W/m², which matches option A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

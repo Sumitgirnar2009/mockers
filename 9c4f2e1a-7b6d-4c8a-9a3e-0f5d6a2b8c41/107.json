@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "107"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A box contains 9 tickets numbered 1 to 9 both inclusive. If 3 tickets are drawn from the box one at a time, then the probability that they are alternatively either {odd, even, odd} or {even, odd, even} is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{5}{17}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{4}{17}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{5}{16}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{5}{18}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Number of tickets = 9\nNumber of odd tickets = 5\nNumber of even tickets = 4\n\nRequired probability = P(odd, even, odd) + P(even, odd, even)\n\n$$= \\frac{^5C_1}{^9C_1} \\times \\frac{^4C_1}{^8C_1} \\times \\frac{^4C_1}{^7C_1} + \\frac{^4C_1}{^9C_1} \\times \\frac{^5C_1}{^8C_1} \\times \\frac{^3C_1}{^7C_1}$$\n\n$$= \\frac{5}{9} \\times \\frac{4}{8} \\times \\frac{4}{7} + \\frac{4}{9} \\times \\frac{5}{8} \\times \\frac{3}{7}$$\n$$= \\frac{80}{504} + \\frac{60}{504} = \\frac{140}{504} = \\frac{5}{18}$$"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

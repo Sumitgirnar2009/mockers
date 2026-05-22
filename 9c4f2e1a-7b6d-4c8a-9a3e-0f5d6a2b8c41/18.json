@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "18"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The plates of a parallel plate capacitor are separated by a distance 'd' with air as the medium between them. A dielectric slab of dielectric constant 3 is introduced between the plates so as to increase the capacity by 50%. The thickness of the dielectric slab is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{d}{2}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{d}{3}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{d}{6}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{5d}{6}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given:\n\nPlate separation = $d$\nDielectric constant $K = 3$\nCapacity increases by $50\\%$, so $C' = 1.5 C_0$\nLet thickness of dielectric slab = $t$\n\nStep 1: Initial capacitance with air\n\n$C_0 = \\frac{\\varepsilon_0 A}{d}$\n\nStep 2: Capacitance with dielectric partially filled\n\nWhen a dielectric slab of thickness $t$ and dielectric constant $K$ is inserted, the effective capacitance is:\n\n$C' = \\frac{\\varepsilon_0 A}{d - t + \\frac{t}{K}}$\n\n$C' = \\frac{\\varepsilon_0 A}{d - t + \\frac{t}{3}} = \\frac{\\varepsilon_0 A}{d - \\frac{2t}{3}}$\n\nStep 3: Use $C' = 1.5 C_0$\n\n$\\frac{\\varepsilon_0 A}{d - \\frac{2t}{3}} = 1.5 \\times \\frac{\\varepsilon_0 A}{d}$\n\nCancel $\\varepsilon_0 A$:\n\n$\\frac{1}{d - \\frac{2t}{3}} = \\frac{1.5}{d}$\n\n$d = 1.5\\left(d - \\frac{2t}{3}\\right)$\n\n$d = 1.5d - t$\n\n$t = 1.5d - d = 0.5d = \\frac{d}{2}$\n\nFinal answer:\n\nThe thickness of the dielectric slab is $\\frac{d}{2}$\n\nTherefore, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

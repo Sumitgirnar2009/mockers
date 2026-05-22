@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "115"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The probability distribution of a discrete random variable $X$ is:\n\n$$\\begin{array}{|c|c|c|c|c|c|}\n\\hline\nX & 0 & 1 & 2 & 3 & 4 \\\\\n\\hline\nP(X=x) & 2k & k & 2k & 4k & k \\\\\n\\hline\n\\end{array}$$\n\nIf $a = P(X < 3)$ and $b = P(2 \\leq X < 4)$, then"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$a = b$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$a > b$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$a < b$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$a = \\frac{1}{2} b$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Sum of probabilities: $2k + k + 2k + 4k + k = 10k = 1 \\Rightarrow k = 0.1$.\n\n$a = P(X < 3) = P(X=0) + P(X=1) + P(X=2) = 2k + k + 2k = 5k = 0.5$.\n\n$b = P(2 \\leq X < 4) = P(X=2) + P(X=3) = 2k + 4k = 6k = 0.6$.\n\nThus $a = 0.5$, $b = 0.6$, so $a < b$.\n\nHence correct option is C: $a < b$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

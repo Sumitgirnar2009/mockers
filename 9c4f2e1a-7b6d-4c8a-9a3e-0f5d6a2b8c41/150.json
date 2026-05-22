@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "150"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In a triangle $ABC$, with usual notations, if $$\\frac{b+c}{11} = \\frac{c+a}{12} = \\frac{a+b}{13}$$ Then $$\\cos A : \\cos B : \\cos C$$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "7 : 19 : 25"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "19 : 7 : 25"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "12 : 14 : 20"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "19 : 25 : 20"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $\\frac{b+c}{11} = \\frac{c+a}{12} = \\frac{a+b}{13} = k$\n\n$\\therefore b + c = 11k$ ...... (i)\n$c + a = 12k$ ...... (ii)\nand $a + b = 13k$ ...... (iii)\n\nFrom (i) + (ii) + (iii), $2(a + b + c) = 36k$\n$\\therefore a + b + c = 18k$ ...... (iv)\n\nNow, (iv) - (i) gives, $a = 7k$\n(iv) - (ii) gives, $b = 6k$\n(iv) - (iii) gives, $c = 5k$\n\nNow,\n\n$$\\cos C = \\frac{a^2 + b^2 - c^2}{2ab} = \\frac{(7k)^2 + (6k)^2 - (5k)^2}{2 \\times (7k) \\times (6k)}$$\n\n$$= \\frac{49k^2 + 36k^2 - 25k^2}{84k^2}$$\n\n$$= \\frac{60k^2}{84k^2} = \\frac{5}{7}$$\n\n$$\\cos B = \\frac{a^2 + c^2 - b^2}{2ac}$$\n\n$$= \\frac{(7k)^2 + (5k)^2 - (6k)^2}{2 \\times 7k \\times 5k}$$\n\n$$= \\frac{49k^2 + 25k^2 - 36k^2}{70k^2} = \\frac{38}{70} = \\frac{19}{35}$$\n\n$$\\cos A = \\frac{b^2 + c^2 - a^2}{2bc}$$\n\n$$= \\frac{(6k)^2 + (5k)^2 - (7k)^2}{2 \\times 6k \\times 5k}$$\n\n$$= \\frac{36k^2 + 25k^2 - 49k^2}{60k^2} = \\frac{12k^2}{60k^2} = \\frac{1}{5}$$\n\n$\\therefore \\cos A : \\cos B : \\cos C = \\frac{1}{5} : \\frac{19}{35} : \\frac{5}{7}$\n\n$$= 7 : 19 : 25$$"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

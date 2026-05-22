@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "32"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "In Young's double slit interference experiment, using two coherent sources of different amplitudes, the intensity ratio between bright to dark fringes is $5 : 1$. The value of the ratio of resultant amplitudes of bright fringe to dark fringe is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\left( \\frac{\\sqrt{5}+1}{\\sqrt{5}-1} \\right)$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\sqrt{5} : 1$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\left( \\frac{\\sqrt{5}-1}{\\sqrt{5}+1} \\right)$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$1 : \\sqrt{5}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given:\n\nIn Young's double slit experiment, two coherent sources have different amplitudes.\n\nThe intensity ratio between **bright** and **dark** fringes is $5 : 1$.\n\nLet the amplitudes of the two sources be $a_1$ and $a_2$.\n\n## Step 1: Write the formulas\n\n### Maximum intensity (bright fringe):\n$$I_{\\text{max}} = (a_1 + a_2)^2$$\n\n### Minimum intensity (dark fringe):\n$$I_{\\text{min}} = (a_1 - a_2)^2$$\n\n## Step 2: Use the given intensity ratio\n$$\\frac{I_{\\text{max}}}{I_{\\text{min}}} = \\frac{(a_1 + a_2)^2}{(a_1 - a_2)^2} = \\frac{5}{1}$$\n\n## Step 3: Take square root on both sides\n$$\\frac{a_1 + a_2}{a_1 - a_2} = \\sqrt{5}$$\n\n## Step 4: Find the required ratio\n\nThe **ratio of amplitudes at bright fringe to dark fringe** is:\n$$\\frac{A_{\\text{bright}}}{A_{\\text{dark}}} = \\frac{a_1 + a_2}{|a_1 - a_2|}$$\n\nBut from the above,\n$$\\frac{a_1 + a_2}{a_1 - a_2} = \\sqrt{5}$$\n\nSo,\n$$\\frac{A_{\\text{bright}}}{A_{\\text{dark}}} = \\sqrt{5} : 1$$\n\n## Final Answer\n\nOption B: $\\sqrt{5} : 1$"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "24"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A mass suspended from a vertical spring performs S.H.M. of period 0.1 second. The spring is unstretched at the highest point of suspension. Maximum speed of the mass is (Gravitational acceleration $g = 10$ m/s$^2$)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{1}{2\\pi}$ m/s"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{1}{\\pi}$ m/s"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{2}{\\pi}$ m/s"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\pi$ m/s"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given:\n\nTime period $T = 0.1$ s\n$g = 10$ m/s$^2$\nSpring is unstretched at highest point.\n\nStep 1: Formula for maximum speed in SHM\n\n$v_{max} = A\\omega$\nwhere $A$ is amplitude and $\\omega$ is angular frequency.\n\nStep 2: Find angular frequency $\\omega$\n\n$\\omega = \\frac{2\\pi}{T} = \\frac{2\\pi}{0.1} = 20\\pi$ rad/s\n\nStep 3: Find amplitude $A$\n\nAt highest point, spring is unstretched. This point is at distance $A$ from mean position.\nAt mean position, $mg = kx_0$ where $x_0$ is stretch.\nSince $A = x_0$, we have $A = \\frac{mg}{k}$\n\nAlso, $\\omega = \\sqrt{\\frac{k}{m}}$, so $\\frac{k}{m} = \\omega^2$\n\nTherefore, $A = \\frac{g}{\\omega^2}$\n\nStep 4: Calculate $v_{max}$\n\n$v_{max} = A\\omega = \\frac{g}{\\omega^2} \\times \\omega = \\frac{g}{\\omega}$\n\n$v_{max} = \\frac{10}{20\\pi} = \\frac{1}{2\\pi}$ m/s\n\nFinal answer:\n\nThe maximum speed of the mass is $\\frac{1}{2\\pi}$ m/s\n\nTherefore, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

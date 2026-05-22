@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "96"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Calculate the longest wavelength in hydrogen emission spectrum of Lyman series. $(R_H = 109677 \\text{ cm}^{-1})$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$1.331 \\times 10^{-5} \\text{ cm}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$1.216 \\times 10^{-5} \\text{ cm}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$1.445 \\times 10^{-5} \\text{ cm}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$1.556 \\times 10^{-5} \\text{ cm}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For the Lyman series, transitions end at n₁ = 1. The longest wavelength corresponds to the smallest energy transition, which is from n₂ = 2 to n₁ = 1.\n\nUsing the Rydberg formula:\n\n$$\\frac{1}{\\lambda} = R_H \\left( \\frac{1}{n_1^2} - \\frac{1}{n_2^2} \\right)$$\n\nSubstituting n₁ = 1, n₂ = 2, and R_H = 109677 cm⁻¹:\n\n$$\\frac{1}{\\lambda} = 109677 \\left( 1 - \\frac{1}{4} \\right) = 109677 \\times \\frac{3}{4} = 82257.75 \\text{ cm}^{-1}$$\n\nTherefore,\n\n$$\\lambda = \\frac{1}{82257.75} = 1.21568 \\times 10^{-5} \\text{ cm}$$\n\nRounding to three significant figures gives $1.216 \\times 10^{-5}$ cm.\n\nThus, the correct answer is Option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

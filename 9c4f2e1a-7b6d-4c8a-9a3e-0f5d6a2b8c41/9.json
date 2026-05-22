@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "7"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The time period of a simple pendulum inside a stationary lift is $\\sqrt{3}$ second. When the lift moves upwards with an acceleration $g/3$, the time period will be ($g =$ acceleration due to gravity)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1.5 s"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "2 s"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\sqrt{3}$ s"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "3 s"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given:\n\nTime period in stationary lift: $T_1 = \\sqrt{3}$ s\nUpward acceleration of lift: $a = g/3$\n\nStep 1: Time period formula for simple pendulum\n\nIn stationary lift: $T_1 = 2\\pi \\sqrt{\\frac{L}{g}}$\n\nWhen lift moves upward with acceleration $a$, effective gravity becomes:\n\n$g_{eff} = g + a = g + \\frac{g}{3} = \\frac{4g}{3}$\n\nStep 2: New time period\n\n$T_2 = 2\\pi \\sqrt{\\frac{L}{g_{eff}}} = 2\\pi \\sqrt{\\frac{L}{4g/3}} = 2\\pi \\sqrt{\\frac{3L}{4g}}$\n\nStep 3: Find ratio $T_2 / T_1$\n\n$\\frac{T_2}{T_1} = \\frac{2\\pi \\sqrt{\\frac{3L}{4g}}}{2\\pi \\sqrt{\\frac{L}{g}}} = \\sqrt{\\frac{3L/4g}{L/g}} = \\sqrt{\\frac{3}{4}} = \\frac{\\sqrt{3}}{2}$\n\nStep 4: Calculate $T_2$\n\n$T_2 = T_1 \\times \\frac{\\sqrt{3}}{2} = \\sqrt{3} \\times \\frac{\\sqrt{3}}{2} = \\frac{3}{2} = 1.5$ s\n\nFinal answer:\n\nThe time period when lift moves upward is $1.5$ seconds.\n\nTherefore, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

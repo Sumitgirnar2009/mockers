@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "45"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "In a photoelectric experiment, if the intensity of incident light is doubled and the frequency is kept slightly greater than threshold frequency, then the saturation photoelectric current"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "remains constant"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "is halved"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "is doubled"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "becomes four times"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The saturation photoelectric current is the maximum current obtained when all emitted photoelectrons are collected by the anode.\n\nThe number of photoelectrons emitted per second depends on the number of incident photons per second. This quantity is directly proportional to the intensity of incident light, provided the frequency is above the threshold frequency.\n\nWhen the intensity is doubled (with frequency kept constant and above threshold), twice as many photons strike the metal surface per second. Consequently, twice as many electrons are emitted per second.\n\nTherefore, the saturation current also becomes double its original value.\n\nHence, the correct option is C: is doubled."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

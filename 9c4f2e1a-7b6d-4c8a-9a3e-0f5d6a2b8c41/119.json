@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "119"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If a random variable $X$ follows the Binomial distribution $B(33, p)$ such that $3P(X = 0) = P(X = 1)$, then the variance of $X$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{11}{144}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{35}{48}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{121}{48}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{33}{144}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a binomial distribution $B(n, p)$ with $n = 33$, we have $P(X = r) = \\binom{n}{r} p^r q^{n-r}$, where $q = 1-p$.\n\nGiven: $3P(X = 0) = P(X = 1)$.\n\n$$3 \\cdot \\binom{33}{0} p^0 q^{33} = \\binom{33}{1} p^1 q^{32}$$\n\n$$3 \\cdot 1 \\cdot q^{33} = 33 \\cdot p \\cdot q^{32}$$\n\nCancel $q^{32}$ (since $q > 0$):\n\n$$3q = 33p \\quad \\Rightarrow \\quad p = \\frac{1}{11} q$$\n\nNow $p + q = 1$, so $\\frac{1}{11}q + q = 1 \\Rightarrow \\frac{12}{11}q = 1 \\Rightarrow q = \\frac{11}{12}$.\n\nThen $p = 1 - q = \\frac{1}{12}$.\n\nVariance of binomial distribution: $\\text{Var}(X) = n p q = 33 \\times \\frac{1}{12} \\times \\frac{11}{12} = \\frac{33 \\times 11}{144} = \\frac{363}{144} = \\frac{121}{48}$.\n\nThus the correct option is C: $\\frac{121}{48}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "2"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Let 'W' joule be the work done to move an electric charge 'q' coulomb from a place A, where potential is -5 volt to another place B where potential is 'V' volt. The value of 'V' is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "\\( Wq - 5 \\)"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "\\( \\frac{q}{5} + 5 \\)"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "\\( W - \\frac{5}{q} \\)"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "\\( \\frac{W}{q} - 5 \\)"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given:\n\nWork done: \\( W \\) joule\nCharge: \\( q \\) coulombs\nPotential at A: \\( V_A = -5 \\) volt\nPotential at B: \\( V_B = V \\) volt\n\nStep 1:\nWork done in moving charge \\( q \\) from A to B is given by:\n\n\\( W = q(V_B - V_A) \\)\n\nStep 2:\nSubstitute the values:\n\n\\( V_B = V \\)\n\\( V_A = -5 \\)\n\nSo,\n\n\\( W = q(V - (-5)) \\)\n\n\\( W = q(V + 5) \\)\n\nStep 3:\nSolve for \\( V \\):\n\n\\( W = q(V + 5) \\)\n\nDivide both sides by \\( q \\):\n\n\\( \\frac{W}{q} = V + 5 \\)\n\nSubtract 5 from both sides:\n\n\\( V = \\frac{W}{q} - 5 \\)\n\nFinal answer:\n\nThe correct value of \\( V \\) is \\( \\frac{W}{q} - 5 \\)\n\nTherefore, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

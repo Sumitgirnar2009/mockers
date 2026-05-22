@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "101"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The Cartesian equation of plane through $A(7, 8, 6)$ and parallel to the XY plane is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$z = 7$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$z = 8$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$z = 6$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$z = 4$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The equation of the plane passing through A(7, 8, 6) can be written as:\n$$a(x - 7) + b(y - 8) + c(z - 6) = 0 \\quad \\text{...... (i)}$$\n\nSince the required plane is parallel to the XY-plane, its normal vector has direction ratios 0, 0, 1.\n\nSubstituting a = 0, b = 0, c = 1 into equation (i):\n$$0(x - 7) + 0(y - 8) + 1(z - 6) = 0$$\n$$\\Rightarrow z - 6 = 0$$\n$$\\Rightarrow z = 6$$\n\nThus, the correct option is C: z = 6."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "102"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The number of ways, in which 6 boys and 5 girls can sit at a round table, if no two girls are to sit together, is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "518400"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "14400"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "86400"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "17280"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "First, arrange the 6 boys around a round table. The number of circular permutations of 6 distinct boys is (6 − 1)! = 5! = 120.\n\nAfter seating the boys, there are 6 gaps created between them (one between each pair of consecutive boys). We need to seat 5 girls such that no two sit together, so we choose 5 of these 6 gaps and arrange the 5 distinct girls in them. The number of ways is ⁶P₅ = 6! = 720.\n\nThus, the total number of required arrangements = 5! × 6! = 120 × 720 = 86400.\n\nHence, the correct answer is option C: 86400."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

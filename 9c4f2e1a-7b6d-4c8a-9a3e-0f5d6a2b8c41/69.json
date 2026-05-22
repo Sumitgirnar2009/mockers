@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "69"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "Which among the following is benzyl halide?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Bromophenylmethane"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "4-Bromotoluene"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "1-Bromo-2-phenylethane"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Bromobenzene"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Benzyl halide is a compound in which a halogen atom is attached to a carbon that is directly bonded to a benzene ring. The general formula is $C_6H_5CH_2X$, where X is a halogen.\n\n- Option A: Bromophenylmethane is $C_6H_5CH_2Br$ → benzyl bromide, which is a benzyl halide.\n- Option B: 4-Bromotoluene is $CH_3-C_6H_4-Br$ → halogen is directly attached to the benzene ring (aryl halide), not benzyl.\n- Option C: 1-Bromo-2-phenylethane is $C_6H_5CH_2CH_2Br$ → halogen is two carbons away from the ring, not benzyl.\n- Option D: Bromobenzene is $C_6H_5Br$ → aryl halide.\n\nThus, the correct answer is Bromophenylmethane, which corresponds to option A."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41/q69-sol.jpg"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "40"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "In a Fraunhoffer diffraction, light of wavelength '$\\lambda$' is incident on slit of width '$d$'. The diffraction pattern is observed on a screen placed at a distance '$D$'. The linear width of central maximum is equal to two times the width of the slit, then '$D$' has value"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{d^2}{\\lambda}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{d^2}{2\\lambda}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{d^2}{3\\lambda}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{d^2}{4\\lambda}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For single-slit Fraunhofer diffraction, the first minimum occurs at an angle θ given by d sinθ = λ. For small angles, sinθ ≈ θ, so θ = λ/d.\n\nThe angular width of the central maximum is twice this: 2θ = 2λ/d.\n\nThe linear width of the central maximum on the screen is: W = D × (angular width) = D × (2λ/d) = 2Dλ/d.\n\nWe are told that this linear width equals twice the slit width, i.e., W = 2d.\n\nEquating: 2Dλ/d = 2d → Cancel 2 on both sides: Dλ/d = d → Dλ = d² → D = d²/λ.\n\nThus, the required distance D is d²/λ, which matches option A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

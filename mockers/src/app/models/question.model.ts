@@ -18,6 +18,7 @@ export interface QuestionData {
   options: OptionObj[];
   correctAnswer: number;
   FullMarks: number;
+  solution :SolutionObj;
 }
 
 export interface QuestionObj {
@@ -29,6 +30,14 @@ export interface OptionObj {
   text: string | null;
   image: string | null;  
 }
+
+export interface SolutionObj {
+  text: string | null;
+  image: string | null;  
+}
+
+
+
 
 
 

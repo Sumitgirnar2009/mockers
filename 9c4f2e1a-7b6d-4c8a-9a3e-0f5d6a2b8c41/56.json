@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "56"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "For the reaction, $\\mathrm{NO_2(g) + CO(g) \\rightarrow NO(g) + CO_2(g)}$, rate of formation of $\\mathrm{NO(g)}$ is $Y \\, \\text{mol} \\, \\text{dm}^{-3} \\, \\text{s}^{-1}$. Find the rate of disappearance of $\\mathrm{CO(g)}$."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$Y \\, \\text{mol} \\, \\text{dm}^{-3} \\, \\text{s}^{-1}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$2Y \\, \\text{mol} \\, \\text{dm}^{-3} \\, \\text{s}^{-1}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{Y}{2} \\, \\text{mol} \\, \\text{dm}^{-3} \\, \\text{s}^{-1}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{3}{2}Y \\, \\text{mol} \\, \\text{dm}^{-3} \\, \\text{s}^{-1}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given reaction:\n$$\\mathrm{NO_2(g) + CO(g) \\rightarrow NO(g) + CO_2(g)}$$\n\nAccording to NCERT, the rate of a reaction in terms of reactants and products is given by:\n$$-\\frac{d[\\mathrm{NO_2}]}{dt} = -\\frac{d[\\mathrm{CO}]}{dt} = \\frac{d[\\mathrm{NO}]}{dt} = \\frac{d[\\mathrm{CO_2}]}{dt}$$\n\nIf the rate of formation of NO is $Y \\, \\text{mol} \\, \\text{dm}^{-3} \\, \\text{s}^{-1}$:\n$$\\frac{d[\\mathrm{NO}]}{dt} = Y$$\n\nSo,\n$$-\\frac{d[\\mathrm{CO}]}{dt} = Y$$\n\nThis implies,\nRate of disappearance of $\\mathrm{CO} = Y \\, \\text{mol} \\, \\text{dm}^{-3} \\, \\text{s}^{-1}$\n\nCorrect option: A"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

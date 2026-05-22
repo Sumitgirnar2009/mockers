@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "123"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $4 \\sin^{-1} x + \\cos^{-1} x = \\pi$ then $x =$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{\\sqrt{3}}{2}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "0"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{1}{2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{1}{\\sqrt{2}}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "We know that $\\sin^{-1} x + \\cos^{-1} x = \\frac{\\pi}{2}$.\n\nGiven: $4 \\sin^{-1} x + \\cos^{-1} x = \\pi$.\n\nRewrite as $3 \\sin^{-1} x + (\\sin^{-1} x + \\cos^{-1} x) = \\pi$.\n\n$\\Rightarrow 3 \\sin^{-1} x + \\frac{\\pi}{2} = \\pi$.\n\n$\\Rightarrow 3 \\sin^{-1} x = \\pi - \\frac{\\pi}{2} = \\frac{\\pi}{2}$.\n\n$\\Rightarrow \\sin^{-1} x = \\frac{\\pi}{6}$.\n\n$\\Rightarrow x = \\sin \\frac{\\pi}{6} = \\frac{1}{2}$.\n\nThus the correct option is C: $\\frac{1}{2}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

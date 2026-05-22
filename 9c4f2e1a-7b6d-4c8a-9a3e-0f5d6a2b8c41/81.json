@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "81"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The pH of a sample of vinegar is 3.76. Calculate the concentration of hydrogen ion in it in $\\text{mol dm}^{-3}$?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$1.97 \\times 10^{-4}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$1.738 \\times 10^{-4}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$1.84 \\times 10^{-4}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$1.283 \\times 10^{-4}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given pH = 3.76. The hydrogen ion concentration is found using $[\\mathrm{H}^+] = 10^{-\\text{pH}}$.\n\n$$[\\mathrm{H}^+] = 10^{-3.76} = 10^{-4 + 0.24} = 10^{-4} \\times 10^{0.24}$$\n\nThe value of $10^{0.24}$ is approximately 1.7378. Therefore,\n$$[\\mathrm{H}^+] = 1.7378 \\times 10^{-4} \\, \\text{mol dm}^{-3}$$\n\nRounding to three decimal places gives $1.738 \\times 10^{-4}$. Hence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

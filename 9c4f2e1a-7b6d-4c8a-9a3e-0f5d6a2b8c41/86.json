@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "86"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which from following reactions performs zero work?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\mathrm{CH_4(g) + Cl_2(g) \\rightarrow CH_3Cl(g) + HCl(g)}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\mathrm{3H_2(g) + N_2(g) \\rightarrow 2NH_3(g)}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\mathrm{C_2H_2(g) + \\frac{5}{2}O_2(g) \\rightarrow 2CO_2(g) + H_2O(l)}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\mathrm{2C_2H_6(g) + 7O_2(g) \\rightarrow 4CO_2(g) + 6H_2O(l)}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "At constant pressure, work done by a reaction is given by w = -PΔV, which is proportional to the change in number of moles of gaseous species (Δn_gas). If Δn_gas = 0, then work done is zero.\n\n- Option A: Reactant gas moles = 1+1 = 2, Product gas moles = 1+1 = 2 ⇒ Δn = 0 ⇒ zero work.\n- Option B: Reactant gas moles = 3+1 = 4, Product gas moles = 2 ⇒ Δn = -2 ⇒ work is not zero.\n- Option C: Reactant gas moles = 1 + 2.5 = 3.5, Product gas moles = 2 (H₂O is liquid) ⇒ Δn = -1.5 ⇒ work not zero.\n- Option D: Reactant gas moles = 2+7 = 9, Product gas moles = 4 ⇒ Δn = -5 ⇒ work not zero.\n\nThus, the correct answer is Option A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

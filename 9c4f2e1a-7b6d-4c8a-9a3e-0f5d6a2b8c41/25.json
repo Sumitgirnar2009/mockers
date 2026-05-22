@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "25"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "For a thin prism, $\\delta_1$ is the angle of deviation produced, when prism is placed in air. When the prism is immersed in water, the angle of deviation produced is $\\delta_2$. Given $_a\\mu_g = \\frac{3}{2}$ and $_a\\mu_w = \\frac{4}{3}$. The ratio $\\delta_2 : \\delta_1$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1 : 2"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "1 : 4"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "1 : 8"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "4 : 1"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given:\n\n$_a\\mu_g = \\frac{3}{2}$\n$_a\\mu_w = \\frac{4}{3}$\n\nStep 1: Deviation formula for thin prism\n\n$\\delta = (\\mu_{rel} - 1)A$\nwhere $\\mu_{rel}$ is refractive index of prism relative to surrounding medium.\n\nStep 2: Deviation in air ($\\delta_1$)\n\n$\\mu_{rel} = \\mu_g = \\frac{3}{2}$\n\n$\\delta_1 = \\left(\\frac{3}{2} - 1\\right)A = \\frac{1}{2}A$\n\nStep 3: Deviation in water ($\\delta_2$)\n\nRefractive index of glass relative to water:\n\n$_w\\mu_g = \\frac{_a\\mu_g}{_a\\mu_w} = \\frac{3/2}{4/3} = \\frac{3}{2} \\times \\frac{3}{4} = \\frac{9}{8}$\n\n$\\delta_2 = \\left(\\frac{9}{8} - 1\\right)A = \\frac{1}{8}A$\n\nStep 4: Ratio $\\delta_2 : \\delta_1$\n\n$\\frac{\\delta_2}{\\delta_1} = \\frac{\\frac{1}{8}A}{\\frac{1}{2}A} = \\frac{1}{8} \\times \\frac{2}{1} = \\frac{1}{4}$\n\nThus, $\\delta_2 : \\delta_1 = 1 : 4$\n\nFinal answer:\n\nThe ratio $\\delta_2 : \\delta_1$ is $1 : 4$.\n\nTherefore, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "11"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The self-inductance of a circuit is numerically equal to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "the work done in establishing the magnetic flux associated with circuit."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "twice the work done in establishing the magnetic flux associated with unit current in the circuit."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "thrice the work done in establishing the magnetic flux associated with unit current in the circuit."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "the work done in establishing the magnetic flux associated with unit current in the circuit."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given:\n\nSelf-inductance of a circuit = $L$\n\nStep 1: Energy stored in an inductor\n\nThe work done to establish current $I$ in an inductor is stored as magnetic energy:\n\n$W = \\frac{1}{2}LI^2$\n\nStep 2: For unit current\n\nWhen $I = 1$ A, the work done is:\n\n$W = \\frac{1}{2}L(1)^2 = \\frac{L}{2}$\n\nStep 3: Express $L$ in terms of work done\n\n$L = 2W$\n\nThis means self-inductance is twice the work done to establish unit current.\n\nFinal answer:\n\nSelf-inductance is numerically equal to twice the work done in establishing the magnetic flux associated with unit current in the circuit.\n\nTherefore, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

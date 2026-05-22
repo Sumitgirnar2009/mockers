@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "80"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify the pair of carbohydrates containing galactose as one of constituent in both of them."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Sucrose and Stachyose"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Maltose and Raffinose"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Raffinose and Stachyose"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Lactose and Maltose"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Galactose is a monosaccharide present in certain disaccharides and oligosaccharides. Evaluating each pair:\n- Sucrose (glucose+fructose) lacks galactose; Stachyose (galactose+galactose+glucose+fructose) contains it → not both.\n- Maltose (glucose+glucose) lacks galactose; Raffinose (galactose+glucose+fructose) contains it → not both.\n- Raffinose and Stachyose both contain galactose → correct.\n- Lactose (glucose+galactose) contains galactose; Maltose does not → not both.\nThus, the correct option is C: Raffinose and Stachyose."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

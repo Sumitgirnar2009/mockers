@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "22"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Two rods of different materials have lengths $l_1$ and $l_2$ whose coefficient of linear expansions are $\\alpha_1$ and $\\alpha_2$ respectively. If the difference between the two lengths is independent of temperature then"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\alpha_1^2 l_1 = \\alpha_2^2 l_2$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{l_1}{l_2} = \\frac{\\alpha_2}{\\alpha_1}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{l_1}{l_2} = \\frac{\\alpha_1}{\\alpha_2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$l_1^2 \\alpha_2 = l_2^2 \\alpha_1$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given:\n\nOriginal lengths of rods: $l_1$ and $l_2$\nCoefficients of linear expansion: $\\alpha_1$ and $\\alpha_2$\n\nStep 1: Lengths after temperature increase $\\Delta T$\n\nFirst rod: $l_1' = l_1(1 + \\alpha_1 \\Delta T)$\n\nSecond rod: $l_2' = l_2(1 + \\alpha_2 \\Delta T)$\n\nStep 2: Difference in lengths after expansion\n\n$\\Delta l = l_1' - l_2' = l_1(1 + \\alpha_1 \\Delta T) - l_2(1 + \\alpha_2 \\Delta T)$\n\n$\\Delta l = (l_1 - l_2) + (l_1 \\alpha_1 - l_2 \\alpha_2) \\Delta T$\n\nStep 3: Condition for difference to be independent of temperature\n\nCoefficient of $\\Delta T$ must be zero:\n\n$l_1 \\alpha_1 - l_2 \\alpha_2 = 0$\n\n$l_1 \\alpha_1 = l_2 \\alpha_2$\n\n$\\frac{l_1}{l_2} = \\frac{\\alpha_2}{\\alpha_1}$\n\nFinal answer:\n\nThe required condition is $\\frac{l_1}{l_2} = \\frac{\\alpha_2}{\\alpha_1}$\n\nTherefore, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

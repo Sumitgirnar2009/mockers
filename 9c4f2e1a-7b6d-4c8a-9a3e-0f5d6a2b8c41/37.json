@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "37"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "There is head-on elastic collision between the two particles moving in the same direction with speeds 5 m/s and 3 m/s respectively. After collision, the velocity of the first particle becomes 4 m/s in the same direction. The velocity of the second particle should be"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "6 m/s in the same direction."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "4 m/s in the same direction."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "2 m/s in the opposite direction."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "3 m/s in the same direction."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "## Step 1: List the Information Given\nThe first particle starts with a speed of 5 m/s.\n\nThe second particle starts with a speed of 3 m/s, in the same direction as the first.\n\nAfter the collision, the first particle moves at 4 m/s, still in the same direction.\n\nThe type of collision is elastic, and both particles move along a straight line (head-on).\n\nWe need to find the new speed of the second particle (v2) after the collision.\n\n---\n\n## Step 2: Use Elastic Collision Formula for Head-On Collisions\nIn an elastic head-on collision, the difference in the starting speeds equals the difference in the speeds after the collision, but in the opposite order:\n\nu1 - u2 = v2 - v1\n\n---\n\n## Step 3: Put in the Numbers\nPlug in the values we have:\n\n5 m/s - 3 m/s = v2 - 4 m/s\n\n2 m/s = v2 - 4 m/s\n\n---\n\n## Step 4: Solve for v2\nAdd 4 m/s to both sides to find v2:\n\nv2 = 2 m/s + 4 m/s\n\nv2 = 6 m/s\n\n---\n\n## Step 5: Check the Direction\nBecause the answer is positive, this means the second particle moves in the same direction as before, just faster.\n\n---\n\n## Step 6: Final Answer\nThe second particle's speed after the collision is 6 m/s, in the same direction as before.\n\nThe matching answer choice is:\n\nOption A: 6 m/s in the same direction.\n\nSo, the correct answer is 6 m/s in the same direction."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

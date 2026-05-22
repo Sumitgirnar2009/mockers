@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "68"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "Calculate $\\Delta S_{\\text{total}}$ for a certain reaction at 298 K if $\\Delta H^\\circ = -208.6 \\, \\text{kJ}$ and $\\Delta S^\\circ = -36 \\, \\text{J K}^{-1}$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$664 \\, \\text{J K}^{-1}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$834 \\, \\text{J K}^{-1}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$926 \\, \\text{J K}^{-1}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$736 \\, \\text{J K}^{-1}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given:\n$$\\Delta H^\\circ = -208.6 \\, \\text{kJ}$$\n$$\\Delta S^\\circ = -36 \\, \\text{J K}^{-1}$$\n$$T = 298 \\, \\text{K}$$\n\nFirst, convert $\\Delta H^\\circ$ from kJ to J:\n$$\\Delta H^\\circ = -208.6 \\, \\text{kJ} = -208600 \\, \\text{J}$$\n\nStep 1: Calculate the entropy change of the surroundings ($\\Delta S_{\\text{surroundings}}$):\n\nBy NCERT method,\n$$\\Delta S_{\\text{surroundings}} = -\\frac{\\Delta H^\\circ}{T}$$\n\nSubstitute the values:\n$$\\Delta S_{\\text{surroundings}} = -\\frac{-208600 \\, \\text{J}}{298 \\, \\text{K}} = \\frac{208600 \\, \\text{J}}{298 \\, \\text{K}} \\, \\text{J K}^{-1}$$\n\nCalculate:\n$$\\Delta S_{\\text{surroundings}} \\approx 700 \\, \\text{J K}^{-1}$$\n\nStep 2: Calculate the total entropy change ($\\Delta S_{\\text{total}}$):\n\n$$\\Delta S_{\\text{total}} = \\Delta S_{\\text{system}} + \\Delta S_{\\text{surroundings}}$$\n\nSubstitute the values:\n$$\\Delta S_{\\text{total}} = -36 \\, \\text{J K}^{-1} + 700 \\, \\text{J K}^{-1} = 664 \\, \\text{J K}^{-1}$$\n\nFinal Answer: Option A: $664 \\, \\text{J K}^{-1}$"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

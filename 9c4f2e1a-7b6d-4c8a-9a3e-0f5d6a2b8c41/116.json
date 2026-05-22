@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "116"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If a random variable $X$ has the p.d.f. $$f(x) = \\begin{cases} \\frac{k}{x^2 + 1}, & \\text{if } 0 < x < \\infty \\\\ 0, & \\text{otherwise} \\end{cases}$$ then c.d.f. of $X$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$2 \\tan^{-1} x$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{\\pi}{2} \\tan^{-1} x$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{2}{\\pi} \\tan^{-1} x$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\tan^{-1} x$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For the p.d.f. to be valid, the total probability must be 1:\n\n$$\\int_{0}^{\\infty} \\frac{k}{x^2+1} \\, dx = 1$$\n\n$$\\Rightarrow k \\int_{0}^{\\infty} \\frac{1}{x^2+1} \\, dx = 1$$\n\nWe know that $$\\int \\frac{1}{x^2+1} \\, dx = \\tan^{-1} x + c.$$\n\nThus, $$k \\left[ \\tan^{-1} x \\right]_{0}^{\\infty} = 1$$\n\n$$\\Rightarrow k \\left( \\tan^{-1} \\infty - \\tan^{-1} 0 \\right) = 1$$\n\nSince $\\tan^{-1} \\infty = \\frac{\\pi}{2}$ and $\\tan^{-1} 0 = 0$, we get:\n\n$$k \\left( \\frac{\\pi}{2} - 0 \\right) = 1 \\quad \\Rightarrow \\quad k = \\frac{2}{\\pi}.$$\n\nThe cumulative distribution function (c.d.f.) is given by:\n\n$$F(x) = \\int_{0}^{x} f(t) \\, dt = \\int_{0}^{x} \\frac{2/\\pi}{t^2+1} \\, dt$$\n\n$$= \\frac{2}{\\pi} \\left[ \\tan^{-1} t \\right]_{0}^{x} = \\frac{2}{\\pi} \\left( \\tan^{-1} x - \\tan^{-1} 0 \\right) = \\frac{2}{\\pi} \\tan^{-1} x.$$\n\nHence the correct option is C: $\\frac{2}{\\pi} \\tan^{-1} x$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

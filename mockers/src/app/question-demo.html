@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Question Demo Tester</title>
+
+  <!-- Bootstrap 4 CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <style>
+    /* Import fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #f8f9fa;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .json-input {
+      margin-bottom: 20px;
+    }
+
+    .json-textarea {
+      width: 100%;
+      height: 200px;
+      font-family: monospace;
+      font-size: 14px;
+    }
+
+    .question-display {
+      margin-top: 20px;
+    }
+
+    /* Question styles from component */
+    .question-wrapper {
+      background: white;
+      border-radius: 16px;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+      border: 1px solid #e9ecef;
+    }
+
+    .question-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 2px solid #eef2ff;
+    }
+
+    .question-number {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #4361ee;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .question-number::before {
+      content: 'Q';
+      background: #4361ee;
+      color: white;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+      font-weight: 600;
+    }
+
+    .question-text-container {
+      margin-bottom: 1rem;
+    }
+
+    .question-text {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 1.3rem;
+      line-height: 1.5;
+      color: #2b2d42;
+      font-weight: 600;
+      margin: 0;
+      padding: 0.75rem;
+      background: #f8f9fa;
+      border-radius: 12px;
+      border-left: 4px solid #4361ee;
+      overflow-wrap: break-word;
+      word-break: break-word;
+    }
+
+    .question-image {
+      margin: 1rem 0;
+      text-align: center;
+    }
+
+    .question-img {
+      max-width: 100%;
+      max-height: 180px;
+      width: auto;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+      border: 1px solid #dee2e6;
+      cursor: zoom-in;
+    }
+
+    .options-container {
+      background: white;
+      border-radius: 12px;
+      margin-top: 1rem;
+      border: 1px solid #e9ecef;
+      overflow-y: auto;
+    }
+
+    .option-item {
+      padding: 1rem 1.25rem;
+      border: none;
+      border-bottom: 1px solid #e9ecef;
+      cursor: pointer;
+      background: white;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+    }
+
+    .option-item:last-child {
+      border-bottom: none;
+    }
+
+    .option-item:hover {
+      background: #eef2ff;
+    }
+
+    .option-letter {
+      width: 32px;
+      height: 32px;
+      min-width: 32px;
+      background: #f8f9fa;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      color: #495057;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 0.9rem;
+    }
+
+    .option-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      min-width: 0;
+    }
+
+    .option-text {
+      font-size: 1.25rem;
+      line-height: 1.5;
+      color: #2b2d42;
+      font-weight: 500;
+      overflow-wrap: break-word;
+      word-break: break-word;
+    }
+
+    .option-img {
+      max-width: 200px;
+      max-height: 120px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+      border: 1px solid #dee2e6;
+      cursor: zoom-in;
+      margin-top: 0.5rem;
+      align-self: flex-start;
+    }
+
+    .buttons {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .btn-submit {
+      background: #06d6a0;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+
+    .btn-submit:hover {
+      background: #05b085;
+    }
+
+    .btn-download {
+      background: #4361ee;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .btn-download:hover {
+      background: #3a56d4;
+    }
+
+    .status {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    .success {
+      color: green;
+    }
+
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Question Demo Tester</h1>
+    <p>Paste your question JSON below, load it, review the display, and submit to save to resource file.</p>
+
+    <div class="json-input">
+      <label for="jsonTextarea">Question JSON:</label>
+      <textarea id="jsonTextarea" class="json-textarea" placeholder='Paste JSON like: {"id": 1, "question": {"text": "Question text", "image": "image_url"}, "options": [{"text": "Option A"}, {"text": "Option B"}, ...]}'></textarea>
+      <button id="loadBtn" class="btn btn-primary mt-2">Load Question</button>
+    </div>
+
+    <div id="questionDisplay" class="question-display" style="display: none;">
+      <!-- Question will be rendered here -->
+    </div>
+
+    <div class="buttons">
+      <button id="submitBtn" class="btn-submit" style="display: none;">Submit to Resource File</button>
+      <button id="downloadBtn" class="btn-download">Download Combined JSON</button>
+    </div>
+
+    <div id="status" class="status"></div>
+  </div>
+
+  <script>
+    let currentQuestion = null;
+
+    document.getElementById('loadBtn').addEventListener('click', function() {
+      const jsonText = document.getElementById('jsonTextarea').value.trim();
+      if (!jsonText) {
+        showStatus('Please enter JSON', 'error');
+        return;
+      }
+
+      try {
+        const question = JSON.parse(jsonText);
+        if (!question.id || !question.question || !question.options) {
+          throw new Error('Invalid question format');
+        }
+        currentQuestion = question;
+        renderQuestion(question);
+        document.getElementById('submitBtn').style.display = 'inline-block';
+        showStatus('Question loaded successfully', 'success');
+      } catch (e) {
+        showStatus('Invalid JSON: ' + e.message, 'error');
+      }
+    });
+
+    document.getElementById('submitBtn').addEventListener('click', function() {
+      if (!currentQuestion) {
+        showStatus('No question loaded', 'error');
+        return;
+      }
+
+      // Get existing questions from localStorage
+      let questions = JSON.parse(localStorage.getItem('resourceQuestions') || '[]');
+
+      // Check if question with same id already exists
+      const existingIndex = questions.findIndex(q => q.id === currentQuestion.id);
+      if (existingIndex >= 0) {
+        questions[existingIndex] = currentQuestion;
+        showStatus('Question updated in resource file', 'success');
+      } else {
+        questions.push(currentQuestion);
+        showStatus('Question added to resource file', 'success');
+      }
+
+      // Save back to localStorage
+      localStorage.setItem('resourceQuestions', JSON.stringify(questions, null, 2));
+
+      // Clear current question
+      currentQuestion = null;
+      document.getElementById('questionDisplay').style.display = 'none';
+      document.getElementById('submitBtn').style.display = 'none';
+      document.getElementById('jsonTextarea').value = '';
+    });
+
+    document.getElementById('downloadBtn').addEventListener('click', function() {
+      const questions = JSON.parse(localStorage.getItem('resourceQuestions') || '[]');
+      if (questions.length === 0) {
+        showStatus('No questions in resource file', 'error');
+        return;
+      }
+
+      const dataStr = JSON.stringify(questions, null, 2);
+      const dataBlob = new Blob([dataStr], {type: 'application/json'});
+      const url = URL.createObjectURL(dataBlob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.download = 'resource-questions.json';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(url);
+      showStatus('Downloaded combined JSON', 'success');
+    });
+
+    function renderQuestion(question) {
+      const display = document.getElementById('questionDisplay');
+      display.innerHTML = `
+        <div class="question-wrapper">
+          <div class="question-header">
+            <div class="question-number">Question ${question.id}</div>
+          </div>
+          <div class="question-text-container">
+            <div class="question-text">${question.question.text}</div>
+          </div>
+          ${question.question.image && question.question.image !== 'NA' ? `
+            <div class="question-image">
+              <img src="${question.question.image}" alt="Question Image" class="question-img" />
+            </div>
+          ` : ''}
+          <div class="options-container">
+            ${question.options.map((option, index) => `
+              <div class="option-item">
+                <div class="option-letter">${String.fromCharCode(65 + index)}</div>
+                <div class="option-content">
+                  <div class="option-text">${option.text}</div>
+                  ${option.image ? `
+                    <img src="${option.image}" alt="Option Image" class="option-img" />
+                  ` : ''}
+                </div>
+              </div>
+            `).join('')}
+          </div>
+        </div>
+      `;
+      display.style.display = 'block';
+    }
+
+    function showStatus(message, type) {
+      const status = document.getElementById('status');
+      status.textContent = message;
+      status.className = `status ${type}`;
+      setTimeout(() => {
+        status.textContent = '';
+        status.className = 'status';
+      }, 3000);
+    }
+  </script>
+</body>
+</html>

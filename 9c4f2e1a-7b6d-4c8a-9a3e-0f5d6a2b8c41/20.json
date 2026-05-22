@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "20"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Four particles each of mass $M$ are placed at the corners of a square of side $L$. The radius of gyration of the system about an axis perpendicular to the square and passing through its centre is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$L$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{L}{2}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{L}{4}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{L}{\\sqrt{2}}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given:\n\nFour particles, each of mass $M$, placed at corners of a square of side $L$.\nAxis is perpendicular to square and passes through centre.\n\nStep 1: Distance of each particle from the centre\n\nThe centre of the square is equidistant from all corners.\nDistance from centre to corner = half of diagonal:\n\n$r = \\frac{\\text{diagonal}}{2} = \\frac{L\\sqrt{2}}{2} = \\frac{L}{\\sqrt{2}}$\n\nStep 2: Moment of inertia about the axis\n\nFor each mass: $I_{\\text{each}} = M r^2 = M \\left(\\frac{L}{\\sqrt{2}}\\right)^2 = M \\cdot \\frac{L^2}{2}$\n\nFor 4 masses: $I_{\\text{total}} = 4 \\times \\frac{ML^2}{2} = 2ML^2$\n\nStep 3: Total mass of the system\n\n$M_{\\text{total}} = 4M$\n\nStep 4: Radius of gyration formula\n\n$I = M_{\\text{total}} K^2$\n\n$2ML^2 = 4M K^2$\n\nStep 5: Solve for $K$\n\n$K^2 = \\frac{2ML^2}{4M} = \\frac{L^2}{2}$\n\n$K = \\frac{L}{\\sqrt{2}}$\n\nFinal answer:\n\nThe radius of gyration is $\\frac{L}{\\sqrt{2}}$\n\nTherefore, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

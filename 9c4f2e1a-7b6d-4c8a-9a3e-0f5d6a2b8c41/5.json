@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "5"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $\\vec{F} = (5\\hat{i} - 10\\hat{j})$ and $\\vec{r} = (4\\hat{i} - 3\\hat{j})$, then the torque acting on the object will be"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\hat{i} - 2\\hat{j}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$2\\hat{i} - \\hat{j}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$25\\hat{k}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$-25\\hat{k}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given:\n\n$\\vec{F} = 5\\hat{i} - 10\\hat{j}$\n\n$\\vec{r} = 4\\hat{i} - 3\\hat{j}$\n\nStep 1:\nTorque ($\\vec{\\tau}$) is given by the cross product:\n\n$\\vec{\\tau} = \\vec{r} \\times \\vec{F}$\n\nStep 2:\nWrite vectors in component form:\n\n$\\vec{r} = 4\\hat{i} + (-3)\\hat{j} + 0\\hat{k}$\n\n$\\vec{F} = 5\\hat{i} + (-10)\\hat{j} + 0\\hat{k}$\n\nStep 3:\nUse the determinant method for cross product:\n\n$\\vec{\\tau} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 4 & -3 & 0 \\\\ 5 & -10 & 0 \\end{vmatrix}$\n\nStep 4:\nExpand the determinant:\n\n$\\vec{\\tau} = \\hat{i}((-3)(0) - (0)(-10)) - \\hat{j}((4)(0) - (0)(5)) + \\hat{k}((4)(-10) - (-3)(5))$\n\n$\\vec{\\tau} = \\hat{i}(0 - 0) - \\hat{j}(0 - 0) + \\hat{k}(-40 + 15)$\n\n$\\vec{\\tau} = 0\\hat{i} - 0\\hat{j} - 25\\hat{k}$\n\n$\\vec{\\tau} = -25\\hat{k}$\n\nFinal answer:\n\nThe torque acting on the object is $-25\\hat{k}$\n\nTherefore, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

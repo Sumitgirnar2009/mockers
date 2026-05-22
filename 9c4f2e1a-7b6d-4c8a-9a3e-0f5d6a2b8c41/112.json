@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "112"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "$$\\int \\frac{e^{2030 \\log x} - e^{2029 \\log x}}{e^{2028 \\log x} - e^{2027 \\log x}} \\, dx = \\ldots$$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{x^2}{2} + c$, where $c$ is the constant of integration"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$x + c$, where $c$ is the constant of integration"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{x^3}{3} + c$, where $c$ is the constant of integration"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{x}{3} + c$, where $c$ is the constant of integration"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $$I = \\int \\frac{e^{2030\\log x} - e^{2029\\log x}}{e^{2028\\log x} - e^{2027\\log x}} \\, dx = \\int \\frac{x^{2030} - x^{2029}}{x^{2028} - x^{2027}} \\, dx$$ $$= \\int \\frac{x^{2027}(x^3 - x^2)}{x^{2027}(x-1)} \\, dx = \\int \\frac{x^2(x-1)}{(x-1)} \\, dx = \\int x^2 \\, dx = \\frac{x^3}{3} + c.$$ Hence the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

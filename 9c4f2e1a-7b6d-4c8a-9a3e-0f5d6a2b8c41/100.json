@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "100"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following alkenes is most easily formed by dehydrohalogenation of alkyl halides?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$R_2C = CH_2$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$RCH = CHR$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$R_2C = CHR$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$R_2C = CR_2$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Dehydrohalogenation of alkyl halides follows Saytzeff's rule (Zaitsev's rule), which states that the more substituted alkene is formed preferentially because it is more stable.\n\nThe stability order of alkenes based on the number of alkyl groups attached to the double-bonded carbons is:\n$$\\text{Tetra-substituted} > \\text{Tri-substituted} > \\text{Di-substituted} > \\text{Mono-substituted}$$\n\nNow classify each option:\n\n- **Option A:** $R_2C=CH_2$ → Di-substituted (two alkyl groups)\n- **Option B:** $RCH=CHR$ → Di-substituted (two alkyl groups)\n- **Option C:** $R_2C=CHR$ → Tri-substituted (three alkyl groups)\n- **Option D:** $R_2C=CR_2$ → Tetra-substituted (four alkyl groups)\n\nThe tetra-substituted alkene (option D) is the most substituted and therefore the most stable. According to Saytzeff's rule, it will be formed most easily during dehydrohalogenation.\n\nThus, the correct answer is option D: $R_2C=CR_2$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

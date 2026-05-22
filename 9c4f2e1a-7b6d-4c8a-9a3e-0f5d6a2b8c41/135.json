@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "135"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A population $p(t)$ of 1000 bacteria introduced into a nutrient medium grows according to the relation $p(t) = 1000 + \\frac{1000t}{100+t^2}$. The maximum size of this bacterial population is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1100"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "1250"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "1050"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "950"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "We have $p(t) = 1000 + \\frac{1000t}{100+t^2}$.\n\nLet $f(t) = \\frac{1000t}{100+t^2}$. Then $p'(t) = f'(t) = \\frac{1000(100+t^2) - 1000t(2t)}{(100+t^2)^2} = \\frac{1000(100 - t^2)}{(100+t^2)^2}$.\n\nSetting $p'(t) = 0$ gives $100 - t^2 = 0 \\Rightarrow t = 10$ (since $t \\ge 0$).\n\nNow evaluate $p(t)$ at $t = 10$: $p(10) = 1000 + \\frac{1000 \\times 10}{100 + 100} = 1000 + \\frac{10000}{200} = 1000 + 50 = 1050$.\n\nAs $t \\to 0$, $p(0)=1000$; as $t \\to \\infty$, $p(t) \\to 1000$. Hence the maximum population is 1050.\n\nThus the correct option is C: 1050."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

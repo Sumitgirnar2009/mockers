@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "139"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "By dropping a stone in a quiet lake, a wave in the form of circle is generated. The radius of the circular wave increases at the rate of $2.1 \\text{ cm/sec}$. Then the rate of increase of the enclosed circular region, when the radius of the circular wave is $10 \\text{ cm}$, is (Given $\\pi = \\frac{22}{7}$)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$66 \\text{ cm}^2/\\text{second}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$122 \\text{ cm}^2/\\text{second}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$132 \\text{ cm}^2/\\text{second}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$110 \\text{ cm}^2/\\text{second}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Area of circle $A = \\pi r^2$. Differentiate with respect to time:\n$$\\frac{dA}{dt} = 2\\pi r \\frac{dr}{dt}$$\nGiven $\\frac{dr}{dt} = 2.1$ cm/s, $r = 10$ cm, $\\pi = \\frac{22}{7}$:\n$$\\frac{dA}{dt} = 2 \\times \\frac{22}{7} \\times 10 \\times 2.1 = \\frac{44}{7} \\times 21 = 44 \\times 3 = 132 \\text{ cm}^2/\\text{s}$$\nThus the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "143"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $m_1$ and $m_2$ are the slopes of the lines represented by $ax^2 + 2hxy + by^2 = 0$ satisfying the condition $16 h^2 = 25ab$, then ...... ."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$m_1 = m_2^2$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$m_1 = 4m_2$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$|m_1 - m_2| = 2$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$m_1 m_2 = 1$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "If the slopes of lines $ax^2 + 2hxy + by^2 = 0$ are in the ratio $m_1 : m_2$ then:\n$$(m_1 + m_2)^2 ab = 4 m_1 m_2 h^2 \\quad \\text{(i)}$$\n\nComparing (i) with $16h^2 = 25ab$, we get:\n$$(m_1 + m_2)^2 = 25 \\quad \\text{and} \\quad m_1 m_2 = 4$$\n\nThus $m_1 + m_2 = \\pm 5$ and $m_1 m_2 = 4$.\n\nSolving these equations, we obtain:\n$m_1 = 4$, $m_2 = 1$ or $m_1 = -4$, $m_2 = -1$.\n\nHence $m_1 = 4 m_2$.\n\nTherefore the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

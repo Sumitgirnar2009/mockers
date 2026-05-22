@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "137"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If the directed line makes an angle 45° and 60° with the X and Y-axes respectively, then the obtuse angle $\\theta$ made by the line with the Z-axis is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "135°"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "120°"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "160°"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "150°"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let the direction cosines of the line be $l$, $m$, $n$.\n\nGiven: angle with X-axis = 45° ⇒ $l = \\cos 45° = \\frac{1}{\\sqrt{2}}$.\nAngle with Y-axis = 60° ⇒ $m = \\cos 60° = \\frac{1}{2}$.\nAngle with Z-axis = θ ⇒ $n = \\cos θ$.\n\nUsing $l^2 + m^2 + n^2 = 1$:\n$$\\left(\\frac{1}{\\sqrt{2}}\\right)^2 + \\left(\\frac{1}{2}\\right)^2 + \\cos^2 θ = 1$$\n$$\\frac{1}{2} + \\frac{1}{4} + \\cos^2 θ = 1 \\Rightarrow \\frac{3}{4} + \\cos^2 θ = 1 \\Rightarrow \\cos^2 θ = \\frac{1}{4}$$\n$$\\Rightarrow \\cos θ = \\pm \\frac{1}{2}$$\n\nThus $θ = 60°$ or $θ = 120°$. The obtuse angle is $120°$.\n\nHence the correct option is B: 120°."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

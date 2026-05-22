@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "147"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The smallest angle of the triangle whose sides are $6 + \\sqrt{12}, \\sqrt{48}, \\sqrt{24}$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{\\pi}{2}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{\\pi}{6}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{\\pi}{4}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{\\pi}{3}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $a = 6 + \\sqrt{12}, b = \\sqrt{48}, c = \\sqrt{24}$.\n\nUsing the cosine rule for angle C opposite side c:\n$$\\cos C = \\frac{a^2 + b^2 - c^2}{2ab}$$\n\nNow, $a^2 = (6 + \\sqrt{12})^2 = 36 + 12 + 12\\sqrt{12} = 48 + 24\\sqrt{3}$.\n$b^2 = (\\sqrt{48})^2 = 48$.\n$c^2 = (\\sqrt{24})^2 = 24$.\n\nThus $a^2 + b^2 - c^2 = (48 + 24\\sqrt{3}) + 48 - 24 = 72 + 24\\sqrt{3}$.\n\nAlso $2ab = 2(6 + \\sqrt{12})(\\sqrt{48}) = 2(6 + 2\\sqrt{3})(4\\sqrt{3}) = 8\\sqrt{3}(6 + 2\\sqrt{3}) = 48\\sqrt{3} + 48$.\n\nTherefore,\n$$\\cos C = \\frac{72 + 24\\sqrt{3}}{48 + 48\\sqrt{3}} = \\frac{24(3 + \\sqrt{3})}{48(1 + \\sqrt{3})} = \\frac{3 + \\sqrt{3}}{2(1 + \\sqrt{3})}$$\n\nMultiply numerator and denominator by $(\\sqrt{3} - 1)$:\n$$\\cos C = \\frac{(3 + \\sqrt{3})(\\sqrt{3} - 1)}{2( (1 + \\sqrt{3})(\\sqrt{3} - 1) )} = \\frac{3\\sqrt{3} - 3 + 3 - \\sqrt{3}}{2(3 - 1)} = \\frac{2\\sqrt{3}}{4} = \\frac{\\sqrt{3}}{2}$$\n\nThus $C = \\cos^{-1}\\left(\\frac{\\sqrt{3}}{2}\\right) = \\frac{\\pi}{6}$.\n\nHence the smallest angle is $\\frac{\\pi}{6}$, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

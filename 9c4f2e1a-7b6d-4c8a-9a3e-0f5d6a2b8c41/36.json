@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "36"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "Two long straight wires A and B carrying equal current 'I' were kept parallel to each other at distance 'd' apart. Magnitude of magnetic force experienced by length L of wire A is 'F'. If the distance between the wires is made half and currents are doubled, force F2 on length L of wire A will be"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "2F"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "F"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "8F"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "4F"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let the initial current in each wire be I, and the distance between wires be d.\n\nStep 1: Magnetic force between parallel currents\n\nThe force per unit length between two long, parallel wires carrying currents I1 and I2, separated by distance r, is:\n\nF/L = (μ0/2π) × (I1 I2)/r\n\nSo, F = (μ0/2π) × (I1 I2)/r × L\n\nStep 2: Write the original force (F)\n\nHere, I1 = I2 = I, r = d, so\n\nF = (μ0/2π) × (I²/d) × L\n\nStep 3: New situation\n\nNew distance = d/2\n\nNew current = 2I for each wire\n\nNew force: F2\n\nF2 = (μ0/2π) × [(2I)(2I)]/(d/2) × L\n\nStep 4: Simplify numerator and denominator\n\nF2 = (μ0/2π) × (4I²)/(d/2) × L = (μ0/2π) × (4I² × 2)/d × L = (μ0/2π) × (8I²)/d × L\n\nStep 5: Compare F2 and F\n\nRecall: F = (μ0/2π) × (I²/d) × L\n\nSo, F2 = 8F\n\nFinal Answer: Option C: 8F"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

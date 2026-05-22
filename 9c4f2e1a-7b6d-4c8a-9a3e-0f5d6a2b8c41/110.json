@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "110"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $3 \\sin \\alpha = 5 \\sin \\beta$, then $\\tan \\left( \\frac{\\alpha + \\beta}{2} \\right) + \\tan \\left( \\frac{\\alpha - \\beta}{2} \\right) =$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "2"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "3"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "4"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $\\theta = \\frac{\\alpha + \\beta}{2}$ and $\\phi = \\frac{\\alpha - \\beta}{2}$. Then $\\alpha = \\theta + \\phi$, $\\beta = \\theta - \\phi$.\n\nGiven $3\\sin(\\theta+\\phi) = 5\\sin(\\theta-\\phi)$.\n\nExpanding:\n$$3(\\sin\\theta\\cos\\phi + \\cos\\theta\\sin\\phi) = 5(\\sin\\theta\\cos\\phi - \\cos\\theta\\sin\\phi)$$\n$$3\\sin\\theta\\cos\\phi + 3\\cos\\theta\\sin\\phi = 5\\sin\\theta\\cos\\phi - 5\\cos\\theta\\sin\\phi$$\n$$-2\\sin\\theta\\cos\\phi + 8\\cos\\theta\\sin\\phi = 0$$\n$$8\\cos\\theta\\sin\\phi = 2\\sin\\theta\\cos\\phi$$\n$$4\\cos\\theta\\sin\\phi = \\sin\\theta\\cos\\phi$$\n$$\\frac{\\sin\\phi}{\\cos\\phi} = \\frac{\\sin\\theta}{4\\cos\\theta} \\Rightarrow \\tan\\phi = \\frac{1}{4}\\tan\\theta$$\nThus $\\tan\\theta = 4\\tan\\phi$, i.e.\n$$\\tan\\left(\\frac{\\alpha+\\beta}{2}\\right) = 4 \\tan\\left(\\frac{\\alpha-\\beta}{2}\\right)$$\n\nHence the ratio $\\frac{\\tan\\left(\\frac{\\alpha+\\beta}{2}\\right)}{\\tan\\left(\\frac{\\alpha-\\beta}{2}\\right)} = 4$.\n\nTherefore the correct answer is option D: 4."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

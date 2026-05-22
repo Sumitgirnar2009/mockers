@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "61"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "Which from following mixtures obeys Raoult's law?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Chloroform + acetone"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Carbon disulfide + acetone"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Benzene + toluene"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Ethanol + acetone"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Raoult's law is obeyed by ideal solutions. Ideal solutions form when the intermolecular forces between similar molecules (A-A and B-B) are nearly equal to those between dissimilar molecules (A-B). Such mixtures show no enthalpy change and no volume change upon mixing.\n\nEvaluating the options:\n- Chloroform + acetone: Strong hydrogen bonding occurs between chloroform and acetone, making unlike interactions stronger than like interactions. This leads to negative deviation from Raoult's law.\n- Carbon disulfide + acetone: CS₂ is non-polar while acetone is polar, so forces between unlike molecules differ significantly from like molecules, resulting in deviation.\n- Benzene + toluene: Both are non-polar and structurally similar aromatic hydrocarbons. Their intermolecular forces are nearly identical, forming an ideal solution that obeys Raoult's law.\n- Ethanol + acetone: Ethanol exhibits hydrogen bonding while acetone is polar aprotic, leading to different interactions between unlike molecules and thus deviation.\n\nHence, the mixture that obeys Raoult's law is Benzene + toluene, which is option C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

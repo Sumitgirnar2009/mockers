@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "99"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which among the following salts is NOT hydrolysed in water?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\mathrm{Na_2CO_3}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\mathrm{NH_4CN}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\mathrm{KNO_3}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\mathrm{KCN}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Salts from strong acid and strong base do not undergo hydrolysis. KNO₃ comes from KOH (strong base) and HNO₃ (strong acid), hence no hydrolysis. Na₂CO₃ (weak acid + strong base) hydrolyses. NH₄CN (weak acid + weak base) hydrolyses. KCN (weak acid + strong base) hydrolyses. Thus, KNO₃ is not hydrolysed. Correct option: C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

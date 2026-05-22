@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "146"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $f(x)$ is continuous at $x = 0$, where $$f(x) = \\begin{cases} \\frac{3\\sin x + 5\\tan x}{a^x - 1}, & x < 0 \\\\ \\frac{2}{\\log 2}, & x = 0 \\\\ \\frac{8x + 2x\\cos x}{b^x - 1}, & x > 0 \\end{cases}$$ then the values of $a$ and $b$ are respectively"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$16, 16$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$32, 16$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$16, 32$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$32, 32$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Since $f(x)$ is continuous at $x = 0$, we have $f(0) = \\lim_{x \\to 0^-} f(x) = \\lim_{x \\to 0^+} f(x)$.\n\nFirst, $\\frac{2}{\\log 2} = \\lim_{x \\to 0^-} \\frac{3\\sin x + 5\\tan x}{a^x - 1}$.\n\n$= \\lim_{x \\to 0^-} \\frac{\\frac{3\\sin x + 5\\tan x}{x}}{\\frac{a^x - 1}{x}} = \\frac{3 + 5}{\\log a} = \\frac{8}{\\log a}$.\n\nThus $\\frac{2}{\\log 2} = \\frac{8}{\\log a} \\Rightarrow \\log a = \\frac{8 \\times \\log 2}{2} = \\log 2^4 \\Rightarrow a = 16$.\n\nNow, $\\frac{2}{\\log 2} = \\lim_{x \\to 0^+} \\frac{8x + 2x\\cos x}{b^x - 1}$.\n\n$= \\lim_{x \\to 0^+} \\frac{\\frac{8x + 2x\\cos x}{x}}{\\frac{b^x - 1}{x}} = \\frac{8 + 2\\cos 0}{\\log b} = \\frac{10}{\\log b}$.\n\nHence $\\frac{2}{\\log 2} = \\frac{10}{\\log b} \\Rightarrow \\log b = \\frac{10 \\times \\log 2}{2} = 5\\log 2 \\Rightarrow b = 2^5 = 32$.\n\nTherefore $a = 16$ and $b = 32$, which corresponds to option C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

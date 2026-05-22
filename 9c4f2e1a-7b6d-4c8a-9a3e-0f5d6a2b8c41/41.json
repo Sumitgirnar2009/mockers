@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "41"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "When a big drop of water is formed from 'n' small drops of water, the energy loss is '3E' where 'E' is the energy of the bigger drop. The radius of the bigger drop is 'R' and that of smaller drop is 'r' then the value of 'n' is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{2R^2}{r}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{4R^2}{r^2}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{4R}{r}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{4R}{r^2}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "# Step 1: Volume Conservation\n\nWhen n small drops (radius r) combine to form one big drop (radius R):\n\nVolume before = Volume after\n\n$$n \\times \\frac{4}{3} \\pi r^3 = \\frac{4}{3} \\pi R^3$$\n\nCancelling $\\frac{4}{3} \\pi$ from both sides:\n\n$$n r^3 = R^3$$\n\nSo,\n$$n = \\left(\\frac{R}{r}\\right)^3$$\n\n# Step 2: Surface Energy Calculation\n\nSurface energy = Surface Tension ($\\gamma$) $\\times$ Surface Area\n\nSurface area of a sphere = $4\\pi r^2$\n\nSo energy for one small drop:\n$$E_1 = \\gamma \\times 4\\pi r^2$$\n\nTotal surface energy for all n drops:\n$$E_t = n \\times E_1 = n \\times \\gamma \\times 4\\pi r^2$$\n\nEnergy of big drop:\n$$E_f = \\gamma \\times 4\\pi R^2$$\n\n# Step 3: Energy Loss\n\nEnergy loss = $E_t - E_f$\n\nGiven: Energy loss = $3E_f$\n\n$$E_t - E_f = 3E_f$$\n\n$$E_t = 4E_f$$\n\n# Step 4: Substitute Values\n\nFrom above:\n$$n \\times \\gamma \\times 4\\pi r^2 = 4 \\times (\\gamma \\times 4\\pi R^2)$$\n\nWe can cancel $\\gamma \\times 4\\pi$ from both sides:\n\n$$n r^2 = 4 R^2$$\n\n$$n = \\frac{4R^2}{r^2}$$\n\n**Answer:**\n\nOption B:\n$$n = \\frac{4R^2}{r^2}$$"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

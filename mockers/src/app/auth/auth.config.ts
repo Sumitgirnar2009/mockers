@@ -9,7 +9,7 @@ import { OpenIdConfiguration } from 'angular-auth-oidc-client';
 // 2 = https://www.crackcet.in/ (Production)
 // 3 = https://www.sumitgirnar.xyz/ (Alternative)
 // ==============================================
-const ENVIRONMENT = 2; // ← CHANGE THIS NUMBER WHEN DEPLOYING
+const ENVIRONMENT = 1; // ← CHANGE THIS NUMBER WHEN DEPLOYING
 // ==============================================
 
 // Just redirect URLs mapped to environments

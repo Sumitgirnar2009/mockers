@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "144"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The modulus of the square root of the conjugate of $-7 + 24\\sqrt{-1}$ is ______"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "3"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "4"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "16"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "5"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Conjugate of $-7 + 24i$ is $-7 - 24i$.\n\nLet $\\sqrt{-7 - 24i} = a + ib$.\n\nSquaring both sides: $-7 - 24i = a^2 - b^2 + 2abi$.\n\nThus $a^2 - b^2 = -7$ and $2ab = -24$ ⇒ $ab = -12$.\n\nSolving gives $a = \\pm 3$, $b = \\mp 4$.\n\nSo $\\sqrt{-7 - 24i} = \\pm (3 - 4i)$.\n\nModulus of $(3 - 4i)$ is $\\sqrt{3^2 + (-4)^2} = \\sqrt{25} = 5$.\n\nHence the correct option is D: 5."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "70"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "Which from following is correct regarding $t_{1/2}$ of reaction if we double the initial concentration of a reactant in first order reaction?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$t_{1/2}$ will increase by two times"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$t_{1/2}$ will decrease by four times"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$t_{1/2}$ remains the same"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$t_{1/2}$ will decrease by two times"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a first order reaction, the half-life ($t_{1/2}$) is given by:\n\n$$t_{1/2} = \\frac{0.693}{k}$$\n\nHere, $k$ is the rate constant.\n\nNotice that $t_{1/2}$ does not depend on the initial concentration of the reactant.\n\nSo, even if we double the initial concentration, $t_{1/2}$ remains the same.\n\nCorrect option: Option C\n\n$t_{1/2}$ remains the same"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

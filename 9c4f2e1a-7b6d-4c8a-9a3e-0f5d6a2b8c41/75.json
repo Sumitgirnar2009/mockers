@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "75"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Calculate the change in internal energy of the system if 20 kJ of work is done on the system and it releases 10 kJ of heat in a particular reaction."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "30 kJ"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "10 kJ"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$-15$ kJ"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$-20$ kJ"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "According to the **First Law of Thermodynamics**, the change in internal energy ($\\Delta U$) is given by:\n$$\\Delta U = q + w$$\n\nWhere:\n$q$ is the heat absorbed by the system.\n$w$ is the work done on the system.\n\nGiven:\nWork done on the system, $w = +20$ kJ\n\nSystem releases heat, so $q = -10$ kJ (since heat is released by the system)\n\nSubstitute the values:\n$$\\Delta U = (-10) + (20)$$\n$$\\Delta U = 10 \\, \\text{kJ}$$\n\nFinal Answer:\nOption B: 10 kJ"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

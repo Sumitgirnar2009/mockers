@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "47"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "The instantaneous value of current in an a.c. circuit is $I = 3 \\sin \\left( 50\\pi t + \\frac{\\pi}{4} \\right)$ A. The current will be maximum for the first time at"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{1}{50}$ s"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{1}{100}$ s"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{1}{200}$ s"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{1}{600}$ s"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The current reaches its maximum value when the sine term equals 1. That is:\n\n$$\\sin\\left(50\\pi t + \\frac{\\pi}{4}\\right) = 1$$\n\nThe smallest positive angle for which sine is 1 is $\\frac{\\pi}{2}$. Therefore:\n\n$$50\\pi t + \\frac{\\pi}{4} = \\frac{\\pi}{2}$$\n\nSubtract $\\frac{\\pi}{4}$ from both sides:\n\n$$50\\pi t = \\frac{\\pi}{2} - \\frac{\\pi}{4} = \\frac{\\pi}{4}$$\n\nDivide both sides by $50\\pi$:\n\n$$t = \\frac{\\pi/4}{50\\pi} = \\frac{1}{4 \\times 50} = \\frac{1}{200} \\text{ s}$$\n\nThus, the current is maximum for the first time at $t = \\frac{1}{200}$ s, which corresponds to option C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -3,6 +3,8 @@ import { QuestionData, QuestionModel } from '../../../models/question.model';
 import { NgClass, NgFor, NgIf } from '@angular/common';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 import { LatexPipe } from '../../../pipes/latex-pipe';
+import katex from 'katex';
+
 
 @Component({
   selector: 'app-analysis-questions',

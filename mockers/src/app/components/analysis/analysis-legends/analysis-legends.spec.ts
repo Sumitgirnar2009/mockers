@@ -21,3 +21,4 @@ describe('AnalysisLegends', () => {
     expect(component).toBeTruthy();
   });
 });
+

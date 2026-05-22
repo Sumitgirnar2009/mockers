@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "76"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "What are the products formed when $\\mathrm{Li_2CO_3}$ undergoes decomposition?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\mathrm{Li_2O} + \\mathrm{CO_2}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\mathrm{LiO} + \\mathrm{CO_2}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\mathrm{LiC} + \\mathrm{CO_2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\mathrm{Li_2O_2} + \\mathrm{CO}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "On strong heating, lithium carbonate decomposes to give lithium oxide and carbon dioxide. The reaction is: $$\\mathrm{Li_2CO_3 \\xrightarrow{\\Delta} Li_2O + CO_2}$$\n\nLithium is a Group 1 metal, but unlike other alkali metal carbonates (which are thermally stable), lithium carbonate decomposes due to the small size and high polarizing power of the Li⁺ ion. The other options are incorrect because LiO is not a stable oxide of lithium, LiC does not form under these conditions, and Li₂O₂ with CO is not observed.\n\nHence, the correct answer is Option A: $\\mathrm{Li_2O + CO_2}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

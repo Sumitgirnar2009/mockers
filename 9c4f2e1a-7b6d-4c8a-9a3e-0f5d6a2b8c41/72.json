@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "72"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which from following is a correct decreasing order of water solubilities of organic compounds?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Alcohols > Amines > Alkanes"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Alkanes > Alcohols > Amines"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Amines > Alcohols > Alkanes"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Alcohols > Alkanes > Amines"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Correct answer: Option A\nAlcohols > Amines > Alkanes\n\nStep-by-step explanation:\n\nAlcohols:\nAlcohols have -OH (hydroxyl) group, which can form strong hydrogen bonds with water. This makes them highly soluble in water.\n\nAmines:\nAmines have -NH₂ or -NH groups, which can also form hydrogen bonds but they are generally weaker than those formed by alcohols. So, amines are less soluble than alcohols but more soluble than alkanes.\n\nAlkanes:\nAlkanes are hydrocarbons with no polar functional groups. They are non-polar and cannot form hydrogen bonds with water. Therefore, they have very low solubility in water.\n\nDecreasing order of solubility:\nAlcohols > Amines > Alkanes\nSo, Option A is the correct choice."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

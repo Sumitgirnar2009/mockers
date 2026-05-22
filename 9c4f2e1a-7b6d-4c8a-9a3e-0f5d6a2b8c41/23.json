@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "23"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Two conducting circular loops of radii $R_1$ and $R_2$ are placed in the same plane with their centres coinciding. If $R_1 > R_2$, the mutual inductance $M$ between them will be directly proportional to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{R_1}{R_2}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{R_2}{R_1}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{R_1^2}{R_2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{R_2^2}{R_1}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given:\n\nTwo concentric coplanar circular loops of radii $R_1$ and $R_2$ with $R_1 > R_2$.\n\nStep 1: Magnetic field due to larger loop at its centre\n\nWhen current $I_1$ flows through the larger loop of radius $R_1$, the magnetic field at the centre is:\n\n$B = \\frac{\\mu_0 I_1}{2R_1}$\n\nStep 2: Flux through the smaller loop\n\nThe magnetic field is nearly uniform over the smaller loop (since $R_2 < R_1$).\n\nFlux through smaller loop:\n\n$\\Phi_{21} = B \\times \\text{Area of smaller loop} = \\left(\\frac{\\mu_0 I_1}{2R_1}\\right) \\times (\\pi R_2^2)$\n\n$\\Phi_{21} = \\frac{\\mu_0 \\pi R_2^2 I_1}{2R_1}$\n\nStep 3: Mutual inductance formula\n\nMutual inductance $M = \\frac{\\Phi_{21}}{I_1}$\n\n$M = \\frac{\\mu_0 \\pi R_2^2}{2R_1}$\n\nTherefore, $M \\propto \\frac{R_2^2}{R_1}$\n\nFinal answer:\n\nThe mutual inductance is directly proportional to $\\frac{R_2^2}{R_1}$\n\nTherefore, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

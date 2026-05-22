@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "142"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "$$\\int \\frac{\\sin 2x}{(a+b\\cos x)^2} dx =$$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{2}{a^2} \\left[ \\log(a+b\\cos x) - \\frac{a}{a+b\\cos x} \\right] + c$ where $c$ is the constant of integration."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{-1}{a^2} \\left[ \\log(a+b\\cos x) + \\frac{a}{a+b\\cos x} \\right] + c$ where $c$ is the constant of integration."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{-2}{b^2} \\left[ \\log(a+b\\cos x) + \\frac{a}{a+b\\cos x} \\right] + c$ where $c$ is the constant of integration."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{-2}{b^2} \\left[ \\log(a+b\\cos x) - \\frac{a}{a+b\\cos x} \\right] + c$ where $c$ is the constant of integration."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $I = \\int \\frac{\\sin 2x}{(a+b\\cos x)^2} dx = \\int \\frac{2\\sin x \\cos x}{(a+b\\cos x)^2} dx$.\n\nLet $t = a + b\\cos x \\Rightarrow \\cos x = \\frac{t-a}{b}$, and $-\\sin x dx = \\frac{dt}{b} \\Rightarrow \\sin x dx = -\\frac{dt}{b}$.\n\nAlso $\\cos x dx = ?$ Wait, we have $2\\sin x \\cos x dx = 2\\cos x (\\sin x dx) = 2\\left(\\frac{t-a}{b}\\right) \\left(-\\frac{dt}{b}\\right) = -\\frac{2(t-a)}{b^2} dt$.\n\nThus $I = \\int \\frac{-2(t-a)/b^2}{t^2} dt = -\\frac{2}{b^2} \\int \\frac{t-a}{t^2} dt = -\\frac{2}{b^2} \\left[ \\int \\frac{1}{t} dt - a \\int t^{-2} dt \\right]$.\n\n$= -\\frac{2}{b^2} \\left[ \\log t - a \\left( -\\frac{1}{t} \\right) \\right] + c = -\\frac{2}{b^2} \\left[ \\log t + \\frac{a}{t} \\right] + c$.\n\nSubstituting back $t = a + b\\cos x$, we get $I = -\\frac{2}{b^2} \\left[ \\log(a+b\\cos x) + \\frac{a}{a+b\\cos x} \\right] + c$.\n\nThus the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

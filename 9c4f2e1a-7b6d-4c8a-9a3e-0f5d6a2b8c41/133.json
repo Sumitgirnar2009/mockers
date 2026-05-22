@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "133"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "For $n \\in \\mathbb{N}$ if $y = ax^{n+1} + bx^{-n}$, then $x^2 \\frac{d^2y}{dx^2} =$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$n(n-1)y$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$(n-1)y$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$n(n+1)y$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$(n+1)y$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given $y = a x^{n+1} + b x^{-n}$.\n\nFirst derivative:\n$$\\frac{dy}{dx} = a(n+1)x^{n} + b(-n)x^{-n-1} = a(n+1)x^n - b n x^{-n-1}.$$\n\nSecond derivative:\n$$\\frac{d^2y}{dx^2} = a(n+1)n x^{n-1} - b n (-n-1) x^{-n-2} = a n(n+1) x^{n-1} + b n (n+1) x^{-n-2}.$$\n\nFactor $n(n+1)$:\n$$\\frac{d^2y}{dx^2} = n(n+1) \\left( a x^{n-1} + b x^{-n-2} \\right) = n(n+1) \\cdot \\frac{a x^{n+1} + b x^{-n}}{x^2} = \\frac{n(n+1)}{x^2} y.$$\n\nTherefore,\n$$x^2 \\frac{d^2y}{dx^2} = n(n+1) y.$$\n\nHence the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

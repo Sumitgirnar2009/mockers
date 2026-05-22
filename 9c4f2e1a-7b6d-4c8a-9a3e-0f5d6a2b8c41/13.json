@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "10"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Three samples $X, Y,$ and $Z$ of same gas have equal volumes and temperatures. The volume of each sample is doubled, the process being isothermal for $X$, adiabatic for $Y$ and isobaric for $Z$. If the final pressures are equal for the three samples, the ratio of the initial pressures is ($\\gamma = 3/2$)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$1 : \\sqrt{2} : 2\\sqrt{3}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$2 : 2\\sqrt{2} : 1$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$3 : 3\\sqrt{3} : 1$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$5 : 5\\sqrt{5} : 1$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given:\n\nSame gas, so $\\gamma = 3/2$\nInitial conditions: $V_1 = V$, $T_1 = T$ for all three samples\nFinal volume: $V_2 = 2V$ for all samples\nFinal pressures: $P_{2X} = P_{2Y} = P_{2Z} = P_f$ (equal)\n\nStep 1: For sample X (Isothermal process)\n\n$P_1 V_1 = P_2 V_2$\n\n$P_X \\times V = P_f \\times 2V$\n\n$P_X = 2P_f$\n\nStep 2: For sample Y (Adiabatic process)\n\n$P_1 V_1^\\gamma = P_2 V_2^\\gamma$\n\n$P_Y \\times V^{\\gamma} = P_f \\times (2V)^{\\gamma}$\n\n$P_Y = P_f \\times 2^{\\gamma} = P_f \\times 2^{3/2} = P_f \\times 2\\sqrt{2}$\n\nStep 3: For sample Z (Isobaric process)\n\nPressure remains constant, so $P_Z = P_f$\n\nStep 4: Ratio of initial pressures $P_X : P_Y : P_Z$\n\n$P_X : P_Y : P_Z = 2P_f : 2\\sqrt{2}P_f : P_f$\n\nDivide by $P_f$:\n\n$= 2 : 2\\sqrt{2} : 1$\n\nFinal answer:\n\nThe ratio of initial pressures is $2 : 2\\sqrt{2} : 1$\n\nTherefore, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

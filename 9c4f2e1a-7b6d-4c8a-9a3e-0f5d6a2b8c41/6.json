@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "6"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Two long parallel wires carrying currents 4 A and 3 A in opposite directions are placed at a distance of 5 cm from each other. A point P is at equidistance from both the wires such that the line joining the point P to the wires are perpendicular to each other. The magnitude of magnetic field at point P is ($\\mu_0 =$ permeability of free space $= 4\\pi \\times 10^{-7}$ SI unit)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$4 \\times 10^{-5}$ T"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\sqrt{2} \\times 10^{-5}$ T"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$2 \\times 10^{-5}$ T"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$2\\sqrt{2} \\times 10^{-5}$ T"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given:\n\nCurrent in first wire: $I_1 = 4$ A\nCurrent in second wire: $I_2 = 3$ A (opposite direction)\nDistance between wires: $d = 5$ cm = $5 \\times 10^{-2}$ m\nPoint P is equidistant from both wires, and lines from P to each wire are perpendicular.\n\nStep 1: Find distance from P to each wire\n\nSince the lines are perpendicular and P is equidistant, the two distances form a right triangle with hypotenuse equal to the wire separation.\n\nUsing Pythagoras: $X^2 + X^2 = d^2$\n\n$2X^2 = (5 \\times 10^{-2})^2$\n\n$X = \\frac{5}{\\sqrt{2}} \\times 10^{-2}$ m\n\nStep 2: Magnetic field due to each wire\n\n$B_1 = \\frac{\\mu_0 I_1}{2\\pi X}$\n\n$B_2 = \\frac{\\mu_0 I_2}{2\\pi X}$\n\nStep 3: Direction of fields\n\nSince currents are opposite, the magnetic fields at P are perpendicular to each other (based on geometry).\n\nStep 4: Net magnetic field magnitude\n\n$B_{net} = \\sqrt{B_1^2 + B_2^2} = \\frac{\\mu_0}{2\\pi X} \\sqrt{I_1^2 + I_2^2}$\n\n$B_{net} = \\frac{4\\pi \\times 10^{-7}}{2\\pi \\times \\frac{5}{\\sqrt{2}} \\times 10^{-2}} \\times \\sqrt{16 + 9}$\n\n$B_{net} = \\frac{2 \\times 10^{-7} \\times \\sqrt{2}}{5 \\times 10^{-2}} \\times 5$\n\n$B_{net} = 2\\sqrt{2} \\times 10^{-5}$ T\n\nFinal answer:\n\nThe magnitude of magnetic field at point P is $2\\sqrt{2} \\times 10^{-5}$ T\n\nTherefore, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

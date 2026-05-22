@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "98"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In a chemical reaction, sum of formula weight of all reactants is 274 u and atom economy is 50%, calculate formula weight of desired product?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "137 u"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "274 u"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "167 u"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "254 u"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Atom economy = (Formula weight of desired product / Sum of formula weights of all reactants) × 100\n\nGiven: Sum of reactant weights = 274 u, Atom economy = 50%\n\nLet desired product weight = x.\n\nThen (x / 274) × 100 = 50\n⇒ x / 274 = 0.5\n⇒ x = 0.5 × 274 = 137 u\n\nThus, the correct answer is Option A: 137 u."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "138"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The derivative of $\\tan^{-1} \\left( \\sqrt{1 + x^2} - 1 \\right)$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{x}{\\sqrt{1 + x^2} \\left( x^2 - 2\\sqrt{x + 1} + 1 \\right)}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{x}{\\sqrt{1 + x^2} \\left( x^2 - 2\\sqrt{1 + x^2} + 3 \\right)}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{x}{\\sqrt{1 + x^2} \\left( x^2 - 2\\sqrt{x^2 + 1} + 2 \\right)}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{x}{\\sqrt{1 + x^2} \\left( x^2 + 2\\sqrt{1 + x^2} - 3 \\right)}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $y = \\tan^{-1} \\left( \\sqrt{1 + x^2} - 1 \\right)$. Differentiating:\n$$\\frac{dy}{dx} = \\frac{1}{1 + (\\sqrt{1 + x^2} - 1)^2} \\cdot \\frac{d}{dx} \\left( \\sqrt{1 + x^2} - 1 \\right)$$\n$$= \\frac{1}{1 + (1 + x^2 + 1 - 2\\sqrt{1 + x^2})} \\cdot \\frac{1}{2\\sqrt{1 + x^2}} \\cdot 2x$$\n$$= \\frac{1}{x^2 + 2 - 2\\sqrt{1 + x^2}} \\cdot \\frac{x}{\\sqrt{1 + x^2}}$$\n$$= \\frac{x}{\\sqrt{1 + x^2} \\left( x^2 - 2\\sqrt{1 + x^2} + 3 \\right)}$$\nThus the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

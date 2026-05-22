@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "60"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "Calculate the volume of unit cell having atomic radius 141.4 pm forming fcc unit cell."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$9.3 \\times 10^{-23} \\, \\text{cm}^3$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$8.1 \\times 10^{-23} \\, \\text{cm}^3$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$6.4 \\times 10^{-23} \\, \\text{cm}^3$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$4.7 \\times 10^{-23} \\, \\text{cm}^3$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a face-centered cubic (fcc) unit cell, the relation between the edge length (a) and atomic radius (r) is:\n\n$$a = 2\\sqrt{2}r$$\n\nGiven, r = 141.4 pm.\n\nLet's calculate step by step:\n\nFind the edge length a:\n$$a = 2\\sqrt{2} \\times 141.4 \\, \\text{pm}$$\n$$\\sqrt{2} \\approx 1.414$$\n$$a = 2 \\times 1.414 \\times 141.4$$\n$$a = 2 \\times 200.04 = 400.08 \\, \\text{pm}$$\n\nSo, a = 400.08 pm.\n\nConvert a to cm:\n$$1 \\, \\text{pm} = 10^{-12} \\, \\text{m} = 10^{-10} \\, \\text{cm}$$\n$$a = 400.08 \\times 10^{-10} \\, \\text{cm}$$\n\nFind the volume of the unit cell:\nVolume = a^3\n$$\\text{Volume} = (400.08 \\times 10^{-10} \\, \\text{cm})^3$$\n$$= (400.08)^3 \\times (10^{-10})^3 \\, \\text{cm}^3$$\n$$= 64,\\!064,\\!000 \\times 10^{-30} \\, \\text{cm}^3$$\n$$= 6.4064 \\times 10^7 \\times 10^{-30} \\, \\text{cm}^3$$\n$$= 6.4064 \\times 10^{-23} \\, \\text{cm}^3$$\n\nRounding to two significant digits:\n$$6.4 \\times 10^{-23} \\, \\text{cm}^3$$\n\nCorrect answer: Option C"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

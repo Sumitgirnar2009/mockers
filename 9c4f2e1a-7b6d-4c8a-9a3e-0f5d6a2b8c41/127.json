@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "127"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The volume of the tetrahedron whose co-terminus edges are $\\vec{a}, \\vec{b}, \\vec{c}$ is 12 cubic units. If the scalar projection of $\\vec{a}$ on $\\vec{b} \\times \\vec{c}$ is 4, then $|\\vec{b} \\times \\vec{c}| =$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "18"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{1}{18}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "16"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{1}{16}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Volume of tetrahedron = $\\frac{1}{6}[\\vec{a}\\ \\vec{b}\\ \\vec{c}] = 12$.\nThus $[\\vec{a}\\ \\vec{b}\\ \\vec{c}] = 72$.\nBut $[\\vec{a}\\ \\vec{b}\\ \\vec{c}] = \\vec{a} \\cdot (\\vec{b} \\times \\vec{c}) = 72$.\n\nScalar projection of $\\vec{a}$ on $\\vec{b} \\times \\vec{c}$ is $\\frac{\\vec{a} \\cdot (\\vec{b} \\times \\vec{c})}{|\\vec{b} \\times \\vec{c}|} = 4$.\nSubstituting: $\\frac{72}{|\\vec{b} \\times \\vec{c}|} = 4 \\Rightarrow |\\vec{b} \\times \\vec{c}| = \\frac{72}{4} = 18$.\n\nHence the correct option is A: 18."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

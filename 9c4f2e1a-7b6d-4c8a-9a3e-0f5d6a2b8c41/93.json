@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "93"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "How long should aqueous NaCl be electrolysed by passing 100 ampere current, so that 0.5 mol chlorine is released at anode?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "96500 seconds"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "9650 seconds"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "965 seconds"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "96.5 seconds"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The reaction at the anode is: $2\\mathrm{Cl^-} \\rightarrow \\mathrm{Cl_2} + 2e^-$.\n\nFor 1 mole of Cl₂, 2 moles of electrons are required.\n\nGiven: current I = 100 A, moles of Cl₂ = 0.5 mol.\n\nCharge required = moles of electrons × Faraday constant = (0.5 × 2) mol e⁻ × 96500 C/mol = 1 × 96500 C.\n\nUsing Q = I × t, we get:\n$$t = \\frac{Q}{I} = \\frac{96500}{100} = 965 \\text{ seconds}.$$\n\nThus, the correct answer is Option C: 965 seconds."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

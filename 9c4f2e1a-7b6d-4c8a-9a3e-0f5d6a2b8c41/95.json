@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "95"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify the correct order of thermal stability of hydrides of 16 group elements from the following."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$H_2S < H_2O < H_2Se < H_2Te$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$H_2O < H_2S < H_2Se < H_2Te$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$H_2Te < H_2Se < H_2S < H_2O$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$H_2Se < H_2Te < H_2O < H_2S$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Thermal stability of group 16 hydrides (H₂O, H₂S, H₂Se, H₂Te) depends on the E–H bond strength.\n\nAs we move down the group:\n- Atomic size increases\n- Bond strength decreases\n- Hydrides become less stable\n\nTherefore, the correct decreasing order of thermal stability is:\n$$H_2O > H_2S > H_2Se > H_2Te$$\n\nThis matches the order given in option C:\n$$H_2Te < H_2Se < H_2S < H_2O$$\n\nHence, option C is correct."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

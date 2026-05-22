@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "111"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "$$\\int \\frac{dx}{2e^{2x} + 3e^x + 1} =$$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$x + \\log(e^x + 1) - 2 \\log(2e^x + 1) + c$, where $c$ is the constant of integration"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$x - \\log(e^x + 1) + 4 \\log(e^x + 1) + c$, where $c$ is the constant of integration"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$x + \\log(e^x + 1) - 4 \\log(2e^x + 1) + c$, where $c$ is the constant of integration"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$x - \\log(e^x + 1) + 2 \\log(2e^x + 1) + c$, where $c$ is the constant of integration"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $I = \\int \\frac{dx}{2e^{2x} + 3e^x + 1}$\n\nLet $e^x = t \\Rightarrow e^x dx = dt \\Rightarrow dx = \\frac{dt}{t}$\n\n$$I = \\int \\frac{dt}{t(2t^2 + 3t + 1)} = \\int \\frac{dt}{t(2t+1)(t+1)}$$\n\nLet\n$$\\frac{1}{t(2t+1)(t+1)} = \\frac{A}{t} + \\frac{B}{2t+1} + \\frac{C}{t+1}$$\n$$\\Rightarrow 1 = A(2t+1)(t+1) + Bt(t+1) + Ct(2t+1) \\quad \\text{(i)}$$\n\nPut $t = -1$ in (i): $C = 1$\nPut $t = -\\frac{1}{2}$ in (i): $B = -4$\nPut $t = 0$ in (i): $A = 1$\n\n$$\\therefore I = \\int \\frac{1}{t} dt - 4 \\int \\frac{1}{2t+1} dt + \\int \\frac{1}{t+1} dt$$\n$$= \\log t - \\frac{1}{2} \\times 4 \\log|2t+1| + \\log|t+1| + c$$\n$$= \\log e^x + \\log(e^x+1) - 2\\log(2e^x+1) + c$$\n$$= x + \\log(e^x+1) - 2\\log(2e^x+1) + c$$\n\nThus the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

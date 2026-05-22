@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "134"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "$$f(x) = (\\cos x + i \\sin x) \\cdot (\\cos 3x + i \\sin 3x) \\cdots [\\cos(2n-1)x + i \\sin(2n-1)x]$$ Then $f''(x) =$ (where $i = \\sqrt{-1}$)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$n^2 f(x)$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$-n^4 f(x)$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$-n^2 f(x)$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$n^4 f(x)$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Using Euler's formula, $\\cos kx + i \\sin kx = e^{ikx}$. Thus:\n$$f(x) = e^{ix} \\cdot e^{i3x} \\cdots e^{i(2n-1)x} = e^{i[x + 3x + 5x + \\cdots + (2n-1)x]}.$$\n\nThe sum of the first $n$ odd numbers is $n^2$, so the exponent becomes $i n^2 x$. Hence:\n$$f(x) = e^{i n^2 x}.$$\n\nFirst derivative: $f'(x) = i n^2 e^{i n^2 x} = i n^2 f(x)$.\n\nSecond derivative: $f''(x) = (i n^2)^2 e^{i n^2 x} = i^2 n^4 f(x) = -n^4 f(x)$.\n\nTherefore $f''(x) = -n^4 f(x)$, which matches option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

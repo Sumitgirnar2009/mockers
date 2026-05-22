@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "44"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "An electric dipole of dipole moment '$p$' is aligned parallel to a uniform electric field '$E$'. The energy required to rotate the dipole by $90^\\circ$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$pE$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$pE^2$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$p^2E$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "infinity"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The potential energy of a dipole in a uniform electric field is given by $U = -pE \\cos \\theta$, where $\\theta$ is the angle between the dipole moment and the field.\n\nInitially, the dipole is parallel to the field, so $\\theta_1 = 0^\\circ$:\n$$U_1 = -pE \\cos 0^\\circ = -pE \\times 1 = -pE$$\n\nAfter rotating by $90^\\circ$, $\\theta_2 = 90^\\circ$:\n$$U_2 = -pE \\cos 90^\\circ = -pE \\times 0 = 0$$\n\nThe energy required for rotation is the change in potential energy:\n$$\\Delta U = U_2 - U_1 = 0 - (-pE) = pE$$\n\nThus, the required energy is $pE$, which corresponds to option A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

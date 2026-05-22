@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "88"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Match column I (process) with column II (application).\n\n$$\\begin{array}{|l|l|}\\hline\n\\textbf{Column I} & \\textbf{Column II} \\\\ \\hline\ni.\\ Dialysis & a.\\ Cleansing\\ action\\ of\\ soap \\\\\nii.\\ Peptization & b.\\ Coagulation \\\\\niii.\\ Emulsification & c.\\ Colloidal\\ solution\\ preparation \\\\\niv.\\ Electrophoresis & d.\\ Purification\\ of\\ colloidal\\ solution \\\\ \\hline\n\\end{array}$$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "i - d, ii - a, iii - c, iv - b"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "i - d, ii - c, iii - a, iv - b"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "i - c, ii - b, iii - d, iv - a"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "i - b, ii - c, iii - a, iv - d"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Dialysis → purification of colloidal solution (d). Peptization → preparation of colloidal solution (c). Emulsification → cleansing action of soap (a). Electrophoresis → used in coagulation (b). Thus the correct matching is i-d, ii-c, iii-a, iv-b, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

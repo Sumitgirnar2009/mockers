@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "10"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "When three inductors of same inductance $L$ are connected in series and $I$ is the current passing through the circuit. The energy stored in the circuit is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{1}{2} LI^2$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{3}{2} LI^2$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{5}{2} LI^2$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{7}{2} LI^2$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given:\n\nNumber of inductors: $n = 3$\nInductance of each inductor: $L$\nCurrent through circuit: $I$\n\nStep 1: Equivalent inductance for series combination\n\nWhen inductors are connected in series, the equivalent inductance is the sum of individual inductances:\n\n$L_{eq} = L_1 + L_2 + L_3$\n\nSince all inductors have same inductance $L$:\n\n$L_{eq} = L + L + L = 3L$\n\nStep 2: Energy stored in an inductor\n\nThe energy stored in an inductor is given by:\n\n$U = \\frac{1}{2} L_{eq} I^2$\n\nStep 3: Substitute the equivalent inductance\n\n$U = \\frac{1}{2} \\times (3L) \\times I^2$\n\n$U = \\frac{3}{2} LI^2$\n\nFinal answer:\n\nThe energy stored in the circuit is $\\frac{3}{2} LI^2$\n\nTherefore, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

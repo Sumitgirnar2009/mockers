@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "109"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The statement pattern $[ (p \\to q) \\land \\sim q ] \\to r$ is a tautology when $r$ is equivalent to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$p \\land \\sim q$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$q \\lor p$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$p \\land q$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\sim q$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The truth table for the given pattern is:\n\n$$\\begin{array}{|c|c|c|c|c|c|}\n\\hline\np & q & r & p \\to q & \\sim q & (p \\to q) \\land \\sim q \\\\\n\\hline\nT & T & T & T & F & F \\\\\nT & T & F & T & F & F \\\\\nT & F & T & F & T & F \\\\\nT & F & F & F & T & F \\\\\nF & T & T & T & F & F \\\\\nF & T & F & T & F & F \\\\\nF & F & T & T & T & T \\\\\nF & F & F & T & T & T \\\\\n\\hline\n\\end{array}$$\n\nFor $[ (p \\to q) \\land \\sim q ] \\to r$ to be a tautology, whenever the antecedent $(p \\to q) \\land \\sim q$ is true, $r$ must be true. From the table, the antecedent is true only when $p = F$ and $q = F$. In that case, $r$ must be true. Among the options, $\\sim q$ is true exactly when $q = F$. Hence $r \\equiv \\sim q$.\n\nThus the correct answer is Option D: $\\sim q$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

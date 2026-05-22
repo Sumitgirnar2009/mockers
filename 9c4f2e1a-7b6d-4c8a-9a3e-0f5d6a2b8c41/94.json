@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "94"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Calculate the number of atoms present in 1.58 g metal if it forms bcc structure. Given $\\rho \\times a^3 = 1.58 \\times 10^{-22}$ g."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$1.0 \\times 10^{22}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$2.0 \\times 10^{22}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$3.0 \\times 10^{22}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$4.0 \\times 10^{22}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a bcc structure, each unit cell contains 2 atoms.\n\nGiven: Mass of one unit cell = ρ × a³ = 1.58 × 10⁻²² g.\n\nTotal mass of the metal sample = 1.58 g.\n\nNumber of unit cells in the sample = Total mass / Mass per unit cell = 1.58 / (1.58 × 10⁻²²) = 10²².\n\nTotal number of atoms = (Number of unit cells) × (Atoms per unit cell) = 10²² × 2 = 2.0 × 10²².\n\nThus, the correct answer is Option B: 2.0 × 10²²."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

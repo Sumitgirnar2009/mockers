@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "90"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Four vessels of same volume consist equal masses of four gases $H_2$, $Cl_2$, $N_2$, and $O_2$ separately at same temperature. The pressure exerted by the gas is maximum for"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$H_2$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$Cl_2$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$N_2$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$O_2$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Using the ideal gas equation:\n\n$$PV = nRT$$\n\nAt constant volume (V) and temperature (T), pressure (P) is directly proportional to the number of moles (n):\n\n$$P \\propto n$$\n\nGiven equal masses (m) of each gas, the number of moles is:\n\n$$n = \\frac{m}{M}$$\n\nwhere M is the molar mass.\n\nThus, pressure is inversely proportional to molar mass:\n\n$$P \\propto \\frac{1}{M}$$\n\nMolar masses of the given gases:\n\n- H₂ : 2 g/mol\n- Cl₂ : 71 g/mol\n- N₂ : 28 g/mol\n- O₂ : 32 g/mol\n\nThe smallest molar mass is of H₂, hence it will exert the maximum pressure.\n\nTherefore, the correct answer is Option A: H₂."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

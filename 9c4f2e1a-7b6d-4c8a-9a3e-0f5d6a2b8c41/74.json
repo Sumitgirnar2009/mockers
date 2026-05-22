@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "74"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "What is the volume occupied by 0.5 mol of $CO_2$ at STP?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$5.6 \\, \\text{dm}^3$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$11.2 \\, \\text{dm}^3$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$16.8 \\, \\text{dm}^3$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$22.4 \\, \\text{dm}^3$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "At Standard Temperature and Pressure (STP), 1 mole of any ideal gas occupies 22.4 dm³.\n\nGiven:\nNumber of moles, n = 0.5 mol\n\nTo find:\nVolume occupied by 0.5 mol of CO₂ at STP.\n\nStep 1:\nVolume occupied by 1 mol at STP = 22.4 dm³\n\nStep 2:\nVolume occupied by 0.5 mol:\n$$V_{\\text{CO}_2} = 0.5 \\times 22.4 \\, \\text{dm}^3 = 11.2 \\, \\text{dm}^3$$\n\nSo, the correct answer is Option B: 11.2 dm³."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

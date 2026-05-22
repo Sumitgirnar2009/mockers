@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "124"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "$$\\int_{1}^{e} \\frac{e^x}{x} (1 + x \\log x) \\, dx =$$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$e^e$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$e^e - e$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$e^e + e$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$e$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "We have $$\\int_{1}^{e} \\frac{e^x}{x} (1 + x \\log x) \\, dx = \\int_{1}^{e} e^x \\left( \\frac{1}{x} + \\log x \\right) dx.$$\n\nNotice that $\\frac{d}{dx} (e^x \\log x) = e^x \\log x + e^x \\cdot \\frac{1}{x} = e^x \\left( \\frac{1}{x} + \\log x \\right)$.\n\nThus the integral becomes:\n$$\\left[ e^x \\log x \\right]_{1}^{e} = e^e \\log e - e^1 \\log 1 = e^e \\cdot 1 - e \\cdot 0 = e^e.$$\n\nHence the correct option is A: $e^e$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

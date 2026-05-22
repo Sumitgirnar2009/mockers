@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
+  },
+  "questionId": {
+    "S": "64"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": 1
+  },
+  "NegativeMarks": {
+    "N": 0
+  },
+  "QuestionStmt": {
+    "S": "Which from following polymers needs peroxide as initiator for preparation?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Nylon 6,6"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Polyacrylonitrile"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Terylene"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Bakelite"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Peroxide initiators are used in free radical polymerization. Among the given polymers:\n\n- Nylon 6,6 is prepared by condensation polymerization (step-growth) between hexamethylenediamine and adipic acid. No peroxide initiator is required.\n- Polyacrylonitrile is prepared by free radical polymerization of acrylonitrile monomer using peroxide (e.g., benzoyl peroxide) or other free radical initiators.\n- Terylene (polyethylene terephthalate) is prepared by condensation polymerization between ethylene glycol and terephthalic acid. No peroxide initiator is needed.\n- Bakelite is prepared by condensation polymerization of phenol and formaldehyde. No peroxide initiator is used.\n\nThus, the polymer that requires peroxide as an initiator is Polyacrylonitrile, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41/q64-sol.jpg"
+  }
+}
