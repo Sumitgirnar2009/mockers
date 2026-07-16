@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "99"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Calculate the osmotic pressure of 0.03 mole of non electrolyte solute dissolved in 0.1 dm³ of water at 300 K. $R = 0.082 \\, \\text{dm}^3 \\, \\text{atm} \\, \\text{mol}^{-1} \\, \\text{K}^{-1}$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "7.4 atm"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "6.4 atm"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "8.0 atm"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "5.6 atm"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $n = 0.03$ mol, $V = 0.1$ dm³, $T = 300$ K, $R = 0.082$ dm³ atm mol⁻¹ K⁻¹.\n\nMolarity:\n\n$$C = \\frac{n}{V} = \\frac{0.03}{0.1} = 0.3 \\text{ mol dm}^{-3}$$\n\nOsmotic pressure:\n\n$$\\pi = C R T = 0.3 \\times 0.082 \\times 300$$\n\n$$= 0.3 \\times 24.6 = 7.38 \\approx 7.4 \\text{ atm}$$\n\nThus the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

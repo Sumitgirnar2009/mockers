@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "102"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The number of integral values of $k$ for which $x^2 + y^2 + kx + (1 - k)y + 5 = 0$ represents a circle whose radius cannot exceeds 5, are"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "16"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "15"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "14"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "12"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Comparing $x^2 + y^2 + kx + (1-k)y + 5 = 0$ with $x^2 + y^2 + 2gx + 2fy + c = 0$, we get:\n\n$$g = \\frac{k}{2}, \\quad f = \\frac{1-k}{2}, \\quad c = 5$$\n\nRadius $r = \\sqrt{g^2 + f^2 - c} = \\sqrt{\\frac{k^2}{4} + \\frac{(1-k)^2}{4} - 5}$.\n\nGiven $r \\leq 5$:\n\n$$\\sqrt{\\frac{k^2 + (1-k)^2}{4} - 5} \\leq 5$$\n\nSquaring:\n\n$$\\frac{k^2 + (1 - 2k + k^2)}{4} - 5 \\leq 25$$\n\n$$\\frac{2k^2 - 2k + 1}{4} - 5 \\leq 25$$\n\n$$\\frac{2k^2 - 2k + 1}{4} \\leq 30$$\n\n$$2k^2 - 2k + 1 \\leq 120$$\n\n$$2k^2 - 2k - 119 \\leq 0$$\n\nSolving $2k^2 - 2k - 119 = 0$:\n\n$$k = \\frac{2 \\pm \\sqrt{4 + 952}}{4} = \\frac{2 \\pm \\sqrt{956}}{4} = \\frac{2 \\pm 2\\sqrt{239}}{4} = \\frac{1 \\pm \\sqrt{239}}{2}$$\n\n$\\sqrt{239} \\approx 15.46$, so $k \\in [-7.23, 8.23]$.\n\nIntegral values: $-7, -6, \\ldots, 8$ → total $16$ values.\n\nThus the correct option is A: 16."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

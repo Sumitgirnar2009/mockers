@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "4"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The density of a cube is measured by measuring its mass and length of its sides. The % error in the measurement of mass and length are 5% and 6% respectively. The percentage error in the measurement of density is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "21%"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "23%"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "25%"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "27%"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Density $\\rho = \\frac{m}{a^3}$.\n\nPercentage error in density is given by:\n\n$$\\frac{\\Delta \\rho}{\\rho} \\times 100 = \\frac{\\Delta m}{m} \\times 100 + 3 \\times \\frac{\\Delta a}{a} \\times 100$$\n\nGiven: $\\frac{\\Delta m}{m} \\times 100 = 5\\%$, $\\frac{\\Delta a}{a} \\times 100 = 6\\%$.\n\nThus total percentage error = $5\\% + 3 \\times 6\\% = 5\\% + 18\\% = 23\\%$.\n\nHence the correct option is B: 23%."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

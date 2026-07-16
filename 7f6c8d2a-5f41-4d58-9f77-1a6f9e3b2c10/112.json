@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "112"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The value of $\\sqrt{3} \\cot 20^\\circ - 4 \\cos 20^\\circ$ is equal to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "-1"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "0"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{1}{2}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "We have:\n\n$$\\sqrt{3} \\cot 20^\\circ - 4 \\cos 20^\\circ = \\sqrt{3} \\frac{\\cos 20^\\circ}{\\sin 20^\\circ} - 4 \\cos 20^\\circ$$\n\n$$= \\frac{\\sqrt{3} \\cos 20^\\circ - 4 \\sin 20^\\circ \\cos 20^\\circ}{\\sin 20^\\circ}$$\n\n$$= \\frac{\\sqrt{3} \\cos 20^\\circ - 2 \\cdot 2 \\sin 20^\\circ \\cos 20^\\circ}{\\sin 20^\\circ} = \\frac{\\sqrt{3} \\cos 20^\\circ - 2 \\sin 40^\\circ}{\\sin 20^\\circ}$$\n\nUsing $\\sqrt{3} = 2 \\sin 60^\\circ$:\n\n$$= \\frac{2 \\sin 60^\\circ \\cos 20^\\circ - 2 \\sin 40^\\circ}{\\sin 20^\\circ} = 2 \\cdot \\frac{\\sin 60^\\circ \\cos 20^\\circ - \\sin 40^\\circ}{\\sin 20^\\circ}$$\n\nUsing $2 \\sin A \\cos B = \\sin(A+B) + \\sin(A-B)$:\n\n$$2 \\sin 60^\\circ \\cos 20^\\circ = \\sin 80^\\circ + \\sin 40^\\circ$$\n\nThus numerator becomes $\\sin 80^\\circ + \\sin 40^\\circ - 2 \\sin 40^\\circ = \\sin 80^\\circ - \\sin 40^\\circ$.\n\nNow $\\sin 80^\\circ - \\sin 40^\\circ = 2 \\cos 60^\\circ \\sin 20^\\circ = 2 \\cdot \\frac{1}{2} \\cdot \\sin 20^\\circ = \\sin 20^\\circ$.\n\nTherefore the expression becomes:\n\n$$\\frac{\\sin 20^\\circ}{\\sin 20^\\circ} = 1$$\n\nThus the correct option is A: 1."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

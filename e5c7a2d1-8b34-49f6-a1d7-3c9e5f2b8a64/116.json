@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "116"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The value of $$\\int_{0}^{2} [x^2] \\, dx$$ is (where $[x]$ denotes the greatest integer function not greater than $x$)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$5 - \\sqrt{2} - \\sqrt{3}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$5 + \\sqrt{2} - \\sqrt{3}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$5 + \\sqrt{2} + \\sqrt{3}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$5 - \\sqrt{2} + \\sqrt{3}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "$$\\int_{0}^{2} [x^2] \\, dx = \\int_{0}^{1} 0 \\, dx + \\int_{1}^{\\sqrt{2}} 1 \\, dx + \\int_{\\sqrt{2}}^{\\sqrt{3}} 2 \\, dx + \\int_{\\sqrt{3}}^{2} 3 \\, dx$$\n\n$$= 0 + 1(\\sqrt{2} - 1) + 2(\\sqrt{3} - \\sqrt{2}) + 3(2 - \\sqrt{3})$$\n\n$$= \\sqrt{2} - 1 + 2\\sqrt{3} - 2\\sqrt{2} + 6 - 3\\sqrt{3}$$\n\n$$= 5 - \\sqrt{2} - \\sqrt{3}$$\n\nFinal Answer: $$\\boxed{5 - \\sqrt{2} - \\sqrt{3}}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

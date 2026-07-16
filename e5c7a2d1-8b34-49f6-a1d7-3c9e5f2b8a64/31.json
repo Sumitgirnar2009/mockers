@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "31"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "An incompressible fluid flows steadily through a cylindrical pipe having radius $R$ at point A and $\\frac{R}{3}$ at point B further along the direction of flow of liquid. If the velocity at point A is $V$ then that at point B is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{V}{9}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{V}{3}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$3V$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$9V$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Continuity equation: $A_1 v_1 = A_2 v_2$.\n\n$A_1 = \\pi R^2$, $A_2 = \\pi (R/3)^2 = \\pi R^2/9$.\n\n$$\\pi R^2 V = \\pi \\frac{R^2}{9} v_2 \\Rightarrow v_2 = 9V$$\n\nThus the correct option is D: $9V$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

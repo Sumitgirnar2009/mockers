@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "128"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In a triangle $ABC$, with usual notations if $a = 4$, $b = 8$, $\\angle C = 60^\\circ$, then the value of $\\angle B$ and the ratio $\\cos A : \\cos C$ respectively are"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{\\pi}{4}, 1 : \\sqrt{3}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{\\pi}{2}, \\sqrt{3} : 1$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{\\pi}{2}, 2 : \\sqrt{3}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{\\pi}{6}, \\sqrt{3} : 2$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Using the cosine rule:\n\n$$c^2 = a^2 + b^2 - 2ab \\cos C$$\n\n$$= 4^2 + 8^2 - 2 \\times 4 \\times 8 \\times \\cos 60^\\circ$$\n\n$$= 16 + 64 - 64 \\times \\frac{1}{2} = 80 - 32 = 48$$\n\n$$c = 4\\sqrt{3}$$\n\nNow, $\\cos B = \\frac{a^2 + c^2 - b^2}{2ac}$:\n\n$$= \\frac{16 + 48 - 64}{2 \\times 4 \\times 4\\sqrt{3}} = \\frac{0}{32\\sqrt{3}} = 0$$\n\nThus $\\angle B = \\frac{\\pi}{2}$.\n\nNext, $\\cos A = \\frac{b^2 + c^2 - a^2}{2bc}$:\n\n$$= \\frac{64 + 48 - 16}{2 \\times 8 \\times 4\\sqrt{3}} = \\frac{96}{64\\sqrt{3}} = \\frac{3}{2\\sqrt{3}} = \\frac{\\sqrt{3}}{2}$$\n\nAnd $\\cos C = \\cos 60^\\circ = \\frac{1}{2}$.\n\n$$\\cos A : \\cos C = \\frac{\\sqrt{3}}{2} : \\frac{1}{2} = \\sqrt{3} : 1$$\n\nFinal Answer: $$\\boxed{\\frac{\\pi}{2}, \\sqrt{3} : 1}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

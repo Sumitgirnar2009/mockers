@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "33"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A body is projected vertically from earth's surface with $\\left(\\frac{1}{3}\\right)^{\\text{rd}}$ of escape velocity. The maximum height reached by the body is ($R$ = radius of earth)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{R}{4}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{R}{8}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{R}{9}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{R}{6}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Escape velocity from earth's surface is $v_e = \\sqrt{\\frac{2GM}{R}}$.\n\nGiven initial velocity: $v = \\frac{1}{3} v_e = \\frac{1}{3} \\sqrt{\\frac{2GM}{R}}$.\n\nUsing conservation of mechanical energy:\n\nInitial kinetic energy + Initial potential energy = Final potential energy (at maximum height $h$, kinetic energy = 0).\n\n$$\\frac{1}{2} m v^2 - \\frac{GMm}{R} = -\\frac{GMm}{R+h}$$\n\nSubstitute $v^2 = \\frac{1}{9} \\times \\frac{2GM}{R} = \\frac{2GM}{9R}$:\n\n$$\\frac{1}{2} m \\left(\\frac{2GM}{9R}\\right) - \\frac{GMm}{R} = -\\frac{GMm}{R+h}$$\n\n$$\\frac{GMm}{9R} - \\frac{GMm}{R} = -\\frac{GMm}{R+h}$$\n\n$$\\frac{GMm}{9R} - \\frac{9GMm}{9R} = -\\frac{GMm}{R+h}$$\n\n$$-\\frac{8GMm}{9R} = -\\frac{GMm}{R+h}$$\n\nCancel $-GMm$:\n\n$$\\frac{8}{9R} = \\frac{1}{R+h}$$\n\n$$R+h = \\frac{9R}{8}$$\n\n$$h = \\frac{9R}{8} - R = \\frac{R}{8}$$\n\nThus the maximum height reached is $\\frac{R}{8}$, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

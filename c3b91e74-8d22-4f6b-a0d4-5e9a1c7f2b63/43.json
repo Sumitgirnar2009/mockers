@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "43"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In the following circuit shown in figure, three diodes are connected each with forward resistance $40\\Omega$ and infinite backward resistance. The current through $100\\Omega$ resistance is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63/q43.png"
+  },
+  "Option1Stmt": {
+    "S": "18 mA"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "36 mA"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "9 mA"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "27 mA"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "From the figure diode $D_2$ and $D_3$ are forward biased while $D_1$ is reverse biased.\n\nHence current will pass through $D_2$ and $D_3$ only.\n\n$D_2$ and $D_3$ each have forward resistance $40\\Omega$\n\nTotal resistance in the circuit\n\n$$R = \\frac{200 \\times 100}{300} + 100 = \\frac{500}{3}$$\n\n$$I = \\frac{V}{R} = \\frac{6}{\\frac{500}{3}} = \\frac{18}{500} = 0.036 \\text{ A} = 36 \\text{ mA}$$"
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63/q43-sol.png"
+  }
+}

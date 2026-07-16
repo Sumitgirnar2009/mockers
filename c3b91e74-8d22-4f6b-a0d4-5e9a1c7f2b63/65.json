@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "65"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Find the expected value of $\\Delta T_b$ for 1 mM AlCl$_3$ solution in water if solution of nonelectrolyte of same concentration has $\\Delta T_b$ value '$x$' K."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$x$ K"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$2x$ K"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$3x$ K"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$4x$ K"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "$\\Delta T_b$ for 1 M solution of a nonelectrolyte is $x$ K.\n\nFor a nonelectrolyte, $i = 1$, so $\\Delta T_b = K_b \\cdot m = K_b \\cdot 1 = K_b$.\n\nThus $K_b = x$.\n\nAlCl$_3$ dissociates as: $\\mathrm{AlCl_3 \\rightarrow Al^{3+} + 3Cl^-}$.\n\nTotal ions = $1 + 3 = 4$, so $i = 4$.\n\nFor 1 M AlCl$_3$:\n\n$$\\Delta T_b = i \\cdot K_b \\cdot m = 4 \\times x \\times 1 = 4x$$\n\nHence the expected value is $4x$ K, which corresponds to option D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

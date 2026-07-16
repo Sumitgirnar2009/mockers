@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "91"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "What is the number of chiral carbon atoms present in 3,4-Dibromohexane?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "5"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "4"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "3"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "2"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Write the structure of 3,4-Dibromohexane.\n\nThe parent chain is hexane (6 carbons). Bromine atoms are attached at positions 3 and 4.\n\nStructure: CH₃–CH₂–CHBr–CHBr–CH₂–CH₃\n\nStep 2: Identify chiral carbon atoms.\n\nA chiral carbon is one that is attached to four different groups.\n\n- Carbon 1 (CH₃): attached to three H atoms → not chiral.\n- Carbon 2 (CH₂): attached to two H atoms → not chiral.\n- Carbon 3 (CHBr): attached to –Br, –H, –CH₂CH₃ (left), and –CHBrCH₂CH₃ (right) → all four groups are different → chiral.\n- Carbon 4 (CHBr): attached to –Br, –H, –CHBrCH₂CH₃ (left), and –CH₂CH₃ (right) → all four groups are different → chiral.\n- Carbon 5 (CH₂): attached to two H atoms → not chiral.\n- Carbon 6 (CH₃): attached to three H atoms → not chiral.\n\nStep 3: Count the chiral carbons.\n\nCarbons 3 and 4 are chiral → total 2 chiral carbon atoms.\n\nStep 4: Match with options.\n\nThe correct answer is 2, which corresponds to option D."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64/q91-sol.png"
+  }
+}

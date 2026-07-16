@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "92"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which from following statements is correct regarding a detergent sodium lauryl sulphate?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "It is anionic detergent and is used in toothpaste."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "It is cationic detergent and is used as household detergent."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "It is cationic detergent and is used as hair conditioner."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "It is an ether and used as liquid detergent."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Sodium lauryl sulphate has the formula $\\mathrm{CH_3(CH_2)_{11}OSO_3^- Na^+}$.\n\n- It contains a negatively charged sulfate group, making it an **anionic detergent**.\n- It is commonly used in toothpaste, shampoos, and other cleaning products.\n\nThus the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

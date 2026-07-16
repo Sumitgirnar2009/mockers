@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "13"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In Young's double slit experiment, the distance between screen and aperture is 1 m. The slit width is 2 mm. Light of 6000Å is used. If a thin glass plate ($\\mu = 1.5$) of thickness 0.04 mm is placed over one of the slits, then there will be a lateral displacement of the fringes by"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "0.5 cm"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "1 cm"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "1.5 cm"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "2 cm"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The lateral displacement of fringes when a thin glass plate is placed over one slit is given by:\n$$d' = \\frac{t(\\mu - 1)D}{d}$$\nwhere $t$ = thickness of plate, $\\mu$ = refractive index, $D$ = distance from slits to screen, $d$ = slit separation.\n\nGiven: $t = 0.04 \\text{ mm} = 0.04 \\times 10^{-3} \\text{ m}$, $\\mu = 1.5$, $D = 1 \\text{ m}$, $d = 2 \\text{ mm} = 2 \\times 10^{-3} \\text{ m}$.\n\n$$d' = \\frac{0.04 \\times 10^{-3} \\times (1.5 - 1) \\times 1}{2 \\times 10^{-3}}$$\n$$= \\frac{0.04 \\times 10^{-3} \\times 0.5}{2 \\times 10^{-3}} = \\frac{0.02 \\times 10^{-3}}{2 \\times 10^{-3}} = 0.01 \\text{ m} = 1 \\text{ cm}$$\n\nThus the lateral displacement is 1 cm, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

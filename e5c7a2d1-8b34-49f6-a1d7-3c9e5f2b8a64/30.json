@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "30"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The de-Broglie wavelength ($\\lambda$) of a particle"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "is inversely proportional to impulse."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "does not depend on impulse."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "is proportional to mass."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "is proportional to impulse."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "$\\lambda = \\frac{h}{p} = \\frac{h}{\\text{impulse}}$.\n\nThus $\\lambda$ is inversely proportional to impulse. Correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

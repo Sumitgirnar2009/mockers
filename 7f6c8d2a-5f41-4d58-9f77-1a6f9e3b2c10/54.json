@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "54"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The rate constant for a first order reaction is $0.58 \\, \\text{s}^{-1}$ at 300 K and $0.026 \\, \\text{s}^{-1}$ at 290 K. What is the energy of activation? ($R = 8.314 \\, \\text{J K}^{-1} \\, \\text{mol}^{-1}$)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "124.48 kJ"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "224.55 kJ"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "348.18 kJ"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "513.21 kJ"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Using the Arrhenius equation in logarithmic form:\n\n$$\\log_{10} \\frac{k_2}{k_1} = \\frac{E_a}{2.303R} \\left( \\frac{T_2 - T_1}{T_1 T_2} \\right)$$\n\nGiven: $k_2 = 0.58$, $k_1 = 0.026$, $T_2 = 300$ K, $T_1 = 290$ K, $R = 8.314$ J K⁻¹ mol⁻¹.\n\n$$\\log_{10} \\frac{0.58}{0.026} = \\log_{10} (22.3077) = 1.3484$$\n\n$$\\frac{T_2 - T_1}{T_1 T_2} = \\frac{10}{290 \\times 300} = 1.1494 \\times 10^{-4}$$\n\n$$2.303R = 2.303 \\times 8.314 = 19.15$$\n\nSubstituting:\n\n$$1.3484 = \\frac{E_a}{19.15} \\times 1.1494 \\times 10^{-4}$$\n\n$$E_a = \\frac{1.3484 \\times 19.15}{1.1494 \\times 10^{-4}} = \\frac{25.82}{1.1494 \\times 10^{-4}} = 224538 \\text{ J/mol} = 224.54 \\text{ kJ/mol}$$\n\nThus the correct option is B: 224.55 kJ."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

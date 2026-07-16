@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "5"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A physical quantity A can be determined by measuring parameters B, C, D and E using the relation $A = \\frac{B^\\alpha C^\\beta}{D^\\gamma E^\\delta}$. If the maximum errors in the measurement are $b\\%$, $c\\%$, $d\\%$ and $e\\%$ then maximum error in the value of A is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$(\\alpha b + \\beta c - \\gamma d - \\delta e)\\%$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$(b + c - d - e)\\%$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$(\\alpha b + \\beta c + \\gamma d + \\delta e)\\%$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$(b + c + d + e)\\%$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $A = \\frac{B^\\alpha C^\\beta}{D^\\gamma E^\\delta}$.\n\nPercentage error in A is the sum of percentage errors contributed by each parameter:\n\n$$\\frac{\\Delta A}{A} \\times 100 = \\alpha \\left(\\frac{\\Delta B}{B} \\times 100\\right) + \\beta \\left(\\frac{\\Delta C}{C} \\times 100\\right) + \\gamma \\left(\\frac{\\Delta D}{D} \\times 100\\right) + \\delta \\left(\\frac{\\Delta E}{E} \\times 100\\right)$$\n\n$$= (\\alpha b + \\beta c + \\gamma d + \\delta e)\\%$$\n\nThus the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

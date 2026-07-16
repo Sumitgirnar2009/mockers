@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "139"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If the plane $$\\frac{x}{3} + \\frac{y}{2} - \\frac{z}{4} = 1$$ cuts the co-ordinate axes at points A, B and C, then the area of the triangle ABC is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{\\sqrt{61}}{2}$ sq. units"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$2\\sqrt{61}$ sq. units"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\sqrt{61}$ sq. units"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$3\\sqrt{61}$ sq. units"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given plane: $\\frac{x}{3} + \\frac{y}{2} - \\frac{z}{4} = 1$.\n\nIntercepts: $A = (3, 0, 0)$, $B = (0, 2, 0)$, $C = (0, 0, -4)$.\n\nFor a triangle formed by intercepts $a, b, c$ on the X, Y, Z axes, the area is given by:\n\n$$\\text{Area} = \\frac{1}{2} \\sqrt{a^2 b^2 + b^2 c^2 + c^2 a^2}$$\n\nHere $a = 3$, $b = 2$, $c = -4$ (taking absolute value for area).\n\n$$\\text{Area} = \\frac{1}{2} \\sqrt{9 \\times 4 + 4 \\times 16 + 16 \\times 9}$$\n\n$$= \\frac{1}{2} \\sqrt{36 + 64 + 144} = \\frac{1}{2} \\sqrt{244} = \\frac{1}{2} \\times 2\\sqrt{61} = \\sqrt{61}$$\n\nThus the correct option is C: $\\sqrt{61}$ sq. units."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

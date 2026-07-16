@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "17"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A simple pendulum with bob of mass m and conducting wire of length L swings under gravity through an angle θ. The component of earth's magnetic field in the direction perpendicular to swing is B. Maximum e.m.f. induced across the pendulum is (g = acceleration due to gravity)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$2BL(\\sqrt{gL}) \\sin \\frac{\\theta}{2}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$BL(\\sqrt{gL}) \\sin \\frac{\\theta}{2}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$BL(\\sqrt{gL})^2 \\sin \\frac{\\theta}{2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$2BL(\\sqrt{gL}) \\sin^2 \\frac{\\theta}{2}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Height from mean position: $h = L - L\\cos\\theta = 2L\\sin^2(\\theta/2)$.\n\nUsing energy conservation: $\\frac{1}{2}mv^2 = mgh \\Rightarrow v = 2\\sqrt{gL}\\sin(\\theta/2)$.\n\nMaximum induced emf: $\\varepsilon_{\\text{max}} = B L v = B L \\times 2\\sqrt{gL}\\sin(\\theta/2) = 2BL\\sqrt{gL}\\sin(\\theta/2)$.\n\nThus the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

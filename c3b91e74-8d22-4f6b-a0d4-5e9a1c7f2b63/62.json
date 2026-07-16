@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "62"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Select the incorrect statement about $N_2$ molecule."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "It is more stable than $O_2$ molecule."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "It consists more electrons in bonding molecular orbitals than $O_2$."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Its bond order is 3."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "It is diamagnetic."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "$$\\begin{array}{|c|c|c|c|}\n\\hline\n\\text{Molecule} & \\text{No. of electrons in bonding MOs} & \\text{Bond order} & \\text{Magnetic nature} \\\\\n\\hline\nN_2 & 10 & 3 & \\text{Diamagnetic} \\\\\nO_2 & 10 & 2 & \\text{Paramagnetic} \\\\\n\\hline\n\\end{array}$$\n\nBoth $N_2$ and $O_2$ have 10 electrons in bonding molecular orbitals. So statement B is incorrect because it claims $N_2$ has more bonding electrons than $O_2$; they are equal. Hence the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

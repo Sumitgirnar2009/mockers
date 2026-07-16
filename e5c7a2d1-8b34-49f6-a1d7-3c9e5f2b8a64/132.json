@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "132"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If the function $f(x) = x(x + 3)e^{-\\frac{x}{2}}$ satisfies all the conditions of Rolle's theorem in $[-3, 0]$, then $c$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "0"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "-1"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "-2"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "-3"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $f(x) = x(x+3)e^{-x/2} = (x^2 + 3x)e^{-x/2}$.\n\nDifferentiate using product rule:\n\n$$f'(x) = (2x + 3)e^{-x/2} - \\frac{1}{2}(x^2 + 3x)e^{-x/2}$$\n\n$$= e^{-x/2} \\left( 2x + 3 - \\frac{x^2 + 3x}{2} \\right)$$\n\n$$= e^{-x/2} \\left( \\frac{4x + 6 - x^2 - 3x}{2} \\right)$$\n\n$$= -\\frac{1}{2} e^{-x/2} (x^2 - x - 6)$$\n\nBy Rolle's theorem, there exists $c \\in (-3, 0)$ such that $f'(c) = 0$.\n\n$$c^2 - c - 6 = 0 \\Rightarrow (c - 3)(c + 2) = 0 \\Rightarrow c = 3 \\text{ or } c = -2$$\n\nSince $c \\in (-3, 0)$, we take $c = -2$.\n\nFinal Answer: $$\\boxed{-2}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

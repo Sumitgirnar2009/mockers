@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "85"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The rate constant for the reaction $2\\mathrm{N_2O_5(g)} \\rightarrow 2\\mathrm{N_2O_4(g)} + \\mathrm{O_2(g)}$ is $4.98 \\times 10^{-4} \\, \\text{s}^{-1}$. What is the order of reaction?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "2"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "1"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Zero"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "3"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The unit of the rate constant gives information about the order of the reaction. For a first-order reaction, the unit of k is s⁻¹. Since the given rate constant has the unit s⁻¹, the reaction is first order. Hence the correct option is B: 1."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

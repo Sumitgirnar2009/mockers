@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "56"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which from following is a soft metal?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Cr"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "V"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Co"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Cd"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: A soft metal has low hardness, can be cut easily, and has low melting point.\n\nStep 2: Check each option:\n- Cr (Chromium): Hard, brittle → not soft.\n- V (Vanadium): Hard, used in steel alloys → not soft.\n- Co (Cobalt): Hard, lustrous → not soft.\n- Cd (Cadmium): Soft, malleable, can be cut with a knife → soft metal.\n\nStep 3: Therefore, the soft metal among the given options is Cadmium (Cd).\n\nThus the correct option is D: Cd."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

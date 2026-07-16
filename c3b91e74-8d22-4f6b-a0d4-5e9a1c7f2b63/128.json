@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "128"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The rate of reduction of a person's assets is proportional to the square root of the existing assets. The assets reduced from 25 lakhs to 6.25 lakhs in 2 years. This rate of reduction of his assets will make him bankrupt in"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "3 years"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "5 years"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "4 years"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "6 years"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $x$ represent the value of the asset at time $t$ years.\n\n$$\\frac{dx}{dt} \\propto \\sqrt{x}$$\n\n$$\\frac{dx}{dt} = -k\\sqrt{x}$$\n\n$$\\Rightarrow \\frac{dx}{\\sqrt{x}} = -kdt$$\n\nIntegrating on both sides, we get\n\n$$2\\sqrt{x} = -kt + c$$\n\nWhen $t = 0, x = 25$\n\n$$\\therefore 2\\sqrt{25} = c \\Rightarrow c = 10$$\n\n$$\\therefore 2\\sqrt{x} = -kt + 10 \\quad \\ldots (i)$$\n\nWhen $t = 2, x = 6.25$\n\n$$\\therefore 2\\sqrt{6.25} = -2k + 10 \\quad \\ldots [\\text{From (i)}]$$\n\n$$\\Rightarrow 2(2.5) = -2k + 10$$\n\n$$\\Rightarrow 5 = -2k + 10$$\n\n$$\\Rightarrow 2k = 5$$\n\n$$\\Rightarrow k = \\frac{5}{2}$$\n\n$$\\therefore 2\\sqrt{x} = -\\frac{5}{2}t + 10 \\quad \\ldots [\\text{From (i)}]$$\n\nTime to go bankrupt = $T$\n\nWhen $t = T, x = 0$\n\n$$\\therefore 0 = -\\frac{5}{2}T + 10$$\n\n$$\\Rightarrow T = 4 \\text{ years}$$"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

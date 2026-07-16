@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "124"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "$$\\lim_{x \\to 0} \\frac{e^{\\tan x} - e^x}{\\tan x - x} =$$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "0"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{1}{2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{1}{4}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "We have:\n\n$$\\lim_{x \\to 0} \\frac{e^{\\tan x} - e^x}{\\tan x - x} = \\lim_{x \\to 0} \\frac{e^x (e^{\\tan x - x} - 1)}{\\tan x - x}$$\n\nAs $x \\to 0$, $e^x \\to 1$. Also, $\\tan x - x \\to 0$. Using $\\lim_{h \\to 0} \\frac{e^h - 1}{h} = 1$, we get:\n\n$$= \\lim_{x \\to 0} \\frac{e^{\\tan x - x} - 1}{\\tan x - x} = 1$$\n\nThus the correct option is A: 1."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

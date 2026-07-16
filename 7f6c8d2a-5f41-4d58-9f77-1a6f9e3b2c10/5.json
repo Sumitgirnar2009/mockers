@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "5"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Two discs A and B of same material and thickness have radii $R$ and $3R$ respectively. Their moments of inertia about their axis will be in the ratio"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$3 : 1$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$1 : 9$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$1 : 81$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$1 : 27$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let the thickness of both discs be $t$ and the density of the material be $\\rho$.\n\nMass of disc A: $M_A = \\pi R^2 t \\rho$\nMass of disc B: $M_B = \\pi (3R)^2 t \\rho = 9\\pi R^2 t \\rho$\n\nMoment of inertia of a uniform disc about its axis: $I = \\frac{1}{2} M r^2$\n\nFor disc A: $I_A = \\frac{1}{2} M_A R^2 = \\frac{1}{2} (\\pi R^2 t \\rho) R^2 = \\frac{1}{2} \\pi t \\rho R^4$\n\nFor disc B: $I_B = \\frac{1}{2} M_B (3R)^2 = \\frac{1}{2} (9\\pi R^2 t \\rho) \\times 9R^2 = \\frac{81}{2} \\pi t \\rho R^4$\n\nThus the ratio:\n$$\\frac{I_A}{I_B} = \\frac{\\frac{1}{2} \\pi t \\rho R^4}{\\frac{81}{2} \\pi t \\rho R^4} = \\frac{1}{81}$$\n\nHence $I_A : I_B = 1 : 81$, which corresponds to option C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

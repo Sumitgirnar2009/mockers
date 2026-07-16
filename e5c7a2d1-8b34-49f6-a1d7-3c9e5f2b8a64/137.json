@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "137"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The probability that in a random arrangement of the letters of the word 'UNIVERSITY', the two 'I's do not come together is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{1}{5}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{1}{10}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{4}{5}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{3}{10}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The word 'UNIVERSITY' has 10 letters with two 'I's repeated.\n\nTotal arrangements = $\\frac{10!}{2!}$.\n\nNumber of arrangements where the two 'I's are together: treat them as one unit → 9 distinct items → arrangements = $9!$.\n\nNumber of arrangements where the two 'I's are NOT together:\n\n$$\\frac{10!}{2!} - 9! = 9! \\left(\\frac{10}{2} - 1\\right) = 9! \\times 4$$\n\nProbability = $\\frac{9! \\times 4}{10!/2!} = \\frac{9! \\times 4 \\times 2}{10!} = \\frac{8}{10} = \\frac{4}{5}$.\n\nFinal Answer: $$\\boxed{\\frac{4}{5}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "134"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $x = \\log t, t > 0$ and $y = \\frac{1}{t}$ then $\\frac{d^2y}{dx^2} =$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{dy}{dx}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$-\\frac{dy}{dx}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$y$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{y}{x}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $x = \\log t \\Rightarrow t = e^x$.\n\nAlso, $y = \\frac{1}{t} = \\frac{1}{e^x} = e^{-x}$.\n\nNow, $\\frac{dy}{dx} = -e^{-x}$.\n\nSecond derivative: $\\frac{d^2y}{dx^2} = e^{-x}$.\n\nBut $e^{-x} = -\\frac{dy}{dx}$ (since $\\frac{dy}{dx} = -e^{-x}$).\n\nThus, $\\frac{d^2y}{dx^2} = -\\frac{dy}{dx}$.\n\nFinal Answer: $$\\boxed{-\\frac{dy}{dx}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

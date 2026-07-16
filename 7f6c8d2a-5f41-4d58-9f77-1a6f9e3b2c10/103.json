@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "103"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "20 is divided into two parts so that the product of the cube of one part and the square of the other part is maximum, then these two parts are"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "15, 5"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "16, 4"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "12, 8"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "14, 6"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let the two parts be $x$ and $20 - x$.\n\nWe need to maximize $z = x^3 (20 - x)^2$.\n\nDifferentiate:\n\n$$\\frac{dz}{dx} = 3x^2(20 - x)^2 + x^3 \\cdot 2(20 - x)(-1) = x^2(20 - x)[3(20 - x) - 2x]$$\n\n$$= x^2(20 - x)(60 - 3x - 2x) = x^2(20 - x)(60 - 5x)$$\n\nSet $\\frac{dz}{dx} = 0$:\n\n$x = 0$, $x = 20$, or $60 - 5x = 0 \\Rightarrow x = 12$.\n\nCheck second derivative or use logic: $x = 12$ gives maximum.\n\nThus the parts are $12$ and $20 - 12 = 8$.\n\nHence the correct option is C: 12, 8."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

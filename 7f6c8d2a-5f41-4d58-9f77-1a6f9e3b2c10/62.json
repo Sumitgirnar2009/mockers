@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "62"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which from following tests confirms presence of aldehyde group in glucose?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Formation of oxime when reacted with $\\mathrm{NH_2OH}$."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Formation of gluconic acid when reacted with $\\mathrm{Br_2}$ water."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Formation of saccharic acid when glucose and gluconic acid treated with dil. $\\mathrm{HNO_3}$."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Formation of penta acetate when treated with acetic anhydride."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Glucose contains an aldehyde group that can be oxidized to a blob:null/cf54977a-de0b-4fae-a602-fa54faea45a5carboxylic acid. Bromine water ($\\mathrm{Br_2}$) is a mild oxidizing agent that selectively oxidizes the aldehyde group of glucose to gluconic acid. This reaction confirms the presence of the aldehyde group. Option A (oxime formation) confirms carbonyl group but not specifically aldehyde. Option C (saccharic acid) involves further oxidation of both ends. Option D (penta acetate) indicates presence of five hydroxyl groups, not aldehyde. Therefore, the correct answer is B."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10/q62-sol.png"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "59"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify false statement from the following about fluorine."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "It is highly electronegative element."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "It exhibits only -1 oxidation state."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "It has high bond dissociation enthalpy among all halogens."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "It form only one oxacid."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Fluorine is the most electronegative element (Option A is true). It exhibits only -1 oxidation state due to its small size and high electronegativity (Option B is true). Among halogens, chlorine (Cl₂) has the highest bond dissociation enthalpy, not fluorine, because fluorine has very small atomic size leading to high electron-electron repulsion in its bond (Option C is false). Fluorine forms only one oxoacid, HOF (hypofluorous acid), which is unstable (Option D is true). Therefore, the false statement is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

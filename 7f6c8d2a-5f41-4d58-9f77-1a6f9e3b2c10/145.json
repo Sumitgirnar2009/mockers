@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "145"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $\\tan 3\\theta = \\cot \\theta$, then $\\theta =$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{(2n+1)\\pi}{8}, \\, n \\in \\mathbb{Z}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{(2n+1)\\pi}{4}, \\, n \\in \\mathbb{Z}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{(n+2)\\pi}{3}, \\, n \\in \\mathbb{Z}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$n\\pi, \\, n \\in \\mathbb{Z}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "We have $\\tan 3\\theta = \\cot \\theta = \\tan\\left(\\frac{\\pi}{2} - \\theta\\right)$.\n\nTherefore,\n\n$$3\\theta = n\\pi + \\frac{\\pi}{2} - \\theta, \\quad n \\in \\mathbb{Z}$$\n\n$$4\\theta = n\\pi + \\frac{\\pi}{2} = \\frac{(2n+1)\\pi}{2}$$\n\n$$\\theta = \\frac{(2n+1)\\pi}{8}, \\quad n \\in \\mathbb{Z}$$\n\nThus the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

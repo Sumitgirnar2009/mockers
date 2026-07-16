@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "149"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The equations of two ellipses are $$\\frac{x^2}{4} + \\frac{y^2}{2} = 1$$ and $$\\frac{x^2}{36} + \\frac{y^2}{b^2} = 1.$$ If the product of their eccentricities is $$\\frac{\\sqrt{2}}{3},$$ then the product of the length of the major axis and minor axis of the second ellipse is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$12\\sqrt{5}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "720"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$6\\sqrt{20}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$48\\sqrt{5}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For first ellipse: $\\frac{x^2}{4} + \\frac{y^2}{2} = 1$, so $a_1^2 = 4$, $b_1^2 = 2$.\n\n$$e_1 = \\sqrt{1 - \\frac{b^2}{a^2}} = \\sqrt{1 - \\frac{2}{4}} = \\sqrt{\\frac{1}{2}} = \\frac{1}{\\sqrt{2}}$$\n\nFor second ellipse: $\\frac{x^2}{36} + \\frac{y^2}{b^2} = 1$, so $a_2^2 = 36$, $e_2 = \\sqrt{1 - \\frac{b^2}{36}}$.\n\nGiven $e_1 \\times e_2 = \\frac{\\sqrt{2}}{3}$:\n\n$$\\frac{1}{\\sqrt{2}} \\times \\sqrt{1 - \\frac{b^2}{36}} = \\frac{\\sqrt{2}}{3}$$\n\n$$\\sqrt{1 - \\frac{b^2}{36}} = \\frac{2}{3}$$\n\nSquaring: $1 - \\frac{b^2}{36} = \\frac{4}{9} \\Rightarrow \\frac{b^2}{36} = \\frac{5}{9} \\Rightarrow b^2 = 20$.\n\nLength of major axis = $2a = 2 \\times 6 = 12$.\n\nLength of minor axis = $2b = 2 \\times \\sqrt{20} = 4\\sqrt{5}$.\n\nProduct = $12 \\times 4\\sqrt{5} = 48\\sqrt{5}$.\n\nThus the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "11"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Two identical long parallel wires carry currents $I_1$ and $I_2$ such that $I_1 > I_2$. When the currents are in the same direction, the magnetic field at a point midway between the wires is $8 \\times 10^{-6}$ T. If the direction of $I_2$ is reversed, the field becomes $3.2 \\times 10^{-5}$ T. The ratio of $I_2$ to $I_1$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$1 : 4$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$2 : 5$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$3 : 5$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$3 : 4$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Magnetic field due to each wire at midpoint: $B = \\frac{\\mu_0 I}{2\\pi r}$.\n\nWhen currents are in same direction, fields oppose:\n\n$$B_1 - B_2 = 8 \\times 10^{-6}$$\n\n$$\\frac{\\mu_0}{2\\pi r}(I_1 - I_2) = 8 \\times 10^{-6} \\quad \\text{(i)}$$\n\nWhen $I_2$ is reversed, fields add:\n\n$$B_1 + B_2 = 3.2 \\times 10^{-5}$$\n\n$$\\frac{\\mu_0}{2\\pi r}(I_1 + I_2) = 3.2 \\times 10^{-5} \\quad \\text{(ii)}$$\n\nDividing (i) by (ii):\n\n$$\\frac{I_1 - I_2}{I_1 + I_2} = \\frac{8 \\times 10^{-6}}{3.2 \\times 10^{-5}} = \\frac{8}{32} = \\frac{1}{4}$$\n\n$$4I_1 - 4I_2 = I_1 + I_2 \\Rightarrow 3I_1 = 5I_2 \\Rightarrow \\frac{I_2}{I_1} = \\frac{3}{5}$$\n\nThus $I_2 : I_1 = 3 : 5$, which corresponds to option C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

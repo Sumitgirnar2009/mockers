@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "53"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following species acts as reducing agent during working of hydrogen-oxygen fuel cell?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$H_2$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$O_2$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$H^+$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$NaOH$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "In a hydrogen-oxygen fuel cell, hydrogen gas ($H_2$) is supplied at the anode and undergoes oxidation:\n\n$$H_2 \\rightarrow 2H^+ + 2e^-$$\n\nOxygen ($O_2$) at the cathode undergoes reduction:\n\n$$\\frac{1}{2}O_2 + 2H^+ + 2e^- \\rightarrow H_2O$$\n\nThe substance that loses electrons (is oxidized) acts as the reducing agent. Here, $H_2$ loses electrons and is therefore the reducing agent. Hence the correct option is A: $H_2$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

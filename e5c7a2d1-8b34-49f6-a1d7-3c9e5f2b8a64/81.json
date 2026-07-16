@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "81"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "What is IUPAC name of the following compound?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64/q81.png"
+  },
+  "Option1Stmt": {
+    "S": "3-Formyl-5-methylphenol"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "5-Formyl-3-methylphenol"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "3-Hydroxy-5-methylbenzaldehyde"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "5-Hydroxy-3-methylbenzaldehyde"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The compound contains a benzene ring with three substituents: an aldehyde group (-CHO), a hydroxyl group (-OH), and a methyl group (-CH₃).\n\nThe aldehyde group gets the principal functional group priority, so it is named as benzaldehyde derivative.\n\nThe ring is numbered such that the aldehyde carbon gets the lowest locant (1), and the other groups are assigned the smallest possible locants.\n\nWith this numbering, the -OH group is at position 5 and the -CH₃ group at position 3.\n\nThus, the IUPAC name is 5-Hydroxy-3-methylbenzaldehyde, which corresponds to option D."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64/q81-sol.png"
+  }
+}

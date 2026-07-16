@@ -19,23 +19,22 @@ export class MockTestDisplay implements OnInit {
 
   // Quiz IDs
   // pcm_fst1_quizId = '37a81c5d-6362-41e4-aaf3-9d925579f538';
-  pcm_fst1_quizId = 'd19e7b35-3f0c-4a92-b8d1-6a4c0f5e8b22'; // random
-  pcm_fst2_quizId = '9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41'; // MHT CET 2025 19th April Morning Shift
-  pcm_fst3_quizId = '37a81c5d-6362-41e4-aaf3-9d925579f538'; // MHT CET 2025 19th April Evening Shift
-  // pcm_fst4_quizId = '7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10'; // MHT CET 2025 20th April Morning Shift
-  // pcm_fst5_quizId = 'c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63'; // MHT CET 2025 20th April Evening Shift
-  // pcm_fst6_quizId = 'f1b3d6a8-2c74-4e91-b8f5-9a2d7c4e1f60'; // MHT CET 2025 21th April Morning Shift
-  // pcm_fst7_quizId = 'd4c81b7e-5a92-4f30-9e6b-1f7c3d8a2b54'; // MHT CET 2025 21th April Evening Shift
-  // pcm_fst8_quizId = '7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10'; // MHT CET 2025 22th April Morning Shift
-  // pcm_fst9_quizId = 'c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63'; // MHT CET 2025 22th April Evening Shift
-  // pcm_fst10_quizId = '1de4a8c9-73bf-4d10-92aa-6b5c3f7e8d21'; // MHT CET 2025 23th April Morning Shift
-  // pcm_fst11_quizId = '9ab2f1d7-4c65-4e83-b7f0-2d8c6a1e5f94'; // MHT CET 2025 23th April Evening Shift
-  // pcm_fst12_quizId = '5c7e2a91-b3d4-46af-8c21-7f0a9e4d6b32'; // MHT CET 2025 25th April Morning Shift
-  // pcm_fst13_quizId = 'e8f14b63-29da-4c75-a1ef-3b7d2c9a5f80'; // MHT CET 2025 25th April Evening Shift
-  // pcm_fst14_quizId = '2a6d9f4b-1c83-47ee-b5a2-8d4f7c1e9a65'; // MHT CET 2025 26th April Morning Shift
-  // pcm_fst15_quizId = 'd4c81b7e-5a92-4f30-9e6b-1f7c3d8a2b54'; // MHT CET 2025 26th April Evening Shift
-  // pcm_fst16_quizId = 'f1b3d6a8-2c74-4e91-b8f5-9a2d7c4e1f60'; // MHT CET 2025 5th May Evening Shift
-
+  pcm_fst1_quizId = '9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41'; // MHT CET 2025 19th April Morning Shift
+  pcm_fst2_quizId = 'd19e7b35-3f0c-4a92-b8d1-6a4c0f5e8b22'; // MHT CET 2025 19th April Evening Shift
+  pcm_fst3_quizId = '7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10'; // MHT CET 2025 20th April Morning Shift
+  pcm_fst4_quizId = 'c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63'; // MHT CET 2025 20th April Evening Shift
+  pcm_fst5_quizId = 'e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64'; // MHT CET 2025 21st April Morning Shift
+  // pcm_fst7_quizId = '3e92b4c7-8f15-4a6d-b2c9-5d7e1f3a8b64'; // MHT CET 2025 21st April Evening Shift
+  // pcm_fst8_quizId = 'a7d3e9c1-4b82-4f65-91ea-2c7d5b8f1a93'; // MHT CET 2025 22nd April Morning Shift
+  // pcm_fst9_quizId = '6c1f8a2d-9e74-4b31-a5d8-7f2c3e9b4a16'; // MHT CET 2025 22nd April Evening Shift
+  // pcm_fst10_quizId = 'b5e7d2a9-3c84-4f16-8a2b-1d9c7e5f3a48'; // MHT CET 2025 23rd April Morning Shift
+  // pcm_fst11_quizId = '1a9c5e7d-4b82-46f3-9d1a-8c2e7b5f4a63'; // MHT CET 2025 23rd April Evening Shift
+  // pcm_fst12_quizId = '8d3b1f6a-2c95-4e74-b8a1-5f7d9c3e2a64'; // MHT CET 2025 25th April Morning Shift
+  // pcm_fst13_quizId = '4f8a2d7c-1b63-49e5-a7d2-9c4e1f8b3a65'; // MHT CET 2025 25th April Evening Shift
+  // pcm_fst14_quizId = 'c2e7a4d9-8f13-4b65-91ac-7d3e5f2a8b64'; // MHT CET 2025 26th April Morning Shift
+  // pcm_fst15_quizId = '9b4d1e7a-5c82-46f3-a8d1-2e7c5f9a3b64'; // MHT CET 2025 26th April Evening Shift
+  // pcm_fst16_quizId = 'e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64'; // MHT CET 2025 5th May Evening Shift
+    pcm_fst6_quizId = '37a81c5d-6362-41e4-aaf3-9d925579f538'; // random
 
   // User + Attempt signals
   username!: string;
@@ -53,12 +52,12 @@ export class MockTestDisplay implements OnInit {
 
   // Quiz Records
   quizRecords: QuizRecord[] = [
-    { quizId: this.pcm_fst1_quizId, quizName: 'MHT CET Mock Test', quizType: 'free', isProgress: false, attemptNo: 1 },
-    { quizId: this.pcm_fst2_quizId, quizName: 'MHT CET 2025 19th April Morning Shift', quizType: 'free', isProgress: false, attemptNo: 1 },
-    { quizId: this.pcm_fst3_quizId, quizName: 'MHT CET 2025 19th April Evening Shift', quizType: 'free', isProgress: false, attemptNo: 1 },
-    // { quizId: this.pcm_fst4_quizId, quizName: 'MHT CET 2025 20th April Morning Shift', quizType: 'free', isProgress: false, attemptNo: 1 },
-    // { quizId: this.pcm_fst5_quizId, quizName: 'MHT CET 2025 20th April Evening Shift', quizType: 'free', isProgress: false, attemptNo: 1 },
-    // { quizId: this.pcm_fst6_quizId, quizName: 'MHT CET 2025 21st April Morning Shift', quizType: 'free', isProgress: false, attemptNo: 1 },
+    { quizId: this.pcm_fst1_quizId, quizName: 'MHT CET 2025 19th April Morning Shift', quizType: 'free', isProgress: false, attemptNo: 1 },
+    { quizId: this.pcm_fst2_quizId, quizName: 'MHT CET 2025 19th April Evening Shift', quizType: 'free', isProgress: false, attemptNo: 1 },
+    { quizId: this.pcm_fst3_quizId, quizName: 'MHT CET 2025 20th April Morning Shift', quizType: 'free', isProgress: false, attemptNo: 1 },
+    { quizId: this.pcm_fst4_quizId, quizName: 'MHT CET 2025 20th April Evening Shift', quizType: 'free', isProgress: false, attemptNo: 1 },
+    { quizId: this.pcm_fst5_quizId, quizName: 'MHT CET 2025 21st April Morning Shift', quizType: 'free', isProgress: false, attemptNo: 1 },
+    { quizId: this.pcm_fst6_quizId, quizName: 'Mock Test', quizType: 'free', isProgress: false, attemptNo: 1 },
     // { quizId: this.pcm_fst7_quizId, quizName: 'MHT CET 2025 21st April Evening Shift', quizType: 'free', isProgress: false, attemptNo: 1 },
     // { quizId: this.pcm_fst8_quizId, quizName: 'MHT CET 2025 22nd April Morning Shift', quizType: 'free', isProgress: false, attemptNo: 1 },
     // { quizId: this.pcm_fst9_quizId, quizName: 'MHT CET 2025 22nd April Evening Shift', quizType: 'free', isProgress: false, attemptNo: 1 },
@@ -68,7 +67,8 @@ export class MockTestDisplay implements OnInit {
     // { quizId: this.pcm_fst13_quizId, quizName: 'MHT CET 2025 25th April Evening Shift', quizType: 'free', isProgress: false, attemptNo: 1 },
     // { quizId: this.pcm_fst14_quizId, quizName: 'MHT CET 2025 26th April Morning Shift', quizType: 'free', isProgress: false, attemptNo: 1 },
     // { quizId: this.pcm_fst15_quizId, quizName: 'MHT CET 2025 26th April Evening Shift', quizType: 'free', isProgress: false, attemptNo: 1 },
-    // { quizId: this.pcm_fst16_quizId, quizName: 'MHT CET 2025 5th May Evening Shift', quizType: 'free', isProgress: false, attemptNo: 1 }
+    // { quizId: this.pcm_fst16_quizId, quizName: 'MHT CET 2025 5th May Evening Shift', quizType: 'free', isProgress: false, attemptNo: 1 },
+
   ];
   private readonly attemptsUrl = 'https://3xwi0sy6xk.execute-api.ap-south-1.amazonaws.com/dev1';
 

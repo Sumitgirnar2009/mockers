@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "2"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The reading of the ammeter in the following circuit is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63/q2.png"
+  },
+  "Option1Stmt": {
+    "S": "3 A"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "6 A"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "12 A"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "9 A"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Since $V_L = V_C$, the circuit is in resonance. The inductive and capacitive reactances cancel each other, so the impedance is purely resistive, equal to $R = 50\\Omega$. The applied voltage is $V = 300$ V. Therefore, the current in the circuit is:\n\n$$I = \\frac{V}{R} = \\frac{300}{50} = 6 \\text{ A}$$\n\nThus the ammeter reading is 6 A, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

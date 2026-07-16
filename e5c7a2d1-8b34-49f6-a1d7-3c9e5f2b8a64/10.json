@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "10"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The three vectors $\\vec{A} = 3\\hat{i} - 2\\hat{j} + \\hat{k}$, $\\vec{B} = \\hat{i} - 3\\hat{j} + 5\\hat{k}$ and $\\vec{C} = 2\\hat{i} - \\hat{j} + 4\\hat{k}$ will form"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "isosceles triangle."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "equilateral triangle."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "no triangle."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "right angled triangle."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Magnitudes: $|\\vec{A}| = \\sqrt{14}$, $|\\vec{B}| = \\sqrt{35}$, $|\\vec{C}| = \\sqrt{21}$.\n\nNo two sides are equal, so not isosceles or equilateral.\n\nDot products: $\\vec{A}\\cdot\\vec{B} = 14$, $\\vec{B}\\cdot\\vec{C} = 25$, $\\vec{A}\\cdot\\vec{C} = 12$.\n\nNone are zero, so not right-angled.\n\nScalar triple product:\n\n$$[\\vec{A}\\,\\vec{B}\\,\\vec{C}] = \\begin{vmatrix} 3 & -2 & 1 \\\\ 1 & -3 & 5 \\\\ 2 & -1 & 4 \\end{vmatrix} = -28 \\neq 0$$\n\nSo the vectors are not coplanar and do not form a triangle. Hence the correct option is C: no triangle."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

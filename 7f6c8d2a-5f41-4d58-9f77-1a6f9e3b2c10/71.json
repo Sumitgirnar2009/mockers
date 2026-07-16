@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "71"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify the product 'B' in the following sequence of reactions.\n\nMethylpropanoate $\\xrightarrow[\\text{dil. NaOH}]{\\Delta}$ A $\\xrightarrow[\\text{Conc. HCl}]{\\text{H}^+}$ B"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "sodium propanoate"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "propanone"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "propanal"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "propanoic acid"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Methylpropanoate (CH₃CH₂COOCH₃) undergoes alkaline hydrolysis (saponification) with dilute NaOH on heating to form sodium propanoate (A) and methanol. Then treatment with concentrated HCl (H⁺) converts sodium propanoate into propanoic acid (B). Thus B is propanoic acid, which corresponds to option D."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10/q71-sol.png"
+  }
+}

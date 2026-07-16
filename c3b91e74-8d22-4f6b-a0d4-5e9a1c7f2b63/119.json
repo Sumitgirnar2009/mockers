@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "119"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In a triangle ABC, the sides a, b, c are such that they are the roots of the equation $x^3 - 11x^2 + 38x - 40 = 0$. Then $$\\frac{\\cos A}{a} + \\frac{\\cos B}{b} + \\frac{\\cos C}{c} =$$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{3}{4}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "1"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{9}{16}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{1}{16}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $x^3 - 11x^2 + 38x - 40 = 0$.\n\nFactorizing: $(x-4)(x-5)(x-2) = 0$.\n\nSo the roots are $a = 4$, $b = 5$, $c = 2$.\n\nUsing cosine rule:\n\n$$\\frac{\\cos A}{a} + \\frac{\\cos B}{b} + \\frac{\\cos C}{c}$$\n\n$$= \\frac{1}{a} \\left( \\frac{b^2 + c^2 - a^2}{2bc} \\right) + \\frac{1}{b} \\left( \\frac{c^2 + a^2 - b^2}{2ca} \\right) + \\frac{1}{c} \\left( \\frac{a^2 + b^2 - c^2}{2ab} \\right)$$\n\n$$= \\frac{b^2 + c^2 - a^2 + c^2 + a^2 - b^2 + a^2 + b^2 - c^2}{2abc}$$\n\n$$= \\frac{a^2 + b^2 + c^2}{2abc}$$\n\nSubstitute $a=4, b=5, c=2$:\n\n$$= \\frac{16 + 25 + 4}{2 \\times 4 \\times 5 \\times 2} = \\frac{45}{80} = \\frac{9}{16}$$\n\nThus the correct option is C: $\\frac{9}{16}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

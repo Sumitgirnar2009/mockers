@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "148"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If the line $$\\frac{x - 1}{2} = \\frac{y + 1}{3} = \\frac{z}{4}$$ lies in the plane $4x + 4y - kz = 0$, then the value of $k$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "4"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "5"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "6"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "7"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The line passes through $(1, -1, 0)$ and has direction ratios $(2, 3, 4)$.\n\nSince the line lies in the plane $4x + 4y - kz = 0$, the point $(1, -1, 0)$ satisfies the plane equation:\n\n$$4(1) + 4(-1) - k(0) = 0 \\Rightarrow 4 - 4 = 0$$\n\nThis holds for any $k$, so the point condition does not determine $k$.\n\nFor the line to lie in the plane, the direction vector $(2, 3, 4)$ must be perpendicular to the normal vector of the plane $(4, 4, -k)$:\n\n$$2(4) + 3(4) + 4(-k) = 0$$\n\n$$8 + 12 - 4k = 0$$\n\n$$20 = 4k$$\n\n$$k = 5$$\n\nThus the correct option is B: 5."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "3"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A rectangular block of surface area A emits energy E per second at 27°C. If length and breadth is reduced to half of initial value and temperature is raised to 327°C then energy emitted per second becomes"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$2E$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$4E$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$E$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$8E$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Using Stefan-Boltzmann law: $P = \\sigma \\varepsilon A T^4$.\n\nInitial: $E = \\sigma \\varepsilon A (300)^4$.\n\nNew area $A' = \\frac{A}{4}$, new temperature $T' = 600$ K.\n\n$$E' = \\sigma \\varepsilon \\frac{A}{4} (600)^4 = \\frac{A}{4} \\times 16 \\times (300)^4 \\sigma \\varepsilon = 4E$$\n\nThus the correct option is B: $4E$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

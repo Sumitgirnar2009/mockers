@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "69"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify the defect that develops when the ratio of number of cations to anions become different from that indicated by its chemical formula."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Schottky defect"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "interstitial defect"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "substitutional impurity defect"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "nonstoichiometric defect"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "When the ratio of cations to anions in a crystal differs from the ideal stoichiometric ratio, the defect is called a nonstoichiometric defect. This leads to a composition that does not match the exact whole-number ratio of ions.\n\n- Schottky and interstitial defects are stoichiometric — they preserve the overall cation‑to‑anion ratio.\n- Substitutional impurity involves replacement of one ion by another, but does not necessarily change the stoichiometric ratio.\n\nHence, the correct option is D: nonstoichiometric defect."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

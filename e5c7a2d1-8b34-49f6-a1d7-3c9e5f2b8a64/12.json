@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "12"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A disc of mass 25 kg and radius 0.2 m is rotating at 240 r.p.m. A retarding torque brings it to rest in 20 second. If the torque is due to a force applied tangentially on the rim of the disc then the magnitude of the force is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{\\pi}{2}$ N"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$2\\pi$ N"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\pi$ N"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$4\\pi$ N"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $m = 25$ kg, $R = 0.2$ m, $n = 240$ rpm, $t = 20$ s, $\\omega_2 = 0$.\n\n$$\\omega_1 = \\frac{2\\pi \\times 240}{60} = 8\\pi \\text{ rad/s}$$\n\n$$\\omega_2 = \\omega_1 + \\alpha t \\Rightarrow 0 = 8\\pi + \\alpha(20) \\Rightarrow \\alpha = -\\frac{2\\pi}{5} \\text{ rad/s}^2$$\n\n$$I = \\frac{1}{2} m R^2 = \\frac{1}{2} \\times 25 \\times (0.2)^2 = 0.5 \\text{ kg m}^2$$\n\n$$\\tau = I\\alpha = 0.5 \\times \\frac{2\\pi}{5} = \\frac{\\pi}{5} \\text{ N m}$$\n\n$$\\tau = F R \\Rightarrow F = \\frac{\\tau}{R} = \\frac{\\pi/5}{0.2} = \\pi \\text{ N}$$\n\nThus the correct option is C: $\\pi$ N."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

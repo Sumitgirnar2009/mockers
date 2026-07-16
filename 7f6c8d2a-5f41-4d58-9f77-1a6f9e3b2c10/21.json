@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "21"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A tyre of a vehicle is filled with air having pressure 270 kPa at $27^\\circ C$. The air pressure in the tyre when the temperature increases to $37^\\circ C$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "282 kPa"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "270 kPa"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "265 kPa"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "279 kPa"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Using Gay-Lussac's law (pressure law) for a fixed amount of gas at constant volume: $\\frac{P_1}{T_1} = \\frac{P_2}{T_2}$.\n\nGiven: $P_1 = 270$ kPa, $T_1 = 27^\\circ C = 27 + 273 = 300$ K, $T_2 = 37^\\circ C = 37 + 273 = 310$ K.\n\n$$\\frac{270}{300} = \\frac{P_2}{310} \\Rightarrow P_2 = \\frac{270 \\times 310}{300} = \\frac{83700}{300} = 279 \\text{ kPa}$$\n\nThus the correct option is D: 279 kPa."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

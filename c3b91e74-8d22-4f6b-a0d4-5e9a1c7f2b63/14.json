@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "14"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The following graph represents the radiant power versus wavelength of the black body. The area under the curve represents"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63/q14.png"
+  },
+  "Option1Stmt": {
+    "S": "the maximum wavelength emitted by the object."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "the minimum wavelength emitted by the object."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "the total energy emitted per unit time by the black body at some particular wavelength."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "the total energy emitted per unit time per unit area by the black body at all wavelengths."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "In a black body radiation graph (radiant power vs. wavelength), the area under the curve represents the total power radiated per unit area (total energy emitted per unit time per unit area) across all wavelengths. This is given by the Stefan-Boltzmann law: $E = \\sigma T^4$, which is the integral of the spectral radiance over all wavelengths. Hence the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

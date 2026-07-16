@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "43"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Two sources of sound are emitting progressive waves $y_1 = 4 \\sin 710\\pi t$ and $y_2 = 3 \\sin 702\\pi t$. The sources are placed close to each other. The number of beats heard per second and intensity ratio between waxing and waning are respectively"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$4, 16 : 9$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$8, 16 : 9$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$4, 49 : 1$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$8, 49 : 1$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Compare the given equations with standard wave equation $y = A \\sin(2\\pi f t)$.\n\nFor $y_1 = 4 \\sin 710\\pi t$: $2\\pi f_1 = 710\\pi \\Rightarrow f_1 = 355$ Hz.\n\nFor $y_2 = 3 \\sin 702\\pi t$: $2\\pi f_2 = 702\\pi \\Rightarrow f_2 = 351$ Hz.\n\nStep 2: Beat frequency = $|f_1 - f_2| = |355 - 351| = 4$ Hz.\n\nStep 3: Amplitudes: $A_1 = 4$, $A_2 = 3$.\n\nDuring waxing (constructive interference): Resultant amplitude = $A_1 + A_2 = 7$.\n\nDuring waning (destructive interference): Resultant amplitude = $|A_1 - A_2| = 1$.\n\nIntensity is proportional to square of amplitude.\n\n$$\\frac{I_{\\text{waxing}}}{I_{\\text{waning}}} = \\frac{(7)^2}{(1)^2} = \\frac{49}{1}$$\n\nThus beat frequency = 4 and intensity ratio = 49 : 1, which corresponds to option C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

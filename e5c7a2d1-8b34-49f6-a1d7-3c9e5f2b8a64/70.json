@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "70"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which from following compounds does NOT contain phenolic -OH group?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Curcumin"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Eugenol"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Gallic acid"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Ascorbic acid"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "A phenolic –OH group is one in which the hydroxyl group is directly attached to an aromatic benzene ring.\n\n- Curcumin, Eugenol, and Gallic acid contain phenolic –OH groups.\n- Ascorbic acid (Vitamin C) does not have a benzene ring; its –OH groups are alcoholic in nature.\n\nTherefore, the compound that does NOT contain a phenolic –OH group is ascorbic acid. Hence, option D is correct."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64/q70-sol.png"
+  }
+}

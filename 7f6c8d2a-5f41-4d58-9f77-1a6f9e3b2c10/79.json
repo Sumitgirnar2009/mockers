@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "79"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following solutions exhibits highest freezing point depression?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "0.1 m NaCl"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "0.05 m MgSO₄"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "1 m AlPO₄"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "0.05 m Al₂(SO₄)₃"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Freezing point depression depends on the number of particles (ions) in solution. The effective molality = i × m, where i is the van't Hoff factor.\n\n- 0.1 m NaCl → i = 2 → effective = 0.2 m\n- 0.05 m MgSO₄ → i = 2 → effective = 0.1 m\n- 1 m AlPO₄ → i = 2 → effective = 2 m (since AlPO₄ dissociates into Al³⁺ and PO₄³⁻, i = 2)\n- 0.05 m Al₂(SO₄)₃ → i = 5 (2Al³⁺ + 3SO₄²⁻) → effective = 0.25 m\n\nHighest effective molality is for 1 m AlPO₄, so it exhibits the highest freezing point depression. Thus option C is correct."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

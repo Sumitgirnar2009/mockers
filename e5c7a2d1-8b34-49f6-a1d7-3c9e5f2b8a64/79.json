@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "79"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "What is IUPAC name of the following compound?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64/q79.png"
+  },
+  "Option1Stmt": {
+    "S": "1-Ethyl-2-hydroxy-3-methyl cyclobutane"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "2-Ethyl-1-hydroxy-4-methyl cyclobutane"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "2-Ethyl-4-methyl cyclobutanol"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "4-Ethyl-2-methyl cyclobutanol"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The compound is a cyclobutane ring with an OH group, an ethyl group, and a methyl group. The OH group gets the lowest possible locant, so the ring is numbered from the carbon bearing the OH group. The substituents are then named in alphabetical order with their positions.\n\nThus, the correct IUPAC name is 2-Ethyl-4-methyl cyclobutanol, which corresponds to option C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "6"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "When an observer moves towards a stationary source with velocity '$V_1$', the apparent frequency of emitted note is '$F_1$'. When observer moves away from stationary source with velocity '$V_1$' the apparent frequency is '$F_2$'. If '$v$' is velocity of sound in air and $\\frac{F_1}{F_2} = 2$, then $\\frac{v}{V_1}$ is equal to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "6"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "5"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "3"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "4"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let the actual frequency of the source be $f$.\n\nCase 1: Observer moves towards stationary source:\n$$F_1 = f \\left( \\frac{v + V_1}{v} \\right)$$\n\nCase 2: Observer moves away from stationary source:\n$$F_2 = f \\left( \\frac{v - V_1}{v} \\right)$$\n\nGiven $\\frac{F_1}{F_2} = 2$:\n$$\\frac{\\frac{v + V_1}{v}}{\\frac{v - V_1}{v}} = 2 \\Rightarrow \\frac{v + V_1}{v - V_1} = 2$$\n\nCross-multiplying:\n$$v + V_1 = 2(v - V_1)$$\n$$v + V_1 = 2v - 2V_1$$\n$$v + V_1 - 2v + 2V_1 = 0$$\n$$-v + 3V_1 = 0$$\n$$v = 3V_1$$\n\nThus $\\frac{v}{V_1} = 3$, which corresponds to option C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

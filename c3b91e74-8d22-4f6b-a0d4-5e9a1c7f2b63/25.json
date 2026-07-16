@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "25"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The apparent wavelength of light from a star moving away from the earth is 0.02% more than the actual wavelength. The velocity of star is ($c =$ velocity of light $= 3 \\times 10^8$ m/s)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "30 km/s"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "60 km/s"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "90 km/s"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "120 km/s"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a star moving away, the observed wavelength $\\lambda'$ is longer than the actual wavelength $\\lambda$ (redshift). Using the Doppler formula for light (non-relativistic):\n\n$$\\frac{\\Delta \\lambda}{\\lambda} = \\frac{v}{c}$$\n\nGiven $\\frac{\\Delta \\lambda}{\\lambda} = 0.02\\% = \\frac{0.02}{100} = 0.0002$.\n\nThus $0.0002 = \\frac{v}{3 \\times 10^8} \\Rightarrow v = 0.0002 \\times 3 \\times 10^8 = 6 \\times 10^4$ m/s = 60 km/s.\n\nHence the correct option is B: 60 km/s."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

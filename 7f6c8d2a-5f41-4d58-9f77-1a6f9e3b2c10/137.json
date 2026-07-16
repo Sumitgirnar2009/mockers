@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "137"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The distance between the lines represented by the equation $4x^2 + 4xy + y^2 - 6x - 3y - 4 = 0$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{1}{\\sqrt{5}}$ units"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{1}{5}$ units"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\sqrt{5}$ units"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "5 units"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The given equation is $4x^2 + 4xy + y^2 - 6x - 3y - 4 = 0$.\n\nWe can rewrite it as $(2x + y)^2 - 3(2x + y) - 4 = 0$.\n\nLet $t = 2x + y$. Then $t^2 - 3t - 4 = 0 \\Rightarrow (t - 4)(t + 1) = 0$.\n\nThus $2x + y - 4 = 0$ and $2x + y + 1 = 0$.\n\nThese are two parallel lines.\n\nDistance between them = $\\frac{|c_1 - c_2|}{\\sqrt{a^2 + b^2}} = \\frac{| -4 - 1 |}{\\sqrt{2^2 + 1^2}} = \\frac{5}{\\sqrt{5}} = \\sqrt{5}$ units.\n\nThus the correct option is C: $\\sqrt{5}$ units."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

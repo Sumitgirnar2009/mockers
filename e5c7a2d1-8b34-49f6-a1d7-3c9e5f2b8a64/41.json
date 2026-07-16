@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "41"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In an n-p-n transistor amplifier, the collector current is 8 mA. If 80% of the electrons from the emitter reach the collector, then ($\\alpha$ and $\\beta$ are current ratios)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "the base current is 20 mA."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "the emitter current is 2 mA."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\alpha = 0.8, \\beta = 4.0$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\alpha = 4.0, \\beta = 0.8$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: Collector current $I_C = 8$ mA.\n\n80% of electrons from emitter reach collector, so $\\alpha = \\frac{I_C}{I_E} = 0.8$.\n\nStep 1: Find emitter current $I_E$:\n\n$$\\alpha = \\frac{I_C}{I_E} \\Rightarrow 0.8 = \\frac{8}{I_E} \\Rightarrow I_E = \\frac{8}{0.8} = 10 \\text{ mA}$$\n\nStep 2: Find base current $I_B$:\n\n$$I_E = I_C + I_B \\Rightarrow I_B = I_E - I_C = 10 - 8 = 2 \\text{ mA}$$\n\nStep 3: Find $\\beta$:\n\n$$\\beta = \\frac{I_C}{I_B} = \\frac{8}{2} = 4.0$$\n\nThus $\\alpha = 0.8$ and $\\beta = 4.0$, which corresponds to option C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "126"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In $\\triangle ABC$, with usual notations, $a \\cos B = b \\cos A$, $a \\cos C \\neq c \\cos A$ then area of $\\triangle ABC$ in sq. units is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{c}{2}\\sqrt{4a^2 - b^2}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{c}{4}\\sqrt{4a^2 - c^2}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{b}{2}\\sqrt{4b^2 - c^2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{b}{4}\\sqrt{4b^2 - c^2}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $a \\cos B = b \\cos A$\n\nUsing cosine rule: $\\cos B = \\frac{a^2 + c^2 - b^2}{2ac}$ and $\\cos A = \\frac{b^2 + c^2 - a^2}{2bc}$.\n\nSubstituting:\n\n$$a \\cdot \\frac{a^2 + c^2 - b^2}{2ac} = b \\cdot \\frac{b^2 + c^2 - a^2}{2bc}$$\n\nSimplifying:\n\n$$\\frac{a^2 + c^2 - b^2}{2c} = \\frac{b^2 + c^2 - a^2}{2c}$$\n\n$$a^2 + c^2 - b^2 = b^2 + c^2 - a^2$$\n\n$$a^2 - b^2 = b^2 - a^2$$\n\n$$2a^2 = 2b^2 \\Rightarrow a^2 = b^2$$\n\nSince sides are positive, $a = b$.\n\nNow, area of triangle = $\\frac{1}{2} ab \\sin C = \\frac{1}{2} a^2 \\sin C$  ... (i)\n\nUsing cosine rule for $c$:\n\n$$c^2 = a^2 + b^2 - 2ab \\cos C = 2a^2 - 2a^2 \\cos C$$\n\n$$\\cos C = \\frac{2a^2 - c^2}{2a^2}$$\n\nNow, $\\sin^2 C = 1 - \\cos^2 C$:\n\n$$\\sin^2 C = 1 - \\left(\\frac{2a^2 - c^2}{2a^2}\\right)^2$$\n\n$$= \\frac{4a^4 - (4a^4 - 4a^2c^2 + c^4)}{4a^4} = \\frac{4a^2c^2 - c^4}{4a^4}$$\n\n$$\\sin C = \\frac{c\\sqrt{4a^2 - c^2}}{2a^2}$$\n\nSubstituting in (i):\n\nArea = $\\frac{1}{2} a^2 \\cdot \\frac{c\\sqrt{4a^2 - c^2}}{2a^2} = \\frac{c}{4}\\sqrt{4a^2 - c^2}$\n\nFinal Answer: $$\\boxed{\\frac{c}{4}\\sqrt{4a^2 - c^2}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

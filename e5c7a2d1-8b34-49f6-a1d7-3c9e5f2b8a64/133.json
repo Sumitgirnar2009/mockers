@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "133"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $(a + bx)e^{\\frac{y}{x}} = x$, then $x^3 \\frac{d^2y}{dx^2}$ is equal to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\left( y \\frac{dy}{dx} - x \\right)^2$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\left( x \\frac{dy}{dx} - y \\right)^2$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\left( x \\frac{dy}{dx} + y \\right)^2$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\left( y \\frac{dy}{dx} + x \\right)^2$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $(a + bx) e^{y/x} = x \\Rightarrow e^{y/x} = \\frac{x}{a+bx}$.\n\nTaking log on both sides:\n\n$$\\frac{y}{x} = \\log x - \\log(a + bx)$$\n\nDifferentiate w.r.t. $x$:\n\n$$\\frac{x \\frac{dy}{dx} - y}{x^2} = \\frac{1}{x} - \\frac{b}{a + bx}$$\n\n$$x \\frac{dy}{dx} - y = \\frac{ax}{a + bx} \\quad \\text{(i)}$$\n\nDifferentiate (i) again w.r.t. $x$:\n\n$$x \\frac{d^2y}{dx^2} + \\frac{dy}{dx} - \\frac{dy}{dx} = \\frac{a^2}{(a + bx)^2}$$\n\n$$x \\frac{d^2y}{dx^2} = \\frac{a^2}{(a + bx)^2}$$\n\nMultiply both sides by $x^2$:\n\n$$x^3 \\frac{d^2y}{dx^2} = \\left( \\frac{ax}{a + bx} \\right)^2$$\n\nUsing (i): $\\frac{ax}{a + bx} = x \\frac{dy}{dx} - y$.\n\nThus, $x^3 \\frac{d^2y}{dx^2} = \\left( x \\frac{dy}{dx} - y \\right)^2$.\n\nFinal Answer: $$\\boxed{\\left( x \\frac{dy}{dx} - y \\right)^2}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

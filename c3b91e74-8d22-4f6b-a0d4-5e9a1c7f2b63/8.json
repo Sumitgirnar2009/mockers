@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "8"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Four polaroids are placed such that the optic axis of each is inclined at an angle of $30^\\circ$ to the optic axis of the preceding one. If unpolarised light of intensity $I_0$ falls on the first polaroid, the intensity of light transmitted from the fourth polaroid is ($\\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{9I_0}{32}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{27I_0}{128}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{35I_0}{128}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{27I_0}{32}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "According to Malus' law, $I = I_0 \\cos^2 \\theta$.\n\nAfter first polaroid (unpolarised light): $I_1 = \\frac{I_0}{2}$.\n\nAfter second polaroid: $I_2 = I_1 \\cos^2 30^\\circ = \\frac{I_0}{2} \\times \\left(\\frac{\\sqrt{3}}{2}\\right)^2 = \\frac{I_0}{2} \\times \\frac{3}{4} = \\frac{3I_0}{8}$.\n\nAfter third polaroid: $I_3 = I_2 \\cos^2 30^\\circ = \\frac{3I_0}{8} \\times \\frac{3}{4} = \\frac{9I_0}{32}$.\n\nAfter fourth polaroid: $I_4 = I_3 \\cos^2 30^\\circ = \\frac{9I_0}{32} \\times \\frac{3}{4} = \\frac{27I_0}{128}$.\n\nThus the correct option is B: $\\frac{27I_0}{128}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "72"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "What is order and molecularity of following reaction? $$\\mathrm{NO_2(g) + NO_2(g) \\rightarrow 2NO(g) + O_2(g)}$$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "order 1, molecularity 2"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "order 2, molecularity 2"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "order 2, molecularity 3"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "order zero, molecularity 2"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given reaction: $\\mathrm{NO_2(g) + NO_2(g) \\rightarrow 2NO(g) + O_2(g)}$\n\nMolecularity is the number of reactant molecules taking part in an elementary step. Here, 2 molecules of NO$_2$ are reacting, so molecularity = 2 (bimolecular).\n\nThe experimentally determined rate law for this reaction is: Rate = $k[\\mathrm{NO_2}]^2$.\n\nThus order = 2.\n\nTherefore, order = 2 and molecularity = 2, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

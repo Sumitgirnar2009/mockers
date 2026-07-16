@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "41"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In Young's double slit experiment, for the $n$-th dark fringe ($n = 1, 2, 3 \\dots$) the phase difference of the interfering waves in radian will be"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$n \\frac{\\pi}{2}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$(2n + 1)\\pi$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$(2n - 1)\\pi$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$(2n - 1) \\frac{\\pi}{2}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For the $n$-th dark fringe in Young's double slit experiment, the condition for destructive interference is:\n\nPath difference = $\\left(n - \\frac{1}{2}\\right) \\lambda$, where $n = 1, 2, 3, \\dots$\n\nThe phase difference $\\Delta \\phi$ is given by:\n\n$$\\Delta \\phi = \\frac{2\\pi}{\\lambda} \\times \\text{path difference} = \\frac{2\\pi}{\\lambda} \\left(n - \\frac{1}{2}\\right) \\lambda$$\n\n$$= 2\\pi \\left(n - \\frac{1}{2}\\right) = 2n\\pi - \\pi = (2n - 1)\\pi$$\n\nThus the correct option is C: $(2n - 1)\\pi$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

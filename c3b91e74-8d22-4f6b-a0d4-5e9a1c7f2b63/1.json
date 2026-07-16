@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "1"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Two raindrops reach the earth with different terminal velocities having the ratio 9 : 4. The ratio of their volumes is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{8}{27}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{9}{4}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{3}{2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{27}{8}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The terminal velocity is given by:\n\n$$V_T = \\frac{2}{9} \\frac{(\\rho - \\sigma)r^2 g}{\\eta}$$\n\nThus, $V_T \\propto r^2$.\n\nGiven $\\frac{V_{T1}}{V_{T2}} = \\frac{9}{4}$, we have:\n\n$$\\frac{r_1^2}{r_2^2} = \\frac{9}{4} \\quad \\Rightarrow \\quad \\frac{r_1}{r_2} = \\frac{3}{2}$$\n\nVolume of a sphere is $V = \\frac{4}{3} \\pi r^3$, so:\n\n$$\\frac{V_1}{V_2} = \\left(\\frac{r_1}{r_2}\\right)^3 = \\left(\\frac{3}{2}\\right)^3 = \\frac{27}{8}$$\n\nThus the correct option is D: $\\frac{27}{8}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

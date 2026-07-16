@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "98"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Calculate the molar mass of an element if it forms fcc unit cell structure. [mass of unit cell = $1.8 \\times 10^{-22}$ g, $N_A = 6.022 \\times 10^{23}$ mol$^{-1}$]"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "27.0 g mol$^{-1}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "24.4 g mol$^{-1}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "21.0 g mol$^{-1}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "30.2 g mol$^{-1}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "In fcc lattice, number of atoms per unit cell = 4.\n\nMass of unit cell = $1.8 \\times 10^{-22}$ g.\n\nMass of one atom = $\\frac{1.8 \\times 10^{-22}}{4} = 0.45 \\times 10^{-22}$ g.\n\nMolar mass = mass of one atom × Avogadro's number:\n\n$$M = (0.45 \\times 10^{-22}) \\times (6.022 \\times 10^{23})$$\n\n$$= 0.45 \\times 6.022 \\times 10^{1} = 2.7099 \\times 10 = 27.099 \\approx 27.0 \\text{ g mol}^{-1}$$\n\nThus the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

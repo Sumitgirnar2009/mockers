@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "110"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Let $\\vec{a}$ and $\\vec{c}$ be unit vectors at an angle $\\frac{\\pi}{3}$ with each other. If $$(\\vec{a} \\times (\\vec{b} \\times \\vec{c})) \\cdot (\\vec{a} \\times \\vec{c}) = 5,$$ then $\\left| \\vec{a} \\vec{b} \\vec{c} \\right| =$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "10"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "-10"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "9"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "-9"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $|\\vec{a}| = |\\vec{c}| = 1$ and $\\vec{a} \\cdot \\vec{c} = \\cos\\frac{\\pi}{3} = \\frac{1}{2}$.\n\nUsing vector triple product identity:\n$$\\vec{a} \\times (\\vec{b} \\times \\vec{c}) = (\\vec{a} \\cdot \\vec{c}) \\vec{b} - (\\vec{a} \\cdot \\vec{b}) \\vec{c}$$\n\nDot both sides with $\\vec{a} \\times \\vec{c}$:\n$$(\\vec{a} \\times (\\vec{b} \\times \\vec{c})) \\cdot (\\vec{a} \\times \\vec{c}) = (\\vec{a} \\cdot \\vec{c}) (\\vec{b} \\cdot (\\vec{a} \\times \\vec{c})) - (\\vec{a} \\cdot \\vec{b}) (\\vec{c} \\cdot (\\vec{a} \\times \\vec{c}))$$\n\nSince $\\vec{c} \\cdot (\\vec{a} \\times \\vec{c}) = 0$, the second term vanishes.\n\nThus:\n$$(\\vec{a} \\cdot \\vec{c}) \\, \\vec{b} \\cdot (\\vec{a} \\times \\vec{c}) = 5$$\n\nNow, $\\vec{b} \\cdot (\\vec{a} \\times \\vec{c}) = [\\vec{b}, \\vec{a}, \\vec{c}] = -[\\vec{a}, \\vec{b}, \\vec{c}]$.\n\nSo:\n$$\\frac{1}{2} \\times (-[\\vec{a}, \\vec{b}, \\vec{c}]) = 5$$\n\n$$[\\vec{a}, \\vec{b}, \\vec{c}] = -10$$\n\nTherefore, the scalar triple product (determinant) is $-10$, which corresponds to option B.\n\nFinal Answer: $\\boxed{-10}$"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

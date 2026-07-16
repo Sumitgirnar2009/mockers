@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "23"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In LCR series circuit, $R = 18\\Omega$ and impedance $33\\Omega$. An r.m.s. voltage of 220 V is applied across the circuit. The true power consumed in a.c. circuit is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "400 W"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "600 W"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "800 W"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "900 W"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $R = 18\\Omega$, $Z = 33\\Omega$, $V_{\\text{rms}} = 220$ V.\n\n$$I_{\\text{rms}} = \\frac{V_{\\text{rms}}}{Z} = \\frac{220}{33} = \\frac{20}{3} \\text{ A}$$\n\n$$P = I_{\\text{rms}}^2 R = \\left(\\frac{20}{3}\\right)^2 \\times 18 = \\frac{400}{9} \\times 18 = 800 \\text{ W}$$\n\nThus the correct option is C: 800 W."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

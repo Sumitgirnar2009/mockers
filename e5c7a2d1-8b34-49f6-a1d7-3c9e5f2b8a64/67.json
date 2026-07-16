@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "67"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which from following is a thermosetting polymer?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Polyvinyl"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Polystyrene"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Ureaformaldehyde"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Nylon 6,6"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Thermosetting polymers become rigid on heating and cannot be reshaped upon reheating.\n\n- Polyvinyl (PVC) and Polystyrene are thermoplastics — they soften on heating.\n- Nylon 6,6 is also a thermoplastic.\n- Ureaformaldehyde is a thermosetting polymer, formed by condensation of urea and formaldehyde.\n\nHence, the correct option is C: Ureaformaldehyde."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "58"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If concentration of reactant 'A' is increased by 10 times, rate of reaction increases 100 times. What is order of reaction if rate law is $r = k[A]^n$?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "1.5"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "2"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "3"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $r = k[A]^n$.\n\nInitial: $r_1 = k[A]^n$.\n\nWhen $[A]$ is increased 10 times: $r_2 = k(10[A])^n = k \\times 10^n \\times [A]^n$.\n\nGiven $\\frac{r_2}{r_1} = 100$:\n\n$$\\frac{k \\times 10^n \\times [A]^n}{k[A]^n} = 100$$\n\n$$10^n = 100 = 10^2$$\n\n$$n = 2$$\n\nThus the order of reaction is 2, which corresponds to option C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

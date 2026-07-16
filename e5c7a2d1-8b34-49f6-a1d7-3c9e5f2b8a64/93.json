@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "93"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify the product when magnesium burns in air."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "MgO only"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Mg₃N₂ only"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Mg₂NO₃"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "MgO and Mg₃N₂"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: When magnesium burns in air, it reacts with both oxygen and nitrogen present in air.\n\nStep 2: Reaction with oxygen:\n\n2Mg + O₂ → 2MgO (Magnesium oxide)\n\nStep 3: Reaction with nitrogen:\n\n3Mg + N₂ → Mg₃N₂ (Magnesium nitride)\n\nStep 4: Therefore, the products formed are a mixture of magnesium oxide (MgO) and magnesium nitride (Mg₃N₂).\n\nThus, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "88"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Calculate the total number of tetrahedral and octahedral voids formed in 0.6 mol of a compound if it forms hcp structure."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$3.613 \\times 10^{24}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$7.226 \\times 10^{24}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$1.084 \\times 10^{24}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$2.913 \\times 10^{24}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Number of atoms in 0.6 mol:\n\n$$n = 0.6 \\times 6.022 \\times 10^{23} = 3.6132 \\times 10^{23} \\text{ atoms}$$\n\nIn hcp structure:\n\n$$\\text{Octahedral voids} = \\text{Number of atoms} = 3.6132 \\times 10^{23}$$\n\n$$\\text{Tetrahedral voids} = 2 \\times \\text{Number of atoms} = 2 \\times 3.6132 \\times 10^{23} = 7.2264 \\times 10^{23}$$\n\nTotal voids:\n\n$$= 7.2264 \\times 10^{23} + 3.6132 \\times 10^{23} = 10.8396 \\times 10^{23} = 1.084 \\times 10^{24}$$\n\nThus the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

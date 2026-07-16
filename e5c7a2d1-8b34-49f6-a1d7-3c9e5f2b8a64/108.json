@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "108"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The maximum value and minimum value of the volume of the parallelepiped having coterminous edges $\\hat{i} + x\\hat{j} + \\hat{k}$, $\\hat{j} + x\\hat{k}$ and $x\\hat{i} + \\hat{k}$ are respectively"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{1}{3\\sqrt{3}} + 1, \\frac{-1}{3\\sqrt{3}} + 1$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{2}{3\\sqrt{3}} + 1, \\frac{-2}{3\\sqrt{3}} + 1$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{1}{\\sqrt{3}} + 1, \\frac{-1}{\\sqrt{3}} + 1$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{2}{\\sqrt{3}} + 1, \\frac{-2}{\\sqrt{3}} + 1$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let\n$$\\vec{a} = \\hat{i} + x\\hat{j} + \\hat{k}$$\n$$\\vec{b} = \\hat{j} + x\\hat{k}$$\n$$\\vec{c} = x\\hat{i} + \\hat{k}$$\n\nVolume of parallelepiped is given by the scalar triple product:\n\n$$V = |[\\vec{a}\\,\\vec{b}\\,\\vec{c}]| = \\left| \\begin{vmatrix} 1 & x & 1 \\\\ 0 & 1 & x \\\\ x & 0 & 1 \\end{vmatrix} \\right|$$\n\nExpanding the determinant:\n$$= 1(1 - 0) - x(0 - x^2) + 1(0 - x)$$\n$$= 1 + x^3 - x$$\n\nSo, $f(x) = x^3 - x + 1$.\n\nFor maxima/minima, differentiate with respect to $x$:\n$$f'(x) = 3x^2 - 1$$\n\nSet $f'(x) = 0$:\n$$3x^2 - 1 = 0 \\Rightarrow x = \\pm \\frac{1}{\\sqrt{3}}$$\n\nSecond derivative: $f''(x) = 6x$.\n\nAt $x = \\frac{1}{\\sqrt{3}}$: $f'' > 0$ → minimum.\nAt $x = -\\frac{1}{\\sqrt{3}}$: $f'' < 0$ → maximum.\n\nNow, evaluate $f(x)$ at these points:\n\nMaximum value:\n$$f\\left(-\\frac{1}{\\sqrt{3}}\\right) = 1 + \\left(-\\frac{1}{\\sqrt{3}}\\right)^3 - \\left(-\\frac{1}{\\sqrt{3}}\\right) = 1 - \\frac{1}{3\\sqrt{3}} + \\frac{1}{\\sqrt{3}} = 1 + \\frac{2}{3\\sqrt{3}}$$\n\nMinimum value:\n$$f\\left(\\frac{1}{\\sqrt{3}}\\right) = 1 + \\left(\\frac{1}{\\sqrt{3}}\\right)^3 - \\frac{1}{\\sqrt{3}} = 1 + \\frac{1}{3\\sqrt{3}} - \\frac{1}{\\sqrt{3}} = 1 - \\frac{2}{3\\sqrt{3}}$$\n\nThus, the maximum and minimum values are $1 + \\frac{2}{3\\sqrt{3}}$ and $1 - \\frac{2}{3\\sqrt{3}}$ respectively.\n\n$$\\boxed{\\text{Option B}}$$"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

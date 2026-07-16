@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "46"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A parallel plate capacitor with plate area A and plate separation d is charged by constant current I. A plane surface of area $\\frac{A}{2}$, parallel to the plates is drawn simultaneously between the plates. The displacement current through this area is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$I$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{I}{2}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{I}{4}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{1}{8}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Displacement current between the plates is equal to the conduction (charging) current I for the full area. The electric field and flux are uniform between the plates, so the displacement current through any surface is proportional to the area of that surface.\n\nDisplacement current $I_d = \\frac{A/2}{A} \\times I = \\frac{1}{2} I$.\n\n$$\\therefore I_d = \\frac{I}{2}$$\n\nThus the correct option is B: $\\frac{I}{2}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

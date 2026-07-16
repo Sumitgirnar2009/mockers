@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "97"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify the reagent 'R' used in the following reaction. $$\\text{Ketone} \\xrightarrow{R} \\text{Semicarbazone}$$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\mathrm{NH_2OH}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\mathrm{NH_2 - NH - CONH_2}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\mathrm{NH_2 - NH - C_6H_5}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\mathrm{NH_2 - NH_2}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Concept: Semicarbazone is formed when a ketone or aldehyde reacts with semicarbazide.\n\nSemicarbazide has the formula $\\mathrm{NH_2 - NH - CONH_2}$.\n\n- Option A: $\\mathrm{NH_2OH}$ is hydroxylamine, which forms oximes.\n- Option B: $\\mathrm{NH_2 - NH - CONH_2}$ is semicarbazide, which forms semicarbazones.\n- Option C: $\\mathrm{NH_2 - NH - C_6H_5}$ is phenylhydrazine, which forms phenylhydrazones.\n- Option D: $\\mathrm{NH_2 - NH_2}$ is hydrazine, which forms hydrazones.\n\nHence, the correct reagent is semicarbazide, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64/q97-sol.png"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "106"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The general solution of $\\frac{dy}{dx} = 2xye^{x^2}$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$y = e^{-e^{x^2}}$, where $c$ is the constant of integration"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$y = e^{-x^2}$, where $c$ is the constant of integration"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$y = c \\cdot e^{e^{x^2}}$, where $c$ is the constant of integration"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$y = e^{x^2}$, where $c$ is the constant of integration"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $$\\frac{dy}{dx} = 2xye^{x^2}$$\n\nStep 1: Separate the variables.\n$$\\frac{1}{y} \\, dy = 2x e^{x^2} \\, dx$$\n\nStep 2: Integrate both sides.\n$$\\int \\frac{1}{y} \\, dy = \\int 2x e^{x^2} \\, dx$$\n\nStep 3: Left-hand side integral.\n$$\\int \\frac{1}{y} \\, dy = \\log y$$\n\nStep 4: Right-hand side integral.\nPut $u = x^2$, so $du = 2x \\, dx$.\n$$\\int 2x e^{x^2} \\, dx = \\int e^u \\, du = e^u = e^{x^2}$$\n\nStep 5: Combine results.\n$$\\log y = e^{x^2} + C$$\n\nStep 6: Write constant in logarithmic form.\nLet $C = \\log c$, where $c$ is a new constant.\n$$\\log y = e^{x^2} + \\log c$$\n\nStep 7: Simplify.\n$$\\log y - \\log c = e^{x^2}$$\n$$\\log\\left(\\frac{y}{c}\\right) = e^{x^2}$$\n\nStep 8: Take antilog.\n$$\\frac{y}{c} = e^{e^{x^2}}$$\n$$y = c \\cdot e^{e^{x^2}}$$\n\nFinal Answer: $$\\boxed{y = c \\cdot e^{e^{x^2}}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

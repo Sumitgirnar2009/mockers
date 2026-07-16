@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "49"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Initially a rectangular coil with length vertical is moving out with constant velocity 'v' in a constant magnetic field 'B' towards right. Now the same coil is rotated through 90° in same plane in same magnetic field B and the coil is moving with same velocity v. The magnitude of induced e.m.f. is now"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "greater than initial induced e.m.f."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "less than initial induced e.m.f."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "equal to initial induced e.m.f."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "sometimes greater and sometimes less than initial induced e.m.f."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Magnetic Flux: The magnetic flux, written as φ, shows how much magnetic field goes through the coil. It is given by φ = BA cos θ, where:\n\n- B is the strength of the magnetic field,\n- A is the area of the coil,\n- θ is the angle between the magnetic field and the normal (an imaginary line perpendicular) to the coil's area.\n\nInduced e.m.f.: The e.m.f. (voltage) induced in the coil is found by how fast the magnetic flux changes. This is written as:\nInduced emf = -dφ/dt\n\nIf the coil is spinning or changing its angle in the magnetic field, the formula becomes:\nInduced emf = BAω sin θ\nwhere ω is the rate at which the coil is being rotated.\n\nAt θ = 90°, sin 90° = 1, so the induced e.m.f. is at its highest value.\n\nAfter the coil is turned another 90°, θ = 180°. At this angle, the direction between the coil's normal and the magnetic field has changed even more.\n\nSo, after rotating the coil by 90°, the size of the induced e.m.f. is now bigger than what it was at the start."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

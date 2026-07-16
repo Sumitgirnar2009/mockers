@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "48"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A particle oscillates in straight line simple harmonically with period 8 second and amplitude $4\\sqrt{2} \\, \\text{m}$. Particle starts from mean position. The ratio of the distance travelled by it in $1^{\\text{st}}$ second of its motion to that in $2^{\\text{nd}}$ second is ($\\sin 45^\\circ = \\frac{1}{\\sqrt{2}}, \\sin \\frac{\\pi}{2} = 1$)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$1 : 8$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$1 : 4$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$1 : 2$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$1 : (\\sqrt{2} - 1)$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For SHM starting from mean position, $x = A \\sin \\omega t$, where $\\omega = \\frac{2\\pi}{T} = \\frac{2\\pi}{8} = \\frac{\\pi}{4}$ rad/s.\n\nAt $t = 1$ s:\n$$x_1 = A \\sin\\left(\\frac{\\pi}{4} \\times 1\\right) = A \\sin 45^\\circ = \\frac{A}{\\sqrt{2}}$$\n\nAt $t = 2$ s:\n$$x_2 = A \\sin\\left(\\frac{\\pi}{4} \\times 2\\right) = A \\sin 90^\\circ = A$$\n\nDistance travelled in 1st second = $x_1 - 0 = \\frac{A}{\\sqrt{2}}$\n\nDistance travelled in 2nd second = $x_2 - x_1 = A - \\frac{A}{\\sqrt{2}} = A \\left(1 - \\frac{1}{\\sqrt{2}}\\right) = A \\left(\\frac{\\sqrt{2} - 1}{\\sqrt{2}}\\right)$\n\nRatio = $\\frac{A/\\sqrt{2}}{A(\\sqrt{2} - 1)/\\sqrt{2}} = \\frac{1}{\\sqrt{2} - 1} = 1 : (\\sqrt{2} - 1)$\n\nThus the correct option is D: $1 : (\\sqrt{2} - 1)$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

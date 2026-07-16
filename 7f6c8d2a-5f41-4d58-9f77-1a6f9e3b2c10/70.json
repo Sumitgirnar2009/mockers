@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "70"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The solubility of AgBr is $7.1 \\times 10^{-7}$ mol dm⁻³. Calculate its solubility product at the same temperature."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$7.08 \\times 10^{-13}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$3.67 \\times 10^{-13}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$5.89 \\times 10^{-13}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$5.04 \\times 10^{-13}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "AgBr dissociates as: AgBr(s) ⇌ Ag⁺(aq) + Br⁻(aq).\n\nIf solubility is S = 7.1 × 10⁻⁷ mol/dm³, then [Ag⁺] = S and [Br⁻] = S.\n\nKsp = [Ag⁺][Br⁻] = S × S = S² = (7.1 × 10⁻⁷)² = 5.04 × 10⁻¹³.\n\nThus the correct option is D: 5.04 × 10⁻¹³."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "131"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The function $f$ defined by $f(x) = (x + 2)e^{-x}$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "decreasing for all $x \\in \\mathbb{R}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "decreasing in $(-\\infty, -1)$ and increasing in $(-1, \\infty)$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "decreasing in $(-1, \\infty)$ and increasing in $(-\\infty, -1)$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "increasing for all $x \\in \\mathbb{R}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $f(x) = (x + 2)e^{-x}$.\n\nDifferentiate: $f'(x) = e^{-x} - e^{-x}(x + 2) = -e^{-x}(x + 1)$.\n\nFor $f$ to be increasing: $f'(x) > 0 \\Rightarrow -e^{-x}(x + 1) > 0 \\Rightarrow x + 1 < 0 \\Rightarrow x < -1$.\n\nThus, $f$ is increasing in $(-\\infty, -1)$.\n\nFor $f$ to be decreasing: $f'(x) < 0 \\Rightarrow -e^{-x}(x + 1) < 0 \\Rightarrow x + 1 > 0 \\Rightarrow x > -1$.\n\nThus, $f$ is decreasing in $(-1, \\infty)$.\n\nFinal Answer: The function is decreasing in $(-1, \\infty)$ and increasing in $(-\\infty, -1)$.\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

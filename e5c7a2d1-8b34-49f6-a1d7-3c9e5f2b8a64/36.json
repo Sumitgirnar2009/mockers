@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "36"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Two circular loops P and Q of radii 'r' and 'nr' are made respectively from a uniform wire. Moment of inertia of loop Q about its axis is 4 times that of loop P about its axis. The value of $n$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$(2)^{-2/3}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$(2)^{2/3}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\sqrt{2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$2^{1/3}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Moment of inertia of a circular loop about its axis is $I = m r^2$, where $m$ is mass and $r$ is radius.\n\nSince both loops are made from the same uniform wire, mass $m \\propto$ circumference $\\propto r$.\n\nThus $m = k r$ for some constant $k$.\n\nSo $I = (k r) r^2 = k r^3$.\n\nFor loop P: $I_P = k r^3$.\n\nFor loop Q: $I_Q = k (n r)^3 = k n^3 r^3$.\n\nGiven $I_Q = 4 I_P$:\n\n$$k n^3 r^3 = 4 k r^3 \\Rightarrow n^3 = 4 \\Rightarrow n = 4^{1/3} = (2^2)^{1/3} = 2^{2/3}$$\n\nThus the correct option is B: $(2)^{2/3}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

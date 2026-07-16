@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "112"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $\\vec{a}$ and $\\vec{b}$ are unit vectors and $\\theta$ is the angle between them, then $\\tan \\frac{\\theta}{2} =$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$|\\vec{a} - \\vec{b}|$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$|\\vec{a} + \\vec{b}|$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{|\\vec{a} + \\vec{b}|}{|\\vec{a} - \\vec{b}|}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{|\\vec{a} - \\vec{b}|}{|\\vec{a} + \\vec{b}|}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "$|\\vec{a} + \\vec{b}|^2 = |\\vec{a}|^2 + 2\\vec{a}\\cdot\\vec{b} + |\\vec{b}|^2 = 1 + 2\\cos\\theta + 1 = 2(1+\\cos\\theta)$.\n\n$|\\vec{a} - \\vec{b}|^2 = 1 - 2\\cos\\theta + 1 = 2(1-\\cos\\theta)$.\n\n$$\\frac{|\\vec{a} - \\vec{b}|}{|\\vec{a} + \\vec{b}|} = \\sqrt{\\frac{2(1-\\cos\\theta)}{2(1+\\cos\\theta)}} = \\sqrt{\\frac{1-\\cos\\theta}{1+\\cos\\theta}} = \\sqrt{\\frac{2\\sin^2(\\theta/2)}{2\\cos^2(\\theta/2)}} = \\tan\\frac{\\theta}{2}$$\n\nThus the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

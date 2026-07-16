@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "146"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The shaded region in the following figure represents a solution set of $$x - y = 0, \\quad x + y = 0$$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10/q146.png"
+  },
+  "Option1Stmt": {
+    "S": "$x - y \\geq 0, x + y \\geq 0$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$x - y \\leq 0, x + y \\geq 0$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$x - y \\geq 0, x + y \\leq 0$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$x - y \\leq 0, x + y \\leq 0$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The shaded region lies on the right side of the lines $x + y = 0$ and $x - y = 0$. Therefore, the inequalities are $x + y \\geq 0$ and $x - y \\geq 0$, which corresponds to option A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

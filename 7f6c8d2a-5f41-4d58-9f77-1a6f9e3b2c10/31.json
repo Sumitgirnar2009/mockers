@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "31"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The coefficient of mutual induction is 2 H and induced e.m.f. across secondary is 2 kV. Current in the primary is reduced from 6 A to 3 A. The time required for the change of current is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$4 \\times 10^{-3} \\, \\text{s}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$6 \\times 10^{-3} \\, \\text{s}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$2 \\times 10^{-3} \\, \\text{s}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$3 \\times 10^{-3} \\, \\text{s}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given:\n\nCoefficient of mutual induction, $M = 2$ H\n\nInduced emf, $E = 2$ kV $= 2000$ V\n\nChange in primary current, $\\Delta I = 6 - 3 = 3$ A\n\nThe induced emf due to mutual induction is given by:\n\n$$E = M \\frac{\\Delta I}{\\Delta t}$$\n\nRearranging for $\\Delta t$:\n\n$$\\Delta t = M \\frac{\\Delta I}{E}$$\n\nSubstitute the values:\n\n$$\\Delta t = \\frac{2 \\times 3}{2000} = \\frac{6}{2000} = 0.003 \\text{ s} = 3 \\times 10^{-3} \\text{ s}$$\n\nThus the time required is $3 \\times 10^{-3}$ s, which corresponds to option D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

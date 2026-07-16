@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "100"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Choose a false statement regarding the properties of sodium hydroxide."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "It is highly water soluble."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "It absorbs atmospheric CO₂ to form Na₂CO₃."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "The solution of NaOH turns blue litmus red."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "NaOH is a white deliquescent solid."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Concept: Sodium hydroxide (NaOH) is a strong base with well-known properties.\n\n- Option A: NaOH is highly soluble in water — true.\n- Option B: NaOH absorbs CO₂ from the atmosphere to form Na₂CO₃ — true.\n- Option C: NaOH solution is basic, so it turns red litmus blue, not blue litmus red. This statement is false.\n- Option D: NaOH is a white deliquescent solid (absorbs moisture from air) — true.\n\nHence, the false statement is option C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

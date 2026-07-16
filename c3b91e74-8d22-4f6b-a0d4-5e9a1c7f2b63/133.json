@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "133"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If the curve $y = ax^2 - 6x + b$ passes through $(0, 4)$ and has its tangent parallel to the X-axis at $x = \\frac{3}{2}$, then the values of $a$ and $b$ respectively are"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$-2, -4$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$2, 4$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$-2, 4$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$2, -4$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given, $y = ax^2 - 6x + b$.\n\n$$\\frac{dy}{dx} = 2ax - 6$$\n\nAt $x = \\frac{3}{2}$, the tangent is parallel to X-axis, so slope = 0:\n\n$$\\left( \\frac{dy}{dx} \\right)_{x=3/2} = 2a \\left( \\frac{3}{2} \\right) - 6 = 3a - 6 = 0 \\Rightarrow a = 2$$\n\nThe curve passes through $(0, 4)$:\n\n$$4 = a(0)^2 - 6(0) + b \\Rightarrow b = 4$$\n\nThus $a = 2, b = 4$, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "87"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which from following statement is correct regarding emf of cell for the cell reaction, $$\\mathrm{Cd_{(s)} + Cu_{(aq)}^{2+} \\rightarrow Cd_{(aq)}^{2+} + Cu_{(s)}}$$ if concentration of Cd²⁺ is 10 times greater than concentration of Cu²⁺ at 298 K."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "greater than $E^\\circ_{\\text{cell}}$ by 0.0592 V"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "less than $E^\\circ_{\\text{cell}}$ by 0.0592 V"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "greater than $E^\\circ_{\\text{cell}}$ by 0.0296 V"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "less than $E^\\circ_{\\text{cell}}$ by 0.0296 V"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For the cell reaction: $\\mathrm{Cd_{(s)} + Cu_{(aq)}^{2+} \\rightarrow Cd_{(aq)}^{2+} + Cu_{(s)}}$.\n\nNernst equation: $E_{\\text{cell}} = E_{\\text{cell}}^\\circ - \\frac{0.0591}{n} \\log \\frac{[\\mathrm{Cd^{2+}}]}{[\\mathrm{Cu^{2+}}]}$.\n\nHere $n = 2$.\n\nGiven $[\\mathrm{Cd^{2+}}] = 10 \\times [\\mathrm{Cu^{2+}}]$, so $\\frac{[\\mathrm{Cd^{2+}}]}{[\\mathrm{Cu^{2+}}]} = 10$.\n\n$$E_{\\text{cell}} = E_{\\text{cell}}^\\circ - \\frac{0.0591}{2} \\log(10) = E_{\\text{cell}}^\\circ - 0.02955 \\approx E_{\\text{cell}}^\\circ - 0.0296$$\n\nThus $E_{\\text{cell}}$ is less than $E_{\\text{cell}}^\\circ$ by 0.0296 V, which corresponds to option D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

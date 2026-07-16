@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "24"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A child stands on a weighing machine inside a lift. When the lift is going down with acceleration $g/3$, the machine shows a reading 20 N. When the lift goes upwards with acceleration $g/3$, the reading would be ($g =$ gravitational acceleration)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "40 N"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "30 N"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "20 N"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "50 N"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "When lift goes down with acceleration $a = g/3$:\n\nReading $R_1 = m(g - a) = m(g - g/3) = m(2g/3) = 20$ N.\n\nWhen lift goes up with same acceleration:\n\nReading $R_2 = m(g + a) = m(g + g/3) = m(4g/3)$.\n\n$$\\frac{R_2}{R_1} = \\frac{4g/3}{2g/3} = 2 \\Rightarrow R_2 = 2 \\times 20 = 40 \\text{ N}$$\n\nThus the correct option is A: 40 N."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

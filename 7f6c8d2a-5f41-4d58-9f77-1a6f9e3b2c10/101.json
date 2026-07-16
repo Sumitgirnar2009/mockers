@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "101"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The general solution of $$x(x-1) \\frac{dy}{dx} = x^3(2x-1) + (x-2)y$$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$y(x-1) = x^3 + c(x-1)$, where $c$ is the constant of integration."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$y = x^3(x-1) + c$, where $c$ is the constant of integration."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$y(x-1) = x^3(x-1) + cx^2$, where $c$ is the constant of integration."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$y(x-1) = x^3(x-1) + c$, where $c$ is the constant of integration."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The given equation is:\n\n$$x(x-1) \\frac{dy}{dx} = x^3(2x-1) + (x-2)y$$\n\nRearranging:\n\n$$\\frac{dy}{dx} - \\frac{x-2}{x(x-1)} y = \\frac{x^2(2x-1)}{x-1}$$\n\nThis is of the form $\\frac{dy}{dx} + Py = Q$.\n\nHere $P = -\\frac{x-2}{x(x-1)} = \\frac{2-x}{x(x-1)}$.\n\nUsing partial fractions: $\\frac{2-x}{x(x-1)} = \\frac{A}{x} + \\frac{B}{x-1}$.\n\nSolving: $2-x = A(x-1) + Bx \\Rightarrow A = -2, B = 1$.\n\nThus $P = -\\frac{2}{x} + \\frac{1}{x-1}$.\n\nIntegrating factor:\n\n$$\\text{I.F.} = e^{\\int P dx} = e^{-2\\ln x + \\ln(x-1)} = e^{\\ln\\left(\\frac{x-1}{x^2}\\right)} = \\frac{x-1}{x^2}$$\n\nMultiplying through by I.F.:\n\n$$y \\cdot \\frac{x-1}{x^2} = \\int \\frac{x-1}{x^2} \\cdot \\frac{x^2(2x-1)}{x-1} dx + c = \\int (2x-1) dx + c = x^2 - x + c$$\n\nThus:\n\n$$y(x-1) = x^4 - x^3 + cx^2 = x^3(x-1) + cx^2$$\n\nHence the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

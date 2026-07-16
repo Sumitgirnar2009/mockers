@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "20"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If maximum energy is stored in a capacitor at $t = 0$ then the time after which, current in the circuit will be maximum is "
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64/q20.png"
+  },
+  "Option1Stmt": {
+    "S": "$\\pi \\times 10^{-3}$ s"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$2\\pi \\times 10^{-3}$ s"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$2\\pi \\times 10^{-4}$ s"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\pi \\times 10^{-4}$ s"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "At $t=0$, charge is maximum: $q = q_0 \\cos\\omega_0 t$.\n\nCurrent $i = \\frac{dq}{dt} = q_0\\omega_0 \\sin\\omega_0 t = i_0 \\sin\\omega_0 t$.\n\nCurrent is maximum when $\\sin\\omega_0 t = 1 \\Rightarrow \\omega_0 t = \\frac{\\pi}{2} \\Rightarrow t = \\frac{\\pi}{2\\omega_0}$.\n\n$\\omega_0 = \\frac{1}{\\sqrt{LC}} = \\frac{1}{\\sqrt{16 \\times 10^{-3} \\times 10 \\times 10^{-6}}} = \\frac{1}{\\sqrt{16 \\times 10^{-8}}} = \\frac{1}{4 \\times 10^{-4}} = 2500$ rad/s.\n\n$t = \\frac{\\pi}{2 \\times 2500} = \\frac{\\pi}{5000} = 2\\pi \\times 10^{-4}$ s.\n\nThus the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "147"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $\\vec{a} = \\frac{1}{\\sqrt{10}} (3\\hat{i} + \\hat{k})$ and $\\vec{b} = \\frac{1}{7} (2\\hat{i} + 3\\hat{j} - 6\\hat{k})$ then the value of $(2\\vec{a} - \\vec{b}) \\cdot [(\\vec{a} \\times \\vec{b}) \\times (\\vec{a} + 2\\vec{b})]$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{1}{5}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$-5$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$5$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$-\\frac{1}{5}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Here, $\\vec{a} \\cdot \\vec{b} = 0$ and $|\\vec{a}| = |\\vec{b}| = 1$.\n\n$\\therefore \\vec{a}$ and $\\vec{b}$ are perpendicular unit vectors.\n\nNow, $(2\\vec{a} - \\vec{b}) \\cdot [(\\vec{a} \\times \\vec{b}) \\times (\\vec{a} + 2\\vec{b})]$\n\nUsing vector identity: $(\\vec{a} \\times \\vec{b}) \\times \\vec{c} = (\\vec{a} \\cdot \\vec{c})\\vec{b} - (\\vec{b} \\cdot \\vec{c})\\vec{a}$.\n\n$= (2\\vec{a} - \\vec{b}) \\cdot [(\\vec{a} \\cdot (\\vec{a} + 2\\vec{b}))\\vec{b} - (\\vec{b} \\cdot (\\vec{a} + 2\\vec{b}))\\vec{a}]$\n\nSince $\\vec{a} \\cdot \\vec{b} = 0$, $|\\vec{a}| = |\\vec{b}| = 1$:\n\n$\\vec{a} \\cdot (\\vec{a} + 2\\vec{b}) = 1$, $\\vec{b} \\cdot (\\vec{a} + 2\\vec{b}) = 2$.\n\nSo expression = $(2\\vec{a} - \\vec{b}) \\cdot [\\vec{b} - 2\\vec{a}] = -(2\\vec{a} - \\vec{b}) \\cdot (2\\vec{a} - \\vec{b}) = -|2\\vec{a} - \\vec{b}|^2$.\n\n$|2\\vec{a} - \\vec{b}|^2 = 4|\\vec{a}|^2 + |\\vec{b}|^2 - 4\\vec{a}\\cdot\\vec{b} = 4 + 1 = 5$.\n\nThus the value is $-5$, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

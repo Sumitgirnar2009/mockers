@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "97"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "What is the IUPAC name of following compound? (OH attached to cyclopentane ring with two methyl substituents)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63/q97.png"
+  },
+  "Option1Stmt": {
+    "S": "2,5-Dimethylpentan-1-ol"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "1,3-Dimethylpentan-2-ol"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "2,5-Dimethylcyclopentanol"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "1,3-Dimethylcyclopentan-2-ol"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The compound is a cyclopentane ring with two methyl groups and one hydroxyl group. The correct IUPAC name is 2,5-dimethylcyclopentanol, which corresponds to option C."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63/q97-sol.png"
+  }
+}

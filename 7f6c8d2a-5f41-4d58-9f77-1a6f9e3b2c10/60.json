@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "60"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which from following process involves zero work done?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Isobaric expansion of gas."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Adiabatic compression of gas."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Isothermal expansion of gas."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Free expansion of gas."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Work done by a gas is given by $W = \\int P \\, dV$.\n\n- Isobaric expansion: $P$ constant, $\\Delta V > 0$, so $W > 0$.\n- Adiabatic compression: $\\Delta V < 0$, so $W$ is negative (work done on the gas).\n- Isothermal expansion: $\\Delta V > 0$, so $W > 0$.\n- Free expansion: Gas expands into vacuum. External pressure $P_{\\text{ext}} = 0$, so work done $W = 0$.\n\nThus zero work is done in free expansion of a gas, which corresponds to option D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

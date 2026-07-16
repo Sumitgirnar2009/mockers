@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "143"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Two numbers are selected at random, without replacement from the first 6 positive integers. Let $X$ denote the larger of the two numbers. Then $E(X) =$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{14}{3}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{3}{14}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{14}{5}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{15}{41}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "$X$ can take values 2, 3, 4, 5, 6. Total ways = ${}^6C_2 = 15$.\n\n$P(X=2) = \\frac{1}{15}$ (choose 2 and one number less than 2, i.e., 1)\n\n$P(X=3) = \\frac{2}{15}$ (choose 3 and one from {1, 2})\n\n$P(X=4) = \\frac{3}{15}$ (choose 4 and one from {1, 2, 3})\n\n$P(X=5) = \\frac{4}{15}$ (choose 5 and one from {1, 2, 3, 4})\n\n$P(X=6) = \\frac{5}{15}$ (choose 6 and one from {1, 2, 3, 4, 5})\n\n$$E(X) = 2 \\times \\frac{1}{15} + 3 \\times \\frac{2}{15} + 4 \\times \\frac{3}{15} + 5 \\times \\frac{4}{15} + 6 \\times \\frac{5}{15}$$\n\n$$= \\frac{2 + 6 + 12 + 20 + 30}{15} = \\frac{70}{15} = \\frac{14}{3}$$\n\nThus the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

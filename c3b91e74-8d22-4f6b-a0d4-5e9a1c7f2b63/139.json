@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "139"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $x^y + y^x = a^b$, then $\\frac{dy}{dx}$ at $x = 1, y = 2$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$-2(1 + \\log 2)$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$2(1 + \\log 2)$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$2 + \\log 2$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$1 + \\log 2$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given, $x^y + y^x = a^b$.\n\nLet $u = x^y$ and $v = y^x$.\n\n$$\\log u = y \\log x \\Rightarrow \\frac{1}{u}\\frac{du}{dx} = \\frac{y}{x} + \\log x \\frac{dy}{dx}$$\n\n$$\\Rightarrow \\frac{du}{dx} = x^y \\left[ \\frac{y}{x} + \\log x \\frac{dy}{dx} \\right]$$\n\n$$\\log v = x \\log y \\Rightarrow \\frac{1}{v}\\frac{dv}{dx} = \\frac{x}{y} \\frac{dy}{dx} + \\log y$$\n\n$$\\Rightarrow \\frac{dv}{dx} = y^x \\left[ \\frac{x}{y} \\frac{dy}{dx} + \\log y \\right]$$\n\nDifferentiating $u + v = a^b$ w.r.t. $x$:\n\n$$x^y \\left[ \\frac{y}{x} + \\log x \\frac{dy}{dx} \\right] + y^x \\left[ \\frac{x}{y} \\frac{dy}{dx} + \\log y \\right] = 0$$\n\nAt $x = 1, y = 2$:\n\n$$1 \\left[ \\frac{2}{1} + 0 \\right] + 2^1 \\left[ \\frac{1}{2} \\frac{dy}{dx} + \\log 2 \\right] = 0$$\n\n$$2 + 2 \\left( \\frac{1}{2} \\frac{dy}{dx} + \\log 2 \\right) = 0$$\n\n$$2 + \\frac{dy}{dx} + 2\\log 2 = 0$$\n\n$$\\frac{dy}{dx} = -2(1 + \\log 2)$$\n\nThus the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

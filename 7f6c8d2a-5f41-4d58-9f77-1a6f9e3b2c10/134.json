@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "134"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "$$\\int \\frac{dx}{2 + \\cos x} =$$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$2 \\tan^{-1} \\left( \\frac{1}{\\sqrt{3}} \\tan \\frac{x}{2} \\right) + c$, where $c$ is the constant of integration"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{2}{\\sqrt{3}} \\tan^{-1} \\left( \\frac{1}{\\sqrt{3}} \\tan \\frac{x}{2} \\right) + c$, where $c$ is the constant of integration"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{1}{\\sqrt{3}} \\tan^{-1} \\left( \\frac{1}{\\sqrt{3}} \\tan \\frac{x}{2} \\right) + c$, where $c$ is the constant of integration"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\sqrt{3} \\tan^{-1} \\left( \\frac{1}{\\sqrt{3}} \\tan \\frac{x}{2} \\right) + c$, where $c$ is the constant of integration"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $I = \\int \\frac{1}{2 + \\cos x} \\, dx$.\n\nPut $\\tan \\frac{x}{2} = t$, then $dx = \\frac{2}{1+t^2} dt$ and $\\cos x = \\frac{1-t^2}{1+t^2}$.\n\n$$I = \\int \\frac{1}{2 + \\frac{1-t^2}{1+t^2}} \\cdot \\frac{2}{1+t^2} dt = \\int \\frac{2}{3 + t^2} dt$$\n\n$$= \\frac{2}{\\sqrt{3}} \\tan^{-1} \\left( \\frac{t}{\\sqrt{3}} \\right) + c = \\frac{2}{\\sqrt{3}} \\tan^{-1} \\left( \\frac{1}{\\sqrt{3}} \\tan \\frac{x}{2} \\right) + c$$\n\nThus the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

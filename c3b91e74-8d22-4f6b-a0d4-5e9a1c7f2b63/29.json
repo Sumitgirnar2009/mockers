@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "29"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A solid sphere rolling without friction on a horizontal surface with a constant speed of 2 m/s, rolls up on an inclined ramp which is inclined at $30^\\circ$. The maximum distance travelled by the sphere on the inclined ramp is (acceleration due to gravity $g = 10$ m/s², $\\sin 30^\\circ = \\frac{1}{2}$)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "56 cm"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "25 cm"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "47 cm"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "30 cm"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Total kinetic energy of rolling sphere = translational + rotational = $\\frac{1}{2}mv^2 + \\frac{1}{2}I\\omega^2$.\n\nFor solid sphere, $I = \\frac{2}{5}mr^2$ and $\\omega = \\frac{v}{r}$, so rotational KE = $\\frac{1}{2} \\cdot \\frac{2}{5}mr^2 \\cdot \\frac{v^2}{r^2} = \\frac{1}{5}mv^2$.\n\nTotal KE = $\\frac{1}{2}mv^2 + \\frac{1}{5}mv^2 = \\frac{7}{10}mv^2$.\n\nAt maximum height $h$, this converts to potential energy $mgh$:\n\n$$mgh = \\frac{7}{10}mv^2 \\Rightarrow h = \\frac{7v^2}{10g} = \\frac{7 \\times 2^2}{10 \\times 10} = \\frac{28}{100} = 0.28 \\text{ m}$$\n\nDistance along incline $d = \\frac{h}{\\sin 30^\\circ} = \\frac{0.28}{0.5} = 0.56$ m = 56 cm.\n\nThus the correct option is A: 56 cm."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

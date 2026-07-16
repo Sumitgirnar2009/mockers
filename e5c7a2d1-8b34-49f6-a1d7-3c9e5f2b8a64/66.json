@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "66"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $L_n$ represents lanthanoid element, find the general formula of lanthanoid hydroxide."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$Ln(OH)$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$Ln(OH)_2$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$Ln(OH)_3$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$Ln(OH)_4$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Lanthanoids generally exhibit a +3 oxidation state in their compounds.\n\nHydroxide ion carries a charge of −1, represented as OH⁻.\n\nTo form a neutral compound with Ln³⁺, three OH⁻ ions are needed to balance the +3 charge.\n\nHence, the general formula for lanthanoid hydroxide becomes Ln(OH)₃.\n\nAmong the given options, this corresponds to option C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

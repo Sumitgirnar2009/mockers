@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "90"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which cation from following develops least magnetic moment?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Cu²⁺"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Cr³⁺"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Co²⁺"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Fe²⁺"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Magnetic moment is given by $\\mu = \\sqrt{n(n+2)}$ BM, where $n$ is the number of unpaired electrons.\n\n$$\\begin{array}{|c|c|c|c|}\n\\hline\n\\text{Ion} & \\text{Configuration} & \\text{Unpaired electrons} & \\text{Magnetic moment (BM)} \\\\\n\\hline\n\\text{Cu}^{2+} & [\\text{Ar}]3d^9 & 1 & \\sqrt{1(1+2)} = \\sqrt{3} \\approx 1.73 \\\\\n\\text{Cr}^{3+} & [\\text{Ar}]3d^3 & 3 & \\sqrt{3(3+2)} = \\sqrt{15} \\approx 3.87 \\\\\n\\text{Co}^{2+} & [\\text{Ar}]3d^7 & 3 & \\sqrt{3(3+2)} = \\sqrt{15} \\approx 3.87 \\\\\n\\text{Fe}^{2+} & [\\text{Ar}]3d^6 & 4 & \\sqrt{4(4+2)} = \\sqrt{24} \\approx 4.89 \\\\\n\\hline\n\\end{array}$$\n\nCu²⁺ has the least magnetic moment (1.73 BM). Hence the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

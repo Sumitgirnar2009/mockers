@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "34"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Two planar concentric rings of metal wire having radii $r_1$ and $r_2$ ($r_1 > r_2$) are placed in air. The current $I$ is flowing through the coil of larger radius. The mutual inductance between the coils is given by ($\\mu_0 =$ permeability of free space)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{\\mu_0 \\pi r_1^2}{2r_2}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{\\mu_0 \\pi r_1^2}{2r_1}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{\\mu_0 \\pi (r_1 + r_2)^2}{2r_1}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{\\mu_0 \\pi (r_1 - r_2)^2}{2r_2}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The magnetic field at the centre of a loop is given by:\n\n$$B = \\frac{\\mu_0 I}{2R}$$\n\nMagnetic field produced by the larger ring (radius $r_1$) at its centre:\n\n$$B_A = \\frac{\\mu_0 I}{2r_1}$$\n\nThis field links with the smaller ring (radius $r_2$). The flux through the smaller ring is:\n\n$$\\phi_B = B_A \\times A_B = \\frac{\\mu_0 I}{2r_1} \\times \\pi r_2^2 = \\frac{\\mu_0 \\pi r_2^2}{2r_1} I$$\n\nMutual inductance $M$ is given by $M = \\frac{\\phi_B}{I}$:\n\n$$M = \\frac{\\mu_0 \\pi r_2^2}{2r_1}$$\n\nThus the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

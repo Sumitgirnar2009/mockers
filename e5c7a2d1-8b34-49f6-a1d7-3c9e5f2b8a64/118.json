@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "118"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Three vectors $\\hat{i} - \\hat{k}$, $\\lambda\\hat{i} + \\hat{j} + (1-\\lambda)\\hat{k}$ and $\\mu\\hat{i} + \\lambda\\hat{j} + (1+\\lambda-\\mu)\\hat{k}$ represents coterminous edges of a parallelepiped, then the volume of the parallelepiped depends on"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "only $\\lambda$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "only $\\mu$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "both $\\lambda$ and $\\mu$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "neither $\\lambda$ nor $\\mu$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Volume of parallelepiped = $|[\\vec{a}, \\vec{b}, \\vec{c}]|$.\n\n$$\\vec{a} = \\hat{i} - \\hat{k}, \\quad \\vec{b} = \\lambda\\hat{i} + \\hat{j} + (1-\\lambda)\\hat{k}, \\quad \\vec{c} = \\mu\\hat{i} + \\lambda\\hat{j} + (1+\\lambda-\\mu)\\hat{k}$$\n\n$$V = \\left| \\begin{vmatrix} 1 & 0 & -1 \\\\ \\lambda & 1 & 1-\\lambda \\\\ \\mu & \\lambda & 1+\\lambda-\\mu \\end{vmatrix} \\right|$$\n\nApply $C_3 \\to C_3 + C_1$:\n\n$$V = \\left| \\begin{vmatrix} 1 & 0 & 0 \\\\ \\lambda & 1 & 1 \\\\ \\mu & \\lambda & 1+\\lambda \\end{vmatrix} \\right| = 1$$\n\nThus, the volume is constant (1), independent of both $\\lambda$ and $\\mu$.\n\nFinal Answer: $$\\boxed{\\text{neither }\\lambda \\text{ nor }\\mu}$$\n\nHence, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

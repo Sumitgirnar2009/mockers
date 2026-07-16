@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "73"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The solubility of salt BA$_2$ is $4 \\times 10^{-4}$ mol dm$^{-3}$. What is solubility product of the salt?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$1.55 \\times 10^{-8}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$2.56 \\times 10^{-10}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$3.60 \\times 10^{-8}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$6.41 \\times 10^{-10}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let the salt be BA$_2$. It dissociates as:\n\n$$\\mathrm{BA_2(s) \\rightleftharpoons B^{2+}(aq) + 2A^-(aq)}$$\n\nLet solubility be $s = 4 \\times 10^{-4}$ mol dm$^{-3}$.\n\nAt equilibrium: $[B^{2+}] = s = 4 \\times 10^{-4}$ and $[A^-] = 2s = 8 \\times 10^{-4}$.\n\nSolubility product: $K_{sp} = [B^{2+}][A^-]^2 = (4 \\times 10^{-4}) \\times (8 \\times 10^{-4})^2$.\n\n$$= (4 \\times 10^{-4}) \\times (64 \\times 10^{-8}) = 256 \\times 10^{-12} = 2.56 \\times 10^{-10}$$\n\nThus the correct option is B: $2.56 \\times 10^{-10}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

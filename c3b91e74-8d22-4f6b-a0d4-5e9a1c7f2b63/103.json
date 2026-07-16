@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "103"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In a triangle ABC with usual notations if $|BC| = 8$, $|CA| = 7$, $|AB| = 10$ then the projection of $\\overline{AB}$ on $\\overline{AC}$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{14}{85}$ units"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{1}{85}$ units"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{85}{14}$ units"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{7}{85}$ units"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $\\overline{AB} = c = 10$, $\\overline{BC} = a = 8$, $\\overline{CA} = b = 7$.\n\nBy cosine rule:\n\n$$\\cos A = \\frac{b^2 + c^2 - a^2}{2bc} = \\frac{7^2 + 10^2 - 8^2}{2 \\times 7 \\times 10} = \\frac{49 + 100 - 64}{140} = \\frac{85}{140} = \\frac{17}{28}$$\n\n$$\\overline{AB} \\cdot \\overline{AC} = |\\overline{AB}| |\\overline{AC}| \\cos A = 10 \\times 7 \\times \\frac{17}{28} = \\frac{85}{2}$$\n\nProjection of $\\overline{AB}$ on $\\overline{AC}$ is:\n\n$$\\frac{\\overline{AB} \\cdot \\overline{AC}}{|\\overline{AC}|} = \\frac{85/2}{7} = \\frac{85}{14}$$\n\nThus the correct option is C: $\\frac{85}{14}$ units."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

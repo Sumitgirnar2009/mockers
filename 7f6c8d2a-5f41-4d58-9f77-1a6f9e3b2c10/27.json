@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "27"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "When an n-p-n junction transistor is used as an amplifier in common emitter mode,"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "the base emitter junction is reverse biased."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "the input impedance is high and the output impedance is low."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "input signal is applied between the base and emitter and the output is obtained between collector and emitter."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "the input voltage and the output voltage are in phase."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "In common emitter (CE) mode of an n-p-n transistor:\n\n- The base-emitter junction is forward biased, not reverse biased. Hence option A is false.\n\n- Input impedance is low (a few kΩ) and output impedance is high (tens of kΩ). Hence option B is false.\n\n- Input signal is applied between base and emitter, and output is taken between collector and emitter. This matches the standard configuration. Hence option C is true.\n\n- In CE mode, input and output voltages are 180° out of phase (opposite phase). Hence option D is false.\n\nTherefore, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

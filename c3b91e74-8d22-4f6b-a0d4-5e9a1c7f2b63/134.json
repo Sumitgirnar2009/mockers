@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "134"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The negation of $(p \\land \\sim q) \\to (p \\lor \\sim q)$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "a tautology"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "a contingency"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "a contradiction"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "equivalent to $p \\land q$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "$$\\sim [(p \\land \\sim q) \\to (p \\lor \\sim q)]$$\n\n$$\\equiv \\sim [\\sim (p \\land \\sim q) \\lor (p \\lor \\sim q)]$$\n\n$$\\equiv (p \\land \\sim q) \\land \\sim (p \\lor \\sim q)$$\n\n$$\\equiv (p \\land \\sim q) \\land (\\sim p \\land q)$$\n\n$$\\equiv p \\land \\sim q \\land \\sim p \\land q$$\n\n$$\\equiv (p \\land \\sim p) \\land (\\sim q \\land q)$$\n\n$$\\equiv F \\land F \\equiv F$$\n\nThus the negation is a contradiction, which corresponds to option C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

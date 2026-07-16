@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "86"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The mass of an atom present in unit cell is $4.4 \\times 10^{-23}$ g and the product of density and volume of unit cell is $1.792 \\times 10^{-22}$ g. What is the type of cubic unit cell?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Body centred unit cell"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Face centred unit cell"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Base centred unit cell"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Simple cubic unit cell"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Understand the given data\n\nMass of one atom = $m = 4.4 \\times 10^{-23}$ g\n\nProduct of density and volume of unit cell = $\\rho \\times a^3 = 1.792 \\times 10^{-22}$ g\n\nStep 2: Relation between total mass and number of atoms\n\nFor a cubic unit cell, the total mass of the unit cell is given by:\n\n$$\\text{Total mass} = z \\times m$$\n\nwhere $z$ is the number of atoms per unit cell.\n\nBut we also know that:\n\n$$\\text{Total mass} = \\text{Density} \\times \\text{Volume} = \\rho \\times a^3$$\n\nSo,\n\n$$z \\times m = \\rho \\times a^3$$\n\nStep 3: Substitute the given values\n\n$$z \\times (4.4 \\times 10^{-23}) = 1.792 \\times 10^{-22}$$\n\n$$z = \\frac{1.792 \\times 10^{-22}}{4.4 \\times 10^{-23}}$$\n\n$$z = \\frac{1.792}{4.4} \\times 10^{1}$$\n\n$$z = 0.407 \\times 10$$\n\n$$z = 4.07 \\approx 4$$\n\nStep 4: Identify the type of unit cell\n\n- Simple cubic: $z = 1$\n- Body centred cubic (BCC): $z = 2$\n- Face centred cubic (FCC): $z = 4$\n\nSince $z \\approx 4$, the unit cell is face centred cubic (FCC).\n\nStep 5: Final Answer\n\nThus, the correct option is B: Face centred unit cell."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "144"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The line of intersection of the planes $\\vec{r} \\cdot (3\\hat{i} - \\hat{j} + \\hat{k}) = 1$ and $\\vec{r} \\cdot (\\hat{i} + 4\\hat{j} - 2\\hat{k}) = 2$ is parallel to the vector"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$2\\hat{i} + 7\\hat{j} + 13\\hat{k}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$-2\\hat{i} - 7\\hat{j} + 13\\hat{k}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$-2\\hat{i} - 7\\hat{j} - 13\\hat{k}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$-2\\hat{i} + 7\\hat{j} + 13\\hat{k}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The line of intersection is perpendicular to both normal vectors of the planes. Therefore, its direction vector is given by the cross product of the normals.\n\n$$\\vec{n_1} = 3\\hat{i} - \\hat{j} + \\hat{k}, \\quad \\vec{n_2} = \\hat{i} + 4\\hat{j} - 2\\hat{k}$$\n\n$$\\vec{n_1} \\times \\vec{n_2} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 3 & -1 & 1 \\\\ 1 & 4 & -2 \\end{vmatrix} = -2\\hat{i} + 7\\hat{j} + 13\\hat{k}$$\n\nThus the line is parallel to $-2\\hat{i} + 7\\hat{j} + 13\\hat{k}$.\n\nFinal Answer: $$\\boxed{-2\\hat{i} + 7\\hat{j} + 13\\hat{k}}$$\n\nHence, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

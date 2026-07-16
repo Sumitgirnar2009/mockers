@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "114"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $\\vec{a}, \\vec{b}, \\vec{c}, \\vec{d}$ are unit vectors such that $\\vec{a} \\cdot \\vec{b} = \\frac{1}{2}$, $\\vec{c} \\cdot \\vec{d} = \\frac{1}{2}$ and the angle between $\\vec{a} \\times \\vec{b}$ and $\\vec{c} \\times \\vec{d}$ is $\\frac{\\pi}{6}$, then the value of $| ((\\vec{a} \\times \\vec{b}) \\cdot \\vec{d}) \\vec{c} - ((\\vec{a} \\times \\vec{b}) \\cdot \\vec{c}) \\vec{d} |$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{3}{2}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{3}{4}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{3}{8}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "2"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given $\\vec{a} \\cdot \\vec{b} = \\frac{1}{2}$ ⇒ $\\cos \\theta = \\frac{1}{2}$, so $\\theta = 60^\\circ$, $\\sin \\theta = \\frac{\\sqrt{3}}{2}$.\n\nSimilarly $\\vec{c} \\cdot \\vec{d} = \\frac{1}{2}$ ⇒ $\\phi = 60^\\circ$, $\\sin \\phi = \\frac{\\sqrt{3}}{2}$.\n\nThus $|\\vec{a} \\times \\vec{b}| = |\\vec{a}| |\\vec{b}| \\sin \\theta = \\frac{\\sqrt{3}}{2}$.\n\n$|\\vec{c} \\times \\vec{d}| = \\frac{\\sqrt{3}}{2}$.\n\nThe angle between $\\vec{a} \\times \\vec{b}$ and $\\vec{c} \\times \\vec{d}$ is $\\frac{\\pi}{6}$.\n\nUsing the identity: $((\\vec{a} \\times \\vec{b}) \\cdot \\vec{d}) \\vec{c} - ((\\vec{a} \\times \\vec{b}) \\cdot \\vec{c}) \\vec{d} = (\\vec{a} \\times \\vec{b}) \\times (\\vec{c} \\times \\vec{d})$.\n\nTaking magnitude:\n\n$$| (\\vec{a} \\times \\vec{b}) \\times (\\vec{c} \\times \\vec{d}) | = |\\vec{a} \\times \\vec{b}| \\cdot |\\vec{c} \\times \\vec{d}| \\cdot \\sin \\frac{\\pi}{6} = \\frac{\\sqrt{3}}{2} \\cdot \\frac{\\sqrt{3}}{2} \\cdot \\frac{1}{2} = \\frac{3}{4} \\cdot \\frac{1}{2} = \\frac{3}{8}$$\n\nThus the correct option is C: $\\frac{3}{8}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

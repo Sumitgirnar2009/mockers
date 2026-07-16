@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "128"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The function defined by $f(x) = \\frac{2x+3}{3x+4}, x \\neq -\\frac{4}{3}$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "only one one"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "only onto"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "onto for $y \\neq \\frac{2}{3}$ and one-one"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "neither one-one nor onto"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "One-one: Assume $f(x_1) = f(x_2)$.\n\n$$\\frac{2x_1+3}{3x_1+4} = \\frac{2x_2+3}{3x_2+4}$$\n\nCross-multiplying: $(2x_1+3)(3x_2+4) = (2x_2+3)(3x_1+4)$\n\nExpanding: $6x_1x_2 + 8x_1 + 9x_2 + 12 = 6x_1x_2 + 8x_2 + 9x_1 + 12$\n\nCancel $6x_1x_2$ and $12$: $8x_1 + 9x_2 = 8x_2 + 9x_1 \\Rightarrow 8x_1 - 9x_1 = 8x_2 - 9x_2 \\Rightarrow -x_1 = -x_2 \\Rightarrow x_1 = x_2$.\n\nThus $f$ is one-one.\n\nOnto: Let $y = \\frac{2x+3}{3x+4}$. Solve for $x$:\n\n$y(3x+4) = 2x+3 \\Rightarrow 3xy + 4y = 2x + 3 \\Rightarrow 3xy - 2x = 3 - 4y \\Rightarrow x(3y - 2) = 3 - 4y \\Rightarrow x = \\frac{3 - 4y}{3y - 2}$.\n\n$x$ is defined for all $y \\neq \\frac{2}{3}$. So $f$ is onto for $y \\neq \\frac{2}{3}$.\n\nThus the correct option is C: onto for $y \\neq \\frac{2}{3}$ and one-one."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

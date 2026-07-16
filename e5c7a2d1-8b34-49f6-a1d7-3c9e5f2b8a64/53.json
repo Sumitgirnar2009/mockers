@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "53"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify product A in following reaction. $$\\mathrm{C_6H_5N_2^+Cl^- \\xrightarrow{C_2H_5OH} A + N_2 + CH_3CHO + HCl}$$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\mathrm{C_6H_6}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\mathrm{C_6H_5NH_2}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\mathrm{C_6H_5COOH}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\mathrm{C_6H_5Cl}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Benzenediazonium chloride (C₆H₅N₂⁺Cl⁻) reacts with ethanol to give benzene (C₆H₆), acetaldehyde, nitrogen gas, and HCl.\n\n$$\\mathrm{C_6H_5N_2^+Cl^- + C_2H_5OH \\rightarrow C_6H_6 + CH_3CHO + N_2 + HCl}$$\n\nThus product A is benzene, which corresponds to option A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

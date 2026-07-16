@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "127"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The radius of the base of a cone is increasing at the rate 3 cm/minute and the altitude is decreasing at the rate 4 cm/minute. The rate at which the lateral surface area is changing, when the radius is 7 cm and altitude is 24 cm is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$75\\pi \\text{ cm}^2/\\text{minute}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$25\\pi \\text{ cm}^2/\\text{minute}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$3\\pi \\text{ cm}^2/\\text{minute}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$54\\pi \\text{ cm}^2/\\text{minute}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given:\n$$\\frac{dr}{dt} = 3 \\text{ cm/min}, \\quad \\frac{dh}{dt} = -4 \\text{ cm/min}$$\n$$r = 7 \\text{ cm}, \\quad h = 24 \\text{ cm}$$\n\nLateral surface area of cone:\n$$A = \\pi r \\sqrt{r^2 + h^2}$$\n\nDifferentiate with respect to $t$:\n$$\\frac{dA}{dt} = \\pi \\left[ r \\cdot \\frac{d}{dt}\\left(\\sqrt{r^2 + h^2}\\right) + \\sqrt{r^2 + h^2} \\cdot \\frac{dr}{dt} \\right]$$\n\n$$= \\pi \\left[ r \\cdot \\frac{1}{2\\sqrt{r^2 + h^2}} \\left( 2r\\frac{dr}{dt} + 2h\\frac{dh}{dt} \\right) + \\sqrt{r^2 + h^2} \\cdot \\frac{dr}{dt} \\right]$$\n\nSubstitute the values:\n$$= \\pi \\left[ 7 \\times \\frac{1}{2\\sqrt{7^2 + 24^2}} \\times \\left( 2 \\times 7 \\times 3 + 2 \\times 24 \\times (-4) \\right) + \\sqrt{7^2 + 24^2} \\times 3 \\right]$$\n\n$$= \\pi \\left[ 7 \\times \\frac{1}{2 \\times 25} \\times (42 - 192) + 25 \\times 3 \\right]$$\n\n$$= \\pi \\left[ 7 \\times \\frac{1}{50} \\times (-150) + 75 \\right]$$\n\n$$= \\pi \\left[ -21 + 75 \\right]$$\n\n$$\\frac{dA}{dt} = 54\\pi \\text{ cm}^2/\\text{min}$$\n\nFinal Answer: $$\\boxed{54\\pi \\text{ cm}^2/\\text{minute}}$$\n\nHence, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

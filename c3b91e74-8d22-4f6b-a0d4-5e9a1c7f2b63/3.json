@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "3"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A wheel initially at rest, begins to rotate about its axis with constant angular acceleration. If it rotates through an angle $\\theta_1$ in first 2 s and a further angle $\\theta_2$ in the next 2 s, the ratio $\\theta_1 : \\theta_2$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1 : 6"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "6 : 1"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "3 : 1"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "1 : 3"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let the angular acceleration be $\\alpha$. Initial angular velocity $\\omega_0 = 0$.\n\nAngular displacement in time $t$ is given by $\\theta = \\omega_0 t + \\frac{1}{2} \\alpha t^2$.\n\nFor $t = 2$ s:\n\n$$\\theta_1 = \\frac{1}{2} \\alpha (2)^2 = 2\\alpha$$\n\nFor $t = 4$ s:\n\n$$\\theta_{\\text{total}} = \\frac{1}{2} \\alpha (4)^2 = 8\\alpha$$\n\nAngle covered in the next 2 seconds:\n\n$$\\theta_2 = \\theta_{\\text{total}} - \\theta_1 = 8\\alpha - 2\\alpha = 6\\alpha$$\n\nThus the ratio is:\n\n$$\\theta_1 : \\theta_2 = 2\\alpha : 6\\alpha = 1 : 3$$\n\nHence the correct option is D: 1 : 3."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

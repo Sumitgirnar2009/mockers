@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "115"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $\\vec{a} = 4\\hat{i} + 3\\hat{j} + \\hat{k}$, $\\vec{b} = \\hat{i} - 2\\hat{j} + 2\\hat{k}$ then $\\vec{a} \\times (\\vec{a} \\times (\\vec{a} \\times (\\vec{a} \\times \\vec{b})))$ equals"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$676\\vec{a}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$676\\vec{b}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$625\\vec{a}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$625\\vec{b}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given $\\vec{a} = 4\\hat{i} + 3\\hat{j} + \\hat{k}$, $\\vec{b} = \\hat{i} - 2\\hat{j} + 2\\hat{k}$.\n\nFirst compute $\\vec{a} \\times \\vec{b}$:\n\n$$\\vec{a} \\times \\vec{b} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 4 & 3 & 1 \\\\ 1 & -2 & 2 \\end{vmatrix} = \\hat{i}(3\\cdot2 - 1\\cdot(-2)) - \\hat{j}(4\\cdot2 - 1\\cdot1) + \\hat{k}(4\\cdot(-2) - 3\\cdot1)$$\n\n$$= \\hat{i}(6+2) - \\hat{j}(8-1) + \\hat{k}(-8-3) = 8\\hat{i} - 7\\hat{j} - 11\\hat{k}$$\n\nNow compute $\\vec{a} \\times (\\vec{a} \\times \\vec{b})$:\n\n$$\\vec{a} \\times (8\\hat{i} - 7\\hat{j} - 11\\hat{k}) = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 4 & 3 & 1 \\\\ 8 & -7 & -11 \\end{vmatrix}$$\n\n$$= \\hat{i}(3\\cdot(-11) - 1\\cdot(-7)) - \\hat{j}(4\\cdot(-11) - 1\\cdot8) + \\hat{k}(4\\cdot(-7) - 3\\cdot8)$$\n\n$$= \\hat{i}(-33+7) - \\hat{j}(-44-8) + \\hat{k}(-28-24) = -26\\hat{i} + 52\\hat{j} - 52\\hat{k}$$\n\nNext, compute $\\vec{a} \\times (\\vec{a} \\times (\\vec{a} \\times \\vec{b}))$:\n\n$$\\vec{a} \\times (-26\\hat{i} + 52\\hat{j} - 52\\hat{k}) = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 4 & 3 & 1 \\\\ -26 & 52 & -52 \\end{vmatrix}$$\n\n$$= \\hat{i}(3\\cdot(-52) - 1\\cdot52) - \\hat{j}(4\\cdot(-52) - 1\\cdot(-26)) + \\hat{k}(4\\cdot52 - 3\\cdot(-26))$$\n\n$$= \\hat{i}(-156-52) - \\hat{j}(-208+26) + \\hat{k}(208+78) = -208\\hat{i} + 182\\hat{j} + 286\\hat{k}$$\n\nFinally, compute $\\vec{a} \\times (\\vec{a} \\times (\\vec{a} \\times (\\vec{a} \\times \\vec{b})))$:\n\n$$\\vec{a} \\times (-208\\hat{i} + 182\\hat{j} + 286\\hat{k}) = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 4 & 3 & 1 \\\\ -208 & 182 & 286 \\end{vmatrix}$$\n\n$$= \\hat{i}(3\\cdot286 - 1\\cdot182) - \\hat{j}(4\\cdot286 - 1\\cdot(-208)) + \\hat{k}(4\\cdot182 - 3\\cdot(-208))$$\n\n$$= \\hat{i}(858-182) - \\hat{j}(1144+208) + \\hat{k}(728+624) = 676\\hat{i} - 1352\\hat{j} + 1352\\hat{k}$$\n\nNow $\\vec{b} = \\hat{i} - 2\\hat{j} + 2\\hat{k}$, so $676\\vec{b} = 676\\hat{i} - 1352\\hat{j} + 1352\\hat{k}$.\n\nThus the expression equals $676\\vec{b}$, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

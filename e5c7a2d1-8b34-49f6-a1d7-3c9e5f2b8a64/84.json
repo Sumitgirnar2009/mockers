@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "84"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $E^\\circ (\\mathrm{Mg}^{2+}(aq) | \\mathrm{Mg}(s)) = -2.37$ V. What is potential for $\\mathrm{Mg(s) \\rightarrow Mg^{2+}(0.1\\,M) + 2e^-}$ at 298 K?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "+2.3996 V"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "-2.3996 V"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "+2.3404 V"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "-2.3404 V"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For the oxidation reaction $\\mathrm{Mg(s) \\rightarrow Mg^{2+}(aq) + 2e^-}$, the electrode potential is given by:\n\n$$E = E^\\circ - \\frac{0.0592}{n} \\log [\\mathrm{Mg}^{2+}]$$\n\nFor oxidation, $E^\\circ = +2.37$ V (reverse sign of reduction potential).\n\n$$E = 2.37 - \\frac{0.0592}{2} \\log(0.1)$$\n\n$$= 2.37 - 0.0296 \\times (-1)$$\n$$= 2.37 + 0.0296 = 2.3996 \\text{ V}$$\n\nThus, the correct option is A: +2.3996 V."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

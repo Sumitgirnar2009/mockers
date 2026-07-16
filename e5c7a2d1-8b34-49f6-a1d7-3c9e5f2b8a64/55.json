@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "55"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following is Lewis base?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\mathrm{BF_3}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\mathrm{AlCl_3}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\mathrm{Cu^{2+}}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\mathrm{NH_3}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: A Lewis base is a species that can donate a lone pair of electrons.\n\nStep 2: Check each option:\n- BF₃: Boron is electron-deficient (6 valence electrons), so it accepts electrons → Lewis acid.\n- AlCl₃: Aluminium is also electron-deficient → Lewis acid.\n- Cu²⁺: A cation with vacant orbitals, accepts electrons → Lewis acid.\n- NH₃: Nitrogen has a lone pair of electrons, can donate it → Lewis base.\n\nStep 3: Therefore, the only Lewis base among the options is NH₃.\n\nThus the correct option is D: NH₃."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

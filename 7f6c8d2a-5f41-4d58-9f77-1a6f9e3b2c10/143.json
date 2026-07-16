@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "143"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $y = \\log_e x^3 + 3 \\sin^{-1} x + kx^2$ and $y'\\left(\\frac{1}{2}\\right) = 2\\sqrt{3}$, then $k =$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "6"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "-6"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$2\\sqrt{3}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "1"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "$y = 3\\log x + 3\\sin^{-1}x + kx^2$.\n\n$$y' = \\frac{3}{x} + \\frac{3}{\\sqrt{1-x^2}} + 2kx$$\n\nAt $x = \\frac{1}{2}$:\n\n$$y'\\left(\\frac{1}{2}\\right) = \\frac{3}{1/2} + \\frac{3}{\\sqrt{1 - 1/4}} + 2k \\cdot \\frac{1}{2} = 6 + \\frac{3}{\\sqrt{3/4}} + k = 6 + \\frac{3}{(\\sqrt{3}/2)} + k$$\n\n$$= 6 + \\frac{6}{\\sqrt{3}} + k = 6 + 2\\sqrt{3} + k$$\n\nGiven $y'\\left(\\frac{1}{2}\\right) = 2\\sqrt{3}$, so:\n\n$$2\\sqrt{3} = 6 + 2\\sqrt{3} + k \\Rightarrow k = -6$$\n\nThus the correct option is B: -6."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

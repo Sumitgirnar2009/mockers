@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "57"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which from following compounds contains complex cations and anions?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Tetraamminecopper(II) ion"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Triamminetrinitrocobalt(III)"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Tetraamminedibromoplatinum(IV) bromide"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Sodium hexafluoroaluminate(III)"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "$$\\begin{array}{|c|c|c|}\n\\hline\n\\text{IUPAC name of compound} & \\text{Formula} & \\text{Type of complex} \\\\\n\\hline\n\\text{Tetraamminecopper(II) ion} & [\\mathrm{Cu(NH_3)_4}]^{2+} & \\text{Cationic complex} \\\\\n\\text{Triamminetrinitrocobalt(III)} & [\\mathrm{Co(NO_2)_3(NH_3)_3}] & \\text{Neutral complex} \\\\\n\\text{Tetraamminedibromoplatinum(IV) bromide} & [\\mathrm{PtBr_2(NH_3)_4}]\\mathrm{Br_2} & \\text{Compound containing complex cation and anion} \\\\\n\\text{Sodium hexafluoroaluminate(III)} & \\mathrm{Na_3[AlF_6]} & \\text{Compound containing complex anion and metal cation} \\\\\n\\hline\n\\end{array}$$\n\nThus the compound containing both complex cation and anion is tetraamminedibromoplatinum(IV) bromide, which corresponds to option C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

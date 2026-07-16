@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "94"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify from following physical transformations that exhibits decrease in entropy."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\mathrm{H_2O_{(s)} \\rightarrow H_2O_{(l)}}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\mathrm{H_2O_{(l)} \\rightarrow H_2O_{(g)}}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\mathrm{H_2O_{(s)} \\rightarrow H_2O_{(g)}}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\mathrm{H_2O_{(g)} \\rightarrow H_2O_{(l)}}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Entropy increases when a substance changes from solid → liquid → gas (increasing disorder). Entropy decreases when going from gas → liquid → solid. Among the options, $\\mathrm{H_2O_{(g)} \\rightarrow H_2O_{(l)}}$ (gas to liquid) involves a decrease in entropy. Hence the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

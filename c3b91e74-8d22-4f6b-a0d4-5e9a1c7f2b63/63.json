@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "63"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify the correct decreasing order of boiling point for hydrides of halogens."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$HF > HCl > HBr > HI$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$HI > HBr > HCl > HF$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$HF > HI > HBr > HCl$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$HI > HF > HBr > HCl$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The boiling points of hydrogen halides are: HF (293 K), HCl (189 K), HBr (206 K), HI (238 K). The abnormally high boiling point of HF is due to strong hydrogen bonding. Thus the decreasing order of boiling point is:\n\n$$HF > HI > HBr > HCl$$\n\nThis corresponds to option C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

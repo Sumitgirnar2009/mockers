@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "20"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The resultant logic gate from the combination of following gates is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63/q20.png"
+  },
+  "Option1Stmt": {
+    "S": "OR"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "NAND"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "AND"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "NOR"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "From the circuit diagram, A and B are first passed through NOT gates, giving outputs $A'$ and $B'$. These are then fed into a NAND gate. The output is $Y = \\overline{A' \\cdot B'}$.\n\nUsing De Morgan's law: $\\overline{A' \\cdot B'} = \\overline{A'} + \\overline{B'} = A + B$.\n\nThus $Y = A + B$, which is the OR gate.\n\nTruth table:\n\n$$\\begin{array}{|c|c|c|c|c|}\n\\hline\nA & B & A' & B' & Y \\\\\n\\hline\n0 & 0 & 1 & 1 & 0 \\\\\n0 & 1 & 1 & 0 & 1 \\\\\n1 & 0 & 0 & 1 & 1 \\\\\n1 & 1 & 0 & 0 & 1 \\\\\n\\hline\n\\end{array}$$\n\nThis matches the truth table of an OR gate. Hence the correct option is A: OR."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

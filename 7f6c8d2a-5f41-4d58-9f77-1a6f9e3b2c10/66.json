@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "66"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify the monomers used to prepare glyptal."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\beta$-Hydroxy butyric acid and $\\beta$-hydroxy valeric acid"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Ethylene glycol and phenol"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Ethylene glycol and terephthalic acid"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Ethylene glycol and phthalic acid"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Glyptal is a polyester resin obtained by condensation polymerization of a diol and a dicarboxylic acid. It is prepared from ethylene glycol (a diol) and phthalic acid (a dicarboxylic acid). The reaction is:\n\n$$n \\, \\mathrm{HO-CH_2-CH_2-OH} + n \\, \\mathrm{C_6H_4(COOH)_2} \\rightarrow \\text{Glyptal} + 2n \\, \\mathrm{H_2O}$$\n\nThus the monomers are ethylene glycol and phthalic acid, which corresponds to option D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

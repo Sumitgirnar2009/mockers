@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "84"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which from following is the most stable species?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$NH_4^+$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$R - \\overset{+}{N}H_3$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$R_2 \\overset{+}{N}H_2$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$R_3 \\overset{+}{N}H$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "An alkyl group exerts electron releasing inductive effect (+I) which stabilizes positive charge on the atom bonded to it. As the number of alkyl groups increases from $NH_4^+$ to $R_3\\overset{+}{N}H$, the positive charge on nitrogen becomes more stabilized. Hence the order of stability is:\n\n$$NH_4^+ < R-\\overset{+}{N}H_3 < R_2\\overset{+}{N}H_2 < R_3\\overset{+}{N}H$$\n\nThus $R_3\\overset{+}{N}H$ is the most stable, which corresponds to option D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

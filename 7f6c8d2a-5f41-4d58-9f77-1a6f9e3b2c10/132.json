@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "132"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $\\vec{a}$ and $\\vec{b}$ are unit vectors and $\\theta$ is the angle between them, then $\\vec{a} + \\vec{b}$ is a unit vector when $\\theta$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{\\pi}{3}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{2\\pi}{3}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{\\pi}{2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{\\pi}{4}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given $|\\vec{a}| = |\\vec{b}| = 1$ and $|\\vec{a} + \\vec{b}| = 1$.\n\n$$|\\vec{a} + \\vec{b}|^2 = |\\vec{a}|^2 + 2\\vec{a} \\cdot \\vec{b} + |\\vec{b}|^2 = 1$$\n\n$$1 + 2\\vec{a} \\cdot \\vec{b} + 1 = 1$$\n\n$$2 + 2\\vec{a} \\cdot \\vec{b} = 1$$\n\n$$\\vec{a} \\cdot \\vec{b} = -\\frac{1}{2}$$\n\nBut $\\vec{a} \\cdot \\vec{b} = |\\vec{a}| |\\vec{b}| \\cos \\theta = \\cos \\theta$.\n\n$$\\cos \\theta = -\\frac{1}{2} \\quad \\Rightarrow \\quad \\theta = \\frac{2\\pi}{3}$$\n\nThus the correct option is B: $\\frac{2\\pi}{3}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

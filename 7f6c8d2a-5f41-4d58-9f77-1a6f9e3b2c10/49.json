@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "49"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The length of the compound microscope is 15 cm. The magnifying power for relaxed eye is 25. If the focal length of eye lens is 6 cm then the object distance for objective lens will be"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1.3 cm"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "1.5 cm"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "1.7 cm"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "1.9 cm"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Total length of microscope $L = v_0 + f_e = 15$ cm.\n\nGiven $f_e = 6$ cm, so image distance for objective lens:\n$$v_0 = L - f_e = 15 - 6 = 9 \\text{ cm}$$\n\nFor relaxed eye, magnifying power is given by:\n$$m = \\frac{v_0}{u_0} \\times \\frac{D}{f_e}$$\nwhere $D = 25$ cm (least distance of distinct vision).\n\nGiven $m = 25$, $v_0 = 9$ cm, $f_e = 6$ cm, $D = 25$ cm:\n\n$$25 = \\frac{9}{u_0} \\times \\frac{25}{6}$$\n\nMultiply both sides by 6:\n$$150 = \\frac{9}{u_0} \\times 25$$\n\nDivide both sides by 25:\n$$6 = \\frac{9}{u_0} \\quad \\Rightarrow \\quad u_0 = \\frac{9}{6} = 1.5 \\text{ cm}$$\n\nThus the object distance for the objective lens is 1.5 cm, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

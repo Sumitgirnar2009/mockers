@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "102"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A particular solution of $\\frac{dy}{dx} = (x + 9y)^2$, when $x = 0, y = \\frac{1}{27}$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$3x + 27y = \\tan\\left[3\\left(x + \\frac{\\pi}{12}\\right)\\right]$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$3x + 27y = \\tan\\left(x + \\frac{\\pi}{4}\\right)$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$3x + 27y = \\tan\\left(x + \\frac{\\pi}{12}\\right)$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$3x + 27y = \\tan\\left[3\\left(x + \\frac{\\pi}{4}\\right)\\right]$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $u = x + 9y$. Then $\\frac{du}{dx} = 1 + 9\\frac{dy}{dx} = 1 + 9u^2$.\n\n$$\\frac{du}{1 + 9u^2} = dx$$\n\nIntegrating: $\\frac{1}{3}\\tan^{-1}(3u) = x + c$.\n\n$$\\tan^{-1}(3x + 27y) = 3x + 3c$$\n\nAt $x = 0, y = \\frac{1}{27}$: $\\tan^{-1}(1) = 3c \\Rightarrow 3c = \\frac{\\pi}{4}$.\n\nSo, $\\tan^{-1}(3x + 27y) = 3x + \\frac{\\pi}{4} = 3\\left(x + \\frac{\\pi}{12}\\right)$.\n\nThus, $3x + 27y = \\tan\\left[3\\left(x + \\frac{\\pi}{12}\\right)\\right]$, which corresponds to option A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "52"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Calculate the volume occupied by a particle in bcc unit cell if the volume of unit cell is $8.2 \\times 10^{-23} \\text{ cm}^3$."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$5.576 \\times 10^{-23} \\text{ cm}^3$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$1.517 \\times 10^{-23} \\text{ cm}^3$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$2.788 \\times 10^{-23} \\text{ cm}^3$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$3.936 \\times 10^{-23} \\text{ cm}^3$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For bcc, number of atoms per unit cell $n = 2$.\n\nRelationship between edge length $a$ and radius $r$: $a = \\frac{4r}{\\sqrt{3}}$.\n\nGiven volume of unit cell $a^3 = 8.2 \\times 10^{-23} \\text{ cm}^3$.\n\nTotal volume occupied by atoms in unit cell = $2 \\times \\frac{4}{3} \\pi r^3 = \\frac{8}{3} \\pi r^3$.\n\nFrom $a = \\frac{4r}{\\sqrt{3}}$, we get $r^3 = \\frac{a^3 \\cdot 3\\sqrt{3}}{64}$.\n\nTotal volume occupied = $\\frac{8}{3} \\pi \\times \\frac{3\\sqrt{3}}{64} a^3 = \\frac{\\pi \\sqrt{3}}{8} a^3$.\n\nVolume occupied by one atom = $\\frac{1}{2} \\times \\frac{\\pi \\sqrt{3}}{8} a^3 = \\frac{\\pi \\sqrt{3}}{16} a^3$.\n\nSubstitute $a^3 = 8.2 \\times 10^{-23}$:\n\n$$= \\frac{3.14 \\times 1.732}{16} \\times 8.2 \\times 10^{-23}$$\n\n$$= \\frac{5.44}{16} \\times 8.2 \\times 10^{-23} = 0.34 \\times 8.2 \\times 10^{-23}$$\n\n$$= 2.788 \\times 10^{-23} \\text{ cm}^3$$\n\nThus the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

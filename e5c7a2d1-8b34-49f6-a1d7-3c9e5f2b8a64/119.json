@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "119"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "$$\\int \\frac{dx}{x(x^2+1)} =$$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\log x - \\frac{1}{2} \\log(x^2+1) + c$, where $c$ is the constant of integration"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{1}{2} \\log x - \\log(x^2+1) + c$, where $c$ is the constant of integration"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\log x + \\frac{1}{2} \\log(x^2+1) + c$, where $c$ is the constant of integration"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$-\\log x - \\frac{1}{2} \\log(x^2+1) + c$, where $c$ is the constant of integration"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $I = \\int \\frac{dx}{x(x^2+1)}$.\n\nUsing partial fractions:\n\n$$\\frac{1}{x(x^2+1)} = \\frac{A}{x} + \\frac{Bx + C}{x^2+1}$$\n\n$$1 = A(x^2+1) + (Bx + C)x = (A+B)x^2 + Cx + A$$\n\nComparing coefficients: $A + B = 0$, $C = 0$, $A = 1$.\n\nSo, $A = 1$, $B = -1$, $C = 0$.\n\n$$I = \\int \\left( \\frac{1}{x} - \\frac{x}{x^2+1} \\right) dx$$\n\n$$= \\log x - \\frac{1}{2} \\log(x^2+1) + c$$\n\nFinal Answer: $$\\boxed{\\log x - \\frac{1}{2} \\log(x^2+1) + c}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

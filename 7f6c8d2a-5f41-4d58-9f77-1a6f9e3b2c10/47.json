@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "47"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In a transistor (common emitter configuration) the ratio of power gain to voltage gain is ( $\\alpha$ and $\\beta$ are current ratios)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{\\beta}{\\alpha}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\alpha\\beta$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\alpha$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\beta$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "In common emitter configuration, the current gain $A_i = \\beta$.\n\nPower gain $A_p = A_v \\times A_i = A_v \\times \\beta$, where $A_v$ is the voltage gain.\n\nTherefore, the ratio of power gain to voltage gain is:\n\n$$\\frac{A_p}{A_v} = \\frac{A_v \\times \\beta}{A_v} = \\beta$$\n\nThus the correct option is D: $\\beta$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

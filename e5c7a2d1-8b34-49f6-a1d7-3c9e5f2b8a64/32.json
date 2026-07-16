@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "32"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Two radioactive materials A and B having decay constant '7$\\lambda$' and '$\\lambda$' respectively, initially have same number of nuclei. The time taken to have the ratio of number of nuclei of material B to that of A as '$e$' is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{1}{\\lambda}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{1}{6\\lambda}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{1}{7\\lambda}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{1}{8\\lambda}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let the initial number of nuclei of both A and B be $N_0$.\n\nThe number of nuclei remaining after time $t$ is given by the radioactive decay law:\n\n$$N(t) = N_0 e^{-\\lambda t}$$\n\nFor material A (decay constant $7\\lambda$):\n\n$$N_A = N_0 e^{-7\\lambda t}$$\n\nFor material B (decay constant $\\lambda$):\n\n$$N_B = N_0 e^{-\\lambda t}$$\n\nWe are given that the ratio of nuclei of B to that of A is $e$:\n\n$$\\frac{N_B}{N_A} = e$$\n\nSubstitute the expressions:\n\n$$\\frac{N_0 e^{-\\lambda t}}{N_0 e^{-7\\lambda t}} = e$$\n\nCancel $N_0$ from numerator and denominator:\n\n$$\\frac{e^{-\\lambda t}}{e^{-7\\lambda t}} = e$$\n\nUsing laws of exponents:\n\n$$e^{-\\lambda t + 7\\lambda t} = e^{6\\lambda t}$$\n\nSo the equation becomes:\n\n$$e^{6\\lambda t} = e$$\n\nSince the bases are equal (both are $e$), equate the exponents:\n\n$$6\\lambda t = 1$$\n\n$$t = \\frac{1}{6\\lambda}$$\n\nThus the time required is $\\frac{1}{6\\lambda}$, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

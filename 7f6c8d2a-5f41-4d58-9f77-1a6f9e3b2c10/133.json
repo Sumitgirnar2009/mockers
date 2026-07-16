@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "133"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A regular polygon has 20 sides. The number of triangles that can be drawn by using the vertices but not using the sides are"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1140"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "800"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "340"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "20"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Total triangles = $2^0 C_3$\n\nTriangles with two sides of the polygon = 20 (formed by 3 consecutive vertices)\n\nTriangles with one side of the polygon = $20 \\times 16$\n\n∴ Required number of triangles\n\n$$= 2^0 C_3 - 20 - 20 \\times 16$$\n\n$$= \\frac{20 \\times 19 \\times 18}{1 \\times 2 \\times 3} - 20 - 16 \\times 20$$\n\n$$= 20(57 - 1 - 16)$$\n\n$$= 20 \\times 40$$\n\n$$= 800$$"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

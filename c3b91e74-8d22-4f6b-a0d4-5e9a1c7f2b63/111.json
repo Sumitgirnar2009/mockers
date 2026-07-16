@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "111"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If the equation of the median through vertex $A(3, k)$ of $\\triangle ABC$ with vertices $B(2, 1)$ and $C(-4, 5)$ is $x + 4y = p$, then $k =$ where $p$ and $k$ are constants"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "2"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "-2"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "3"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Midpoint of $BC$: $M = \\left(\\frac{2 + (-4)}{2}, \\frac{1+5}{2}\\right) = (-1, 3)$.\n\nMedian $AM$ passes through $M(-1, 3)$ and $A(3, k)$.\n\nGiven median equation: $x + 4y = p$. Since $M$ lies on it: $-1 + 4(3) = p \\Rightarrow p = 11$.\n\nSince $A(3, k)$ also lies on it: $3 + 4k = 11 \\Rightarrow 4k = 8 \\Rightarrow k = 2$.\n\nThus the correct option is B: 2."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

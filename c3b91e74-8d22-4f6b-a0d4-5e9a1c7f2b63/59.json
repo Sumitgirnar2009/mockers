@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "59"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which from following lanthanoids exhibits +4 oxidation state in $f^7$ configuration?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Ce"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Yb"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Eu"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Tb"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The $f^7$ configuration corresponds to a half-filled f-subshell. Terbium (Tb) has electronic configuration [Xe] 4f⁹ 6s². In the +4 oxidation state, it loses 2 electrons from 6s and 2 from 4f, giving 4f⁷ configuration. Thus Tb⁴⁺ has f⁷ configuration. Cerium (Ce) shows +4 but has f⁰ configuration; Yb shows +2; Eu shows +2. Therefore, the correct answer is D: Tb."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

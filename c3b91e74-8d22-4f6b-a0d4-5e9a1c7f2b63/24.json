@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "24"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The temperature of an air bubble while rising from bottom to surface of a lake remains constant but diameter is doubled. If pressure on the surface is $h$ meter of mercury column and relative density of mercury is '$\\rho$' then the depth of the lake is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$5h\\rho$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$7h\\rho$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{3h}{\\rho}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{4h}{\\rho}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Diameter doubles, so volume increases by $2^3 = 8$ times.\n\nUsing Boyle's law (constant temperature): $P_{\\text{bottom}} V_1 = P_{\\text{surface}} V_2 \\Rightarrow P_{\\text{bottom}} = 8 P_{\\text{surface}}$.\n\nPressure at surface: $P_{\\text{surface}} = \\rho_{\\text{Hg}} g h$.\n\nPressure at bottom: $P_{\\text{bottom}} = P_{\\text{surface}} + \\rho_{\\text{water}} g d$.\n\nGiven relative density of mercury = $\\rho$, so $\\rho_{\\text{Hg}} = \\rho \\rho_{\\text{water}}$.\n\nThus: $8(\\rho \\rho_{\\text{water}} g h) = \\rho \\rho_{\\text{water}} g h + \\rho_{\\text{water}} g d$.\n\nCancel $\\rho_{\\text{water}} g$: $8\\rho h = \\rho h + d \\Rightarrow d = 7\\rho h$.\n\nHence the correct option is B: $7h\\rho$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

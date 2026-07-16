@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "123"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The particular solution of the differential equation $\\cos\\left(\\frac{dy}{dx}\\right) = 7$, $y=1$ at $x=0$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\cos\\left(\\frac{7}{x}\\right) = 1$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\cos\\left(\\frac{y}{x-1}\\right) = 7$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\cos\\left(\\frac{y-1}{x}\\right) = 7$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "None"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The equation $\\cos\\left(\\frac{dy}{dx}\\right) = 7$ is invalid because the cosine of any real angle lies between $-1$ and $1$. Since $7$ is outside this range, there is no real solution. Hence the correct option is D: None."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

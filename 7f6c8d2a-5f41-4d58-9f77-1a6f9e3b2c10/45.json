@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "45"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A wire of length $L$, diameter '$d$' density of material '$\\rho$' is under tension '$T$', having fundamental frequency of vibration $n_A$. Another wire of length $2L$, tension $2T$, density $2\\rho$ and diameter $3d$ has fundamental frequency of vibration $n_B$. The ratio $n_B : n_A$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1 : 2"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "1 : 4"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "1 : 6"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "1 : 8"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The fundamental frequency of a stretched string is given by:\n\n$$n = \\frac{1}{2L} \\sqrt{\\frac{T}{\\mu}}$$\n\nwhere $\\mu$ is the linear mass density = mass per unit length = $\\frac{\\pi d^2}{4} \\times \\rho$.\n\nThus $\\mu \\propto d^2 \\rho$.\n\nSo:\n\n$$n \\propto \\frac{1}{L} \\sqrt{\\frac{T}{d^2 \\rho}}$$\n\nFor wire A: $L_A = L$, $T_A = T$, $d_A = d$, $\\rho_A = \\rho$\n\nFor wire B: $L_B = 2L$, $T_B = 2T$, $d_B = 3d$, $\\rho_B = 2\\rho$\n\nNow:\n\n$$\\frac{n_B}{n_A} = \\frac{L_A}{L_B} \\times \\sqrt{\\frac{T_B}{T_A} \\times \\frac{d_A^2 \\rho_A}{d_B^2 \\rho_B}}$$\n\n$$= \\frac{L}{2L} \\times \\sqrt{\\frac{2T}{T} \\times \\frac{d^2 \\rho}{(3d)^2 \\times 2\\rho}}$$\n\n$$= \\frac{1}{2} \\times \\sqrt{2 \\times \\frac{1}{9 \\times 2}} = \\frac{1}{2} \\times \\sqrt{\\frac{2}{18}} = \\frac{1}{2} \\times \\sqrt{\\frac{1}{9}} = \\frac{1}{2} \\times \\frac{1}{3} = \\frac{1}{6}$$\n\nThus $n_B : n_A = 1 : 6$, which corresponds to option C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

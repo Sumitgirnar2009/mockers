@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "1"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In hydrogen spectrum, the ratio of wavelengths of the last line of Lyman series and that of the last line of Balmer series is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "0.5"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "0.25"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "0.2"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The wavelength of a spectral line in the hydrogen spectrum is given by:\n$$\\frac{1}{\\lambda} = RZ^2 \\left( \\frac{1}{n_1^2} - \\frac{1}{n_2^2} \\right)$$\nFor hydrogen, Z = 1, and R is the Rydberg constant.\n\nLyman series: n₁ = 1. The last line corresponds to n₂ = ∞.\n$$\\frac{1}{\\lambda_L} = R \\left( \\frac{1}{1^2} - \\frac{1}{\\infty^2} \\right) = R \\quad \\Rightarrow \\quad \\lambda_L = \\frac{1}{R}$$\n\nBalmer series: n₁ = 2. The last line corresponds to n₂ = ∞.\n$$\\frac{1}{\\lambda_B} = R \\left( \\frac{1}{2^2} - \\frac{1}{\\infty^2} \\right) = \\frac{R}{4} \\quad \\Rightarrow \\quad \\lambda_B = \\frac{4}{R}$$\n\nThus the ratio is:\n$$\\frac{\\lambda_L}{\\lambda_B} = \\frac{1/R}{4/R} = \\frac{1}{4} = 0.25$$\n\nHence the correct option is C: 0.25."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

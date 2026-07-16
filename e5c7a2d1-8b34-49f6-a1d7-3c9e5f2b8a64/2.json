@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "2"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Two very long straight conductors (wires) are set parallel to each other. Each carries a current 'I' in the same direction and the separation between them is '2r'. The intensity of the magnetic field at point 'P' (as shown in the figure) ($\\mu_0 =$ permeability of free space) is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64/q2.png"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{2}{3} \\frac{\\mu_0 I}{\\pi r}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{3}{8} \\frac{\\mu_0 I}{\\pi r}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{1}{4} \\frac{\\mu_0 I}{\\pi r}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{\\mu_0 I}{2\\pi r}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "In the figure, magnetic field at point P is given by:\n\n$$B_{\\text{net}} = B_1 + B_2 = \\frac{\\mu_0 I}{2\\pi} \\left( \\frac{1}{r} + \\frac{1}{3r} \\right) = \\frac{\\mu_0 I}{2\\pi} \\times \\frac{4}{3r} = \\frac{2}{3} \\frac{\\mu_0 I}{\\pi r}$$\n\nThus the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64/q2-sol.png"
+  }
+}

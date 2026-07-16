@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "142"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If the statement pattern $(p \\land q) \\to (r \\lor \\sim s)$ is false, then the truth values of $p, q, r$ and $s$ are respectively"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$T, F, T, F$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$T, T, T, F$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$T, T, F, F$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$T, T, F, T$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $(p \\land q) \\to (r \\lor \\sim s)$ is false.\n\nAn implication $A \\to B$ is false **only when** $A$ is true and $B$ is false.\n\nStep 1: $p \\land q$ must be true.\n\nThis means both $p$ and $q$ are true: $p = T$, $q = T$.\n\nStep 2: $r \\lor \\sim s$ must be false.\n\nA disjunction is false only when both parts are false:\n- $r = F$\n- $\\sim s = F \\Rightarrow s = T$\n\nThus the truth values are: $p = T$, $q = T$, $r = F$, $s = T$.\n\nFinal Answer: $$\\boxed{T, T, F, T}$$\n\nHence, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

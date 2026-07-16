@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "109"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If the shortest distance between the lines $$\\frac{x-k}{2} = \\frac{y-4}{3} = \\frac{z-3}{4}$$ and $$\\frac{x-2}{4} = \\frac{y-4}{6} = \\frac{z-7}{8}$$ is $$\\frac{13}{\\sqrt{29}},$$ then $k =$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "-1"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "2"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "-2"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The lines are parallel as direction vectors are $\\vec{b} = 2\\hat{i} + 3\\hat{j} + 4\\hat{k}$ and $4\\hat{i} + 6\\hat{j} + 8\\hat{k} = 2\\vec{b}$.\n\nPoints: $\\vec{a_1} = k\\hat{i} + 4\\hat{j} + 3\\hat{k}$, $\\vec{a_2} = 2\\hat{i} + 4\\hat{j} + 7\\hat{k}$.\n\nShortest distance between parallel lines:\n\n$$d = \\frac{|\\vec{b} \\times (\\vec{a_2} - \\vec{a_1})|}{|\\vec{b}|}$$\n\nHere $\\vec{a_2} - \\vec{a_1} = (2 - k)\\hat{i} + 0\\hat{j} + 4\\hat{k}$.\n\nCompute cross product:\n\n$$\\vec{b} \\times (\\vec{a_2} - \\vec{a_1}) = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 2 & 3 & 4 \\\\ 2-k & 0 & 4 \\end{vmatrix}$$\n\n$$= \\hat{i}(3 \\cdot 4 - 4 \\cdot 0) - \\hat{j}(2 \\cdot 4 - 4(2-k)) + \\hat{k}(2 \\cdot 0 - 3(2-k))$$\n\n$$= \\hat{i}(12) - \\hat{j}(8 - 8 + 4k) + \\hat{k}(-6 + 3k)$$\n\n$$= 12\\hat{i} - 4k\\hat{j} + (3k - 6)\\hat{k}$$\n\nMagnitude:\n\n$$|\\vec{b} \\times (\\vec{a_2} - \\vec{a_1})| = \\sqrt{144 + 16k^2 + (3k - 6)^2}$$\n\nGiven $d = \\frac{13}{\\sqrt{29}}$, $|\\vec{b}| = \\sqrt{4 + 9 + 16} = \\sqrt{29}$.\n\nThus:\n\n$$\\frac{\\sqrt{144 + 16k^2 + (3k - 6)^2}}{\\sqrt{29}} = \\frac{13}{\\sqrt{29}}$$\n\n$$\\Rightarrow \\sqrt{144 + 16k^2 + 9k^2 - 36k + 36} = 13$$\n\n$$\\sqrt{25k^2 - 36k + 180} = 13$$\n\nSquaring: $25k^2 - 36k + 180 = 169$\n\n$25k^2 - 36k + 11 = 0$\n\nSolving: $k = 1$ or $k = 11/25$.\n\nFrom options, $k = 1$.\n\nThus the correct option is A: 1."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

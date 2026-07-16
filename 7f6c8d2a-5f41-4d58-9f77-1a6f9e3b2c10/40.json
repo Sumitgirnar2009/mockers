@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "40"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Two spheres each of mass $M$ and radius $R$ are connected with a massless rod of length $4R$. The moment of inertia of the system about an axis passing through the centre of one of the spheres and perpendicular to the rod will be"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10/q40.png"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{21}{5}MR^2$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{84}{5}MR^2$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{42}{5}MR^2$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{5}{21}MR^2$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Axis passes through the centre of sphere 1 and is perpendicular to the rod.\n\nFor sphere 1 (on the axis):\n$$I_1 = \\frac{2}{5} MR^2$$\n\nFor sphere 2 (at a distance of $4R$ from the axis):\nUsing parallel axis theorem: $I_2 = \\frac{2}{5} MR^2 + M(4R)^2 = \\frac{2}{5} MR^2 + 16MR^2$\n\nThe rod is massless, so its moment of inertia $I_3 = 0$.\n\nTotal moment of inertia:\n$$I = I_1 + I_2 = \\frac{2}{5} MR^2 + \\left(\\frac{2}{5} MR^2 + 16MR^2\\right)$$\n$$= \\frac{4}{5} MR^2 + 16MR^2 = \\frac{4}{5} MR^2 + \\frac{80}{5} MR^2 = \\frac{84}{5} MR^2$$\n\nThus the correct option is $\\frac{84}{5} MR^2$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

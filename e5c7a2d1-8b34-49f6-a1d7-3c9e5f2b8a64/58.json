@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "58"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify the property of colloidal solutions so that colloidal particles move freely towards respective electrodes under an applied electrical potential."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Brownian motion"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Electrophoresis"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Electroosmosis"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Dialysis"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The property of colloidal solutions that causes colloidal particles to move freely towards respective electrodes under an applied electrical potential is called Electrophoresis.\n\nExplanation:\n\nBrownian motion is the random movement of particles due to kinetic energy, not due to an electric field.\n\nElectrophoresis is the movement of colloidal particles toward the oppositely charged electrode under the influence of an electric field.\n\nElectroosmosis is the movement of the dispersion medium (not the particles) under the influence of an electric field.\n\nDialysis is the process of removing impurities from colloidal solutions using a semipermeable membrane.\n\nCorrect answer:\n\nOption B: Electrophoresis"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

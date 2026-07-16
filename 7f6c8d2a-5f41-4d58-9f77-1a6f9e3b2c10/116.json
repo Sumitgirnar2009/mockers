@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "116"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If X is a binomial variable with range {0, 1, 2, 3, 4} and $$P(X = 3) = 3P(X = 4)$$ then the parameter 'p' of the binomial distribution is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{4}{7}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{3}{4}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{1}{3}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{2}{5}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Here, $n = 4$\n\n$$P(X = 3) = 3P(X = 4)$$\n\n$$\\therefore 4C_3 p^3 q = 3 \\cdot 4C_4 p^4 q^0$$\n\n$$\\therefore 4p^3 q = 3p^4$$\n\n$$\\therefore 4(1 - p) = 3p \\quad [\\because p + q = 1]$$\n\n$$\\therefore 4 - 4p = 3p$$\n\n$$\\therefore 4 = 7p$$\n\n$$\\therefore p = \\frac{4}{7}$$"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

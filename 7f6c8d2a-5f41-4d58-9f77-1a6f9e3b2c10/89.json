@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "89"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Calculate the concentration of dissolved gas in water at 25°C if partial pressure of gas at same temperature is 0.15 atm. $K_H = 0.15 \\, \\text{mol dm}^{-3} \\, \\text{atm}^{-1}$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "0.0261 M"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "0.0182 M"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "0.0293 M"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "0.0225 M"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "According to Henry's law:\n\n$$C = K_H \\times P$$\n\nGiven:\n\n$$K_H = 0.15 \\, \\text{mol dm}^{-3} \\text{atm}^{-1}$$\n\n$$P = 0.15 \\, \\text{atm}$$\n\nSubstituting:\n\n$$C = 0.15 \\times 0.15 = 0.0225 \\, \\text{mol dm}^{-3} = 0.0225 \\, \\text{M}$$\n\nThus the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

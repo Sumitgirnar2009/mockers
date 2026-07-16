@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "140"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The value of $$\\frac{(\\cos \\theta + i \\sin \\theta)^4}{(\\sin \\theta + i \\cos \\theta)^5} =$$ where $i = \\sqrt{-1}$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\cos \\theta - i \\sin \\theta$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\cos 9\\theta - i \\sin 9\\theta$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\sin \\theta - i \\cos \\theta$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\sin 9\\theta - i \\cos 9\\theta$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "$$\\frac{(\\cos \\theta + i \\sin \\theta)^4}{(\\sin \\theta + i \\cos \\theta)^5} = \\frac{(\\cos \\theta + i \\sin \\theta)^4}{i^5 (\\cos \\theta - i \\sin \\theta)^5}$$\n\nSince $\\sin \\theta + i \\cos \\theta = i(\\cos \\theta - i \\sin \\theta)$ and $i^5 = i$.\n\n$$= \\frac{(\\cos \\theta + i \\sin \\theta)^4}{i (\\cos \\theta - i \\sin \\theta)^5}$$\n\nUsing $\\cos \\theta - i \\sin \\theta = (\\cos \\theta + i \\sin \\theta)^{-1}$:\n\n$$= \\frac{(\\cos \\theta + i \\sin \\theta)^4}{i (\\cos \\theta + i \\sin \\theta)^{-5}} = \\frac{1}{i} (\\cos \\theta + i \\sin \\theta)^9$$\n\n$$= -i (\\cos 9\\theta + i \\sin 9\\theta) = \\sin 9\\theta - i \\cos 9\\theta$$\n\nThus the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

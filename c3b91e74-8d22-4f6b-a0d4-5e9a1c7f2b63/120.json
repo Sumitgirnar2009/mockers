@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "120"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In a triangle ABC with usual notations if $a = 13, b = 14, c = 15$ then $\\sin A =$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{4}{5}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{3}{5}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{1}{2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{4}{7}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "$s = \\frac{a+b+c}{2} = \\frac{13+14+15}{2} = 21$.\n\nArea $\\Delta = \\sqrt{s(s-a)(s-b)(s-c)} = \\sqrt{21 \\times 8 \\times 7 \\times 6} = \\sqrt{7056} = 84$.\n\n$$\\sin A = \\frac{2\\Delta}{bc} = \\frac{2 \\times 84}{14 \\times 15} = \\frac{168}{210} = \\frac{4}{5}$$\n\nThus the correct option is A: $\\frac{4}{5}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

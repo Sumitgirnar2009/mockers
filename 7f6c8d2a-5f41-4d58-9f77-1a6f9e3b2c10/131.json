@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "131"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The money invested in a company is compounded continuously. ₹ 400 invested today becomes ₹ 800 in 6 years, then at the end of 33 years, it will become ( $\\sqrt{2} = 1.4142$ )"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "9050.88"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "18101.76"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "6788.16"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "12067.84"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Using compound interest formula: $A = P \\left(1 + \\frac{R}{100}\\right)^N$.\n\nGiven: $P = 400$, $A = 800$, $N = 6$ years.\n\n$$800 = 400 \\left(1 + \\frac{R}{100}\\right)^6$$\n\n$$\\left(1 + \\frac{R}{100}\\right)^6 = 2$$\n\n$$1 + \\frac{R}{100} = 2^{\\frac{1}{6}}$$\n\nNow for $N = 33$ years:\n\n$$A = 400 \\left(1 + \\frac{R}{100}\\right)^{33} = 400 \\left(2^{\\frac{1}{6}}\\right)^{33} = 400 \\times 2^{\\frac{33}{6}} = 400 \\times 2^{5.5} = 400 \\times 2^5 \\times 2^{0.5}$$\n\n$$= 400 \\times 32 \\times \\sqrt{2} = 400 \\times 32 \\times 1.4142$$\n\n$$= 12800 \\times 1.4142 = 18101.76$$\n\nThus the correct option is B: 18101.76."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

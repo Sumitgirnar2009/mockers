@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "42"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A water drop of $0.01 \\, \\text{cm}^3$ is squeezed between two glass plates and spreads into area of $10 \\, \\text{cm}^2$. If surface tension of water is 70 dyne/cm then the normal force required to separate glass plates from each other will be"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "12 N"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "14 N"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "16 N"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "28 N"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given:\nVolume of water drop, $V = 0.01 \\text{ cm}^3$\nArea of spread, $A = 10 \\text{ cm}^2$\nSurface tension of water, $T = 70 \\text{ dyne/cm}$\n\nThickness of water layer:\n$$d = \\frac{V}{A} = \\frac{0.01}{10} = 0.001 \\text{ cm}$$\n\nThe force required to separate the plates is given by:\n$$F = \\frac{2TA}{d}$$\n\nSubstitute the values:\n$$F = \\frac{2 \\times 70 \\times 10}{0.001} = \\frac{1400}{0.001} = 1,400,000 \\text{ dyne}$$\n\nConvert dyne to Newton ($1 \\text{ N} = 10^5 \\text{ dyne}$):\n$$F = \\frac{1,400,000}{100,000} = 14 \\text{ N}$$\n\nThus the correct option is B: 14 N."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

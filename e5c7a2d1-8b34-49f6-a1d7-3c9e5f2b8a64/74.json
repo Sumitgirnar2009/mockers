@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "74"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Calculate the energy per mole of photon of electromagnetic radiation having wavelength $700$ nm ($h = 6.626 \\times 10^{-34}$ Js, $c = 3 \\times 10^8$ m/s)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$1.71 \\times 10^5$ J"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$1.02 \\times 10^5$ J"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$1.84 \\times 10^5$ J"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$1.55 \\times 10^5$ J"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Energy of one photon is given by $E = \\frac{hc}{\\lambda}$.\n\nGiven: $\\lambda = 700 \\times 10^{-9}$ m, $h = 6.626 \\times 10^{-34}$ Js, $c = 3 \\times 10^8$ m/s.\n\n$$E = \\frac{6.626 \\times 10^{-34} \\times 3 \\times 10^8}{700 \\times 10^{-9}} = 2.84 \\times 10^{-19} \\text{ J}$$\n\nEnergy per mole of photons = $E \\times N_A$.\n\n$$= 2.84 \\times 10^{-19} \\times 6.022 \\times 10^{23}$$\n$$= 1.71 \\times 10^5 \\text{ J/mol}$$\n\nThus, the correct option is A: $1.71 \\times 10^5$ J."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

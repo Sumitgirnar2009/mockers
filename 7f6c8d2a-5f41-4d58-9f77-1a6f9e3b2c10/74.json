@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "74"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which among the following is NOT benzylic halide?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Bromophenylmethane"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "1-Bromo-1-phenylethane"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "2-Bromo-2-phenylpropane"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "1-Bromo-2-phenylbutane"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "A benzylic halide is a compound in which a halogen atom is attached to a carbon that is directly bonded to a benzene ring. In other words, the halogen is on the benzylic carbon (the carbon adjacent to the ring).\n\n- Option A: Bromophenylmethane (C₆H₅CH₂Br) → Br on benzylic carbon → benzylic halide.\n- Option B: 1-Bromo-1-phenylethane (C₆H₅CHBrCH₃) → Br on benzylic carbon → benzylic halide.\n- Option C: 2-Bromo-2-phenylpropane (C₆H₅CBr(CH₃)₂) → Br on benzylic carbon → benzylic halide.\n- Option D: 1-Bromo-2-phenylbutane (C₆H₅CH₂CH₂CH₂Br) → Br is on the terminal carbon, not directly attached to the benzylic carbon (the benzylic carbon is C₆H₅CH₂-, and Br is two carbons away) → NOT a benzylic halide.\n\nThus, the compound that is NOT a benzylic halide is option D."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10/q74-sol.png"
+  }
+}

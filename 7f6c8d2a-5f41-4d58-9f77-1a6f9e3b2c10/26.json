@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "26"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The surface energy of a liquid drop is '$V$'. It is sprayed into 1000 equal droplets. The surface energy of all the droplets is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$V$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$10V$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$100V$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$1000V$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $R$ be the radius of the bigger drop and $r$ be the radius of each small droplet.\n\nMass is conserved, so:\n\n$$\\rho \\times \\frac{4}{3} \\pi R^3 = \\rho \\times \\frac{4}{3} \\pi r^3 \\times 1000$$\n\n$$R^3 = 1000 r^3$$\n\n$$R = 10r$$\n\nSurface energy of the bigger drop:\n\n$$V = (4\\pi R^2) T$$\n\nTotal surface energy of all 1000 small droplets:\n\n$$V' = n \\times (4\\pi r^2) T = 1000 \\times 4\\pi r^2 \\times T$$\n\nSubstitute $r = \\frac{R}{10}$:\n\n$$V' = 1000 \\times 4\\pi \\left(\\frac{R}{10}\\right)^2 \\times T = \\frac{1000}{100} \\times 4\\pi R^2 T = 10 \\times V$$\n\nThus the total surface energy of all droplets is $10V$, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

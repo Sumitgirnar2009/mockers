@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "63"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which is NOT correct regarding stock notation?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Hg$_2$Cl$_2$ is reduced form of HgCl$_2$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "HgCl$_2$ is oxidised form of Hg$_2$Cl$_2$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "It helps to identify whether species is present in oxidised form or reduced form"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Aurous chloride is written as Au(III)Cl$_3$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Stock notation indicates oxidation state. Hg₂Cl₂ (Hg⁺) is reduced form of HgCl₂ (Hg²⁺), so A, B, C are correct. Aurous chloride is Au(I)Cl, not Au(III)Cl₃. Hence, D is incorrect."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

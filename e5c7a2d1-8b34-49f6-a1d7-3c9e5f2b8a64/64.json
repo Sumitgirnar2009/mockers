@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "64"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Calculate the time in seconds required to reduce the concentration of reactant to half of initial concentration for first order reaction if rate constant is $1.386 \\times 10^{-3} \\, \\text{s}^{-1}$."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "140 s"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "290 s"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "390 s"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "500 s"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For first order reaction: $t_{1/2} = \\frac{0.693}{k}$. Substituting $k = 1.386 \\times 10^{-3}$ s⁻¹, we get $t_{1/2} = \\frac{0.693}{1.386 \\times 10^{-3}} = 500$ s. Hence, option D is correct."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

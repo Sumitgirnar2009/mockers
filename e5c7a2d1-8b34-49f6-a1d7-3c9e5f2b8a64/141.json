@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "141"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The equation of the plane containing the line $\\frac{x-2}{3} = \\frac{y+1}{2} = \\frac{z-4}{-2}$ and the point $(0, 5, 0)$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$2x - 4y - 3z + 20 = 0$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$2x + 8y + 11z - 40 = 0$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$8x - 5y + z + 25 = 0$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$x - 4y + 3z + 20 = 0$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let the equation of the plane passing through $(0, 5, 0)$ be:\n\n$$a(x - 0) + b(y - 5) + c(z - 0) = 0$$\n$$\\Rightarrow ax + b(y - 5) + cz = 0$$\n\nThe line passes through $(2, -1, 4)$, so this point lies on the plane:\n\n$$a(2) + b(-1 - 5) + c(4) = 0 \\Rightarrow 2a - 6b + 4c = 0$$\n$$\\Rightarrow a - 3b + 2c = 0 \\quad \\text{(i)}$$\n\nThe direction ratios of the line are $(3, 2, -2)$. Since the plane contains the line, the normal to the plane is perpendicular to the direction vector of the line:\n\n$$3a + 2b - 2c = 0 \\quad \\text{(ii)}$$\n\nSolving (i) and (ii):\n\nFrom (i): $a = 3b - 2c$.\n\nSubstitute into (ii): $3(3b - 2c) + 2b - 2c = 0$\n$$9b - 6c + 2b - 2c = 0 \\Rightarrow 11b - 8c = 0 \\Rightarrow b = \\frac{8}{11}c$$\n\nThen $a = 3\\left(\\frac{8}{11}c\\right) - 2c = \\frac{24}{11}c - \\frac{22}{11}c = \\frac{2}{11}c$.\n\nThus $a : b : c = \\frac{2}{11} : \\frac{8}{11} : 1 = 2 : 8 : 11$.\n\nSo $a = 2, b = 8, c = 11$.\n\nSubstitute into the plane equation:\n\n$$2x + 8(y - 5) + 11z = 0$$\n$$2x + 8y - 40 + 11z = 0$$\n$$2x + 8y + 11z - 40 = 0$$\n\nFinal Answer: $$\\boxed{2x + 8y + 11z - 40 = 0}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

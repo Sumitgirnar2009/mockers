@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "81"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "What is the pH of buffer solution formed by mixing 0.01 M acetic acid and 0.05 M sodium acetate? ($pK_a = 4.7447$)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "2.80"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "3.00"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "5.44"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "6.5"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Using the Henderson-Hasselbalch equation:\n\n$$pH = pK_a + \\log \\left( \\frac{[\\text{Salt}]}{[\\text{Acid}]} \\right)$$\n\nGiven: $pK_a = 4.7447$, $[\\text{Salt}] = 0.05$ M, $[\\text{Acid}] = 0.01$ M.\n\n$$\\frac{[\\text{Salt}]}{[\\text{Acid}]} = \\frac{0.05}{0.01} = 5$$\n\n$$\\log 5 = 0.6990$$\n\n$$pH = 4.7447 + 0.6990 = 5.4437 \\approx 5.44$$\n\nThus the correct option is C: 5.44."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

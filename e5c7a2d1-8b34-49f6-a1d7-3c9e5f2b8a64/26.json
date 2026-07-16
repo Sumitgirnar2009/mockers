@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "26"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following transitions in hydrogen atom emit photons of highest frequency? ($n$ = principal quantum number)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "n = 1 to n = 3"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "n = 2  to n = 4"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "n = 5 to n = 3"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "n = 2 to n = 1"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Energy difference $\\Delta E = -13.6 \\left( \\frac{1}{n_f^2} - \\frac{1}{n_i^2} \\right)$ eV. Higher $\\Delta E$ means higher frequency.\n\nOption A: $1 \\to 3$ is absorption (not emission).\nOption B: $2 \\to 4$ is absorption.\nOption C: $5 \\to 3$: $\\Delta E = -13.6(1/9 - 1/25) = -0.967$ eV.\nOption D: $2 \\to 1$: $\\Delta E = -13.6(1/1 - 1/4) = -10.2$ eV.\n\nThus $2 \\to 1$ has the highest energy and hence highest frequency. Correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

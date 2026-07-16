@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "107"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "$$\\int \\sin^5 x \\, dx =$$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\cos x + \\frac{2}{3} \\cos^2 x - \\frac{\\cos^5 x}{5} + c$, where $c$ is the constant of integration"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\cos x + \\frac{2}{3} \\cos^2 x + \\frac{\\cos^5 x}{5} + c$, where $c$ is the constant of integration"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$-\\left(\\cos x - \\frac{2}{3} \\cos^3 x + \\frac{\\cos^5 x}{5}\\right) + c$, where $c$ is the constant of integration"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\cos x - \\frac{2}{3} \\cos^3 x + \\frac{\\cos^5 x}{5} + c$, where $c$ is the constant of integration"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $I = \\int \\sin^5 x \\, dx = \\int \\sin^4 x \\cdot \\sin x \\, dx = \\int (1 - \\cos^2 x)^2 \\sin x \\, dx$.\n\nExpand: $(1 - 2\\cos^2 x + \\cos^4 x) \\sin x \\, dx$.\n\nSubstitute $t = \\cos x$, then $dt = -\\sin x \\, dx$.\n\n$$I = -\\int (1 - 2t^2 + t^4) dt = -\\left(t - \\frac{2t^3}{3} + \\frac{t^5}{5}\\right) + c$$\n\n$$= -\\left(\\cos x - \\frac{2\\cos^3 x}{3} + \\frac{\\cos^5 x}{5}\\right) + c$$\n\nThus the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

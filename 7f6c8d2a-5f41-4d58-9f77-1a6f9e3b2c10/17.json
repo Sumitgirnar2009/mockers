@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "17"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A coil of self-inductance $L$ is connected in series with a bulb and an a.c. source. Brightness of the bulb decreases when"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "an iron rod is inserted in the coil."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "frequency of a.c. source is decreased."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "number of turns in the coil is reduced."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "a capacitance of reactance $(X_C - X_L)$ is included in the same circuit."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The brightness of the bulb depends on the current through it. For an inductive circuit, current $I = V/Z$ where $Z = \\sqrt{R^2 + X_L^2}$ and $X_L = 2\\pi f L$. Inserting an iron rod increases the inductance $L$, which increases $X_L$ and thus $Z$, reducing the current. Hence brightness decreases. Decreasing frequency reduces $X_L$, increasing current. Reducing number of turns decreases $L$, reducing $X_L$ and increasing current. Adding capacitance to cancel $X_L$ would reduce impedance and increase current. Therefore, the correct answer is A: an iron rod is inserted in the coil."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

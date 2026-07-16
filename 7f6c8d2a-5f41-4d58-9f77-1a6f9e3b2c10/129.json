@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "129"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The equation $|z + 1 - i| = |z - 1 + i|$ represents a (where $z$ is a complex number)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Straight line passing through the origin and the first and third quadrant."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Straight line passing through the origin and the second and fourth quadrant."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Straight line passing through the point $(1, -1)$ and having slope -1."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Straight line passing through the point $(2, 1)$ and having slope $\\frac{1}{2}$."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $z = x + iy$.\n\n$$|z + 1 - i| = |z - 1 + i|$$\n\n$$|(x + 1) + i(y - 1)| = |(x - 1) + i(y + 1)|$$\n\n$$(x + 1)^2 + (y - 1)^2 = (x - 1)^2 + (y + 1)^2$$\n\nExpanding:\n\n$x^2 + 2x + 1 + y^2 - 2y + 1 = x^2 - 2x + 1 + y^2 + 2y + 1$\n\nCancel $x^2, y^2, 1, 1$:\n\n$2x - 2y = -2x + 2y \\Rightarrow 4x - 4y = 0 \\Rightarrow x - y = 0 \\Rightarrow y = x$.\n\nThis is a straight line through the origin lying in the first and third quadrants.\n\nThus the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

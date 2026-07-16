@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "148"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $A = \\begin{bmatrix} 1 & \\tan x \\\\ -\\tan x & 1 \\end{bmatrix}$, then $A^T A^{-1} =$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\begin{bmatrix} \\cos 2x & -\\sin 2x \\\\ -\\sin 2x & \\cos 2x \\end{bmatrix}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\begin{bmatrix} \\cos 2x & -\\sin 2x \\\\ \\sin 2x & \\cos 2x \\end{bmatrix}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\begin{bmatrix} -\\cos 2x & \\sin 2x \\\\ \\sin 2x & \\cos 2x \\end{bmatrix}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\begin{bmatrix} -\\cos 2x & \\sin 2x \\\\ -\\sin 2x & \\cos 2x \\end{bmatrix}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given $A = \\begin{bmatrix} 1 & \\tan x \\\\ -\\tan x & 1 \\end{bmatrix}$.\n\nThen $A^T = \\begin{bmatrix} 1 & -\\tan x \\\\ \\tan x & 1 \\end{bmatrix}$.\n\n$|A| = 1 + \\tan^2 x = \\sec^2 x$, so $A^{-1} = \\frac{1}{\\sec^2 x} \\begin{bmatrix} 1 & -\\tan x \\\\ \\tan x & 1 \\end{bmatrix} = \\cos^2 x \\begin{bmatrix} 1 & -\\tan x \\\\ \\tan x & 1 \\end{bmatrix}$.\n\nThus $A^T A^{-1} = \\cos^2 x \\begin{bmatrix} 1 & -\\tan x \\\\ \\tan x & 1 \\end{bmatrix} \\begin{bmatrix} 1 & -\\tan x \\\\ \\tan x & 1 \\end{bmatrix}$.\n\nMultiply:\n\nFirst row, first column: $1 \\cdot 1 + (-\\tan x)(\\tan x) = 1 - \\tan^2 x$\nFirst row, second column: $1 \\cdot (-\\tan x) + (-\\tan x) \\cdot 1 = -2\\tan x$\nSecond row, first column: $(\\tan x) \\cdot 1 + 1 \\cdot (\\tan x) = 2\\tan x$\nSecond row, second column: $(\\tan x)(-\\tan x) + 1 \\cdot 1 = 1 - \\tan^2 x$\n\nSo $A^T A^{-1} = \\cos^2 x \\begin{bmatrix} 1 - \\tan^2 x & -2\\tan x \\\\ 2\\tan x & 1 - \\tan^2 x \\end{bmatrix}$.\n\nUsing $\\cos^2 x = \\frac{1}{1+\\tan^2 x}$, we get:\n\n$\\cos^2 x (1 - \\tan^2 x) = \\frac{1 - \\tan^2 x}{1 + \\tan^2 x} = \\cos 2x$\n\n$\\cos^2 x (-2\\tan x) = -\\frac{2\\tan x}{1 + \\tan^2 x} = -\\sin 2x$\n\n$\\cos^2 x (2\\tan x) = \\frac{2\\tan x}{1 + \\tan^2 x} = \\sin 2x$\n\nThus $A^T A^{-1} = \\begin{bmatrix} \\cos 2x & -\\sin 2x \\\\ \\sin 2x & \\cos 2x \\end{bmatrix}$, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

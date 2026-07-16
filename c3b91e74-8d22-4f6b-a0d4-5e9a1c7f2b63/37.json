@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "37"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Electric flux in unit of V-m associated with the curved surface C is $\\phi$. The flux linked with the plane surface 'A' in unit of V-m will be ($\\epsilon_0 =$ permittivity of free space)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{\\phi}{3}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\left(\\frac{q}{\\epsilon_0} - \\phi\\right)$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{1}{2} \\left(\\frac{q}{\\epsilon_0} - \\phi\\right)$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{q}{2\\epsilon_0}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "According to Gauss's law, total flux through the closed surface is:\n\n$$\\phi_A + \\phi_B + \\phi_C = \\frac{q}{\\epsilon_0}$$\n\nDue to symmetry, the flux through plane surfaces A and B are equal: $\\phi_A = \\phi_B$.\n\nGiven that flux through curved surface C is $\\phi_C = \\phi$.\n\nThus:\n\n$$\\phi_A + \\phi_A + \\phi = \\frac{q}{\\epsilon_0}$$\n\n$$2\\phi_A + \\phi = \\frac{q}{\\epsilon_0}$$\n\n$$\\phi_A = \\frac{1}{2} \\left( \\frac{q}{\\epsilon_0} - \\phi \\right)$$\n\nHence the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

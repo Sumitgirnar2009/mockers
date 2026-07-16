@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "68"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A compound contains atoms of $x$, $y$ and $z$ elements. Oxidation numbers of $x$, $y$ and $z$ are $+3$, $+5$ and $-2$ respectively. Identify the possible formula of this compound."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$XYZ_2$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$Y_2(XZ_3)_2$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$X_3(YZ_4)_3$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$X_3(Y_4Z)_2$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $x = +3$, $y = +5$, $z = -2$.\n\nFor a neutral compound, sum of oxidation numbers must be $0$.\n\nOption A: $XYZ_2$ → $+3 + 5 + 2(-2) = 8 - 4 = 4 \\neq 0$.\n\nOption B: $Y_2(XZ_3)_2$ → $2(+5) + 2(+3) + 6(-2) = 10 + 6 - 12 = 4 \\neq 0$.\n\nOption C: $X_3(YZ_4)_3$ → $3(+3) + 3(+5) + 12(-2) = 9 + 15 - 24 = 0$.\n\nOption D: $X_3(Y_4Z)_2$ → $3(+3) + 8(+5) + 2(-2) = 9 + 40 - 4 = 45 \\neq 0$.\n\nThus the possible formula is $X_3(YZ_4)_3$, which corresponds to option C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

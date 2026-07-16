@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "115"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $\\vec{a}$ and $\\vec{b}$ are unit vectors such that $|\\vec{a} + \\vec{b}| = \\sqrt{3}$, then the angle between $\\vec{a}$ and $\\vec{b}$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{\\pi}{6}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{\\pi}{3}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{\\pi}{4}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{\\pi}{2}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $|\\vec{a}| = |\\vec{b}| = 1$ and $|\\vec{a} + \\vec{b}| = \\sqrt{3}$.\n\nUsing the formula: $|\\vec{a} + \\vec{b}|^2 = |\\vec{a}|^2 + |\\vec{b}|^2 + 2\\vec{a} \\cdot \\vec{b}$.\n\n$$(\\sqrt{3})^2 = 1^2 + 1^2 + 2\\vec{a} \\cdot \\vec{b}$$\n\n$$3 = 2 + 2\\vec{a} \\cdot \\vec{b}$$\n\n$$\\vec{a} \\cdot \\vec{b} = \\frac{1}{2}$$\n\nBut $\\vec{a} \\cdot \\vec{b} = |\\vec{a}| |\\vec{b}| \\cos\\theta = 1 \\cdot 1 \\cdot \\cos\\theta = \\cos\\theta$.\n\n$$\\cos\\theta = \\frac{1}{2} \\Rightarrow \\theta = \\frac{\\pi}{3}$$\n\nFinal Answer: $$\\boxed{\\frac{\\pi}{3}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

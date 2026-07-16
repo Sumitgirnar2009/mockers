@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "141"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $f(x) = 2x^3 + mx^2 - 13x + n$ and 2, 3 are the roots of the equation $f(x) = 0$ then the value of $4m + 5n$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "30"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "100"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "130"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "150"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "$$ f(x) = 2x^3 + mx^2 - 13x + n $$\n\n2, 3 are the roots of $f(x) = 0$.\n\n$$\\Rightarrow f(2) = 0$$\n$$\\Rightarrow 2(2)^3 + m(2)^2 - 13(2) + n = 0$$\n$$\\Rightarrow 16 + 4m - 26 + n = 0$$\n$$\\Rightarrow 4m + n = 10 \\quad \\cdots (i)$$\n\nAlso, $f(3) = 0$:\n\n$$\\Rightarrow 2(3)^3 + m(3)^2 - 13(3) + n = 0$$\n$$\\Rightarrow 54 + 9m - 39 + n = 0$$\n$$\\Rightarrow 9m + n = -15 \\quad \\cdots (ii)$$\n\nSubtracting (i) from (ii):\n\n$$5m = -25 \\Rightarrow m = -5$$\n\nSubstituting $m = -5$ in (i):\n\n$$4(-5) + n = 10 \\Rightarrow n = 30$$\n\n$$\\therefore 4m + 5n = 4(-5) + 5(30) = -20 + 150 = 130$$\n\nThus the correct option is C: 130."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

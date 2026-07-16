@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "135"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $a(4 + x^2) = x$ and $y - x^3 = a^2$ then $\\frac{dy}{dx}$ at $x = 1$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{441}{125}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{18}{125}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{378}{125}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{381}{125}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given $a(4+x^2) = x \\Rightarrow a = \\frac{x}{4+x^2}$.\n\n$$\\frac{da}{dx} = \\frac{(4+x^2) - x(2x)}{(4+x^2)^2} = \\frac{4 - x^2}{(4+x^2)^2}$$\n\n$y - x^3 = a^2$. Differentiate w.r.t. $x$:\n\n$$\\frac{dy}{dx} - 3x^2 = 2a \\frac{da}{dx}$$\n\n$$\\frac{dy}{dx} = 3x^2 + 2 \\left( \\frac{x}{4+x^2} \\right) \\left( \\frac{4-x^2}{(4+x^2)^2} \\right) = 3x^2 + \\frac{2x(4-x^2)}{(4+x^2)^3}$$\n\nAt $x=1$:\n\n$$\\frac{dy}{dx} = 3 + \\frac{2 \\times 1 \\times 3}{(5)^3} = 3 + \\frac{6}{125} = \\frac{375 + 6}{125} = \\frac{381}{125}$$\n\nThus the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

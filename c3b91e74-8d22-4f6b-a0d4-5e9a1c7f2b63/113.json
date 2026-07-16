@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "113"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A manufacturer produces $x$ items per week at a total cost of $x^2 + 78x + 2500$. The price per unit is given by $8x = 600 - p$ where 'p' is the price of each unit. Then the maximum profit obtained is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "₹ 5069"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "₹ 15138"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "₹ 7569"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "₹ 2500"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Cost = $x^2 + 78x + 2500$.\n\nPrice per unit $p = 600 - 8x$.\n\nSelling price = $x(600 - 8x) = 600x - 8x^2$.\n\nProfit $P(x) = (600x - 8x^2) - (x^2 + 78x + 2500) = -9x^2 + 522x - 2500$.\n\n$P'(x) = -18x + 522 = 0 \\Rightarrow x = 29$.\n\n$P''(x) = -18 < 0$, so maximum at $x = 29$.\n\n$P(29) = -9(29)^2 + 522(29) - 2500 = -9(841) + 15138 - 2500 = -7569 + 15138 - 2500 = 5069$.\n\nThus the correct option is A: ₹ 5069."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

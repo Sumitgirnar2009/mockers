@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "64"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Find out number of carbon atoms present in 0.35 mole of glucose."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$3.011 \\times 10^{24}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$6.022 \\times 10^{24}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$1.264 \\times 10^{24}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$2.044 \\times 10^{24}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Glucose formula: $C_6H_{12}O_6$. Each molecule has 6 carbon atoms.\n\nNumber of glucose molecules = $0.35 \\times 6.022 \\times 10^{23} = 2.1077 \\times 10^{23}$.\n\nNumber of carbon atoms = $2.1077 \\times 10^{23} \\times 6 = 1.26462 \\times 10^{24}$.\n\nThus the correct option is C: $1.264 \\times 10^{24}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

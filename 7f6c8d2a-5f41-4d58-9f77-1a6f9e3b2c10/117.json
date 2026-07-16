@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "117"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If a statement q has truth value False and $(p \\land q) \\leftrightarrow r$ has truth value True then which of the following has truth value true?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$p \\land q$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$p \\lor r$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$p \\land r$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$(p \\land r) \\to (p \\lor r)$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $q$ is False.\n\n$(p \\land q)$ is False (since $q$ is False).\n\n$(p \\land q) \\leftrightarrow r$ is True. A biconditional is True only when both sides have the same truth value. Since $(p \\land q)$ is False, $r$ must also be False.\n\nNow $p$ can be either True or False.\n\nCheck each option:\n\n- Option A: $p \\land q$ is False (since $q$ is False).\n- Option B: $p \\lor r$: $r$ is False, so this equals $p$ (can be True or False, not always True).\n- Option C: $p \\land r$: $r$ is False, so this is always False.\n- Option D: $(p \\land r) \\to (p \\lor r)$: $p \\land r$ is False (since $r$ is False). A conditional with a False antecedent is always True, regardless of the consequent. Thus this statement is always True.\n\nTherefore the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

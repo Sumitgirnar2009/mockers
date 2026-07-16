@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "9"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A mass m is suspended from a spring of negligible mass. The spring is pulled a little and then released, so that mass executes S.H.M. of time period T. If the mass is increased by $m_0$, the periodic time becomes $\\frac{5T}{4}$. The ratio $\\frac{m_0}{m}$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{3}{4}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{4}{3}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{9}{16}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{16}{9}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "$T = 2\\pi \\sqrt{\\frac{m}{k}}$, $T' = 2\\pi \\sqrt{\\frac{m+m_0}{k}}$.\n\n$$\\frac{T'}{T} = \\sqrt{\\frac{m+m_0}{m}} = \\frac{5}{4} \\Rightarrow \\frac{m+m_0}{m} = \\frac{25}{16} \\Rightarrow 1 + \\frac{m_0}{m} = \\frac{25}{16}$$\n\n$$\\frac{m_0}{m} = \\frac{9}{16}$$\n\nThus the correct option is C: $\\frac{9}{16}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

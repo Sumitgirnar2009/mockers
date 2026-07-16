@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "129"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The distance of the point $(2, 4, 0)$ from the point of intersection of the lines $$\\frac{x+6}{3} = \\frac{y}{2} = \\frac{z+1}{1}$$ and $$\\frac{x-7}{4} = \\frac{y-9}{3} = \\frac{z-4}{2}$$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "3 units"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$3\\sqrt{3}$ units"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "2 units"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$2\\sqrt{3}$ units"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $\\frac{x+6}{3} = \\frac{y}{2} = \\frac{z+1}{1} = t$ and $\\frac{x-7}{4} = \\frac{y-9}{3} = \\frac{z-4}{2} = s$.\n\n$$\\Rightarrow x = 3t - 6, y = 2t, z = t - 1 \\quad \\dots (i)$$\n\nand $x = 4s + 7, y = 3s + 9, z = 2s + 4$.\n\nSince the given lines intersect each other,\n\n$$3t - 6 = 4s + 7 \\Rightarrow 3t - 4s = 13 \\quad \\dots (ii)$$\n\n$$2t = 3s + 9 \\Rightarrow 2t - 3s = 9 \\quad \\dots (iii)$$\n\n$$t - 1 = 2s + 4 \\Rightarrow t - 2s = 5 \\quad \\dots (iv)$$\n\nFrom (ii) and (iv), we get $t = 3, s = -1$.\n\nSubstituting the value of $t$ in (i), we get $x = 3, y = 6, z = 2$.\n\n$$\\therefore \\text{ The point of intersection of the given lines is } (3, 6, 2).$$\n\n$$\\therefore \\text{ Required distance } = \\sqrt{(3 - 2)^2 + (6 - 4)^2 + (2 - 0)^2} = \\sqrt{1 + 4 + 4} = \\sqrt{9} = 3 \\text{ units}$$"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

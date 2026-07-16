@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "86"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify neutral amino acid from following list represented by three letter symbols."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Trp"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Arg"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Lys"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Glu"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "$$\\begin{array}{|c|c|c|}\n\\hline\n\\text{Three letter symbols} & \\text{Amino acid} & \\text{Type of amino acid} \\\\\n\\hline\n\\text{Trp} & \\text{Tryptophan} & \\text{Neutral} \\\\\n\\text{Arg} & \\text{Arginine} & \\text{Basic} \\\\\n\\text{Lys} & \\text{Lysine} & \\text{Basic} \\\\\n\\text{Glu} & \\text{Glutamic acid} & \\text{Acidic} \\\\\n\\hline\n\\end{array}$$\n\nAmong these options, Trp stands for Tryptophan, which is a neutral amino acid. Hence the correct option is A: Trp."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

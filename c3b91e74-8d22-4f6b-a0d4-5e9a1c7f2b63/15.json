@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "15"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "An a.c. e.m.f. of peak value = 230 V and frequency 50 Hz is connected to a circuit with $R = 11.5\\Omega$, $L = 2.5$ H and a capacitor all in series. The value of capacitance is 'C' for the current in the circuit to be maximum. The value of C and maximum current are respectively ($\\pi^2 = 10$)."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$2\\mu F, 10A$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$4\\mu F, 20A$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$6\\mu F, 10A$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$8\\mu F, 20A$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Maximum current occurs at resonance, when $X_L = X_C$.\n\n$$\\omega L = \\frac{1}{\\omega C} \\quad \\Rightarrow \\quad C = \\frac{1}{\\omega^2 L}$$\n\nGiven $f = 50$ Hz, so $\\omega = 2\\pi f = 100\\pi$ rad/s.\n\n$\\omega^2 = (100\\pi)^2 = 10000 \\times \\pi^2 = 10000 \\times 10 = 10^5$ (since $\\pi^2 = 10$).\n\n$$C = \\frac{1}{10^5 \\times 2.5} = \\frac{1}{2.5 \\times 10^5} = \\frac{4}{10^6} = 4 \\times 10^{-6} \\text{ F} = 4\\mu \\text{F}$$\n\nAt resonance, impedance $Z = R$, so maximum current:\n\n$$I_{\\text{max}} = \\frac{V_0}{R} = \\frac{230}{11.5} = 20 \\text{ A}$$\n\nThus $C = 4\\mu$F and $I_{\\text{max}} = 20$ A, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

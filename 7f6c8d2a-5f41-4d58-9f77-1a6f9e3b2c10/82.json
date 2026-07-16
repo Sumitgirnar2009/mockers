@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "82"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify the geometry of $\\mathrm{TeF_4}$ molecule from the following."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Linear"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Tetrahedral"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Trigonal bipyramidal"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Trigonal"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Tellurium (Te) belongs to group 16 and has 6 valence electrons. In TeF₄, Te forms 4 sigma bonds with fluorine atoms, using 4 of its valence electrons. The remaining 2 electrons constitute one lone pair. Thus the molecule has 4 bonding pairs and 1 lone pair (AB₄E type). According to VSEPR theory, this electron geometry is trigonal bipyramidal, and the molecular geometry is see-saw. Therefore, the correct option is C: Trigonal bipyramidal."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

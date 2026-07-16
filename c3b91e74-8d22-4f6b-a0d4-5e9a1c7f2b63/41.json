@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "41"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A disc of mass 'm' and radius 'r' rolls down an inclined plane of height 'h'. When it reaches the bottom of the plane, its rotational kinetic energy is ($g$ = acceleration due to gravity)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{mgh}{3}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{mgh}{6}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{mgh}{2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{mgh}{4}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a rolling disc, $I = \\frac{1}{2} m r^2$ and $\\omega = \\frac{v}{r}$.\n\nTotal kinetic energy = Translational K.E. + Rotational K.E.\n\n$$= \\frac{1}{2} m v^2 + \\frac{1}{2} I \\omega^2 = \\frac{1}{2} m v^2 + \\frac{1}{2} \\left(\\frac{1}{2} m r^2\\right) \\frac{v^2}{r^2}$$\n\n$$= \\frac{1}{2} m v^2 + \\frac{1}{4} m v^2 = \\frac{3}{4} m v^2$$\n\nAt the bottom of the incline, total K.E. = Potential energy lost = $mgh$.\n\n$$\\frac{3}{4} m v^2 = mgh \\Rightarrow m v^2 = \\frac{4}{3} mgh$$\n\nRotational K.E. = $\\frac{1}{4} m v^2 = \\frac{1}{4} \\times \\frac{4}{3} mgh = \\frac{mgh}{3}$.\n\nThus the correct option is A: $\\frac{mgh}{3}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

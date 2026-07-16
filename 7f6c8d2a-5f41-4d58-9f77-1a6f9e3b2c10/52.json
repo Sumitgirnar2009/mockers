@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "52"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which from following reagents is used in Gattermann-Koch formylation of arene?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\mathrm{AlH(i-Bu)_2}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\mathrm{CO, HCl}$ (anhyd. $\\mathrm{AlCl_3}$)"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\mathrm{CrO_2Cl_2}$ ($\\mathrm{CS_2}$)"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\mathrm{DIBAI-H}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The Gattermann-Koch formylation is used to introduce a formyl group ($-\\mathrm{CHO}$) onto an aromatic ring. The reaction requires carbon monoxide ($\\mathrm{CO}$) and hydrogen chloride ($\\mathrm{HCl}$) in the presence of anhydrous aluminium chloride ($\\mathrm{AlCl_3}$) as a catalyst. Thus the correct reagents are CO, HCl, and anhydrous $\\mathrm{AlCl_3}$, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

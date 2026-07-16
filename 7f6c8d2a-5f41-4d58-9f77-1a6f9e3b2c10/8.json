@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "8"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In fundamental mode, the time required for the sound wave to reach up to closed end of a pipe filled with air is 't' second. The frequency of vibration of air column is (Neglect end correction)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$(4t)^{-1}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$(2t)^{-1}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$4t$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$2t$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let the length of the closed pipe be $L$ and the speed of sound in air be $v$. The time taken for sound to travel from the open end to the closed end is $t = L/v$, so $L = vt$.\n\nFor a closed pipe in fundamental mode, $L = \\lambda/4$, so $\\lambda = 4L = 4vt$.\n\nFrequency $f = v/\\lambda = v/(4vt) = 1/(4t)$.\n\nThus the frequency is $(4t)^{-1}$, which corresponds to option A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

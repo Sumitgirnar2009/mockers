@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "109"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The following is the probability distribution of X:\n\n$$\\begin{array}{|c|c|c|c|c|}\n\\hline\nX & 0 & 1 & 2 & 3 \\\\\n\\hline\nP(X=x) & \\frac{1+p}{5} & \\frac{2-2p}{5} & \\frac{2-p}{5} & \\frac{2p}{5} \\\\\n\\hline\n\\end{array}$$\n\nFor a minimum value of $p$, the value of $5E(X)$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "5"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "6"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "7"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "8"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: For a valid probability distribution, each probability must be non-negative.\n\n$$\\frac{1+p}{5} \\geq 0 \\Rightarrow p \\geq -1$$\n\n$$\\frac{2-2p}{5} \\geq 0 \\Rightarrow p \\leq 1$$\n\n$$\\frac{2-p}{5} \\geq 0 \\Rightarrow p \\leq 2$$\n\n$$\\frac{2p}{5} \\geq 0 \\Rightarrow p \\geq 0$$\n\nCombining all conditions: $$0 \\leq p \\leq 1$$\n\nStep 2: The minimum value of $p$ is $0$.\n\nStep 3: Calculate $E(X)$.\n\n$$E(X) = \\sum x \\cdot P(X=x)$$\n\n$$= 0 \\cdot \\frac{1+p}{5} + 1 \\cdot \\frac{2-2p}{5} + 2 \\cdot \\frac{2-p}{5} + 3 \\cdot \\frac{2p}{5}$$\n\n$$= \\frac{2-2p}{5} + \\frac{4-2p}{5} + \\frac{6p}{5}$$\n\n$$= \\frac{2 - 2p + 4 - 2p + 6p}{5}$$\n\n$$= \\frac{6 + 2p}{5}$$\n\nStep 4: Therefore, $5E(X) = 6 + 2p$.\n\nStep 5: For $p = 0$ (minimum value):\n\n$$5E(X) = 6 + 2(0) = 6$$\n\nFinal Answer: $$\\boxed{6}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

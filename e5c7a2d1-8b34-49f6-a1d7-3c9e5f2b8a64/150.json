@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "150"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The assets of a person reduced in his business such that the rate of reduction is proportional to the square root of the existing assets. If the assets were initially ₹ 10 lakhs and due to loss they reduce to ₹ 10000 after 3 years, then the number of years required for the person to be bankrupt will be"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{20}{3}$ years"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{10}{3}$ years"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{10}{9}$ years"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{20}{9}$ years"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Let the assets be x at time t. Since the rate of reduction is proportional to the square root of the existing assets, we have:\n\n$$\\frac{dx}{dt} = -k\\sqrt{x}$$\n\nStep 2: Separate the variables:\n\n$$\\frac{dx}{\\sqrt{x}} = -k \\, dt$$\n\nStep 3: Integrate both sides:\n\n$$2\\sqrt{x} = -kt + C$$\n\nStep 4: Initially, at t = 0, x = 10,00,000 (10 lakhs).\n\n$$2\\sqrt{10,00,000} = C \\Rightarrow C = 2000$$\n\nSo, $2\\sqrt{x} = -kt + 2000$.\n\nStep 5: After 3 years, x = 10,000:\n\n$$2\\sqrt{10,000} = -3k + 2000$$\n\n$$200 = -3k + 2000 \\Rightarrow k = 600$$\n\nThus, $2\\sqrt{x} = -600t + 2000$.\n\nStep 6: Bankruptcy occurs when x = 0. Let T be the time to bankruptcy:\n\n$$0 = -600T + 2000$$\n\n$$T = \\frac{2000}{600} = \\frac{10}{3} \\text{ years}$$\n\nFinal Answer: $$\\boxed{\\frac{10}{3} \\text{ years}}$$"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

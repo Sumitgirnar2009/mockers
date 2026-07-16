@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "40"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "An engine operating between temperatures $T_1$ and $T_2$ has efficiency $\\frac{1}{5}$. When $T_2$ is lowered by 45 K, its efficiency becomes $\\frac{1}{2}$. Temperatures $T_1$ and $T_2$ are respectively"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "100 K, 70 K"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "160 K, 120 K"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "140 K, 110 K"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "150 K, 120 K"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Efficiency $\\eta = 1 - \\frac{T_2}{T_1}$.\n\nFirst condition: $1 - \\frac{T_2}{T_1} = \\frac{1}{5} \\Rightarrow \\frac{T_2}{T_1} = \\frac{4}{5} \\Rightarrow T_2 = \\frac{4}{5}T_1$.\n\nSecond condition: $T_2$ lowered by 45 K → new efficiency $\\frac{1}{2}$:\n\n$$1 - \\frac{T_2 - 45}{T_1} = \\frac{1}{2} \\Rightarrow \\frac{T_2 - 45}{T_1} = \\frac{1}{2}$$\n\n$$T_2 - 45 = \\frac{1}{2} T_1$$\n\nSubstitute $T_2 = \\frac{4}{5}T_1$:\n\n$$\\frac{4}{5}T_1 - 45 = \\frac{1}{2}T_1 \\Rightarrow \\frac{8}{10}T_1 - \\frac{5}{10}T_1 = 45 \\Rightarrow \\frac{3}{10}T_1 = 45 \\Rightarrow T_1 = 150 \\text{ K}$$\n\n$$T_2 = \\frac{4}{5} \\times 150 = 120 \\text{ K}$$\n\nThus the correct option is D: 150 K, 120 K."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

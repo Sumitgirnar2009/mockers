@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "69"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify the reagent involved in Sandmeyer reaction."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "CuCN/KCN"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Cu (Powder) / HBr"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "H₃PO₃"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "CH₃CH₂OH"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Sandmeyer reaction involves the substitution of an aryl diazonium salt group by a cyano group using copper(I) cyanide (CuCN) as a catalyst, often with KCN. The reaction is: C₆H₅N₂⁺Cl⁻ + CuCN → C₆H₅CN + N₂ + CuCl. Therefore, the correct reagent is CuCN/KCN, which corresponds to option A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

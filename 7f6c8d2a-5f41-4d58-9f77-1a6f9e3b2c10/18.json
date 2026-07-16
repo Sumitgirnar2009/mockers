@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "18"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The period of S.H.M. of a particle is 16 second. The phase difference between the positions at $t = 2 \\, \\text{s}$ and $t = 4 \\, \\text{s}$ will be"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\pi$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{\\pi}{2}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{\\pi}{4}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{\\pi}{3}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given $T = 16$ s. Angular frequency: $$\\omega = \\frac{2\\pi}{T} = \\frac{2\\pi}{16} = \\frac{\\pi}{8} \\text{ rad/s}$$\n\nPhase at $t = 2$ s: $\\phi_1 = \\omega t_1 = \\frac{\\pi}{8} \\times 2 = \\frac{\\pi}{4}$\n\nPhase at $t = 4$ s: $\\phi_2 = \\omega t_2 = \\frac{\\pi}{8} \\times 4 = \\frac{\\pi}{2}$\n\nPhase difference: $\\Delta \\phi = \\phi_2 - \\phi_1 = \\frac{\\pi}{2} - \\frac{\\pi}{4} = \\frac{\\pi}{4}$\n\nThus the correct option is C: $\\frac{\\pi}{4}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

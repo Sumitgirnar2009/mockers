@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "38"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Two pipes of lengths $L_1$ and $L_2$, open at both ends are joined in series. If '$f_1$' and '$f_2$' are the fundamental frequencies of two pipes, then the fundamental frequency of series combination will be (neglect end correction)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{f_1 f_2}{f_1 - f_2}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$f_1 + f_2$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{f_1 f_2}{f_1 + f_2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\sqrt{f_1^2 + f_2^2}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a pipe open at both ends, the fundamental frequency is $f = \\frac{v}{2L}$, where $v$ is the speed of sound. Therefore, $L = \\frac{v}{2f}$.\n\nWhen two pipes are joined in series, the total length is $L = L_1 + L_2$.\n\nLet the fundamental frequency of the combined pipe be $f$. Then:\n\n$$\\frac{v}{2f} = \\frac{v}{2f_1} + \\frac{v}{2f_2}$$\n\nCancel $\\frac{v}{2}$ from both sides:\n\n$$\\frac{1}{f} = \\frac{1}{f_1} + \\frac{1}{f_2} = \\frac{f_1 + f_2}{f_1 f_2}$$\n\nThus:\n\n$$f = \\frac{f_1 f_2}{f_1 + f_2}$$\n\nHence the correct option is C: $\\frac{f_1 f_2}{f_1 + f_2}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

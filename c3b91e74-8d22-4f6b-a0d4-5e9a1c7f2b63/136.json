@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "136"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The equivalent statement of \"If three vertices of a triangle are represented by cube roots of unity, then the triangle is an equilateral triangle\" is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Three vertices of a triangle are represented by cube roots of unity and the triangle is not an equilateral triangle."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "If a triangle is an equilateral triangle then the three vertices of a triangle are represented by cube roots of unity."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "If three vertices of triangle are not represented by cube roots of unity then the triangle is not an equilateral triangle."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "If a triangle is not an equilateral triangle then the three vertices of the triangle can not be represented by cube roots of unity."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $p$: Three vertices of a triangle are represented by cube roots of unity.\n\n$q$: The triangle is an equilateral triangle.\n\nThe logical equivalent of $p \\to q$ is $\\sim q \\to \\sim p$.\n\nThus the equivalent statement is: \"If a triangle is not an equilateral triangle, then the three vertices of the triangle cannot be represented by cube roots of unity.\"\n\nThis corresponds to option D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

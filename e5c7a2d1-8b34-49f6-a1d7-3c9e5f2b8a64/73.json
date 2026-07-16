@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "73"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following set of thermodynamic conditions is true for the reaction to be spontaneous at high temperature?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "ΔH < 0 and ΔS < 0"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "ΔH > 0 and ΔS > 0"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "ΔH < 0 and ΔS > 0"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "ΔH > 0 and ΔS < 0"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a reaction to be spontaneous, ΔG = ΔH − TΔS must be negative.\n\n- At high temperature, the TΔS term becomes significant.\n- If ΔH > 0 and ΔS > 0, then at sufficiently high temperature, the TΔS term dominates and makes ΔG negative.\n- Hence, the reaction becomes spontaneous at high temperature.\n\nThus, the correct condition is ΔH > 0 and ΔS > 0, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

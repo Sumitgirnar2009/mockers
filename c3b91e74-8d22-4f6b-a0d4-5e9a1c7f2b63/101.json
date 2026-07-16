@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "101"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $3 \\sin 2\\theta = 2 \\sin 3\\theta$ and $0 < \\theta < \\pi$, then the value of $\\sin \\theta$ is equal to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{\\sqrt{17}}{4}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{5\\sqrt{2}}{4}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{3\\sqrt{2}}{4}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{\\sqrt{15}}{4}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $3 \\sin 2\\theta = 2 \\sin 3\\theta$.\n\nUsing $\\sin 2\\theta = 2\\sin\\theta\\cos\\theta$ and $\\sin 3\\theta = 3\\sin\\theta - 4\\sin^3\\theta$:\n\n$$3(2\\sin\\theta\\cos\\theta) = 2(3\\sin\\theta - 4\\sin^3\\theta)$$\n\n$$6\\sin\\theta\\cos\\theta = 6\\sin\\theta - 8\\sin^3\\theta$$\n\nDividing by $\\sin\\theta$ (since $\\theta \\neq 0$):\n\n$$6\\cos\\theta = 6 - 8\\sin^2\\theta$$\n\n$$6\\cos\\theta = 6 - 8(1 - \\cos^2\\theta)$$\n\n$$6\\cos\\theta = 6 - 8 + 8\\cos^2\\theta$$\n\n$$8\\cos^2\\theta - 6\\cos\\theta - 2 = 0$$\n\n$$4\\cos^2\\theta - 3\\cos\\theta - 1 = 0$$\n\n$$(\\cos\\theta - 1)(4\\cos\\theta + 1) = 0$$\n\n$$\\cos\\theta = 1 \\quad \\text{or} \\quad \\cos\\theta = -\\frac{1}{4}$$\n\nSince $0 < \\theta < \\pi$, $\\cos\\theta \\neq 1$. Thus $\\cos\\theta = -\\frac{1}{4}$.\n\n$$\\sin^2\\theta = 1 - \\cos^2\\theta = 1 - \\frac{1}{16} = \\frac{15}{16}$$\n\n$$\\sin\\theta = \\frac{\\sqrt{15}}{4}$$\n\nHence the correct option is D: $\\frac{\\sqrt{15}}{4}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

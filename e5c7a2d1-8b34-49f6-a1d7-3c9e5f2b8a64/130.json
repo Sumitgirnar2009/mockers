@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "130"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The function $x^5 - 5x^4 + 5x^3 - 10$ has a maximum, when $x$ is equal to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "0"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "1"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "2"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "3"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $f(x) = x^5 - 5x^4 + 5x^3 - 10$.\n\nFirst derivative: $f'(x) = 5x^4 - 20x^3 + 15x^2 = 5x^2(x^2 - 4x + 3) = 5x^2(x-1)(x-3)$.\n\nSet $f'(x) = 0$: $x = 0, 1, 3$.\n\nSecond derivative: $f''(x) = 20x^3 - 60x^2 + 30x = 10x(2x^2 - 6x + 3)$.\n\nEvaluate at critical points:\n\n- $x=0$: $f''(0)=0$ → inconclusive (but test sign change: $f'$ does not change sign around 0, so it is neither max nor min).\n- $x=1$: $f''(1) = 20 - 60 + 30 = -10 < 0$ → local maximum.\n- $x=3$: $f''(3) = 20(27) - 60(9) + 30(3) = 540 - 540 + 90 = 90 > 0$ → local minimum.\n\nThus the function has a maximum at $x = 1$.\n\nFinal Answer: $$\\boxed{1}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

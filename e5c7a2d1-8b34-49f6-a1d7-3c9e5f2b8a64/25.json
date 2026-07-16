@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "25"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The equivalent capacitance between plates A and B ($A$ = area of each plate, $d$ = separation between plates) ($\\varepsilon_0$ = permittivity of free space) is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64/q25.png"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{A\\varepsilon_0}{d}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{2A\\varepsilon_0}{d}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{4A\\varepsilon_0}{d}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{8A\\varepsilon_0}{d}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $C = \\frac{A\\varepsilon_0}{d}$.\n\n$C_1 = \\frac{K_1 (A/2)\\varepsilon_0}{d} = \\frac{4 \\times A/2 \\times \\varepsilon_0}{d} = \\frac{2A\\varepsilon_0}{d} = 2C$.\n\n$C_2 = \\frac{K_2 (A/2)\\varepsilon_0}{d/2} = \\frac{3 \\times A/2 \\times \\varepsilon_0}{d/2} = \\frac{3A\\varepsilon_0}{d} = 3C$.\n\n$C_3 = \\frac{K_3 (A/2)\\varepsilon_0}{d/2} = \\frac{6 \\times A/2 \\times \\varepsilon_0}{d/2} = \\frac{6A\\varepsilon_0}{d} = 6C$.\n\n$C_2$ and $C_3$ are in series: $C_s = \\frac{3C \\times 6C}{3C + 6C} = 2C$.\n\n$C_{eq} = C_1 + C_s = 2C + 2C = 4C = \\frac{4A\\varepsilon_0}{d}$.\n\nThus the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64/q25-sol.png"
+  }
+}

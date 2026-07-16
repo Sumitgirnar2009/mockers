@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "109"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If the points $A(1, 1, 2)$, $B(2, 1, p)$, $C(1, 0, 3)$ and $D(2, 2, 0)$ are coplanar then the value of $p$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "0"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "-1"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "1"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "2"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "$\\overrightarrow{AB} = \\hat{i} + (p-2)\\hat{k}$.\n\n$\\overrightarrow{AC} = -\\hat{j} + \\hat{k}$.\n\n$\\overrightarrow{AD} = \\hat{i} + \\hat{j} - 2\\hat{k}$.\n\nFor coplanar points, $[\\overrightarrow{AB}\\ \\overrightarrow{AC}\\ \\overrightarrow{AD}] = 0$.\n\n$$\\begin{vmatrix} 1 & 0 & p-2 \\\\ 0 & -1 & 1 \\\\ 1 & 1 & -2 \\end{vmatrix} = 0$$\n\n$1(2-1) - 0 + (p-2)(1) = 1 + p - 2 = p - 1 = 0 \\Rightarrow p = 1$.\n\nThus the correct option is C: 1."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

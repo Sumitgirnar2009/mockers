@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "19"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A body cools from $60^\\circ C$ to $40^\\circ C$ in 6 minutes. After next 6 minutes its temperature will be (Temperature of the surroundings is $10^\\circ C$)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$24^\\circ C$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$28^\\circ C$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$18^\\circ C$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$32^\\circ C$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Using Newton's law of cooling in the approximate form:\n$$\\frac{\\theta_1 - \\theta_2}{t} = K \\left[ \\frac{\\theta_1 + \\theta_2}{2} - \\theta_0 \\right]$$\nwhere $\\theta_0 = 10^\\circ C$ is the surrounding temperature.\n\nFirst interval: $\\theta_1 = 60^\\circ C$, $\\theta_2 = 40^\\circ C$, $t = 6$ min.\n$$\\frac{60 - 40}{6} = K \\left[ \\frac{60 + 40}{2} - 10 \\right]$$\n$$\\frac{20}{6} = K \\times 40 \\quad \\Rightarrow \\quad K = \\frac{20}{6 \\times 40} = \\frac{1}{12}$$\n\nSecond interval: initial temperature $40^\\circ C$, final temperature $x$, $t = 6$ min.\n$$\\frac{40 - x}{6} = \\frac{1}{12} \\left[ \\frac{40 + x}{2} - 10 \\right]$$\n$$40 - x = \\frac{1}{2} \\left( \\frac{40 + x}{2} - 10 \\right) \\times 6?$$ Wait carefully:\n\n$$\\frac{40 - x}{6} = \\frac{1}{12} \\left( \\frac{40 + x}{2} - 10 \\right)$$\nMultiply both sides by 6:\n$$40 - x = \\frac{6}{12} \\left( \\frac{40 + x}{2} - 10 \\right) = \\frac{1}{2} \\left( \\frac{40 + x}{2} - 10 \\right)$$\n$$40 - x = \\frac{40 + x}{4} - 5$$\nMultiply by 4:\n$$160 - 4x = 40 + x - 20$$\n$$160 - 4x = 20 + x$$\n$$160 - 20 = x + 4x$$\n$$140 = 5x \\quad \\Rightarrow \\quad x = 28^\\circ C$$\n\nThus the temperature after the next 6 minutes is $28^\\circ C$, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

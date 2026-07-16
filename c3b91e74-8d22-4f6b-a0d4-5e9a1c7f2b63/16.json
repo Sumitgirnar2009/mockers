@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "16"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The time period of a satellite of earth is 24 hours. If the separation between the earth and the satellite is decreased to one fourth of the previous value then its new time period will become"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "3 hours"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "6 hours"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "24 hours"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "12 hours"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The time period of a satellite is given by $T = 2\\pi \\sqrt{\\frac{r^3}{GM}}$, so $T \\propto r^{3/2}$.\n\nIf the separation is decreased to $r' = \\frac{r}{4}$, then:\n\n$$\\frac{T'}{T} = \\left(\\frac{r'}{r}\\right)^{3/2} = \\left(\\frac{1}{4}\\right)^{3/2} = \\frac{1}{8}$$\n\nThus $T' = \\frac{T}{8} = \\frac{24}{8} = 3$ hours.\n\nHence the correct option is A: 3 hours."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

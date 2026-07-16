@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "80"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which from the following reaction is a Fittig reaction?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$2\\mathrm{CH_3Cl} + 2\\mathrm{Na} \\xrightarrow{\\text{dry ether}} \\mathrm{C_2H_6} + 2\\mathrm{NaCl}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$2\\mathrm{C_6H_5Cl} + 2\\mathrm{Na} \\xrightarrow{\\text{dry ether}} \\mathrm{(C_6H_5)_2} + 2\\mathrm{NaCl}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\mathrm{C_6H_5Cl} + \\mathrm{C_2H_5Cl} + 2\\mathrm{Na} \\xrightarrow{\\text{dry ether}} \\mathrm{C_6H_5C_2H_5} + 2\\mathrm{NaCl}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\mathrm{CH_3Cl} + \\mathrm{C_2H_5Cl} + 2\\mathrm{Na} \\xrightarrow{\\text{dry ether}} \\mathrm{CH_3-C_2H_5} + 2\\mathrm{NaCl}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Fittig reaction involves the coupling of two aryl halides in the presence of sodium metal in dry ether to form a biaryl compound.\n\nAmong the given options, option B shows 2C₆H₅Cl + 2Na → (C₆H₅)₂ + 2NaCl, which is the Fittig reaction.\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64/q80-sol.png"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "57"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "What is the order and molecularity respectively for the elementary reaction given below? $$\\mathrm{O_3(g) + O(g) \\rightarrow 2O_2(g)} \\quad \\text{if } r = k[\\mathrm{O_3}][\\mathrm{O}]$$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "2nd and 1"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "2nd and 2"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "1st and 2"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "1st and 1"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Order is the sum of powers in the rate law. Here, $r = k[\\mathrm{O_3}]^1 [\\mathrm{O}]^1$, so order = 1+1 = 2.\n\nStep 2: Molecularity is the number of reactant molecules in an elementary step. Here, $\\mathrm{O_3}$ and $\\mathrm{O}$ are the reactants, so molecularity = 2.\n\nThus order = 2, molecularity = 2, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

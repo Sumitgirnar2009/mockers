@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "138"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The logical statement $$\\sim (\\sim p \\lor q) \\lor (p \\land r) \\land (\\sim q \\land r)$$ is equivalent to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$(p \\land r) \\land \\sim q$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$(\\sim p \\land \\sim q) \\land r$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\sim p \\lor r$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$(p \\land \\sim q) \\lor r$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Simplify the given logical expression step by step:\n\n$$\\sim (\\sim p \\lor q) \\lor (p \\land r) \\land (\\sim q \\land r)$$\n\nUsing De Morgan's law: $\\sim (\\sim p \\lor q) = p \\land \\sim q$.\n\n$$\\equiv (p \\land \\sim q) \\lor (p \\land r) \\land (\\sim q \\land r)$$\n\nUsing distributive law: $p \\land (\\sim q \\lor r)$.\n\n$$\\equiv p \\land (\\sim q \\lor r) \\land (\\sim q \\land r)$$\n\nUsing associative law: group $\\sim q$ terms.\n\n$$\\equiv p \\land [(\\sim q \\lor r) \\land \\sim q] \\land r$$\n\nUsing absorption law: $(\\sim q \\lor r) \\land \\sim q = \\sim q$.\n\n$$\\equiv p \\land \\sim q \\land r$$\n\n$$\\equiv (p \\land r) \\land \\sim q$$\n\nFinal Answer: $$\\boxed{(p \\land r) \\land \\sim q}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

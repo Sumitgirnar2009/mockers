@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "147"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "With usual notations, in a triangle $ABC$, if $\\theta$ is any real number, then $a \\cos(B - \\theta) + b \\cos(A + \\theta)$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$a \\cos \\theta$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$b \\cos \\theta$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\cos \\theta$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$c \\cos \\theta$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "$$a \\cos(B - \\theta) + b \\cos(A + \\theta)$$\n\n$$= a(\\cos B \\cos \\theta + \\sin B \\sin \\theta) + b(\\cos A \\cos \\theta - \\sin A \\sin \\theta)$$\n\n$$= a \\cos B \\cos \\theta + a \\sin B \\sin \\theta + b \\cos A \\cos \\theta - b \\sin A \\sin \\theta$$\n\n$$= \\cos \\theta(a \\cos B + b \\cos A) + \\sin \\theta(a \\sin B - b \\sin A)$$\n\n$$= \\cos \\theta \\left[ \\frac{a(a^2 + c^2 - b^2)}{2ac} + \\frac{b(b^2 + c^2 - a^2)}{2bc} \\right] + \\sin \\theta(abk - abk) \\ldots \\text{[By cosine and sine rule]}$$\n\n$$= \\cos \\theta \\left( \\frac{a^2 + c^2 - b^2 + b^2 + c^2 - a^2}{2c} \\right)$$\n\n$$= c \\cos \\theta$$"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

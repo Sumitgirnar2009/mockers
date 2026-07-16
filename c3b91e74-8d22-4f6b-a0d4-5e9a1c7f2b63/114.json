@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "114"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If the equation $kxy + 10x + 8y + 16 = 0$ represents a pair of lines, then"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$k = 5$ only"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$k = 0$ only"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "k = 0 or k = 5"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "the value of $k$ does not exist"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For $ax^2 + 2hxy + by^2 + 2gx + 2fy + c = 0$ to represent a pair of lines:\n\n$abc + 2fgh - af^2 - bg^2 - ch^2 = 0$.\n\nHere $a = 0, h = k/2, b = 0, g = 5, f = 4, c = 16$.\n\n$0 + 2(4)(5)(k/2) - 0 - 0 - 16(k/2)^2 = 0$\n\n$20k - 4k^2 = 0 \\Rightarrow k(20 - 4k) = 0 \\Rightarrow k = 0$ or $k = 5$.\n\nIf $k = 0$, equation becomes $10x + 8y + 16 = 0$, which is a single line, not a pair of lines. So $k \\neq 0$.\n\nThus $k = 5$ only.\n\nHence the correct option is A: $k = 5$ only."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

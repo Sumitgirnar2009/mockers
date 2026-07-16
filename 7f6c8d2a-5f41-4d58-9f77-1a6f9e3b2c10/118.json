@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "118"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The logically equivalent statement of $$(\\sim p \\land q) \\lor (\\sim p \\land \\sim q) \\lor (p \\land \\sim q)$$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$(\\sim p) \\land q$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$(\\sim p) \\lor (\\sim q)$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$(\\sim p) \\land (\\sim q)$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$p \\lor q$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "We simplify step by step:\n\n$$(\\sim p \\land q) \\lor (\\sim p \\land \\sim q) \\lor (p \\land \\sim q)$$\n\nUsing distributive law on the first two terms: $(\\sim p \\land q) \\lor (\\sim p \\land \\sim q) = \\sim p \\land (q \\lor \\sim q) = \\sim p \\land T = \\sim p$.\n\nThus the expression becomes:\n\n$$\\sim p \\lor (p \\land \\sim q)$$\n\nNow apply distributive law:\n\n$$(\\sim p \\lor p) \\land (\\sim p \\lor \\sim q) = T \\land (\\sim p \\lor \\sim q) = \\sim p \\lor \\sim q$$\n\nTherefore the given expression is logically equivalent to $(\\sim p) \\lor (\\sim q)$, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

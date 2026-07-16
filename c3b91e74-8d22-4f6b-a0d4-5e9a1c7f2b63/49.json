@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "49"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A current 'I' is flowing in a conductor PQRST as shown in figure. The radius of curved path QRS is 'R' and length of straight portion PQ and ST is very large. The magnetic field at the centre [O] of the curved part is ($\\mu_0 =$ permeability of free space)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63/q49.png"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{\\mu_0 I}{4\\pi} \\left( \\frac{3\\pi}{2} + 1 \\right) (-\\hat{k})$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{\\mu_0 I}{4\\pi} \\left( \\frac{3\\pi}{2} + 1 \\right) \\hat{k}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{\\mu_0 I}{4\\pi} \\left[ \\frac{3\\pi}{2} - 1 \\right] (-\\hat{k})$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{\\mu_0 I}{4\\pi} \\left[ \\frac{3\\pi}{2} - 1 \\right] \\hat{k}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The angle subtended by the circular part QRS at the centre is $3\\pi/2$.\n\nField due to QRS,\n$$B_1 = \\frac{\\mu_0}{4\\pi} \\frac{I}{r} \\left( \\frac{3\\pi}{2} \\right)$$\n\nField due to PQ at O,\n$$B_2 = \\frac{\\mu_0}{2\\pi r} \\times \\frac{I}{2} = \\frac{\\mu_0 I}{4\\pi r} \\cdots [\\because T \\text{ is at the end of the wire}]$$\n\n$$\\therefore \\text{Total induction} = \\frac{\\mu_0 I}{4\\pi r} \\left( \\frac{3\\pi}{2} + 1 \\right) \\hat{k}$$"
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63/q49-sol.png"
+  }
+}

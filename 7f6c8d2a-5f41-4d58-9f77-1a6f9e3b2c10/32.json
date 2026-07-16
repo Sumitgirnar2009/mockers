@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "32"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A liquid drop having surface energy $E$ is spread into 729 droplets of same size. The final surface energy of the droplets is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$6E$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$9E$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$E$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$3E$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let the radius of the big drop be $R$ and the radius of each small droplet be $r$.\n\nInitial surface energy:\n\n$$E = 4\\pi R^2 T$$\n\nVolume conservation:\n\n$$\\frac{4}{3}\\pi R^3 = 729 \\times \\frac{4}{3}\\pi r^3$$\n\n$$R^3 = 729 r^3$$\n\n$$R = 9r \\quad \\Rightarrow \\quad r = \\frac{R}{9}$$\n\nFinal total surface energy:\n\n$$E_{\\text{final}} = 729 \\times 4\\pi r^2 \\times T$$\n\n$$= 4\\pi T \\times 729 \\times \\left(\\frac{R}{9}\\right)^2$$\n\n$$= 4\\pi T \\times 729 \\times \\frac{R^2}{81}$$\n\n$$= 4\\pi T \\times 9 \\times R^2$$\n\n$$= 9 \\times (4\\pi R^2 T)$$\n\n$$= 9E$$\n\nThus the final surface energy is $9E$, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

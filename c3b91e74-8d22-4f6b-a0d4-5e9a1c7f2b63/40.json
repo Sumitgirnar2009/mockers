@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "40"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Three inductances are connected as shown in the figure. The equivalent inductance between A and B is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63/q40.png"
+  },
+  "Option1Stmt": {
+    "S": "2.25 H"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "1.20 H"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "0.225 H"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "0.120 H"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Two 0.7 H inductors are in parallel.\n\n$$\\frac{1}{L_p} = \\frac{1}{0.7} + \\frac{1}{0.7} = \\frac{2}{0.7} \\Rightarrow L_p = \\frac{0.7}{2} = 0.35 \\text{ H}$$\n\nThis parallel combination is in series with the 0.85 H inductor.\n\n$$L_{eq} = L_p + 0.85 = 0.35 + 0.85 = 1.20 \\text{ H}$$\n\nThus the equivalent inductance between A and B is 1.20 H, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63/q40-sol.png"
+  }
+}

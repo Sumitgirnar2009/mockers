@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "61"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A container consisting mixture of 28 g $N_2$, 8 g He and 40 g Ne at 25°C. If the total pressure exerted by the gaseous mixture is 20 bar, what is the partial pressure exerted by $N_2$?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "2 bar"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "5 bar"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "4 bar"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "8 bar"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Moles of $N_2 = \\frac{28}{28} = 1$ mol.\n\nMoles of He = $\\frac{8}{4} = 2$ mol.\n\nMoles of Ne = $\\frac{40}{20} = 2$ mol.\n\nTotal moles = $1 + 2 + 2 = 5$ mol.\n\nMole fraction of $N_2 = \\frac{1}{5} = 0.2$.\n\nPartial pressure of $N_2 = x_{N_2} \\times P_{\\text{total}} = 0.2 \\times 20 = 4$ bar.\n\nThus the correct option is C: 4 bar."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

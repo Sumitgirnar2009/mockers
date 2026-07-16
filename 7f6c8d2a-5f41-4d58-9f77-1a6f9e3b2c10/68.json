@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "68"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Calculate the enthalpy of vaporisation of ethanol if 11.5 g of ethanol is completely vaporised by supplying 11.8 kJ of heat."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "21.7 kJ mol⁻¹"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "47.2 kJ mol⁻¹"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "65.1 kJ mol⁻¹"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "39.0 kJ mol⁻¹"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: mass of ethanol m = 11.5 g, heat supplied q = 11.8 kJ, molar mass of ethanol (C₂H₅OH) = 46 g/mol.\n\nMoles of ethanol = 11.5 / 46 = 0.25 mol.\n\nEnthalpy of vaporisation per mole = q / n = 11.8 / 0.25 = 47.2 kJ/mol.\n\nThus the correct option is B: 47.2 kJ mol⁻¹."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

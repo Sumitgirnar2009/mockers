@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "92"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If a reaction occurs in following two steps: \n\ni. $2\\mathrm{ClO^-} \\rightarrow \\mathrm{ClO_2^-}$ \n\nii. $\\mathrm{ClO_2^-} + \\mathrm{ClO^-} \\rightarrow \\mathrm{ClO_3^-} + \\mathrm{Cl^-}$. Find the reaction intermediate."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\mathrm{ClO^-}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\mathrm{ClO_3^-}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\mathrm{Cl^-}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\mathrm{ClO_2^-}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Understand the definition of a reaction intermediate.\n\nA reaction intermediate is a species that is formed in one step of a reaction mechanism and consumed in a later step. It does not appear in the overall balanced equation.\n\nStep 2: Analyze the given steps.\n\nStep i: 2ClO⁻ → ClO₂⁻\nHere, ClO₂⁻ is produced.\n\nStep ii: ClO₂⁻ + ClO⁻ → ClO₃⁻ + Cl⁻\nHere, ClO₂⁻ is consumed.\n\nStep 3: Identify which species is produced and then consumed.\n\n- ClO⁻ appears as a reactant in both steps — not an intermediate.\n- ClO₂⁻ is produced in Step i and consumed in Step ii — fits the definition of an intermediate.\n- ClO₃⁻ and Cl⁻ are only produced in Step ii — they are final products.\n\nStep 4: Conclusion.\n\nThe reaction intermediate is ClO₂⁻.\n\nThus, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

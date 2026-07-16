@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "71"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following aqueous solutions exhibits lowest freezing point depression assuming complete dissociation?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "0.1 m NaCl"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "0.05 m MgSO₄"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "0.08 m AlPO₄"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "0.06 m Al₂(SO₄)₃"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Freezing point depression is a colligative property — it depends on the total number of particles (ions) in the solution. Lower the number of particles, lower the depression.\n\n$$\\begin{array}{|c|c|c|}\n\\hline\n\\text{Solution} & \\text{Dissociation} & \\text{Ion molality} \\\\\n\\hline\n0.1\\ m\\ \\mathrm{NaCl} & \\mathrm{NaCl \\rightarrow Na^+ + Cl^-} & 0.1 \\times 2 = 0.2\\ m \\\\\n0.05\\ m\\ \\mathrm{MgSO_4} & \\mathrm{MgSO_4 \\rightarrow Mg^{2+} + SO_4^{2-}} & 0.05 \\times 2 = 0.1\\ m \\\\\n0.08\\ m\\ \\mathrm{AlPO_4} & \\mathrm{AlPO_4 \\rightarrow Al^{3+} + PO_4^{3-}} & 0.08 \\times 2 = 0.16\\ m \\\\\n0.06\\ m\\ \\mathrm{Al_2(SO_4)_3} & \\mathrm{Al_2(SO_4)_3 \\rightarrow 2Al^{3+} + 3SO_4^{2-}} & 0.06 \\times 5 = 0.3\\ m \\\\\n\\hline\n\\end{array}$$\n\nThe lowest ion molality is for 0.05 m MgSO₄, hence it will show the lowest freezing point depression.\n\nTherefore, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

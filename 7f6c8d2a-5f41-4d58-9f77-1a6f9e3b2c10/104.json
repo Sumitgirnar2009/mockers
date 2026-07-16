@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "104"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The acute angle between the diagonals of a parallelogram whose vertices are A(2, -1), B(0, 2), C(2, 3) and D(4, 0) is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\cot^{-1} 2$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\cot^{-1} \\left(\\frac{1}{3}\\right)$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\tan^{-1} 2$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\tan^{-1} \\left(\\frac{2}{3}\\right)$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Vertices of parallelogram: A(2, -1), B(0, 2), C(2, 3), D(4, 0).\n\nDiagonals: AC and BD.\n\nSlope of AC: $\\frac{3 - (-1)}{2 - 2} = \\frac{4}{0} = \\infty$ (vertical line).\n\nSlope of BD: $\\frac{0 - 2}{4 - 0} = \\frac{-2}{4} = -\\frac{1}{2}$.\n\nSince one line is vertical, the acute angle $\\theta$ satisfies $\\tan \\theta = \\left| \\frac{1}{m} \\right| = \\left| \\frac{1}{-1/2} \\right| = 2$.\n\nThus $\\theta = \\tan^{-1} 2$.\n\nHence the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

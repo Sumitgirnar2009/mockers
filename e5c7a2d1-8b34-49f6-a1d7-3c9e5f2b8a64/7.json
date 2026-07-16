@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "7"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "When a diatomic gas (rigid) undergoes adiabatic change, its pressure ($P$) and temperature ($T$) are related as $P \\propto T^c$. The value of $c$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "2.5"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "3.5"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "1.5"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "5.2"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For adiabatic process: $P V^\\gamma = \\text{constant}$.\n\nUsing ideal gas $PV = nRT \\Rightarrow V \\propto \\frac{T}{P}$.\n\nSubstitute: $P \\left(\\frac{T}{P}\\right)^\\gamma = \\text{constant} \\Rightarrow P^{1-\\gamma} T^\\gamma = \\text{constant} \\Rightarrow P \\propto T^{\\gamma/(\\gamma-1)}$.\n\nFor a rigid diatomic gas, $\\gamma = \\frac{C_p}{C_v} = \\frac{7}{5} = 1.4$.\n\n$$c = \\frac{\\gamma}{\\gamma - 1} = \\frac{1.4}{0.4} = 3.5$$\n\nThus the correct option is B: 3.5."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

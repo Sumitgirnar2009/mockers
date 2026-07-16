@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "56"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Calculate the number of unit cells in $1 \\text{ cm}^3$ volume of an element if unit cell edge length is $4.0 \\times 10^{-8} \\text{ cm}$."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$2.63 \\times 10^{22}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$1.56 \\times 10^{22}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$3.34 \\times 10^{22}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$4.50 \\times 10^{22}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given:\nVolume of sample, $V = 1$ cm³\nEdge length of unit cell, $a = 4.0 \\times 10^{-8}$ cm\n\nVolume of one unit cell = $a^3 = (4.0 \\times 10^{-8})^3 = 64 \\times 10^{-24} = 6.4 \\times 10^{-23}$ cm³\n\nNumber of unit cells = $\\frac{\\text{Total volume}}{\\text{Volume of one unit cell}} = \\frac{1}{6.4 \\times 10^{-23}} = 0.15625 \\times 10^{23} = 1.5625 \\times 10^{22}$\n\nThus the correct option is B: $1.56 \\times 10^{22}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

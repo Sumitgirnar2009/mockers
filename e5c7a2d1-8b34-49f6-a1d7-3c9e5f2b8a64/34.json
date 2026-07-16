@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "34"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Photoelectric emission is observed from a metallic surface for frequencies $v_1$ and $v_2$ of the incident light rays ($v_1 > v_2$). If the maximum values of kinetic energy of the photoelectrons emitted in the two cases are in the ratio of 1 : k, then the threshold frequency of metallic surface is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{kv_2 - v_1}{k - 1}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{v_2 - v_1}{k}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{v_1 - v_2}{k - 1}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{kv_1 - v_2}{k - 1}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let threshold frequency be $v_0$. Using Einstein's photoelectric equation:\n\n$$K_1 = h(v_1 - v_0), \\quad K_2 = h(v_2 - v_0)$$\n\nGiven $\\frac{K_1}{K_2} = \\frac{1}{k}$:\n\n$$\\frac{h(v_1 - v_0)}{h(v_2 - v_0)} = \\frac{1}{k} \\Rightarrow \\frac{v_1 - v_0}{v_2 - v_0} = \\frac{1}{k}$$\n\nCross-multiply:\n\n$$k(v_1 - v_0) = v_2 - v_0$$\n\n$$kv_1 - kv_0 = v_2 - v_0$$\n\n$$kv_1 - v_2 = kv_0 - v_0 = (k-1)v_0$$\n\n$$v_0 = \\frac{kv_1 - v_2}{k - 1}$$\n\nThus the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

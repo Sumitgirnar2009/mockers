@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "13"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Interference fringes are produced on the screen by using two light sources of intensities I and 9I. The phase difference between the beams is $\\pi/2$ at point P and $\\pi$ at point Q on the screen. The difference between the resultant intensities at points P and Q is ($\\cos 90^\\circ = 0, \\cos \\pi = -1$)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$2I$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$4I$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$6I$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$8I$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Using $I = I_1 + I_2 + 2\\sqrt{I_1 I_2} \\cos\\phi$:\n\nAt P: $\\phi = \\frac{\\pi}{2}$, $\\cos\\phi = 0$.\n\n$$I_P = I + 9I + 2\\sqrt{9I^2} \\times 0 = 10I$$\n\nAt Q: $\\phi = \\pi$, $\\cos\\phi = -1$.\n\n$$I_Q = I + 9I + 2 \\times 3I \\times (-1) = 10I - 6I = 4I$$\n\nDifference = $10I - 4I = 6I$.\n\nThus the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "42"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "An electric dipole having each charge of magnitude $2\\mu C$ is placed in an electric field of intensity $8 \\times 10^4$ N/C. If the maximum torque acting on the dipole is $4 \\times 10^{-3}$ N-m, the length of the dipole is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "10 mm"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "25 mm"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "15 mm"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "20 mm"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Maximum torque on a dipole is given by $\\tau_{\\text{max}} = pE = q \\cdot (2a) \\cdot E$, where $2a$ is the length of the dipole.\n\nGiven: $q = 2 \\times 10^{-6}$ C, $E = 8 \\times 10^4$ N/C, $\\tau_{\\text{max}} = 4 \\times 10^{-3}$ N-m.\n\n$$2a = \\frac{\\tau_{\\text{max}}}{qE} = \\frac{4 \\times 10^{-3}}{(2 \\times 10^{-6}) \\times (8 \\times 10^4)}$$\n\n$$= \\frac{4 \\times 10^{-3}}{16 \\times 10^{-2}} = \\frac{4 \\times 10^{-3}}{0.16} = 25 \\times 10^{-3} \\text{ m} = 25 \\text{ mm}$$\n\nThus the length of the dipole is 25 mm, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

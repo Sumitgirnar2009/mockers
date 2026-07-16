@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "110"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The acute angle between the lines $x = -2 + 2t, y = 3 - 4t, z = -4 + t$ and $x = -2 - t, y = 3 + 2t, z = -4 + 3t$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\cos^{-1} \\left( \\frac{1}{\\sqrt{6}} \\right)$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\cos^{-1} \\left( \\frac{1}{\\sqrt{5}} \\right)$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\sin^{-1} \\left( \\frac{2}{\\sqrt{5}} \\right)$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\cos^{-1} \\left( \\frac{2}{\\sqrt{6}} \\right)$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Direction ratios of first line: $a_1 = 2, b_1 = -4, c_1 = 1$.\n\nDirection ratios of second line: $a_2 = -1, b_2 = 2, c_2 = 3$.\n\nThe angle $\\theta$ between the lines is given by:\n\n$$\\cos \\theta = \\frac{|a_1 a_2 + b_1 b_2 + c_1 c_2|}{\\sqrt{a_1^2 + b_1^2 + c_1^2} \\cdot \\sqrt{a_2^2 + b_2^2 + c_2^2}}$$\n\n$$= \\frac{|2(-1) + (-4)(2) + 1(3)|}{\\sqrt{4 + 16 + 1} \\cdot \\sqrt{1 + 4 + 9}} = \\frac{|-2 - 8 + 3|}{\\sqrt{21} \\cdot \\sqrt{14}} = \\frac{7}{\\sqrt{294}}$$\n\nSince $294 = 49 \\times 6$, $\\sqrt{294} = 7\\sqrt{6}$.\n\nThus $\\cos \\theta = \\frac{7}{7\\sqrt{6}} = \\frac{1}{\\sqrt{6}}$.\n\nHence $\\theta = \\cos^{-1} \\left( \\frac{1}{\\sqrt{6}} \\right)$.\n\nTherefore the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

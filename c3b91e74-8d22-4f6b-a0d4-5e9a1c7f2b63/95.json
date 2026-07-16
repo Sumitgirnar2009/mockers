@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "95"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "\"No two electrons in an atom can have the identical set of four quantum numbers.\" The statement is known as"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Pauli's exclusion principle."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Hund's rule."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Aufbau rule."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Heisenberg uncertainty principle."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The four quantum numbers are: principal ($n$), azimuthal ($l$), magnetic ($m$), and spin ($s$).\n\nAccording to **Pauli's Exclusion Principle**, no two electrons in the same atom can have the identical set of all four quantum numbers. This implies that an orbital can hold a maximum of two electrons, and they must have opposite spins.\n\n- **Hund's rule**: Electrons occupy degenerate orbitals singly before pairing.\n- **Aufbau rule**: Electrons fill orbitals in order of increasing energy.\n- **Heisenberg uncertainty principle**: It is impossible to know both position and momentum of an electron simultaneously with certainty.\n\nThus, the given statement refers to Pauli's exclusion principle, which corresponds to option A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

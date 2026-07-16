@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "65"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify the substrate 'X' in the following reaction.\n\n$$X + O_2 \\xrightarrow{\\text{i) Co-naphthenate, 423 K}} \\text{Phenol} + \\text{Acetone}$$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Chlorobenzene"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Benzene sulphonic acid"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Benzenamine"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Isopropyl benzene"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The given reaction is the cumene process for the industrial preparation of phenol. Cumene (isopropylbenzene) is oxidized with air in the presence of a cobalt naphthenate catalyst at 423 K to form cumene hydroperoxide. Upon hydrolysis with dilute HCl, it decomposes to give phenol and acetone. Therefore, the substrate X is isopropyl benzene, which corresponds to option D."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10/q65-sol.png"
+  }
+}

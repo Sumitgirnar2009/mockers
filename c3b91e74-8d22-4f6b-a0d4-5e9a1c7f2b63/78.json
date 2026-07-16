@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "78"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Calculate vapour pressure of pure volatile liquid $B$ at given temperature if mole fraction of liquid $B$ and vapour pressure of pure volatile liquid $A$ are 0.4 and 400 mm Hg respectively. $[P_{\\text{total}} = 600 \\text{ mmHg}]$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "750 mm Hg"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "800 mm Hg"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "850 mm Hg"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "900 mm Hg"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "There are two volatile liquids A and B.\n\nUsing Dalton's law of partial pressure:\n$$P_{\\text{total}} = P_A + P_B$$\n\nApplying Raoult's law:\n$$P_{\\text{total}} = x_A P_A^0 + x_B P_B^0$$\n\nGiven: $x_B = 0.4$, so $x_A = 1 - x_B = 0.6$.\n\n$P_A^0 = 400$ mm Hg, $P_{\\text{total}} = 600$ mm Hg.\n\n$$600 = 0.6 \\times 400 + 0.4 \\times P_B^0$$\n\n$$600 = 240 + 0.4 \\times P_B^0$$\n\n$$0.4 \\times P_B^0 = 360$$\n\n$$P_B^0 = \\frac{360}{0.4} = 900 \\text{ mm Hg}$$\n\nThus vapour pressure of pure B is 900 mm Hg, which corresponds to option D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

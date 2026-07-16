@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "61"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Calculate the constant external pressure required to expand 2 moles of an ideal gas from volume 15 dm³ to 20 dm³ if amount of work done is -600 J."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1.2 bar"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "1.5 bar"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "1.8 bar"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "2.1 bar"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $V_1 = 15$ dm³, $V_2 = 20$ dm³, $w = -600$ J, $n = 2$ mol.\n\n$\\Delta V = V_2 - V_1 = 20 - 15 = 5$ dm³ = $5 \\times 10^{-3}$ m³.\n\nWork done at constant external pressure:\n$$w = -P_{\\text{ext}} \\Delta V$$\n\nSubstitute values:\n$$-600 = -P_{\\text{ext}} \\times (5 \\times 10^{-3})$$\n\n$$600 = P_{\\text{ext}} \\times 5 \\times 10^{-3}$$\n\n$$P_{\\text{ext}} = \\frac{600}{5 \\times 10^{-3}} = \\frac{600}{0.005} = 120000 \\text{ Pa}$$\n\nConvert to bar ($1$ bar = $10^5$ Pa):\n$$P_{\\text{ext}} = \\frac{120000}{100000} = 1.2 \\text{ bar}$$\n\nThus the correct option is A: 1.2 bar."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

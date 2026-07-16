@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "1"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Two simple harmonic motions of angular frequency 300 rad/s and 3000 rad/s have same amplitude. The ratio of their maximum accelerations is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$1 : 10$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$1 : 10^2$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$1 : 10^3$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$1 : 10^4$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let amplitude of both oscillations be $A$.\n\n$$\\omega_1 = 300 \\text{ rad/s}, \\quad \\omega_2 = 3000 \\text{ rad/s}$$\n\nFor SHM, maximum acceleration is $a_{\\text{max}} = \\omega^2 A$.\n\n$$a_{1,\\text{max}} = (300)^2 A = 90000A$$\n\n$$a_{2,\\text{max}} = (3000)^2 A = 9000000A$$\n\n$$\\frac{a_{1,\\text{max}}}{a_{2,\\text{max}}} = \\frac{90000}{9000000} = \\frac{1}{100} = 1 : 100$$\n\nThus $a_{1,\\text{max}} : a_{2,\\text{max}} = 1 : 10^2$, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "35"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The electric charges '+2q', '+2q', '-2q' and '-2q' are placed at the corners of square of side '2L' as shown in figure. The electric potential at point 'A', midway between the two charges '+2q' and '+2q' is ($\\varepsilon_0 =$ permittivity of free space)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64/q35.png"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{1}{4\\pi\\varepsilon_0} \\left( \\frac{2q}{L} \\right) \\left[ 1 + \\frac{1}{\\sqrt{5}} \\right]$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{q}{\\pi\\varepsilon_0 L} \\left[ 1 - \\frac{1}{\\sqrt{5}} \\right]$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{q}{\\pi\\varepsilon_0 L} \\left[ 1 + \\frac{1}{\\sqrt{5}} \\right]$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{1}{4\\pi\\varepsilon_0} \\left( \\frac{2q}{L} \\right) \\left[ 1 - \\frac{1}{\\sqrt{5}} \\right]$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Point A is midway between the two +2q charges, so distance from each +2q charge = L.\n\nDistance from A to each -2q charge = $\\sqrt{(2L)^2 + L^2} = \\sqrt{5}L$.\n\nPotential at A:\n\n$$V = \\frac{1}{4\\pi\\varepsilon_0} \\left( \\frac{2q}{L} + \\frac{2q}{L} - \\frac{2q}{\\sqrt{5}L} - \\frac{2q}{\\sqrt{5}L} \\right)$$\n\n$$= \\frac{1}{4\\pi\\varepsilon_0} \\left( \\frac{4q}{L} - \\frac{4q}{\\sqrt{5}L} \\right) = \\frac{1}{4\\pi\\varepsilon_0} \\cdot \\frac{4q}{L} \\left( 1 - \\frac{1}{\\sqrt{5}} \\right)$$\n\n$$= \\frac{q}{\\pi\\varepsilon_0 L} \\left( 1 - \\frac{1}{\\sqrt{5}} \\right)$$\n\nThus the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

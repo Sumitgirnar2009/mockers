@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "104"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $\\vec{a} = \\hat{i} + \\hat{j}$, $\\vec{b} = 2\\hat{i} - \\hat{k}$ then the point of intersection of the lines $\\vec{r} \\times \\vec{a} = \\vec{b} \\times \\vec{a}$ and $\\vec{r} \\times \\vec{b} = \\vec{a} \\times \\vec{b}$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$(3, -1, 1)$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$(3, 1, -1)$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$(-3, 1, 1)$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$(1, 1, 1)$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $\\vec{r} = x\\hat{i} + y\\hat{j} + z\\hat{k}$.\n\nFrom $\\vec{r} \\times \\vec{a} = \\vec{b} \\times \\vec{a}$:\n\n$$(\\vec{r} - \\vec{b}) \\times \\vec{a} = 0$$\n\n$$\\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ x-2 & y & z+1 \\\\ 1 & 1 & 0 \\end{vmatrix} = 0$$\n\n$$(-z-1)\\hat{i} - (-z-1)\\hat{j} + (x-y-2)\\hat{k} = 0$$\n\n$$z = -1, \\quad x - y = 2 \\quad \\text{(i)}$$\n\nFrom $\\vec{r} \\times \\vec{b} = \\vec{a} \\times \\vec{b}$:\n\n$$(\\vec{r} - \\vec{a}) \\times \\vec{b} = 0$$\n\n$$\\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ x-1 & y-1 & z \\\\ 2 & 0 & -1 \\end{vmatrix} = 0$$\n\n$$(1-y)\\hat{i} - (1-x-2z)\\hat{j} + (2-2y)\\hat{k} = 0$$\n\n$$y = 1, \\quad x + 2z = 1 \\quad \\text{(ii)}$$\n\nSolving (i) and (ii): $x - 1 = 2 \\Rightarrow x = 3$. Also $z = -1$.\n\nThus point is $(3, 1, -1)$, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

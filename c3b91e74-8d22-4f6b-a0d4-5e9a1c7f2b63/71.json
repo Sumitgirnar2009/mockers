@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "71"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following is effectively used to remove E. coli bacteria from water?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Silver nanoparticles"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Carbon black nanoparticles"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "TiO$_2$ nanoparticles"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Silicon nanoparticles"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The correct answer is Option A: Silver nanoparticles.\n\nSilver nanoparticles are well-known for their strong antibacterial properties. They effectively kill or inhibit the growth of bacteria like E. coli by disrupting the bacterial cell membrane and interfering with cellular processes. In water purification, silver nanoparticles are commonly used to remove or kill pathogenic bacteria.\n\nOther options: Carbon black nanoparticles and silicon nanoparticles do not have significant antibacterial activity against E. coli. TiO$_2$ nanoparticles are primarily used for photocatalytic degradation of organic pollutants, not specifically for bacterial removal (unless UV light is used).\n\nTherefore, the most effective for removing E. coli from water is silver nanoparticles."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

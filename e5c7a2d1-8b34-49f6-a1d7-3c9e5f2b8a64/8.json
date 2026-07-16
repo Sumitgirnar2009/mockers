@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "8"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Two coils P and Q are kept near each other. When no current flows through coil P and current increases in coil Q at the rate of 10 A/s, the e.m.f. in coil P is 15 mV. When coil Q carries no current and current of 1.8 A flows through coil P, the magnetic flux linked with coil Q is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1.8 mWb"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "2.7 mWb"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "1.5 mWb"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "1 mWb"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Mutual inductance $M = \\frac{e_P}{dI_Q/dt} = \\frac{15 \\times 10^{-3}}{10} = 1.5 \\times 10^{-3}$ H.\n\nFlux linked with Q: $\\phi_Q = M \\cdot I_P = 1.5 \\times 10^{-3} \\times 1.8 = 2.7 \\times 10^{-3}$ Wb = 2.7 mWb.\n\nThus the correct option is B: 2.7 mWb."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

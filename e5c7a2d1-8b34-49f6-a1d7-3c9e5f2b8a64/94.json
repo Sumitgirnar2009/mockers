@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "94"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Calculate the total number of tetrahedral and octahedral voids in 0.4 mol compound having such voids in it."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$2.4088 \\times 10^{23}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$7.2264 \\times 10^{23}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$4.8176 \\times 10^{23}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$9.6352 \\times 10^{23}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Number of atoms in 0.4 mol = 0.4 × Nₐ = 0.4 × 6.022 × 10²³ = 2.4088 × 10²³ atoms.\n\nStep 2: Number of octahedral voids = number of atoms = 2.4088 × 10²³.\n\nStep 3: Number of tetrahedral voids = 2 × number of atoms = 2 × 2.4088 × 10²³ = 4.8176 × 10²³.\n\nStep 4: Total number of voids = octahedral voids + tetrahedral voids = 2.4088 × 10²³ + 4.8176 × 10²³ = 7.2264 × 10²³.\n\nThus, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

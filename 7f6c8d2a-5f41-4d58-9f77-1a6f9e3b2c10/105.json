@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "105"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The shortest distance between the line $y - x = 1$ and the curve $x = y^2$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{3\\sqrt{2}}{8}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{2\\sqrt{3}}{8}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{3\\sqrt{2}}{5}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{\\sqrt{3}}{4}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The line is $y - x = 1$ or $x - y + 1 = 0$, with slope $1$.\n\nThe curve is $x = y^2$. Differentiating both sides with respect to $x$:\n\n$$1 = 2y \\frac{dy}{dx} \\quad \\Rightarrow \\quad \\frac{dy}{dx} = \\frac{1}{2y}$$\n\nFor the shortest distance, the slope of the tangent to the curve must equal the slope of the line:\n\n$$\\frac{1}{2y} = 1 \\quad \\Rightarrow \\quad y = \\frac{1}{2}$$\n\nThen $x = y^2 = \\frac{1}{4}$.\n\nThus the point on the curve is $P\\left(\\frac{1}{4}, \\frac{1}{2}\\right)$.\n\nDistance from $P$ to the line $x - y + 1 = 0$:\n\n$$d = \\frac{\\left| \\frac{1}{4} - \\frac{1}{2} + 1 \\right|}{\\sqrt{1^2 + (-1)^2}} = \\frac{\\left| \\frac{1}{4} - \\frac{2}{4} + \\frac{4}{4} \\right|}{\\sqrt{2}} = \\frac{\\left| \\frac{3}{4} \\right|}{\\sqrt{2}} = \\frac{3}{4\\sqrt{2}} = \\frac{3\\sqrt{2}}{8}$$\n\nHence the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10/q105-sol.png"
+  }
+}

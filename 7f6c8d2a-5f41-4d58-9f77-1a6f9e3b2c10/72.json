@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "72"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which from following functional groups has highest priority order for naming the poly functional compound?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "-CN"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "-CONH₂"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "-C≡C-"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "-NH₂"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "According to IUPAC priority order for functional groups in polyfunctional compounds, the highest priority is given to groups like -COOH, -SO₃H, -COOR, -COCl, -CONH₂, -CN, -CHO, -OH, -NH₂, -C≡C-, -C=C-, etc. Among the given options, -CN (cyano group) is a derivative of carboxylic acid and has higher priority than -CONH₂ (amide), -C≡C- (alkyne), and -NH₂ (amine). Therefore, -CN has the highest priority, corresponding to option A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

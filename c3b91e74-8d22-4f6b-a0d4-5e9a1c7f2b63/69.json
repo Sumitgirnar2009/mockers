@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "69"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following compound is used for preparation of quicklime?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Caustic soda"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Sodium carbonate"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Calcium carbonate"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Magnesium carbonate"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Quicklime (CaO) is prepared by heating calcium carbonate (limestone) strongly.\n\nReaction: $$\\mathrm{CaCO_3 \\xrightarrow{\\Delta} CaO + CO_2}$$\n\nThus calcium carbonate decomposes on heating to give calcium oxide (quicklime) and carbon dioxide. Hence the correct option is C: Calcium carbonate."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

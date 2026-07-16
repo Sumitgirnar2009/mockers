@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "50"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The magnetic susceptibility of iron is 5499. The relative permeability of iron will be"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$5500 \\times 10^7$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$5500 \\times 10^{-7}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "5500"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "5501"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The relationship between magnetic susceptibility $\\chi_m$ and relative permeability $\\mu_r$ is:\n\n$$\\mu_r = 1 + \\chi_m$$\n\nGiven $\\chi_m = 5499$, we have:\n\n$$\\mu_r = 1 + 5499 = 5500$$\n\nThus the relative permeability of iron is 5500, which corresponds to option C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

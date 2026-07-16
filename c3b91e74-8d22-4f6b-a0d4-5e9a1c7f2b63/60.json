@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "60"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which among the following salts turns red litmus blue in its aqueous solution?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "KCN"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "NaNO₃"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "NaCl"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "KCl"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "KCN is a salt of a strong base (KOH) and a weak acid (HCN). On hydrolysis, it produces OH⁻ ions:\n\n$$\\mathrm{CN^- + H_2O \\rightarrow HCN + OH^-}$$\n\nThe solution becomes basic, turning red litmus blue. NaNO₃, NaCl, and KCl are salts of strong acids and strong bases, giving neutral solutions that do not affect litmus. Hence the correct option is A: KCN."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

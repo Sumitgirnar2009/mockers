@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "24"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The current flowing through an inductor of selfinductance $L$ is continuously increasing at constant rate. The variation of induced e.m.f. (e) verses $dI/dt$ is shown graphically by figure."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10/q24.png"
+  },
+  "Option1Stmt": {
+    "S": "Graph A"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Graph B"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Graph C"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Graph D"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The induced emf in an inductor is given by:\n\n$$e = -L \\frac{dI}{dt}$$\n\nGiven that the current is increasing at a constant rate, $\\frac{dI}{dt}$ is constant.\n\nTherefore, the induced emf $e$ is also constant (negative sign indicates direction).\n\nWhen plotting $e$ versus $\\frac{dI}{dt}$:\n\n- The graph is a straight line.\n- The slope is $-L$ (negative).\n- The line passes through the origin.\n\nThis type of variation corresponds to Graph B among the given options.\n\nHence the correct answer is option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

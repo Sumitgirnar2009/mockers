@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "108"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If the angle between the planes $x - 2y + 3z - 5 = 0$ and $x + \\alpha y + 2z + 7 = 0$ is $\\cos^{-1}\\left(\\frac{1}{14}\\right)$ then the difference between the values of $\\alpha$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{12}{11}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{62}{55}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{31}{11}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{8}{5}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Direction ratios of normals: $\\vec{n_1} = (1, -2, 3)$, $\\vec{n_2} = (1, \\alpha, 2)$.\n\nThe angle $\\theta$ between the planes satisfies:\n\n$$\\cos\\theta = \\frac{|1 \\cdot 1 + (-2)\\cdot\\alpha + 3 \\cdot 2|}{\\sqrt{1^2 + (-2)^2 + 3^2} \\cdot \\sqrt{1^2 + \\alpha^2 + 2^2}}$$\n\n$$\\frac{1}{14} = \\frac{|1 - 2\\alpha + 6|}{\\sqrt{1 + 4 + 9} \\cdot \\sqrt{1 + \\alpha^2 + 4}} = \\frac{|7 - 2\\alpha|}{\\sqrt{14} \\cdot \\sqrt{\\alpha^2 + 5}}$$\n\nSquaring both sides:\n\n$$\\frac{1}{196} = \\frac{(7 - 2\\alpha)^2}{14(\\alpha^2 + 5)}$$\n\nCross-multiply:\n\n$$14(\\alpha^2 + 5) = 196(7 - 2\\alpha)^2$$\n\nDivide by 14:\n\n$$\\alpha^2 + 5 = 14(7 - 2\\alpha)^2 = 14(49 - 28\\alpha + 4\\alpha^2) = 686 - 392\\alpha + 56\\alpha^2$$\n\nBring all terms to one side:\n\n$$0 = 686 - 392\\alpha + 56\\alpha^2 - \\alpha^2 - 5$$\n\n$$0 = 681 - 392\\alpha + 55\\alpha^2$$\n\n$$55\\alpha^2 - 392\\alpha + 681 = 0$$\n\nDifference between roots:\n\n$$\\frac{\\sqrt{b^2 - 4ac}}{a} = \\frac{\\sqrt{(-392)^2 - 4(55)(681)}}{55} = \\frac{\\sqrt{153664 - 149820}}{55} = \\frac{\\sqrt{3844}}{55} = \\frac{62}{55}$$\n\nThus the correct option is B: $\\frac{62}{55}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

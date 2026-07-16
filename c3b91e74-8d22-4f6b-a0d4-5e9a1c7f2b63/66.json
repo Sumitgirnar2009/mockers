@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "66"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following change takes place at positive electrode during working of dry cell?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Zn(s) is oxidised to Zn^2+(aq)"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Zn^2+(aq) is reduced to Zn(s)"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "MnO2(s) is reduced to Mn2O3(s)"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Mn2O3(s) is oxidised to MnO2(s)"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "In a dry cell, the positive electrode (cathode) is the carbon rod. At the cathode, manganese dioxide (MnO2) gets reduced.\n\nReaction: MnO2 + NH4+ + e- → MnO(OH) + NH3\n\nManganese in MnO2 is in +4 oxidation state and is reduced to +3 (as in Mn2O3 or MnO(OH)).\n\nThus, the change at the positive electrode is: MnO2 is reduced to Mn2O3.\n\nTherefore, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

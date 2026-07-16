@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "85"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following statements is false about interhalogen compounds?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "They are covalent in nature."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "They are diamagnetic."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "They are more reactive than halogens."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "If these are represented as XX', number of X' atoms is always even."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Interhalogen compounds are formed between two different halogens and are represented as XX', XX₃, XX₅, or XX₇. The number of X' atoms can be 1, 3, 5, or 7 — not always even. For example, ClF (1 atom), BrF₃ (3 atoms), IF₅ (5 atoms). Hence, the false statement is that the number of X' atoms is always even, which corresponds to option D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

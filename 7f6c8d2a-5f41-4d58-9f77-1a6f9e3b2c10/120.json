@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "120"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A random variable $X$ has the following probability distribution:\n\n$$\\begin{array}{|c|c|c|c|c|c|}\n\\hline\nX & 0 & 1 & 2 & 3 & 4 \\\\\n\\hline\nP(X) & k & 2k & 4k & 2k & k \\\\\n\\hline\n\\end{array}$$\n\nthen the value of $P(1 \\leq X < 4 \\mid X \\leq 2) =$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{5}{6}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{6}{7}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{7}{8}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{8}{9}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "First, find $k$ using $\\sum P(X) = 1$:\n\n$$k + 2k + 4k + 2k + k = 10k = 1 \\quad \\Rightarrow \\quad k = \\frac{1}{10}$$\n\nNow,\n\n$$P(1 \\leq X < 4) = P(X=1) + P(X=2) + P(X=3) = 2k + 4k + 2k = 8k = \\frac{8}{10} = \\frac{4}{5}$$\n\n$$P(X \\leq 2) = P(X=0) + P(X=1) + P(X=2) = k + 2k + 4k = 7k = \\frac{7}{10}$$\n\nConditional probability:\n\n$$P(1 \\leq X < 4 \\mid X \\leq 2) = \\frac{P(1 \\leq X < 4 \\text{ and } X \\leq 2)}{P(X \\leq 2)}$$\n\nThe intersection $\\{1 \\leq X < 4\\} \\cap \\{X \\leq 2\\} = \\{1, 2\\}$.\n\n$$P(1 \\leq X < 4 \\text{ and } X \\leq 2) = P(X=1) + P(X=2) = 2k + 4k = 6k = \\frac{6}{10} = \\frac{3}{5}$$\n\nThus,\n\n$$\\frac{3/5}{7/10} = \\frac{3}{5} \\times \\frac{10}{7} = \\frac{6}{7}$$\n\nHence the correct option is B: $\\frac{6}{7}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "47"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A liquid drop having surface energy E is sprayed into 512 droplets of same size. The final surface energy is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "12E"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "4E"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "8E"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "6E"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Surface area of drop, $A_1 = 4\\pi R^2$.\n\nSurface area of 512 droplets, $A_2 = 512 \\times 4\\pi r^2$.\n\nVolume conservation: $\\frac{4}{3}\\pi R^3 = 512 \\times \\frac{4}{3}\\pi r^3 \\Rightarrow R^3 = 512 r^3 \\Rightarrow R = 8r$.\n\nThus $A_2 = 512 \\times 4\\pi \\left(\\frac{R}{8}\\right)^2 = 512 \\times 4\\pi \\times \\frac{R^2}{64} = 8 \\times 4\\pi R^2$.\n\nSurface energy $\\propto$ area, so $E_2 = 8 \\times E_1 = 8E$.\n\nThus the correct option is C: 8E."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

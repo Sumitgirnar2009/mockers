@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "98"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify substrate 'A' in the following reaction. $$A + CO_2 \\xrightarrow[6 \\text{ atm}]{398 \\text{ K}} \\text{Sodium salicylate} \\xrightarrow{\\mathrm{H_3O^+}} \\text{Salicylic acid}$$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Phenol"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Sodium phenoxide"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Salicylaldehyde"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "o-Phenolsulphonic acid"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Concept: This reaction is the Kolbe's reaction (also known as Kolbe-Schmitt reaction).\n\nIn this reaction, sodium phenoxide (C₆H₅ONa) reacts with carbon dioxide under high pressure (6 atm) and temperature (398 K) to form sodium salicylate. Upon acidification with H₃O⁺, it gives salicylic acid.\n\nThus, substrate A is sodium phenoxide, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64/q98-sol.png"
+  }
+}

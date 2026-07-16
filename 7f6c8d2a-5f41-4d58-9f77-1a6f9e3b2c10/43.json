@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "43"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A null point is obtained at 200 cm on potentiometer wire when cell in secondary circuit is shunted by $5\\Omega$. When a resistance of $15\\Omega$ is used for shunting, null point moves to 300 cm. The internal resistance of the cell is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$3\\Omega$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$4\\Omega$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$5\\Omega$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$6\\Omega$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let the internal resistance of the cell be $r$. The balancing length is proportional to the terminal potential difference of the cell.\n\nWhen shunted with resistance $R_s$, the terminal voltage is:\n$$V = \\frac{R_s}{R_s + r} E$$\n\nSince balancing length $l \\propto V$, we have:\n$$\\frac{l_1}{l_2} = \\frac{V_1}{V_2} = \\frac{R_{s1}/(R_{s1} + r)}{R_{s2}/(R_{s2} + r)}$$\n\nGiven $l_1 = 200$ cm, $R_{s1} = 5\\Omega$, $l_2 = 300$ cm, $R_{s2} = 15\\Omega$.\n\n$$\\frac{200}{300} = \\frac{5/(5 + r)}{15/(15 + r)} = \\frac{5}{5 + r} \\times \\frac{15 + r}{15}$$\n\n$$\\frac{2}{3} = \\frac{5(15 + r)}{15(5 + r)} = \\frac{75 + 5r}{75 + 15r}$$\n\nCross-multiply:\n$$2(75 + 15r) = 3(75 + 5r)$$\n$$150 + 30r = 225 + 15r$$\n$$30r - 15r = 225 - 150$$\n$$15r = 75 \\quad \\Rightarrow \\quad r = 5\\Omega$$\n\nThus the internal resistance is $5\\Omega$, which corresponds to option C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

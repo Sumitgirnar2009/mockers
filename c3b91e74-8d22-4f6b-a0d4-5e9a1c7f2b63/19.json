@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "19"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A metal sphere cools at a rate of $1.5^\\circ C/\\text{min}$ when its temperature is $80^\\circ C$. When the temperature of the sphere is $40^\\circ C$ its rate of cooling is $0.3^\\circ C/\\text{min}$. The temperature of the surrounding ($\\theta_0$) is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$30^\\circ C$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$35^\\circ C$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$25^\\circ C$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$27^\\circ C$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "According to Newton's law of cooling: $\\left|\\frac{dT}{dt}\\right| = k(T - \\theta_0)$.\n\nAt $T = 80^\\circ C$, $1.5 = k(80 - \\theta_0)$ ... (i)\n\nAt $T = 40^\\circ C$, $0.3 = k(40 - \\theta_0)$ ... (ii)\n\nDividing (i) by (ii): $\\frac{1.5}{0.3} = \\frac{80 - \\theta_0}{40 - \\theta_0} \\Rightarrow 5 = \\frac{80 - \\theta_0}{40 - \\theta_0}$.\n\nCross-multiply: $5(40 - \\theta_0) = 80 - \\theta_0 \\Rightarrow 200 - 5\\theta_0 = 80 - \\theta_0 \\Rightarrow 120 = 4\\theta_0 \\Rightarrow \\theta_0 = 30^\\circ C$.\n\nThus the correct option is A: $30^\\circ C$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

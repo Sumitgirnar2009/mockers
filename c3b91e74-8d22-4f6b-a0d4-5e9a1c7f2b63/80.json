@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "80"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify the product 'B' in following reaction. Ethanal $\\xrightarrow{\\text{dil. NaOH}}$ A $\\xrightarrow[\\text{H}_2\\text{O}]{\\Delta}$ B"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "3-Hydroxybutanal"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "4-Hydroxybutanal"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "But-2-enal"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "But-3-enal"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Ethanal (acetaldehyde) undergoes aldol addition with dilute NaOH to form 3-hydroxybutanal (A). On heating with dilute H₂O (which provides the medium), the aldol undergoes dehydration to form but-2-enal (crotonaldehyde). Thus product B is but-2-enal, which corresponds to option C."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63/q80-sol.png"
+  }
+}

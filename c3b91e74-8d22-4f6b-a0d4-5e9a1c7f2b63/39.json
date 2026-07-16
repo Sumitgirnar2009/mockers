@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "39"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A mass $x$ gram is suspended from a light spring. It is pulled in downward direction and released so that mass performs S.H.M. of period $T$. If mass is increased by $Y$ gram, the period becomes $\\frac{4T}{3}$. The ratio of $Y/x$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$7 : 9$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$5 : 4$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$3 : 2$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$8 : 7$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a mass-spring system, $T = 2\\pi \\sqrt{\\frac{m}{k}}$.\n\nInitial: $T = 2\\pi \\sqrt{\\frac{x}{k}}$.\n\nNew: $\\frac{4T}{3} = 2\\pi \\sqrt{\\frac{x+Y}{k}}$.\n\nDivide the two equations:\n\n$$\\frac{4T/3}{T} = \\frac{\\sqrt{\\frac{x+Y}{k}}}{\\sqrt{\\frac{x}{k}}} \\Rightarrow \\frac{4}{3} = \\sqrt{\\frac{x+Y}{x}}$$\n\nSquaring: $\\frac{16}{9} = \\frac{x+Y}{x}$.\n\n$\\frac{x+Y}{x} = 1 + \\frac{Y}{x} = \\frac{16}{9}$.\n\n$\\frac{Y}{x} = \\frac{16}{9} - 1 = \\frac{7}{9}$.\n\nThus $Y : x = 7 : 9$, which corresponds to option A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

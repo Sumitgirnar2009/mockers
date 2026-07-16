@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "119"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Two cards are drawn simultaneously from a well shuffled pack of 52 cards. If X is the random variable of getting queens, then the value of $2E(X) + 3E(X^2)$ for the number of queens is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{132}{221}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{108}{221}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{176}{221}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{68}{221}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $X$ be the number of queens drawn. Then $X = 0, 1, 2$.\n\n$$P(X = 0) = \\frac{\\binom{48}{2}}{\\binom{52}{2}} = \\frac{48 \\times 47}{52 \\times 51} = \\frac{188}{221}$$\n\n$$P(X = 1) = \\frac{\\binom{4}{1} \\times \\binom{48}{1}}{\\binom{52}{2}} = \\frac{4 \\times 48}{1326} = \\frac{192}{1326} = \\frac{32}{221}$$\n\n$$P(X = 2) = \\frac{\\binom{4}{2}}{\\binom{52}{2}} = \\frac{6}{1326} = \\frac{1}{221}$$\n\nNow,\n\n$$E(X) = 0 \\times \\frac{188}{221} + 1 \\times \\frac{32}{221} + 2 \\times \\frac{1}{221} = \\frac{32 + 2}{221} = \\frac{34}{221}$$\n\n$$E(X^2) = 0^2 \\times \\frac{188}{221} + 1^2 \\times \\frac{32}{221} + 2^2 \\times \\frac{1}{221} = \\frac{32 + 4}{221} = \\frac{36}{221}$$\n\nThen,\n\n$$2E(X) + 3E(X^2) = 2 \\times \\frac{34}{221} + 3 \\times \\frac{36}{221} = \\frac{68 + 108}{221} = \\frac{176}{221}$$\n\nThus the correct option is C: $\\frac{176}{221}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "63"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which metal in following compounds is not present in fractional oxidation state?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\mathrm{Fe_3O_4}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\mathrm{Mn_3O_4}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\mathrm{Pb_3O_4}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\mathrm{Na_2S_4O_6}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Fe₃O₄, Mn₃O₄, and Pb₃O₄ are mixed oxides containing the metal in two different oxidation states (e.g., Fe(II) and Fe(III), Mn(II) and Mn(III), Pb(II) and Pb(IV)), giving an average fractional oxidation state. However, in Na₂S₄O₆ (sodium tetrathionate), sodium exists only in the +1 oxidation state, which is an integer, not fractional. Therefore, the metal not present in a fractional oxidation state is sodium in Na₂S₄O₆, which corresponds to option D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

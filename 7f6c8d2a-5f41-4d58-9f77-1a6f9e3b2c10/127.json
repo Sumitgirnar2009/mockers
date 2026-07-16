@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "127"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If two numbers $p$ and $q$ are chosen randomly from the set $\\{1, 2, 3, 4\\}$, one by one, with replacement, then the probability of getting $p^2 \\geq 4q$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{1}{4}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{7}{16}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{1}{2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{9}{16}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The set is $\\{1, 2, 3, 4\\}$. Total possible ordered pairs $(p, q)$ with replacement = $4 \\times 4 = 16$.\n\nCondition: $p^2 \\geq 4q$.\n\n- If $p = 1$: $1 \\geq 4q$ ⇒ $q \\leq 0.25$ ⇒ no $q$ in set.\n- If $p = 2$: $4 \\geq 4q$ ⇒ $q \\leq 1$ ⇒ $q = 1$ (1 case).\n- If $p = 3$: $9 \\geq 4q$ ⇒ $q \\leq 2.25$ ⇒ $q = 1, 2$ (2 cases).\n- If $p = 4$: $16 \\geq 4q$ ⇒ $q \\leq 4$ ⇒ $q = 1, 2, 3, 4$ (4 cases).\n\nTotal favorable cases = $0 + 1 + 2 + 4 = 7$.\n\nProbability = $\\frac{7}{16}$.\n\nThus the correct option is B: $\\frac{7}{16}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

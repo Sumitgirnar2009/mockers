@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "113"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "$$\\int_{2}^{4} \\frac{\\log x^2}{\\log x^2 + \\log(36 - 12x + x^2)} \\, dx$$ is equal to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "2"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "4"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "6"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $I = \\int_{2}^{4} \\frac{\\log x^2}{\\log x^2 + \\log(36 - 12x + x^2)} \\, dx$\n\nNote that $36 - 12x + x^2 = (6 - x)^2$.\n\nUsing the property $\\int_a^b f(x) dx = \\int_a^b f(a+b-x) dx$, we get:\n\n$$I = \\int_{2}^{4} \\frac{\\log(6-x)^2}{\\log(6-x)^2 + \\log x^2} \\, dx$$\n\nAdding the two expressions for $I$:\n\n$$2I = \\int_{2}^{4} 1 \\, dx = [x]_2^4 = 2$$\n\n$$I = 1$$\n\nAlternate method: Using the standard result $\\int_a^b \\frac{f(x)}{f(x) + f(a+b-x)} dx = \\frac{1}{2}(b-a)$:\n\n$$I = \\frac{1}{2}(4 - 2) = 1$$\n\nFinal Answer: $$\\boxed{1}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

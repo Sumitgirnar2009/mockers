@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "29"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A hollow cylinder has a charge of $q$ C within it. If $\\phi$ is the electric flux associated with the curved surface B, the flux linked with the plane surface A will be"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10/q29.png"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{\\phi}{3}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{q}{\\epsilon_0} - \\phi$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{q}{3\\epsilon_0}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{1}{2} \\left( \\frac{q}{\\epsilon_0} - \\phi \\right)$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "According to Gauss's law, the total electric flux through a closed surface is $\\frac{q}{\\epsilon_0}$.\n\nFor the given hollow cylinder, the closed surface consists of:\n- Plane surface A\n- Curved surface B (flux $\\phi$)\n- Plane surface C\n\nThus:\n\n$$\\phi_A + \\phi_B + \\phi_C = \\frac{q}{\\epsilon_0}$$\n\nDue to symmetry, the flux through plane surfaces A and C are equal:\n\n$$\\phi_A = \\phi_C$$\n\nSubstituting $\\phi_B = \\phi$ and $\\phi_C = \\phi_A$:\n\n$$\\phi_A + \\phi + \\phi_A = \\frac{q}{\\epsilon_0}$$\n\n$$2\\phi_A + \\phi = \\frac{q}{\\epsilon_0}$$\n\n$$\\phi_A = \\frac{1}{2} \\left( \\frac{q}{\\epsilon_0} - \\phi \\right)$$\n\nThus the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10/q29-sol.png"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "116"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $2f(x) + 3f\\left(\\frac{1}{x}\\right) = x^2 + 1$, $x \\neq 0$ and $y = 5x^2f(x)$, then $y$ is strictly increasing in"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\left(0, \\frac{1}{2}\\right)$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\left(-\\frac{2}{5}, 0\\right)$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\left(\\frac{1}{2}, \\frac{\\sqrt{5}}{2}\\right)$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\left(-\\frac{1}{2}, 0\\right)$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $2f(x) + 3f\\left(\\frac{1}{x}\\right) = x^2 + 1$ ... (i)\n\nReplace $x$ by $\\frac{1}{x}$:\n\n$$2f\\left(\\frac{1}{x}\\right) + 3f(x) = \\frac{1}{x^2} + 1$$ ... (ii)\n\nMultiply (i) by 2 and (ii) by 3, then subtract:\n\n$$4f(x) + 6f\\left(\\frac{1}{x}\\right) = 2x^2 + 2$$\n$$9f(x) + 6f\\left(\\frac{1}{x}\\right) = \\frac{3}{x^2} + 3$$\n\nSubtract: $5f(x) = \\frac{3}{x^2} + 3 - 2x^2 - 2 = \\frac{3}{x^2} + 1 - 2x^2$.\n\n$$f(x) = \\frac{1}{5} \\left( -2x^2 + 1 + \\frac{3}{x^2} \\right)$$\n\n$$y = 5x^2 f(x) = x^2 \\left( -2x^2 + 1 + \\frac{3}{x^2} \\right) = -2x^4 + x^2 + 3$$\n\n$$\\frac{dy}{dx} = -8x^3 + 2x = 2x(1 - 4x^2)$$\n\nFor $y$ to be strictly increasing: $\\frac{dy}{dx} > 0$.\n\n$$2x(1 - 4x^2) > 0 \\Rightarrow x(1 - 4x^2) > 0$$\n\nCase 1: $x > 0$ and $1 - 4x^2 > 0 \\Rightarrow 0 < x < \\frac{1}{2}$.\n\nCase 2: $x < 0$ and $1 - 4x^2 < 0 \\Rightarrow x < -\\frac{1}{2}$.\n\nThus $y$ is increasing in $\\left(-\\infty, -\\frac{1}{2}\\right) \\cup \\left(0, \\frac{1}{2}\\right)$.\n\nAmong the options, $\\left(0, \\frac{1}{2}\\right)$ is a subset. Hence the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

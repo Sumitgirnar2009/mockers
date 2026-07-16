@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "131"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The co-ordinates of the point where the line joining the points $(2, -3, 1)$ and $(3, -4, -5)$ intersects the plane $2x + y + z = 7$ are"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$(-1, 2, 7)$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$(1, 2, 3)$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$(2, 1, 2)$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$(1, -2, 7)$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The equation of the line passing through the points $(2, -3, 1)$ and $(3, -4, -5)$ is:\n\n$$\\frac{x - 2}{1} = \\frac{y + 3}{-1} = \\frac{z - 1}{-6} = t$$\n\n$$\\Rightarrow x = t + 2, \\, y = -t - 3, \\, z = -6t + 1$$\n\nSubstituting in $2x + y + z = 7$:\n\n$$2(t+2) + (-t-3) + (-6t+1) = 7$$\n\n$$2t + 4 - t - 3 - 6t + 1 = 7 \\Rightarrow -5t + 2 = 7 \\Rightarrow t = -1$$\n\n$$x = 1, y = -2, z = 7$$\n\nThus the point is $(1, -2, 7)$, which corresponds to option D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

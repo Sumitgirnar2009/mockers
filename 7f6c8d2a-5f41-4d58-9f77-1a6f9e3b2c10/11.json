@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "11"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Light of wavelength $\\lambda$ falls on a metal having work function $\\frac{hc}{\\lambda_0}$. Photoelectric effect will take place only if ($\\lambda_0$ is the threshold wavelength)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\lambda \\geq \\lambda_0$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\lambda \\geq 2\\lambda_0$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\lambda \\leq \\lambda_0$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\lambda = 4\\lambda_0$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The photoelectric effect occurs when the incident photon energy is at least equal to the work function of the metal. Energy of incident photon = $hc/\\lambda$. Work function $\\phi = hc/\\lambda_0$. Condition for photoelectric emission: $\\frac{hc}{\\lambda} \\geq \\frac{hc}{\\lambda_0}$ $\\Rightarrow$ $\\frac{1}{\\lambda} \\geq \\frac{1}{\\lambda_0}$ $\\Rightarrow$ $\\lambda \\leq \\lambda_0$. Hence the correct option is C: $\\lambda \\leq \\lambda_0$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

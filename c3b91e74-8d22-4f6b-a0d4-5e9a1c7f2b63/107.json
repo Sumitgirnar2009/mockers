@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "107"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If the projection of $\\vec{a}$ on $\\vec{b} + \\vec{c}$ is twice the projection of $\\vec{b} + \\vec{c}$ on $\\vec{a}$ also if $|\\vec{b}| = 2\\sqrt{2}$, $|\\vec{c}| = 4$ and the angle between $\\vec{b}$ and $\\vec{c}$ is $\\frac{\\pi}{4}$ then $|\\vec{a}| =$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$2\\sqrt{10}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$3\\sqrt{10}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$4\\sqrt{10}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$5\\sqrt{10}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Projection of $\\vec{a}$ on $\\vec{b}+\\vec{c}$ = $\\frac{\\vec{a}\\cdot(\\vec{b}+\\vec{c})}{|\\vec{b}+\\vec{c}|}$.\n\nProjection of $\\vec{b}+\\vec{c}$ on $\\vec{a}$ = $\\frac{(\\vec{b}+\\vec{c})\\cdot\\vec{a}}{|\\vec{a}|}$.\n\nGiven: $\\frac{\\vec{a}\\cdot(\\vec{b}+\\vec{c})}{|\\vec{b}+\\vec{c}|} = 2 \\cdot \\frac{(\\vec{b}+\\vec{c})\\cdot\\vec{a}}{|\\vec{a}|} \\Rightarrow \\frac{1}{|\\vec{b}+\\vec{c}|} = \\frac{2}{|\\vec{a}|} \\Rightarrow |\\vec{a}| = 2|\\vec{b}+\\vec{c}|$.\n\nNow, $|\\vec{b}+\\vec{c}| = \\sqrt{|\\vec{b}|^2 + |\\vec{c}|^2 + 2|\\vec{b}||\\vec{c}|\\cos\\theta}$.\n\n$= \\sqrt{(2\\sqrt{2})^2 + 4^2 + 2(2\\sqrt{2})(4)\\cos\\frac{\\pi}{4}} = \\sqrt{8 + 16 + 16\\sqrt{2} \\cdot \\frac{1}{\\sqrt{2}}} = \\sqrt{40} = 2\\sqrt{10}$.\n\n$|\\vec{a}| = 2(2\\sqrt{10}) = 4\\sqrt{10}$.\n\nThus the correct option is C: $4\\sqrt{10}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

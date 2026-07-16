@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "64"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which among the following is NOT dicarboxylic acid?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Adipic acid"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Glutaric acid"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Valeric acid"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Malonic acid"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Dicarboxylic acids contain two carboxyl (-COOH) groups.\n\n- Adipic acid: HOOC-(CH₂)₄-COOH (hexanedioic acid) → dicarboxylic.\n- Glutaric acid: HOOC-(CH₂)₃-COOH (pentanedioic acid) → dicarboxylic.\n- Valeric acid: CH₃-(CH₂)₃-COOH (pentanoic acid) → monocarboxylic.\n- Malonic acid: HOOC-CH₂-COOH (propanedioic acid) → dicarboxylic.\n\nThus valeric acid is not a dicarboxylic acid, corresponding to option C."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10/q64-sol.png"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "7"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Three vectors are expressed as $\\vec{a} = 4\\hat{i} - \\hat{j}$, $\\vec{b} = -3\\hat{i} + 2\\hat{j}$ and $\\vec{c} = -\\hat{k}$. The unit vector along the direction of sum of these vectors is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{\\hat{i} + \\hat{j} - \\hat{k}}{\\sqrt{3}}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{1}{3} (\\hat{i} - \\hat{j} + \\hat{k})$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{1}{\\sqrt{2}} (\\hat{i} - \\hat{j} + \\hat{k})$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{1}{\\sqrt{2}} (\\hat{i} + \\hat{j} + \\hat{k})$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Sum of vectors: $\\vec{r} = \\vec{a} + \\vec{b} + \\vec{c} = (4\\hat{i} - \\hat{j}) + (-3\\hat{i} + 2\\hat{j}) + (-\\hat{k}) = \\hat{i} + \\hat{j} - \\hat{k}$.\n\nMagnitude: $|\\vec{r}| = \\sqrt{1^2 + 1^2 + (-1)^2} = \\sqrt{3}$.\n\nUnit vector: $\\hat{r} = \\frac{\\vec{r}}{|\\vec{r}|} = \\frac{\\hat{i} + \\hat{j} - \\hat{k}}{\\sqrt{3}}$.\n\nThus the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

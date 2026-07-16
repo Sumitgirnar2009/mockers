@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "90"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If standard emf of cell $\\mathrm{Zn_{(s)} | Zn^{2+}_{(1M)} || Ag^+_{(1M)} | Ag_{(s)}}$ is 1.55 V. What is electrical work done under standard conditions?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "-144.750 kJ"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "-193.00 kJ"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "-299.150 kJ"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "-386.00 kJ"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given:\n\nStandard emf of cell, $E_{\\text{cell}}^\\circ = 1.55$ V\n\nCell: $\\mathrm{Zn_{(s)} | Zn^{2+}_{(1M)} || Ag^+_{(1M)} | Ag_{(s)}}$\n\nStep 1: Write the cell reaction and find $n$\n\nAt anode (oxidation):\n$$\\mathrm{Zn(s) \\rightarrow Zn^{2+}(aq) + 2e^-}$$\n\nAt cathode (reduction):\n$$\\mathrm{Ag^+(aq) + e^- \\rightarrow Ag(s)}$$\n\nTo balance electrons, multiply the cathode reaction by 2:\n$$\\mathrm{2Ag^+(aq) + 2e^- \\rightarrow 2Ag(s)}$$\n\nOverall cell reaction:\n$$\\mathrm{Zn(s) + 2Ag^+(aq) \\rightarrow Zn^{2+}(aq) + 2Ag(s)}$$\n\nSo, number of electrons transferred, $n = 2$.\n\nStep 2: Formula for maximum electrical work\n\nElectrical work done under standard conditions is:\n$$\\Delta G^\\circ = -n F E_{\\text{cell}}^\\circ$$\n\nWhere,\n$n =$ number of moles of electrons exchanged ($= 2$)\n$F =$ Faraday's constant ($= 96500$ C/mol)\n$E_{\\text{cell}}^\\circ =$ emf of the cell ($= 1.55$ V)\n\nStep 3: Substitute and calculate\n\n$$\\Delta G^\\circ = -2 \\times 96500 \\times 1.55$$\n\n$$\\Delta G^\\circ = -2 \\times 149575 = -299150 \\text{ J}$$\n\nConvert J to kJ:\n\n$$\\Delta G^\\circ = \\frac{-299150}{1000} \\text{ kJ} = -299.15 \\text{ kJ}$$\n\nThe correct answer is: -299.150 kJ"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

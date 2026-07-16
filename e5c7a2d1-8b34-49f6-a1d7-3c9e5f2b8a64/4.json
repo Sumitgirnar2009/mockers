@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "4"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A pipe open at both ends of length 1.5 m is dipped in water at one end such that $2^{\\text{nd}}$ overtone of vibrating air column is resonating with a tuning fork of frequency 330 Hz. The length of the pipe immersed in water is (Speed of sound in air = 330 m/s) (Neglect end correction)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1 m"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "0.75 m"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "0.5 m"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "0.25 m"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let the length of pipe immersed in water be $x$. For a pipe closed at one end, frequency of $2^{\\text{nd}}$ overtone is $f_3 = \\frac{5v}{4L}$, where $L$ is the length of vibrating air column.\n\n$$f_3 = \\frac{5v}{4(1.5 - x)} = 330$$\n\n$$\\frac{5 \\times 330}{4(1.5 - x)} = 330 \\Rightarrow 1.5 - x = \\frac{5}{4} = 1.25$$\n\n$$x = 0.25 \\text{ m}$$\n\nThus the correct option is D: 0.25 m."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64/q4-sol.png"
+  }
+}

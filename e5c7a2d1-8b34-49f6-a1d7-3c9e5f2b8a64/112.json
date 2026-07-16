@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "112"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The area inside the parabola $y^2 = 4ax$, between the lines $x = a$ and $x = 4a$ is equal to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$4a^2$ sq. units"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$8a^2$ sq. units"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{56a^2}{3}$ sq. units"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{35a^2}{3}$ sq. units"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The parabola $y^2 = 4ax$ is symmetric about the x-axis.\n\nRequired area = $2 \\int_{a}^{4a} \\sqrt{4ax} \\, dx$\n\n$$= 4\\sqrt{a} \\int_{a}^{4a} \\sqrt{x} \\, dx$$\n\n$$= 4\\sqrt{a} \\left[ \\frac{2}{3} x^{3/2} \\right]_{a}^{4a}$$\n\n$$= \\frac{8}{3} \\sqrt{a} \\left[ (4a)^{3/2} - a^{3/2} \\right]$$\n\n$$= \\frac{8}{3} \\sqrt{a} \\left[ 8a\\sqrt{a} - a\\sqrt{a} \\right]$$\n\n$$= \\frac{8}{3} \\sqrt{a} \\cdot 7a\\sqrt{a}$$\n\n$$= \\frac{56}{3} a^2$$\n\nThus, the required area is $\\frac{56a^2}{3}$ sq. units.\n\n$$\\boxed{\\text{Option C}}$$"
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64/q112-sol.png"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "78"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which from following formulae is used to obtain value of $E_{\\text{cell}}^\\circ$ for a reaction taking place in Dry cell?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$-\\frac{\\Delta G^\\circ}{F}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$-\\frac{\\Delta G^\\circ}{2F}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$-\\frac{\\Delta G^\\circ}{3F}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$-\\frac{\\Delta G^\\circ}{4F}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The relationship between standard Gibbs free energy change and standard cell potential is:\n\n$$\\Delta G^\\circ = -nF E_{\\text{cell}}^\\circ$$\n\nRearranging:\n\n$$E_{\\text{cell}}^\\circ = -\\frac{\\Delta G^\\circ}{nF}$$\n\nIn a dry cell (Leclanché cell), the overall cell reaction involves the transfer of 2 electrons. Therefore, $n = 2$.\n\nThus the correct formula is:\n\n$$E_{\\text{cell}}^\\circ = -\\frac{\\Delta G^\\circ}{2F}$$\n\nThis corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

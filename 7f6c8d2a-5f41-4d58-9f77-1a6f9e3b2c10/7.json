@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "7"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "For the following reaction, the particle '$x$' is $$^{11}_{6}C \\rightarrow ^{11}_{5}B + \\beta + X$$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "proton"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "neutrino"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "anti neutrino"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "neutron"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The given reaction shows carbon-11 decaying to boron-11 with emission of a beta particle and particle X. The atomic number decreases from 6 to 5, which indicates β⁺ (positron) emission. In β⁺ decay, a proton is converted into a neutron, emitting a positron (β⁺) and a neutrino (ν). Therefore, particle X is a neutrino. Hence, the correct option is B: neutrino."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

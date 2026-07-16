@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "59"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Select false statement from the following regarding electrochemical cell."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Standard cell potential of electrochemical cell is an intensive property."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Electrode potential depends on concentration of salt solution in contact with electrode."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Standard free energy change of cell is an intensive property."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Electrical work done in galvanic cell is equal to decrease in Gibbs energy."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let us analyse each statement:\n\nOption A: \"Standard cell potential of electrochemical cell is an intensive property.\"\n\nIntensive properties do not depend on the amount of the substance. Standard cell potential (E°cell) is indeed intensive.\n\nOption B: \"Electrode potential depends on concentration of salt solution in contact with electrode.\"\n\nElectrode potential does depend on the concentration (see Nernst equation), so this statement is true.\n\nOption C: \"Standard free energy change of cell is an intensive property.\"\n\nStandard free energy change (ΔG°) depends on the number of moles of electrons (n), as\n\nΔG° = -nFE°cell\n\nSo, ΔG° is an extensive property, not intensive.\n\nOption D: \"Electrical work done in galvanic cell is equal to decrease in Gibbs energy.\"\n\nThis is true: Electrical work = -ΔG.\n\nConclusion:\n\nThe false statement is:\n\nOption C\n\nReason: Standard free energy change (ΔG°) is an extensive property, not intensive."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "37"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "An inclined plane makes an angle $30^\\circ$ with the horizontal. A solid sphere rolling down an inclined plane from rest without slipping has linear acceleration ($g = \\text{acceleration due gravity}$) ($\\sin 30^\\circ = 0.5$)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{5g}{7}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{5g}{14}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{2g}{3}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{g}{3}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a solid sphere rolling down an inclined plane without slipping, the linear acceleration is given by:\n\n$$a = \\frac{g \\sin \\theta}{1 + \\frac{I}{mR^2}}$$\n\nFor a solid sphere, moment of inertia $I = \\frac{2}{5} mR^2$, so $\\frac{I}{mR^2} = \\frac{2}{5}$.\n\nThus:\n\n$$a = \\frac{g \\sin \\theta}{1 + \\frac{2}{5}} = \\frac{g \\sin \\theta}{\\frac{7}{5}} = \\frac{5g \\sin \\theta}{7}$$\n\nGiven $\\theta = 30^\\circ$, $\\sin 30^\\circ = \\frac{1}{2}$:\n\n$$a = \\frac{5g \\times \\frac{1}{2}}{7} = \\frac{5g}{14}$$\n\nTherefore, the linear acceleration is $\\frac{5g}{14}$, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

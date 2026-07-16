@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "23"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "An e.m.f. $e = E_0 \\cos \\omega t$ is applied to a circuit containing $L$, $C$ and $R$ in series where $X_L = 3R$ and $X_C = R$. The average power dissipated in the circuit is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{E_0^2}{5R}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{E_0^2}{10R}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{E_0^2}{15R}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{E_0^2}{20R}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Net impedance: $Z = \\sqrt{R^2 + (X_L - X_C)^2} = \\sqrt{R^2 + (3R - R)^2} = \\sqrt{R^2 + 4R^2} = \\sqrt{5}R$.\n\n$E_{\\text{rms}} = \\frac{E_0}{\\sqrt{2}}$, so $I_{\\text{rms}} = \\frac{E_{\\text{rms}}}{Z} = \\frac{E_0 / \\sqrt{2}}{\\sqrt{5}R} = \\frac{E_0}{\\sqrt{10}R}$.\n\nAverage power: $P = I_{\\text{rms}}^2 R = \\left(\\frac{E_0}{\\sqrt{10}R}\\right)^2 R = \\frac{E_0^2 R}{10R^2} = \\frac{E_0^2}{10R}$.\n\nThus the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

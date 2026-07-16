@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "32"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Two bar magnets A and B are geometrically similar but the magnetic moment of A is twice that of B. $T_1$ is the time period of oscillation when their like poles are kept together. When unlike poles are kept together, the time period of oscillation is $T_2$. The ratio $T_1 : T_2$ will be"
+  },
+  "QuestionType": {
+    "S": "MQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1 : 3"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "1 : 2"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "1 : $\\sqrt{3}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\sqrt{3}$ : 1"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let magnetic moment of B be $M_B$. Then magnetic moment of A is $M_A = 2M_B$.\n\nWhen like poles are together, total magnetic moment $M_1 = M_A + M_B = 2M_B + M_B = 3M_B$.\n\nWhen unlike poles are together, total magnetic moment $M_2 = M_A - M_B = 2M_B - M_B = M_B$.\n\nTime period of oscillation for a magnet is $T = 2\\pi \\sqrt{\\frac{I}{M B_H}}$.\n\nThus $\\frac{T_1}{T_2} = \\sqrt{\\frac{M_2}{M_1}} = \\sqrt{\\frac{M_B}{3M_B}} = \\frac{1}{\\sqrt{3}}$.\n\nHence $T_1 : T_2 = 1 : \\sqrt{3}$, which corresponds to option C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

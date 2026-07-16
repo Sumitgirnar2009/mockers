@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "94"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following equations is correct regarding rate of disappearance of reactant and appearance of product for $$\\mathrm{N_2(g) + 3H_2(g) \\rightarrow 2NH_3(g)}$$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{d[\\mathrm{N_2}]}{dt} = \\frac{1}{2} \\frac{d[\\mathrm{N_2}]}{dt}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{1}{2} \\frac{d[\\mathrm{N_2}]}{dt} = \\frac{1}{3} \\frac{d[\\mathrm{H_2}]}{dt}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{d[\\mathrm{NH_3}]}{dt} = 3 \\frac{d[\\mathrm{H_2}]}{dt}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{d[\\mathrm{NH_3}]}{dt} = -2 \\frac{d[\\mathrm{H_2}]}{dt}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For the reaction $\\mathrm{N_2 + 3H_2 \\rightarrow 2NH_3}$, the rate of reaction can be expressed as:\n\n$$\\text{Rate} = -\\frac{d[\\mathrm{N_2}]}{dt} = -\\frac{1}{3} \\frac{d[\\mathrm{H_2}]}{dt} = \\frac{1}{2} \\frac{d[\\mathrm{NH_3}]}{dt}$$\n\nRearranging: $\\frac{1}{2} \\frac{d[\\mathrm{N_2}]}{dt} = \\frac{1}{3} \\frac{d[\\mathrm{H_2}]}{dt}$ (with proper sign consideration). This matches option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

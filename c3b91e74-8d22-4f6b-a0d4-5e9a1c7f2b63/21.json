@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "21"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A force acting on a body of mass 5 kg is $(4\\hat{i} - 2\\hat{j} + 3\\hat{k})$ N. If the body is initially at rest then the magnitude of its velocity at the end of 10 second in m/s will be"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$3\\sqrt{35}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$2\\sqrt{29}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\sqrt{19}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$3\\sqrt{23}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: mass $m = 5$ kg, force $\\vec{F} = 4\\hat{i} - 2\\hat{j} + 3\\hat{k}$ N.\n\nAcceleration: $\\vec{a} = \\frac{\\vec{F}}{m} = \\frac{4}{5}\\hat{i} - \\frac{2}{5}\\hat{j} + \\frac{3}{5}\\hat{k}$.\n\nInitial velocity $\\vec{v}_0 = 0$. Using $\\vec{v} = \\vec{v}_0 + \\vec{a}t$:\n\n$$\\vec{v} = \\left(\\frac{4}{5}\\hat{i} - \\frac{2}{5}\\hat{j} + \\frac{3}{5}\\hat{k}\\right) \\times 10 = 8\\hat{i} - 4\\hat{j} + 6\\hat{k}$$\n\nMagnitude: $|\\vec{v}| = \\sqrt{8^2 + (-4)^2 + 6^2} = \\sqrt{64 + 16 + 36} = \\sqrt{116} = 2\\sqrt{29}$.\n\nThus the correct option is B: $2\\sqrt{29}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

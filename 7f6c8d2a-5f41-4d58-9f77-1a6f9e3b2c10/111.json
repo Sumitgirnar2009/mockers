@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "111"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If the curves $y^2 = 6x$ and $9x^2 + by^2 = 16$ intersect each other at right angles, then the value of $b$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "4"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{7}{2}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "6"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{9}{2}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let the curves intersect at $(x_1, y_1)$.\n\nCurve 1: $y^2 = 6x$. Differentiating: $2y \\frac{dy}{dx} = 6 \\Rightarrow \\frac{dy}{dx} = \\frac{3}{y}$. So $m_1 = \\frac{3}{y_1}$.\n\nCurve 2: $9x^2 + by^2 = 16$. Differentiating: $18x + 2by \\frac{dy}{dx} = 0 \\Rightarrow \\frac{dy}{dx} = -\\frac{9x}{by}$. So $m_2 = -\\frac{9x_1}{by_1}$.\n\nFor orthogonal intersection: $m_1 \\cdot m_2 = -1$.\n\n$$\\frac{3}{y_1} \\cdot \\left(-\\frac{9x_1}{by_1}\\right) = -1$$\n\n$$-\\frac{27x_1}{b y_1^2} = -1 \\Rightarrow \\frac{27x_1}{b y_1^2} = 1 \\Rightarrow 27x_1 = b y_1^2$$\n\nFrom curve 1: $y_1^2 = 6x_1$. Substituting:\n\n$$27x_1 = b (6x_1) \\Rightarrow 27 = 6b \\Rightarrow b = \\frac{27}{6} = \\frac{9}{2}$$\n\nThus the correct option is D: $\\frac{9}{2}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

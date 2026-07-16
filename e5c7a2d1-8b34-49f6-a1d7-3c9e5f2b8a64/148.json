@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "148"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The lines $\\vec{r} = \\vec{a} + \\lambda (\\vec{b} \\times \\vec{c})$ and $\\vec{r} = \\vec{c} + \\lambda (\\vec{a} \\times \\vec{b})$ will intersect if"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\vec{a} \\times \\vec{b} = \\vec{b} \\times \\vec{c}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\vec{a} \\cdot \\vec{b} = \\vec{b} \\cdot \\vec{c}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\vec{a} \\cdot \\vec{c} = |\\vec{b}|^2$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\vec{a} \\times \\vec{b} = \\vec{c} \\times \\vec{a}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The line $\\vec{r} = \\vec{a} + \\lambda (\\vec{b} \\times \\vec{c})$ passes through $\\vec{a}$ and is parallel to $\\vec{b} \\times \\vec{c}$.\n\nThe line $\\vec{r} = \\vec{c} + \\lambda (\\vec{a} \\times \\vec{b})$ passes through $\\vec{c}$ and is parallel to $\\vec{a} \\times \\vec{b}$.\n\nFor intersection, the vectors $\\vec{a} - \\vec{c}$, $\\vec{b} \\times \\vec{c}$, and $\\vec{a} \\times \\vec{b}$ must be coplanar.\n\n$$(\\vec{a} - \\vec{c}) \\cdot [(\\vec{b} \\times \\vec{c}) \\times (\\vec{a} \\times \\vec{b})] = 0$$\n\nUsing vector identity, this simplifies to:\n\n$$(\\vec{a} - \\vec{c}) \\cdot \\vec{b} = 0 \\Rightarrow \\vec{a} \\cdot \\vec{b} = \\vec{b} \\cdot \\vec{c}$$\n\nThus, the lines intersect if $\\vec{a} \\cdot \\vec{b} = \\vec{b} \\cdot \\vec{c}$.\n\nFinal Answer: $$\\boxed{\\vec{a} \\cdot \\vec{b} = \\vec{b} \\cdot \\vec{c}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

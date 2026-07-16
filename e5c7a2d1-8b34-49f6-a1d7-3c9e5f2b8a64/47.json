@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "47"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Two cylinders A and B fitted with pistons contain equal amount of an ideal rigid diatomic gas at 303 K. The piston of cylinder A is free to move and that of cylinder B is held fixed. The same amount heat is given to the gas in each cylinder. If the rise in temperature of the gas in cylinder B is 49 K, then the rise in temperature of the gas in A is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "30 K"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "35 K"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "70 K"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "75 K"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Cylinder A: free piston → constant pressure. Cylinder B: fixed piston → constant volume.\n\nFor a rigid diatomic gas: $C_V = \\frac{5}{2}R$, $C_P = \\frac{7}{2}R$.\n\nHeat supplied to both is same: $Q = nC_V \\Delta T_B = nC_P \\Delta T_A$.\n\n$$\\frac{5}{2}R \\times 49 = \\frac{7}{2}R \\times \\Delta T_A$$\n\nCancel $\\frac{1}{2}R$: $5 \\times 49 = 7 \\times \\Delta T_A$.\n\n$$\\Delta T_A = \\frac{5 \\times 49}{7} = 35 \\text{ K}$$\n\nThus the correct option is B: 35 K."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

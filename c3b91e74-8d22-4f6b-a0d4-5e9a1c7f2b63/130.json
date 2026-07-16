@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "130"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The approximate value of $\\cos(59^\\circ 30')$ is (given $1^\\circ = 0.0175$ rad, $\\sin 60^\\circ = 0.8660$)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "0.5076"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "0.5176"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "0.5256"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "0.5150"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $f(x) = \\cos x$.\n\n$$\\therefore f'(x) = -\\sin x$$\n\nHere, $a = 60^\\circ$ and $h = -\\frac{1}{2}^\\circ = -\\frac{0.0175}{2} = -0.00875$.\n\n$$f(a) = \\cos 60^\\circ = \\frac{1}{2} = 0.5$$\n\n$$f'(a) = -\\sin 60^\\circ = -0.8660$$\n\n$$\\therefore f(a + h) \\approx f(a) + hf'(a)$$\n\n$$\\therefore \\cos(59^\\circ 30') \\approx 0.5 + (-0.00875)(-0.8660)$$\n\n$$\\approx 0.5 + 0.0076$$\n\n$$\\approx 0.5076$$"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

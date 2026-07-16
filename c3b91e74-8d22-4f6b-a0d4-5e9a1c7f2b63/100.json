@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "100"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Calculate the standard enthalpy change of following reaction: $$\\mathrm{C_2H_4(g) + 3O_2(g) \\rightarrow 2CO_2(g) + 2H_2O(l)}$$ If $\\Delta_f H^\\circ (\\mathrm{C_2H_4}) = -52$ kJ mol⁻¹, $\\Delta_f H^\\circ (\\mathrm{CO_2}) = -390$ kJ mol⁻¹, $\\Delta_f H^\\circ (\\mathrm{H_2O}) = -286$ kJ mol⁻¹."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "-650 kJ"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "-1300 kJ"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "-1950 kJ"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "-1500 kJ"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "$\\Delta_r H^\\circ = \\sum \\Delta_f H^\\circ(\\text{products}) - \\sum \\Delta_f H^\\circ(\\text{reactants})$.\n\nProducts: $2\\mathrm{CO_2} + 2\\mathrm{H_2O}$.\n\nReactants: $\\mathrm{C_2H_4} + 3\\mathrm{O_2}$ (oxygen is in standard state, so $\\Delta_f H^\\circ = 0$).\n\n$$\\Delta_r H^\\circ = [2(-390) + 2(-286)] - [(-52) + 3(0)]$$\n\n$$= (-780 - 572) - (-52) = -1352 + 52 = -1300 \\text{ kJ}$$\n\nThus the correct option is B: -1300 kJ."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "23"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If the period of a oscillation of mass 'm' suspended from a spring is 2 s, then the period of suspended mass '4m' with the same spring will be"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1 s"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "3 s"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "2 s"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "4 s"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The time period of a mass-spring system is given by $T = 2\\pi \\sqrt{\\frac{m}{k}}$, where $m$ is the mass and $k$ is the spring constant.\n\nGiven: For mass $m$, $T_1 = 2$ s.\n\nFor mass $4m$, $T_2 = 2\\pi \\sqrt{\\frac{4m}{k}} = 2\\pi \\times 2 \\sqrt{\\frac{m}{k}} = 2 \\times \\left(2\\pi \\sqrt{\\frac{m}{k}}\\right) = 2T_1 = 2 \\times 2 = 4$ s.\n\nThus the correct option is D: 4 s."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

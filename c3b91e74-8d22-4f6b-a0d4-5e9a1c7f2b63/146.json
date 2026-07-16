@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "146"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $u = \\frac{\\tan^{-1}x}{\\tan^{-1}x+1}$ and $v = \\tan^{-1}(\\tan^{-1}x)$ then $\\frac{du}{dv} =$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{1 + (\\tan^{-1}x)^2}{(1 + \\tan^{-1}x)^2}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{\\tan^{-1}x}{(1 + \\tan^{-1}x)^2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{1}{(1 + \\tan^{-1}x)^2}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $f(x) = \\tan^{-1}x \\Rightarrow f'(x) = \\frac{1}{1+x^2}$.\n\n$$u = \\frac{f(x)}{f(x)+1}$$\n\n$$\\frac{du}{dx} = \\frac{(f+1)f' - f \\cdot f'}{(f+1)^2} = \\frac{f'}{(f+1)^2} = \\frac{1}{(1+x^2)(\\tan^{-1}x + 1)^2}$$\n\n$$v = \\tan^{-1}(f(x))$$\n\n$$\\frac{dv}{dx} = \\frac{1}{1 + f^2} \\cdot f' = \\frac{1}{(1+x^2)(1 + (\\tan^{-1}x)^2)}$$\n\n$$\\therefore \\frac{du}{dv} = \\frac{du/dx}{dv/dx} = \\frac{1 + (\\tan^{-1}x)^2}{(1 + \\tan^{-1}x)^2}$$\n\nThus the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

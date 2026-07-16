@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "75"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If compressibility factor of real gas is 1.05 at STP. What is molar volume of real gas?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "22.40 dm³"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "21.33 dm³"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "23.52 dm³"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "23.05 dm³"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Compressibility factor $Z$ is defined as:\n\n$$Z = \\frac{V_{\\text{real}}}{V_{\\text{ideal}}}$$\n\nAt STP, the molar volume of an ideal gas is:\n\n$$V_{\\text{ideal}} = 22.4 \\text{ dm}^3$$\n\nGiven:\n\n$$Z = 1.05$$\n\nSubstitute the values:\n\n$$1.05 = \\frac{V_{\\text{real}}}{22.4}$$\n\n$$V_{\\text{real}} = 1.05 \\times 22.4 = 23.52 \\text{ dm}^3$$\n\nThus the molar volume of the real gas is 23.52 dm³, which corresponds to option C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

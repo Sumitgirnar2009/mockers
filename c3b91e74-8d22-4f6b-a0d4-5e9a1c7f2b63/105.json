@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "105"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A scholarship amount is given by $z = 550x + 300y$ and is to be distributed among $x$ boys and $y$ girls. From the graph given below the maximum amount of scholarship is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63/q105.png"
+  },
+  "Option1Stmt": {
+    "S": "7250"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "9250"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "4250"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "5750"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "At $A(5, 5)$: $z = 550(5) + 300(5) = 2750 + 1500 = 4250$.\n\nAt $B(5, 10)$: $z = 550(5) + 300(10) = 2750 + 3000 = 5750$.\n\nAt $C(11, 4)$: $z = 550(11) + 300(4) = 6050 + 1200 = 7250$.\n\nAt $D(6, 4)$: $z = 550(6) + 300(4) = 3300 + 1200 = 4500$.\n\nThe maximum value is 7250 at point $C(11, 4)$. Hence the correct option is A: 7250."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63/q105-sol.png"
+  }
+}

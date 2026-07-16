@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "35"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The work done by a gas as it is taken in a cyclic process (shown in graph) is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10/q35.png"
+  },
+  "Option1Stmt": {
+    "S": "$2pv$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$-2pv$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$3pv$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$-3pv$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "In a cyclic process, the net work done by the gas is equal to the area enclosed by the cycle on the P-V diagram.\n\nFrom the graph, the cycle is a triangle. The vertices are at:\n\n- Point A: (V, P)\n- Point B: (V, 4P)\n- Point C: (3V, P)\n\nArea of triangle ABC:\n\nBase = (3V - V) = 2V\n\nHeight = (4P - P) = 3P\n\nArea = $\\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2} \\times 2V \\times 3P = 3PV$\n\nThe cycle is clockwise, so work done by the gas is negative. Therefore:\n\n$$W = -3pv$$\n\nThus the correct option is D: $-3pv$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

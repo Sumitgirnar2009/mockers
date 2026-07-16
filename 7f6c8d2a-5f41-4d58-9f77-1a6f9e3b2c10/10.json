@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "10"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A student measures time for 20 oscillations of a simple pendulum as $30 \\, s, \\, 32 \\, s, \\, 35 \\, s$ and $35 \\, s$. If the minimum division in the measuring clock is $1 \\, s$, then correct mean time (in second) is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$(33 \\pm 2)$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$(32 \\pm 3)$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$(33 \\pm 3)$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$(32 \\pm 2)$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given times for 20 oscillations: 30 s, 32 s, 35 s, 35 s.\nMinimum division of clock = 1 s.\n\nMean time:\n$$\\bar{t} = \\frac{30 + 32 + 35 + 35}{4} = \\frac{132}{4} = 33 \\text{ s}$$\n\nAbsolute deviations from mean:\n$|30 - 33| = 3$, $|32 - 33| = 1$, $|35 - 33| = 2$, $|35 - 33| = 2$.\n\nSum of absolute errors = $3 + 1 + 2 + 2 = 8$.\n\nMean absolute error:\n$$\\Delta t = \\frac{8}{4} = 2 \\text{ s}$$\n\nSince mean absolute error (2 s) is greater than the least count (1 s), the error is taken as 2 s.\n\nThus the correct mean time is $(33 \\pm 2)$ s, which corresponds to option A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

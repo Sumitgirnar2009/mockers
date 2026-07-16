@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "3"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The potential difference $(V_A - V_B)$ between the points A and B in the given figure is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10/q3.png"
+  },
+  "Option1Stmt": {
+    "S": "6 V"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "-3 V"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "9 V"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "3 V"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Using Kirchhoff's voltage law from point A to point B:\n\n$$V_A - (2 \\times 2) - 3 - (2 \\times 1) = V_B$$\n\n$$V_A - 4 - 3 - 2 = V_B$$\n\n$$V_A - 9 = V_B$$\n\n$$V_A - V_B = 9 \\text{ V}$$\n\nThus the potential difference $V_A - V_B$ is 9 V, which corresponds to option C."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41/q3-sol.png"
+  }
+}

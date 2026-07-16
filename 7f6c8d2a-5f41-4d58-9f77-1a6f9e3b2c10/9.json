@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "9"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A wire has three different sections as shown in figure. The magnitude of the magnetic field produced at the centre 'O' of the semicircle by three sections together is ($\\mu_0$ = permeability of free space)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10/q9.png"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{\\mu_0 I}{4R}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{\\mu_0 I}{2R}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{\\mu_0 I}{4\\pi R}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{\\mu_0 I}{2\\pi R}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let's analyze each section's contribution to the magnetic field at centre O.\n\n1. Straight segment AB: It passes directly through O. The magnetic field at the centre due to a straight wire passing through the centre is zero because contributions from both sides cancel.\n   $$B_{AB} = 0$$\n\n2. Semicircular section BC: For a semicircular arc of radius R carrying current I, the magnetic field at the centre is:\n   $$B_{BC} = \\frac{\\mu_0 I}{4R}$$\n   Direction is into the page (by right-hand rule).\n\n3. Straight segment CD: Like AB, it also passes through O, so its contribution is zero.\n   $$B_{CD} = 0$$\n\nTotal magnetic field at O:\n$$B_{\\text{total}} = B_{AB} + B_{BC} + B_{CD} = \\frac{\\mu_0 I}{4R}$$\n\nThus, the correct option is A: $\\frac{\\mu_0 I}{4R}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

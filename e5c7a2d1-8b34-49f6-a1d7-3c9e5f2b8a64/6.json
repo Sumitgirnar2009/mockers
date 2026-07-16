@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "6"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In series LCR resonant circuit, $R = 800\\Omega$, $C = 2\\mu F$ and voltage across resistance is 200 V. The angular frequency is 250 rad/s. At resonance, the voltage across the inductance is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "400 V"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "250 V"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "1000 V"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "500 V"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "At resonance, $X_L = X_C = \\frac{1}{\\omega C}$.\n\n$$I = \\frac{V_R}{R} = \\frac{200}{800} = 0.25 \\text{ A}$$\n\n$$V_L = I X_L = I \\cdot \\frac{1}{\\omega C} = 0.25 \\times \\frac{1}{250 \\times 2 \\times 10^{-6}} = 0.25 \\times 2000 = 500 \\text{ V}$$\n\nThus the correct option is D: 500 V."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

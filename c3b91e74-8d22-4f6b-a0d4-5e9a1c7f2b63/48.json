@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "48"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A ray of light of intensity $I$ is incident on a parallel glass slab at a point 'A' as shown in figure. It undergoes partial reflection and refraction. At each reflection 25% of incident energy is reflected. The rays $AB$ and $AB'$ undergo interference. The ratio $\\frac{I_{\\text{max}}}{I_{\\text{min}}}$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63/q48.png"
+  },
+  "Option1Stmt": {
+    "S": "7 : 1"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "49 : 1"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "4 : 1"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "8 : 1"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given that 25% of incident light is reflected at each reflection. Let incident intensity be $I_0$.\n\nAt upper surface A: reflected intensity $I_1 = \\frac{1}{4} I_0$.\n\nTransmitted into slab = $\\frac{3}{4} I_0$.\n\nAt lower surface, 25% of this is reflected back upward:\n\n$$I_2 = \\frac{1}{4} \\times \\frac{3}{4} I_0 = \\frac{3}{16} I_0$$\n\nThis ray again reaches upper surface, where 25% is reflected (transmitted out):\n\n$$I_3 = \\frac{1}{4} \\times \\frac{3}{16} I_0 = \\frac{3}{64} I_0$$\n\nTransmitted out from upper surface:\n\n$$I_{\\text{out}} = \\frac{3}{16} I_0 - \\frac{3}{64} I_0 = \\frac{9}{64} I_0$$\n\nIntensity is proportional to square of amplitude. So amplitudes:\n\n$$A_1 = \\sqrt{I_1} = \\sqrt{\\frac{I_0}{4}} = \\frac{\\sqrt{I_0}}{2}$$\n\n$$A_2 = \\sqrt{I_{\\text{out}}} = \\sqrt{\\frac{9}{64} I_0} = \\frac{3}{8} \\sqrt{I_0}$$\n\nThus,\n\n$$\\frac{I_{\\text{max}}}{I_{\\text{min}}} = \\left( \\frac{A_1 + A_2}{A_1 - A_2} \\right)^2 = \\left( \\frac{\\frac{1}{2} + \\frac{3}{8}}{\\frac{1}{2} - \\frac{3}{8}} \\right)^2 = \\left( \\frac{\\frac{7}{8}}{\\frac{1}{8}} \\right)^2 = 49 : 1$$\n\nHence the correct option is B: 49 : 1."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

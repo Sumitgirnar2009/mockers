@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "120"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The joint equation of the bisectors of the angles between the lines $x = 5$ and $y = 3$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$x^2 - y^2 - 10x + 6y + 16 = 0$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$x^2 + y^2 - 10x - 6y - 16 = 0$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$x^2 + y^2 + 10x + 6y - 16 = 0$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$x^2 + y^2 - 5x - 2y - 7 = 0$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The lines are $x = 5$ (vertical) and $y = 3$ (horizontal). They intersect at $(5, 3)$.\n\nThe angle bisectors of two perpendicular lines make $45^\\circ$ and $135^\\circ$ with the axes. Their slopes are $\\pm 1$.\n\nUsing point-slope form through $(5, 3)$:\n\n$$y - 3 = \\pm (x - 5)$$\n\nSo the two bisectors are:\n\n$$y - 3 = x - 5 \\Rightarrow x - y - 2 = 0$$\n$$y - 3 = -(x - 5) \\Rightarrow x + y - 8 = 0$$\n\nThe joint equation is the product of the two:\n\n$$(x - y - 2)(x + y - 8) = 0$$\n\nExpanding:\n\n$$x^2 + xy - 8x - xy - y^2 + 8y - 2x - 2y + 16 = 0$$\n\n$$x^2 - y^2 - 10x + 6y + 16 = 0$$\n\nFinal Answer: $$\\boxed{x^2 - y^2 - 10x + 6y + 16 = 0}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64/q120-sol.png"
+  }
+}

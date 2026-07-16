@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "110"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "$$\\int \\frac{e^{\\tan^{-1} 2x}}{1 + 4x^2} \\, dx =$$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$4e^{\\tan^{-1} 2x} + c$, where $c$ is the constant of integration"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$e^{\\tan^{-1} 2x} + c$, where $c$ is the constant of integration"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{e^{\\tan^{-1} 2x}}{2} + c$, where $c$ is the constant of integration"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$2e^{\\tan^{-1} 2x} + c$, where $c$ is the constant of integration"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $I = \\int \\frac{e^{\\tan^{-1} 2x}}{1 + 4x^2} \\, dx$.\n\nPut $\\tan^{-1} 2x = t \\Rightarrow \\frac{2}{1+4x^2} dx = dt \\Rightarrow \\frac{dx}{1+4x^2} = \\frac{dt}{2}$.\n\n$$I = \\frac{1}{2} \\int e^t dt = \\frac{e^t}{2} + c = \\frac{e^{\\tan^{-1} 2x}}{2} + c$$\n\nThus the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

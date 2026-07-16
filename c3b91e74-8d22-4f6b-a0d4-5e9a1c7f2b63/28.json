@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "28"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If the length of the potentiometer wire is increased by keeping constant potential difference across the wire, then"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "the null point is obtained at shorter distance."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "the potential gradient is increased."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "the null point is obtained at larger distance."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "there is no change in the null point."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Potential gradient $k = \\frac{V}{L}$. If $L$ increases with constant $V$, $k$ decreases.\n\nFor null point: $\\text{emf} = k \\cdot l$. Since $k$ decreases, to balance the same emf, the balancing length $l$ must increase.\n\nThus the null point is obtained at a larger distance. Hence the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

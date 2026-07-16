@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "150"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The differential equation whose solution represents the family $x^2y = 4e^x + c$, where $c$ is an arbitrary constant, is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$x \\frac{dy}{dx} + xy = 0$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$x^2 \\frac{dy}{dx} + (2x - xy) = 0$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$x \\frac{dy}{dx} + (x - 2)y = 0$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$x^2 \\frac{dy}{dx} + 2xy - 4e^x = 0$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given $x^2y = 4e^x + c$.\n\nDifferentiate both sides with respect to $x$:\n\n$$\\frac{d}{dx}(x^2y) = \\frac{d}{dx}(4e^x + c)$$\n\n$$x^2 \\frac{dy}{dx} + 2xy = 4e^x$$\n\nRearranging:\n\n$$x^2 \\frac{dy}{dx} + 2xy - 4e^x = 0$$\n\nThis matches option D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

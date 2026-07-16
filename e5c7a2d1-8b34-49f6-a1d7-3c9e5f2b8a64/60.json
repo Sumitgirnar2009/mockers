@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "60"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Calculate the work done in following reaction at 27°C. $$\\mathrm{4SO_2(g) + 2O_2(g) \\rightarrow 4SO_3(g)}$$ ($R = 8.314$ J K⁻¹ mol⁻¹)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "4988.4 J"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "2494.2 J"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "1247.1 J"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "3741.3 J"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given reaction:\n\n$$4SO_2(g) + 2O_2(g) \\rightarrow 4SO_3(g)$$\n\n## Step 1: Calculate $\\Delta n_g$ (change in moles of gas):\n\nReactant gas moles: $4(SO_2) + 2(O_2) = 6$\n\nProduct gas moles: $4(SO_3)$\n\nTherefore,\n\n$$\\Delta n_g = \\text{Product gas moles} - \\text{Reactant gas moles} = 4 - 6 = -2$$\n\n## Step 2: Write the formula for work done ($W$) at constant temperature and pressure:\n\nAt constant pressure,\n\n$$W = -P \\Delta V$$\n\nFor gaseous reactions at constant $T$ and $P$,\n\n$$\\Delta V = \\Delta n_g \\cdot RT / P$$\n\nSo,\n\n$$W = -\\Delta n_g \\cdot RT$$\n\n## Step 3: Substitute the values:\n\n$$\\Delta n_g = -2$$\n\n$$R = 8.314 \\, \\text{J K}^{-1} \\, \\text{mol}^{-1}$$\n\n$$T = 27^\\circ \\text{C} = 27 + 273 = 300 \\, \\text{K}$$\n\n$$W = -(2) \\times 8.314 \\times 300$$\n\n$$W = 2 \\times 8.314 \\times 300$$\n\n$$W = 2 \\times 2494.2 = 4988.4 \\, \\text{J}$$\n\n## Final Answer:\n\n$$4988.4 \\, \\text{J}$$"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

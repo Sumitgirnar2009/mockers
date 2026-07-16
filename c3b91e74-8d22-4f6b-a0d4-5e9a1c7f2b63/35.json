@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "35"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Only 4% of the total current in the circuit passes through a galvanometer. If the resistance of the galvanometer is G, then the shunt resistance connected to the galvanometer is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{G}{25}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{G}{24}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$24G$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$25G$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let total current be $I$. Current through galvanometer $I_G = 4\\%$ of $I = \\frac{I}{25}$.\n\nCurrent through shunt $I_S = I - I_G = I - \\frac{I}{25} = \\frac{24I}{25}$.\n\nSince galvanometer and shunt are in parallel, $I_G G = I_S S$.\n\n$$\\frac{I}{25} G = \\frac{24I}{25} S \\Rightarrow G = 24S \\Rightarrow S = \\frac{G}{24}$$\n\nThus the correct option is B: $\\frac{G}{24}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

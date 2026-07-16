@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "18"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In a cyclic process, work done by the system is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "more than the heat given to the system."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "equal to the heat given to the system."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "zero."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "independent of the heat given to the system."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "In a cyclic process, the system returns to its initial state, so change in internal energy $\\Delta U = 0$.\n\nFrom the first law of thermodynamics: $\\Delta U = Q - W \\Rightarrow 0 = Q - W \\Rightarrow Q = W$.\n\nThus work done by the system is equal to the heat given to the system. Hence the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "96"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify a molecule having highest number of lone pair of electrons in valence shell of central atom."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\mathrm{NH_3}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\mathrm{SF_4}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\mathrm{ICl_3}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\mathrm{PCl_3}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Number of lone pairs on central atom:\n\n- $\\mathrm{NH_3}$: N has 1 lone pair.\n- $\\mathrm{SF_4}$: S has 1 lone pair.\n- $\\mathrm{ICl_3}$: I has 2 lone pairs.\n- $\\mathrm{PCl_3}$: P has 1 lone pair.\n\nThus $\\mathrm{ICl_3}$ has the highest number (2) of lone pairs on the central atom, corresponding to option C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

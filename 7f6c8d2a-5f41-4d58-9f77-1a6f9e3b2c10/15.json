@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "15"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In Young's double slit experiment, when light of wavelength 600 nm is used, 18 fringes are observed on the screen. If the wavelength of light is changed to 400 nm, the number of fringes observed on the screen is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "12"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "27"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "22"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "24"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The fringe width is given by $\\beta = \\frac{\\lambda D}{d}$. The total number of fringes that can be observed on a screen of fixed width $L$ is $n = \\frac{L}{\\beta} = \\frac{Ld}{\\lambda D}$. Thus $n \\propto \\frac{1}{\\lambda}$ when $L$, $d$, and $D$ are constant.\n\nLet $n_1 = 18$ for $\\lambda_1 = 600$ nm, and $n_2$ for $\\lambda_2 = 400$ nm.\n\n$$\\frac{n_1}{n_2} = \\frac{\\lambda_2}{\\lambda_1} \\Rightarrow \\frac{18}{n_2} = \\frac{400}{600} = \\frac{2}{3}$$\n\n$$n_2 = 18 \\times \\frac{3}{2} = 27$$\n\nThus the number of fringes observed is 27, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

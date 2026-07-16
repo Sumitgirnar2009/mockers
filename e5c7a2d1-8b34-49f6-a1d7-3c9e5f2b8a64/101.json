@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "101"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If a random variable $X$ follows the Binomial distribution $B(10, p)$ such that $5P(X = 0) = P(X = 1)$, then the value of $\\frac{P(X=5)}{P(X=6)}$ is equal to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{6}{5}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{2}{5}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{12}{5}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{1}{5}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $5P(X = 0) = P(X = 1)$\n\nFor binomial distribution, $P(X = r) = {}^nC_r p^r q^{n-r}$.\n\nHere $n = 10$.\n\n$$5 \\cdot {}^{10}C_0 (p)^0 q^{10} = {}^{10}C_1 p^1 q^9$$\n\n$$5q^{10} = 10p q^9$$\n\n$$5q = 10p \\Rightarrow q = 2p$$\n\nSince $p + q = 1$, we get $p + 2p = 1 \\Rightarrow p = \\frac{1}{3}$, $q = \\frac{2}{3}$.\n\nNow,\n\n$$\\frac{P(X=5)}{P(X=6)} = \\frac{{}^{10}C_5 p^5 q^5}{{}^{10}C_6 p^6 q^4} = \\frac{{}^{10}C_5}{{}^{10}C_6} \\cdot \\frac{q}{p}$$\n\n$$= \\frac{252}{210} \\cdot \\frac{2/3}{1/3} = \\frac{6}{5} \\cdot 2 = \\frac{12}{5}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

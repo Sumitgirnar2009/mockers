@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "2"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "For a perfectly black body, coefficient of emission is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "zero."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "unity."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "less than one (non-zero)."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "infinity."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "A perfectly black body absorbs all incident radiation. According to Kirchhoff's law of radiation, at thermal equilibrium, the ratio of emissive power to absorptive power is constant for all bodies at a given temperature and wavelength. Since a black body has absorptivity equal to 1, its emissivity must also be 1. Hence the coefficient of emission for a perfectly black body is unity. Therefore, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

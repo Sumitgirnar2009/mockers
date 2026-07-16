@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "123"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The value of $2\\tan^{-1}\\frac{1}{2} + \\tan^{-1}\\frac{3}{8}$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\tan^{-1}\\left(\\frac{42}{24}\\right)$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$2\\tan^{-1}\\left(\\frac{42}{24}\\right)$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\tan^{-1}\\left(\\frac{24}{41}\\right)$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\tan^{-1}\\left(\\frac{41}{12}\\right)$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $\\theta = 2\\tan^{-1}\\frac{1}{2} + \\tan^{-1}\\frac{3}{8}$.\n\nStep 1: Use the formula $2\\tan^{-1}x = \\tan^{-1}\\left(\\frac{2x}{1 - x^2}\\right)$.\n\nFor $x = \\frac{1}{2}$:\n\n$$2\\tan^{-1}\\frac{1}{2} = \\tan^{-1}\\left(\\frac{2 \\times \\frac{1}{2}}{1 - \\left(\\frac{1}{2}\\right)^2}\\right) = \\tan^{-1}\\left(\\frac{1}{1 - \\frac{1}{4}}\\right) = \\tan^{-1}\\left(\\frac{1}{\\frac{3}{4}}\\right) = \\tan^{-1}\\left(\\frac{4}{3}\\right)$$\n\nStep 2: Now add $\\tan^{-1}\\frac{3}{8}$:\n\n$$\\theta = \\tan^{-1}\\frac{4}{3} + \\tan^{-1}\\frac{3}{8}$$\n\nUse $\\tan^{-1}A + \\tan^{-1}B = \\tan^{-1}\\left(\\frac{A+B}{1 - AB}\\right)$ (since $AB < 1$):\n\n$$\\theta = \\tan^{-1}\\left(\\frac{\\frac{4}{3} + \\frac{3}{8}}{1 - \\frac{4}{3} \\times \\frac{3}{8}}\\right)$$\n\n$$= \\tan^{-1}\\left(\\frac{\\frac{32 + 9}{24}}{1 - \\frac{12}{24}}\\right) = \\tan^{-1}\\left(\\frac{\\frac{41}{24}}{\\frac{12}{24}}\\right) = \\tan^{-1}\\left(\\frac{41}{12}\\right)$$\n\nFinal Answer: $$\\boxed{\\tan^{-1}\\left(\\frac{41}{12}\\right)}$$\n\nHence, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

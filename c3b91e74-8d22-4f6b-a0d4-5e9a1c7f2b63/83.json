@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "83"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Calculate the molality of nonvolatile solution if solution freezes at $-0.95^\\circ C$ $[K_f$ for water = $1.86$ K mol⁻¹ kg, freezing point of water = $0^\\circ C]$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$0.032$ mol kg⁻¹"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$0.041$ mol kg⁻¹"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$0.51$ mol kg⁻¹"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$0.065$ mol kg⁻¹"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a non-volatile solute, $\\Delta T_f = K_f \\cdot m$.\n\n$\\Delta T_f = 0 - (-0.95) = 0.95$ K.\n\n$m = \\frac{\\Delta T_f}{K_f} = \\frac{0.95}{1.86} \\approx 0.51$ mol kg⁻¹.\n\nThus the correct option is C: 0.51 mol kg⁻¹."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

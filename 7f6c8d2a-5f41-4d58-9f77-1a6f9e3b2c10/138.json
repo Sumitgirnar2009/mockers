@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "138"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $y = x^x + x^{\\frac{1}{x}}$, then $\\frac{dy}{dx}$ is equal to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$x^x (1 + \\log x) + x^{\\frac{1}{x}} \\frac{1}{x^2} (1 - \\log x)$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\left( x^x + x^{\\frac{1}{x}} \\right) \\left[ 1 + \\log x + \\frac{1}{x^2} (1 - \\log x) \\right]$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\left( x^x + x^{\\frac{1}{x}} \\right) \\left[ (1 + \\log x) - \\frac{1}{x^2} (1 - \\log x) \\right]$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$x^x (1 + \\log x) - x^{\\frac{1}{x}} \\frac{1}{x^2} (1 - \\log x)$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $y_1 = x^x$.\n\n$$\\log y_1 = x \\log x$$\n\nDifferentiating: $\\frac{1}{y_1} \\frac{dy_1}{dx} = 1 + \\log x \\Rightarrow \\frac{dy_1}{dx} = x^x (1 + \\log x)$.\n\nLet $y_2 = x^{\\frac{1}{x}}$.\n\n$$\\log y_2 = \\frac{1}{x} \\log x$$\n\nDifferentiating: $\\frac{1}{y_2} \\frac{dy_2}{dx} = -\\frac{1}{x^2} \\log x + \\frac{1}{x} \\cdot \\frac{1}{x} = \\frac{1}{x^2} (1 - \\log x)$.\n\n$$\\frac{dy_2}{dx} = x^{\\frac{1}{x}} \\cdot \\frac{1}{x^2} (1 - \\log x)$$\n\nThus,\n\n$$\\frac{dy}{dx} = \\frac{dy_1}{dx} + \\frac{dy_2}{dx} = x^x (1 + \\log x) + x^{\\frac{1}{x}} \\frac{1}{x^2} (1 - \\log x)$$\n\nThis matches option A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

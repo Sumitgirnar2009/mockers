@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "117"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $$\\int \\frac{3 \\sin x \\cos x}{4 \\sin x + 7} \\, dx = A \\sin x - B \\log(4 \\sin x + 7) + c$$ where $c$ is the constant of integration, then the value of $A + B$ is equal to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{9}{16}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$-\\frac{9}{16}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{33}{16}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$-\\frac{33}{16}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $I = \\int \\frac{3 \\sin x \\cos x}{4 \\sin x + 7} \\, dx$.\n\nPut $4 \\sin x + 7 = u \\Rightarrow \\sin x = \\frac{u - 7}{4}$ and $\\cos x \\, dx = \\frac{du}{4}$.\n\n$$I = \\int \\frac{3 \\cdot \\frac{u-7}{4} \\cdot \\frac{du}{4}}{u} = \\frac{3}{16} \\int \\frac{u - 7}{u} \\, du$$\n\n$$= \\frac{3}{16} \\int \\left( 1 - \\frac{7}{u} \\right) du = \\frac{3}{16} (u - 7 \\log u) + c_1$$\n\n$$= \\frac{3}{16}(4 \\sin x + 7) - \\frac{21}{16} \\log(4 \\sin x + 7) + c_1$$\n\n$$= \\frac{3}{4} \\sin x - \\frac{21}{16} \\log(4 \\sin x + 7) + c$$\n\nComparing with given form: $A = \\frac{3}{4} = \\frac{12}{16}$, $B = \\frac{21}{16}$.\n\n$$A + B = \\frac{12}{16} + \\frac{21}{16} = \\frac{33}{16}$$\n\nFinal Answer: $$\\boxed{\\frac{33}{16}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "34"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "An ideal transformer converts 220 V a.c. to 3.3 kV a.c. to transmit a power of 4.4 kW. If primary coil has 600 turns then alternating current in secondary coil is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{5}{3}$ A"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{1}{4}$ A"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{4}{3}$ A"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{2}{3}$ A"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $V_p = 220$ V, $V_s = 3.3$ kV $= 3300$ V, $P = 4.4$ kW $= 4400$ W.\n\nFor an ideal transformer, power is conserved: $P = V_s I_s$.\n\n$$I_s = \\frac{P}{V_s} = \\frac{4400}{3300} = \\frac{4}{3} \\text{ A}$$\n\nThe number of turns in primary coil is not needed for this calculation.\n\nThus the correct option is C: $\\frac{4}{3}$ A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

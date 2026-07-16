@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "121"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The area of the region bounded by $$\\frac{x^2}{9} + \\frac{y^2}{4} = 1$$ and the line $$\\frac{x}{3} + \\frac{y}{2} = 1$$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{1}{2}(\\pi - 2)$ sq. units"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{3}{2}(\\pi - 2)$ sq. units"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{5}{4}(\\pi - 2)$ sq. units"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{2}{3}(\\pi - 2)$ sq. units"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Required area = A(OACB) - A(△OAB)\n\nGiven equation of ellipse is $\\frac{x^2}{9} + \\frac{y^2}{4} = 1$\n\n$$\\frac{y^2}{4} = 1 - \\frac{x^2}{9}$$\n\n$$y = \\frac{2}{3} \\sqrt{9 - x^2}$$\n\nA(OACB) = $$\\int_0^3 \\frac{2}{3} \\sqrt{9 - x^2} \\, dx$$\n\n$$= \\frac{2}{3} \\left[ \\frac{1}{2} x \\sqrt{9 - x^2} + \\frac{9}{2} \\sin^{-1} \\frac{x}{3} \\right]_0^3$$\n\n$$= \\frac{2}{3} \\left[ \\frac{1}{2} \\cdot 3 \\sqrt{9 - 9} + \\frac{9}{2} \\sin^{-1} 1 - \\frac{1}{2} \\cdot 0 \\sqrt{9 - 0} - \\frac{9}{2} \\sin^{-1} 0 \\right]$$\n\n$$= \\frac{2}{3} \\cdot \\frac{9}{2} \\cdot \\frac{\\pi}{2} = \\frac{3\\pi}{2}$$\n\nA(△OAB) = $$\\frac{1}{2} \\times 3 \\times 2 = 3$$\n\nRequired area = $$\\frac{3\\pi}{2} - 3 = \\frac{3}{2} (\\pi - 2) \\text{ sq. units}$$\n\nAlternate method:\n\nThe area between $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1$ and straight line $\\frac{x}{a} + \\frac{y}{b} = 1$ is $\\frac{1}{4} \\pi ab - \\frac{1}{2} ab$ sq. units.\n\nRequired area = $$\\frac{1}{4} \\pi (3)(2) - \\frac{1}{2} (3)(2) = \\frac{3}{2} (\\pi - 2) \\text{ sq. units}$$\n\nHence the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10/q121-sol.png"
+  }
+}

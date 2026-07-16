@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "122"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $$f(x) = \\begin{cases} mx + 1, & x \\leq \\frac{\\pi}{2}, \\\\ \\sin x + n, & x > \\frac{\\pi}{2}, \\end{cases}$$ is continuous at $x = \\frac{\\pi}{2}$, ($m, n \\in \\mathbb{Z}$) then"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$m = 1, n = 0$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$m = \\frac{n\\pi}{2}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$m = n = \\frac{\\pi}{2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$n = \\frac{m\\pi}{2}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For $f(x)$ to be continuous at $x = \\frac{\\pi}{2}$, we must have:\n\n$$\\lim_{x \\to \\frac{\\pi}{2}^-} f(x) = \\lim_{x \\to \\frac{\\pi}{2}^+} f(x)$$\n\n$$\\lim_{x \\to \\frac{\\pi}{2}^-} (mx + 1) = \\lim_{x \\to \\frac{\\pi}{2}^+} (\\sin x + n)$$\n\n$$m \\cdot \\frac{\\pi}{2} + 1 = \\sin \\frac{\\pi}{2} + n$$\n\n$$\\frac{m\\pi}{2} + 1 = 1 + n$$\n\n$$\\frac{m\\pi}{2} = n$$\n\nThus $n = \\frac{m\\pi}{2}$, which corresponds to option D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

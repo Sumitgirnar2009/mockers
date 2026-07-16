@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "42"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The frequency of a stretched uniform wire of length $L$ under tension is in resonance with the fundamental frequency of a closed pipe of same length. If the tension in the wire is increased by 8 N, it is in resonance with the first overtone of the same closed pipe. The initial tension in the wire is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "4 N"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{1}{2}$ N"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "2 N"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "1 N"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Fundamental frequency of a stretched wire: $f = \\frac{1}{2L} \\sqrt{\\frac{T}{\\mu}}$.\n\nFundamental frequency of a closed pipe: $f_0 = \\frac{v}{4L}$.\n\nFirst overtone of closed pipe: $f_1 = \\frac{3v}{4L} = 3f_0$.\n\nInitially, wire resonates with closed pipe fundamental: $\\frac{1}{2L} \\sqrt{\\frac{T}{\\mu}} = \\frac{v}{4L}$.\n\nAfter tension increased by 8 N: $\\frac{1}{2L} \\sqrt{\\frac{T+8}{\\mu}} = 3 \\times \\frac{v}{4L}$.\n\nDivide the two equations:\n\n$$\\frac{\\sqrt{T+8}}{\\sqrt{T}} = 3 \\Rightarrow \\frac{T+8}{T} = 9 \\Rightarrow T+8 = 9T \\Rightarrow 8T = 8 \\Rightarrow T = 1 \\text{ N}.$$\n\nThus the correct option is D: 1 N."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

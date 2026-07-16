@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "4"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which one of the following person is in an inertial frame of reference?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "A person (man) in a train which is slowing down to stop."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "A person (child) revolving in a merry-go-round."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "A person (driver) in a bus which is moving with constant velocity."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "A person (pilot) in an aeroplane which is taking off."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "An inertial frame of reference is one that is either at rest or moving with constant velocity (zero acceleration). Among the given options:\n- Option A: Train slowing down → deceleration (non-inertial).\n- Option B: Merry-go-round revolving → centripetal acceleration (non-inertial).\n- Option C: Bus moving with constant velocity → zero acceleration (inertial).\n- Option D: Aeroplane taking off → accelerating (non-inertial).\n\nThus, the correct answer is option C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

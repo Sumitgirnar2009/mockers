@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "147"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The minimum distance and maximum distance of the point $P(2, -7)$ from the circle $x^2 + y^2 - 14x - 10y - 151 = 0$ are respectively ______ units"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "2, 28"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "5, 25"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "6, 24"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "3, 27"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Rewrite the circle equation in standard form.\n\n$x^2 + y^2 - 14x - 10y - 151 = 0$\n\nComplete the square:\n$(x^2 - 14x) + (y^2 - 10y) = 151$\n$(x - 7)^2 - 49 + (y - 5)^2 - 25 = 151$\n$(x - 7)^2 + (y - 5)^2 = 225$\n\nSo, centre $C = (7, 5)$ and radius $r = 15$.\n\nStep 2: Find distance of $P(2, -7)$ from centre.\n\n$CP = \\sqrt{(7 - 2)^2 + (5 - (-7))^2} = \\sqrt{25 + 144} = 13$.\n\nSince $13 < 15$, point $P$ lies inside the circle.\n\nStep 3: Minimum distance = $r - CP = 15 - 13 = 2$.\n\nStep 4: Maximum distance = $r + CP = 15 + 13 = 28$.\n\nThus, the minimum and maximum distances are 2 and 28 respectively.\n\nFinal Answer: $$\\boxed{2, 28}$$"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

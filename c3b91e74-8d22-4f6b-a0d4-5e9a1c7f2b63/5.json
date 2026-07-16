@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "5"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A mass attached to a spring performs S.H.M. whose displacement is $x = 3 \\times 10^{-3} \\cos 2\\pi t$ metre. The time taken to obtain maximum speed for the first time is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{1}{12}$ s"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{1}{8}$ s"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{1}{4}$ s"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{1}{2}$ s"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Comparing $x = 3 \\times 10^{-3} \\cos 2\\pi t$ with $x = A \\cos \\omega t$, we get $\\omega = 2\\pi$.\n\nTime period $T = \\frac{2\\pi}{\\omega} = \\frac{2\\pi}{2\\pi} = 1$ s.\n\nThe particle starts from the extreme position (since displacement is maximum at $t=0$).\n\nMaximum speed occurs at the mean position. Starting from extreme position, the time taken to reach the mean position for the first time is $\\frac{T}{4} = \\frac{1}{4}$ s.\n\nThus the correct option is C: $\\frac{1}{4}$ s."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

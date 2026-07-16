@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "22"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A $20\\Omega$ resistance, 10 mH inductance coil and $15\\mu$F capacitor are joined in series. When a suitable frequency alternating current source is joined to this combination, the circuit resonates. If the resistance is made $\\frac{1}{3}$ rd, the resonant frequency"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "remains unchanged."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "is doubled."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "is quadrupled."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "is halved."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "At resonance:\n\n$$X_L = X_C$$\n\n$$\\omega L = \\frac{1}{\\omega C}$$\n\n$$\\omega^2 = \\frac{1}{LC}$$\n\n$$\\omega = \\frac{1}{\\sqrt{LC}}$$\n\nResonant frequency:\n\n$$f = \\frac{\\omega}{2\\pi} = \\frac{1}{2\\pi \\sqrt{LC}}$$\n\nFrom the above expression, we can see that the resonant frequency depends only on the inductance $L$ and the capacitance $C$. It is independent of the resistance $R$.\n\nTherefore, even if the resistance is reduced to one-third of its original value, the resonant frequency remains unchanged.\n\nHence the correct option is A: remains unchanged."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

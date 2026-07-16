@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "104"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The shortest distance between the lines $\\vec{r} = (4\\hat{i} - \\hat{j}) + \\lambda(\\hat{i} + 2\\hat{j} - 3\\hat{k})$ and $\\vec{r} = (\\hat{i} - \\hat{j} + 2\\hat{k}) + \\mu(2\\hat{i} + 4\\hat{j} - 5\\hat{k})$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{1}{\\sqrt{5}}$ units"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{6}{\\sqrt{5}}$ units"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{2}{\\sqrt{5}}$ units"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{3}{\\sqrt{5}}$ units"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Here, $\\vec{a_1} = 4\\hat{i} - \\hat{j}$, $\\vec{b_1} = \\hat{i} + 2\\hat{j} - 3\\hat{k}$.\n\n$\\vec{a_2} = \\hat{i} - \\hat{j} + 2\\hat{k}$, $\\vec{b_2} = 2\\hat{i} + 4\\hat{j} - 5\\hat{k}$.\n\n$\\vec{a_2} - \\vec{a_1} = -3\\hat{i} + 2\\hat{k}$.\n\n$$\\vec{b_1} \\times \\vec{b_2} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & 2 & -3 \\\\ 2 & 4 & -5 \\end{vmatrix} = 2\\hat{i} - \\hat{j}$$\n\n$|\\vec{b_1} \\times \\vec{b_2}| = \\sqrt{4 + 1} = \\sqrt{5}$.\n\nShortest distance $d = \\frac{|(\\vec{a_2} - \\vec{a_1}) \\cdot (\\vec{b_1} \\times \\vec{b_2})|}{|\\vec{b_1} \\times \\vec{b_2}|}$.\n\n$$d = \\frac{|(-3\\hat{i} + 2\\hat{k}) \\cdot (2\\hat{i} - \\hat{j})|}{\\sqrt{5}} = \\frac{|-6|}{\\sqrt{5}} = \\frac{6}{\\sqrt{5}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

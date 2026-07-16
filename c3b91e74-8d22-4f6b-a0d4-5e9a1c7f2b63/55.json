@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "55"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Calculate work done if 1 mole of an ideal gas compressed isothermally and reversibly from 12 dm³ to 6 dm³ at 300 K. $[R = 8.314 \\, \\text{J} \\cdot \\text{K}^{-1} \\cdot \\text{mol}^{-1}]$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1.729 kJ"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "3.458 kJ"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "5.187 kJ"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "6.916 kJ"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $n = 1$ mol, $V_1 = 12$ dm³, $V_2 = 6$ dm³, $T = 300$ K, $R = 8.314$ J K⁻¹ mol⁻¹.\n\nFor isothermal reversible compression:\n\n$$w = -nRT \\ln \\left( \\frac{V_2}{V_1} \\right)$$\n\nSubstitute values:\n\n$$w = -1 \\times 8.314 \\times 300 \\times \\ln \\left( \\frac{6}{12} \\right)$$\n\n$$w = -2494.2 \\times \\ln(0.5) = -2494.2 \\times (-0.6931)$$\n\n$$w = 1728.88 \\text{ J} = 1.729 \\text{ kJ}$$\n\nThus the correct option is A: 1.729 kJ."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

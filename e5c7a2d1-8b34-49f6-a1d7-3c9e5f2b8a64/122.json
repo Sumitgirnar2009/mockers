@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "122"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "$$\\int \\sqrt{x^2 - 6x - 16} \\, dx$$ equals"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\left(\\frac{x-3}{2}\\right)\\sqrt{x^2 - 6x - 16} + \\frac{5}{2}\\log\\left(x-3 + \\sqrt{x^2 - 6x - 16}\\right) + c$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\left(\\frac{x-3}{2}\\right)\\sqrt{x^2 - 6x - 16} - \\frac{25}{2}\\log\\left(x-3 + \\sqrt{x^2 - 6x - 16}\\right) + c$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\left(\\frac{x-3}{2}\\right)\\sqrt{x^2 - 6x - 16} + \\frac{25}{2}\\log\\left(x-3 + \\sqrt{x^2 - 6x - 16}\\right) + c$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\left(\\frac{x-3}{2}\\right)\\sqrt{x^2 - 6x - 16} - \\frac{5}{2}\\log\\left(x-3 + \\sqrt{x^2 - 6x - 16}\\right) + c$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $I = \\int \\sqrt{x^2 - 6x - 16} \\, dx$\n\nComplete the square inside the square root:\n\n$$x^2 - 6x - 16 = (x^2 - 6x + 9) - 9 - 16 = (x - 3)^2 - 25$$\n\nSo,\n$$I = \\int \\sqrt{(x - 3)^2 - 5^2} \\, dx$$\n\nUsing the standard formula: $\\int \\sqrt{u^2 - a^2} \\, du = \\frac{u}{2}\\sqrt{u^2 - a^2} - \\frac{a^2}{2}\\log\\left| u + \\sqrt{u^2 - a^2} \\right| + c$\n\nHere, $u = x - 3$, $a = 5$.\n\n$$I = \\frac{x-3}{2}\\sqrt{(x-3)^2 - 25} - \\frac{25}{2}\\log\\left| x-3 + \\sqrt{(x-3)^2 - 25} \\right| + c$$\n\n$$= \\frac{x-3}{2}\\sqrt{x^2 - 6x - 16} - \\frac{25}{2}\\log\\left| x-3 + \\sqrt{x^2 - 6x - 16} \\right| + c$$\n\nFinal Answer: $$\\boxed{\\frac{x-3}{2}\\sqrt{x^2 - 6x - 16} - \\frac{25}{2}\\log\\left| x-3 + \\sqrt{x^2 - 6x - 16} \\right| + c}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

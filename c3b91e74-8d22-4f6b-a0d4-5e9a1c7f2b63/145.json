@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "145"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A random variable $X$ takes the values 0, 1, 2, 3, ... with probability $$P(X = x) = k(x + 1)\\left(\\frac{1}{5}\\right)^x,$$ where $k$ is a constant. Then $P(X = 0)$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{16}{25}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{7}{25}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{19}{25}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{18}{25}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "$$\\sum_{x=0}^\\infty P(X = x) = 1$$\n\n$$\\Rightarrow \\sum_{x=0}^\\infty k(x+1) \\left( \\frac{1}{5} \\right)^x = 1$$\n\n$$\\Rightarrow k \\left[ 1 + 2 \\left( \\frac{1}{5} \\right) + 3 \\left( \\frac{1}{5} \\right)^2 + 4 \\left( \\frac{1}{5} \\right)^3 + \\cdots \\right] = 1$$\n\nUsing the formula for arithmetico-geometric series:\n\n$$\\sum_{x=0}^\\infty (x+1)r^x = \\frac{1}{(1-r)^2} \\quad \\text{for } |r| < 1$$\n\nHere $r = \\frac{1}{5}$, so the sum = $\\frac{1}{(1 - 1/5)^2} = \\frac{1}{(4/5)^2} = \\frac{25}{16}$.\n\n$$\\Rightarrow k \\cdot \\frac{25}{16} = 1 \\Rightarrow k = \\frac{16}{25}$$\n\n$$\\therefore P(X = 0) = k(0+1)\\left(\\frac{1}{5}\\right)^0 = k = \\frac{16}{25}$$\n\nThus the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

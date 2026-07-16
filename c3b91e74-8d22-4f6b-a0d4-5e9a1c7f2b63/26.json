@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "26"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A parallel plate air capacitor has capacitance $C_P$. It is equally filled with parallel layers of materials of dielectric constants $K_1$ and $K_2$. Now its capacity becomes $C_K$. The ratio $\\frac{C_P}{C_K}$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$K_1 + K_2$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{K_1 + K_2}{K_1 K_2}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{K_1 + K_2}{2 K_1 K_2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{2 K_1 K_2}{K_1 + K_2}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "When two dielectric layers of equal thickness are placed in series between the plates, the equivalent dielectric constant is given by:\n\n$$\\frac{1}{K_{eq}} = \\frac{1}{2K_1} + \\frac{1}{2K_2} = \\frac{K_1 + K_2}{2K_1 K_2}$$\n\n$$K_{eq} = \\frac{2K_1 K_2}{K_1 + K_2}$$\n\nThe new capacitance $C_K = K_{eq} \\cdot C_P = \\frac{2K_1 K_2}{K_1 + K_2} C_P$.\n\nThus $\\frac{C_P}{C_K} = \\frac{K_1 + K_2}{2K_1 K_2}$, which corresponds to option C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "57"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Standard potential ($E^\\circ$) of $\\mathrm{Zn_{(aq)}^{2+}} + 2e^- \\rightarrow \\mathrm{Zn_{(s)}}$ is -0.76 V. \n\nWhat is standard potential of reaction $2\\mathrm{Zn_{(s)}} \\rightarrow 2\\mathrm{Zn_{(aq)}^{2+}} + 4e^-$?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "-1.52 V"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "+1.52 V"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "-0.76 V"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "+0.76 V"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given reduction half-reaction:\n$$\\mathrm{Zn^{2+}} + 2e^- \\rightarrow \\mathrm{Zn}, \\quad E^\\circ = -0.76 \\text{ V}$$\n\nThe oxidation half-reaction (reverse) is:\n$$\\mathrm{Zn} \\rightarrow \\mathrm{Zn^{2+}} + 2e^-$$\n\nFor the reverse reaction, $E^\\circ$ changes sign: $E^\\circ = +0.76$ V.\n\nThe required reaction is simply twice the oxidation half-reaction:\n$$2\\mathrm{Zn} \\rightarrow 2\\mathrm{Zn^{2+}} + 4e^-$$\n\nStandard potential is an intensive property; it does not depend on the number of electrons or stoichiometric coefficients. Therefore, $E^\\circ$ remains $+0.76$ V.\n\nThus the correct option is D: +0.76 V."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

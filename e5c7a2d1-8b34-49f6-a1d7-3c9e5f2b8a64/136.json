@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "136"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The complex numbers $\\sin x + i \\cos 2x$ and $\\cos x - i \\sin 2x$, ($i = \\sqrt{-1}$) are conjugate to each other for"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$x = n\\pi, n \\in \\mathbb{Z}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$x = \\left(n + \\frac{1}{2}\\right)\\pi, n \\in \\mathbb{Z}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$x = (3n - 1)\\pi, n \\in \\mathbb{Z}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "No value of $x$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $z_1 = \\sin x + i \\cos 2x$ and $z_2 = \\cos x - i \\sin 2x$.\n\nFor them to be conjugates, $z_2 = \\overline{z_1}$.\n\n$\\overline{z_1} = \\sin x - i \\cos 2x$.\n\nEquate real and imaginary parts:\n\n$$\\sin x = \\cos x \\quad \\text{and} \\quad -\\cos 2x = -\\sin 2x$$\n\nFrom $\\sin x = \\cos x$: $\\tan x = 1 \\Rightarrow x = n\\pi + \\frac{\\pi}{4}$.\n\nFrom $\\cos 2x = \\sin 2x$: $\\tan 2x = 1 \\Rightarrow 2x = m\\pi + \\frac{\\pi}{4} \\Rightarrow x = \\frac{m\\pi}{2} + \\frac{\\pi}{8}$.\n\nCheck if there exists common solution: $n\\pi + \\frac{\\pi}{4} = \\frac{m\\pi}{2} + \\frac{\\pi}{8}$.\n\nMultiply by 8: $8n\\pi + 2\\pi = 4m\\pi + \\pi \\Rightarrow 8n - 4m = -1$.\n\nLHS is divisible by 4, RHS is -1, which is not divisible by 4. Hence no integer solution.\n\nThus there is no value of $x$ for which the two numbers are conjugates.\n\nFinal Answer: $$\\boxed{\\text{No value of }x}$$\n\nHence, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

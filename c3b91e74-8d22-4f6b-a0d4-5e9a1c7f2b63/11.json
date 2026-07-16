@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "11"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "An element $\\Delta l = \\Delta x \\hat{i}$ is placed at the origin and carries a current of 10 A. The magnitude of magnetic field on the Y axis at a distance of 0.5 m if $\\Delta x = 1$ cm is $\\left(\\frac{\\mu_0}{4\\pi} = 10^{-7} \\text{ SI unit}\\right) (\\sin 90^\\circ = 1)$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$2 \\times 10^{-7} \\text{ T}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$10^{-8} \\text{ T}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$4 \\times 10^{-8} \\text{ T}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$2 \\times 10^{-8} \\text{ T}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $\\Delta l = \\Delta x \\hat{i} = 0.01$ m, $I = 10$ A, $r = 0.5$ m, $\\frac{\\mu_0}{4\\pi} = 10^{-7}$.\n\nUsing Biot-Savart law: $dB = \\frac{\\mu_0}{4\\pi} \\frac{I \\Delta l \\sin \\theta}{r^2}$.\n\nHere $\\theta = 90^\\circ$ (since $\\Delta l$ is along x-axis and point is on y-axis), so $\\sin 90^\\circ = 1$.\n\n$$dB = 10^{-7} \\times \\frac{10 \\times 0.01}{(0.5)^2} = 10^{-7} \\times \\frac{0.1}{0.25} = 10^{-7} \\times 0.4 = 4 \\times 10^{-8} \\text{ T}$$\n\nThus the correct option is C: $4 \\times 10^{-8}$ T."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

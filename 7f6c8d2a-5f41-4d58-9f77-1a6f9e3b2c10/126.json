@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "126"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The value of $$\\int_{-1}^{1} \\left( \\sqrt{1+x+x^2} - \\sqrt{1-x+x^2} \\right) dx$$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "-1"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "1"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "0"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "2"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $f(x) = \\sqrt{1+x+x^2} - \\sqrt{1-x+x^2}$.\n\nThen $f(-x) = \\sqrt{1 - x + x^2} - \\sqrt{1 + x + x^2} = -f(x)$.\n\nThus $f(x)$ is an odd function.\n\nFor an odd function, $\\int_{-a}^{a} f(x) \\, dx = 0$.\n\nTherefore,\n\n$$\\int_{-1}^{1} \\left( \\sqrt{1+x+x^2} - \\sqrt{1-x+x^2} \\right) dx = 0$$\n\nHence the correct option is C: 0."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

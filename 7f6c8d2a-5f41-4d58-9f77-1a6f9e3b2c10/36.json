@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "36"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A conducting sphere of radius 'R' is given a charge '$Q$' uniformly. The electric field and the electric potential at the centre of the sphere are respectively [ $\\varepsilon_0 =$ permittivity of free space]"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "zero and $\\frac{Q}{4\\pi\\varepsilon_0 R}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{Q}{4\\pi\\varepsilon_0 R^2}$ and zero"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{Q}{4\\pi\\varepsilon_0 R}$ \nand \n $\\frac{Q}{4\\pi\\varepsilon_0 R^2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "zero and zero"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a conducting sphere, the entire charge resides on its surface. Inside the conductor (including the centre), the electric field is zero due to electrostatic shielding.\n\n$$E_{\\text{centre}} = 0$$\n\nThe electric potential at any point inside a uniformly charged conducting sphere is constant and equal to the potential at its surface.\n\n$$V_{\\text{centre}} = \\frac{Q}{4\\pi\\varepsilon_0 R}$$\n\nThus the electric field at the centre is zero and the electric potential at the centre is $\\frac{Q}{4\\pi\\varepsilon_0 R}$.\n\nThis matches option A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

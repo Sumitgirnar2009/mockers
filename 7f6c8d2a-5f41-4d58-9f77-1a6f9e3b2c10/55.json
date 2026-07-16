@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "55"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The reaction of propane with bromine in presence of UV light predominantly forms"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1-Bromopropane"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "2-Bromopropane"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "1,2-dibromopropane"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "1,3-dibromopropane"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Propane ($\\mathrm{CH_3CH_2CH_3}$) undergoes free radical substitution with bromine in the presence of UV light. The reaction proceeds via a free radical mechanism. The intermediate radicals formed are:\n- Primary radical ($\\mathrm{CH_3\\overset{\\bullet}{C}HCH_3}$) and\n- Secondary radical ($\\mathrm{CH_3\\overset{\\bullet}{C}HCH_3}$? Actually: \n  - 1° radical: $\\mathrm{CH_2\\overset{\\bullet}{C}HCH_3}$ (less stable)\n  - 2° radical: $\\mathrm{CH_3\\overset{\\bullet}{C}HCH_3}$ (more stable)\n\nThe secondary radical is more stable due to hyperconjugation. Therefore, bromination predominantly occurs at the secondary carbon, forming 2-bromopropane as the major product. Hence the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10/q55-sol.png"
+  }
+}

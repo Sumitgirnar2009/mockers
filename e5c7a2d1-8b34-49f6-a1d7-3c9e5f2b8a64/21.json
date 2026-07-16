@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "21"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The velocity time graph of a body moving in a straight line is shown in figure. The ratio of displacement to distance travelled by the body in time 0 to 8 s is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64/q21.png"
+  },
+  "Option1Stmt": {
+    "S": "$8 : 5$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$3 : 5$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$5 : 9$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$7 : 4$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "From the v-t graph:\n\nA₁ = 3 × 2 = 6 (positive)\nA₂ = 1 × 2 = 2 (negative)\nA₃ = 2 × 2 = 4 (positive)\nA₄ = 1 × 2 = 2 (negative)\nA₅ = 2 × 2 = 4 (positive)\n\nDisplacement = 6 - 2 + 4 - 2 + 4 = 10\n\nDistance = 6 + 2 + 4 + 2 + 4 = 18\n\nRatio = 10 : 18 = 5 : 9\n\nThus the correct option is C: 5 : 9."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64/q21-sol.png"
+  }
+}

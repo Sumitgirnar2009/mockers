@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "78"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Find standard enthalpy of formation of ammonia from following reaction. $$\\mathrm{N_2(g) + 3H_2(g) \\rightarrow 2NH_3(g)}; \\Delta_r H^\\circ = -92.0 \\, \\text{kJ}$$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$-92.0$ kJ mol⁻¹"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$-69.0$ kJ mol⁻¹"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$-46.0$ kJ mol⁻¹"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$-184.0$ kJ mol⁻¹"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given reaction:\n\n$$\\mathrm{N_2(g) + 3H_2(g) \\rightarrow 2NH_3(g)}; \\Delta_r H^\\circ = -92.0 \\, \\text{kJ}$$\n\nStep 1: Definition\n\nThe standard enthalpy of formation ($\\Delta_f H^\\circ$) is the enthalpy change when 1 mole of a compound is formed from its elements in their standard states.\n\nStep 2: According to the reaction\n\nThe above reaction forms 2 moles of ammonia (NH₃) and the enthalpy change is for 2 moles: −92.0 kJ.\n\nStep 3: Find enthalpy for 1 mole\n\n$$\\Delta_f H^\\circ = \\frac{-92.0 \\, \\text{kJ}}{2} = -46.0 \\, \\text{kJ mol}^{-1}$$\n\nStep 4: Final Answer\n\nSo, the standard enthalpy of formation of ammonia is −46.0 kJ mol⁻¹."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

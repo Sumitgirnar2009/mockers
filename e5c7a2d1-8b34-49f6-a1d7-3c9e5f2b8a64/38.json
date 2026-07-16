@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "38"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A simple pendulum has time period $T_1$. The point of suspension is now moved upward according to equation $y = kt^2$ where $k = 1$ m/s². If new time period is $T_2$ then $T_1^2/T_2^2$ will be ($g = 10$ m/s²)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{2}{3}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{5}{6}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{6}{5}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{3}{2}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a simple pendulum, $T_1 = 2\\pi \\sqrt{\\frac{l}{g}}$.\n\nSuspension moves upward with $y = kt^2$, so acceleration $a = \\frac{d^2y}{dt^2} = 2k = 2 \\times 1 = 2$ m/s².\n\nEffective gravity: $g' = g + a = 10 + 2 = 12$ m/s².\n\nNew time period: $T_2 = 2\\pi \\sqrt{\\frac{l}{g'}}$.\n\n$$\\frac{T_1^2}{T_2^2} = \\frac{g'}{g} = \\frac{12}{10} = \\frac{6}{5}$$\n\nThus the correct option is C: $\\frac{6}{5}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

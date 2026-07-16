@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "135"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $A + B = \\frac{\\pi}{2}$ then the maximum value of $\\cos A \\cdot \\cos B$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{1}{\\sqrt{2}}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{1}{2}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$-\\frac{1}{2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$-\\frac{1}{\\sqrt{2}}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given $A + B = \\frac{\\pi}{2}$, so $B = \\frac{\\pi}{2} - A$.\n\n$$\\cos A \\cdot \\cos B = \\cos A \\cdot \\cos \\left(\\frac{\\pi}{2} - A\\right) = \\cos A \\cdot \\sin A$$\n\n$$= \\frac{1}{2} \\cdot 2 \\sin A \\cos A = \\frac{1}{2} \\sin 2A$$\n\nThe maximum value of $\\sin 2A$ is $1$.\n\nThus the maximum value of $\\frac{1}{2} \\sin 2A$ is $\\frac{1}{2}$.\n\nHence the correct option is B: $\\frac{1}{2}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

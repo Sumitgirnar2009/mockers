@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "135"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $y = \\frac{K \\cos^{-1} x}{1 + K \\cos^{-1} x}$ and $t = K \\cos^{-1} x$, then $\\frac{dy}{dt} =$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{1}{1 + K \\cos^{-1} x}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{-1}{1 + K \\cos^{-1} x}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\left( \\frac{1}{1 + K \\cos^{-1} x} \\right)^2$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{-1}{\\left( 1 + K \\cos^{-1} x \\right)^2}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $y = \\frac{t}{1+t}$ where $t = K \\cos^{-1} x$.\n\nDifferentiate $y$ with respect to $t$:\n\n$$\\frac{dy}{dt} = \\frac{(1+t)(1) - t(1)}{(1+t)^2} = \\frac{1}{(1+t)^2}$$\n\nSubstitute $t = K \\cos^{-1} x$ back:\n\n$$\\frac{dy}{dt} = \\frac{1}{\\left(1 + K \\cos^{-1} x\\right)^2}$$\n\nFinal Answer: $$\\boxed{\\left( \\frac{1}{1 + K \\cos^{-1} x} \\right)^2}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

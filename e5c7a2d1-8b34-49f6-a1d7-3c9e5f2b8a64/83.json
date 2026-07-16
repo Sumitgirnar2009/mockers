@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "83"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Calculate the temperature of 0.05 M sucrose solution in Kelvin if the osmotic pressure of the solution is 1.5 atm. ($R = 0.0821 \\, \\text{dm}^3 \\, \\text{atm} \\, \\text{K}^{-1} \\, \\text{mol}^{-1}$)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "370.2"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "375.4"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "380.6"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "365.4"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Osmotic pressure is given by $\\Pi = CRT$.\n\nGiven: $\\Pi = 1.5$ atm, $C = 0.05$ mol L⁻¹, $R = 0.0821$ dm³ atm K⁻¹ mol⁻¹.\n\n$$T = \\frac{\\Pi}{CR} = \\frac{1.5}{0.05 \\times 0.0821}$$\n\n$$= \\frac{1.5}{0.004105} \\approx 365.4 \\text{ K}$$\n\nThus, the correct option is D: 365.4 K."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

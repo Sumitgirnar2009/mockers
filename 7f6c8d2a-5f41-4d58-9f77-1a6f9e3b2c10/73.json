@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "73"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify the product 'X' formed in the following reaction,\n\nSodium ethoxide + Isopropyl chloride ⟶ X + Ethanol + Sodium chloride"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1-Ethoxypropane"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "2-Ethoxypropane"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Propene"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Propane"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Sodium ethoxide (C₂H₅ONa) is a strong base and a good nucleophile. Isopropyl chloride ((CH₃)₂CHCl) is a secondary alkyl halide. In this reaction, sodium ethoxide attacks the carbon bearing the chlorine atom via an SN2 mechanism, displacing chloride and forming an ether. The product is 2-ethoxypropane (isopropyl ethyl ether). The reaction is:\n\n$$\\mathrm{CH_3CH_2ONa + (CH_3)_2CHCl \\rightarrow (CH_3)_2CHOCH_2CH_3 + NaCl}$$\n\nThus the correct product is 2-ethoxypropane, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

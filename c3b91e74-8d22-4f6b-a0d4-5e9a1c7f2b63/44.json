@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "44"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Three concentric charged metallic spherical sheets A, B and C have radii a, b, c potentials $V_A$, $V_B$, $V_C$ and charge densities $+\\sigma$, $-\\sigma$ and $+\\sigma$ respectively. The value of potential $V_A$ is ($\\varepsilon_0 =$ permittivity of free space)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{\\sigma}{\\varepsilon_0} (a + b + c)$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{\\sigma}{\\varepsilon_0} (-a + b - c)$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{\\sigma}{\\varepsilon_0} (a - b + c)$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{\\sigma}{3\\varepsilon_0} (a + b + c)$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Potential at A is the sum of potentials due to all shells at radius a.\n\nPotential due to shell A on itself:\n$$V_{A \\to A} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{Q_A}{a} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{4\\pi a^2 \\sigma}{a} = \\frac{a\\sigma}{\\varepsilon_0}$$\n\nPotential at A due to shell B (radius b, charge density $-\\sigma$):\n$$V_{B \\to A} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{Q_B}{b} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{4\\pi b^2 (-\\sigma)}{b} = -\\frac{b\\sigma}{\\varepsilon_0}$$\n\nPotential at A due to shell C (radius c, charge density $+\\sigma$):\n$$V_{C \\to A} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{Q_C}{c} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{4\\pi c^2 \\sigma}{c} = \\frac{c\\sigma}{\\varepsilon_0}$$\n\nTherefore,\n$$V_A = \\frac{a\\sigma}{\\varepsilon_0} - \\frac{b\\sigma}{\\varepsilon_0} + \\frac{c\\sigma}{\\varepsilon_0} = \\frac{\\sigma}{\\varepsilon_0}(a - b + c)$$\n\nThus the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

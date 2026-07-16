@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "50"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The voltage between the plates of a parallel plate capacitor of capacity $1\\mu F$ is changing at the rate of $4$ V/s. The displacement current in the capacitor is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$4\\mu A$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$3\\mu A$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$1\\mu A$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$6\\mu A$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Displacement current in a capacitor is given by $I_d = C \\frac{dV}{dt}$.\n\nGiven: $C = 1\\mu F = 1 \\times 10^{-6}$ F, $\\frac{dV}{dt} = 4$ V/s.\n\n$$I_d = 1 \\times 10^{-6} \\times 4 = 4 \\times 10^{-6} \\text{ A} = 4\\mu \\text{A}$$\n\nThus the correct option is A: $4\\mu A$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

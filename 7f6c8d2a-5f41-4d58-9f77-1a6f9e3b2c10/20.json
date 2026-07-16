@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "20"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A parallel beam of light is incident normally on a plane surface absorbing 50% of the light and reflecting the rest. If the incident beam carries 90 W of power, the force exerted by it on the surface is ($C = \\text{velocity of light in air} = 3 \\times 10^8 \\, \\text{m/s}$)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$4.5 \\times 10^{-7} \\, \\text{N}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$1.5 \\times 10^{-7} \\, \\text{N}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$3 \\times 10^{-7} \\, \\text{N}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$9 \\times 10^{-7} \\, \\text{N}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: Power of incident light $P = 90$ W. Surface absorbs 50% and reflects 50%. Speed of light $c = 3 \\times 10^8$ m/s.\n\nForce due to absorption:\n$$P_{\\text{abs}} = 0.5 \\times 90 = 45 \\text{ W}$$\n$$F_{\\text{abs}} = \\frac{P_{\\text{abs}}}{c} = \\frac{45}{3 \\times 10^8} = 1.5 \\times 10^{-7} \\text{ N}$$\n\nForce due to reflection (change in momentum is twice that of absorption):\n$$P_{\\text{ref}} = 0.5 \\times 90 = 45 \\text{ W}$$\n$$F_{\\text{ref}} = \\frac{2 P_{\\text{ref}}}{c} = \\frac{2 \\times 45}{3 \\times 10^8} = \\frac{90}{3 \\times 10^8} = 3 \\times 10^{-7} \\text{ N}$$\n\nTotal force:\n$$F_{\\text{total}} = F_{\\text{abs}} + F_{\\text{ref}} = (1.5 + 3) \\times 10^{-7} = 4.5 \\times 10^{-7} \\text{ N}$$\n\nThus the correct option is A: $4.5 \\times 10^{-7}$ N."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

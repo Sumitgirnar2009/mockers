@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "85"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Half life of a first order reaction is 3 minute. What is the time required to reduce the concentration of reactant by 90% of its initial concentration?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "4.12 minute"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "7.32 minute"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "9.97 minute"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "12.05 minute"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a first order reaction, $k = \\frac{0.693}{t_{1/2}} = \\frac{0.693}{3} = 0.231$ min⁻¹.\n\nFor 90% reduction, $[R] = 10\\%$ of $[R]_0 = \\frac{[R]_0}{10}$.\n\nUsing $k = \\frac{2.303}{t} \\log \\left( \\frac{[R]_0}{[R]} \\right)$:\n\n$$0.231 = \\frac{2.303}{t} \\log \\left( \\frac{[R]_0}{[R]_0/10} \\right) = \\frac{2.303}{t} \\log(10)$$\n\n$$0.231 = \\frac{2.303}{t} \\Rightarrow t = \\frac{2.303}{0.231} = 9.97 \\text{ min}$$\n\nThus the correct option is C: 9.97 minute."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

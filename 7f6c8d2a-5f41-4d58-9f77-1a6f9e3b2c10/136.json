@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "136"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The magnitude of a vector which is orthogonal to the vector $\\hat{i} + \\hat{j} + \\hat{k}$ and is coplanar with the vectors $\\hat{i} + \\hat{j} + 2\\hat{k}$ and $\\hat{i} + 2\\hat{j} + \\hat{k}$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\sqrt{2}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$4\\sqrt{2}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "4"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$2\\sqrt{3}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $\\vec{a} = \\hat{i} + \\hat{j} + \\hat{k}$, $\\vec{b} = \\hat{i} + \\hat{j} + 2\\hat{k}$, $\\vec{c} = \\hat{i} + 2\\hat{j} + \\hat{k}$.\n\nA vector orthogonal to $\\vec{a}$ and coplanar with $\\vec{b}$ and $\\vec{c}$ is given by $\\vec{a} \\times (\\vec{b} \\times \\vec{c})$.\n\nUsing vector triple product identity:\n\n$$\\vec{a} \\times (\\vec{b} \\times \\vec{c}) = (\\vec{a} \\cdot \\vec{c})\\vec{b} - (\\vec{a} \\cdot \\vec{b})\\vec{c}$$\n\nCompute dot products:\n\n$\\vec{a} \\cdot \\vec{b} = 1(1) + 1(1) + 1(2) = 1 + 1 + 2 = 4$\n\n$\\vec{a} \\cdot \\vec{c} = 1(1) + 1(2) + 1(1) = 1 + 2 + 1 = 4$\n\nThus:\n\n$$\\vec{a} \\times (\\vec{b} \\times \\vec{c}) = 4(\\hat{i} + \\hat{j} + 2\\hat{k}) - 4(\\hat{i} + 2\\hat{j} + \\hat{k})$$\n\n$$= (4\\hat{i} + 4\\hat{j} + 8\\hat{k}) - (4\\hat{i} + 8\\hat{j} + 4\\hat{k}) = -4\\hat{j} + 4\\hat{k}$$\n\nMagnitude = $\\sqrt{(-4)^2 + (4)^2} = \\sqrt{16 + 16} = \\sqrt{32} = 4\\sqrt{2}$.\n\nThus the correct option is B: $4\\sqrt{2}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

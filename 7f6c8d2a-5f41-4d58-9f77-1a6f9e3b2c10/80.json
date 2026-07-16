@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "80"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Calculate the energy associated with third orbit of He⁺."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$-4.8 \\times 10^{-19}$ J"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$-1.45 \\times 10^{-19}$ J"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$-19.36 \\times 10^{-19}$ J"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$-9.69 \\times 10^{-19}$ J"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a hydrogen-like atom (He⁺, Z = 2), the energy of the nth orbit is given by:\n\n$$E_n = -\\frac{Z^2 R_H}{n^2}$$\n\nwhere $R_H = 2.18 \\times 10^{-18}$ J.\n\nFor n = 3:\n\n$$E_3 = -\\frac{(2)^2 \\times 2.18 \\times 10^{-18}}{(3)^2} = -\\frac{4 \\times 2.18 \\times 10^{-18}}{9}$$\n\n$$= -\\frac{8.72 \\times 10^{-18}}{9} = -0.968 \\times 10^{-18} = -9.68 \\times 10^{-19} \\text{ J}$$\n\nRounding gives $-9.69 \\times 10^{-19}$ J, which corresponds to option D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

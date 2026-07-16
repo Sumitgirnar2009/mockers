@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "142"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "4 red balls and 5 green balls are selected from $n$ balls. If the sum of both the selections is greater than ${}^{n+1}C_4$ then the value of $n$ is equal to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$n > 8$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$n < 8$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$n > 10$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$n > 12$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "4 red balls can be selected from $n$ balls in ${}^nC_4$ ways.\n\n5 green balls can be selected from $n$ balls in ${}^nC_5$ ways.\n\nSum of both selections is greater than ${}^{n+1}C_4$:\n\n$${}^nC_4 + {}^nC_5 > {}^{n+1}C_4$$\n\n$$\\Rightarrow \\frac{n!}{4!(n-4)!} + \\frac{n!}{5!(n-5)!} > \\frac{(n+1)!}{4!(n-3)!}$$\n\n$$\\Rightarrow \\frac{n!}{4!(n-5)!} \\left[ \\frac{1}{n-4} + \\frac{1}{5} \\right] > \\frac{(n+1)n!}{4!(n-3)(n-4)(n-5)!}$$\n\n$$\\Rightarrow \\frac{5 + n - 4}{5(n-4)} > \\frac{n+1}{(n-3)(n-4)}$$\n\n$$\\Rightarrow \\frac{n+1}{5} > \\frac{n+1}{n-3} \\Rightarrow \\frac{1}{5} > \\frac{1}{n-3} \\Rightarrow n-3 > 5 \\Rightarrow n > 8$$\n\nThus the correct option is A: $n > 8$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

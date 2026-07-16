@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "125"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The area of the triangle formed by the lines joining the vertex of the parabola $x^2 = 20y$ to the ends of its latus rectum is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "100 sq. units"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "40 sq. units"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "20 sq. units"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "50 sq. units"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given parabola: $x^2 = 20y$. Comparing with $x^2 = 4ay$, we get $4a = 20 \\Rightarrow a = 5$.\n\nVertex $O = (0, 0)$. Focus $F = (0, 5)$.\n\nLength of latus rectum $= 4a = 20$. Ends of latus rectum are $A(-10, 5)$ and $B(10, 5)$.\n\nThe triangle is formed by vertex $O(0,0)$ and the ends $A$ and $B$ of the latus rectum.\n\nBase $AB = 20$ units, height = perpendicular distance from $O$ to line $AB$ = $5$ units (since $AB$ is horizontal at $y = 5$).\n\nArea = $\\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2} \\times 20 \\times 5 = 50$ sq. units.\n\nThus the correct option is D: 50 sq. units."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10/q125-sol.png"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "51"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Solubility of Ca₃(PO₄)₂ is 'S' mol dm⁻³. Find solubility product."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$S^5$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$108S^5$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$54S^5$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$12S^5$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The dissociation of Ca₃(PO₄)₂ is:\n\n$$\\text{Ca}_3(\\text{PO}_4)_2 \\rightleftharpoons 3\\text{Ca}^{2+} + 2\\text{PO}_4^{3-}$$\n\nLet solubility be $S$ mol dm⁻³. Then:\n\n$$[\\text{Ca}^{2+}] = 3S, \\quad [\\text{PO}_4^{3-}] = 2S$$\n\nSolubility product:\n\n$$K_{sp} = [\\text{Ca}^{2+}]^3 \\times [\\text{PO}_4^{3-}]^2 = (3S)^3 \\times (2S)^2 = 27S^3 \\times 4S^2 = 108S^5$$\n\nThus the correct option is B: $108S^5$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

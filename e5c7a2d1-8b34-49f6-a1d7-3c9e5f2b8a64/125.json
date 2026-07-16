@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "125"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The greatest possible number of points of intersection of 8 distinct straight lines and 4 distinct circles is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "28"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "104"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$^{12}C_2$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$^{4}C_2$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Intersection among 8 straight lines.\n\nAny two straight lines can intersect at most once.\n\n$$\\text{Maximum points} = {}^{8}C_2 = \\frac{8 \\times 7}{2} = 28$$\n\nStep 2: Intersection among 4 circles.\n\nAny two circles can intersect at most in 2 points.\n\nNumber of circle pairs = ${}^{4}C_2 = 6$.\n\n$$\\text{Maximum points} = 2 \\times 6 = 12$$\n\nStep 3: Intersection between 8 lines and 4 circles.\n\nA line and a circle can intersect at most in 2 points.\n\nNumber of line-circle pairs = $8 \\times 4 = 32$.\n\n$$\\text{Maximum points} = 32 \\times 2 = 64$$\n\nStep 4: Total maximum points = $28 + 12 + 64 = 104$.\n\nFinal Answer: $$\\boxed{104}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

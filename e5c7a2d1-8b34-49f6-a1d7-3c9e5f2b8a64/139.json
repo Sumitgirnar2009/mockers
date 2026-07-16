@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "139"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The L.P.P., minimize $z = 30x + 20y$, subject to $x + y \\leq 8$, $x + 2y \\geq 4$, $6x + 4y \\geq 12$, $x \\geq 0$, $y \\geq 0$ has"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64/q139.png"
+  },
+  "Option1Stmt": {
+    "S": "a unique solution"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "infinitely many solutions"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "minimum value at $(4, 0)$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "minimum value at $(8, 0)$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The feasible region is bounded by the constraints. The corner points are:\n\n$A(8,0)$, $B(0,8)$, $F(0,3)$, $G\\left(1, \\frac{3}{2}\\right)$, and $C(4,0)$.\n\nEvaluate $z = 30x + 20y$ at each corner point:\n\n- At $A(8,0)$: $z = 30(8) + 20(0) = 240$\n- At $B(0,8)$: $z = 30(0) + 20(8) = 160$\n- At $F(0,3)$: $z = 30(0) + 20(3) = 60$\n- At $G\\left(1, \\frac{3}{2}\\right)$: $z = 30(1) + 20\\left(\\frac{3}{2}\\right) = 30 + 30 = 60$\n- At $C(4,0)$: $z = 30(4) + 20(0) = 120$\n\nThe minimum value of $z$ is $60$, which occurs at both $F(0,3)$ and $G\\left(1, \\frac{3}{2}\\right)$.\n\nSince the minimum occurs on the line segment joining $F$ and $G$, there are infinitely many optimal solutions.\n\nFinal Answer: $$\\boxed{\\text{infinitely many solutions}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "130"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $$\\int \\frac{2x+3}{(x-1)(x^2+1)} \\, dx = \\log_e \\left\\{ (x-1)^{\\frac{5}{2}} (x^2+1)^a \\right\\} - \\frac{1}{2} \\tan^{-1} x + A$$ where $A$ is an arbitrary constant, then the value of $a$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{5}{4}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$-\\frac{5}{4}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$-\\frac{5}{3}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$-\\frac{5}{6}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let $I = \\int \\frac{2x+3}{(x-1)(x^2+1)} \\, dx$.\n\nUsing partial fractions:\n\n$$\\frac{2x+3}{(x-1)(x^2+1)} = \\frac{A}{x-1} + \\frac{Bx + C}{x^2+1}$$\n\nThen $2x+3 = A(x^2+1) + (Bx+C)(x-1)$.\n\nExpanding: $2x+3 = (A+B)x^2 + (C-B)x + (A-C)$.\n\nComparing coefficients:\n\n$$A + B = 0$$\n$$C - B = 2$$\n$$A - C = 3$$\n\nSolving: From $A = -B$, substitute into $C - B = 2$ and $A - C = 3$.\n\n$A - C = -B - C = 3 \\Rightarrow B + C = -3$.\n\n$C - B = 2$.\n\nAdding: $2C = -1 \\Rightarrow C = -\\frac{1}{2}$. Then $B = C - 2 = -\\frac{1}{2} - 2 = -\\frac{5}{2}$. Then $A = -B = \\frac{5}{2}$.\n\nThus:\n\n$$I = \\frac{5}{2} \\int \\frac{1}{x-1} dx + \\int \\frac{-\\frac{5}{2}x - \\frac{1}{2}}{x^2+1} dx$$\n\n$$= \\frac{5}{2} \\log|x-1| - \\frac{5}{2} \\int \\frac{x}{x^2+1} dx - \\frac{1}{2} \\int \\frac{1}{x^2+1} dx$$\n\n$$= \\frac{5}{2} \\log|x-1| - \\frac{5}{4} \\log(x^2+1) - \\frac{1}{2} \\tan^{-1} x + A$$\n\n$$= \\log(x-1)^{\\frac{5}{2}} - \\frac{5}{4} \\log(x^2+1) - \\frac{1}{2} \\tan^{-1} x + A$$\n\n$$= \\log \\left[ (x-1)^{\\frac{5}{2}} (x^2+1)^{-\\frac{5}{4}} \\right] - \\frac{1}{2} \\tan^{-1} x + A$$\n\nComparing with the given form $\\log_e \\left\\{ (x-1)^{\\frac{5}{2}} (x^2+1)^a \\right\\} - \\frac{1}{2} \\tan^{-1} x + A$, we get $a = -\\frac{5}{4}$.\n\nThus the correct option is B: $-\\frac{5}{4}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

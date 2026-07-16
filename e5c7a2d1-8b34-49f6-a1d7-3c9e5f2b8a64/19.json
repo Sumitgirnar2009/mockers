@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "19"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A liquid drop of volume V is placed on the surface of glass plate. Then another glass plate is placed on it such that liquid forms a thin layer of area A between the surfaces of two plates. To separate the plates a force F has to be applied normal to the surfaces. The surface tension of the liquid is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{FV}{2A}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{FV}{2A^2}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{FV}{A^2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{F}{VA}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Thickness $d = \\frac{V}{A}$. Work done to separate plates = $F \\cdot d$. Increase in surface area = $2A$ (two new surfaces).\n\n$F \\cdot d = T \\cdot 2A \\Rightarrow T = \\frac{F \\cdot d}{2A} = \\frac{F \\cdot (V/A)}{2A} = \\frac{FV}{2A^2}$.\n\nThus the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

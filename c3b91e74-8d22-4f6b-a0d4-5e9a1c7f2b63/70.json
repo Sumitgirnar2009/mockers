@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "70"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which from following gases is adsorbed to greater extent if adsorbent remains same at similar conditions of temperature and pressure?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$O_2$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$SO_2$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$N_2$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$H_2$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Gases having high critical temperature liquify easily and can readily be adsorbed.\n\n$$\\begin{array}{|c|c|}\n\\hline\n\\text{Gas} & \\text{Critical Temperature} \\\\\n\\hline\nO_2 & 154.3 \\text{ K} \\\\\nSO_2 & 430.0 \\text{ K} \\\\\nN_2 & 126.0 \\text{ K} \\\\\nH_2 & 33.2 \\text{ K} \\\\\n\\hline\n\\end{array}$$\n\n$SO_2$ has the highest critical temperature (430 K), so it is adsorbed to the greatest extent. Hence the correct option is B: $SO_2$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

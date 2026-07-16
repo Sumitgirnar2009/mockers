@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "97"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which among the following compounds has lowest boiling point?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$(\\mathrm{C_2H_5})_2\\mathrm{NH}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\mathrm{C_2H_5N(CH_3)_2}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$n-\\mathrm{C_4H_9OH}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\mathrm{C_2H_5COOH}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Boiling point depends on intermolecular forces (hydrogen bonding, van der Waals forces).\n\n- $(\\mathrm{C_2H_5})_2\\mathrm{NH}$ (diethylamine) has hydrogen bonding (N–H).\n- $\\mathrm{C_2H_5N(CH_3)_2}$ (tertiary amine) has no N–H bond, hence no intermolecular hydrogen bonding → lowest boiling point.\n- $n-\\mathrm{C_4H_9OH}$ (butanol) has strong hydrogen bonding (O–H).\n- $\\mathrm{C_2H_5COOH}$ (propanoic acid) has strong hydrogen bonding (dimer formation).\n\nThus the compound with the lowest boiling point is $\\mathrm{C_2H_5N(CH_3)_2}$, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "27"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The change in the internal energy of the mass of gas, when the volume changes from V to 2V at constant pressure P is ($\\gamma = \\frac{C_p}{C_v}$)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{V}{P(\\gamma-1)}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{P}{V(\\gamma-1)}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{PV}{\\gamma+1}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{PV}{\\gamma-1}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Change in internal energy: $\\Delta U = n C_v \\Delta T$.\n\nGiven $\\gamma = \\frac{C_p}{C_v}$ and $C_p - C_v = R$, so $C_v = \\frac{R}{\\gamma-1}$.\n\n$\\Delta U = n \\frac{R}{\\gamma-1} \\Delta T = \\frac{P \\Delta V}{\\gamma-1}$ (since $P \\Delta V = nR \\Delta T$ at constant pressure).\n\n$\\Delta V = 2V - V = V$, so $\\Delta U = \\frac{PV}{\\gamma-1}$.\n\nThus the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

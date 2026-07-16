@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "22"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The length of closed and open pipe is same. The ratio of frequency of $n^{th}$ overtone for closed pipe to that of open pipe is (Neglect end correction)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{(2n+1)}{2(n+1)}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{(n+1)}{(2n+1)}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{(2n-1)}{2(n+1)}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{(n-1)}{2(n+1)}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a closed pipe, the frequency of the $n^{th}$ overtone is $f = (2n+1)\\frac{v}{4L}$.\n\nFor an open pipe, the frequency of the $n^{th}$ overtone is $f' = (n+1)\\frac{v}{2L}$.\n\nThus:\n\n$$\\frac{f}{f'} = \\frac{(2n+1)\\frac{v}{4L}}{(n+1)\\frac{v}{2L}} = \\frac{(2n+1)}{2(n+1)}$$\n\nHence the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

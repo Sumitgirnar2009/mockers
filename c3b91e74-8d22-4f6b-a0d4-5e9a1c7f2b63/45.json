@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "45"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "On a photosensitive material, when frequency of incident radiation is increased by 20%, maximum kinetic energy of emitted photoelectrons increases from 0.4 eV to 0.7 eV. The work function of the material is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "3.5 eV"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "1.1 eV"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "0.48 eV"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "0.22 eV"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Using Einstein's photoelectric equation: $K.E. = hf - \\phi$.\n\nLet original frequency be $f$. New frequency after 20% increase = $1.2f$.\n\nCase 1: $0.4 = hf - \\phi$.\n\nCase 2: $0.7 = h(1.2f) - \\phi = 1.2hf - \\phi$.\n\nSubtract equation 1 from equation 2:\n\n$$0.7 - 0.4 = (1.2hf - \\phi) - (hf - \\phi)$$\n\n$$0.3 = 0.2hf \\Rightarrow hf = 1.5 \\text{ eV}$$\n\nNow from case 1: $\\phi = hf - 0.4 = 1.5 - 0.4 = 1.1$ eV.\n\nThus the correct option is B: 1.1 eV."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

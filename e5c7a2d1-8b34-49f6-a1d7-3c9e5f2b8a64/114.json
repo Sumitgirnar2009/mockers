@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "114"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Let $\\vec{a}, \\vec{b},$ and $\\vec{c}$ be unit vectors. Suppose that $\\vec{a} \\cdot \\vec{b} = \\vec{a} \\cdot \\vec{c} = 0$ and if the angle between $\\vec{b}$ and $\\vec{c}$ is $\\frac{\\pi}{6}$, then $\\vec{a}$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\pm(\\vec{b} \\times \\vec{c})$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\pm\\frac{1}{2}(\\vec{b} \\times \\vec{c})$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\pm 2(\\vec{b} \\times \\vec{c})$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\pm 4(\\vec{b} \\times \\vec{c})$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $\\vec{a} \\cdot \\vec{b} = \\vec{a} \\cdot \\vec{c} = 0$\n\nThis means $\\vec{a}$ is perpendicular to both $\\vec{b}$ and $\\vec{c}$. Therefore, $\\vec{a}$ is parallel to $\\vec{b} \\times \\vec{c}$.\n\nSo, $\\vec{a} = \\pm \\frac{\\vec{b} \\times \\vec{c}}{|\\vec{b} \\times \\vec{c}|}$.\n\nNow, $|\\vec{b} \\times \\vec{c}| = |\\vec{b}| |\\vec{c}| \\sin\\theta = 1 \\cdot 1 \\cdot \\sin\\frac{\\pi}{6} = \\frac{1}{2}$.\n\nThus, $\\vec{a} = \\pm \\frac{\\vec{b} \\times \\vec{c}}{1/2} = \\pm 2(\\vec{b} \\times \\vec{c})$.\n\nFinal Answer: $$\\boxed{\\pm 2(\\vec{b} \\times \\vec{c})}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

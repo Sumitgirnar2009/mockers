@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "62"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which from following cations will form most stable complex with same ligand?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Cu$^{2+}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Co$^{2+}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Mn$^{2+}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Fe$^{2+}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The stability of complexes formed by divalent metal ions with the same ligand follows the Irving-Williams series. According to this order, the stability increases from Mn²⁺ to Cu²⁺, with Cu²⁺ forming the most stable complexes among the first-row transition metals. The general trend is:\n\nCu²⁺ > Ni²⁺ > Co²⁺ > Fe²⁺ > Mn²⁺ > Cd²⁺\n\nThis order arises due to a combination of factors including ionic size, crystal field stabilization energy (CFSE), and the Jahn-Teller effect, which contributes extra stabilization for Cu²⁺ complexes. Among the given options, Cu²⁺ is placed at the highest position in this stability series, so it forms the most stable complex with a given ligand.\n\nThus, the correct option is Cu²⁺."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

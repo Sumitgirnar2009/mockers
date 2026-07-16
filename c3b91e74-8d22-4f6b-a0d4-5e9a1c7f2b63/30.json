@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "30"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In Young's double slit experiment with monochromatic light of wavelength 600 nm, the distance between the slits is $10^{-3}$ m. For changing the fringe width by $3 \\times 10^{-5}$ m:\n\na. the screen is moved away from the slit by 5 cm.\nb. the screen is moved 5 cm towards the slits.\nc. the screen is moved 3 cm towards the slits.\nd. the screen is moved away from the slits by 3 cm."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "both (c) and (d)"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "both (a) and (b)"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "only (a)"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "only (c)"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $\\lambda = 600 \\times 10^{-9}$ m, $d = 10^{-3}$ m.\n\nFringe width $\\beta = \\frac{\\lambda D}{d}$.\n\n$\\Delta \\beta = \\frac{\\lambda}{d} \\Delta D = 3 \\times 10^{-5}$.\n\n$\\Delta D = \\frac{3 \\times 10^{-5} \\times d}{\\lambda} = \\frac{3 \\times 10^{-5} \\times 10^{-3}}{600 \\times 10^{-9}} = \\frac{3 \\times 10^{-8}}{6 \\times 10^{-7}} = 0.05$ m = 5 cm.\n\nSo the screen must be moved by 5 cm (either away or towards). Thus statements (a) and (b) are correct, which corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

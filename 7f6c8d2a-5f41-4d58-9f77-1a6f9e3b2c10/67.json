@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "67"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify the product '$Z$' in the following series of reactions.\n\nEthanol $\\xrightarrow{\\mathrm{SOCl_2, \\Delta}}$ X $\\xrightarrow{\\mathrm{Mg/dry\\ ether}}$ Y $\\xrightarrow{\\mathrm{NH_3}}$ Z"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Ethyl chloride"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Ethyl magnesium chloride"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Ethyl amine"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Ethane"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Ethanol reacts with SOCl₂ to form ethyl chloride (X).\n$$\\mathrm{C_2H_5OH + SOCl_2 \\xrightarrow{\\Delta} C_2H_5Cl + SO_2 + HCl}$$\n\nStep 2: Ethyl chloride reacts with Mg in dry ether to form ethyl magnesium chloride (Grignard reagent, Y).\n$$\\mathrm{C_2H_5Cl + Mg \\xrightarrow{dry\\ ether} C_2H_5MgCl}$$\n\nStep 3: Grignard reagent reacts with ammonia (NH₃) to give ethane (Z) and MgNHCl.\n$$\\mathrm{C_2H_5MgCl + NH_3 \\rightarrow C_2H_6 + MgNHCl}$$\n\nThus the final product Z is ethane, corresponding to option D."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10/q67-sol.png"
+  }
+}

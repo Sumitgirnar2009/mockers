@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "149"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The sum of the degree and order of the differential equation $$\\sqrt{\\frac{d^2y}{dx^2}} = \\sqrt{\\frac{dy}{dx}} - 5$$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "3"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "5"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "7"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The given differential equation is:\n\n$$\\sqrt{\\frac{d^2y}{dx^2}} = \\sqrt{\\frac{dy}{dx}} - 5$$\n\nSquaring both sides does not eliminate the square root completely. To remove radicals, raise both sides to the 10th power:\n\n$$\\left( \\frac{d^2y}{dx^2} \\right)^5 = \\left( \\frac{dy}{dx} - 5 \\right)^2$$\n\nThe order of the differential equation is 2 (highest derivative $\\frac{d^2y}{dx^2}$).\n\nThe degree is the highest power of the highest order derivative, which is 5.\n\nThus, order + degree = $2 + 5 = 7$.\n\nHence the correct option is D: 7."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

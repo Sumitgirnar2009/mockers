@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "68"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which from following functional groups has highest priority order for naming the polyfunctional group compounds?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "-COCl"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "-SO₃H"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "-CHO"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "-OH"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "In IUPAC nomenclature, the priority order of functional groups is:\n\n-COOH > -SO₃H > -COOR > -COCl > -CONH₂ > -CN > -CHO > >C=O > -OH > -NH₂ > -C≡C- > -C=C-\n\nAmong the given options, -SO₃H (sulphonic acid) has the highest priority.\n\nThus, the correct option is B: -SO₃H."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

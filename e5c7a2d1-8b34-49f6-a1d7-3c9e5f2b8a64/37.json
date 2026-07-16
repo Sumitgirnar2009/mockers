@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "37"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "An observer on sea-coast counts 45 waves in one minute. If the wavelength of the waves is 7 m, then the velocity of the waves will be"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "4.75 m/s"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "5.25 m/s"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "7.5 m/s"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "8.65 m/s"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Number of waves counted in 1 minute = 45.\n\nTime = 60 s, so frequency:\n\n$$f = \\frac{45}{60} = 0.75 \\text{ Hz}$$\n\nWavelength $\\lambda = 7$ m.\n\nVelocity $v = f \\lambda = 0.75 \\times 7 = 5.25$ m/s.\n\nThus the correct option is B: 5.25 m/s."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

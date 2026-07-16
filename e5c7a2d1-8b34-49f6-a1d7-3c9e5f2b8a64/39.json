@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "39"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "To manufacture a solenoid of length 'l' and inductance 'L', the length of the thin wire required is (Diameter of the solenoid is very less than length, $\\mu_0$ = permeability of free space)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\left[ \\frac{4\\pi l L}{\\mu_0} \\right]^{1/2}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\left[ \\frac{2\\pi l}{\\mu_0 L} \\right]^{1/2}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\left[ \\frac{4\\pi \\mu_0}{l L} \\right]^{1/2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\left[ \\frac{2\\pi \\mu_0 L}{l} \\right]^{1/2}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a solenoid, inductance is given by $L = \\frac{\\mu_0 N^2 A}{l}$, where $A = \\pi r^2$ is the cross-sectional area and $r$ is the radius.\n\n$$L = \\frac{\\mu_0 N^2 \\pi r^2}{l} \\Rightarrow N = \\sqrt{\\frac{L l}{\\mu_0 \\pi r^2}}$$\n\nLength of wire per turn = circumference $= 2\\pi r$.\n\nTotal length of wire required, $l_w = N \\times 2\\pi r$.\n\n$$l_w = 2\\pi r \\times \\sqrt{\\frac{L l}{\\mu_0 \\pi r^2}} = 2\\pi \\times \\sqrt{\\frac{L l r^2}{\\mu_0 \\pi r^2}} = 2\\pi \\sqrt{\\frac{L l}{\\mu_0 \\pi}}$$\n\n$$= 2\\sqrt{\\pi} \\sqrt{\\frac{L l}{\\mu_0}} = \\sqrt{\\frac{4\\pi L l}{\\mu_0}}$$\n\nThus the length of wire required is $\\sqrt{\\frac{4\\pi l L}{\\mu_0}}$, which corresponds to option A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

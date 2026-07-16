@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "99"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify the correct decreasing order of boiling points for different organic compounds from following."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Carboxylic acids > Amines > Alcohols"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Carboxylic acids > Alcohols > Amines"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Amines > Alcohols > Carboxylic acids"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Alcohols > Amines > Carboxylic acids"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Concept: Boiling points of organic compounds depend on the strength of intermolecular forces, especially hydrogen bonding.\n\n- Carboxylic acids have the strongest hydrogen bonding (they form dimers), giving them the highest boiling points.\n- Alcohols have moderate hydrogen bonding, so their boiling points are lower than carboxylic acids but higher than amines.\n- Amines have weaker hydrogen bonds compared to alcohols and carboxylic acids, so they have the lowest boiling points among the three.\n\nHence, the correct decreasing order is:\n\nCarboxylic acids > Alcohols > Amines\n\nThis corresponds to option B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

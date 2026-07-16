@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "44"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Three spheres, each of mass $m$ and radius $r$ are placed as shown in figure. Consider an axis $YY'$, which is touching two spheres and passing through the diameter of third sphere. The moment of inertia of the system consisting of these three spheres about $YY'$ axis is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64/q44.png"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{7}{5} mr^2$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{2}{5} mr^2$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{16}{5} mr^2$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{mr^2}{2}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Moment of inertia of a solid sphere about its own diameter is $I_{\\text{cm}} = \\frac{2}{5}mr^2$.\n\nStep 2: For the upper sphere (sphere 1): The axis YY' passes through its diameter, so $I_1 = \\frac{2}{5}mr^2$.\n\nStep 3: For each lower sphere (spheres 2 and 3): The axis YY' is tangent to them. Using parallel axis theorem: $I = I_{\\text{cm}} + md^2$, where $d = r$ (distance from centre to tangent axis).\n\n$$I_{\\text{lower}} = \\frac{2}{5}mr^2 + mr^2 = \\frac{7}{5}mr^2$$\n\nStep 4: Total moment of inertia = $I_1 + 2I_{\\text{lower}}$.\n\n$$I_{\\text{total}} = \\frac{2}{5}mr^2 + 2 \\times \\frac{7}{5}mr^2 = \\frac{2}{5}mr^2 + \\frac{14}{5}mr^2 = \\frac{16}{5}mr^2$$\n\nThus the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

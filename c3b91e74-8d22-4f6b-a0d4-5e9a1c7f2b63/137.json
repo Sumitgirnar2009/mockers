@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "137"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $f(x) = \\begin{cases} [x^2] - [-x^2], & x \\neq 3 \\\\ k, & x = 3 \\end{cases}$ is continuous at $x = 3$, then $k =$ where $[\\cdot]$ is greatest integer function"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "0"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "1"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "-1"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Does not exist"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "$$\\lim_{x \\to 3^-} f(x) = \\lim_{x \\to 3^-} ([x^2] - [-x^2]) = 17$$\n\n$$\\lim_{x \\to 3^+} f(x) = \\lim_{x \\to 3^+} ([x^2] - [-x^2]) = 19$$\n\nSince the left-hand limit and right-hand limit are not equal, $\\lim_{x \\to 3} f(x)$ does not exist.\n\nTherefore, the function cannot be made continuous at $x = 3$ for any value of $k$. Hence the correct option is D: Does not exist."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

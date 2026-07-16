@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "107"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following is not a homogeneous function?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$y^2 + 2xy$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$2x - 3y$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\sin\\left(\\frac{y}{x}\\right)$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\cos x + \\sin y$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Definition: A function $f(x, y)$ is said to be homogeneous of degree $n$ if for any real number $k$, $$f(kx, ky) = k^n f(x, y)$$\n\nCheck each option:\n\nOption A: $f(x, y) = y^2 + 2xy$\n$$f(kx, ky) = (ky)^2 + 2(kx)(ky) = k^2 y^2 + 2k^2 xy = k^2(y^2 + 2xy)$$\nHence, homogeneous of degree 2.\n\nOption B: $f(x, y) = 2x - 3y$\n$$f(kx, ky) = 2(kx) - 3(ky) = k(2x - 3y)$$\nHence, homogeneous of degree 1.\n\nOption C: $f(x, y) = \\sin\\left(\\frac{y}{x}\\right)$\n$$f(kx, ky) = \\sin\\left(\\frac{ky}{kx}\\right) = \\sin\\left(\\frac{y}{x}\\right) = f(x, y)$$\nHence, homogeneous of degree 0.\n\nOption D: $f(x, y) = \\cos x + \\sin y$\n$$f(kx, ky) = \\cos(kx) + \\sin(ky)$$\nThis cannot be expressed as $k^n(\\cos x + \\sin y)$ for any value of $n$. Therefore, it is not a homogeneous function.\n\nFinal Answer: $\\boxed{\\text{Option D}}$"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

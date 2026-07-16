@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "15"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "For an ideal gas, the density of the gas is $\\rho_0$ when temperature and pressure of the gas are $T_0$ and $P_0$ respectively. When the temperature of the gas is $2T_0$, its pressure becomes $3P_0$. The new density will be"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{2}{3} \\rho_0$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{3}{4} \\rho_0$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{4}{3} \\rho_0$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{3}{2} \\rho_0$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Using $PV = nRT$ and $\\rho = \\frac{m}{V}$:\n\n$$\\rho \\propto \\frac{P}{T}$$\n\n$$\\rho = \\rho_0 \\times \\frac{P}{P_0} \\times \\frac{T_0}{T} = \\rho_0 \\times \\frac{3P_0}{P_0} \\times \\frac{T_0}{2T_0} = \\frac{3}{2} \\rho_0$$\n\nThus the correct option is D: $\\frac{3}{2} \\rho_0$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

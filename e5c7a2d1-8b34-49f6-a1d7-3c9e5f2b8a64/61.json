@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "61"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following principal of green chemistry suggest use of chemicals made from plant based sources?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Minimisation of steps in process"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Design for degradation"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Use of renewable feed stocks"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Reduce number of derivatives"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The principle of green chemistry that suggests using chemicals derived from plant-based sources is 'Use of renewable feed stocks'. This principle emphasizes that raw materials should ideally be renewable rather than finite. Plant-based sources are renewable because they can be regenerated through agriculture or natural growth, unlike petroleum-based or mineral resources, which are limited and non-renewable.\n\nLet's briefly examine the other options:\n- Minimisation of steps in process: This relates to process efficiency and reducing waste, not to the origin of raw materials.\n- Design for degradation: This focuses on ensuring that chemical products break down into harmless substances after use, not on the source of materials.\n- Reduce number of derivatives: This principle aims to minimize unnecessary chemical transformations that generate waste, again unrelated to the source of feedstocks.\n\nTherefore, the correct answer is Option C: Use of renewable feed stocks."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

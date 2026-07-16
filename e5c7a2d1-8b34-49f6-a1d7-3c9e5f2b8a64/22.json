@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "22"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The length of a potentiometer wire is 'L'. A cell of e.m.f. E is balanced at a length $\\frac{L}{5}$ from the positive end of the wire. If the length of the wire is increased by $\\frac{L}{2}$, the same cell will give balance point at distance 'x'. The value of 'x' is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{5L}{12}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{4L}{15}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{3L}{10}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{2L}{15}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Balance Point for Original Wire\n\nThe balance point for the cell of emf E is at length L/5.\n\nAccording to the potentiometer principle:\n\n$$E = k \\times \\left( \\frac{L}{5} \\right)$$\n\nSo,\n\n$$k = \\frac{E}{L/5} = \\frac{5E}{L}$$\n\nStep 2: Wire Length is Increased\n\nNow, the length of the wire becomes:\n\n$$L' = L + \\frac{L}{2} = \\frac{3L}{2}$$\n\nThe total potential difference (P.D.) across the wire remains the same (since the driver cell is unchanged), so the potential gradient decreases.\n\nLet k' be the new potential gradient:\n\n$$k' = \\frac{\\text{Total P.D.}}{\\text{new length}}$$\n\nBut originally:\n\n$$k = \\frac{\\text{Total P.D.}}{L}$$\n\n$$k' = \\frac{\\text{Total P.D.}}{\\frac{3L}{2}} = \\frac{2}{3} \\times \\frac{\\text{Total P.D.}}{L} = \\frac{2}{3} k$$\n\nStep 3: New Balance Length\n\nLet the new balance length be x:\n\n$$E = k'x$$\n\nBut from before, $E = k \\times \\frac{L}{5}$, so:\n\n$$k'x = k \\frac{L}{5}$$\n\nSubstitute $k' = \\frac{2}{3} k$:\n\n$$\\left( \\frac{2}{3} k \\right) x = k \\frac{L}{5}$$\n\n$$\\frac{2x}{3} = \\frac{L}{5}$$\n\n$$2x = \\frac{3L}{5}$$\n\n$$x = \\frac{3L}{10}$$\n\nFinal answer: The value of x is $\\frac{3L}{10}$. So, Option C is correct."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

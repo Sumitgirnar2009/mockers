@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "e5c7a2d1-8b34-49f6-a1d7-3c9e5f2b8a64"
+  },
+  "questionId": {
+    "S": "124"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "With usual notation, in triangle $ABC$, $m\\angle A = 30^\\circ$ then the value of $$\\left( 1 + \\frac{a}{c} + \\frac{b}{c} \\right) \\left( 1 + \\frac{c}{b} - \\frac{a}{b} \\right)$$ is equal to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{2+\\sqrt{3}}{2}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$2 + \\sqrt{3}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{1+\\sqrt{3}}{2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$1 + \\sqrt{3}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "$$\\left( 1 + \\frac{a}{c} + \\frac{b}{c} \\right) \\left( 1 + \\frac{c}{b} - \\frac{a}{b} \\right)$$\n\n$$= \\left( \\frac{c + a + b}{c} \\right) \\left( \\frac{b + c - a}{b} \\right)$$\n\n$$= \\frac{1}{bc} \\left[ (b + c)^2 - a^2 \\right]$$\n\n$$= \\frac{1}{bc} \\left( b^2 + c^2 + 2bc - a^2 \\right)$$\n\n$$= \\frac{b^2 + c^2 - a^2}{bc} + 2$$\n\n$$= 2 \\left( \\frac{b^2 + c^2 - a^2}{2bc} \\right) + 2$$\n\nUsing cosine rule: $\\cos A = \\frac{b^2 + c^2 - a^2}{2bc}$\n\n$$= 2\\cos A + 2$$\n\nGiven $A = 30^\\circ$, $\\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$:\n\n$$= 2 \\times \\frac{\\sqrt{3}}{2} + 2 = \\sqrt{3} + 2$$\n\nFinal Answer: $$\\boxed{2 + \\sqrt{3}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

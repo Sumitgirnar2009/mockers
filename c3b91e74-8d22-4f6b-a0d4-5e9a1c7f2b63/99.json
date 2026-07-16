@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "99"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Propene on hydroboration followed by oxidation with alkaline peroxide forms."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Tri-n-propylborane"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Tri-isopropylborane"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Propan-1-ol"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Propan-2-ol"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Hydroboration of propene followed by oxidation with alkaline hydrogen peroxide gives propan-1-ol (anti-Markovnikov addition). The reaction proceeds through tri-n-propylborane intermediate.\n\n$$\\mathrm{CH_3CH=CH_2 \\xrightarrow{B_2H_6} (CH_3CH_2CH_2)_3B \\xrightarrow{H_2O_2/OH^-} CH_3CH_2CH_2OH}$$\n\nThus the final product is propan-1-ol, which corresponds to option C."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63/q99-sol.png"
+  }
+}

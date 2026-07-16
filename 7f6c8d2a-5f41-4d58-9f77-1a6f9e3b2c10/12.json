@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10"
+  },
+  "questionId": {
+    "S": "12"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "For a particle moving in a circle with constant angular speed, which of the following statements is 'false'?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "The velocity vector is tangent to the circle."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "The acceleration vector is tangent to the circle."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "The velocity and acceleration vectors are perpendicular to each other."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "The acceleration vector points to the centre of the circle."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "We first recall some basic facts from Uniform Circular Motion (UCM):\n\nThe particle is moving with constant angular speed.\n\nIts velocity is always tangent to the circle.\n\nThe acceleration is called centripetal acceleration, and it always points towards the centre of the circle.\n\nThe acceleration is perpendicular to the velocity.\n\nNow let us check each option:\n\nOption A:\n\n“The velocity vector is tangent to the circle.”\n\n→ This is true.\n\nOption B:\n\n“The acceleration vector is tangent to the circle.”\n\n→ This is false, because acceleration is directed towards the centre, not tangent.\n\nOption C:\n\n“The velocity and acceleration vectors are perpendicular to each other.”\n\n→ This is true.\n\nOption D:\n\n“The acceleration vector points to the centre of the circle.”\n\n→ This is true.\n\nCorrect Answer: Option B"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

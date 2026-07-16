@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "92"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which from following compounds has highest boiling point?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Acetaldehyde"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Propionaldehyde"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Butyraldehyde"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Valeraldehyde"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Boiling point increases with molecular weight due to stronger van der Waals forces.\n\n$$\\begin{array}{|c|c|c|}\n\\hline\n\\text{Compound} & \\text{Formula} & \\text{Boiling point} \\\\\n\\hline\n\\text{Acetaldehyde} & \\mathrm{CH_3CHO} & 21^\\circ\\text{C} \\\\\n\\text{Propionaldehyde} & \\mathrm{CH_3CH_2CHO} & 48^\\circ\\text{C} \\\\\n\\text{Butyraldehyde} & \\mathrm{CH_3(CH_2)_2CHO} & 75^\\circ\\text{C} \\\\\n\\text{Valeraldehyde} & \\mathrm{CH_3(CH_2)_3CHO} & 103^\\circ\\text{C} \\\\\n\\hline\n\\end{array}$$\n\nValeraldehyde has the highest boiling point. Hence the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

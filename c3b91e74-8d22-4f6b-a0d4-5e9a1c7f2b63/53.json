@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "c3b91e74-8d22-4f6b-a0d4-5e9a1c7f2b63"
+  },
+  "questionId": {
+    "S": "53"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify the name of reaction for aryl halide with alkyl halide and sodium metal in dry ether to give substituted aromatic compounds."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Wurtz reaction"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Wurtz-Fittig reaction"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Fittig reaction"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Finkelstein reaction"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The correct answer is Option B: Wurtz-Fittig reaction.\n\nWhen an aryl halide reacts with an alkyl halide in the presence of sodium metal and dry ether, a substituted aromatic compound is formed. This reaction is called the Wurtz-Fittig reaction.\n\nGeneral reaction:\n$$\\text{Aryl halide} + \\text{Alkyl halide} + 2\\text{Na} \\xrightarrow{\\text{dry ether}} \\text{Alkyl arene} + 2\\text{NaX}$$\n\nOther options: Wurtz reaction involves two alkyl halides; Fittig reaction involves only aryl halides; Finkelstein reaction is a halogen exchange reaction."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}
