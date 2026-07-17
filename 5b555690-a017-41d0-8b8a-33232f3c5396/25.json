@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "25"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The number of lines of force originating from a point charge of $2 \\times 8.85 \\times 10^{-9}$ C in a medium of dielectric constant 10 is ($\\varepsilon_0 = 8.85 \\times 10^{-12}$ SI unit)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "100"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "200"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "400"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "2000"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Number of electric lines of force originating from a charge $q$ in a medium is given by: $N = \\frac{q}{\\varepsilon_0 K}$.\n\nGiven: $q = 2 \\times 8.85 \\times 10^{-9}$ C, $K = 10$, $\\varepsilon_0 = 8.85 \\times 10^{-12}$.\n\n$$N = \\frac{2 \\times 8.85 \\times 10^{-9}}{8.85 \\times 10^{-12} \\times 10} = \\frac{2 \\times 10^{-9}}{10^{-12} \\times 10} = \\frac{2 \\times 10^{-9}}{10^{-11}} = 2 \\times 10^{2} = 200$$\n\nFinal Answer: $$\\boxed{200}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

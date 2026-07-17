@@ -17,8 +17,11 @@ import { PaymentService } from '../../../service/payment-service';
 })
 export class MockTestDisplay implements OnInit {
 
-  // Quiz IDs
+  // Quiz IDs MHT CET 2026 15th April Morning Shift
+
   // pcm_fst1_quizId = '37a81c5d-6362-41e4-aaf3-9d925579f538';
+  pcm_fst1_quizId_2026 = '5b555690-a017-41d0-8b8a-33232f3c5396'; // MHT CET 2025 19th April Morning Shift
+
   pcm_fst1_quizId = '9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41'; // MHT CET 2025 19th April Morning Shift
   pcm_fst2_quizId = 'd19e7b35-3f0c-4a92-b8d1-6a4c0f5e8b22'; // MHT CET 2025 19th April Evening Shift
   pcm_fst3_quizId = '7f6c8d2a-5f41-4d58-9f77-1a6f9e3b2c10'; // MHT CET 2025 20th April Morning Shift
@@ -52,6 +55,7 @@ export class MockTestDisplay implements OnInit {
 
   // Quiz Records
   quizRecords: QuizRecord[] = [
+    { quizId: this.pcm_fst1_quizId_2026, quizName: 'MHT CET 2026 15th April Morning Shift', quizType: 'free', isProgress: false, attemptNo: 1 },
     { quizId: this.pcm_fst1_quizId, quizName: 'MHT CET 2025 19th April Morning Shift', quizType: 'free', isProgress: false, attemptNo: 1 },
     { quizId: this.pcm_fst2_quizId, quizName: 'MHT CET 2025 19th April Evening Shift', quizType: 'free', isProgress: false, attemptNo: 1 },
     { quizId: this.pcm_fst3_quizId, quizName: 'MHT CET 2025 20th April Morning Shift', quizType: 'free', isProgress: false, attemptNo: 1 },

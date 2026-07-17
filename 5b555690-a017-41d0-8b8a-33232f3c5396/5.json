@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "5"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Two masses $m_1$ and $m_2$ moving with velocities $V_1$ and $V_2$ in opposite directions collide elastically and after collision $m_1$ and $m_2$ move with velocities $V_2$ and $V_1$ respectively. The ratio $\\frac{m_2}{m_1}$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "0.25"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "0.50"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "0.75"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "1.0"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For an elastic collision, both momentum and kinetic energy are conserved.\n\nLet $m_1$ move with velocity $V_1$ (say, in positive direction) and $m_2$ move with velocity $V_2$ in opposite direction, so its velocity is $-V_2$.\n\nAfter collision, $m_1$ moves with $V_2$ (in opposite direction, so $-V_2$) and $m_2$ moves with $V_1$ (in positive direction).\n\nUsing conservation of momentum:\n\n$$m_1 V_1 - m_2 V_2 = -m_1 V_2 + m_2 V_1$$\n\nRearrange:\n\n$$m_1 V_1 + m_1 V_2 = m_2 V_1 + m_2 V_2$$\n\n$$m_1 (V_1 + V_2) = m_2 (V_1 + V_2)$$\n\n$$m_1 = m_2$$\n\nThus, $\\frac{m_2}{m_1} = 1$.\n\nFinal Answer: $$\\boxed{1.0}$$\n\nHence, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -3,7 +3,7 @@
     "S": "9c4f2e1a-7b6d-4c8a-9a3e-0f5d6a2b8c41"
   },
   "questionId": {
-    "S": "9"
+    "S": "12"
   },
   "CorrectAnswer": {
     "S": "2"
@@ -15,7 +15,7 @@
     "N": "0"
   },
   "QuestionStmt": {
-    "S": "The ratio of angular momentum $L$ of an electron to the magnetic dipole moment $\\overrightarrow{m}_{\\text{orb}}$ is ($m$ is mass of electron, $e$ is charge on electron)"
+    "S": "The ratio of angular momentum $L$ of an electron to the magnetic dipole moment $\\vec{m}_{\\text{orb}}$ is ( $m$ is mass of electron, $e$ is charge on electron)"
   },
   "QuestionType": {
     "S": "MCQSC"
@@ -48,7 +48,7 @@
     "S": "NA"
   },
   "Solution": {
-    "S": "Given:\n\nElectron revolving in circular orbit\nMass of electron = $m$\nCharge of electron = $e$\nOrbital radius = $r$\nVelocity of electron = $v$\n\nStep 1: Angular momentum of electron\n\n$L = mvr$\n\nStep 2: Orbital magnetic dipole moment\n\nCurrent due to electron motion: $I = \\frac{e}{T} = \\frac{ev}{2\\pi r}$\n\nArea of orbit: $A = \\pi r^2$\n\nMagnetic dipole moment: $m_{\\text{orb}} = I \\times A = \\left(\\frac{ev}{2\\pi r}\\right) \\times (\\pi r^2) = \\frac{evr}{2}$\n\nStep 3: Ratio $L / m_{\\text{orb}}$\n\n$\\frac{L}{m_{\\text{orb}}} = \\frac{mvr}{evr/2} = \\frac{mvr \\times 2}{evr} = \\frac{2m}{e}$\n\nFinal answer:\n\nThe ratio of angular momentum to magnetic dipole moment is $\\frac{2m}{e}$\n\nTherefore, the correct option is B."
+    "S": "Angular momentum: $L = mvr$.\n\nCurrent due to electron: $I = \\frac{e}{T} = \\frac{ev}{2\\pi r}$.\n\nOrbital magnetic dipole moment: $m_{\\text{orb}} = I \\times A = \\frac{ev}{2\\pi r} \\times \\pi r^2 = \\frac{evr}{2}$.\n\nRatio: $$\\frac{L}{m_{\\text{orb}}} = \\frac{mvr}{evr/2} = \\frac{2m}{e}$$\n\nThus, the correct option is B."
   },
   "SolutionImg": {
     "S": "NA"

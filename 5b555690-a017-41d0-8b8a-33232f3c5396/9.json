@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "9"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Water rises to a height 3 cm in a capillary tube. If cross-sectional area of capillary tube is reduced to $1/3^{\\text{rd}}$ of its initial area then water will rise to a height of"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$3\\sqrt{3}$ cm"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\sqrt{3}$ cm"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "9 cm"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "3 cm"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Capillary rise: $h \\propto \\frac{1}{r}$.\n\nCross-sectional area $A = \\pi r^2$, so $r \\propto \\sqrt{A}$.\n\nIf $A$ is reduced to $\\frac{1}{3}$, then $r$ becomes $\\frac{1}{\\sqrt{3}}$ of original.\n\nThus $h$ becomes $\\sqrt{3}$ times original.\n\nInitial $h = 3$ cm, so new $h = 3\\sqrt{3}$ cm.\n\nFinal Answer: $$\\boxed{3\\sqrt{3} \\text{ cm}}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

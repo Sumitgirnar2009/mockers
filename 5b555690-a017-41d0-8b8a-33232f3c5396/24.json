@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "24"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The fundamental frequency of sonometer wire is 50 Hz for some length and tension. If the length is increased by 25% by keeping the tension same, then the frequency change of second harmonic is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "increase by 20%"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "decrease by 20%"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "increase by 40%"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "decrease by 40%"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a stretched string, frequency $f \\propto \\frac{1}{L}$ (when tension and $\\mu$ are constant).\n\nLet initial length be $L$. New length $L' = L + 0.25L = 1.25L$.\n\nNew frequency $f' = f \\times \\frac{L}{L'} = 50 \\times \\frac{L}{1.25L} = 50 \\times 0.8 = 40$ Hz.\n\nDecrease in frequency = $50 - 40 = 10$ Hz.\n\nPercentage decrease = $\\frac{10}{50} \\times 100 = 20\\%$.\n\nThe second harmonic also has the same percentage change (since it is just a multiple of the fundamental).\n\nThus, the frequency decreases by 20%.\n\nFinal Answer: $$\\boxed{\\text{decrease by }20\\%}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

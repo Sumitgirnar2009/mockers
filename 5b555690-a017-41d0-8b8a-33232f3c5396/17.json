@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "17"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The average force applied on the walls of a closed container depends on temperature ($T$) as ($T$ is the temperature of an ideal gas)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$T^2$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$T^3$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$T^1$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$T^{-1}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Pressure exerted by an ideal gas: $P = \\frac{1}{3} \\frac{Nm\\langle v^2 \\rangle}{V}$.\n\nAverage kinetic energy per molecule: $\\frac{1}{2} m\\langle v^2 \\rangle = \\frac{3}{2} k_B T$.\n\nThus, $m\\langle v^2 \\rangle = 3k_B T$.\n\nSubstitute: $P = \\frac{1}{3} \\cdot \\frac{N}{V} \\cdot (3k_B T) = \\frac{N}{V} k_B T$.\n\nSo, $P \\propto T$.\n\nForce on walls $F = P \\times A$, where area $A$ is constant.\n\nThus, $F \\propto T^1$.\n\nFinal Answer: $$\\boxed{T^1}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

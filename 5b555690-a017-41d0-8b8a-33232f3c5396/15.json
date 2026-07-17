@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "15"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In thermodynamic isobaric process"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "change in internal energy is zero"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "work done is zero"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "change in internal energy is not zero"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "heat supplied is zero"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "In an isobaric process, pressure is constant. Volume and temperature can change, so internal energy changes (since it depends on temperature). Work done is not zero ($W = P\\Delta V$). Heat is not zero unless it's adiabatic. Thus, the correct statement is that change in internal energy is not zero. Hence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

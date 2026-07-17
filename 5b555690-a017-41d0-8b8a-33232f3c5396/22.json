@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "22"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A pipe open at one end has length 0.8 m. At the open end of the tube a string 0.5 m long is vibrating in its first overtone and resonates with fundamental frequency of pipe. If tension in the string is 50 N, the mass of string is (Neglect end correction) (Speed of sound = 320 m/s)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "2 gram"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "5 gram"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "10 gram"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "20 gram"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a pipe open at one end (closed pipe): fundamental frequency $f = \\frac{v}{4L}$.\n\n$v = 320$ m/s, $L = 0.8$ m.\n\n$$f = \\frac{320}{4 \\times 0.8} = \\frac{320}{3.2} = 100 \\text{ Hz}$$\n\nFor a string of length $l = 0.5$ m vibrating in first overtone (second harmonic): $f = \\frac{1}{l} \\sqrt{\\frac{T}{\\mu}}$.\n\n$T = 50$ N, $\\mu = \\frac{m}{l}$.\n\n$$100 = \\frac{1}{0.5} \\sqrt{\\frac{50}{\\mu}} = 2 \\sqrt{\\frac{50}{\\mu}}$$\n\n$$50 = \\sqrt{\\frac{50}{\\mu}} \\Rightarrow 2500 = \\frac{50}{\\mu} \\Rightarrow \\mu = \\frac{50}{2500} = 0.02 \\text{ kg/m}$$\n\nMass $m = \\mu \\times l = 0.02 \\times 0.5 = 0.01$ kg = 10 g.\n\n"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

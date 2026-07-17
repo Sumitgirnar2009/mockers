@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "14"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "About black body radiation, which one of the following is a WRONG statement?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "For all wavelengths, power radiated is same"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "For shorter wavelengths, radiated power is more"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "for longer wavelengths, radiated power is less"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "All wavelengths are emitted by the black body"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "In black body radiation, the power radiated is not constant across all wavelengths. It follows Planck's distribution, peaking at a certain wavelength and decreasing on either side. Thus, the statement that power radiated is same for all wavelengths is wrong. Hence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

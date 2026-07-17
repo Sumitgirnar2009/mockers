@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "10"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A soap bubble of radius R is blown. After heating the solution, a second bubble of radius 2R is blown. The work required to blow the second bubble in comparison to that required for the first bubble is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "slightly less than 4 times"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "exactly double"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "slightly less than double"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "slightly more than 4 times"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Work done in blowing a soap bubble: $W = 8\\pi R^2 T$.\n\nFor first bubble: $W_1 = 8\\pi R^2 T$.\n\nFor second bubble (radius $2R$), but surface tension decreases due to heating: $T' < T$.\n\n$$W_2 = 8\\pi (2R)^2 T' = 4 \\times (8\\pi R^2 T') = 4W_1 \\times \\frac{T'}{T}$$\n\nSince $T' < T$, $W_2 < 4W_1$.\n\nThus, the work required is slightly less than 4 times the first.\n\nFinal Answer: $$\\boxed{\\text{slightly less than 4 times}}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

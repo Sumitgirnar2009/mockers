@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "6"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The power ($P$) is supplied to rotating body having moment of inertia '$I$' and angular acceleration '$\\alpha$'. Its instantaneous angular velocity is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{I}{P\\alpha}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{\\alpha}{PI}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{P\\alpha}{I}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{P}{I\\alpha}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Torque acting on the body: $\\tau = I \\alpha$.\n\nPower is given by: $P = \\tau \\omega$, where $\\omega$ is the instantaneous angular velocity.\n\nSubstitute $\\tau = I\\alpha$:\n\n$$P = (I\\alpha) \\omega$$\n\n$$\\omega = \\frac{P}{I\\alpha}$$\n\nFinal Answer: $$\\boxed{\\frac{P}{I\\alpha}}$$\n\nHence, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

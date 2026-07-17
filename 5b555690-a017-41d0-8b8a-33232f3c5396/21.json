@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "21"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A wire is under tension of 2 kg wt and a wave is travelling through it with some speed. Tension in the wire is so increased that the wave travels through it with thrice the original speed. The increase in tension is (in kg wt)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "4"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "8"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "16"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "12"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Speed of transverse wave on a stretched string: $v = \\sqrt{\\frac{T}{\\mu}}$.\n\nLet initial tension be $T_1 = 2$ kg wt and initial speed be $v_1$.\n\nGiven final speed $v_2 = 3v_1$.\n\n$$\\frac{v_2}{v_1} = \\sqrt{\\frac{T_2}{T_1}} \\Rightarrow 3 = \\sqrt{\\frac{T_2}{2}}$$\n\n$$9 = \\frac{T_2}{2} \\Rightarrow T_2 = 18 \\text{ kg wt}$$\n\nIncrease in tension = $T_2 - T_1 = 18 - 2 = 16$ kg wt.\n\nFinal Answer: $$\\boxed{16}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

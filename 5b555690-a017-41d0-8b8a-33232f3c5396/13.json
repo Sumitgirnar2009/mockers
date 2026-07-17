@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "13"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A black disc has a radius 'R' and wavelength corresponding to the maximum intensity is '$\\lambda$'. The emissive power (E) for the different radii and maximum wavelengths is directly proportional to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$R, \\lambda$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$R^2, \\lambda^{-4}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$R^2, \\lambda^{-2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$R^2, \\lambda$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Emissive power (E) is the total energy radiated per unit area per unit time. For a black body, E = σT⁴.\n\nStep 2: Total power radiated by the disc = E × surface area = σT⁴ × (2πR²) [considering both faces of the disc].\n\nThus, total power ∝ R² × T⁴.\n\nStep 3: Using Wien's displacement law: λₘₐₓ T = constant ⇒ T ∝ 1/λₘₐₓ.\n\nSo, T⁴ ∝ λₘₐₓ⁻⁴.\n\nStep 4: Therefore, total emissive power ∝ R² × λₘₐₓ⁻⁴.\n\nHence, emissive power is directly proportional to R² and λ⁻⁴.\n\nFinal Answer: $$\\boxed{R^2, \\lambda^{-4}}$$\n\nThus, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "18"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A particle executes linear S.H.M. with amplitude 4 cm. The magnitude of velocity and acceleration is equal when it is at 3 cm from mean position. Time period is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{3\\pi}{\\sqrt{2}}$ s"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{6\\pi}{\\sqrt{7}}$ s"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{2\\pi}{\\sqrt{7}}$ s"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{4\\pi}{\\sqrt{7}}$ s"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: Amplitude $A = 4$ cm, position $x = 3$ cm.\n\nVelocity: $v = \\omega \\sqrt{A^2 - x^2}$.\n\nAcceleration: $a = \\omega^2 x$.\n\nGiven $|v| = |a|$:\n\n$$\\omega \\sqrt{A^2 - x^2} = \\omega^2 x$$\n\n$$\\sqrt{A^2 - x^2} = \\omega x$$\n\n$$\\omega = \\frac{\\sqrt{A^2 - x^2}}{x} = \\frac{\\sqrt{16 - 9}}{3} = \\frac{\\sqrt{7}}{3}$$\n\nTime period $T = \\frac{2\\pi}{\\omega} = \\frac{2\\pi}{\\sqrt{7}/3} = \\frac{6\\pi}{\\sqrt{7}}$ s.\n\nFinal Answer: $$\\boxed{\\frac{6\\pi}{\\sqrt{7}} \\text{ s}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

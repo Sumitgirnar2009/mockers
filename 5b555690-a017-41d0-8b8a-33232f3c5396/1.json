@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "1"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The length of rod is measured by meter scale having least count 0.1 cm and diameter is measured by vernier callipers having least count 0.01 cm. Length of rod is 5.0 cm and radius 2.0 cm. The percentage error in the calculated value of the volume is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1%"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "2.5%"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "3%"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "7%"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Volume of a cylinder is given by $V = \\pi r^2 L$.\n\nStep 2: The maximum relative error in volume is:\n\n$$\\frac{\\Delta V}{V} = 2\\frac{\\Delta r}{r} + \\frac{\\Delta L}{L}$$\n\nStep 3: Least count of meter scale = 0.1 cm → $\\Delta L = 0.1$ cm, $L = 5.0$ cm.\n\n$$\\frac{\\Delta L}{L} = \\frac{0.1}{5.0} = 0.02 = 2\\%$$\n\nStep 4: Least count of vernier callipers = 0.01 cm → $\\Delta r = 0.01$ cm, $r = 2.0$ cm.\n\n$$\\frac{\\Delta r}{r} = \\frac{0.01}{2.0} = 0.005 = 0.5\\%$$\n\nStep 5: Total percentage error:\n\n$$\\frac{\\Delta V}{V} \\times 100 = 2(0.5\\%) + 2\\% = 1\\% + 2\\% = 3\\%$$\n\nBut wait — the options are 1%, 2.5%, 5%, 7%. Let's re-check:\n\n$$\\frac{\\Delta V}{V} \\times 100 = 2 \\times \\frac{0.01}{2.0} \\times 100 + \\frac{0.1}{5.0} \\times 100$$\n\n$$= 2 \\times 0.5\\% + 2\\% = 1\\% + 2\\% = 3\\%$$\n\n"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

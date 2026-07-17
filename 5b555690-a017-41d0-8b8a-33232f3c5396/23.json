@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "23"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A sonometer wire resonates with 4 antinodes between the two bridges for a given tuning fork when 1 kg mass is suspended from the wire. Using same fork, when mass M is suspended, the wire resonates producing 2 antinodes between the two bridges. (Distance between the bridges as before) The value of M is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "2 kg"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "3 kg"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "4 kg"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "5 kg"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a stretched string, frequency $f = \\frac{n}{2L} \\sqrt{\\frac{T}{\\mu}}$, where $n$ is the number of loops (antinodes).\n\nCase 1: $n_1 = 4$, $T_1 = 1$ kg wt.\nCase 2: $n_2 = 2$, $T_2 = M$ kg wt.\n\nSame tuning fork ⇒ $f_1 = f_2$.\n\n$$\\frac{n_1}{2L} \\sqrt{\\frac{T_1}{\\mu}} = \\frac{n_2}{2L} \\sqrt{\\frac{T_2}{\\mu}}$$\n\nCancel $\\frac{1}{2L} \\sqrt{\\frac{1}{\\mu}}$ from both sides:\n\n$$n_1 \\sqrt{T_1} = n_2 \\sqrt{T_2}$$\n\n$$4 \\sqrt{1} = 2 \\sqrt{M}$$\n\n$$4 = 2 \\sqrt{M} \\Rightarrow \\sqrt{M} = 2 \\Rightarrow M = 4$$\n\nThus, the required mass is 4 kg.\n\nFinal Answer: $$\\boxed{4 \\text{ kg}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

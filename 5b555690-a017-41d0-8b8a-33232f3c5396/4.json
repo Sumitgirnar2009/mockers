@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "4"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A particle performing U.C.M. of radius $\\frac{\\pi}{2}$ m makes '$x$' revolutions in time $t$. Its tangential velocity is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{\\pi x}{t}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{\\pi^2 x}{t}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{\\pi}{xt}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{xt}{\\pi}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Tangential velocity $v = r \\omega$.\n\nAngular velocity $\\omega = \\frac{2\\pi \\times \\text{revolutions}}{\\text{time}} = \\frac{2\\pi x}{t}$.\n\nRadius $r = \\frac{\\pi}{2}$.\n\nThus, $v = \\frac{\\pi}{2} \\times \\frac{2\\pi x}{t} = \\frac{\\pi^2 x}{t}$.\n\nFinal Answer: $$\\boxed{\\frac{\\pi^2 x}{t}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

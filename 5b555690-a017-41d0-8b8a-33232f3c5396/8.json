@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "8"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "What should be the angular velocity of earth due to rotation about its own axis so that the weight at equator becomes $\\left(\\frac{3}{5}\\right)^{\\text{th}}$ of initial value? ($g =$ acceleration due to gravity, $R =$ radius of earth)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\left(\\frac{R}{3g}\\right)^{1/2}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\left(\\frac{2g}{5R}\\right)^{1/2}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\left(\\frac{5g}{9R}\\right)^{1/2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\left(\\frac{3g}{2R}\\right)^{1/2}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Weight at equator: $W = mg - mR\\omega^2$.\n\nGiven $W = \\frac{3}{5} mg$.\n\n$$\\frac{3}{5}mg = mg - mR\\omega^2$$\n\n$$mR\\omega^2 = mg - \\frac{3}{5}mg = \\frac{2}{5}mg$$\n\n$$\\omega^2 = \\frac{2g}{5R}$$\n\n$$\\omega = \\sqrt{\\frac{2g}{5R}}$$\n\nFinal Answer: $$\\boxed{\\sqrt{\\frac{2g}{5R}}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

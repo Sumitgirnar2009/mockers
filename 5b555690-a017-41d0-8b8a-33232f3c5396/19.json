@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "19"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A particle starts from mean position and performs S.H.M. with period 6 second. At what time its kinetic energy is 50% of total energy? ($\\cos 45^\\circ = \\frac{1}{\\sqrt{2}}$)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "0.75 s"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "0.50 s"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "0.25 s"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "3 s"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Kinetic energy $K = \\frac{1}{2} m \\omega^2 (A^2 - x^2)$.\n\nTotal energy $E = \\frac{1}{2} m \\omega^2 A^2$.\n\nGiven $K = 0.5E$:\n\n$$\\frac{1}{2} m \\omega^2 (A^2 - x^2) = \\frac{1}{2} \\times \\frac{1}{2} m \\omega^2 A^2$$\n\n$$A^2 - x^2 = \\frac{A^2}{2} \\Rightarrow x^2 = \\frac{A^2}{2} \\Rightarrow x = \\frac{A}{\\sqrt{2}}$$\n\nStarting from mean position ($x = A\\sin\\omega t$):\n\n$$\\frac{A}{\\sqrt{2}} = A \\sin\\omega t \\Rightarrow \\sin\\omega t = \\frac{1}{\\sqrt{2}}$$\n\n$$\\omega t = \\frac{\\pi}{4} \\Rightarrow t = \\frac{\\pi}{4\\omega}$$\n\n$T = 6$ s, so $\\omega = \\frac{2\\pi}{6} = \\frac{\\pi}{3}$.\n\n$$t = \\frac{\\pi}{4 \\times \\pi/3} = \\frac{3}{4} = 0.75 \\text{ s}$$\n\nFinal Answer: $$\\boxed{0.75 \\text{ s}}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

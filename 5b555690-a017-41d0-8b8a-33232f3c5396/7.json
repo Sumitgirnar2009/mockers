@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "7"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If the earth suddenly contracts to $\\left(\\frac{1}{3}\\right)^{\\text{rd}}$ of its present size without change in its mass, the ratio kinetic energy of the earth after and before contraction will be (Earth is assumed to be a rotating sphere about itself)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "9"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "5"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "7"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "6"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Moment of inertia of a sphere: $I = \\frac{2}{5}MR^2$.\n\nAngular momentum is conserved (no external torque): $I_1\\omega_1 = I_2\\omega_2$.\n\nKinetic energy: $K = \\frac{1}{2}I\\omega^2 = \\frac{L^2}{2I}$.\n\nThus $K \\propto \\frac{1}{I} \\propto \\frac{1}{R^2}$.\n\nIf radius becomes $\\frac{1}{3}$ of original, then $K_{\\text{after}} = 3^2 K_{\\text{before}} = 9K_{\\text{before}}$.\n\nRatio = $9$.\n\nFinal Answer: $$\\boxed{9}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

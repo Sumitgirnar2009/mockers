@@ -15,7 +15,7 @@
     "N": "0"
   },
   "QuestionStmt": {
-    "S": "Let 'W' joule be the work done to move an electric charge 'q' coulomb from a place A, where potential is -5 volt to another place B where potential is 'V' volt. The value of 'V' is"
+    "S": "Let '$W$' joule be the work done to move an electric charge '$q$' coulomb from a place A, where potential is -5 volt to another place B where potential is '$V$' volt. The value of '$V$' is"
   },
   "QuestionType": {
     "S": "MCQSC"
@@ -24,31 +24,31 @@
     "S": "NA"
   },
   "Option1Stmt": {
-    "S": "\\( Wq - 5 \\)"
+    "S": "$Wq - 5$"
   },
   "Option1Img": {
     "S": "NA"
   },
   "Option2Stmt": {
-    "S": "\\( \\frac{q}{5} + 5 \\)"
+    "S": "$\\frac{q}{w} + 5$"
   },
   "Option2Img": {
     "S": "NA"
   },
   "Option3Stmt": {
-    "S": "\\( W - \\frac{5}{q} \\)"
+    "S": "$W - \\frac{5}{q}$"
   },
   "Option3Img": {
     "S": "NA"
   },
   "Option4Stmt": {
-    "S": "\\( \\frac{W}{q} - 5 \\)"
+    "S": "$\\frac{W}{q} - 5$"
   },
   "Option4Img": {
     "S": "NA"
   },
   "Solution": {
-    "S": "Given:\n\nWork done: \\( W \\) joule\nCharge: \\( q \\) coulombs\nPotential at A: \\( V_A = -5 \\) volt\nPotential at B: \\( V_B = V \\) volt\n\nStep 1:\nWork done in moving charge \\( q \\) from A to B is given by:\n\n\\( W = q(V_B - V_A) \\)\n\nStep 2:\nSubstitute the values:\n\n\\( V_B = V \\)\n\\( V_A = -5 \\)\n\nSo,\n\n\\( W = q(V - (-5)) \\)\n\n\\( W = q(V + 5) \\)\n\nStep 3:\nSolve for \\( V \\):\n\n\\( W = q(V + 5) \\)\n\nDivide both sides by \\( q \\):\n\n\\( \\frac{W}{q} = V + 5 \\)\n\nSubtract 5 from both sides:\n\n\\( V = \\frac{W}{q} - 5 \\)\n\nFinal answer:\n\nThe correct value of \\( V \\) is \\( \\frac{W}{q} - 5 \\)\n\nTherefore, the correct option is D."
+    "S": "Given:\n- Work done = $W$ joule\n- Charge = $q$ coulomb\n- Potential at A = $V_A = -5$ V\n- Potential at B = $V_B = V$ V\n\nStep 1: Work done in moving a charge $q$ between two points is given by:\n\n$$W = q(V_B - V_A)$$\n\nStep 2: Substitute the values:\n\n$$W = q(V - (-5))$$\n\n$$W = q(V + 5)$$\n\nStep 3: Solve for $V$:\n\nDivide both sides by $q$:\n\n$$\\frac{W}{q} = V + 5$$\n\n$$V = \\frac{W}{q} - 5$$\n\nFinal Answer: $$\\boxed{\\frac{W}{q} - 5}$$\n\nHence, the correct option is D."
   },
   "SolutionImg": {
     "S": "NA"

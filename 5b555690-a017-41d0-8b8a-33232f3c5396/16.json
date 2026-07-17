@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "16"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A monoatomic gas is stored in a thermally insulated container and the gas is suddenly compressed to $\\left(\\frac{1}{8}\\right)^{\\text{th}}$ of its initial volume. The ratio of final pressure to initial pressure is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$16 : 1$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$40 : 1$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$32 : 1$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$28 : 1$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The container is thermally insulated, so the process is adiabatic. For a sudden (adiabatic) compression:\n\n$$P V^\\gamma = \\text{constant}$$\n\nFor a monoatomic gas, $\\gamma = \\frac{5}{3}$.\n\nLet initial volume = $V$, final volume = $\\frac{V}{8}$.\n\n$$P_1 V^{\\gamma} = P_2 \\left(\\frac{V}{8}\\right)^{\\gamma}$$\n\n$$\\frac{P_2}{P_1} = \\left(\\frac{V}{V/8}\\right)^{\\gamma} = 8^{\\gamma} = 8^{5/3} = (2^3)^{5/3} = 2^5 = 32$$\n\nThus, $P_2 : P_1 = 32 : 1$.\n\nFinal Answer: $$\\boxed{32 : 1}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

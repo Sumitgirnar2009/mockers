@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "12"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "An ordinary body cools from $4\\theta$ to $3\\theta$ in '$t$' minutes. The temperature of the body after next '$t$' minutes is (Assume Newton's law of cooling and room temperature as $\\theta$)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{2\\theta}{3}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{7\\theta}{3}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{5\\theta}{3}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{8\\theta}{3}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: According to Newton's law of cooling (exponential form):\n\n$$T - \\theta = (T_0 - \\theta) e^{-kt}$$\n\nStep 2: During the first $t$ minutes, temperature falls from $4\\theta$ to $3\\theta$.\n\n$$3\\theta - \\theta = (4\\theta - \\theta) e^{-kt}$$\n\n$$2\\theta = 3\\theta \\cdot e^{-kt} \\Rightarrow e^{-kt} = \\frac{2}{3}$$\n\nStep 3: During the next $t$ minutes, let the final temperature be $T$.\n\n$$T - \\theta = (3\\theta - \\theta) e^{-kt} = 2\\theta \\times \\frac{2}{3} = \\frac{4\\theta}{3}$$\n\n$$T = \\theta + \\frac{4\\theta}{3} = \\frac{7\\theta}{3}$$\n\nThus, the temperature after the next $t$ minutes is $\\frac{7\\theta}{3}$.\n\n\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

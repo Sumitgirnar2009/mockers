@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "20"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A small sphere oscillates simple harmonically in a watch glass whose radius of curvature is 1.6 m. The period of oscillation of the sphere is (Acceleration due to gravity $g = 10$ m/s²)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$0.2\\pi$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$0.4\\pi$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$0.8\\pi$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\pi$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The small sphere oscillating in a watch glass behaves like a simple pendulum of length equal to the radius of curvature of the glass, i.e., $l = R$.\n\nTime period of a simple pendulum: $T = 2\\pi \\sqrt{\\frac{l}{g}}$.\n\nGiven: $l = 1.6$ m, $g = 10$ m/s².\n\n$$T = 2\\pi \\sqrt{\\frac{1.6}{10}} = 2\\pi \\sqrt{0.16} = 2\\pi \\times 0.4 = 0.8\\pi$$\n\nFinal Answer: $$\\boxed{0.8\\pi}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}
