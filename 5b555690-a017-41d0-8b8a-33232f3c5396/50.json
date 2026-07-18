@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "50"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If p-n junction diode is forward biased then"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "width of depletion layer decreases."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "width of depletion layer increases."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "barrier voltage increases"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "electric conduction is not possible"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: In a p-n junction diode, forward bias means the positive terminal of the battery is connected to the p-side and the negative terminal to the n-side.\n\nStep 2: The applied forward voltage opposes the built-in potential barrier (barrier voltage). This reduces the effective potential barrier.\n\nStep 3: As the barrier potential decreases, the width of the depletion region also decreases because the opposing electric field is weakened.\n\nStep 4: A decrease in depletion width allows majority charge carriers to cross the junction easily, enabling current conduction.\n\nStep 5: The barrier voltage decreases, not increases, and conduction is possible in forward bias.\n\nFinal Answer: $$\\boxed{\\text{width of depletion layer decreases}}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

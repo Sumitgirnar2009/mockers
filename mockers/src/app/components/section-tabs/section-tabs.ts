@@ -1,16 +1,17 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, EventEmitter, Input, Output, OnChanges, SimpleChanges } from '@angular/core';
 import { forkJoin } from 'rxjs';
 import { Fetchquestion } from '../../service/fetchquestion';
 import { Attempt } from '../../service/handle-attempt-id';
 
 @Component({
   selector: 'app-section-tabs',
+  standalone: true,
   imports: [],
   templateUrl: './section-tabs.html',
   styleUrl: './section-tabs.css'
 })
-export class SectionTabs {
-  @Output() currentSection = new EventEmitter<string>();
+export class SectionTabs implements OnChanges {
+  @Output() currentSectionChange = new EventEmitter<string>();
   @Output() currentQuestion = new EventEmitter<number>();
   @Output() currPhyQues = new EventEmitter<string>();
   @Output() currChemQues = new EventEmitter<string>();
@@ -18,9 +19,16 @@ export class SectionTabs {
   @Input() attemptId!: string;
   @Input() attemptModel!: Attempt | null
   @Input() quizId!: string
+  @Input() currentSection: string | undefined;
 
   selectedSection: string | undefined;
   constructor(private quizService: Fetchquestion) { }
+
+  ngOnChanges(changes: SimpleChanges) {
+    if (changes['currentSection'] && changes['currentSection'].currentValue) {
+      this.selectedSection = changes['currentSection'].currentValue;
+    }
+  }
 
 
   ngOnInit() {
@@ -66,7 +74,7 @@ export class SectionTabs {
     }
 
     // this.onSectionChange(this.selectedSection)
-    this.currentSection.emit(this.selectedSection);
+    this.currentSectionChange.emit(this.selectedSection);
     console.log("Selected section:", this.selectedSection);
 
 
@@ -83,13 +91,13 @@ export class SectionTabs {
       const currQNum = localStorage.getItem('currChemQuestionNumber') ?? '1'; // fallback to 1
       localStorage.setItem('currentQuestionNumber', currQNum);
     }
-    else if (this.selectedSection === 'Physics') {
-      const currQNum = localStorage.getItem('currMathsQuestionNumber') ?? '1'; // fallback to 1
+    else if (this.selectedSection === 'Maths') {
+      const currQNum = localStorage.getItem('currMathsQuestionNumber') ?? '101'; // fallback to 101
       localStorage.setItem('currentQuestionNumber', currQNum);
     }
 
  
-    this.currentSection.emit(this.selectedSection);
+    this.currentSectionChange.emit(this.selectedSection);
     console.log("Selected section:", this.selectedSection);
   }
 }

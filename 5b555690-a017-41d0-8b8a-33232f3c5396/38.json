@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "38"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Determine the frequency for which a $10\\mu F$ capacitor has a reactance of $2 \\times 10^{-3}\\Omega$."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{25}{\\pi}$ MHz"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{20}{\\pi}$ MHz"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$2 \\times 10^{-3}$ MHz"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$10\\pi$ MHz"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Capacitive reactance: $X_C = \\frac{1}{2\\pi f C}$.\n\nGiven: $C = 10\\mu F = 10 \\times 10^{-6}$ F, $X_C = 2 \\times 10^{-3}\\Omega$.\n\n$$f = \\frac{1}{2\\pi X_C C} = \\frac{1}{2\\pi \\times 2 \\times 10^{-3} \\times 10 \\times 10^{-6}}$$\n\n$$= \\frac{1}{2\\pi \\times 2 \\times 10^{-8}} = \\frac{1}{4\\pi \\times 10^{-8}} = \\frac{10^8}{4\\pi}$$\n\n$$= \\frac{25}{\\pi} \\times 10^6 \\text{ Hz} = \\frac{25}{\\pi} \\text{ MHz}$$\n\nFinal Answer: $$\\boxed{\\frac{25}{\\pi} \\text{ MHz}}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

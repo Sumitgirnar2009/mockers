@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "43"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Light of wavelength $\\lambda$ is incident on a single slit of width 'a' and the distance between slit and screen is D. In diffraction pattern, if slit width is equal to the width of the central maximum then D is equal to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{a^2}{2\\lambda}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{a}{2\\lambda}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{a^2}{\\lambda}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{a}{\\lambda}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: In single slit diffraction, the position of the first minimum on either side of the central maximum is given by $\\sin\\theta = \\frac{\\lambda}{a}$. For small angles, $\\sin\\theta \\approx \\theta$, so $\\theta = \\frac{\\lambda}{a}$.\n\nStep 2: The linear distance of the first minimum from the centre on the screen is $y = D\\theta = \\frac{D\\lambda}{a}$.\n\nStep 3: The width of the central maximum is the distance between the two first minima, i.e., $2y = \\frac{2D\\lambda}{a}$.\n\nStep 4: Given that the slit width $a$ is equal to the width of the central maximum:\n\n$$a = \\frac{2D\\lambda}{a} \\Rightarrow a^2 = 2D\\lambda \\Rightarrow D = \\frac{a^2}{2\\lambda}$$\n\nFinal Answer: $$\\boxed{\\frac{a^2}{2\\lambda}}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

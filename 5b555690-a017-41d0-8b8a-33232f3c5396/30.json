@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "30"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If a galvanometer is shunted by $\\left(\\frac{1}{n-1}\\right)^{\\text{th}}$ of the value of its resistance, then the fraction of the total current passing through the galvanometer is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{1}{(n-1)}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{1}{n}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{n}{(n-1)}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{1}{1-n}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let galvanometer resistance be G. Shunt resistance S = $\\frac{G}{n-1}$.\n\nCurrent through galvanometer: $I_g = \\frac{S}{G + S} I$.\n\nSubstitute S:\n\n$$I_g = \\frac{G/(n-1)}{G + G/(n-1)} I = \\frac{1/(n-1)}{1 + 1/(n-1)} I = \\frac{1/(n-1)}{(n)/(n-1)} I = \\frac{1}{n} I$$\n\nThus, fraction of total current through galvanometer = $\\frac{1}{n}$.\n\nFinal Answer: $$\\boxed{\\frac{1}{n}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

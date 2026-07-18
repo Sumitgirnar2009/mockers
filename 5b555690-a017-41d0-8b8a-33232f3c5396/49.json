@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "49"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "For a p-n junction diode, breakdown voltage occurs when"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "reverse bias is decreased"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "reverse bias is not changed"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "reverse-bias is increased"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "forward bias is increased"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: In a p-n junction diode, breakdown is a phenomenon where the reverse current suddenly increases to a very large value at a specific reverse voltage.\n\nStep 2: This occurs when the reverse bias voltage is gradually increased beyond a certain threshold value, known as the breakdown voltage (e.g., Zener voltage).\n\nStep 3: When reverse bias is increased, the electric field across the depletion region becomes strong enough to cause avalanche breakdown or Zener breakdown.\n\nStep 4: Breakdown does not occur when reverse bias is decreased, kept constant, or when forward bias is increased (forward bias only causes conduction, not breakdown).\n\nFinal Answer: $$\\boxed{\\text{reverse-bias is increased}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

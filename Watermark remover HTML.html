@@ -1,0 +1,343 @@
+
+
+Watermark remover · HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image to Black & White — Watermark Remover</title>
+<style>
+  :root {
+    --ink: #1a1a1a;
+    --paper: #fafaf8;
+    --line: #d8d6cf;
+    --accent: #2b5fd9;
+    --accent-dark: #1e46a8;
+    --muted: #6b6b63;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--paper);
+    color: var(--ink);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px 80px;
+  }
+  h1 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 0 0 6px;
+    letter-spacing: -0.01em;
+  }
+  p.sub {
+    color: var(--muted);
+    margin: 0 0 32px;
+    font-size: 0.95rem;
+    text-align: center;
+    max-width: 480px;
+  }
+  .card {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 28px;
+    width: 100%;
+    max-width: 640px;
+  }
+  .dropzone {
+    border: 2px dashed var(--line);
+    border-radius: 8px;
+    padding: 40px 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.15s, background 0.15s;
+    color: var(--muted);
+  }
+  .dropzone:hover, .dropzone.drag {
+    border-color: var(--accent);
+    background: #f4f7ff;
+  }
+  .dropzone strong { color: var(--ink); }
+  input[type="file"] { display: none; }
+  .controls {
+    margin-top: 24px;
+    display: none;
+  }
+  .controls.show { display: block; }
+  .row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 18px;
+  }
+  .row label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    min-width: 110px;
+    color: var(--ink);
+  }
+  input[type="range"] {
+    flex: 1;
+    accent-color: var(--accent);
+  }
+  .row span.val {
+    font-variant-numeric: tabular-nums;
+    font-size: 0.85rem;
+    color: var(--muted);
+    min-width: 34px;
+    text-align: right;
+  }
+  .previews {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 20px;
+  }
+  .previews figure {
+    margin: 0;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    overflow: hidden;
+    background: repeating-conic-gradient(#eee 0% 25%, #fff 0% 50%) 50% / 16px 16px;
+  }
+  .previews figcaption {
+    font-size: 0.75rem;
+    color: var(--muted);
+    text-align: center;
+    padding: 6px;
+    background: #fff;
+    border-top: 1px solid var(--line);
+  }
+  .previews img { display: block; width: 100%; height: auto; }
+  .actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 22px;
+  }
+  button {
+    font-family: inherit;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  button.primary {
+    background: var(--accent);
+    color: #fff;
+  }
+  button.primary:hover { background: var(--accent-dark); }
+  button.secondary {
+    background: #f0efe9;
+    color: var(--ink);
+    border: 1px solid var(--line);
+  }
+  button.secondary:hover { background: #e6e4dc; }
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  canvas { display: none; }
+</style>
+</head>
+<body>
+ 
+  <h1>Image to Black &amp; White</h1>
+  <p class="sub">Upload an image with a faint watermark. This turns dark lines into solid black on a clean white background — the watermark disappears if it's lighter than the threshold.</p>
+ 
+  <div class="card">
+    <div class="dropzone" id="dropzone">
+      <strong>Click to choose an image</strong><br>or drag and drop it here
+      <input type="file" id="fileInput" accept="image/*">
+    </div>
+ 
+    <div class="controls" id="controls">
+      <div class="row">
+        <label for="threshold">Threshold</label>
+        <input type="range" id="threshold" min="0" max="255" value="170">
+        <span class="val" id="thresholdVal">170</span>
+      </div>
+ 
+      <div class="row">
+        <label for="sharpen">Sharpen</label>
+        <input type="range" id="sharpen" min="0" max="10" value="4">
+        <span class="val" id="sharpenVal">4</span>
+      </div>
+ 
+      <div class="row">
+        <label for="scale">Upscale</label>
+        <input type="range" id="scale" min="1" max="4" value="2">
+        <span class="val" id="scaleVal">2x</span>
+      </div>
+ 
+      <div class="previews">
+        <figure>
+          <img id="originalImg" alt="Original image">
+          <figcaption>Original</figcaption>
+        </figure>
+        <figure>
+          <img id="resultImg" alt="Cleaned image">
+          <figcaption>Cleaned</figcaption>
+        </figure>
+      </div>
+ 
+      <div class="actions">
+        <button class="secondary" id="resetBtn">Choose different image</button>
+        <button class="primary" id="downloadBtn">Download PNG</button>
+      </div>
+    </div>
+  </div>
+ 
+  <canvas id="workCanvas"></canvas>
+ 
+<script>
+  const dropzone = document.getElementById('dropzone');
+  const fileInput = document.getElementById('fileInput');
+  const controls = document.getElementById('controls');
+  const thresholdSlider = document.getElementById('threshold');
+  const thresholdVal = document.getElementById('thresholdVal');
+  const sharpenSlider = document.getElementById('sharpen');
+  const sharpenVal = document.getElementById('sharpenVal');
+  const scaleSlider = document.getElementById('scale');
+  const scaleVal = document.getElementById('scaleVal');
+  const originalImg = document.getElementById('originalImg');
+  const resultImg = document.getElementById('resultImg');
+  const resetBtn = document.getElementById('resetBtn');
+  const downloadBtn = document.getElementById('downloadBtn');
+  const canvas = document.getElementById('workCanvas');
+  const ctx = canvas.getContext('2d');
+ 
+  let sourceImage = null;
+ 
+  dropzone.addEventListener('click', () => fileInput.click());
+ 
+  dropzone.addEventListener('dragover', e => {
+    e.preventDefault();
+    dropzone.classList.add('drag');
+  });
+  dropzone.addEventListener('dragleave', () => dropzone.classList.remove('drag'));
+  dropzone.addEventListener('drop', e => {
+    e.preventDefault();
+    dropzone.classList.remove('drag');
+    if (e.dataTransfer.files.length) loadFile(e.dataTransfer.files[0]);
+  });
+ 
+  fileInput.addEventListener('change', () => {
+    if (fileInput.files.length) loadFile(fileInput.files[0]);
+  });
+ 
+  function loadFile(file) {
+    if (!file.type.startsWith('image/')) return;
+    const reader = new FileReader();
+    reader.onload = e => {
+      const img = new Image();
+      img.onload = () => {
+        sourceImage = img;
+        originalImg.src = e.target.result;
+        controls.classList.add('show');
+        processImage();
+      };
+      img.src = e.target.result;
+    };
+    reader.readAsDataURL(file);
+  }
+ 
+  // 3x3 unsharp-mask style convolution kernel, strength-scaled
+  function sharpenGrayscale(gray, width, height, amount) {
+    if (amount <= 0) return gray;
+    const out = new Float32Array(gray.length);
+    const center = 1 + 4 * amount;
+    const edge = -amount;
+    for (let y = 0; y < height; y++) {
+      for (let x = 0; x < width; x++) {
+        const idx = y * width + x;
+        const up    = y > 0 ? gray[idx - width] : gray[idx];
+        const down  = y < height - 1 ? gray[idx + width] : gray[idx];
+        const left  = x > 0 ? gray[idx - 1] : gray[idx];
+        const right = x < width - 1 ? gray[idx + 1] : gray[idx];
+        out[idx] = gray[idx] * center + edge * (up + down + left + right);
+      }
+    }
+    return out;
+  }
+ 
+  function processImage() {
+    if (!sourceImage) return;
+ 
+    const scale = parseInt(scaleSlider.value, 10);
+    const w = sourceImage.naturalWidth * scale;
+    const h = sourceImage.naturalHeight * scale;
+ 
+    canvas.width = w;
+    canvas.height = h;
+    ctx.imageSmoothingEnabled = true;
+    ctx.imageSmoothingQuality = 'high';
+    ctx.drawImage(sourceImage, 0, 0, w, h);
+ 
+    const imageData = ctx.getImageData(0, 0, w, h);
+    const data = imageData.data;
+    const threshold = parseInt(thresholdSlider.value, 10);
+    const sharpenAmount = parseInt(sharpenSlider.value, 10) / 10; // 0 - 1.0
+ 
+    // build grayscale buffer
+    const pixelCount = w * h;
+    let gray = new Float32Array(pixelCount);
+    for (let i = 0, p = 0; i < data.length; i += 4, p++) {
+      gray[p] = 0.299 * data[i] + 0.587 * data[i + 1] + 0.114 * data[i + 2];
+    }
+ 
+    // sharpen (unsharp-mask style convolution) before thresholding
+    gray = sharpenGrayscale(gray, w, h, sharpenAmount);
+ 
+    for (let i = 0, p = 0; i < data.length; i += 4, p++) {
+      const value = gray[p] < threshold ? 0 : 255;
+      data[i] = data[i + 1] = data[i + 2] = value;
+      data[i + 3] = 255;
+    }
+ 
+    ctx.putImageData(imageData, 0, 0);
+    resultImg.src = canvas.toDataURL('image/png');
+  }
+ 
+  thresholdSlider.addEventListener('input', () => {
+    thresholdVal.textContent = thresholdSlider.value;
+    processImage();
+  });
+ 
+  sharpenSlider.addEventListener('input', () => {
+    sharpenVal.textContent = sharpenSlider.value;
+    processImage();
+  });
+ 
+  scaleSlider.addEventListener('input', () => {
+    scaleVal.textContent = scaleSlider.value + 'x';
+    processImage();
+  });
+ 
+  resetBtn.addEventListener('click', () => {
+    sourceImage = null;
+    fileInput.value = '';
+    controls.classList.remove('show');
+    originalImg.src = '';
+    resultImg.src = '';
+  });
+ 
+  downloadBtn.addEventListener('click', () => {
+    const link = document.createElement('a');
+    link.download = 'cleaned-image.png';
+    link.href = canvas.toDataURL('image/png');
+    link.click();
+  });
+</script>
+ 
+</body>
+</html>
+ 
+

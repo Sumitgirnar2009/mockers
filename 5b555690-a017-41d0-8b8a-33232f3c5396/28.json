@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "28"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Four capacitors are connected to a battery as shown in figure. The ratio of charges on capacitors $C_2$ and $C_4$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/5b555690-a017-41d0-8b8a-33232f3c5396/q28.png"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{1}{14}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{3}{22}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{2}{9}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{4}{13}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "In the circuit, capacitors $C_1, C_2,$ and $C_3$ are connected in series. This whole series branch is connected in parallel with capacitor $C_4$ across the battery of voltage $V$.\n\nFor capacitors in series, the equivalent capacitance $C_s$ is found using:\n\n$$\\frac{1}{C_s} = \\frac{1}{C_1} + \\frac{1}{C_2} + \\frac{1}{C_3}$$\n\nHere, $C_1 = C, C_2 = 2C,$ and $C_3 = 3C$.\n\n$$\\frac{1}{C_s} = \\frac{1}{C} + \\frac{1}{2C} + \\frac{1}{3C}$$\n\n$$\\frac{1}{C_s} = \\frac{6 + 3 + 2}{6C} = \\frac{11}{6C}$$\n\nSo,\n\n$$C_s = \\frac{6C}{11}$$\n\nIn a series combination, the charge on each capacitor is the same. So the charge on $C_2$ will be equal to the charge on the whole series branch.\n\nThe voltage across the series branch is $V$, because it is connected across the battery.\n\nSo, the charge on $C_2$ is:\n\n$$Q_2 = C_s V = \\frac{6C}{11} \\times V$$\n\n$$Q_2 = \\frac{6CV}{11}$$\n\nCapacitor $C_4$ is directly connected across the battery, so the voltage across $C_4$ is also $V$.\n\nGiven $C_4 = 4C$, the charge on $C_4$ is:\n\n$$Q_4 = C_4 V = 4CV$$\n\nNow the required ratio is:\n\n$$\\frac{Q_2}{Q_4} = \\frac{\\frac{6CV}{11}}{4CV}$$\n\n$$\\frac{Q_2}{Q_4} = \\frac{6}{44} = \\frac{3}{22}$$"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

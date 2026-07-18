@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "39"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A coil has inductive reactance 3 H. The ratio of its reactance when it is first connected to an a.c. source and then to d.c. source is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "zero"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "3"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "infinite"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "1.5"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Inductive reactance $X_L = \\omega L = 2\\pi f L$. For an a.c. source, $X_L$ is finite (given as 3 H). For a d.c. source, frequency $f = 0$, so $X_L = 0$. The ratio of reactance for a.c. to d.c. is $\\frac{X_L(\\text{ac})}{X_L(\\text{dc})} = \\frac{3}{0}$, which is undefined/infinite. Thus, the correct option is C: infinite."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

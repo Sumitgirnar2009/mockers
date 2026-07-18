@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "45"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "When the electron orbiting in hydrogen atom in its ground state moves to the third excited state, the de-Broglie wavelength associated with it"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "will decrease"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "will increase"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "will remain same"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "will be zero"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: The ground state corresponds to $n = 1$. The third excited state corresponds to $n = 4$ (since $n = 1$ is ground, $n = 2$ first excited, $n = 3$ second excited, $n = 4$ third excited).\n\nStep 2: In Bohr's model, the de-Broglie wavelength associated with the electron is given by $\\lambda = \\frac{h}{mv}$.\n\nStep 3: The velocity of the electron in the $n^{\\text{th}}$ orbit is $v \\propto \\frac{1}{n}$.\n\nStep 4: Thus, $\\lambda \\propto \\frac{1}{v} \\propto n$.\n\nStep 5: When the electron jumps from $n = 1$ to $n = 4$, the value of $n$ increases, so $\\lambda$ also increases.\n\nFinal Answer: $$\\boxed{\\text{will increase}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

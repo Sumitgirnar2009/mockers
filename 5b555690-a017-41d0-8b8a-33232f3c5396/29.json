@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "29"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "When a resistance of 200 Ω is connected in series with a galvanometer of resistance G, its range is V. To triple its range, a resistance of 2000 Ω is connected in series. The value of G is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "400 Ω"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "500 Ω"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "700 Ω"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "900 Ω"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a galvanometer converted to voltmeter, the range is V = I_g (G + R).\n\nCase 1: R₁ = 200 Ω, range = V.\n\nV = I_g (G + 200) ... (i)\n\nCase 2: Range is tripled, so new range = 3V, with R₂ = 2000 Ω.\n\n3V = I_g (G + 2000) ... (ii)\n\nDivide (ii) by (i):\n\n$$\\frac{3V}{V} = \\frac{G + 2000}{G + 200}$$\n\n$$3 = \\frac{G + 2000}{G + 200}$$\n\n$$3G + 600 = G + 2000$$\n\n$$2G = 1400 \\Rightarrow G = 700 \\Omega$$\n\nFinal Answer: $$\\boxed{700 \\Omega}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

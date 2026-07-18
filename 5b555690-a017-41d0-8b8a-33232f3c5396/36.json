@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "36"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A bar magnet falls from a height 'h' through a metal pipe, its acceleration after coming out of pipe is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "less than $9.8$ m/s²"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "greater than $9.8$ m/s²"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "equal to $9.8$ m/s²"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "equal to $h$ m/s²"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "When a bar magnet falls through a metal pipe, eddy currents are induced in the pipe which oppose the motion of the magnet (Lenz's law), so the acceleration is less than $g$ while inside the pipe. However, once the magnet comes out of the pipe, there is no opposition from eddy currents, and it falls freely under gravity. Therefore, its acceleration after coming out of the pipe is equal to $g = 9.8$ m/s².\n\nFinal Answer: $$\\boxed{\\text{equal to }9.8\\text{ m/s}^2}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

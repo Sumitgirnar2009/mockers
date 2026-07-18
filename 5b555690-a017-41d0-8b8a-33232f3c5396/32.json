@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "32"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A circular coil of 'N' turns and diameter 'd' carries current 'I'. It is unwound and rewound to make another coil of diameter '2d', current 'I' remaining the same. The ratio of magnetic moments of the new coil to the original coil is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$2 : 1$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$1 : 1$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$1 : 2$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$4 : 1$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Magnetic moment $m = N I A$, where $A = \\pi r^2 = \\frac{\\pi d^2}{4}$.\n\nOriginal coil: $m_1 = N I \\times \\frac{\\pi d^2}{4}$.\n\nWhen unwound and rewound, total length of wire remains the same. Length of wire $L = N \\times \\pi d$.\n\nNew diameter $= 2d$, so new circumference $= 2\\pi d$. Number of new turns $N' = \\frac{L}{2\\pi d} = \\frac{N \\pi d}{2\\pi d} = \\frac{N}{2}$.\n\nNew area $A' = \\frac{\\pi (2d)^2}{4} = \\pi d^2$.\n\nNew magnetic moment $m_2 = N' I A' = \\frac{N}{2} \\times I \\times \\pi d^2 = \\frac{N I \\pi d^2}{2}$.\n\nRatio $\\frac{m_2}{m_1} = \\frac{\\frac{N I \\pi d^2}{2}}{\\frac{N I \\pi d^2}{4}} = 2$.\n\nSo $m_2 : m_1 = 2 : 1$.\n\nFinal Answer: $$\\boxed{2 : 1}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

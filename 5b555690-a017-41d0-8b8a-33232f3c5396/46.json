@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "46"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If '$E$' and '$L$' denote the magnitude of total energy and angular momentum of revolving electron in $n^{\\text{th}}$ Bohr orbit then"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$E \\propto L$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$E \\propto L^{-1}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$E \\propto L^{-2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$E \\propto L^2$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: In the Bohr model, the total energy of the electron in the $n^{\\text{th}}$ orbit is $E \\propto -\\frac{1}{n^2}$ (magnitude $E \\propto \\frac{1}{n^2}$).\n\nStep 2: The angular momentum of the electron is quantised as $L = n\\hbar$, so $n \\propto L$.\n\nStep 3: Substitute $n \\propto L$ into the energy expression: $E \\propto \\frac{1}{L^2}$.\n\nStep 4: Thus, $E \\propto L^{-2}$.\n\nFinal Answer: $$\\boxed{E \\propto L^{-2}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "31"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The product of magnetic susceptibility ($\\chi$) and absolute temperature ($T$) is constant for a"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "diamagnetic substance."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "paramagnetic substance."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "ferromagnetic substance."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "paramagnetic as well as ferromagnetic substance."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a paramagnetic substance, Curie's law states that $\\chi \\propto \\frac{1}{T}$, so $\\chi T = \\text{constant}$. This is not true for diamagnetic (where $\\chi$ is independent of $T$) or ferromagnetic (where $\\chi$ follows Curie-Weiss law, not $\\chi T =$ constant). Hence, the product $\\chi T$ is constant for a paramagnetic substance. The correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "41"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A ray of light travels from air to water to glass and again from glass to air. Refractive index of water with respect to air is 'x', glass with respect to water is 'y' and air with respect to glass is 'z'. Which one of the following is correct?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$xy = z$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$xyz = 1$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$xz = y$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$yz = x$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Define the refractive indices: $x = \\mu_w/\\mu_a$, $y = \\mu_g/\\mu_w$, $z = \\mu_a/\\mu_g$.\n\nStep 2: Multiply: $xyz = \\frac{\\mu_w}{\\mu_a} \\times \\frac{\\mu_g}{\\mu_w} \\times \\frac{\\mu_a}{\\mu_g}$.\n\nStep 3: Cancel common terms: $\\mu_w$ cancels, $\\mu_g$ cancels, $\\mu_a$ cancels, giving $xyz = 1$.\n\nFinal Answer: $$\\boxed{xyz = 1}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

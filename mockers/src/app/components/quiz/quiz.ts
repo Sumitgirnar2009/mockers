@@ -1,4 +1,5 @@
 import { Component, HostListener, inject, NgZone, signal } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 import { Legend } from '../legend/legend';
 import { Questions } from '../questions/questions';
 import { Navigator } from '../navigator/navigator';
@@ -47,6 +48,9 @@ export class Quiz {
 
 
   // userservice = inject(UserService);
+  private readonly title = inject(Title);
+  private readonly meta = inject(Meta);
+
   constructor(private quizService: Fetchquestion, private userService: UserService, private handleAttempt: HandleAttemptId, private submitTestService: SubmitTestService, private router: Router, private ngZone: NgZone, private route: ActivatedRoute) { }
 
   currentQuestionNumber!: number
@@ -76,6 +80,9 @@ export class Quiz {
 
 
   ngOnInit(): void {
+    this.title.setTitle('CrackCET | MHT CET Quiz Practice');
+    this.meta.updateTag({ name: 'description', content: 'Take timed MHT CET practice quizzes with analytics, question snapshots, and exam-style review on CrackCET.' });
+    this.meta.updateTag({ name: 'keywords', content: 'MHT CET quiz, CET practice questions, timed mock test, exam analytics, CrackCET' });
 
     // Initialize attemptId
 
@@ -104,6 +111,8 @@ export class Quiz {
       localStorage.setItem('currChemQuestionNumber', this.currChemQuestionNumber().toString());
       localStorage.setItem('currMathQuestionNumber', this.currMathQuestionNumber().toString());
     }
+
+    this.currentSection = this.getSectionFromQuestionNumber(this.currentQuestionNumber);
 
     console.log("Before loading all questions", this.currentQuestionNumber);
     this.isQuizLoading = true;
@@ -193,13 +202,7 @@ export class Quiz {
               this.currentQuestionModel
             );
 
-            if (this.currentQuestionNumber > 100) {
-              this.currentSection = "Maths";
-            } else if (this.currentQuestionNumber > 50) {
-              this.currentSection = "Chemistry";
-            } else {
-              this.currentSection = "Physics";
-            }
+            this.currentSection = this.getSectionFromQuestionNumber(this.currentQuestionNumber);
 
           }
           console.log("Current Question in ngOnInit:", this.currentQuestionData, this.currentQuestionModel);
@@ -252,21 +255,14 @@ export class Quiz {
         }
       });
 
-      if (this.currentQuestionNumber > 50) {
-        this.currentSection = "Chemistry"
-      }
-      if (this.currentQuestionNumber <= 50) {
-        this.currentSection = "Physics"
-      }
-      if (this.currentQuestionNumber > 100) {
-        this.currentSection = "Maths"
-      }
+      this.currentSection = this.getSectionFromQuestionNumber(this.currentQuestionNumber);
     }
   }
 
   handleNavigateQuestion(questionId: number) {
     this.currentQuestionNumber = questionId;
     localStorage.setItem('currentQuestionNumber', this.currentQuestionNumber.toString());
+    this.currentSection = this.getSectionFromQuestionNumber(this.currentQuestionNumber);
 
     this.quizService.fetchQuestion(this.currentQuestionNumber, this.attemptId()).subscribe({
       next: ({ questionData, questionModel }) => {
@@ -361,6 +357,16 @@ export class Quiz {
     else {
       console.warn("Invalid question number:", currentQuestionNumber);
     }
+  }
+
+  private getSectionFromQuestionNumber(questionNumber: number): string {
+    if (questionNumber > 100) {
+      return 'Maths';
+    }
+    if (questionNumber > 50) {
+      return 'Chemistry';
+    }
+    return 'Physics';
   }
 
   isLoading = false;

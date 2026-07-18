@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "44"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Light of wavelength '$\\lambda$' which is less than threshold wavelength is incident on a photosensitive material. If incident wavelength is decreased so that emitted photoelectrons are moving with some velocity then stopping potential"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "becomes half"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "increases"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "decreases"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "is zero"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Einstein's photoelectric equation: $K_{\\text{max}} = h\\nu - \\phi$, where $\\phi$ is the work function.\n\nStep 2: Since $\\lambda < \\lambda_0$ (threshold wavelength), $\\nu > \\nu_0$, so photoelectrons are emitted.\n\nStep 3: When the wavelength is decreased, the frequency $\\nu = \\frac{c}{\\lambda}$ increases.\n\nStep 4: Therefore, $K_{\\text{max}}$ increases because $h\\nu$ increases while $\\phi$ remains constant.\n\nStep 5: Stopping potential $V_0$ is given by $eV_0 = K_{\\text{max}}$. Hence, as $K_{\\text{max}}$ increases, $V_0$ also increases.\n\nFinal Answer: $$\\boxed{\\text{increases}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

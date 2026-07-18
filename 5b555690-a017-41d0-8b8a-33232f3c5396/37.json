@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "37"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A series LCR circuit is connected to an a.c. source of 220 V, 50 Hz. The circuit contains a resistance $R = 80\\Omega$, an inductor of inductive reactance $70\\Omega$ and capacitor of capacitive reactance $130\\Omega$. The power factor of the circuit is $\\frac{x}{10}$. The value of $x$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "8"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "6"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "4"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "7"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $R = 80\\Omega$, $X_L = 70\\Omega$, $X_C = 130\\Omega$.\n\nNet reactance: $X = X_L - X_C = 70 - 130 = -60\\Omega$.\n\nImpedance: $Z = \\sqrt{R^2 + X^2} = \\sqrt{80^2 + (-60)^2} = \\sqrt{6400 + 3600} = \\sqrt{10000} = 100\\Omega$.\n\nPower factor: $\\cos\\phi = \\frac{R}{Z} = \\frac{80}{100} = 0.8 = \\frac{8}{10}$.\n\nThus, $x = 8$.\n\nFinal Answer: $$\\boxed{8}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

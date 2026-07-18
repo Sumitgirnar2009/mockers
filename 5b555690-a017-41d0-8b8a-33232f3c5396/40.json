@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "40"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "An equiconvex lens of focal length $F$ is cut into two equal parts along the vertical axis. The focal length of each part will be"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$4F$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{F}{2}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$2F$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$F$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: For an equiconvex lens, lens maker's formula gives $\\frac{1}{F} = (\\mu - 1)\\left(\\frac{1}{R} - \\frac{1}{-R}\\right) = \\frac{2(\\mu - 1)}{R}$.\n\nStep 2: When the lens is cut along the vertical axis (perpendicular to principal axis), each part becomes a plano-convex lens with one plane surface and one curved surface.\n\nStep 3: For a plano-convex lens, $\\frac{1}{f} = (\\mu - 1)\\left(\\frac{1}{R} - \\frac{1}{\\infty}\\right) = \\frac{\\mu - 1}{R}$.\n\nStep 4: Comparing with the original: $\\frac{1}{F} = \\frac{2(\\mu - 1)}{R} \\Rightarrow \\frac{\\mu - 1}{R} = \\frac{1}{2F}$.\n\nStep 5: Thus, $\\frac{1}{f} = \\frac{1}{2F} \\Rightarrow f = 2F$.\n\nFinal Answer: $$\\boxed{2F}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

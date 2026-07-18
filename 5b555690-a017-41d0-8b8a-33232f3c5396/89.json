@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "89"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In the following sequence of the reaction, the final product 'C' is -\n\n"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/5b555690-a017-41d0-8b8a-33232f3c5396/q89.png"
+  },
+  "Option1Stmt": {
+    "S": ""
+  },
+  "Option1Img": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/5b555690-a017-41d0-8b8a-33232f3c5396/q89-1.png"
+  },
+  "Option2Stmt": {
+    "S": ""
+  },
+  "Option2Img": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/5b555690-a017-41d0-8b8a-33232f3c5396/q89-2.png"
+  },
+  "Option3Stmt": {
+    "S": ""
+  },
+  "Option3Img": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/5b555690-a017-41d0-8b8a-33232f3c5396/q89-3.png"
+  },
+  "Option4Stmt": {
+    "S": ""
+  },
+  "Option4Img": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/5b555690-a017-41d0-8b8a-33232f3c5396/q89-4.png"
+  },
+  "Solution": {
+    "S": "Step 1: The starting compound A is o‑hydroxybenzaldehyde (salicylaldehyde), which contains both –OH and –CHO groups.\n\nStep 2: When salicylaldehyde is treated with aqueous NaOH, it undergoes Cannizzaro reaction (since it lacks α‑hydrogen). The reaction produces a mixture of o‑hydroxybenzyl alcohol and sodium salicylate (salt of salicylic acid).\n\nStep 3: The mixture is then treated with NaOH (which converts the sodium salicylate to salicylic acid upon acidification? Actually, the sequence shows NaOH, then B, then C. In the Cannizzaro reaction, the sodium salt of the acid is formed. If we acidify, we get salicylic acid. Here the sequence says NaOH → B → C. Possibly the NaOH step converts the sodium salt to the free acid? Or perhaps it's just a representation. Usually, the final product after neutralization is salicylic acid.\n\nStep 4: Thus, the final product C is salicylic acid (o‑hydroxybenzoic acid).\n\nFinal Answer: $$\\boxed{\\text{Salicylic acid}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

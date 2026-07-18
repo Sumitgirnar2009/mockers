@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "33"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Lorentz magnetic force is acting on a particle of charge $q$ moving with velocity $\\vec{V}$ in magnetic field $\\vec{B}$. The work done by this force on the charged particle is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "zero"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\vec{V} \\times \\vec{B}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\vec{V} \\times \\vec{V}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$q(\\vec{V} \\times \\vec{B})$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Lorentz magnetic force is given by $\\vec{F} = q(\\vec{V} \\times \\vec{B})$. This force is always perpendicular to the velocity $\\vec{V}$. Since work done $W = \\vec{F} \\cdot \\vec{d} = \\vec{F} \\cdot \\vec{V} dt = 0$ (because $\\vec{F} \\perp \\vec{V}$), the work done by the magnetic force is always zero. The correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

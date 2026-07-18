@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "42"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "When the distance of separation between the slit and screen is doubled, the angular separation between fringes in single slit diffraction pattern experiment"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "increases"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "decreases"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "remains same"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "first increases and then decreases"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: For single slit diffraction, minima occur at $d \\sin\\theta = n\\lambda \\Rightarrow \\theta = \\frac{n\\lambda}{d}$.\n\nStep 2: Angular separation between consecutive fringes: $\\Delta\\theta = \\frac{(n+1)\\lambda}{d} - \\frac{n\\lambda}{d} = \\frac{\\lambda}{d}$.\n\nStep 3: This expression depends only on $\\lambda$ and slit width $d$. It is independent of the distance between the slit and the screen.\n\nStep 4: Therefore, doubling the screen distance does not change the angular separation.\n\nFinal Answer: $$\\boxed{\\text{remains same}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

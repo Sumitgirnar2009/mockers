@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "27"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The function of a dielectric in a capacitor is to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "reduce the plate area of the capacitor."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "to decrease the capacitance."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "reduce the effective potential on plates."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "increase the effective potential on plates."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "When a dielectric is inserted between the plates of a capacitor, it becomes polarised. This creates an induced electric field opposite to the applied field, thereby reducing the effective electric field and hence the potential difference between the plates. Thus, the function of a dielectric is to reduce the effective potential on the plates. The correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "35"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The coefficient of mutual induction is 3H and induced e.m.f. across secondary is 4 kV. Current in primary is reduced from 7A to 2A. The time required for the change of current is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$3.75 \\times 10^{-3}$ s"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$2.5 \\times 10^{-3}$ s"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$4.5 \\times 10^{-3}$ s"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$3.5 \\times 10^{-3}$ s"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: $M = 3$ H, $E = 4$ kV $= 4000$ V, $\\Delta I = 7 - 2 = 5$ A.\n\nInduced emf due to mutual induction: $E = M \\frac{\\Delta I}{\\Delta t}$.\n\n$$\\Delta t = M \\frac{\\Delta I}{E} = \\frac{3 \\times 5}{4000} = \\frac{15}{4000} = 3.75 \\times 10^{-3} \\text{ s}$$\n\nFinal Answer: $$\\boxed{3.75 \\times 10^{-3} \\text{ s}}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "34"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A coil of $n$ turns and resistance $R\\Omega$ is connected in series with a resistance $R/4$. The combination is moved for time $t$ second through flux $\\Phi_1$ to $\\Phi_2$. The induced current in the circuit is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{4n(\\Phi_1 - \\Phi_2)}{5Rt}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{5n^2(\\Phi_1 - \\Phi_2)}{4Rt}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{2n(\\Phi_1 - \\Phi_2)}{3Rt}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{3n(\\Phi_1 - \\Phi_2)}{4Rt}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Induced emf in the coil: $\\mathcal{E} = -n \\frac{d\\Phi}{dt}$.\n\nMagnitude of emf: $\\mathcal{E} = n \\frac{\\Delta \\Phi}{\\Delta t} = n \\frac{\\Phi_1 - \\Phi_2}{t}$.\n\nTotal resistance in the circuit = $R + \\frac{R}{4} = \\frac{5R}{4}$.\n\nInduced current: $I = \\frac{\\mathcal{E}}{\\text{Total resistance}} = \\frac{n(\\Phi_1 - \\Phi_2)/t}{5R/4} = \\frac{4n(\\Phi_1 - \\Phi_2)}{5Rt}$.\n\nFinal Answer: $$\\boxed{\\frac{4n(\\Phi_1 - \\Phi_2)}{5Rt}}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}
