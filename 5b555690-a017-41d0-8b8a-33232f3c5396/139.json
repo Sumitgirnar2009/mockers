@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "139"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If ABCDEF is a regular hexagon and $\\overline{AB} + \\overline{AC} + \\overline{AD} + \\overline{AE} + \\overline{AF} = p \\overline{AD} = q \\overline{AO}$, where O is the center of the hexagon, then the values of $p$ and $q$ respectively are"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "2, 3"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "4, 6"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "3, 6"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "3, 5"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Let the center of the hexagon be the origin O. The position vectors of vertices A, B, C, D, E, F are denoted by $\\vec{a}, \\vec{b}, \\vec{c}, \\vec{d}, \\vec{e}, \\vec{f}$.\n\nIn a regular hexagon, the vertices are symmetrically placed, and the sum of all position vectors is zero:\n\n$$\\vec{a} + \\vec{b} + \\vec{c} + \\vec{d} + \\vec{e} + \\vec{f} = 0$$\n\nStep 2: The given sum is:\n\n$$S = \\overrightarrow{AB} + \\overrightarrow{AC} + \\overrightarrow{AD} + \\overrightarrow{AE} + \\overrightarrow{AF}$$\n\n$$= (\\vec{b} - \\vec{a}) + (\\vec{c} - \\vec{a}) + (\\vec{d} - \\vec{a}) + (\\vec{e} - \\vec{a}) + (\\vec{f} - \\vec{a})$$\n\n$$= (\\vec{b} + \\vec{c} + \\vec{d} + \\vec{e} + \\vec{f}) - 5\\vec{a}$$\n\nStep 3: Since the sum of all six position vectors is zero, $\\vec{b} + \\vec{c} + \\vec{d} + \\vec{e} + \\vec{f} = -\\vec{a}$.\n\nSo, $S = -\\vec{a} - 5\\vec{a} = -6\\vec{a}$.\n\nStep 4: Now, $\\overrightarrow{AD} = \\vec{d} - \\vec{a}$. In a regular hexagon, D is opposite to A, so $\\vec{d} = -\\vec{a}$. Thus $\\overrightarrow{AD} = -2\\vec{a}$.\n\nTherefore, $S = 3 \\cdot \\overrightarrow{AD} = 3(-2\\vec{a}) = -6\\vec{a}$.\n\nSo $p = 3$.\n\nAlso, $\\overrightarrow{AO} = \\vec{0} - \\vec{a} = -\\vec{a}$, so $S = 6 \\cdot \\overrightarrow{AO}$.\n\nThus $q = 6$.\n\nFinal Answer: $$\\boxed{3, 6}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

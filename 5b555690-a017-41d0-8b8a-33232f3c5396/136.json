@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "136"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If the differential equation $$\\begin{vmatrix} f(x) & f'(x) \\\\ f'(x) & f''(x) \\end{vmatrix} = 0$$ for all $x$ and $f(0) = 1, f'(0) = 2$, then"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$f'(x) = -f(x)$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$f'(x) = f(x)$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$f'(x) = 2f(x)$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$f'(x) = 0$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Expand the determinant.\n\n$$\\begin{vmatrix} f(x) & f'(x) \\\\ f'(x) & f''(x) \\end{vmatrix} = f(x) f''(x) - (f'(x))^2 = 0$$\n\nSo, $$f(x) f''(x) = (f'(x))^2$$\n\nStep 2: Rearrange the equation.\n\nDivide both sides by $f(x) f'(x)$:\n\n$$\\frac{f''(x)}{f'(x)} = \\frac{f'(x)}{f(x)}$$\n\nStep 3: Integrate both sides with respect to $x$.\n\n$$\\int \\frac{f''(x)}{f'(x)} \\, dx = \\int \\frac{f'(x)}{f(x)} \\, dx$$\n\n$$\\ln|f'(x)| = \\ln|f(x)| + C$$\n\nStep 4: Remove logarithms.\n\n$$f'(x) = k f(x)$$ where $k = e^C$ is a constant.\n\nStep 5: Use the given initial conditions $f(0) = 1$ and $f'(0) = 2$.\n\n$$2 = k \\cdot 1 \\Rightarrow k = 2$$\n\nStep 6: Therefore, $f'(x) = 2 f(x)$.\n\nFinal Answer: $$\\boxed{f'(x) = 2 f(x)}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

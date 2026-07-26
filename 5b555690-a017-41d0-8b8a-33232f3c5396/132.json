@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "132"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The value of the integral $$\\int_{-\\pi/2}^{\\pi/2} \\left( \\frac{x^2 \\cos x}{1 + e^x} \\right) dx$$ is equal to $$\\left( \\frac{\\pi^2}{A} \\right) - B.$$ Then $$\\left( \\frac{A}{B} \\right) =$$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$-2$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$2$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$6$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$-6$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Let $f(x) = \\frac{x^2 \\cos x}{1 + e^x}$.\n\nUsing the property $\\int_{-a}^{a} f(x) dx = \\frac{1}{2} \\int_{-a}^{a} [f(x) + f(-x)] dx$.\n\n$$f(-x) = \\frac{x^2 \\cos x}{1 + e^{-x}} = \\frac{x^2 \\cos x \\cdot e^x}{1 + e^x}$$\n\nSo, $f(x) + f(-x) = \\frac{x^2 \\cos x (1 + e^x)}{1 + e^x} = x^2 \\cos x$.\n\nThus,\n\n$$I = \\frac{1}{2} \\int_{-\\pi/2}^{\\pi/2} x^2 \\cos x \\, dx = \\int_{0}^{\\pi/2} x^2 \\cos x \\, dx.$$\n\nStep 2: Integrate by parts.\n\nLet $u = x^2$, $dv = \\cos x \\, dx \\Rightarrow du = 2x\\, dx$, $v = \\sin x$.\n\n$$I = \\left[ x^2 \\sin x \\right]_{0}^{\\pi/2} - \\int_{0}^{\\pi/2} 2x \\sin x \\, dx = \\frac{\\pi^2}{4} - 2 \\int_{0}^{\\pi/2} x \\sin x \\, dx.$$\n\nNow, $\\int x \\sin x \\, dx = -x\\cos x + \\sin x$.\n\n$$\\int_{0}^{\\pi/2} x \\sin x \\, dx = \\left[ -x\\cos x + \\sin x \\right]_{0}^{\\pi/2} = (0 + 1) - 0 = 1.$$\n\nThus,\n\n$$I = \\frac{\\pi^2}{4} - 2(1) = \\frac{\\pi^2}{4} - 2.$$\n\nSo $A = 4$, $B = 2$, hence $\\frac{A}{B} = 2$.\n\nFinal Answer: $$\\boxed{2}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

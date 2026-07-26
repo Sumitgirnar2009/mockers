@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "73"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following solutes has the ratio of theoretical molar mass to the experimentally observed molar mass is 3?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "KCl"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\mathrm{K_2SO_4}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\mathrm{MgSO_4}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\mathrm{Al_2(SO_4)_3}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: For electrolytes, the ratio of theoretical molar mass to observed molar mass is equal to the van't Hoff factor $i$, because $M_{\\text{theoretical}} / M_{\\text{observed}} = i$.\n\nStep 2: Calculate $i$ for each salt assuming complete dissociation:\n- KCl → K⁺ + Cl⁻ → $i = 2$\n- K₂SO₄ → 2K⁺ + SO₄²⁻ → $i = 3$\n- MgSO₄ → Mg²⁺ + SO₄²⁻ → $i = 2$\n- Al₂(SO₄)₃ → 2Al³⁺ + 3SO₄²⁻ → $i = 5$\n\nStep 3: The salt with $i = 3$ gives ratio = 3.\n\nThus, $\\mathrm{K_2SO_4}$ has the ratio 3.\n\nFinal Answer: $$\\boxed{\\mathrm{K_2SO_4}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "146"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The minimum value of $Z = 3x + y$, subject to the constraints $$2x + 3y \\leq 6, \\, x + y \\geq 1, \\, x \\geq 0, \\, y \\geq 0$$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "5"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "2"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "1"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "9"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Identify the corner points of the feasible region.\n\nThe constraints are:\n$2x + 3y \\leq 6$,\n$x + y \\geq 1$,\n$x \\geq 0,\\, y \\geq 0$.\n\nThe feasible region is a quadrilateral with vertices:\n- Intersection of $y = 0$ and $x + y = 1$: $(1, 0)$\n- Intersection of $y = 0$ and $2x + 3y = 6$: $(3, 0)$\n- Intersection of $x = 0$ and $2x + 3y = 6$: $(0, 2)$\n- Intersection of $x = 0$ and $x + y = 1$: $(0, 1)$\n\nStep 2: Evaluate $Z = 3x + y$ at each corner point.\n\nAt $(1, 0)$: $Z = 3(1) + 0 = 3$.\nAt $(3, 0)$: $Z = 3(3) + 0 = 9$.\nAt $(0, 2)$: $Z = 0 + 2 = 2$.\nAt $(0, 1)$: $Z = 0 + 1 = 1$.\n\nStep 3: The minimum value is $1$ at $(0, 1)$.\n\nFinal Answer: $$\\boxed{1}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

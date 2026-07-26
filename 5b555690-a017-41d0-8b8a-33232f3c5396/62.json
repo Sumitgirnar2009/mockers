@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "62"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify the strongest base according to Bronsted-Lowry theory from following."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\mathrm{Cl^-}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\mathrm{CH_3COO^-}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\mathrm{NO_3^-}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\mathrm{HSO_4^-}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "According to Bronsted-Lowry theory, a base is a species that can accept a proton. The strength of a base depends on its ability to accept protons.\n\n- $\\mathrm{Cl^-}$ is the conjugate base of a strong acid (HCl), so it is a very weak base.\n- $\\mathrm{CH_3COO^-}$ is the conjugate base of a weak acid (acetic acid), so it is a moderately strong base.\n- $\\mathrm{NO_3^-}$ is the conjugate base of a strong acid (HNO₃), so it is a very weak base.\n- $\\mathrm{HSO_4^-}$ is amphiprotic; it can act as an acid or base, but it is a weaker base compared to acetate.\n\nThus, the strongest base among the given is $\\mathrm{CH_3COO^-}$.\n\nFinal Answer: $$\\boxed{\\mathrm{CH_3COO^-}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

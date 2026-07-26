@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "97"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following is confirmed by the reaction of glucose with hydroxylamine?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Straight chain of six carbon atoms"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Carbonyl group"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Primary alcoholic group"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Secondary alcoholic group"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Glucose reacts with hydroxylamine ($\\mathrm{NH_2OH}$) to form an oxime.\n\nStep 2: This reaction is shown by compounds having a carbonyl group ($-\\mathrm{CHO}$ or $>\\mathrm{C=O}$).\n\nStep 3: For glucose, the reaction can be written as:\n\n$$\\mathrm{Glucose + NH_2OH \\rightarrow Glucose\\ oxime + H_2O}$$\n\nStep 4: Formation of oxime confirms the presence of a carbonyl group in glucose.\n\nFinal Answer: $$\\boxed{\\text{Carbonyl group}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "126"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $$\\int \\frac{1}{\\cos^3 x \\sqrt{\\sin 2x}} \\, dx = p (\\tan^2 x + q) \\sqrt{\\tan x} + c,$$ then the values of $p$ and $q$ respectively are"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$p = \\frac{\\sqrt{2}}{5}, q = \\frac{1}{5}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$p = \\frac{\\sqrt{2}}{3}, q = 3$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$p = \\frac{\\sqrt{2}}{5}, q = 5$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$p = \\frac{2}{\\sqrt{5}}, q = \\sqrt{5}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Let $t = \\tan x$. Then $\\cos x = \\frac{1}{\\sqrt{1+t^2}}$, $\\sin 2x = \\frac{2t}{1+t^2}$, and $dx = \\frac{dt}{1+t^2}$.\n\nStep 2: Substitute into the integral:\n\n$$I = \\int \\frac{1}{\\cos^3 x \\sqrt{\\sin 2x}} \\, dx$$\n\n$$= \\int \\frac{1}{(1+t^2)^{-3/2} \\cdot \\sqrt{\\frac{2t}{1+t^2}}} \\cdot \\frac{dt}{1+t^2}$$\n\nSimplify: $\\cos^3 x = (1+t^2)^{-3/2}$, $\\sqrt{\\sin 2x} = \\frac{\\sqrt{2t}}{\\sqrt{1+t^2}}$.\n\nDenominator = $(1+t^2)^{-3/2} \\cdot \\frac{\\sqrt{2t}}{\\sqrt{1+t^2}} = \\sqrt{2t} \\cdot (1+t^2)^{-2}$.\n\nSo integrand becomes $\\frac{(1+t^2)^2}{\\sqrt{2t}} \\cdot \\frac{dt}{1+t^2} = \\frac{1+t^2}{\\sqrt{2t}} \\, dt$.\n\nStep 3: Integrate:\n\n$$I = \\frac{1}{\\sqrt{2}} \\int (t^{-1/2} + t^{3/2}) \\, dt$$\n\n$$= \\frac{1}{\\sqrt{2}} \\left( 2t^{1/2} + \\frac{2}{5}t^{5/2} \\right) + c$$\n\n$$= \\frac{2}{\\sqrt{2}} t^{1/2} \\left( 1 + \\frac{t^2}{5} \\right) + c = \\sqrt{2} \\sqrt{t} \\left( \\frac{5 + t^2}{5} \\right) + c$$\n\n$$= \\frac{\\sqrt{2}}{5} \\sqrt{t} (t^2 + 5) + c$$\n\nStep 4: Comparing with the given form $p (\\tan^2 x + q) \\sqrt{\\tan x} + c$, we get $p = \\frac{\\sqrt{2}}{5}$ and $q = 5$.\n\nFinal Answer: $$\\boxed{p = \\frac{\\sqrt{2}}{5}, q = 5}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

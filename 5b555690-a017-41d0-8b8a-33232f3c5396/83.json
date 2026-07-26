@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "83"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following factors may be regarded as the main cause of lanthanide contraction?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Poor shielding of one of 4f electron by another in the sub-shell."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Effective shielding of one of 4f electrons by another in the subshell."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Poorer shielding of 5d electrons by 4f electrons"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Greater shielding of 5d electrons by 4f electrons"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Lanthanide contraction is primarily due to the poor shielding effect of one 4f electron on another 4f electron in the same subshell. As the nuclear charge increases across the lanthanide series, the 4f electrons do not effectively shield each other, causing a steady decrease in ionic radius. Hence, the correct answer is option A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

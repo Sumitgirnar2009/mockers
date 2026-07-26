@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "74"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The molar conductivity of 0.01 M monobasic acid at 25 °C is 15 ohm⁻¹ cm² mol⁻¹. The molar conductivity of the same acid at infinite dilution is 375 ohm⁻¹ cm² mol⁻¹. Calculate [H⁺] in solution."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$2.0 \\times 10^{-4}$ M"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$3.0 \\times 10^{-4}$ M"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$4.0 \\times 10^{-4}$ M"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$5.0 \\times 10^{-4}$ M"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Degree of dissociation $\\alpha = \\frac{\\Lambda_m}{\\Lambda_m^\\infty} = \\frac{15}{375} = 0.04$.\n\nStep 2: For a monobasic acid HA, $\\mathrm{HA \\rightleftharpoons H^+ + A^-}$. The concentration of H⁺ = $C \\times \\alpha$.\n\nStep 3: Given $C = 0.01$ M, $\\alpha = 0.04$.\n\n$$[\\mathrm{H^+}] = 0.01 \\times 0.04 = 4 \\times 10^{-4} \\text{ M}$$\n\nFinal Answer: $$\\boxed{4.0 \\times 10^{-4} \\text{ M}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

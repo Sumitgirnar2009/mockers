@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "87"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following halogen derivative forms a poisonous phosgene, when comes in contact with air and light?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\mathrm{CHCl_3}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\mathrm{PCl_3}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\mathrm{C_6H_5Cl}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\mathrm{CH_2Cl_2}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: $\\mathrm{CHCl_3}$ is called chloroform.\n\nStep 2: When chloroform is exposed to air and light, it slowly gets oxidised to form phosgene ($\\mathrm{COCl_2}$), which is a highly poisonous gas.\n\nThe reaction is:\n\n$$2\\mathrm{CHCl_3} + \\mathrm{O_2} \\xrightarrow{\\text{light}} 2\\mathrm{COCl_2} + 2\\mathrm{HCl}$$\n\nStep 3: That is why chloroform is stored in dark-coloured bottles and a small amount of ethanol is added to it. Ethanol helps to convert poisonous phosgene into a harmless compound.\n\nFinal Answer: $$\\boxed{\\mathrm{CHCl_3}}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

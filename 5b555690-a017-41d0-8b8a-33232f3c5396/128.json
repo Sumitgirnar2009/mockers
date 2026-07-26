@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "128"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "$$\\int \\frac{\\sqrt{x-2}}{x} \\, dx =$$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$2\\sqrt{x-2} - 2\\sqrt{2}\\tan^{-1}\\left(\\dfrac{\\sqrt{x-2}}{\\sqrt{2}}\\right) + c$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$2\\sqrt{x-2} + 2\\sqrt{2}\\tan^{-1}\\left(\\dfrac{\\sqrt{x-2}}{\\sqrt{2}}\\right) + c$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$2\\sqrt{x-2} - 2\\sqrt{2}\\tan^{-1}\\left(\\dfrac{\\sqrt{x-2}}{2}\\right) + c$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$2\\sqrt{x-2} + 2\\sqrt{2}\\tan^{-1}\\left(\\dfrac{\\sqrt{x-2}}{2}\\right) + c$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Substitute $u = \\sqrt{x-2}$, so $x = u^2 + 2$ and $dx = 2u \\, du$.\n\nStep 2: Rewrite the integral:\n\n$$\\int \\frac{\\sqrt{x-2}}{x} \\, dx = \\int \\frac{u}{u^2+2} \\cdot 2u \\, du = \\int \\frac{2u^2}{u^2+2} \\, du.$$\n\nStep 3: Simplify using division:\n\n$$\\frac{2u^2}{u^2+2} = 2 - \\frac{4}{u^2+2}.$$\n\nSo the integral becomes:\n\n$$\\int \\left(2 - \\frac{4}{u^2+2}\\right) du = 2u - 4\\int \\frac{1}{u^2 + (\\sqrt{2})^2} \\, du.$$\n\nStep 4: Use the standard formula $\\int \\dfrac{1}{u^2+a^2} du = \\dfrac{1}{a}\\tan^{-1}\\left(\\dfrac{u}{a}\\right)$ with $a = \\sqrt{2}$:\n\n$$2u - 4 \\cdot \\frac{1}{\\sqrt{2}} \\tan^{-1}\\left(\\frac{u}{\\sqrt{2}}\\right) + c = 2u - 2\\sqrt{2}\\tan^{-1}\\left(\\frac{u}{\\sqrt{2}}\\right) + c.$$\n\nStep 5: Substitute back $u = \\sqrt{x-2}$:\n\n$$2\\sqrt{x-2} - 2\\sqrt{2}\\tan^{-1}\\left(\\frac{\\sqrt{x-2}}{\\sqrt{2}}\\right) + c.$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

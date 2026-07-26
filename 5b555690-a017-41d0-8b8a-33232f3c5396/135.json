@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "135"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The solution of the differential equation $$\\frac{dy}{dx} = e^{x-y} + x^2 e^{-y}$$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$y = e^x + c$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$e^y = e^x + x^3 + c$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$e^y = e^x + \\frac{x^3}{3} + c$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$e^y = e^x + 2x + c$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: The given equation is $\\frac{dy}{dx} = e^{x-y} + x^2 e^{-y}$.\n\nFactor $e^{-y}$: $\\frac{dy}{dx} = e^{-y} (e^x + x^2)$.\n\nStep 2: Multiply both sides by $e^y$: $e^y \\frac{dy}{dx} = e^x + x^2$.\n\nStep 3: Integrate both sides with respect to $x$:\n\n$$\\int e^y \\, dy = \\int (e^x + x^2) \\, dx$$\n\n$$e^y = e^x + \\frac{x^3}{3} + c.$$\n\nFinal Answer: $$\\boxed{e^y = e^x + \\frac{x^3}{3} + c}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

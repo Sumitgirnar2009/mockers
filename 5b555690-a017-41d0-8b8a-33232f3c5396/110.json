@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "110"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If the line $4x + 3y = 7$ touches the hyperbola $x^2 - y^2 = 7$, then the sum of the co-ordinates of the point of contact is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "4"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "7"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "1"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "0"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: The line is $4x + 3y = 7 \\Rightarrow y = -\\frac{4}{3}x + \\frac{7}{3}$.\n\nSo, $m = -\\frac{4}{3}$, $c = \\frac{7}{3}$.\n\nStep 2: For the hyperbola $x^2 - y^2 = 7$, $a^2 = 7$, $b^2 = 7$.\n\nThe condition for a line $y = mx + c$ to be tangent to $x^2 - y^2 = 7$ is $c^2 = a^2 m^2 - b^2$.\n\nCheck: $c^2 = \\left(\\frac{7}{3}\\right)^2 = \\frac{49}{9}$.\n\n$a^2 m^2 - b^2 = 7 \\times \\frac{16}{9} - 7 = \\frac{112}{9} - \\frac{63}{9} = \\frac{49}{9}$.\n\nSo the line is indeed a tangent.\n\nStep 3: The tangent to the hyperbola at $(x_1, y_1)$ is $xx_1 - yy_1 = 7$.\n\nGiven tangent is $4x + 3y = 7$.\n\nComparing, we get $\\frac{x_1}{4} = \\frac{-y_1}{3} = \\frac{7}{7} = 1$.\n\nThus $x_1 = 4$, $-y_1 = 3 \\Rightarrow y_1 = -3$.\n\nStep 4: Sum of coordinates = $4 + (-3) = 1$.\n\nFinal Answer: $$\\boxed{1}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "92"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following statements is true regarding Cannizzaro reaction?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Some aldehydes are converted to the respective alcohols and the salt of the respective carboxylic acid."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Alcohol is converted into aldehyde"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Primary amine is converted into isocyanide"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Acid is converted into amine"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: In the Cannizzaro reaction, aldehydes that do not have an α‑hydrogen atom undergo disproportionation in the presence of concentrated alkali like $\\mathrm{NaOH}$ or $\\mathrm{KOH}$.\n\nStep 2: One molecule of the aldehyde gets reduced to alcohol, and another molecule gets oxidised to the salt of the corresponding carboxylic acid.\n\nExample: $2\\mathrm{HCHO} + \\mathrm{NaOH} \\rightarrow \\mathrm{CH_3OH} + \\mathrm{HCOONa}$.\n\nStep 3: Thus, the true statement is that some aldehydes are converted to the respective alcohols and the salt of the respective carboxylic acid.\n\nFinal Answer: $$\\boxed{\\text{Some aldehydes are converted to the respective alcohols and the salt of the respective carboxylic acid.}}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

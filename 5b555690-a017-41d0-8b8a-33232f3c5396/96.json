@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "96"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which component of DNA carries genetic information?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Phosphate group"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Sugar backbone"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Sequence of nitrogenous bases"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Hydrogen bonds"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: In DNA, the genetic information is stored in the order of nitrogenous bases.\n\nStep 2: DNA has four nitrogenous bases: Adenine (A), Thymine (T), Guanine (G), and Cytosine (C).\n\nStep 3: The sequence of these bases forms genetic instructions (like ATG, GCA, etc.).\n\nStep 4: The sugar and phosphate groups form the backbone of DNA, mainly giving structure and support. Hydrogen bonds hold the two DNA strands together, but they do not carry genetic information.\n\nFinal Answer: $$\\boxed{\\text{Sequence of nitrogenous bases}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

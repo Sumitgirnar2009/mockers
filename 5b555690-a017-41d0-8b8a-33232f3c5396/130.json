@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "130"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If an antiderivative of $f(x)$ is $e^x$ and an antiderivative of $g(x)$ is $\\cos x$, then $$\\int f(x) \\cos x \\, dx + \\int g(x) e^x \\, dx =$$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$e^x \\sin x + c$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$e^x (f(x) + g(x)) + c$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$e^x \\cos x + c$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$e^x + c$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Given that an antiderivative of $f(x)$ is $e^x$. This means $\\int f(x) \\, dx = e^x$, so $f(x) = \\frac{d}{dx}(e^x) = e^x$.\n\nStep 2: Given that an antiderivative of $g(x)$ is $\\cos x$. This means $\\int g(x) \\, dx = \\cos x$, so $g(x) = \\frac{d}{dx}(\\cos x) = -\\sin x$.\n\nStep 3: Evaluate the given expression:\n\n$$\\int f(x) \\cos x \\, dx + \\int g(x) e^x \\, dx = \\int e^x \\cos x \\, dx + \\int (-\\sin x) e^x \\, dx$$\n\n$$= \\int e^x \\cos x \\, dx - \\int e^x \\sin x \\, dx.$$\n\nStep 4: Using the standard integrals: $\\int e^x \\cos x \\, dx = \\frac{e^x}{2}(\\cos x + \\sin x)$ and $\\int e^x \\sin x \\, dx = \\frac{e^x}{2}(\\sin x - \\cos x)$.\n\nSubtracting: $\\frac{e^x}{2}(\\cos x + \\sin x) - \\frac{e^x}{2}(\\sin x - \\cos x) = \\frac{e^x}{2}(\\cos x + \\sin x - \\sin x + \\cos x) = \\frac{e^x}{2}(2\\cos x) = e^x \\cos x$.\n\nThus, the expression equals $e^x \\cos x + c$.\n\nFinal Answer: $$\\boxed{e^x \\cos x + c}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

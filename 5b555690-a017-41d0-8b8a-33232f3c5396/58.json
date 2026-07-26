@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "58"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following processes has $\\Delta S$ negative?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Dissolving Sugar in Water"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Adsorption of a Gas on a Solid Surface"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$2\\mathrm{NH_3}(g) \\rightarrow \\mathrm{N_2}(g) + 3\\mathrm{H_2}(g)$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Sublimation of Dry Ice"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Entropy ($\\Delta S$) is a measure of disorder. Processes that lead to more ordered states have negative $\\Delta S$.\n\n- Dissolving sugar in water increases disorder → $\\Delta S > 0$.\n- Adsorption of a gas on a solid surface: gas molecules become confined to a surface, decreasing randomness → $\\Delta S < 0$.\n- $2\\mathrm{NH_3}(g) \\rightarrow \\mathrm{N_2}(g) + 3\\mathrm{H_2}(g)$: number of gas moles increases from 2 to 4 → $\\Delta S > 0$.\n- Sublimation of dry ice: solid → gas → $\\Delta S > 0$.\n\nThus, only adsorption of a gas on a solid surface has $\\Delta S < 0$.\n\nFinal Answer: $$\\boxed{\\text{Adsorption of a Gas on a Solid Surface}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

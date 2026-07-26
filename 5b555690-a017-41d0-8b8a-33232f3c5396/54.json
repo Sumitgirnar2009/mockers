@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "54"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "What happens to the size of atoms in p-block elements when we move from left to right in the same period?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Size does not change"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Size increases then decreases"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Size increases"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Size decreases"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "In p-block elements, as we move from left to right across a period, the nuclear charge increases while the number of shells remains the same. This results in a greater attraction of the electrons towards the nucleus, causing the atomic size (covalent radius) to decrease. Thus, the size of atoms decreases.\n\nFinal Answer: $$\\boxed{\\text{Size decreases}}$$\n\nHence, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

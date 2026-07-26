@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "103"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In $\\triangle ABC$, with the usual notations, $\\angle C = 90^\\circ$, then $\\sin(A - B)$ is equal to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{a^2 + b^2}{a^2 - b^2}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{a^2 + c^2}{a^2 - c^2}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{b^2 + c^2}{b^2 - c^2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{a^2 - b^2}{a^2 + b^2}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: In a right-angled triangle with $\\angle C = 90^\\circ$, $c$ is the hypotenuse.\n\n$$\\sin A = \\frac{a}{c}, \\quad \\cos A = \\frac{b}{c}$$\n\n$$\\sin B = \\frac{b}{c}, \\quad \\cos B = \\frac{a}{c}$$\n\nStep 2: Use the identity $\\sin(A - B) = \\sin A \\cos B - \\cos A \\sin B$.\n\n$$\\sin(A - B) = \\frac{a}{c} \\cdot \\frac{a}{c} - \\frac{b}{c} \\cdot \\frac{b}{c} = \\frac{a^2 - b^2}{c^2}$$\n\nStep 3: Since $\\angle C = 90^\\circ$, by Pythagoras theorem $c^2 = a^2 + b^2$.\n\n$$\\sin(A - B) = \\frac{a^2 - b^2}{a^2 + b^2}$$\n\nFinal Answer: $$\\boxed{\\frac{a^2 - b^2}{a^2 + b^2}}$$\n\nHence, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

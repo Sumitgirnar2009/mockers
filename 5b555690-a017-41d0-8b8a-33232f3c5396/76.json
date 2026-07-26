@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "76"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The molar conductivity of 0.04 M AB₂ type salt solution at 300 K is 200 $\\Omega^{-1}$ cm² mol⁻¹. Find the conductivity."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$0.006\\ \\Omega^{-1}\\ \\text{cm}^{-1}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$0.008\\ \\Omega^{-1}\\ \\text{cm}^{-1}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$0.01\\ \\Omega^{-1}\\ \\text{cm}^{-1}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$0.015\\ \\Omega^{-1}\\ \\text{cm}^{-1}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: The relationship between molar conductivity ($\\Lambda_m$) and conductivity ($\\kappa$) is:\n\n$$\\Lambda_m = \\frac{\\kappa}{C}$$\n\nwhere $C$ is the concentration in mol/cm³.\n\nStep 2: Convert concentration from mol/L to mol/cm³:\n\n$$C = 0.04 \\text{ mol L}^{-1} = 0.04 \\times 10^{-3} \\text{ mol cm}^{-3} = 4 \\times 10^{-5} \\text{ mol cm}^{-3}$$\n\nStep 3: Rearrange and solve for $\\kappa$:\n\n$$\\kappa = \\Lambda_m \\times C = 200 \\times 4 \\times 10^{-5} = 8 \\times 10^{-3} \\ \\Omega^{-1} \\text{cm}^{-1} = 0.008 \\ \\Omega^{-1} \\text{cm}^{-1}$$\n\nFinal Answer: $$\\boxed{0.008\\ \\Omega^{-1}\\ \\text{cm}^{-1}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

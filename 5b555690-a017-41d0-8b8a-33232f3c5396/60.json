@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "60"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The dissociation constant of weak acid HA is $1.5 \\times 10^{-5}$. Find the percent dissociation, containing 0.2 moles per 2 liters of solution."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1.22%"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "1.18%"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "1.14%"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "1.26%"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Calculate molarity of the solution.\n\n$$C = \\frac{0.2 \\text{ mol}}{2 \\text{ L}} = 0.1 \\text{ M}$$\n\nStep 2: For a weak acid, $K_a = C \\alpha^2$ (assuming $\\alpha$ is small).\n\n$$\\alpha = \\sqrt{\\frac{K_a}{C}} = \\sqrt{\\frac{1.5 \\times 10^{-5}}{0.1}} = \\sqrt{1.5 \\times 10^{-4}} = 0.012247$$\n\nStep 3: Percent dissociation = $\\alpha \\times 100 = 1.2247\\% \\approx 1.22\\%$.\n\nFinal Answer: $$\\boxed{1.22\\%}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "100"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following cleansing agents contains cationic detergent?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Hair conditioner"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Liquid detergent"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Household detergent"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Toothpaste"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Cationic detergents are generally quaternary ammonium salts. Their positively charged part is active in cleansing and conditioning.\n\nStep 2: Hair conditioners contain cationic detergents because hair usually becomes negatively charged after washing. The positively charged cationic detergent sticks to the hair surface and makes it smooth and manageable.\n\nStep 3: Liquid detergents and household detergents are usually anionic or non-ionic. Toothpaste may contain anionic detergents.\n\nFinal Answer: $$\\boxed{\\text{Hair conditioner}}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

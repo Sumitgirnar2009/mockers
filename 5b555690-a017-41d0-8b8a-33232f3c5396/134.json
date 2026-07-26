@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "134"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If the area bounded by the curve $x^2 = by$ and the lines $y = 1, y = 4$ in the first quadrant is 28 sq. units, then the value of $b$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "36"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "6"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "9"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "3"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: The curve is $x^2 = by \\Rightarrow x = \\sqrt{by}$ in the first quadrant.\n\nArea = $\\int_{1}^{4} x \\, dy = \\int_{1}^{4} \\sqrt{by} \\, dy = \\sqrt{b} \\int_{1}^{4} y^{1/2} \\, dy$.\n\nStep 2: Evaluate the integral:\n\n$$\\int_{1}^{4} y^{1/2} \\, dy = \\left[ \\frac{2}{3} y^{3/2} \\right]_{1}^{4} = \\frac{2}{3}(4^{3/2} - 1) = \\frac{2}{3}(8 - 1) = \\frac{14}{3}.$$\n\nSo Area = $\\sqrt{b} \\cdot \\frac{14}{3}$.\n\nStep 3: Given area = 28:\n\n$$\\frac{14}{3} \\sqrt{b} = 28 \\Rightarrow \\sqrt{b} = 28 \\times \\frac{3}{14} = 6 \\Rightarrow b = 36.$$\n\nFinal Answer: $$\\boxed{36}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

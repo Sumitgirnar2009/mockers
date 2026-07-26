@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "55"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following order of dipole moment for stated molecules is correct?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\mathrm{BF_3} > \\mathrm{NF_3} > \\mathrm{NH_3}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\mathrm{NF_3} > \\mathrm{BF_3} > \\mathrm{NH_3}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\mathrm{NH_3} > \\mathrm{BF_3} > \\mathrm{NF_3}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\mathrm{NH_3} > \\mathrm{NF_3} > \\mathrm{BF_3}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "BF₃ is a planar molecule with zero net dipole moment because the three B–F bond dipoles cancel each other.\n\nNF₃ has a lone pair on nitrogen, but the bond dipoles are directed towards fluorine, while the lone pair is on nitrogen. The net dipole moment of NF₃ is less than that of NH₃ because the bond dipoles in NF₃ are oriented such that they partially oppose the lone pair contribution, whereas in NH₃ the bond dipoles add to the lone pair dipole.\n\nThe dipole moments are: NH₃ ≈ 1.47 D, NF₃ ≈ 0.24 D, BF₃ = 0.\n\nThus the correct order is NH₃ > NF₃ > BF₃.\n\nFinal Answer: $$\\boxed{\\mathrm{NH_3} > \\mathrm{NF_3} > \\mathrm{BF_3}}$$\n\nHence, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

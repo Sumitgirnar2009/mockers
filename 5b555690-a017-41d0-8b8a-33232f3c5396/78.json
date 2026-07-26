@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "78"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The rate of the reaction $2A + 3B \\rightarrow 2C + D$ is $6 \\times 10^{-4}$ mol dm⁻³ s⁻¹, when $[A] = [B] = 0.3$ mol dm⁻³. If the reaction is of first order for A and zeroth order for B, then find the rate constant."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$1 \\times 10^{-3}$ s⁻¹"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$2 \\times 10^{-3}$ s⁻¹"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$3 \\times 10^{-3}$ s⁻¹"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$4 \\times 10^{-3}$ s⁻¹"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: The rate law is given as rate = $k [A]^1 [B]^0 = k [A]$.\n\nStep 2: Substitute the given values: rate = $6 \\times 10^{-4}$ mol dm⁻³ s⁻¹, $[A] = 0.3$ mol dm⁻³.\n\n$$6 \\times 10^{-4} = k \\times 0.3$$\n\nStep 3: Solve for $k$:\n\n$$k = \\frac{6 \\times 10^{-4}}{0.3} = 2 \\times 10^{-3} \\text{ s}^{-1}$$\n\nFinal Answer: $$\\boxed{2 \\times 10^{-3} \\text{ s}^{-1}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

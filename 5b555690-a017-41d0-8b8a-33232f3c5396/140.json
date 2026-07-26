@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "140"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The vector $\\vec{r}$ whose magnitude is $3\\sqrt{2}$ units and which makes angles of $\\frac{\\pi}{4}$ and $\\frac{\\pi}{2}$ with the positive y- and z-axes respectively is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\hat{i} \\pm 3\\hat{j}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\hat{i} \\pm \\hat{j}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$-\\hat{i} \\pm \\hat{j}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\pm 3\\hat{i} + 3\\hat{j}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: The vector makes angle $\\frac{\\pi}{2}$ with the z-axis, so its z-component is 0.\n\nLet $\\vec{r} = x\\hat{i} + y\\hat{j}$.\n\nStep 2: The angle with the y-axis is $\\frac{\\pi}{4}$, so $\\cos\\frac{\\pi}{4} = \\frac{y}{|\\vec{r}|}$.\n\n$$\\frac{1}{\\sqrt{2}} = \\frac{y}{3\\sqrt{2}} \\Rightarrow y = 3$$\n\nStep 3: Magnitude: $|\\vec{r}|^2 = x^2 + y^2 = (3\\sqrt{2})^2 = 18$.\n\n$$x^2 + 9 = 18 \\Rightarrow x^2 = 9 \\Rightarrow x = \\pm 3$$\n\nThus $\\vec{r} = \\pm 3\\hat{i} + 3\\hat{j}$.\n\nFinal Answer: $$\\boxed{\\pm 3\\hat{i} + 3\\hat{j}}$$\n\nHence, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "68"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "An element crystallises in fcc unit cell with cell edge length of $3.608 \\times 10^{-8}$ cm, the density of element is $8.92$ g cm⁻³. Calculate the atomic mass of element ($N_A = 6.022 \\times 10^{23}$)."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "60 g/mol"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "65 g/mol"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "63 g/mol"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "108 g/mol"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: For fcc unit cell, number of atoms per unit cell $Z = 4$.\n\nStep 2: Density formula: $d = \\frac{Z \\times M}{a^3 \\times N_A}$.\n\nStep 3: Rearrange to find molar mass $M$:\n\n$$M = \\frac{d \\times a^3 \\times N_A}{Z}$$\n\nStep 4: Substitute the given values:\n\n$d = 8.92$ g/cm³, $a = 3.608 \\times 10^{-8}$ cm, $N_A = 6.022 \\times 10^{23}$.\n\n$$a^3 = (3.608 \\times 10^{-8})^3 = 4.7 \\times 10^{-23} \\text{ cm}^3$$\n\n$$M = \\frac{8.92 \\times 4.7 \\times 10^{-23} \\times 6.022 \\times 10^{23}}{4}$$\n\n$$M = \\frac{8.92 \\times 4.7 \\times 6.022}{4} = \\frac{252.5}{4} \\approx 63.1 \\text{ g/mol}$$\n\nFinal Answer: $$\\boxed{63 \\text{ g/mol}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

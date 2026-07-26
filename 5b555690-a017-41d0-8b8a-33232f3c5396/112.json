@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "112"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The dual of the converse of the inverse of the logical statement $p \\to (q \\to r)$ is equivalent to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\sim [p \\lor (r \\to q)]$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$p \\lor (r \\to q)$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\sim [p \\lor (q \\to r)]$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$p \\lor (q \\to r)$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Original statement is $p \\to (q \\to r)$.\n\nStep 2: Inverse of $p \\to (q \\to r)$ is $\\sim p \\to \\sim(q \\to r)$.\n\nStep 3: Converse of the inverse is $\\sim(q \\to r) \\to \\sim p$.\n\nStep 4: Simplify the converse of the inverse.\n\n$\\sim(q \\to r) \\equiv q \\land \\sim r$.\n\nSo the statement becomes $(q \\land \\sim r) \\to \\sim p$.\n\nThis is equivalent to $\\sim(q \\land \\sim r) \\lor \\sim p = (\\sim q \\lor r) \\lor \\sim p = \\sim p \\lor \\sim q \\lor r$.\n\nStep 5: Find the dual of $\\sim p \\lor \\sim q \\lor r$.\n\nThe dual is obtained by replacing $\\lor$ with $\\land$ and $\\land$ with $\\lor$. Since we only have $\\lor$, the dual is $\\sim p \\land \\sim q \\land r$.\n\nStep 6: Express $\\sim p \\land \\sim q \\land r$ in the form of the options.\n\n$\\sim p \\land \\sim q \\land r = \\sim [p \\lor q \\lor \\sim r]$.\n\nNow $q \\lor \\sim r$ is equivalent to $r \\to q$. So $\\sim [p \\lor (r \\to q)]$.\n\nThus the dual is equivalent to $\\sim [p \\lor (r \\to q)]$.\n\nFinal Answer: $$\\boxed{\\sim [p \\lor (r \\to q)]}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

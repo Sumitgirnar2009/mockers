@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "143"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "For the line $$\\frac{x+1}{1} = \\frac{y-2}{2} = \\frac{z+3}{3},$$ identify the incorrect statement among the following."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "It can be represented by equation $$\\frac{x+2}{1} = \\frac{y}{2} = \\frac{z+6}{3}$$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "It lies in the plane $x - 2y + z + 8 = 0$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "It is perpendicular to the plane $x - 2y + z = 0$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "It passes through point $(0, 4, 0)$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: The line passes through $(-1, 2, -3)$ with direction ratios $(1, 2, 3)$.\n\nCheck A: $(x+2)/1 = y/2 = (z+6)/3$ passes through $(-2, 0, -6)$. On the original line, $t = -1$ gives $(-2, 0, -6)$. So A is true.\n\nCheck B: Plane normal $(1, -2, 1)$. Dot with line direction: $1(1) + (-2)(2) + 1(3) = 0$. Line is parallel to plane. Point $(-1,2,-3)$ satisfies: $-1 -4 -3 + 8 = 0$. So line lies in plane. B is true.\n\nCheck C: For a line to be perpendicular to a plane, its direction must be parallel to the plane's normal. Here direction $(1,2,3)$ is not parallel to $(1,-2,1)$. So C is false.\n\nCheck D: $(0,4,0)$: $t = 1$ gives $(0,4,0)$. D is true.\n\nThus the incorrect statement is C.\n\nFinal Answer: $$\\boxed{\\text{It is perpendicular to the plane } x - 2y + z = 0}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

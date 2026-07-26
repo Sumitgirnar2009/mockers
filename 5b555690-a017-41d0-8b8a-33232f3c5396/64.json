@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "64"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify the compound formed when But-2-ene is treated with $\\mathrm{KMnO_4}$ in dilute $\\mathrm{H_2SO_4}$."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Butanoic acid"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Acetic acid"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Butanal"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Butanol"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: But-2-ene has the structure $\\mathrm{CH_3-CH=CH-CH_3}$.\n\nStep 2: When an alkene is treated with $\\mathrm{KMnO_4}$ in dilute $\\mathrm{H_2SO_4}$, it undergoes oxidative cleavage of the double bond. The double bond breaks and the carbon atoms are oxidised to carboxylic acids.\n\nStep 3: For a symmetrical alkene like but-2-ene, the double bond is cleaved to give two molecules of the same carboxylic acid. Each carbon of the double bond bears a $\\mathrm{CH_3}$ group, so each forms $\\mathrm{CH_3COOH}$ (acetic acid).\n\n$$\\mathrm{CH_3-CH=CH-CH_3 \\xrightarrow{KMnO_4/H_2SO_4} 2CH_3COOH}$$\n\nStep 4: Thus, the product formed is acetic acid.\n\nFinal Answer: $$\\boxed{\\text{Acetic acid}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

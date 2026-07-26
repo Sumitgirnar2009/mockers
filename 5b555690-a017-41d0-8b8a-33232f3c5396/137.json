@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "137"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The solution of the differential equation $x^2 \\frac{dy}{dx} - xy = 1$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$2xy - 2cx^2 - 1 = 0$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$2xy + 2cx^2 + 1 = 0$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$2xy - 2cx^2 + 1 = 0$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$2x^2y - 2cx + 1 = 0$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Divide the equation by $x^2$:\n\n$$\\frac{dy}{dx} - \\frac{1}{x} y = \\frac{1}{x^2}$$\n\nStep 2: This is a linear differential equation. Integrating factor $I = e^{\\int -\\frac{1}{x} dx} = e^{-\\ln x} = \\frac{1}{x}$.\n\nStep 3: Multiply through by the integrating factor:\n\n$$\\frac{1}{x} \\frac{dy}{dx} - \\frac{1}{x^2} y = \\frac{1}{x^3}$$\n\n$$\\frac{d}{dx} \\left( \\frac{y}{x} \\right) = \\frac{1}{x^3}$$\n\nStep 4: Integrate both sides:\n\n$$\\frac{y}{x} = \\int \\frac{1}{x^3} \\, dx = -\\frac{1}{2x^2} + c$$\n\nStep 5: Multiply by $2x$:\n\n$$2y = -\\frac{1}{x} + 2cx$$\n\n$$2xy = -1 + 2cx^2$$\n\n$$2xy - 2cx^2 + 1 = 0$$\n\nFinal Answer: $$\\boxed{2xy - 2cx^2 + 1 = 0}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

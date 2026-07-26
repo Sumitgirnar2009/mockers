@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "144"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The equation of the plane containing the lines $$\\dfrac{x-1}{2} = \\dfrac{y+1}{\\lambda} = \\dfrac{z}{2} \\quad \\text{and} \\quad \\dfrac{x+1}{5} = \\dfrac{y+1}{2} = \\dfrac{z}{\\lambda}$$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$x \\pm y + 1 = 0$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$y \\pm z + 1 = 0$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$x \\pm z + 1 = 0$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$y \\pm z - 1 = 0$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: The first line passes through $(1, -1, 0)$ with direction $d_1 = (2, \\lambda, 2)$.\n\nThe second line passes through $(-1, -1, 0)$ with direction $d_2 = (5, 2, \\lambda)$.\n\nStep 2: The vector connecting the two points is $\\vec{v} = (-1-1, -1-(-1), 0-0) = (-2, 0, 0)$.\n\nStep 3: For the lines to be coplanar, the scalar triple product must vanish:\n\n$$\\begin{vmatrix} -2 & 0 & 0 \\\\ 2 & \\lambda & 2 \\\\ 5 & 2 & \\lambda \\end{vmatrix} = 0$$\n\nExpanding along the first row:\n\n$$-2(\\lambda^2 - 4) = 0 \\implies \\lambda^2 = 4 \\implies \\lambda = \\pm 2.$$\n\nStep 4: Case $\\lambda = 2$: $d_1 = (2,2,2) \\parallel (1,1,1)$, $d_2 = (5,2,2)$.\n\nNormal vector $\\vec{n} = d_1 \\times d_2 = (1\\cdot2 - 1\\cdot2,\\ 1\\cdot5 - 1\\cdot2,\\ 1\\cdot2 - 1\\cdot5)$ computed properly gives $\\vec{n} = (0, 3, -3) \\parallel (0, 1, -1)$.\n\nUsing point $(1,-1,0)$: $0(x-1) + 1(y+1) - 1(z-0) = 0 \\implies y - z + 1 = 0.$\n\nStep 5: Case $\\lambda = -2$: $d_1 = (2,-2,2) \\parallel (1,-1,1)$, $d_2 = (5,2,-2)$.\n\nNormal vector $\\vec{n} = d_1 \\times d_2 = (0, 7, 7) \\parallel (0,1,1)$.\n\nUsing point $(1,-1,0)$: $0(x-1) + 1(y+1) + 1(z-0) = 0 \\implies y + z + 1 = 0.$\n\nStep 6: Combining both cases, the plane equation is $y \\pm z + 1 = 0$.\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

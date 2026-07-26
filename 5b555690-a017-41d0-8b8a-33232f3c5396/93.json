@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "93"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Aldehydes are more reactive than ketones towards nucleophilic attack because of?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "less steric hindrance in ketone"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "presence of two alkyl groups on ketone decreases its electrophilicity"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "presence of one alkyl group on aldehyde decreases its electrophilicity"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "alkyl groups have electron withdrawing effect"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Aldehydes and ketones both contain the carbonyl group $>\\mathrm{C=O}$. In nucleophilic attack, the nucleophile attacks the carbonyl carbon because it is electron deficient.\n\nStep 2: In an aldehyde ($\\mathrm{RCHO}$), the carbonyl carbon is attached to one alkyl group and one hydrogen.\n\nIn a ketone ($\\mathrm{RCOR'}$), the carbonyl carbon is attached to two alkyl groups.\n\nStep 3: Alkyl groups show a +I effect, meaning they push electron density towards the carbonyl carbon. So in ketones, two alkyl groups push more electron density towards the carbonyl carbon. This reduces the positive character on the carbonyl carbon, making it less electrophilic.\n\nStep 4: Ketones also have more steric hindrance because two alkyl groups are attached near the carbonyl carbon. Aldehydes have one hydrogen, so the nucleophile can attack more easily.\n\nThus, aldehydes are more reactive due to less steric hindrance and greater electrophilicity.\n\nFinal Answer: $$\\boxed{\\text{presence of two alkyl groups on ketone decreases its electrophilicity}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

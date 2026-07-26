@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "91"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "What happens when phenol reacts with bromine water?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Brown coloured liquid is obtained"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Colourless gas evolves"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "White precipitate formed"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Pink colored solution is obtained"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: When phenol reacts with bromine water, it gives a white precipitate of 2,4,6-tribromophenol.\n\nThe reaction is:\n\n$$\\mathrm{C_6H_5OH + 3Br_2 \\rightarrow C_6H_2Br_3OH + 3HBr}$$\n\nStep 2: Phenol has an —OH group, which strongly activates the benzene ring. Bromine easily substitutes at the ortho and para positions, forming 2,4,6-tribromophenol, which appears as a white precipitate.\n\nFinal Answer: $$\\boxed{\\text{White precipitate formed}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

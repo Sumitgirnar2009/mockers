@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "131"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "$$\\int_{0}^{\\log 10} \\left[ \\frac{e^x \\sqrt{e^x - 1}}{e^x + 8} \\right] \\, dx =$$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{3}{2}(4 + \\pi)$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{3}{2}(4 - \\pi)$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{3}{4}(4 - \\pi)$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{3}{4}(4 + \\pi)$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Let $u = e^x$. Then $du = e^x \\, dx$. When $x = 0$, $u = 1$; when $x = \\log 10$, $u = 10$.\n\nThe integral becomes:\n\n$$I = \\int_{1}^{10} \\frac{\\sqrt{u - 1}}{u + 8} \\, du.$$\n\nStep 2: Let $t = \\sqrt{u - 1}$. Then $u = t^2 + 1$, so $du = 2t \\, dt$. When $u = 1$, $t = 0$; when $u = 10$, $t = \\sqrt{9} = 3$.\n\nThe integral becomes:\n\n$$I = \\int_{0}^{3} \\frac{t}{(t^2 + 1) + 8} \\cdot 2t \\, dt = \\int_{0}^{3} \\frac{2t^2}{t^2 + 9} \\, dt.$$\n\nStep 3: Simplify the integrand: $\\frac{2t^2}{t^2 + 9} = 2 \\left( 1 - \\frac{9}{t^2 + 9} \\right)$.\n\nSo, $I = 2 \\int_{0}^{3} \\left( 1 - \\frac{9}{t^2 + 9} \\right) dt = 2 \\left[ t - 9 \\cdot \\frac{1}{3} \\tan^{-1}\\left(\\frac{t}{3}\\right) \\right]_{0}^{3}$.\n\nStep 4: Evaluate at bounds:\n\n$$I = 2 \\left[ 3 - 3 \\tan^{-1}(1) - \\left( 0 - 0 \\right) \\right] = 2 \\left( 3 - 3 \\cdot \\frac{\\pi}{4} \\right) = 2 \\left( 3 - \\frac{3\\pi}{4} \\right) = \\frac{3}{2}(4 - \\pi).$$\n\nFinal Answer: $$\\boxed{\\frac{3}{2}(4 - \\pi)}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

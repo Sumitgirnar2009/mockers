@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "3"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A stone falls from the top of a tower of height 100 m and at the same time another stone is projected vertically upwards from the ground with a velocity 25 m/s. The two stones meet after"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "2 s"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "5 s"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "4 s"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "3 s"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Let the two stones meet after time $t$ seconds.\n\nStep 2: For the stone falling from the top of the tower (initial velocity $u_1 = 0$, acceleration $g = 10$ m/s² downward):\n\nDistance covered by first stone from the top:\n\n$$s_1 = \\frac{1}{2} g t^2 = \\frac{1}{2} \\times 10 \\times t^2 = 5t^2$$\n\nStep 3: For the stone projected upwards from the ground (initial velocity $u_2 = 25$ m/s, acceleration $g = -10$ m/s²):\n\nDistance covered by second stone from the ground:\n\n$$s_2 = u_2 t - \\frac{1}{2} g t^2 = 25t - 5t^2$$\n\nStep 4: The sum of the distances covered by both stones equals the height of the tower:\n\n$$s_1 + s_2 = 100$$\n\n$$5t^2 + 25t - 5t^2 = 100$$\n\n$$25t = 100$$\n\n$$t = 4 \\text{ s}$$\n\nStep 5: Therefore, the two stones meet after 4 seconds.\n\nFinal Answer: $$\\boxed{4 \\text{ s}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

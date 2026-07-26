@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "147"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The centers for disease control have determined that when a person is given a vaccine, the probability that the person will develop immunity to a virus is 0.8. If 8 people are given this vaccine, then the probability that exactly 4 will develop immunity is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$(0.2)(0.8)^4$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$(0.112)(0.8)^4$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$(0.112)(0.8)^6$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$(0.2)^4(0.8)^4$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Probability of success (immunity) $p = 0.8$, failure $q = 0.2$, number of trials $n = 8$.\n\nStep 2: Probability of exactly $x = 4$ successes is given by the binomial formula:\n\n$$P(X = 4) = \\binom{8}{4} (0.8)^4 (0.2)^4$$\n\nStep 3: $\\binom{8}{4} = 70$ and $70 \\times (0.2)^4 = 70 \\times 0.0016 = 0.112$.\n\nThus, $P(X = 4) = 0.112 \\times (0.8)^4$.\n\nFinal Answer: $$\\boxed{(0.112)(0.8)^4}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

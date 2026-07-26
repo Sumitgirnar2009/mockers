@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "52"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Calculate the de Broglie wavelength of an electron in the first Bohr orbit of a hydrogen atom if the velocity of an electron in the first orbit is $2.2 \\times 10^6$ m/s. [mass of electron = $9.1 \\times 10^{-31}$ kg, Planck's constant $h = 6.626 \\times 10^{-34}$ J·s]"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$3.31 \\times 10^{-10}$ m"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$3.01 \\times 10^{-10}$ m"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$3.62 \\times 10^{-10}$ m"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$2.71 \\times 10^{-10}$ m"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The de Broglie wavelength is given by $\\lambda = \\frac{h}{mv}$.\n\nGiven: $h = 6.626 \\times 10^{-34}$ J·s, $m = 9.1 \\times 10^{-31}$ kg, $v = 2.2 \\times 10^6$ m/s.\n\n$$\\lambda = \\frac{6.626 \\times 10^{-34}}{9.1 \\times 10^{-31} \\times 2.2 \\times 10^6}$$\n\n$$= \\frac{6.626 \\times 10^{-34}}{2.002 \\times 10^{-24}} = 3.31 \\times 10^{-10} \\text{ m}$$\n\nFinal Answer: $$\\boxed{3.31 \\times 10^{-10} \\text{ m}}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

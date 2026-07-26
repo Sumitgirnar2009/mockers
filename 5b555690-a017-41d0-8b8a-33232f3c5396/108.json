@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "108"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The triangle formed by the lines $2x^2 - 3xy - 2y^2 = 0$ and $3x - y = 7$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Right angled but not isosceles"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "isosceles with base angle $30^\\circ$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Right angled with one angle $60^\\circ$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Right angled isosceles"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Factorise the pair of lines.\n\n$$2x^2 - 3xy - 2y^2 = (2x + y)(x - 2y) = 0$$\n\nSo the two lines are $2x + y = 0$ and $x - 2y = 0$.\n\nThey are $y = -2x$ and $y = \\frac{x}{2}$.\n\nSlopes are $-2$ and $\\frac{1}{2}$. Since $(-2) \\times \\frac{1}{2} = -1$, the two lines are perpendicular.\n\nThus the triangle has a right angle at their intersection (origin).\n\nStep 2: Find the points where the third line $3x - y = 7$ intersects these two lines.\n\nIntersection with $y = -2x$:\n\n$$3x - (-2x) = 7 \\Rightarrow 5x = 7 \\Rightarrow x = \\frac{7}{5}, \\; y = -\\frac{14}{5}$$\n\nDistance from origin to this point:\n\n$$d_1 = \\sqrt{\\left(\\frac{7}{5}\\right)^2 + \\left(-\\frac{14}{5}\\right)^2} = \\sqrt{\\frac{49}{25} + \\frac{196}{25}} = \\frac{7\\sqrt{5}}{5}$$\n\nIntersection with $y = \\frac{x}{2}$:\n\n$$3x - \\frac{x}{2} = 7 \\Rightarrow \\frac{5x}{2} = 7 \\Rightarrow x = \\frac{14}{5}, \\; y = \\frac{7}{5}$$\n\nDistance from origin to this point:\n\n$$d_2 = \\sqrt{\\left(\\frac{14}{5}\\right)^2 + \\left(\\frac{7}{5}\\right)^2} = \\frac{7\\sqrt{5}}{5}$$\n\nSince $d_1 = d_2$, the two perpendicular sides from the origin are equal.\n\nStep 3: Therefore, the triangle is right‑angled and isosceles.\n\nFinal Answer: $$\\boxed{\\text{Right angled isosceles}}$$\n\nHence, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

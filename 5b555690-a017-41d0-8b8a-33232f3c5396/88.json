@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "88"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "What is the general molecular formula of alkyl halides?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\mathrm{C_nH_{2n+2}X}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\mathrm{C_nH_{2n+1}X}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\mathrm{C_nH_{2n}X}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\mathrm{C_nH_{2n-2}X}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Alkyl halides are formed when one hydrogen atom of an alkane is replaced by a halogen atom (F, Cl, Br, or I).\n\nStep 2: The general formula of an alkane is $\\mathrm{C_nH_{2n+2}}$.\n\nStep 3: When one hydrogen is replaced by X, the formula becomes $\\mathrm{C_nH_{2n+1}X}$.\n\nFinal Answer: $$\\boxed{\\mathrm{C_nH_{2n+1}X}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

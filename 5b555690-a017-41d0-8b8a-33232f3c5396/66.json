@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "66"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "When a mixture of two different alkyl halides reacts with metallic sodium in dry ether, the formation of a possible number of alkanes are"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Two"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Three"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Four"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Five"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Wurtz reaction: $2\\mathrm{R-X} + 2\\mathrm{Na} \\rightarrow \\mathrm{R-R} + 2\\mathrm{NaX}$ in dry ether.\n\nStep 2: When a mixture of two different alkyl halides ($\\mathrm{R-X}$ and $\\mathrm{R'-X}$) is used, three possible combinations of alkyl groups can form:\n\n- $\\mathrm{R-R}$ (from two $\\mathrm{R}$ radicals)\n- $\\mathrm{R-R'}$ (from one $\\mathrm{R}$ and one $\\mathrm{R'}$ radical)\n- $\\mathrm{R'-R'}$ (from two $\\mathrm{R'}$ radicals)\n\nStep 3: Since $\\mathrm{R-R'}$ and $\\mathrm{R'-R}$ are the same compound, there are three distinct alkanes formed.\n\nThus, the number of possible alkanes is three.\n\nFinal Answer: $$\\boxed{3}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

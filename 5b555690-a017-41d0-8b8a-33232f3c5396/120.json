@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "120"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $y = \\log x^x$, then the value of $$\\left( \\frac{dy}{dx} \\right)^2$$ at $x = e^2$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "4"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$e$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$e^2$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "9"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Given $y = \\log x^x$.\n\nUsing the logarithm property $\\log(a^m) = m \\log a$, we get $y = x \\log x$.\n\nStep 2: Differentiate with respect to $x$ using the product rule.\n\n$$\\frac{dy}{dx} = x \\cdot \\frac{1}{x} + \\log x \\cdot 1 = 1 + \\log x.$$\n\nStep 3: Evaluate at $x = e^2$.\n\n$$\\log(e^2) = 2 \\Rightarrow \\frac{dy}{dx} = 1 + 2 = 3.$$\n\nStep 4: Square the result.\n\n$$\\left( \\frac{dy}{dx} \\right)^2 = 3^2 = 9.$$\n\nFinal Answer: $$\\boxed{9}$$\n\nHence, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

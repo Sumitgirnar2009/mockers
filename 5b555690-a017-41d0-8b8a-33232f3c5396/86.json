@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "86"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In the coordination complex, Potassium hexacyanoferrate(II), the central atom/ion acts as"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Bronsted-Lowry acid"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Lewis base"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Lewis acid"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Bronsted-Lowry base"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: In potassium hexacyanoferrate(II), the complex ion is $[\\mathrm{Fe(CN)_6}]^{4-}$.\n\nStep 2: The central metal ion is $\\mathrm{Fe^{2+}}$.\n\nStep 3: The cyanide ions, $\\mathrm{CN^-}$, act as ligands. Each $\\mathrm{CN^-}$ donates a lone pair of electrons to the central $\\mathrm{Fe^{2+}}$ ion to form coordinate bonds.\n\nStep 4: A species that accepts an electron pair is called a Lewis acid.\n\nSo, in this coordination complex, the central metal ion $\\mathrm{Fe^{2+}}$ acts as a Lewis acid.\n\nFinal Answer: $$\\boxed{\\text{Lewis acid}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

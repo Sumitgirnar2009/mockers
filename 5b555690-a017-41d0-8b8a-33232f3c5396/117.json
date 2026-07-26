@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "117"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $$\\tan^{-1} \\left[ \\frac{\\sqrt{5 - 2\\sqrt{6}}}{1 + \\sqrt{6}} \\right] = \\frac{\\pi}{3} - \\tan^{-1}(k),$$ then $\\sec^{-1}(k) = \\ldots$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{\\pi}{6}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{\\pi}{4}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{\\pi}{3}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{\\pi}{2}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Simplify the expression inside the square root.\n\n$$5 - 2\\sqrt{6} = (\\sqrt{3} - \\sqrt{2})^2$$\n\nTherefore,\n\n$$\\sqrt{5 - 2\\sqrt{6}} = \\sqrt{3} - \\sqrt{2}.$$\n\nStep 2: The given equation becomes:\n\n$$\\tan^{-1} \\left( \\frac{\\sqrt{3} - \\sqrt{2}}{1 + \\sqrt{6}} \\right) = \\frac{\\pi}{3} - \\tan^{-1}(k).$$\n\nStep 3: Rearranging,\n\n$$\\tan^{-1}(k) = \\frac{\\pi}{3} - \\tan^{-1} \\left( \\frac{\\sqrt{3} - \\sqrt{2}}{1 + \\sqrt{6}} \\right).$$\n\nStep 4: Take tangent on both sides and use $\\tan(A - B) = \\frac{\\tan A - \\tan B}{1 + \\tan A \\tan B}$.\n\n$$k = \\tan \\left[ \\frac{\\pi}{3} - \\tan^{-1} \\left( \\frac{\\sqrt{3} - \\sqrt{2}}{1 + \\sqrt{6}} \\right) \\right]$$\n\n$$= \\frac{\\sqrt{3} - \\frac{\\sqrt{3} - \\sqrt{2}}{1 + \\sqrt{6}}}{1 + \\sqrt{3} \\cdot \\frac{\\sqrt{3} - \\sqrt{2}}{1 + \\sqrt{6}}}$$\n\nStep 5: Simplify to get $k = \\sqrt{2}$.\n\nStep 6: Now find $\\sec^{-1}(k)$.\n\n$$\\sec^{-1}(\\sqrt{2}) = \\frac{\\pi}{4}, \\quad \\text{since } \\sec\\frac{\\pi}{4} = \\sqrt{2}.$$\n\nFinal Answer: $$\\boxed{\\frac{\\pi}{4}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

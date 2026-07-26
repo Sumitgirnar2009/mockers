@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "121"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $y = \\cos^{-1}(\\sin x)$, where $\\frac{\\pi}{2} < x < \\pi$, then $\\frac{dy}{dx} = \\ldots$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$-1$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$0$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$1$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$2$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: For $x \\in (\\frac{\\pi}{2}, \\pi)$, we have $\\sin x = \\cos\\left(\\frac{\\pi}{2} - x\\right) = \\cos\\left(x - \\frac{\\pi}{2}\\right)$.\n\nStep 2: Since $x - \\frac{\\pi}{2} \\in (0, \\frac{\\pi}{2})$, we can write:\n\n$$\\cos^{-1}(\\sin x) = \\cos^{-1}\\left(\\cos\\left(x - \\frac{\\pi}{2}\\right)\\right) = x - \\frac{\\pi}{2}.$$\n\nStep 3: Therefore, $y = x - \\frac{\\pi}{2}$. Differentiating with respect to $x$ gives $\\frac{dy}{dx} = 1$.\n\nFinal Answer: $$\\boxed{1}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "145"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If a unit vector makes angles $\\frac{\\pi}{4}$ with $\\hat{i}$, $\\frac{\\pi}{3}$ with $\\hat{j}$ and $\\theta \\in (0, \\pi)$ with $\\hat{k}$, then a value of $\\theta$ is equal to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{\\pi}{3}, \\frac{2\\pi}{3}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{\\pi}{6}, \\frac{5\\pi}{6}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{\\pi}{4}, \\frac{5\\pi}{4}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{5\\pi}{12}, \\frac{7\\pi}{12}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: For a unit vector, the sum of the squares of the direction cosines is 1.\n\n$$\\cos^2\\alpha + \\cos^2\\beta + \\cos^2\\gamma = 1$$\n\nwhere $\\alpha = \\frac{\\pi}{4}$, $\\beta = \\frac{\\pi}{3}$, and $\\gamma = \\theta$.\n\nStep 2: Compute $\\cos^2\\frac{\\pi}{4} = \\left(\\frac{\\sqrt{2}}{2}\\right)^2 = \\frac{1}{2}$.\n\nStep 3: Compute $\\cos^2\\frac{\\pi}{3} = \\left(\\frac{1}{2}\\right)^2 = \\frac{1}{4}$.\n\nStep 4: Sum these: $\\frac{1}{2} + \\frac{1}{4} = \\frac{3}{4}$.\n\nStep 5: So $\\cos^2\\theta = 1 - \\frac{3}{4} = \\frac{1}{4}$.\n\nStep 6: Therefore, $\\cos\\theta = \\pm \\frac{1}{2}$.\n\nSince $\\theta \\in (0, \\pi)$, the possible values are $\\theta = \\frac{\\pi}{3}$ or $\\theta = \\frac{2\\pi}{3}$.\n\nFinal Answer: $$\\boxed{\\frac{\\pi}{3}, \\frac{2\\pi}{3}}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

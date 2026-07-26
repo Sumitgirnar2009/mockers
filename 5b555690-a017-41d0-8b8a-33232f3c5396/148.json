@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "148"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The Variance of the following probability distribution of X is\n\n$$\\begin{array}{|c|c|c|c|c|}\n\\hline\nX & 0 & 1 & 2 & 3 \\\\\n\\hline\nP(X) & q^3 & 3q^2p & 3qp^2 & p^3 \\\\\n\\hline\n\\end{array}$$\n\nwhere $0 < p < 1, q = 1 - p$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$3p^2q$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$3pq$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$3pq^2$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$3q$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: The given probability distribution is exactly the binomial distribution for $n = 3$ trials with success probability $p$.\n\nStep 2: For a binomial distribution, the variance is given by:\n\n$$\\text{Var}(X) = n p q = 3 p q$$\n\nStep 3: Therefore, the variance is $3pq$.\n\nFinal Answer: $$\\boxed{3pq}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

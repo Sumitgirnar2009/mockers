@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "105"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $\\cos(p\\theta) + \\cos(q\\theta) = 0$ and $p \\neq q$, then the general value of $\\theta$ (where $n$ is any integer) is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{(3n + 1)\\pi}{p - q}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{(2n + 1)\\pi}{p \\pm q}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{(n \\pm 1)\\pi}{p \\pm q}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{(n + 2)\\pi}{p + q}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Use the sum-to-product identity: $\\cos A + \\cos B = 2\\cos\\left(\\frac{A+B}{2}\\right)\\cos\\left(\\frac{A-B}{2}\\right)$.\n\n$$\\cos(p\\theta) + \\cos(q\\theta) = 2\\cos\\left(\\frac{(p+q)\\theta}{2}\\right) \\cos\\left(\\frac{(p-q)\\theta}{2}\\right) = 0$$\n\nStep 2: Therefore, either $\\cos\\left(\\frac{(p+q)\\theta}{2}\\right) = 0$ or $\\cos\\left(\\frac{(p-q)\\theta}{2}\\right) = 0$.\n\nStep 3: From $\\cos\\left(\\frac{(p+q)\\theta}{2}\\right) = 0$:\n\n$$\\frac{(p+q)\\theta}{2} = (2n+1)\\frac{\\pi}{2} \\Rightarrow \\theta = \\frac{(2n+1)\\pi}{p+q}$$\n\nStep 4: From $\\cos\\left(\\frac{(p-q)\\theta}{2}\\right) = 0$:\n\n$$\\frac{(p-q)\\theta}{2} = (2n+1)\\frac{\\pi}{2} \\Rightarrow \\theta = \\frac{(2n+1)\\pi}{p-q}$$\n\nStep 5: Combining both, the general solution is $\\theta = \\frac{(2n+1)\\pi}{p \\pm q}$.\n\nFinal Answer: $$\\boxed{\\frac{(2n+1)\\pi}{p \\pm q}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

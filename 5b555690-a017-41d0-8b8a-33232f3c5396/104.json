@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "104"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $P = \\tan 20^\\circ$, then the value of $$\\frac{\\tan 160^\\circ - \\tan 110^\\circ}{1 + \\tan 160^\\circ \\tan 110^\\circ}$$ in terms of $P$, is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{1 + P^2}{2P^2}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{1 + P^2}{2P}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{1 - P^2}{2P^2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{1 - P^2}{2P}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Use the identity $\\tan(A - B) = \\frac{\\tan A - \\tan B}{1 + \\tan A \\tan B}$.\n\n$$\\frac{\\tan 160^\\circ - \\tan 110^\\circ}{1 + \\tan 160^\\circ \\tan 110^\\circ} = \\tan(160^\\circ - 110^\\circ) = \\tan 50^\\circ$$\n\nStep 2: $\\tan 50^\\circ = \\tan(90^\\circ - 40^\\circ) = \\cot 40^\\circ = \\frac{1}{\\tan 40^\\circ}$.\n\nStep 3: $\\tan 40^\\circ = \\tan(2 \\times 20^\\circ) = \\frac{2 \\tan 20^\\circ}{1 - \\tan^2 20^\\circ}$.\n\nGiven $P = \\tan 20^\\circ$, so $\\tan 40^\\circ = \\frac{2P}{1 - P^2}$.\n\nStep 4: $\\tan 50^\\circ = \\frac{1}{\\frac{2P}{1 - P^2}} = \\frac{1 - P^2}{2P}$.\n\nFinal Answer: $$\\boxed{\\frac{1 - P^2}{2P}}$$\n\nHence, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

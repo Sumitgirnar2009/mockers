@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "72"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "5 g urea is dissolved in 100 g water. Find the amount of glucose to be dissolved in 120 g of water so that the boiling points of both solutions will be the same. [Molar mass of urea = 60 g mol⁻¹ & Molar mass of glucose = 180 g mol⁻¹]"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "17 g"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "19 g"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "18 g"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "20 g"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: For boiling points to be the same, the molality of both solutions must be equal (since both are non-electrolytes).\n\nStep 2: Molality of urea solution = (5 g / 60 g/mol) / (100 g / 1000 g/kg) = (0.0833 mol) / 0.1 kg = 0.833 m.\n\nStep 3: Let mass of glucose be $w$ g. Moles of glucose = $w/180$.\n\nStep 4: Molality of glucose solution = $(w/180)$ / (120 g / 1000 g/kg) = $(w/180)$ / 0.12 = $w / (180 × 0.12) = w / 21.6$.\n\nStep 5: Set molalities equal: $0.833 = w / 21.6$ ⇒ $w = 0.833 × 21.6 = 18$ g.\n\nFinal Answer: $$\\boxed{18 \\text{ g}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

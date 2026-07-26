@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "102"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The number of five-digit numbers formed using the digits 2, 3, 5, 7, 9 without repetition and which are greater than 24000 are"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "120"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "117"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "114"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "96"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: The digits available are 2, 3, 5, 7, 9. We need to form five-digit numbers without repetition. Since there are exactly 5 digits, each number will use all digits once.\n\nTotal possible numbers = $5! = 120$.\n\nStep 2: We need numbers greater than 24000.\n\nAny number starting with 3, 5, 7, or 9 will definitely be greater than 24000.\n\nNumber of such numbers = $4 \\times 4! = 4 \\times 24 = 96$.\n\nStep 3: Now consider numbers starting with 2. To be greater than 24000, the second digit must be greater than 4. From the remaining digits 3, 5, 7, 9, the possible second digits are 5, 7, 9.\n\nNumber of such numbers = $3 \\times 3! = 3 \\times 6 = 18$.\n\nStep 4: Total numbers greater than 24000 = $96 + 18 = 114$.\n\nFinal Answer: $$\\boxed{114}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

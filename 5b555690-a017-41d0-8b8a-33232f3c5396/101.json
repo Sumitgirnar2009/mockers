@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "101"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $\\omega$ is a complex cube root of unity, then the value of the expression $$2 \\left( 1 + \\frac{1}{\\omega} \\right) \\left( 1 + \\frac{1}{\\omega^2} \\right) + 3 \\left( 2 + \\frac{1}{\\omega} \\right) \\left( 2 + \\frac{1}{\\omega^2} \\right) + \\cdots + (n+1) \\left( n + \\frac{1}{\\omega} \\right) \\left( n + \\frac{1}{\\omega^2} \\right)$$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\left[ \\frac{n(n+1)}{2} \\right]^2 + n$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\left[ \\frac{n(n+1)}{2} \\right]^2 - n$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\left[ \\frac{n(n+1)}{2} \\right]^2$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\left[ \\frac{n(n-1)}{2} \\right]^2$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Identify the general term.\n\nThe series is:\n\n$$\\sum_{k=1}^{n} (k+1) \\left( k + \\frac{1}{\\omega} \\right) \\left( k + \\frac{1}{\\omega^2} \\right)$$\n\nStep 2: Simplify the product $\\left( k + \\frac{1}{\\omega} \\right) \\left( k + \\frac{1}{\\omega^2} \\right)$.\n\nSince $\\omega$ is a complex cube root of unity, we have:\n\n$$\\omega^3 = 1, \\quad 1 + \\omega + \\omega^2 = 0, \\quad \\omega \\omega^2 = 1$$\n\nAlso, $\\frac{1}{\\omega} + \\frac{1}{\\omega^2} = \\frac{\\omega + \\omega^2}{\\omega \\omega^2} = \\frac{-1}{1} = -1$.\n\nAnd $\\frac{1}{\\omega \\omega^2} = 1$.\n\nSo,\n\n$$\\left( k + \\frac{1}{\\omega} \\right) \\left( k + \\frac{1}{\\omega^2} \\right) = k^2 + k \\left( \\frac{1}{\\omega} + \\frac{1}{\\omega^2} \\right) + \\frac{1}{\\omega \\omega^2}$$\n\n$$= k^2 + k(-1) + 1 = k^2 - k + 1$$\n\nStep 3: Multiply by $(k+1)$.\n\n$$(k+1)(k^2 - k + 1) = k^3 + 1$$\n\nThis is because $(k+1)(k^2 - k + 1) = k^3 + 1$.\n\nStep 4: Sum the general term from $k = 1$ to $n$.\n\n$$\\sum_{k=1}^{n} (k^3 + 1) = \\sum_{k=1}^{n} k^3 + \\sum_{k=1}^{n} 1$$\n\n$$= \\left[ \\frac{n(n+1)}{2} \\right]^2 + n$$\n\nStep 5: Final Answer.\n\nThe value of the given expression is $\\left[ \\frac{n(n+1)}{2} \\right]^2 + n$.\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

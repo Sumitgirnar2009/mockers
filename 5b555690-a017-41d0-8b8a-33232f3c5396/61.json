@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "61"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The solubility of sparingly soluble salts MX$_1$, MX$_2$ and MX$_3$ is $1 \\times 10^{-3}$ mol/L. Hence, their respective solubility products are"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$1 \\times 10^{-6}, 4 \\times 10^{-9} \\text{ and } 27 \\times 10^{-12}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$1 \\times 10^{-9}, 4 \\times 10^{-9} \\text{ and } 32 \\times 10^{-12}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$1 \\times 10^{-9}, 8 \\times 10^{-8} \\text{ and } 32 \\times 10^{-12}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$1 \\times 10^{-6}, 8 \\times 10^{-8} \\text{ and } 27 \\times 10^{-12}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let solubility be $S = 1 \\times 10^{-3}$ mol/L.\n\nFor salt MX₁ (1:1): $K_{sp} = S^2 = (1 \\times 10^{-3})^2 = 1 \\times 10^{-6}$.\n\nFor salt MX₂ (1:2): $M^{2+} + 2X^-$, so $K_{sp} = S(2S)^2 = 4S^3 = 4 \\times (1 \\times 10^{-3})^3 = 4 \\times 10^{-9}$.\n\nFor salt MX₃ (1:3): $M^{3+} + 3X^-$, so $K_{sp} = S(3S)^3 = 27S^4 = 27 \\times (1 \\times 10^{-3})^4 = 27 \\times 10^{-12}$.\n\nThus, the solubility products are $1 \\times 10^{-6}, 4 \\times 10^{-9}$, and $27 \\times 10^{-12}$.\n\nFinal Answer: $$\\boxed{1 \\times 10^{-6}, 4 \\times 10^{-9} \\text{ and } 27 \\times 10^{-12}}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

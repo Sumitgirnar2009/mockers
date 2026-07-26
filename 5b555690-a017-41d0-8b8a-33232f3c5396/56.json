@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "56"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Calculate the compressibility factor of 1 mole of a certain real gas if it occupies 0.4 dm³ at 300 K and 40 atm. [$R = 0.082$ atm dm³ K⁻¹ mol⁻¹]"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "0.45"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "0.65"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "0.85"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "1.00"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Compressibility factor $Z = \\frac{PV}{nRT}$.\n\nGiven: $P = 40$ atm, $V = 0.4$ dm³, $n = 1$ mol, $T = 300$ K, $R = 0.082$ atm dm³ K⁻¹ mol⁻¹.\n\n$$Z = \\frac{40 \\times 0.4}{1 \\times 0.082 \\times 300} = \\frac{16}{24.6} = 0.6504 \\approx 0.65$$\n\nFinal Answer: $$\\boxed{0.65}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

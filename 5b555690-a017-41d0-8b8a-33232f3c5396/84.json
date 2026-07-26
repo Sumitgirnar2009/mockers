@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "84"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "What is the value of spin only magnetic moment for Cu$^{2+}$ in BM?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "2.84"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "3.87"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "1.73"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "0.0"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: For Cu²⁺, first find the number of unpaired electrons.\n\nCopper has atomic number 29.\n\nElectronic configuration of Cu is: $\\mathrm{Cu} : [\\mathrm{Ar}] 3d^{10} 4s^1$.\n\nFor Cu²⁺, two electrons are removed. The electron from 4s is removed first, then one electron from 3d.\n\nSo, $\\mathrm{Cu^{2+}} : [\\mathrm{Ar}] 3d^9$.\n\nIn 3d⁹, there is 1 unpaired electron.\n\nStep 2: Spin only magnetic moment is:\n\n$$\\mu = \\sqrt{n(n+2)} \\, \\text{BM}$$\n\nwhere $n$ is the number of unpaired electrons.\n\nHere, $n = 1$.\n\n$$\\mu = \\sqrt{1(1+2)} = \\sqrt{3} = 1.73 \\, \\text{BM}$$\n\nFinal Answer: $$\\boxed{1.73}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

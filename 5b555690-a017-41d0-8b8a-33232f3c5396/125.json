@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "125"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The co-ordinates of the point on the curve $y = x \\log x$ at which the normal is parallel to the line $2x - 2y = 3$ are"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$(0, 0)$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$(e, e)$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$(e^2, 2e^2)$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$(e^{-2}, -2e^{-2})$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: The given line is $2x - 2y = 3 \\Rightarrow y = x - \\frac{3}{2}$. Its slope is $1$.\n\nStep 2: Since the normal is parallel to this line, the slope of the normal is $1$. Hence, the slope of the tangent must be $-1$ (because $m_{\\text{normal}} \\cdot m_{\\text{tangent}} = -1$).\n\nStep 3: For $y = x \\log x$, differentiate: $\\frac{dy}{dx} = \\log x + 1$.\n\nSet $\\frac{dy}{dx} = -1$:\n\n$$\\log x + 1 = -1 \\Rightarrow \\log x = -2 \\Rightarrow x = e^{-2}.$$\n\nStep 4: Then $y = x \\log x = e^{-2} \\cdot (-2) = -2e^{-2}$.\n\nSo the point is $(e^{-2}, -2e^{-2})$.\n\nFinal Answer: $$\\boxed{(e^{-2}, -2e^{-2})}$$\n\nHence, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "127"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $$\\int \\sqrt{2} \\sqrt{1 + \\sin x} \\, dx = -4 \\cos(ax + b) + c,$$ then the values of $a, b$ respectively are"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{1}{2}, \\frac{\\pi}{2}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{1}{2}, \\frac{\\pi}{4}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{x}{2}, \\frac{\\pi}{4}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$1, \\frac{\\pi}{2}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Use the identity $1 + \\sin x = \\left(\\sin\\frac{x}{2} + \\cos\\frac{x}{2}\\right)^2$.\n\nAlso, $\\sin\\frac{x}{2} + \\cos\\frac{x}{2} = \\sqrt{2} \\sin\\left(\\frac{x}{2} + \\frac{\\pi}{4}\\right)$.\n\nThus, $1 + \\sin x = 2 \\sin^2\\left(\\frac{x}{2} + \\frac{\\pi}{4}\\right)$.\n\nStep 2: Multiply by 2: $2(1 + \\sin x) = 4 \\sin^2\\left(\\frac{x}{2} + \\frac{\\pi}{4}\\right)$.\n\nTaking square root: $\\sqrt{2(1 + \\sin x)} = 2 \\sin\\left(\\frac{x}{2} + \\frac{\\pi}{4}\\right)$.\n\nStep 3: Integrate:\n\n$$\\int \\sqrt{2} \\sqrt{1 + \\sin x} \\, dx = \\int \\sqrt{2(1 + \\sin x)} \\, dx = \\int 2 \\sin\\left(\\frac{x}{2} + \\frac{\\pi}{4}\\right) dx.$$\n\n$$= -4 \\cos\\left(\\frac{x}{2} + \\frac{\\pi}{4}\\right) + c.$$\n\nStep 4: Compare with the given form $-4 \\cos(ax + b) + c$:\n\n$$a = \\frac{1}{2}, \\quad b = \\frac{\\pi}{4}.$$\n\nFinal Answer: $$\\boxed{\\frac{1}{2}, \\frac{\\pi}{4}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

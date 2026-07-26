@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "141"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Let $(\\vec{p} \\land \\vec{q})$ denote the angle between $\\vec{p}$ and $\\vec{q}$. If $\\vec{a} + \\vec{b} + \\vec{c} = \\vec{0}$, $|\\vec{a}| = 7$, $|\\vec{b}| = 5$ and $|\\vec{c}| = 3$ then (take $\\pi = \\frac{22}{7}$)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\sin(\\vec{b} \\land \\vec{c}) = \\frac{1}{2}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\cos(\\vec{a} \\land \\vec{c}) = -\\frac{\\pi}{4}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\cos(\\vec{b} \\land \\vec{c}) = -\\frac{1}{2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\sin(\\vec{a} \\land \\vec{c}) = \\frac{\\pi}{4}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Since $\\vec{a} + \\vec{b} + \\vec{c} = \\vec{0}$, we have $\\vec{a} = -(\\vec{b} + \\vec{c})$.\n\n$$|\\vec{a}|^2 = |\\vec{b} + \\vec{c}|^2 = |\\vec{b}|^2 + |\\vec{c}|^2 + 2|\\vec{b}||\\vec{c}|\\cos\\theta_{bc}$$\n\n$$49 = 25 + 9 + 30\\cos\\theta_{bc} \\Rightarrow \\cos\\theta_{bc} = \\frac{1}{2}$$.\n\nStep 2: Similarly, $|\\vec{b}|^2 = |\\vec{a} + \\vec{c}|^2$.\n\n$$25 = 49 + 9 + 42\\cos\\theta_{ac} \\Rightarrow \\cos\\theta_{ac} = -\\frac{33}{42} = -\\frac{11}{14}$$\n\nUsing $\\pi = \\frac{22}{7}$, we have $\\frac{\\pi}{4} = \\frac{22}{28} = \\frac{11}{14}$.\n\nThus $\\cos\\theta_{ac} = -\\frac{\\pi}{4}$.\n\nStep 3: Check options. B matches exactly.\n\nFinal Answer: $$\\boxed{\\cos(\\vec{a} \\land \\vec{c}) = -\\frac{\\pi}{4}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

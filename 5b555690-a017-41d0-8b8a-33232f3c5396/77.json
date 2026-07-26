@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "77"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The time required for 90% completion of a certain first order reaction is 1 hour. Calculate the time required for 99.9% completion of the same reaction."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "2 hours."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "1 hour."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "3 hours."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "0.5 hour."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: For a first order reaction, the time required for a given percentage completion is proportional to the logarithm of the ratio of initial to final concentration.\n\n$$t = \\frac{2.303}{k} \\log \\frac{[A]_0}{[A]}$$\n\nStep 2: For 90% completion, $[A] = 0.1[A]_0$, so $\\frac{[A]_0}{[A]} = 10$.\n\n$$1 = \\frac{2.303}{k} \\log 10 = \\frac{2.303}{k} \\Rightarrow k = 2.303 \\text{ h}^{-1}$$\n\nStep 3: For 99.9% completion, $[A] = 0.001[A]_0$, so $\\frac{[A]_0}{[A]} = 1000$.\n\n$$t = \\frac{2.303}{2.303} \\log 1000 = 1 \\times 3 = 3 \\text{ hours}$$\n\nFinal Answer: $$\\boxed{3 \\text{ hours}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

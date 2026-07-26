@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "114"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In $\\triangle ABC$ with usual notations, if $1 + \\tan\\left(\\frac{A}{2}\\right) \\tan\\left(\\frac{B}{2}\\right) = \\frac{k}{s}$ (where $s$ is the semi-perimeter), then the value of $k$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "2"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$a + b - c$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$a + b$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$s - c$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Using standard half‑angle formulas, $\\tan \\frac{A}{2} = \\frac{r}{s-a}$ and $\\tan \\frac{B}{2} = \\frac{r}{s-b}$, where $r$ is the inradius.\n\nStep 2: $\\tan \\frac{A}{2} \\tan \\frac{B}{2} = \\frac{r^2}{(s-a)(s-b)}$.\n\nStep 3: From Heron's formula, $\\Delta = rs$ and $\\Delta^2 = s(s-a)(s-b)(s-c)$. So $r^2 = \\frac{\\Delta^2}{s^2} = \\frac{(s-a)(s-b)(s-c)}{s}$.\n\nStep 4: Substitute: $\\tan \\frac{A}{2} \\tan \\frac{B}{2} = \\frac{s-c}{s}$.\n\nStep 5: $1 + \\tan \\frac{A}{2} \\tan \\frac{B}{2} = 1 + \\frac{s-c}{s} = \\frac{2s-c}{s}$.\n\nSince $2s = a+b+c$, we have $2s - c = a+b$.\n\nThus $1 + \\tan\\frac{A}{2} \\tan\\frac{B}{2} = \\frac{a+b}{s}$, so $k = a+b$.\n\nFinal Answer: $$\\boxed{a+b}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

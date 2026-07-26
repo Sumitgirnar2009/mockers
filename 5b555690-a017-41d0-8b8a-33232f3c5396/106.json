@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "106"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If a triangle $ABC$ has vertices $A(1, -6)$, $B(2, -3)$ and $C(3, -2)$, then the coordinates of its orthocenter are"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$(-6, 1)$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$(6, 1)$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$(-2, 3)$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$(3, 2)$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Find the slope of side BC.\n\n$B(2, -3)$, $C(3, -2)$.\n\n$$m_{BC} = \\frac{-2 - (-3)}{3 - 2} = \\frac{1}{1} = 1$$\n\nStep 2: Altitude from A is perpendicular to BC, so its slope is $-1$.\n\nEquation of altitude from A: through $(1, -6)$ with slope $-1$.\n\n$$y + 6 = -1(x - 1) \\Rightarrow y = -x - 5$$\n\nStep 3: Find the slope of side AC.\n\n$A(1, -6)$, $C(3, -2)$.\n\n$$m_{AC} = \\frac{-2 - (-6)}{3 - 1} = \\frac{4}{2} = 2$$\n\nStep 4: Altitude from B is perpendicular to AC, so its slope is $-\\frac{1}{2}$.\n\nEquation of altitude from B: through $(2, -3)$ with slope $-\\frac{1}{2}$.\n\n$$y + 3 = -\\frac{1}{2}(x - 2) \\Rightarrow y = -\\frac{x}{2} - 2$$\n\nStep 5: Intersection of the two altitudes gives the orthocenter.\n\nSolve $y = -x - 5$ and $y = -\\frac{x}{2} - 2$.\n\n$$-x - 5 = -\\frac{x}{2} - 2$$\n\n$$-x + \\frac{x}{2} = -2 + 5$$\n\n$$-\\frac{x}{2} = 3 \\Rightarrow x = -6$$\n\n$$y = -(-6) - 5 = 6 - 5 = 1$$\n\nSo the orthocenter is $(-6, 1)$.\n\nFinal Answer: $$\\boxed{(-6, 1)}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

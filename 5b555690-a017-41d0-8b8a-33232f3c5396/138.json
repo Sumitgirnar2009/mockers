@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "138"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $\\vec{a}$ and $\\vec{b}$ are unit vectors and $\\theta$ ($0 < \\theta < \\pi$) is the angle between them, then the value of $$\\frac{|\\vec{a} + \\vec{b}|}{|\\vec{a} - \\vec{b}|}$$ is equal to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\tan \\frac{\\theta}{2}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\sin \\frac{\\theta}{2}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\cos \\frac{\\theta}{2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\cot \\frac{\\theta}{2}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: For unit vectors $\\vec{a}$ and $\\vec{b}$, we have:\n\n$$|\\vec{a} + \\vec{b}|^2 = |\\vec{a}|^2 + |\\vec{b}|^2 + 2\\vec{a} \\cdot \\vec{b} = 1 + 1 + 2\\cos\\theta = 2(1 + \\cos\\theta)$$\n\n$$|\\vec{a} - \\vec{b}|^2 = 1 + 1 - 2\\cos\\theta = 2(1 - \\cos\\theta)$$\n\nStep 2: Therefore,\n\n$$\\frac{|\\vec{a} + \\vec{b}|}{|\\vec{a} - \\vec{b}|} = \\sqrt{\\frac{1 + \\cos\\theta}{1 - \\cos\\theta}}$$\n\nStep 3: Using the identities $1 + \\cos\\theta = 2\\cos^2\\frac{\\theta}{2}$ and $1 - \\cos\\theta = 2\\sin^2\\frac{\\theta}{2}$:\n\n$$= \\sqrt{\\frac{\\cos^2(\\theta/2)}{\\sin^2(\\theta/2)}} = \\cot\\frac{\\theta}{2}$$\n\nFinal Answer: $$\\boxed{\\cot\\frac{\\theta}{2}}$$\n\nHence, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

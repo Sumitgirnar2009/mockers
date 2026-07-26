@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "85"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The sum of coordination number and oxidation number of M in $[\\mathrm{M(en)_2C_2O_4}]\\mathrm{Cl}$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "9"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "8"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "7"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "6"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: In the compound $[\\mathrm{M(en)_2C_2O_4}]\\mathrm{Cl}$, the chloride ion is outside the coordination sphere. So the complex ion must have charge +1:\n\n$$[\\mathrm{M(en)_2C_2O_4}]^+$$\n\nStep 2: Find the oxidation number of M.\n\nThe ligand en (ethane-1,2-diamine) is neutral.\n\nThe oxalate ligand $\\mathrm{C_2O_4^{2-}}$ has charge $-2$.\n\nLet the oxidation number of M be $x$.\n\n$$x + 2(0) + (-2) = +1$$\n\n$$x - 2 = +1$$\n\n$$x = +3$$\n\nSo, oxidation number of M is +3.\n\nStep 3: Find the coordination number.\n\nEach en is a bidentate ligand, so two en ligands donate $2 \\times 2 = 4$ donor atoms.\n\nOxalate $\\mathrm{C_2O_4^{2-}}$ is also bidentate, so it donates 2 donor atoms.\n\nCoordination number = $4 + 2 = 6$.\n\nStep 4: Sum = coordination number + oxidation number = $6 + 3 = 9$.\n\nFinal Answer: $$\\boxed{9}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

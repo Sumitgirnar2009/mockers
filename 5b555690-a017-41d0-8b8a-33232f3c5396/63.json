@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "63"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify the alkali metal having the smallest atomic size from following."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Sodium"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Potassium"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Rubidium"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Caesium"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Recall the trend of atomic size in the periodic table.\n\nIn a group, atomic size increases as we move from top to bottom because new shells are added.\n\nStep 2: The given elements belong to Group 1 (alkali metals).\n\nOrder in the group from top to bottom: Li (Lithium) → Na (Sodium) → K (Potassium) → Rb (Rubidium) → Cs (Caesium) → Fr (Francium).\n\nStep 3: Atomic size increases down the group.\n\nTherefore, the smallest atomic size among the given options is of Sodium (Na), which is the highest in the group among the given choices.\n\nFinal Answer: $$\\boxed{\\text{Sodium}}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

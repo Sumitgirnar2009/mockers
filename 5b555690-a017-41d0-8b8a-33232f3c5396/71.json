@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "71"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Calculate the van't Hoff factor of a centimolar solution of potassium ferrocyanide if it is 60% dissociated at 300 K."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "3.4"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "3.9"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "3.1"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "3.7"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Potassium ferrocyanide is $\\mathrm{K_4[Fe(CN)_6]}$. It dissociates as:\n\n$$\\mathrm{K_4[Fe(CN)_6] \\rightarrow 4K^+ + [Fe(CN)_6]^{4-}}$$\n\nNumber of ions produced per formula unit = $4 + 1 = 5$.\n\nSo, $n = 5$.\n\nStep 2: Degree of dissociation $\\alpha = 60\\% = 0.6$.\n\nStep 3: van't Hoff factor $i$ is given by:\n\n$$i = 1 + (n - 1)\\alpha$$\n\n$$i = 1 + (5 - 1) \\times 0.6 = 1 + 4 \\times 0.6 = 1 + 2.4 = 3.4$$\n\nFinal Answer: $$\\boxed{3.4}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

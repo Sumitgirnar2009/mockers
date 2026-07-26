@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "81"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Match List I with List II.\n\n$$\\begin{array}{|c|c|}\n\\hline\n\\text{List I} & \\text{List II} \\\\\n\\hline\n\\text{(A). Brownian Motion} & \\text{(I). Removal of impurities from the colloidal sols using a semipermeable membrane.} \\\\\n\\text{(B). Tyndall Effect} & \\text{(II). Movement of colloidal particles under the influence of an electric field.} \\\\\n\\text{(C). Electrophoresis} & \\text{(III). Random movement of colloidal particles due to kinetic energy.} \\\\\n\\text{(D). Dialysis} & \\text{(IV). Scattering of light by colloidal particles.} \\\\\n\\hline\n\\end{array}$$\n\nChoose the correct answer from the options given below:"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "(A)-(I), (B)-(II), (C)-(III), (D)-(IV)"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "(A)-(II), (B)-(IV), (C)-(I), (D)-(III)"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "(A)-(I), (B)-(II), (C)-(IV), (D)-(III)"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "(A)-(III), (B)-(IV), (C)-(II), (D)-(I)"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Brownian motion is the random movement of particles (III). Tyndall effect is scattering of light (IV). Electrophoresis is movement under electric field (II). Dialysis is removal of impurities using semipermeable membrane (I). Hence, the correct match is (A)-(III), (B)-(IV), (C)-(II), (D)-(I), which is option D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

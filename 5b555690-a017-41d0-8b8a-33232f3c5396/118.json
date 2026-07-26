@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "118"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $f(x - y) + f(x + y) = 2f(x)f(y)$ for all $x, y \\in \\mathbb{R}$, then $f(x)$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "an odd function"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "an even function"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "neither even nor odd function"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "a periodic function"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Put $y = 0$ in the given equation.\n\n$$f(x - 0) + f(x + 0) = 2f(x)f(0)$$\n\n$$2f(x) = 2f(x)f(0)$$\n\n$$f(x) \\{1 - f(0)\\} = 0.$$\n\nIf $f(x)$ is not identically zero, then $f(0) = 1$.\n\nStep 2: Now put $x = 0$ in the original equation.\n\n$$f(0 - y) + f(0 + y) = 2f(0)f(y)$$\n\n$$f(-y) + f(y) = 2 \\cdot 1 \\cdot f(y)$$\n\n$$f(-y) + f(y) = 2f(y)$$\n\n$$f(-y) = f(y).$$\n\nStep 3: This is exactly the condition for an even function.\n\nIf $f(x) = 0$ for all $x$, it is also even.\n\nThus, $f(x)$ is an even function.\n\nFinal Answer: $$\\boxed{\\text{an even function}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

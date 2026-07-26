@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "51"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "What is the approximate mass of the precipitate formed when 50 mL of 16.9% solution of AgNO₃ is mixed with 50 mL of 7.45% KCl solution? (Molar mass of AgNO₃ = 169 g/mol, KCl = 74.5 g/mol, AgCl = 143.3 g/mol)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "3.5 g"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "7 g"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "14 g"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "28 g"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Calculate the mass of AgNO₃ in 50 mL of 16.9% solution.\n\n16.9% means 16.9 g AgNO₃ in 100 mL solution.\nSo, in 50 mL: mass = (16.9/100) × 50 = 8.45 g.\n\nStep 2: Calculate moles of AgNO₃.\nMoles = mass / molar mass = 8.45 / 169 = 0.05 mol.\n\nStep 3: Calculate the mass of KCl in 50 mL of 7.45% solution.\n7.45% means 7.45 g KCl in 100 mL solution.\nIn 50 mL: mass = (7.45/100) × 50 = 3.725 g.\n\nStep 4: Calculate moles of KCl.\nMoles = 3.725 / 74.5 = 0.05 mol.\n\nStep 5: The reaction is AgNO₃ + KCl → AgCl↓ + KNO₃.\nBoth react in 1:1 ratio, and moles are equal (0.05 mol each), so no limiting reagent; complete precipitation occurs.\n\nStep 6: Moles of AgCl formed = 0.05 mol.\nMass of AgCl = moles × molar mass = 0.05 × 143.3 = 7.165 g ≈ 7 g.\n\nFinal Answer: $$\\boxed{7 \\text{ g}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

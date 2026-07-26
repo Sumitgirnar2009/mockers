@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "65"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which one of the following compound will show addition of HBr to alkene according to Markovnikov's rule?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "But-2-ene"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Hex-3-ene"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Ethene"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "2-methyl propene"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Markovnikov's rule states that in the addition of HX to an unsymmetrical alkene, the hydrogen atom attaches to the carbon with more hydrogen atoms, and the halogen attaches to the carbon with fewer hydrogen atoms.\n\nStep 2: For Markovnikov addition to apply, the alkene must be unsymmetrical (the two double-bond carbons must have different numbers of hydrogens).\n\nStep 3: Check each option:\n- But-2-ene ($\\mathrm{CH_3-CH=CH-CH_3}$): symmetrical → no Markovnikov effect.\n- Hex-3-ene ($\\mathrm{CH_3CH_2-CH=CH-CH_2CH_3}$): symmetrical → no Markovnikov effect.\n- Ethene ($\\mathrm{CH_2=CH_2}$): symmetrical → no Markovnikov effect.\n- 2-methyl propene ($\\mathrm{CH_2=C(CH_3)_2}$): unsymmetrical → one carbon has 2 H atoms, the other has 0 → Markovnikov addition applies.\n\nStep 4: Thus, 2-methyl propene will show addition of HBr according to Markovnikov's rule.\n\nFinal Answer: $$\\boxed{\\text{2-methyl propene}}$$\n\nHence, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

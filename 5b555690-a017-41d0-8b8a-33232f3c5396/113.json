@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "113"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The statements $p$, $q$ and $r$ have truth values True, False and False respectively. The truth values of the logical statement $[ \\sim (p \\land \\sim q) \\lor (q \\lor \\sim r) ]$ and its dual are, respectively"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "True, True"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "True, False"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "False, True"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "False, False"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Given $p = T$, $q = F$, $r = F$.\n\nStep 2: Evaluate the given statement: $\\sim (p \\land \\sim q) \\lor (q \\lor \\sim r)$.\n\n$\\sim q = T$, so $p \\land \\sim q = T \\land T = T$. Hence $\\sim (p \\land \\sim q) = F$.\n\n$\\sim r = T$, so $q \\lor \\sim r = F \\lor T = T$.\n\nThus the whole statement = $F \\lor T = T$.\n\nStep 3: Find the dual of the statement.\n\nThe statement is $\\sim (p \\land \\sim q) \\lor (q \\lor \\sim r)$.\n\nDual: replace $\\lor$ with $\\land$ and $\\land$ with $\\lor$.\n\nFirst term: $\\sim (p \\land \\sim q)$ becomes $\\sim (p \\lor \\sim q)$.\n\nSecond term: $q \\lor \\sim r$ becomes $q \\land \\sim r$.\n\nThe whole expression becomes $\\sim (p \\lor \\sim q) \\land (q \\land \\sim r)$.\n\nEvaluate: $p \\lor \\sim q = T \\lor T = T$, so $\\sim (p \\lor \\sim q) = F$.\n\n$q \\land \\sim r = F \\land T = F$.\n\nThus dual = $F \\land F = F$.\n\nTherefore, the truth values are True for the original and False for its dual.\n\nFinal Answer: $$\\boxed{\\text{True, False}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

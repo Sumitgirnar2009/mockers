@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "70"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following is NOT a characteristic of Schottky defect?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "After defect stoichiometry, the crystal remains unchanged."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "After defect neutrality, the crystal's structure remains unchanged."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "After defect density of crystal remains unchanged."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "It is a vacancy defect."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Schottky defect is a type of vacancy defect in which equal numbers of cations and anions are missing from their lattice sites.\n\nStep 2: Characteristics of Schottky defect:\n- Stoichiometry of the crystal remains unchanged (Option A is true).\n- Electrical neutrality is maintained (Option B is true).\n- It is a vacancy defect (Option D is true).\n- The density of the crystal decreases because some ions are missing (Option C is false).\n\nStep 3: Thus, the statement that density remains unchanged is NOT a characteristic of Schottky defect.\n\nFinal Answer: $$\\boxed{\\text{After defect density of crystal remains unchanged}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "69"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Calculate the number of unit cells present in 1 g metal if the product of the density of metal and the volume of unit cell is $2.5 \\times 10^{-22} \\, \\text{g}$."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$1.0 \\times 10^{21}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$2.0 \\times 10^{21}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$3.0 \\times 10^{21}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$4.0 \\times 10^{21}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: The product of density of metal and volume of unit cell gives the mass of one unit cell.\n\nMass of one unit cell = $2.5 \\times 10^{-22}$ g.\n\nStep 2: Number of unit cells present in 1 g of metal is given by:\n\n$$\\text{Number of unit cells} = \\frac{\\text{Total mass}}{\\text{Mass of one unit cell}}$$\n\n$$= \\frac{1}{2.5 \\times 10^{-22}}$$\n\n$$= \\frac{1}{2.5} \\times 10^{22}$$\n\n$$= 0.4 \\times 10^{22}$$\n\n$$= 4.0 \\times 10^{21}$$\n\nStep 3: Therefore, the number of unit cells present in 1 g metal is $4.0 \\times 10^{21}$.\n\nFinal Answer: $$\\boxed{4.0 \\times 10^{21}}$$\n\nHence, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

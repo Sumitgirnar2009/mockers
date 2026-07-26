@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "129"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $f(x)$ and $g(x)$ are integrable functions then $$\\int f(x) \\, dx \\cdot \\int g(x) \\, dx =$$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\int [f(x)g'(x) + f'(x)g(x)] \\, dx$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\int [f(x)g'(x) - f'(x)g(x)] \\, dx$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\int \\left[ f(x) \\int g(x) \\, dx + g(x) \\int f(x) \\, dx \\right] \\, dx$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\int \\left[ f(x) \\int g(x) \\, dx - g(x) \\int f(x) \\, dx \\right] \\, dx$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Let $F(x) = \\int f(x) \\, dx$ and $G(x) = \\int g(x) \\, dx$. Then $F'(x) = f(x)$ and $G'(x) = g(x)$.\n\nStep 2: We need to express $F(x) \\cdot G(x)$. Using the product rule for differentiation:\n\n$$\\frac{d}{dx} [F(x) G(x)] = F'(x) G(x) + F(x) G'(x) = f(x) G(x) + F(x) g(x).$$\n\nStep 3: Integrate both sides with respect to $x$:\n\n$$F(x) G(x) = \\int [f(x) G(x) + F(x) g(x)] \\, dx.$$\n\nStep 4: Substitute $F(x) = \\int f(x) \\, dx$ and $G(x) = \\int g(x) \\, dx$:\n\n$$\\int f(x) \\, dx \\cdot \\int g(x) \\, dx = \\int \\left[ f(x) \\int g(x) \\, dx + g(x) \\int f(x) \\, dx \\right] \\, dx.$$\n\nThus, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

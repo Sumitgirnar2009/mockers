@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "57"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "$\\mathrm{C_2H_5OH(l) + 3O_2(g) \\rightarrow 2CO_2(g) + 3H_2O(l)}$\n\nThe value of enthalpy change ($\\Delta H$) for above reaction at 27 °C is $-1366.5$ kJ mol⁻¹. Then value of internal energy change for the same reaction at this temperature will be"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$-1369.0$ kJ mol⁻¹"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$-1364.0$ kJ mol⁻¹"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$-1371.5$ kJ mol⁻¹"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$-1361.5$ kJ mol⁻¹"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The relation between $\\Delta H$ and $\\Delta U$ is:\n\n$$\\Delta H = \\Delta U + \\Delta n_g RT$$\n\nwhere $\\Delta n_g$ = moles of gaseous products − moles of gaseous reactants.\n\nFor the given reaction:\n\nGaseous reactants: 3 moles of $\\mathrm{O_2}$ (ethanol and water are liquids).\nGaseous products: 2 moles of $\\mathrm{CO_2}$.\n\n$$\\Delta n_g = 2 - 3 = -1$$\n\nTemperature $T = 27^\\circ$C = 300 K.\n\n$R = 8.314$ J K⁻¹ mol⁻¹ = $8.314 \\times 10^{-3}$ kJ K⁻¹ mol⁻¹.\n\n$$\\Delta U = \\Delta H - \\Delta n_g RT = -1366.5 - (-1) \\times 8.314 \\times 10^{-3} \\times 300$$\n\n$$= -1366.5 + 2.4942 = -1364.0058 \\approx -1364.0 \\text{ kJ mol}^{-1}$$\n\nFinal Answer: $$\\boxed{-1364.0 \\text{ kJ mol}^{-1}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

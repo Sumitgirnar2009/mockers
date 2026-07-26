@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "116"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If $A = \\begin{bmatrix} \\cos \\theta & -\\sin \\theta \\\\ \\sin \\theta & \\cos \\theta \\end{bmatrix}$, then the matrix $A^{-3}$ when $\\theta = \\frac{\\pi}{6}$ is equal to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\begin{bmatrix} 0 & 1 \\\\ -1 & 0 \\end{bmatrix}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\begin{bmatrix} 0 & 1 \\\\ 1 & 0 \\end{bmatrix}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\begin{bmatrix} 0 & -1 \\\\ 1 & 0 \\end{bmatrix}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: The matrix $A = \\begin{bmatrix} \\cos\\theta & -\\sin\\theta \\\\ \\sin\\theta & \\cos\\theta \\end{bmatrix}$ is a rotation matrix.\n\nStep 2: For a rotation matrix, $A^n = \\begin{bmatrix} \\cos n\\theta & -\\sin n\\theta \\\\ \\sin n\\theta & \\cos n\\theta \\end{bmatrix}$.\n\nStep 3: Therefore, $A^{-3} = \\begin{bmatrix} \\cos(-3\\theta) & -\\sin(-3\\theta) \\\\ \\sin(-3\\theta) & \\cos(-3\\theta) \\end{bmatrix}$.\n\nStep 4: Given $\\theta = \\frac{\\pi}{6}$, we have $-3\\theta = -\\frac{\\pi}{2}$.\n\nStep 5: Now, $\\cos\\left(-\\frac{\\pi}{2}\\right) = 0$ and $\\sin\\left(-\\frac{\\pi}{2}\\right) = -1$.\n\nStep 6: So, $A^{-3} = \\begin{bmatrix} 0 & -(-1) \\\\ -1 & 0 \\end{bmatrix} = \\begin{bmatrix} 0 & 1 \\\\ -1 & 0 \\end{bmatrix}$.\n\nFinal Answer: $$\\boxed{\\begin{bmatrix} 0 & 1 \\\\ -1 & 0 \\end{bmatrix}}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

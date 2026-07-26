@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "119"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If the function $f$ is continuous at $x = 1$, where $$f(x) = \\frac{1 + \\cos(\\pi x)}{\\pi(1 - x)^2}, \\text{ for } x \\neq 1,$$ then the value of $f(1)$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{\\pi}{2}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{\\pi}{4}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{\\pi}{6}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{\\pi}{9}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: For $f$ to be continuous at $x = 1$, we must have $f(1) = \\lim_{x \\to 1} f(x)$.\n\nStep 2: $$f(1) = \\lim_{x \\to 1} \\frac{1 + \\cos(\\pi x)}{\\pi(1 - x)^2}.$$\n\nStep 3: Put $x = 1 + h$. As $x \\to 1$, $h \\to 0$.\n\nThen $1 - x = -h$, so $(1 - x)^2 = h^2$.\n\nAlso, $\\cos(\\pi x) = \\cos(\\pi(1 + h)) = -\\cos(\\pi h)$.\n\nThus, $1 + \\cos(\\pi x) = 1 - \\cos(\\pi h)$.\n\nStep 4: The limit becomes:\n\n$$f(1) = \\lim_{h \\to 0} \\frac{1 - \\cos(\\pi h)}{\\pi h^2}.$$\n\nStep 5: Using the standard limit $1 - \\cos\\theta \\sim \\frac{\\theta^2}{2}$ near $\\theta = 0$, we get $1 - \\cos(\\pi h) \\sim \\frac{(\\pi h)^2}{2}$.\n\nStep 6: $$f(1) = \\lim_{h \\to 0} \\frac{\\frac{\\pi^2 h^2}{2}}{\\pi h^2} = \\frac{\\pi}{2}.$$\n\nFinal Answer: $$\\boxed{\\frac{\\pi}{2}}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

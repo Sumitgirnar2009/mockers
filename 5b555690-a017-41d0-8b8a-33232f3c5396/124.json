@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "124"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "2"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If the function $f(x) = ax^3 - bx^2 - 8x - 4$ satisfies Rolle's theorem in $[1, 3]$, if $f'(2) = 0$ then $a - b$ is equal to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "2"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "-2"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "0"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "1"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Rolle's theorem requires $f(1) = f(3)$.\n\nCompute $f(1) = a(1)^3 - b(1)^2 - 8(1) - 4 = a - b - 12$.\n\nCompute $f(3) = a(3)^3 - b(3)^2 - 8(3) - 4 = 27a - 9b - 24 - 4 = 27a - 9b - 28$.\n\nSet $f(1) = f(3)$:\n\n$$a - b - 12 = 27a - 9b - 28$$\n\n$$a - b - 12 - 27a + 9b + 28 = 0$$\n\n$$-26a + 8b + 16 = 0$$\n\nDivide by 2: $-13a + 4b + 8 = 0$.\n\nSo, $4b = 13a - 8$ ... (i)\n\nStep 2: Given $f'(2) = 0$. First differentiate $f(x)$:\n\n$$f'(x) = 3ax^2 - 2bx - 8$$\n\n$$f'(2) = 3a(2)^2 - 2b(2) - 8 = 12a - 4b - 8 = 0$$\n\nDivide by 4: $3a - b - 2 = 0 \\Rightarrow b = 3a - 2$ ... (ii)\n\nStep 3: Substitute (ii) into (i):\n\n$$4(3a - 2) = 13a - 8$$\n\n$$12a - 8 = 13a - 8$$\n\n$$12a = 13a \\Rightarrow a = 0$$\n\nThen $b = 3(0) - 2 = -2$.\n\nStep 4: $a - b = 0 - (-2) = 2$.\n\nFinal Answer: $$\\boxed{2}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

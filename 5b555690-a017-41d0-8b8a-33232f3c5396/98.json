@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "98"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following polymers has ester linkage?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Orlon"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Dacron"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Teflon"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Neoprene"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: The polymer that has an ester linkage is Dacron.\n\nStep 2: Dacron is also called terylene. It is a polyester formed by the condensation polymerisation of ethylene glycol and terephthalic acid.\n\nStep 3: In Dacron, the repeating unit contains the ester group $\\mathrm{-COO-}$.\n\nStep 4: Orlon is polyacrylonitrile, Teflon is polytetrafluoroethylene, and Neoprene is a synthetic rubber — none of these have ester linkages.\n\nFinal Answer: $$\\boxed{\\text{Dacron}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

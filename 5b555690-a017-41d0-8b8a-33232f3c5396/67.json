@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "5b555690-a017-41d0-8b8a-33232f3c5396"
+  },
+  "questionId": {
+    "S": "67"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify the product of reforming reaction of n-hexane in the presence of $\\mathrm{V_2O_5}$ over alumina."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Benzene"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Cyclohexane"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Methyl benzene"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Phenol"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Reforming is a process in which straight-chain alkanes are converted into branched-chain alkanes or aromatic hydrocarbons in the presence of a catalyst (like $\\mathrm{V_2O_5}$ or platinum on alumina) at high temperature and pressure.\n\nStep 2: n-Hexane ($\\mathrm{C_6H_{14}}$) undergoes dehydrocyclisation (reforming) to form benzene.\n\n$$\\mathrm{C_6H_{14} \\xrightarrow{V_2O_5/Al_2O_3, \\Delta} C_6H_6 + 4H_2}$$\n\nThe reaction involves loss of hydrogen and cyclisation to form a six-membered aromatic ring.\n\nStep 3: Thus, the product of reforming of n-hexane is benzene.\n\nFinal Answer: $$\\boxed{\\text{Benzene}}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}
