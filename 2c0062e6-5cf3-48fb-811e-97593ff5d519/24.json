@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "24"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "When open pipe is closed from one end then second overtone of closed pipe is higher in frequency by 100 Hz than first overtone of open pipe. The fundamental frequency of open end pipe will be (Neglect end correction)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "200 Hz"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "300 Hz"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "100 Hz"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "400 Hz"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Let the fundamental frequency of the open pipe be $f$.\n\nFor an open pipe, first overtone (2nd harmonic) = $2f$.\n\nStep 2: For the same pipe closed at one end, fundamental = $\\frac{f}{2}$ (since $f_{\\text{closed}} = \\frac{v}{4L} = \\frac{1}{2} \\cdot \\frac{v}{2L} = \\frac{f}{2}$).\n\nSecond overtone of closed pipe = 5th harmonic = $5 \\cdot \\frac{f}{2} = \\frac{5f}{2}$.\n\nStep 3: Given that the second overtone of closed pipe is 100 Hz higher than the first overtone of open pipe:\n\n$$\\frac{5f}{2} - 2f = 100$$\n\n$$\\frac{5f - 4f}{2} = 100$$\n\n$$\\frac{f}{2} = 100 \\Rightarrow f = 200 \\text{ Hz}$$\n\nFinal Answer: $$\\boxed{200 \\text{ Hz}}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

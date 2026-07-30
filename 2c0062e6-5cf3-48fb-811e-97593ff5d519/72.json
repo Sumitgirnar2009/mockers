@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "72"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If a 0.4 molal solution of a nonvolatile solute in organic solvent decreases its freezing point by 2.4 K, then the molal depression constant of solvent will be"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$3.0$ K kg mol⁻¹"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$4.0$ K kg mol⁻¹"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$5.0$ K kg mol⁻¹"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$6.0$ K kg mol⁻¹"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For depression in freezing point, we use the relation:\n\n$$\\Delta T_f = K_f \\times m$$\n\nHere, $\\Delta T_f = 2.4$ K and $m = 0.4$ mol kg⁻¹.\n\nSo,\n\n$$K_f = \\frac{\\Delta T_f}{m} = \\frac{2.4}{0.4} = 6.0 \\text{ K kg mol}^{-1}$$\n\nThus, the molal depression constant of the solvent is $6.0$ K kg mol⁻¹.\n\nFinal Answer: $$\\boxed{6.0 \\text{ K kg mol}^{-1}}$$\n\nHence, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

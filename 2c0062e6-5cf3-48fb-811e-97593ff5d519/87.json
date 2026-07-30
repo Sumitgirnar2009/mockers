@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "87"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following is used as solvent for Grignard reagent?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Alcohol"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Ether"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Phenol"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Ketone"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Grignard reagents (RMgX) are prepared by reacting an alkyl halide with magnesium metal in dry ether. Ether is used as the solvent because it is aprotic and does not react with the Grignard reagent. Alcohols, phenols, and ketones contain acidic protons or carbonyl groups that react with Grignard reagents, so they cannot be used as solvents.\n\nFinal Answer: $$\\boxed{\\text{Ether}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "62"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify from following the conjugate base of $$\\mathrm{[Zn(H_2O)_4]^{2+}}$$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\mathrm{[Zn(H_2O)_4]^{2-}        NH_3}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\mathrm{[Zn(H_2O)_3]^{2-}}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\mathrm{[Zn(H_2O)_3OH]^+}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\mathrm{[Zn(H_2O)H]^{3+}}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The conjugate base is formed when an acid loses one proton, H⁺.\n\nHere the complex is $\\mathrm{Zn(H_2O)_4^{2+}}$.\n\nOne coordinated water molecule, H₂O, can lose H⁺ and become OH⁻.\n\nSo,\n\n$$\\mathrm{Zn(H_2O)_4^{2+} \\rightarrow [Zn(H_2O)_3OH]^+ + H^+}$$\n\nThe charge also matches: the original complex has charge +2. After losing H⁺, the conjugate base has charge +1.\n\nThus, the conjugate base is $\\mathrm{Zn(H_2O)_3OH^+}$.\n\nFinal Answer: $$\\boxed{\\mathrm{Zn(H_2O)_3OH^+}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

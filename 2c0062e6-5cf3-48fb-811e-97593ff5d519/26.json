@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "26"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A point charge '$Q$' is placed at the centre of the line joining two equal charges '$+q$' and '$+q$'. The value of '$Q$' when the system is in equilibrium is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{+q}{4}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{+q}{2}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{-q}{2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{-q}{4}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Suppose the two charges $+q$ and $+q$ are separated by a distance $2a$.\n\nSo the charge $Q$ is at the midpoint, at a distance $a$ from each $+q$.\n\nFor the whole system to be in equilibrium, the net force on each charge must be zero.\n\nThe force on the middle charge $Q$ due to the two equal charges $+q$ is already zero, because both forces are equal and opposite.\n\nNow consider one end charge $+q$.\n\nIt is repelled by the other end charge $+q$.\n\nDistance between the two $+q$ charges is $2a$, so this repulsive force is:\n\n$$F_1 = \\frac{kq^2}{(2a)^2} = \\frac{kq^2}{4a^2}$$\n\nTo balance this force, the middle charge $Q$ must attract the end charge $+q$.\n\nSo $Q$ must be negative.\n\nForce between $Q$ and $+q$ is:\n\n$$F_2 = \\frac{kq|Q|}{a^2}$$\n\nFor equilibrium:\n\n$$F_1 = F_2$$\n\n$$\\frac{kq^2}{4a^2} = \\frac{kq|Q|}{a^2}$$\n\nCancel common terms:\n\n$$|Q| = \\frac{q}{4}$$\n\nSince $Q$ must be negative:\n\n$$Q = -\\frac{q}{4}$$\n\nSo the correct option is D: $-\\frac{q}{4}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

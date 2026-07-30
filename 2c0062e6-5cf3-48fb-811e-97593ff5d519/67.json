@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "67"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Match List I with List II.\n\n$$\\begin{array}{|c|c|}\n\\hline\n\\text{List I} & \\text{List II} \\\\\n\\hline\n\\text{(A). Inductive effect} & \\text{(I). Delocalization of } \\pi \\text{ electrons} \\\\\n\\text{(B). Hyper-conjugation} & \\text{(II). Displacement of } \\pi \\text{ electrons} \\\\\n\\text{(C). Resonance effect} & \\text{(III). Delocalization of } \\sigma \\text{ electrons} \\\\\n & \\text{(IV). Displacement of } \\sigma \\text{ electrons} \\\\\n\\hline\n\\end{array}$$\n\nChoose the correct answer from the options given below:"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "(A) - (IV), (B) - (III), (C) - (I)"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "(A) - (II), (B) - (IV), (C) - (I)"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "(A) - (I), (B) - (II), (C) - (IV)"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "(A) - (III), (B) - (IV), (C) - (I)"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Inductive effect is the permanent displacement of σ electrons along a carbon chain due to difference in electronegativity. So, (A) matches with (IV) – Displacement of σ electrons.\n\nHyper-conjugation involves the delocalization of σ electrons (specifically, σ–π conjugation). So, (B) matches with (III) – Delocalization of σ electrons.\n\nResonance effect involves the delocalization of π electrons. So, (C) matches with (I) – Delocalization of π electrons.\n\nThus, the correct matching is (A)-(IV), (B)-(III), (C)-(I), which corresponds to Option A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "53"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "If the velocity of the electron in Bohr's first orbit is $2.19 \\times 10^6$ m/s, calculate the de Broglie wavelength associated with it. ($h = 6.626 \\times 10^{-34}$ J s and mass of electron = $9.10938 \\times 10^{-31}$ kg)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "332 pm"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "313 pm"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "342 pm"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "323 pm"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The de Broglie wavelength is $\\lambda = \\frac{h}{mv}$.\n\nGiven: $h = 6.626 \\times 10^{-34}$ J s, $m = 9.10938 \\times 10^{-31}$ kg, $v = 2.19 \\times 10^6$ m/s.\n\n$$\\lambda = \\frac{6.626 \\times 10^{-34}}{(9.10938 \\times 10^{-31})(2.19 \\times 10^6)} = \\frac{6.626 \\times 10^{-34}}{1.9949 \\times 10^{-24}} = 3.32 \\times 10^{-10} \\text{ m}$$\n\nConverting to picometres: $3.32 \\times 10^{-10} \\text{ m} = 332 \\text{ pm}$.\n\nFinal Answer: $$\\boxed{332 \\text{ pm}}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

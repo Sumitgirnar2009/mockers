@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "27"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Capacitors of capacities $C_1$ and $C_2$ are connected in series. If the combination is connected to a supply of $V$ volt then the potential difference across capacitor $C_2$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{C_1 + C_2}{C_1 V}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{C_1 V}{C_1 + C_2}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{C_1 + C_2}{C_2 V}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{C_2 V}{C_1 + C_2}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For capacitors in series, the charge on each capacitor is the same.\n\nThe equivalent capacitance of the series combination is:\n\n$$C_{eq} = \\frac{C_1 C_2}{C_1 + C_2}$$\n\nWhen the combination is connected to a supply of $V$ volts, the total charge drawn from the source is:\n\n$$Q = C_{eq} V = \\frac{C_1 C_2}{C_1 + C_2} V$$\n\nThe potential difference across capacitor $C_2$ is given by:\n\n$$V_2 = \\frac{Q}{C_2}$$\n\nSubstituting the value of $Q$:\n\n$$V_2 = \\frac{1}{C_2} \\times \\frac{C_1 C_2}{C_1 + C_2} V = \\frac{C_1 V}{C_1 + C_2}$$\n\nThus, the potential difference across $C_2$ is $\\frac{C_1 V}{C_1 + C_2}$.\n\nFinal Answer: $$\\boxed{\\frac{C_1 V}{C_1 + C_2}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

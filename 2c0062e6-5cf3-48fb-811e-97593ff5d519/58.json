@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "58"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "For a reaction to be spontaneous at all temperatures, the values of enthalpy change and entropy change should be"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "ΔH > 0 and ΔS > 0"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "ΔH < 0 and ΔS > 0"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "ΔH < 0 and ΔS < 0"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "ΔH > 0 and ΔS < 0"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a reaction to be spontaneous, the Gibbs free energy change must be negative:\n\nΔG = ΔH - TΔS\n\nFor the reaction to be spontaneous at all temperatures, ΔG should remain negative for every value of T.\n\nThis is possible when ΔH < 0 (enthalpy term favours spontaneity) and ΔS > 0 (so -TΔS is also negative at all temperatures).\n\nThus, both terms in ΔG = ΔH - TΔS become negative, making ΔG negative at all temperatures.\n\nFinal Answer: $$\\boxed{\\text{ΔH < 0 and ΔS > 0}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

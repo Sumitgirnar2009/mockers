@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "32"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A charge moves in a circular path perpendicular to a magnetic field. The time period of revolution is independent of"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "mass of the particle"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "velocity of the particle"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "magnetic field"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "charge"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a charged particle moving perpendicular to a uniform magnetic field, the magnetic force provides the centripetal force:\n\n$$qvB = \\frac{mv^2}{r}$$\n\nSo the radius of the circular path is:\n\n$$r = \\frac{mv}{qB}$$\n\nThe time period of revolution is:\n\n$$T = \\frac{2\\pi r}{v}$$\n\nSubstitute the value of $r$:\n\n$$T = \\frac{2\\pi}{v} \\times \\frac{mv}{qB} = \\frac{2\\pi m}{qB}$$\n\nThus, the time period depends on the mass $m$, charge $q$, and magnetic field $B$, but it is independent of the velocity $v$ of the particle.\n\nFinal Answer: $$\\boxed{\\text{velocity of the particle}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

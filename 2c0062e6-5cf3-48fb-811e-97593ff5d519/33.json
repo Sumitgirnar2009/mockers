@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "33"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A long wire is bent into a circular coil of one turn and then into a circular coil of smaller radius having $n$ turns. If the same current is passed in both the cases, the ratio of magnetic field produced at the centre for one turn to that of $n$ turns is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$1 : n$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$n : 1$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$1 : n^2$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$n^2 : 1$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Let the length of the wire be $L$.\n\nCase 1: One turn of radius $R$. The circumference is $2\\pi R = L$, so $R = \\frac{L}{2\\pi}$.\n\nThe magnetic field at the centre is:\n\n$$B_1 = \\frac{\\mu_0 I}{2R} = \\frac{\\mu_0 I}{2(L/2\\pi)} = \\frac{\\pi \\mu_0 I}{L}$$\n\nCase 2: $n$ turns of radius $r$. Total length of wire = $n \\times 2\\pi r = L$, so $r = \\frac{L}{2\\pi n}$.\n\nThe magnetic field at the centre for $n$ turns is:\n\n$$B_2 = n \\times \\frac{\\mu_0 I}{2r} = n \\times \\frac{\\mu_0 I}{2(L/2\\pi n)} = n \\times \\frac{\\pi n \\mu_0 I}{L} = \\frac{\\pi n^2 \\mu_0 I}{L}$$\n\nNow take the ratio:\n\n$$\\frac{B_1}{B_2} = \\frac{\\pi \\mu_0 I / L}{\\pi n^2 \\mu_0 I / L} = \\frac{1}{n^2}$$\n\nThus, the ratio is $1 : n^2$.\n\nFinal Answer: $$\\boxed{1 : n^2}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

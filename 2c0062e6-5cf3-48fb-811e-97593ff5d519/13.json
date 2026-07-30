@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "13"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A black rectangular surface of area A emits energy E per second at 127°C. If length and breadth is reduced to half of initial value and temperature is raised to 527°C then energy emitted becomes"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$E$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$2E$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$4E$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$8E$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: According to Stefan's law, the energy radiated per second by a black body is $E \\propto A T^4$.\n\nStep 2: Convert temperatures to Kelvin.\n\nInitial: $T_1 = 127^\\circ\\text{C} = 127 + 273 = 400$ K.\nFinal: $T_2 = 527^\\circ\\text{C} = 527 + 273 = 800$ K.\n\nStep 3: Area change: length and breadth are halved, so new area $A' = \\frac{A}{4}$.\n\nStep 4: Write the ratio:\n\n$$\\frac{E'}{E} = \\frac{A'}{A} \\cdot \\left(\\frac{T_2}{T_1}\\right)^4 = \\frac{1}{4} \\cdot \\left(\\frac{800}{400}\\right)^4 = \\frac{1}{4} \\cdot 2^4 = \\frac{1}{4} \\cdot 16 = 4$$\n\nThus $E' = 4E$.\n\nFinal Answer: $$\\boxed{4E}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

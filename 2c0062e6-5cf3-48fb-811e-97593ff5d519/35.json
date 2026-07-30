@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "35"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Two concentric circular coils having radii $r_1$ and $r_2$ ($r_2 \\ll r_1$) are placed coaxially with centres coinciding. The mutual inductance of the arrangement is (Both coils have single turn, $\\mu_0$ = permeability of free space)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{\\mu_0 \\pi r_2}{2r_1}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{\\mu_0 \\pi r_1^2}{2r_2}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{\\mu_0 \\pi r_1}{2r_2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{\\mu_0 r_2^2 \\pi}{2r_1}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Since $r_2 \\ll r_1$, the smaller coil is placed very close to the centre of the larger coil. The magnetic field due to the larger coil at its centre can be considered nearly uniform over the entire area of the smaller coil.\n\nStep 2: The magnetic field at the centre of the larger coil (radius $r_1$) carrying current $I$ is:\n\n$$B = \\frac{\\mu_0 I}{2r_1}$$\n\nStep 3: The area of the smaller coil is $A = \\pi r_2^2$.\n\nStep 4: The magnetic flux linked with the smaller coil is:\n\n$$\\phi = B \\cdot A = \\frac{\\mu_0 I}{2r_1} \\times \\pi r_2^2$$\n\nStep 5: Mutual inductance $M$ is defined as the flux linked with the secondary coil per unit current in the primary coil:\n\n$$M = \\frac{\\phi}{I} = \\frac{\\mu_0 \\pi r_2^2}{2r_1}$$\n\nThus, the mutual inductance of the arrangement is $\\frac{\\mu_0 \\pi r_2^2}{2r_1}$.\n\nFinal Answer: $$\\boxed{\\frac{\\mu_0 \\pi r_2^2}{2r_1}}$$\n\nHence, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

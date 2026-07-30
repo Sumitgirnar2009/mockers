@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "41"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In the phenomenon of refraction of light for the same angle of incidence"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "angle of refraction is same for different colours."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "angle of refraction is different for different colours."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "angle of refraction does not depend upon the colour of the light used."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "angle of refraction depends on critical angle."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For the same angle of incidence, the angle of refraction is different for different colours because different colours have different speeds in a medium, and hence different refractive indices. From Snell's law, $\\frac{\\sin i}{\\sin r} = n$. For a fixed $i$, a change in $n$ changes $r$. Therefore, the angle of refraction depends on the colour of light. The correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

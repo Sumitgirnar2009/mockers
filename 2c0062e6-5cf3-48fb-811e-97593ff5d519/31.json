@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "31"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "An iron rod is placed parallel to magnetic field intensity 1000 A/m. The magnetic flux through the rod is $3 \\times 10^{-4}$ Wb and its cross-sectional area is $1.5 \\text{ cm}^2$. The magnetic permeability of rod in Wb/A·m is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$2 \\times 10^{-2}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$2 \\times 10^{-3}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$2 \\times 10^{-4}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$1 \\times 10^{-2}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The rod is placed parallel to the magnetic field, so the magnetic flux density $B$ through the rod is:\n\n$$B = \\frac{\\phi}{A}$$\n\nGiven $\\phi = 3 \\times 10^{-4}$ Wb and area $A = 1.5 \\text{ cm}^2$.\n\nConvert area into square metres:\n\n$$1 \\text{ cm}^2 = 10^{-4} \\text{ m}^2$$\n\nSo,\n\n$$A = 1.5 \\times 10^{-4} \\text{ m}^2$$\n\nNow,\n\n$$B = \\frac{3 \\times 10^{-4}}{1.5 \\times 10^{-4}} = 2 \\text{ Wb/m}^2$$\n\nWe know that $B = \\mu H$.\n\nGiven magnetic field intensity $H = 1000$ A/m.\n\nSo,\n\n$$\\mu = \\frac{B}{H} = \\frac{2}{1000} = 2 \\times 10^{-3} \\, \\text{Wb} \\, \\text{A}^{-1} \\, \\text{m}^{-1}$$\n\nFinal Answer: $$\\boxed{2 \\times 10^{-3} \\, \\text{Wb A}^{-1} \\text{m}^{-1}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

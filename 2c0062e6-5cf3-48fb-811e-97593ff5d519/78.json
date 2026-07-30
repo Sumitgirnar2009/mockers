@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "78"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "For the reaction $\\mathrm{2A \\rightarrow 3C + D}$, the rate of reaction is represented by"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$-\\frac{d[A]}{dt} = -\\frac{d[D]}{dt}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$-\\frac{d[C]}{dt} = -2\\frac{d[A]}{dt}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$-\\frac{d[A]}{dt} = -\\frac{d[D]}{dt}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$-\\frac{1}{2}\\frac{d[A]}{dt} = \\frac{1}{3}\\frac{d[C]}{dt}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For the reaction $\\mathrm{2A \\rightarrow 3C + D}$, the rate of reaction is written by dividing the rate of change of concentration by the stoichiometric coefficient.\n\nFor reactant A, concentration decreases, so we use a negative sign:\n$$-\\frac{1}{2}\\frac{d[A]}{dt}$$\n\nFor product C, concentration increases, so we use a positive sign:\n$$+\\frac{1}{3}\\frac{d[C]}{dt}$$\n\nFor product D, coefficient is 1, so:\n$$+\\frac{d[D]}{dt}$$\n\nSo the complete rate expression is:\n$$\\text{Rate} = -\\frac{1}{2}\\frac{d[A]}{dt} = \\frac{1}{3}\\frac{d[C]}{dt} = \\frac{d[D]}{dt}$$\n\nThus, the correct relation is $\\frac{1}{2}\\frac{d[A]}{dt} = \\frac{1}{3}\\frac{d[C]}{dt}$.\n\nFinal Answer: $$\\boxed{\\frac{1}{2}\\frac{d[A]}{dt} = \\frac{1}{3}\\frac{d[C]}{dt}}$$\n\nHence, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "4"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A particle at rest starts moving with constant angular acceleration '$\\alpha$' in a circular path of radius '$r$'. At certain instant, the magnitude of centripetal acceleration is $\\frac{1}{3}$ of the tangential acceleration. The relation between linear speed ($V$) and angular acceleration ($\\alpha$) is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$V = \\frac{r\\alpha}{3}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$V = \\alpha \\sqrt{\\frac{r}{2}}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$V = r\\sqrt{\\frac{\\alpha}{3}}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$V = \\sqrt{\\frac{\\alpha r}{3}}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Centripetal acceleration: $a_c = \\frac{V^2}{r}$.\n\nTangential acceleration: $a_t = r\\alpha$.\n\nGiven: $a_c = \\frac{1}{3} a_t$.\n\n$$\\frac{V^2}{r} = \\frac{1}{3} (r\\alpha) \\Rightarrow V^2 = \\frac{r^2 \\alpha}{3} \\Rightarrow V = r\\sqrt{\\frac{\\alpha}{3}}$$\n\nFinal Answer: $$\\boxed{V = r\\sqrt{\\frac{\\alpha}{3}}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

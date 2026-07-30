@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "57"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "For a certain reaction, $\\Delta H^\\circ$ is $-345$ kJ and $\\Delta S^\\circ$ is $-123$ J K⁻¹. At what temperature the change over from spontaneous to nonspontaneous will occur?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1052 K"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "1956 K"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "2568 K"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "2805 K"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For the change over from spontaneous to nonspontaneous, the reaction is at equilibrium. So, $\\Delta G^\\circ = 0$.\n\nWe know that $\\Delta G^\\circ = \\Delta H^\\circ - T \\Delta S^\\circ$.\n\nPutting $\\Delta G^\\circ = 0$:\n\n$$0 = \\Delta H^\\circ - T \\Delta S^\\circ \\Rightarrow T = \\frac{\\Delta H^\\circ}{\\Delta S^\\circ}$$\n\nGiven $\\Delta H^\\circ = -345$ kJ = $-345000$ J and $\\Delta S^\\circ = -123$ J K⁻¹.\n\n$$T = \\frac{-345000}{-123} \\approx 2804.9 \\text{ K} \\approx 2805 \\text{ K}$$\n\nFinal Answer: $$\\boxed{2805 \\text{ K}}$$\n\nHence, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

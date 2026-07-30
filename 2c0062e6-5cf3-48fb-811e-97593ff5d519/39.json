@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "39"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In an LCR series circuit, at resonance,"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "the impedance is maximum"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "the current is minimum"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "the current leads the voltage by $\\frac{\\pi}{2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "the current and voltage are in phase"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: At resonance in a series LCR circuit, the inductive reactance equals the capacitive reactance:\n\n$$X_L = X_C$$\n\nStep 2: The net reactance becomes zero:\n\n$$X = X_L - X_C = 0$$\n\nStep 3: The impedance of the circuit is:\n\n$$Z = \\sqrt{R^2 + (X_L - X_C)^2}$$\n\nAt resonance, since $X_L - X_C = 0$, we get:\n\n$$Z = R$$\n\nThis is the minimum possible impedance (not maximum).\n\nStep 4: Since impedance is minimum, the current is maximum:\n\n$$I = \\frac{V}{Z} = \\frac{V}{R}$$\n\nStep 5: Since the net reactance is zero, the circuit behaves like a purely resistive circuit. In a purely resistive circuit, the current and voltage are in phase (phase difference = 0).\n\nThus, the correct statement is that the current and voltage are in phase.\n\nFinal Answer: $$\\boxed{\\text{the current and voltage are in phase}}$$\n\nHence, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

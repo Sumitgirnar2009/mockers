@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "74"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Calculate the concentration of silver nitrate solution if molar conductivity and conductivity of silver nitrate at 25°C are respectively 120 ohm⁻¹ cm² mol⁻¹ and 0.0024 ohm⁻¹ cm⁻¹."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$0.01$ M"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$0.02$ M"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$0.03$ M"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$0.04$ M"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a solution, molar conductivity $\\Lambda_m$ is related to conductivity $\\kappa$ and concentration $C$ by:\n\n$$\\Lambda_m = \\frac{\\kappa \\times 1000}{C}$$\n\nHere, $\\Lambda_m = 120$ ohm⁻¹ cm² mol⁻¹ and $\\kappa = 0.0024$ ohm⁻¹ cm⁻¹.\n\nSo,\n\n$$120 = \\frac{0.0024 \\times 1000}{C}$$\n\n$$120 = \\frac{2.4}{C}$$\n\n$$C = \\frac{2.4}{120} = 0.02 \\text{ M}$$\n\nThus, the concentration of silver nitrate solution is $0.02$ M.\n\nFinal Answer: $$\\boxed{0.02 \\text{ M}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

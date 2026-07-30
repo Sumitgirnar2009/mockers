@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "44"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "When a metallic surface is illuminated with a radiation of wavelength '$\\lambda$', the stopping potential is '$V$'. If the same surface is illuminated with radiation of wavelength $6\\lambda$, the stopping potential is $\\frac{V}{12}$. The threshold wavelength for the surface is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$5\\lambda$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$10\\lambda$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$11\\lambda$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$12\\lambda$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Using Einstein's photoelectric equation: $eV = \\frac{hc}{\\lambda} - \\phi$ and $\\frac{eV}{12} = \\frac{hc}{6\\lambda} - \\phi$.\n\nSubtracting the second from the first:\n\n$$eV - \\frac{eV}{12} = \\frac{hc}{\\lambda} - \\frac{hc}{6\\lambda}$$\n\n$$\\frac{11eV}{12} = \\frac{5hc}{6\\lambda} \\Rightarrow eV = \\frac{10hc}{11\\lambda}$$\n\nSubstitute back into the first equation:\n\n$$\\frac{10hc}{11\\lambda} = \\frac{hc}{\\lambda} - \\phi \\Rightarrow \\phi = \\frac{hc}{\\lambda} - \\frac{10hc}{11\\lambda} = \\frac{hc}{11\\lambda}$$\n\nThe threshold frequency $\\nu_0 = \\frac{\\phi}{h} = \\frac{c}{11\\lambda}$, so the threshold wavelength $\\lambda_0 = \\frac{c}{\\nu_0} = 11\\lambda$.\n\nThus the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

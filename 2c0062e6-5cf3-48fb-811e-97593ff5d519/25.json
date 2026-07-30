@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "25"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "For a uniformly charged plane sheet, the variation of electric field (E) with distance (d) is correctly shown graphically in graph"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Graph A"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Graph B"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Graph C"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Graph D"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a uniformly charged infinite plane sheet, the electric field is given by $E = \\frac{\\sigma}{2\\varepsilon_0}$, where $\\sigma$ is the surface charge density. This expression does not contain the distance $d$ from the sheet, so the electric field remains constant regardless of how far the point is from the sheet. Therefore, the graph of $E$ versus $d$ is a straight horizontal line parallel to the distance axis. This corresponds to Graph C. Hence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/2c0062e6-5cf3-48fb-811e-97593ff5d519/q25-sol.png"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "63"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "For the following redox reaction, find the correct statement. $$\\mathrm{Sn^{2+} + 2Fe^{3+} \\rightarrow Sn^{4+} + 2Fe^{2+}}$$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Sn²⁺ is undergoing oxidation."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Fe³⁺ is undergoing oxidation."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "It is not a redox reaction."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Both Sn²⁺ and Fe³⁺ are oxidized."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "In the reaction, check the change in oxidation states.\n\nFor tin: Sn²⁺ → Sn⁴⁺. The oxidation state increases from +2 to +4. An increase in oxidation state means oxidation. So, Sn²⁺ is undergoing oxidation.\n\nFor iron: Fe³⁺ → Fe²⁺. The oxidation state decreases from +3 to +2. A decrease in oxidation state means reduction. So, Fe³⁺ is undergoing reduction, not oxidation.\n\nHence, the correct statement is that Sn²⁺ is undergoing oxidation.\n\nFinal Answer: $$\\boxed{\\text{Sn}^{2+} \\text{ is undergoing oxidation.}}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

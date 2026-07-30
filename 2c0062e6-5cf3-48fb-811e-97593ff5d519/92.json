@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "92"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify the name of reaction when phenol reacts with chloroform in aqueous NaOH."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Kolbe's reaction"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Reimer-Tiemann reaction"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Williamson synthesis"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Friedel-Crafts acylation"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "When phenol reacts with chloroform (CHCl₃) in aqueous sodium hydroxide (NaOH), the reaction is called the Reimer‑Tiemann reaction.\n\nIn this reaction, an aldehyde group (—CHO) is introduced mainly at the ortho position of phenol, forming salicylaldehyde.\n\nC₆H₅OH + CHCl₃ + NaOH → o‑HO–C₆H₄–CHO\n\nSo, the correct option is Option B: Reimer-Tiemann reaction."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

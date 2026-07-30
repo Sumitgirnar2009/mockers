@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "85"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify the complex having the highest number of unpaired electrons from following."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$[\\mathrm{Co(NH_3)_6}]^{3+}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$[\\mathrm{CoF_6}]^{3-}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$[\\mathrm{NiCl_4}]^{2-}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$[\\mathrm{Ni(CN)_4}]^{2-}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Determine the number of unpaired electrons in each complex.\n\n- $[\\mathrm{Co(NH_3)_6}]^{3+}$: Co³⁺ is d⁶. NH₃ is a strong field ligand, so the complex is low spin: t₂g⁶ eg⁰ → 0 unpaired electrons.\n\n- $[\\mathrm{CoF_6}]^{3-}$: Co³⁺ is d⁶. F⁻ is a weak field ligand, so the complex is high spin: t₂g⁴ eg² → 4 unpaired electrons.\n\n- $[\\mathrm{NiCl_4}]^{2-}$: Ni²⁺ is d⁸. Cl⁻ is a weak field ligand and the complex is tetrahedral, giving a high‑spin configuration with 2 unpaired electrons.\n\n- $[\\mathrm{Ni(CN)_4}]^{2-}$: Ni²⁺ is d⁸. CN⁻ is a strong field ligand and the complex is square planar, resulting in 0 unpaired electrons.\n\nStep 2: Compare the number of unpaired electrons. The highest is 4, found in $[\\mathrm{CoF_6}]^{3-}$.\n\nFinal Answer: $$\\boxed{[\\mathrm{CoF_6}]^{3-}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "96"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following statements are correct?\n\nA) $\\alpha$ - amino acids present in protein is L - amino acid.\nB) Amino acids contain $\\mathrm{NH_2}$ as well as $\\mathrm{COOH}$ group.\nC) Number of amino group and carboxylic group are same in amino acids always.\nD) Tyrosine was firstly obtained from cheese.\n\nChoose the correct alternatives from below:"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "A and B only"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "A, B and C only"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "B, C and D only"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "A, B and D only"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The correct statements are A, B and D.\n\nA) Proteins are made up of α-amino acids, and these amino acids generally have the L-configuration. So this statement is correct.\n\nB) Amino acids contain both an amino group, —NH₂, and a carboxylic acid group, —COOH. So this statement is also correct.\n\nC) The number of amino groups and carboxylic groups is not always the same in amino acids.\n\nFor example: Lysine has more amino groups, so it is a basic amino acid. Glutamic acid has more carboxylic acid groups, so it is an acidic amino acid. So statement C is incorrect.\n\nD) Tyrosine was first obtained from cheese. Its name is also related to the Greek word for cheese. So this statement is correct.\n\nHence, the correct alternative is Option D: A, B and D only."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

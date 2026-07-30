@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "5"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A car of mass m is crossing the convex bridge of radius of curvature R with speed V. At the highest point the thrust is ($g$ = gravitational acceleration)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$mg$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{mv^2}{R}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$mg - \\frac{mv^2}{R}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$mg + \\frac{mv^2}{R}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: At the highest point of a convex bridge, the weight ($mg$) acts downwards and the normal reaction ($N$) acts upwards (towards the centre of curvature).\n\nStep 2: The centripetal force required for the car to move in a circular path is directed downwards (towards the centre of the circle). The net downward force provides the centripetal force.\n\nStep 3: Equation for centripetal force:\n$$mg - N = \\frac{mV^2}{R}$$\n\nStep 4: Rearranging to find the thrust ($N$):\n$$N = mg - \\frac{mV^2}{R}$$\n\nThe thrust exerted by the car on the bridge is equal to the normal reaction.\n\nFinal Answer: $$\\boxed{mg - \\frac{mV^2}{R}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

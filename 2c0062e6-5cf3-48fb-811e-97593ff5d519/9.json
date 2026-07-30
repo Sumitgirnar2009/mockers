@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "9"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A square frame of each side L is dipped in a soap solution and taken out, the force acting on the film formed is (T = surface tension of soap solution)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$4TL$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$8TL$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$12TL$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$16TL$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: A soap film has two free surfaces — one on each side of the film.\n\nStep 2: The surface tension force acts along the boundary of the film (the perimeter of the square frame).\n\nThe perimeter of the square frame is $4L$.\n\nStep 3: For one surface, the force due to surface tension is:\n\n$$F_1 = T \\times (4L) = 4TL$$\n\nStep 4: Since there are two surfaces, the total force is:\n\n$$F = 2 \\times 4TL = 8TL$$\n\nFinal Answer: $$\\boxed{8TL}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

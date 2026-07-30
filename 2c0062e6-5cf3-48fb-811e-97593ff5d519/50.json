@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "50"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In common emitter amplifier, a change of 0.2 mA in the base current causes a change of 5 mA in the collector current. If input resistance is 2 kΩ and voltage gain is 75, the load resistance used in the circuit is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "2 kΩ"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "3 kΩ"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "4 kΩ"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "6 kΩ"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: The current gain (β) of a common emitter amplifier is given by:\n\n$$\\beta = \\frac{\\Delta I_C}{\\Delta I_B}$$\n\nGiven $\\Delta I_B = 0.2$ mA and $\\Delta I_C = 5$ mA:\n\n$$\\beta = \\frac{5}{0.2} = 25$$\n\nStep 2: The voltage gain of a common emitter amplifier is given by:\n\n$$A_v = \\beta \\times \\frac{R_L}{R_C}$$\n\nwhere $R_C$ is the input resistance (collector resistance) and $R_L$ is the load resistance.\n\nGiven $A_v = 75$, $R_C = 2$ kΩ, and $\\beta = 25$:\n\n$$75 = 25 \\times \\frac{R_L}{2}$$\n\n$$\\frac{R_L}{2} = 3$$\n\n$$R_L = 6 \\text{ kΩ}$$\n\nFinal Answer: $$\\boxed{6 \\text{ kΩ}}$$\n\nHence, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

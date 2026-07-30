@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "49"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In the diagram shown, the resistance between points A and B is '$R_1$' when an ideal diode D is forward biased and is '$R_2$' when ideal diode D is reverse biased. The ratio $R_1 / R_2$ is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/2c0062e6-5cf3-48fb-811e-97593ff5d519/q49.png"
+  },
+  "Option1Stmt": {
+    "S": "$2$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$1$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{1}{2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{1}{4}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "When the ideal diode D is forward biased, it behaves like a wire. So its resistance is 0 Ω.\n\nIn this case, the upper branch becomes a 30 Ω resistor directly connected between A and B. The lower branch also has a 30 Ω resistor between A and B.\n\nSo, the two 30 Ω resistors are in parallel.\n\nThe equivalent resistance is:\n\n$$R_1 = \\frac{30 \\times 30}{30 + 30} = 15 \\, \\Omega$$\n\nWhen the ideal diode D is reverse biased, it behaves like an open switch. So current cannot pass through the upper branch.\n\nOnly the lower 30 Ω resistor remains connected between A and B.\n\nSo,\n\n$$R_2 = 30 \\, \\Omega$$\n\nNow the required ratio is:\n\n$$\\frac{R_1}{R_2} = \\frac{15}{30} = \\frac{1}{2}$$"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

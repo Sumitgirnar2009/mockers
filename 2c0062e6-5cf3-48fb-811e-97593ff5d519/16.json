@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "16"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The average translational kinetic energy of a molecule in a gas is $E_1$. The kinetic energy of the electron ($e$) accelerated from rest through potential difference $V$ volt is $E_2$. The temperature at which $E_1 = E_2$ is possible is ($N$ = number of molecules, $R$ = gas constant)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{eVN}{2R}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{2eVN}{3R}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{eVN}{R}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{3eVN}{4R}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The average translational kinetic energy of a gas molecule is:\n\n$$E_1 = \\frac{3}{2} kT = \\frac{3}{2} \\frac{R}{N} T$$\n\nThe kinetic energy gained by an electron accelerated through a potential difference $V$ is:\n\n$$E_2 = eV$$\n\nSetting $E_1 = E_2$:\n\n$$\\frac{3}{2} \\frac{R}{N} T = eV$$\n\n$$\\Rightarrow T = \\frac{2eVN}{3R}$$\n\nFinal Answer: $$\\boxed{\\frac{2eVN}{3R}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

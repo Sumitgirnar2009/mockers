@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "76"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following is an electrolyte in dry cell?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Potassium hydroxide"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Sulphuric acid"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Ammonium chloride and zinc chloride"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Manganese dioxide"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The electrolyte used in a dry cell is a paste of ammonium chloride and zinc chloride.\n\nIn a common dry cell, the zinc container acts as the negative electrode. The electrolyte is not a liquid like in many other cells. It is a moist paste containing ammonium chloride (NH₄Cl) and zinc chloride (ZnCl₂).\n\nManganese dioxide (MnO₂) is used as a depolariser, not as the electrolyte. Potassium hydroxide is used in alkaline cells, and sulphuric acid is used in lead-acid batteries.\n\nFinal Answer: $$\\boxed{\\text{Ammonium chloride and zinc chloride}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

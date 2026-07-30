@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "77"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The rate of reaction $\\mathrm{A + B \\rightarrow P}$ is $4 \\times 10^{-2}$ mol dm⁻³ s⁻¹ when $[\\mathrm{A}] = 0.2$ mol dm⁻³ and $[\\mathrm{B}] = 0.1$ mol dm⁻³. What is the rate constant of reaction, if it is first order with respect to A and second order with respect to B?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$10$ mol⁻² dm⁶ s⁻¹"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$20$ mol⁻² dm⁶ s⁻¹"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$25$ mol⁻² dm⁶ s⁻¹"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$40$ mol⁻² dm⁶ s⁻¹"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For the reaction, $\\mathrm{A + B \\rightarrow P}$, it is given that the reaction is first order with respect to A and second order with respect to B.\n\nSo, the rate law is:\n\n$$\\text{Rate} = k[\\mathrm{A}]^1[\\mathrm{B}]^2$$\n\nGiven:\n\nRate = $4 \\times 10^{-2}$ mol dm⁻³ s⁻¹\n\n$[\\mathrm{A}] = 0.2$ mol dm⁻³\n\n$[\\mathrm{B}] = 0.1$ mol dm⁻³\n\nSubstitute these values in the rate law:\n\n$$4 \\times 10^{-2} = k(0.2)(0.1)^2$$\n\n$$(0.1)^2 = 0.01$$\n\n$$4 \\times 10^{-2} = k(0.2)(0.01) = k(0.002)$$\n\n$$k = \\frac{4 \\times 10^{-2}}{0.002} = 20$$\n\nThe overall order of reaction is $1 + 2 = 3$. So, the unit of rate constant for a third order reaction is mol⁻² dm⁶ s⁻¹.\n\nThus,\n\n$$k = 20 \\text{ mol}^{-2} \\text{ dm}^6 \\text{ s}^{-1}$$\n\nFinal Answer: $$\\boxed{20 \\text{ mol}^{-2} \\text{ dm}^6 \\text{ s}^{-1}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

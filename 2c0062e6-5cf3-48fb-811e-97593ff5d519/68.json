@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "68"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "What are the reactants involved in Friedel-Crafts alkylation?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\mathrm{C_6H_6 + NH_3}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\mathrm{C_6H_6 + CH_3Cl}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\mathrm{C_6H_6 + CH_3COCl}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\mathrm{C_6H_6 + CH_4}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "In Friedel-Crafts alkylation, benzene reacts with an alkyl halide in the presence of anhydrous AlCl₃. The general reaction is:\n\n$$\\mathrm{C_6H_6 + RCl \\xrightarrow{anhyd.\\ AlCl_3} C_6H_5R + HCl}$$\n\nHere, CH₃Cl is an alkyl halide, so it can alkylate benzene to form toluene:\n\n$$\\mathrm{C_6H_6 + CH_3Cl \\xrightarrow{anhyd.\\ AlCl_3} C_6H_5CH_3 + HCl}$$\n\nOption C, $\\mathrm{C_6H_6 + CH_3COCl}$, is used in Friedel-Crafts acylation, not alkylation.\n\nFinal Answer: $$\\boxed{\\mathrm{C_6H_6 + CH_3Cl}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

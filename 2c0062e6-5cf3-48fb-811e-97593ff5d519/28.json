@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "28"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Two parallel plate air capacitors are connected in parallel. Each capacitor has plate area $A/2$ and separation between the plates is $d$ and $2d$ respectively. The equivalent capacity of the combination is ($\\varepsilon_0$ = absolute permittivity of free space)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{A \\varepsilon_0}{d}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{3A \\varepsilon_0}{4d}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{2A \\varepsilon_0}{3d}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{A \\varepsilon_0}{4d}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a parallel plate air capacitor, the capacitance is given by $C = \\frac{\\varepsilon_0 A}{d}$.\n\nThe two capacitors are connected in parallel, so their capacitances add up:\n\n$$C_{eq} = C_1 + C_2$$\n\nFor the first capacitor:\nPlate area = $\\frac{A}{2}$, separation = $d$\n\n$$C_1 = \\frac{\\varepsilon_0 (A/2)}{d} = \\frac{A \\varepsilon_0}{2d}$$\n\nFor the second capacitor:\nPlate area = $\\frac{A}{2}$, separation = $2d$\n\n$$C_2 = \\frac{\\varepsilon_0 (A/2)}{2d} = \\frac{A \\varepsilon_0}{4d}$$\n\nNow add them:\n\n$$C_{eq} = \\frac{A \\varepsilon_0}{2d} + \\frac{A \\varepsilon_0}{4d} = \\frac{2A \\varepsilon_0}{4d} + \\frac{A \\varepsilon_0}{4d} = \\frac{3A \\varepsilon_0}{4d}$$\n\nThus, the equivalent capacitance is $\\frac{3A \\varepsilon_0}{4d}$.\n\nFinal Answer: $$\\boxed{\\frac{3A \\varepsilon_0}{4d}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

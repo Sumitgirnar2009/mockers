@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "80"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "What is the role of catalyst in catalytic reaction?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "It decreases the enthalpy of reaction."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "It increases the enthalpy of reaction."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "It decreases the energy of activation of reaction."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "It increases the energy of activation of reaction."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "A catalyst increases the rate of a chemical reaction by providing an alternative path for the reaction with lower activation energy. The activation energy is the minimum energy needed by reactant molecules to change into products. When this energy becomes lower, more molecules can react easily, so the reaction becomes faster.\n\nA catalyst does not change the enthalpy of reaction, because the enthalpy difference between reactants and products remains the same.\n\nThus, the role of a catalyst is to decrease the activation energy of the reaction.\n\nFinal Answer: $$\\boxed{\\text{It decreases the energy of activation of reaction.}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

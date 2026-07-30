@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "75"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The $E_{\\text{cell}}^0$ of $\\mathrm{Al(s) | Al^{3+}(1M) || Pb^{2+}(1M) | Pb(s)}$ cell is 1.5 V if $E_{\\mathrm{Pb}^{2+}/\\mathrm{Pb}}^0$ is $-0.14$ V then $E_{\\mathrm{Al}^{3+}/\\mathrm{Al}}^0$ will be"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$1.64$ V"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$-1.64$ V"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$1.36$ V"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$-1.36$ V"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For the cell\n\n$$\\mathrm{Al(s) | Al^{3+}(1M) || Pb^{2+}(1M) | Pb(s)}$$\n\nthe left side is the anode and the right side is the cathode.\n\nSo, aluminium undergoes oxidation and lead ion undergoes reduction.\n\nFor a cell,\n\n$$E_{\\text{cell}}^0 = E_{\\text{cathode}}^0 - E_{\\text{anode}}^0$$\n\nHere,\n\n$$E_{\\text{cell}}^0 = 1.5 \\text{ V}$$\n\n$$E_{\\text{cathode}}^0 = E_{\\mathrm{Pb}^{2+}/\\mathrm{Pb}}^0 = -0.14 \\text{ V}$$\n\n$$E_{\\text{anode}}^0 = E_{\\mathrm{Al}^{3+}/\\mathrm{Al}}^0$$\n\nSubstitute the values:\n\n$$1.5 = -0.14 - E_{\\mathrm{Al}}^0$$\n\n$$E_{\\mathrm{Al}}^0 = -0.14 - 1.5$$\n\n$$E_{\\mathrm{Al}}^0 = -1.64 \\text{ V}$$\n\nFinal Answer: $$\\boxed{-1.64 \\text{ V}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

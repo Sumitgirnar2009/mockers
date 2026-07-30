@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "40"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The angle of minimum deviation produced by a thin prism in air is $\\delta_1$. What will be the minimum deviation ($\\delta_2$) if the prism is immersed in liquid? $${}^{a}_{g}n = \\frac{3}{2}, \\quad {}^{a}_{l}n = \\frac{1}{3}$$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\delta_2 = 3\\delta_1$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\delta_2 = 5\\delta_1$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\delta_2 = 7\\delta_1$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\delta_2 = 9\\delta_1$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: For a thin prism, the angle of minimum deviation is given by:\n\n$$\\delta = (\\mu - 1) A$$\n\nwhere $A$ is the prism angle and $\\mu$ is the refractive index of the prism material with respect to the surrounding medium.\n\nStep 2: When the prism is in air, the refractive index of glass with respect to air is given as ${}^{a}_{g}n = \\frac{3}{2}$.\n\nSo,\n\n$$\\delta_1 = \\left(\\frac{3}{2} - 1\\right) A = \\frac{1}{2} A$$\n\nStep 3: When the prism is immersed in a liquid, the effective refractive index is the refractive index of glass with respect to the liquid:\n\n$${}^{l}_{g}n = \\frac{{}^{a}_{g}n}{{}^{a}_{l}n}$$\n\nGiven ${}^{a}_{l}n = \\frac{1}{3}$, we get:\n\n$${}^{l}_{g}n = \\frac{3/2}{1/3} = \\frac{3}{2} \\times 3 = \\frac{9}{2}$$\n\nStep 4: The new minimum deviation is:\n\n$$\\delta_2 = \\left(\\frac{9}{2} - 1\\right) A = \\frac{7}{2} A$$\n\nStep 5: Since $\\delta_1 = \\frac{1}{2} A$, we can write:\n\n$$\\delta_2 = 7 \\times \\frac{1}{2} A = 7 \\delta_1$$\n\nThus, $\\delta_2 = 7\\delta_1$.\n\nFinal Answer: $$\\boxed{\\delta_2 = 7\\delta_1}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

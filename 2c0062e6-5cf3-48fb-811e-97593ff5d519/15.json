@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "15"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In a cyclic process, work done by the system is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "zero."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "equal to the heat given to system."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "more than the heat given to system."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "independent of heat given to system."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Understand the definition of a cyclic process.\n\nA cyclic process is one in which the system undergoes a series of changes and finally returns to its initial state.\n\nStep 2: Determine the change in internal energy.\n\nSince the system returns to its initial state, the initial and final internal energies are the same.\n\nThus, the change in internal energy is zero:\n\n$$\\Delta U = 0$$\n\nStep 3: Apply the First Law of Thermodynamics.\n\nThe first law states:\n\n$$\\Delta Q = \\Delta U + \\Delta W$$\n\nWhere $\\Delta Q$ is the heat supplied to the system, $\\Delta U$ is the change in internal energy, and $\\Delta W$ is the work done by the system.\n\nStep 4: Substitute $\\Delta U = 0$ into the equation.\n\n$$\\Delta Q = 0 + \\Delta W$$\n\n$$\\Delta Q = \\Delta W$$\n\nThis shows that the work done by the system is exactly equal to the heat supplied to the system during the cyclic process.\n\nFinal Answer: $$\\boxed{\\text{equal to the heat given to system.}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

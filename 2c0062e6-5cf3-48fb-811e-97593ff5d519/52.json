@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "52"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "What is number of hydrogen molecules needed to synthesize 3.4 g of ammonia by reaction with nitrogen?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$6.022 \\times 10^{23}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$1.2044 \\times 10^{23}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$1.8066 \\times 10^{23}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$1.8044 \\times 10^{24}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The balanced equation is $N_2 + 3H_2 \\rightarrow 2NH_3$.\n\nMoles of NH$_3$ = $\\frac{3.4}{17} = 0.2$ mol.\n\nFrom the equation, $2$ mol NH$_3$ requires $3$ mol H$_2$.\n\nSo, $0.2$ mol NH$_3$ requires $\\frac{3}{2} \\times 0.2 = 0.3$ mol H$_2$.\n\nNumber of H$_2$ molecules = $0.3 \\times 6.022 \\times 10^{23} = 1.8066 \\times 10^{23}$.\n\nFinal Answer: $$\\boxed{1.8066 \\times 10^{23}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "94"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following is the strongest carboxylic acid?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\mathrm{CH_3COOH}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\mathrm{HCOOH}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\mathrm{CH_3CH_2COOH}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\mathrm{ClCH_2COOH}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The strongest carboxylic acid is:\n\nOption D ClCH₂COOH\n\nCarboxylic acids become stronger when the conjugate base, the carboxylate ion RCOO⁻, is more stable.\n\nIn ClCH₂COOH, the chlorine atom is highly electronegative. It shows a strong —I effect, meaning it pulls electron density away from the —COOH group.\n\nThis helps to stabilise the carboxylate ion formed after losing H⁺:\n\nClCH₂COOH → ClCH₂COO⁻ + H⁺\n\nBecause the conjugate base is more stable, ClCH₂COOH releases H⁺ more easily, so it is the strongest acid.\n\nThe other acids have either hydrogen or alkyl groups near —COOH. Alkyl groups like —CH₃ and —CH₂CH₃ show +I effect, which makes the acid weaker.\n\nSo the order of acidity is approximately:\n\nClCH₂COOH > HCOOH > CH₃COOH > CH₃CH₂COOH\n\nHence, the strongest carboxylic acid is ClCH₂COOH."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

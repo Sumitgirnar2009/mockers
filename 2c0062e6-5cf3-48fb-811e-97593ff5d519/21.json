@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "21"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A simple harmonic progressive wave is represented by $y = A \\sin(120\\pi t + 3x)$. The distance between two points on the wave at a phase difference of $\\frac{\\pi}{3}$ radian is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{\\pi}{6}$ m"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{\\pi}{9}$ m"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{2\\pi}{9}$ m"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{\\pi}{18}$ m"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: The phase of the wave is $\\phi = 120\\pi t + 3x$.\n\nStep 2: For two points at the same time $t$, the phase difference is determined only by the difference in $x$.\n\n$$\\Delta \\phi = 3 \\Delta x$$\n\nStep 3: Given $\\Delta \\phi = \\frac{\\pi}{3}$:\n\n$$3 \\Delta x = \\frac{\\pi}{3} \\Rightarrow \\Delta x = \\frac{\\pi}{9}$$\n\nFinal Answer: $$\\boxed{\\frac{\\pi}{9} \\text{ m}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

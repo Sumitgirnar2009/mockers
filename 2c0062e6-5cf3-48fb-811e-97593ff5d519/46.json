@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "46"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The electron in hydrogen atom is initially in the second excited state. When it finally moves to ground state, the maximum number of spectral lines emitted are"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "2"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "3"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "4"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "5"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The electron is initially in the second excited state.\n\nFor hydrogen atom:\n- Ground state is $n = 1$\n- First excited state is $n = 2$\n- Second excited state is $n = 3$\n\nSo here the electron starts from $n = 3$ and finally reaches $n = 1$.\n\nThe possible transitions are:\n- $3 \\rightarrow 2$\n- $2 \\rightarrow 1$\n- $3 \\rightarrow 1$\n\nEach transition gives one spectral line. So the maximum number of spectral lines is 3.\n\nFinal Answer: $$\\boxed{3}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

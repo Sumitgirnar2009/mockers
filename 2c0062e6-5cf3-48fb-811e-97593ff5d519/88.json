@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "88"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following is a correct feature of the $\\mathrm{SN^2}$ mechanism?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "The $\\mathrm{SN^2}$ mechanism proceeds mainly with racemization."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "The $\\mathrm{SN^2}$ mechanism includes a transition state with penta coordinating carbon."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "The $\\mathrm{SN^2}$ mechanism involves formation of planar carbocation intermediate in the first step."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "The $\\mathrm{SN^2}$ mechanism involves formation of carbocation with $\\mathrm{sp^2}$ hybridized carbon."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The correct option is Option B.\n\nIn an SN2 mechanism, the nucleophile attacks the carbon atom from the backside while the leaving group is leaving at the same time. So, bond formation and bond breaking occur in one single concerted step.\n\nDuring this process, the carbon is temporarily attached partly to both the incoming nucleophile and the leaving group. This gives a transition state in which carbon appears to be bonded to five groups in a partial manner.\n\nSo the SN2 transition state has a pentacoordinated carbon.\n\n$$\\mathrm{Nu^- + R - L \\Rightarrow [Nu \\cdots R \\cdots L]^\\ddagger \\Rightarrow R - Nu + L^-}$$\n\nNow checking the other options:\n\n- Option A is incorrect because SN2 gives mainly inversion of configuration, not racemization.\n\n- Option C is incorrect because SN2 does not form a carbocation intermediate.\n\n- Option D is also incorrect because formation of an sp² hybridized carbocation is a feature of the SN1 mechanism.\n\nSo, the correct answer is:\n\nOption B"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

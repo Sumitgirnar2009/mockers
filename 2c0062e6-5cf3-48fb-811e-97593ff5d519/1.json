@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "1"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Let $\\vec{A}$ and $\\vec{B}$ are two non-zero vectors of different magnitude. Which one of the following is the correct equation?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\vec{A} \\cdot \\vec{B} = -\\vec{B} \\cdot \\vec{A}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\vec{A} \\times \\vec{B} = \\vec{B} \\times \\vec{A}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\vec{A} + \\vec{B} = \\vec{B} + \\vec{A}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\vec{A} - \\vec{B} = \\vec{B} - \\vec{A}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Check each option using vector properties.\n\nOption A: Dot product is commutative, so $\\vec{A} \\cdot \\vec{B} = \\vec{B} \\cdot \\vec{A}$. The given equation has a negative sign, so it is incorrect.\n\nOption B: Cross product is anti-commutative, so $\\vec{A} \\times \\vec{B} = -\\vec{B} \\times \\vec{A}$. The given equation says they are equal, so it is incorrect.\n\nOption C: Vector addition is commutative, so $\\vec{A} + \\vec{B} = \\vec{B} + \\vec{A}$. This is correct.\n\nOption D: $\\vec{A} - \\vec{B} = \\vec{B} - \\vec{A} \\Rightarrow 2\\vec{A} = 2\\vec{B} \\Rightarrow \\vec{A} = \\vec{B}$, which is not true since they have different magnitudes. So it is incorrect.\n\nStep 2: Therefore, the correct equation is $\\vec{A} + \\vec{B} = \\vec{B} + \\vec{A}$.\n\nFinal Answer: $$\\boxed{\\vec{A} + \\vec{B} = \\vec{B} + \\vec{A}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

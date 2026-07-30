@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "93"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following compounds is obtained by Williamson synthesis?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "only simple ethers"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "only mixed ethers"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "simple and mixed ethers"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "esters"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Williamson synthesis is used to prepare ethers.\n\nIn this reaction, an alkoxide ion reacts with a primary alkyl halide:\n\nR–O⁻Na⁺ + R'–X → R–O–R' + NaX\n\nIf R and R' are the same, the ether formed is a simple ether.\n\nFor example: C₂H₅ONa + C₂H₅Br → C₂H₅OC₂H₅ + NaBr (ethoxyethane, a simple ether).\n\nIf R and R' are different, the ether formed is a mixed ether.\n\nFor example: C₂H₅ONa + CH₃Br → C₂H₅OCH₃ + NaBr (methoxyethane, a mixed ether).\n\nSo, Williamson synthesis can give both simple and mixed ethers.\n\nCorrect option: Option C — simple and mixed ethers."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

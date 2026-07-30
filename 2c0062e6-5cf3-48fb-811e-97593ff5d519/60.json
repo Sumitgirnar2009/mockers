@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "60"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "What is the solubility product of binary sparingly soluble salt BA if 100 mL saturated solution of salt consist $10^{-4}$ moles at room temperature?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$1 \\times 10^{-4}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$1 \\times 10^{-6}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$1 \\times 10^{-8}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$1 \\times 10^{-10}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Given: 100 mL = 0.1 L contains $10^{-4}$ mol of salt BA.\n\nSo, solubility $S = \\frac{10^{-4}}{0.1} = 10^{-3}$ mol/L.\n\nFor a binary salt BA, dissociation is:\n\n$$\\mathrm{BA(s) \\rightleftharpoons B^+(aq) + A^-(aq)}$$\n\nSo, $[\\mathrm{B^+}] = S$ and $[\\mathrm{A^-}] = S$.\n\nSolubility product:\n\n$$K_{sp} = [\\mathrm{B^+}][\\mathrm{A^-}] = S \\times S = S^2 = (10^{-3})^2 = 10^{-6}$$\n\nFinal Answer: $$\\boxed{1 \\times 10^{-6}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

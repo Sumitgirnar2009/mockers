@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "20"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A pendulum clock is running slow. In order to correct it, we should"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "reduce the amplitude of oscillation."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "reduce the mass of the bob."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "reduce the length of pendulum."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "increase the length of pendulum."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: The time period of a simple pendulum is $T = 2\\pi \\sqrt{\\frac{L}{g}}$.\n\nA clock running slow means its time period is larger than the correct value.\n\nStep 2: To correct it, the time period must be decreased.\n\nFrom $T \\propto \\sqrt{L}$, decreasing the length $L$ decreases the time period.\n\nStep 3: The time period is independent of amplitude (for small oscillations) and mass of the bob.\n\nTherefore, to make the clock run correctly, we should reduce the length of the pendulum.\n\nFinal Answer: $$\\boxed{\\text{reduce the length of pendulum.}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

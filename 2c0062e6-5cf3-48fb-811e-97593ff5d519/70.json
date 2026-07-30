@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "70"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Calculate the number of atoms present in 1.625 g metal if it forms bcc unit cell structure. $\\rho \\times a^3 = 3.25 \\times 10^{-22}$ g."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$2.0 \\times 10^{22}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$1.5 \\times 10^{22}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$2.5 \\times 10^{22}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$1.0 \\times 10^{22}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a unit cell, $\\rho \\times a^3$ = mass of one unit cell.\n\nGiven $\\rho \\times a^3 = 3.25 \\times 10^{-22}$ g.\n\nMass of metal sample = 1.625 g.\n\nNumber of unit cells = $\\frac{1.625}{3.25 \\times 10^{-22}} = 0.5 \\times 10^{22} = 5.0 \\times 10^{21}$.\n\nFor a bcc unit cell, number of atoms per unit cell is $Z = 2$.\n\nTotal number of atoms = $2 \\times 5.0 \\times 10^{21} = 1.0 \\times 10^{22}$.\n\nFinal Answer: $$\\boxed{1.0 \\times 10^{22}}$$\n\nHence, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

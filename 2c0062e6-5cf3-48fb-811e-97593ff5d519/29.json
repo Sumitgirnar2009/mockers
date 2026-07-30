@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "29"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In metre bridge experiment, the resistance in the left gap is 15 Ω and in the right gap is 45 Ω. The bridge is balanced. The distance of the null point from the centre of the wire is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "80 cm"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "60 cm"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "40 cm"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "25 cm"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "In a metre bridge, the balance condition is given by:\n\n$$\\frac{R}{S} = \\frac{l}{100 - l}$$\n\nwhere $R$ is the resistance in the left gap, $S$ is the resistance in the right gap, and $l$ is the length of the wire from the left end to the null point.\n\nGiven $R = 15\\Omega$ and $S = 45\\Omega$, we have:\n\n$$\\frac{15}{45} = \\frac{l}{100 - l}$$\n\nSimplifying:\n\n$$\\frac{1}{3} = \\frac{l}{100 - l}$$\n\nCross-multiplying:\n\n$$100 - l = 3l$$\n\n$$100 = 4l$$\n\n$$l = 25 \\text{ cm}$$\n\nSo the null point is 25 cm from the left end of the wire.\n\nThe centre of the metre bridge wire is at 50 cm.\n\nHence, the distance of the null point from the centre is:\n\n$$50 - 25 = 25 \\text{ cm}$$\n\nFinal Answer: $$\\boxed{25 \\text{ cm}}$$\n\nHence, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

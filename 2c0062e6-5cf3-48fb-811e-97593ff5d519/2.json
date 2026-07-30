@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "2"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A wire has mass $(0.3 \\pm 0.003)$ gram, radius $(0.5 \\pm 0.005)$ mm and length $(6 \\pm 0.06)$ cm. The maximum error in the measurement of density is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "4%"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "3%"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "2%"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "5%"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Density $\\rho = \\frac{m}{\\pi r^2 L}$.\n\nMaximum percentage error in density:\n$$\\frac{\\Delta \\rho}{\\rho} \\times 100 = \\frac{\\Delta m}{m} \\times 100 + 2 \\times \\frac{\\Delta r}{r} \\times 100 + \\frac{\\Delta L}{L} \\times 100$$\n\nGiven:\n$\\frac{\\Delta m}{m} \\times 100 = \\frac{0.003}{0.3} \\times 100 = 1\\%$\n$\\frac{\\Delta r}{r} \\times 100 = \\frac{0.005}{0.5} \\times 100 = 1\\%$\n$\\frac{\\Delta L}{L} \\times 100 = \\frac{0.06}{6} \\times 100 = 1\\%$\n\nTotal error = $1\\% + 2(1\\%) + 1\\% = 4\\%$.\n\nFinal Answer: $$\\boxed{4\\%}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "3"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A batsman hits a ball with a velocity '$v$', making an angle of $60^\\circ$ with the vertical. After some time direction of velocity is making an angle of $60^\\circ$ with the horizontal. The speed of the ball at this instant is ($\\cos 60^\\circ = \\frac{1}{2}, \\cos 30^\\circ = \\frac{\\sqrt{3}}{2}$)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{\\sqrt{3}}{2}v$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\sqrt{3}v$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{v}{2}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$V$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Initial velocity $v$ makes $60^\\circ$ with vertical, so angle with horizontal is $30^\\circ$.\n\nHorizontal component of velocity remains constant throughout the motion.\n\nInitial horizontal component: $v \\cos 30^\\circ = v \\cdot \\frac{\\sqrt{3}}{2}$.\n\nAfter some time, the velocity makes $60^\\circ$ with horizontal. Let the speed at that instant be $v'$.\n\nThen horizontal component = $v' \\cos 60^\\circ = v' \\cdot \\frac{1}{2}$.\n\nEquating horizontal components:\n$$v' \\cdot \\frac{1}{2} = v \\cdot \\frac{\\sqrt{3}}{2} \\Rightarrow v' = \\sqrt{3} v$$\n\nFinal Answer: $$\\boxed{\\sqrt{3}v}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

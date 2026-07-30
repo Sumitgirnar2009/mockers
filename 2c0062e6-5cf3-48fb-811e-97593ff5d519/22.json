@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "22"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A pipe open at both ends has a fundamental frequency 'f' in air. The pipe is dipped in water, so that $\\frac{2}{3}$ length of pipe is in water. Now the fundamental frequency of the air column is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{1}{2}f$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{3}{2}f$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{5}{2}f$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{7}{2}f$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Let the total length of the pipe be $L$.\n\nFor an open pipe, fundamental frequency is:\n\n$$f = \\frac{v}{2L}$$\n\nStep 2: When $\\frac{2}{3}L$ is dipped in water, the air column length is:\n\n$$L_{\\text{air}} = L - \\frac{2}{3}L = \\frac{L}{3}$$\n\nStep 3: The water surface acts as a closed end, so the pipe becomes a closed pipe of length $L_{\\text{air}}$.\n\nFor a closed pipe, fundamental frequency is:\n\n$$f' = \\frac{v}{4L_{\\text{air}}} = \\frac{v}{4(L/3)} = \\frac{3v}{4L}$$\n\nStep 4: Compare with $f$:\n\n$$\\frac{f'}{f} = \\frac{3v/4L}{v/2L} = \\frac{3}{4} \\times 2 = \\frac{3}{2}$$\n\nThus, $f' = \\frac{3}{2} f$.\n\nFinal Answer: $$\\boxed{\\frac{3}{2}f}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

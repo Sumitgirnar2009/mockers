@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "55"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "What type of bond and type of overlapping present in $N_2$ molecule?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Single bond and s—s overlap"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Double bond and s—p overlap"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Triple bond and p—p overlap"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Single bond and p—p overlap"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "In $N_2$ molecule, each nitrogen atom has 5 valence electrons. To complete its octet, each nitrogen atom shares 3 electrons with the other nitrogen atom. So, the bond between the two nitrogen atoms is a triple bond: $N \\equiv N$.\n\nA triple bond has: 1σ bond + 2π bonds.\n\nIn $N_2$, these bonds are formed mainly by overlap of $p$ orbitals of nitrogen atoms: one $p$—$p$ head-on overlap forms the σ bond, and two $p$—$p$ sideways overlaps form the two π bonds.\n\nThus, the type of bond is triple bond and the overlapping is $p$—$p$ overlap.\n\nFinal Answer: $$\\boxed{\\text{Triple bond and } p - p \\text{ overlap}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

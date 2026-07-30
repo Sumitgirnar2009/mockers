@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "59"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Find $\\Delta n$ when 1 mol of each NH$_3$(g) and HCl$(g)$, reacts to form solid NH$_4$Cl."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$1$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$-2$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$-1$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$-3$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The reaction is:\n\n$$\\mathrm{NH_3(g) + HCl(g) \\rightarrow NH_4Cl(s)}$$\n\nFor $\\Delta n$, we consider only gaseous moles:\n\n$$\\Delta n = \\text{moles of gaseous products} - \\text{moles of gaseous reactants}$$\n\nHere, the product NH$_4$Cl is solid, so gaseous product moles = 0.\n\nGaseous reactants are: $1$ mol NH$_3$ + $1$ mol HCl = $2$ mol.\n\nSo,\n\n$$\\Delta n = 0 - 2 = -2$$\n\nFinal Answer: $$\\boxed{-2}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "51"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Find the mass of sodium carbonate in grams to form 100 ml 0.1 M solution in water? (Molar mass of Na$_2$CO$_3$ = 106 g/mol)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1.06 g"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "3.18 g"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "2.12 g"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "4.16 g"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Molarity is given by $M = \\frac{\\text{moles of solute}}{\\text{volume of solution in litres}}$.\n\nHere, $M = 0.1$ M and volume = $100$ mL = $0.1$ L.\n\nSo, moles of Na$_2$CO$_3$ = $M \\times V = 0.1 \\times 0.1 = 0.01$ mol.\n\nMass = moles $\\times$ molar mass = $0.01 \\times 106 = 1.06$ g.\n\nFinal Answer: $$\\boxed{1.06 \\text{ g}}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

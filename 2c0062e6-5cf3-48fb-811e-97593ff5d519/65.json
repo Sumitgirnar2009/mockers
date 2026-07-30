@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "65"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "What is the correct IUPAC name for a molecule that has two amino groups in opposing (para) locations around a benzene ring?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Benzenediamine"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Benzene-1,4-diamine"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "p-Aminoaniline"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "4-Aminobenzenamine"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The molecule is a benzene ring with two –NH₂ groups at opposite positions. In a disubstituted benzene ring, opposite positions are numbered 1 and 4. Since both substituents are amino groups, the parent name is benzene and the suffix used is “diamine”.\n\nThus, the correct IUPAC name is Benzene-1,4-diamine.\n\nOption C (p-aminoaniline) is a common name, not the preferred IUPAC name.\n\nFinal Answer: $$\\boxed{\\text{Benzene-1,4-diamine}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "90"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Method of preparation of alkyl halide $$2R-Br + Hg_2F_2 \\rightarrow 2R-F + Hg_2Br_2$$ This reaction is known as"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Finkelstein reaction"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Swartz reaction"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Sandmeyer reaction"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Wurtz reaction"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The reaction \n$2R-Br + Hg_2F_2 \\rightarrow 2R-F + Hg_2Br_2$ \n\nis used to prepare alkyl fluorides from alkyl bromides. In this reaction, bromine in R–Br is replaced by fluorine using a metallic fluoride such as Hg₂F₂. This halogen exchange method for preparing alkyl fluorides is called the Swartz reaction. Thus, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

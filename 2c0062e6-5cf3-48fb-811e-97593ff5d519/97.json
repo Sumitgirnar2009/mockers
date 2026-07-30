@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "97"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "During denaturation, which level of protein structure remains unchanged?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "primary"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "secondary"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "tertiary"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "quaternary"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "During denaturation, the primary structure of a protein remains unchanged.\n\nSo, the correct answer is: Option A: primary.\n\nDenaturation changes the shape of a protein by disturbing its secondary, tertiary, or quaternary structure. These structures are held by weak interactions like hydrogen bonds, ionic bonds, and hydrophobic interactions.\n\nBut the primary structure is the sequence of amino acids joined by strong peptide bonds. These peptide bonds usually do not break during denaturation, so the primary structure remains the same."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

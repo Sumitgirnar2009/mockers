@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "6"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A bucket containing water is revolved in vertical circle of radius r. To prevent the water from falling down, the period of revolution required is ($g$ = gravitational acceleration)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$2\\pi \\sqrt{\\frac{g}{r}}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$2\\pi \\sqrt{\\frac{r}{g}}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$2\\pi \\sqrt{rg}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{\\sqrt{rg}}{2\\pi}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: At the topmost point of the vertical circle, the water will stay in the bucket if the centripetal force required is at least equal to the weight of the water.\n\nStep 2: Condition for water not to fall:\n$$\\frac{mv^2}{r} \\ge mg$$\n\nCancelling $m$ from both sides:\n$$\\frac{v^2}{r} \\ge g \\Rightarrow v \\ge \\sqrt{gr}$$\n\nStep 3: The minimum speed required is $v_{\\text{min}} = \\sqrt{gr}$.\n\nStep 4: The time period is given by $T = \\frac{2\\pi r}{v}$. To prevent falling, we use the minimum speed, which gives the maximum allowed period:\n$$T = \\frac{2\\pi r}{\\sqrt{gr}} = 2\\pi \\sqrt{\\frac{r}{g}}$$\n\nFinal Answer: $$\\boxed{2\\pi \\sqrt{\\frac{r}{g}}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "38"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A series resonant circuit consists of an inductor 'L' and capacitor 'C' which produces resonant frequency 'f'. If 'L' is increased by '2L' and 'C' is changed to '9C' the resonant frequency will be"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{f}{3}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{f}{2}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{f}{2\\sqrt{2}}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{f}{3\\sqrt{3}}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a series resonant circuit, the resonant frequency is:\n\n$$f = \\frac{1}{2\\pi \\sqrt{LC}}$$\n\nHere, the original inductance is $L$ and capacitance is $C$.\n\nNow, $L$ is increased by $2L$, so the new inductance becomes:\n\n$$L' = L + 2L = 3L$$\n\nAlso, the new capacitance is:\n\n$$C' = 9C$$\n\nSo the new resonant frequency will be:\n\n$$f' = \\frac{1}{2\\pi \\sqrt{L'C'}}$$\n\nSubstitute $L' = 3L$ and $C' = 9C$:\n\n$$f' = \\frac{1}{2\\pi \\sqrt{(3L)(9C)}} = \\frac{1}{2\\pi \\sqrt{27LC}}$$\n\nSince $\\sqrt{27LC} = 3\\sqrt{3}\\sqrt{LC}$, we get:\n\n$$f' = \\frac{1}{3\\sqrt{3}} \\cdot \\frac{1}{2\\pi \\sqrt{LC}}$$\n\nBut $f = \\frac{1}{2\\pi \\sqrt{LC}}$.\n\nSo,\n\n$$f' = \\frac{f}{3\\sqrt{3}}$$\n\nThe correct option is Option D: $\\frac{f}{3\\sqrt{3}}$."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

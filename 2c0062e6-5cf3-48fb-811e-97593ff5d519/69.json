@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "69"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Identify the false statement regarding magnetic properties of substance."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "(A) and (C) only"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "(A), (B), (C) and (D)"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "(B) and (D) only"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "(A) and (B) only"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Paramagnetic substances have unpaired electrons, so they are weakly attracted by a magnetic field. So statement (A) is true.\n\nDiamagnetic substances have all electrons paired, so they are weakly repelled by a magnetic field, not attracted. So statement (B) is false.\n\nFerromagnetic substances like iron, cobalt, and nickel are strongly attracted by a magnetic field. So statement (C) is true.\n\nStatement (D) says diamagnetic substances are strongly attracted, which is also false because diamagnetic substances are weakly repelled.\n\nThus, the false statements are (B) and (D) only.\n\nFinal Answer: $$\\boxed{\\text{(B) and (D) only}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

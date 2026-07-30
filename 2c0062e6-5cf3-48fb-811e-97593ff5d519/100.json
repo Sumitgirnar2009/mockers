@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "100"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which among the following is NOT a polyester polymer?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Glyptal"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Novolac"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "PHBV"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Dacron"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Novolac is NOT a polyester polymer.\n\nGlyptal, PHBV, and Dacron are polyester polymers because they contain ester linkages (-COO-) in their polymer chains.\n\nNovolac is different. It is a phenol-formaldehyde polymer formed by the condensation of phenol with formaldehyde in acidic medium. It does not contain ester linkages, so it is not a polyester.\n\nSo, the correct answer is:\n\nOption B: Novolac"
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

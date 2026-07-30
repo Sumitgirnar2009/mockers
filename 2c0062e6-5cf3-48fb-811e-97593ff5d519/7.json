@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "7"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In case of perfectly elastic collision,"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "the total kinetic energy before collision is equal to the total kinetic energy after collision."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "the total kinetic energy before collision is less than total kinetic energy after collision."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "the total kinetic energy before collision is greater than the total kinetic energy after collision."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "coefficient of restitution is equal to zero."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: In a perfectly elastic collision, two important quantities are conserved:\n\n(i) Linear momentum: $m_1u_1 + m_2u_2 = m_1v_1 + m_2v_2$\n\n(ii) Kinetic energy: $\\frac{1}{2}m_1u_1^2 + \\frac{1}{2}m_2u_2^2 = \\frac{1}{2}m_1v_1^2 + \\frac{1}{2}m_2v_2^2$\n\nStep 2: The coefficient of restitution ($e$) for a perfectly elastic collision is defined as $e = 1$.\n\nStep 3: Since kinetic energy is conserved, the total kinetic energy before collision is exactly equal to the total kinetic energy after collision.\n\nFinal Answer: $$\\boxed{\\text{the total kinetic energy before collision is equal to the total kinetic energy after collision.}}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

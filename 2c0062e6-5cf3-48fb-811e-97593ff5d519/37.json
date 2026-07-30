@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "37"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "An electric lamp connected in series with a capacitor and an a.c source is glowing with certain brightness. On reducing the frequency of source the brightness of the lamp"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "is increased"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "is reduced"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "remain the same"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "becomes zero"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "In an a.c. circuit containing a capacitor, the opposition to the current is called capacitive reactance, given by:\n\n$$X_C = \\frac{1}{2\\pi f C}$$\n\nwhere $f$ is the frequency and $C$ is the capacitance.\n\nWhen the frequency $f$ is reduced, the capacitive reactance $X_C$ increases. As a result, the total opposition (impedance) of the series circuit increases, which reduces the current $I$ in the circuit.\n\nThe brightness of the lamp depends on the power dissipated in it, $P = I^2 R$. With a smaller current, the power consumed by the lamp decreases, so its brightness is reduced.\n\nFinal Answer: $$\\boxed{\\text{is reduced}}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

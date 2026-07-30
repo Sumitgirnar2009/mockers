@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "8"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The distance of the two planets A and B from the sun are $r_A$ and $r_B$ respectively such that $r_B = 100r_A$. The ratio of the speed of planet A to that of planet B is (both the planets are revolving around the sun)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{1}{\\sqrt{10}}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\sqrt{10}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$10$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$10\\sqrt{10}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: For a planet revolving around the sun, the centripetal force is provided by the gravitational force:\n\n$$\\frac{GMm}{r^2} = \\frac{mv^2}{r}$$\n\nStep 2: Simplify to find the orbital speed:\n\n$$v^2 = \\frac{GM}{r} \\Rightarrow v = \\sqrt{\\frac{GM}{r}}$$\n\nStep 3: Therefore, the orbital speed is inversely proportional to the square root of the orbital radius:\n\n$$v \\propto \\frac{1}{\\sqrt{r}}$$\n\nStep 4: Write the ratio of speeds for planets A and B:\n\n$$\\frac{v_A}{v_B} = \\sqrt{\\frac{r_B}{r_A}}$$\n\nStep 5: Given $r_B = 100r_A$, substitute:\n\n$$\\frac{v_A}{v_B} = \\sqrt{\\frac{100r_A}{r_A}} = \\sqrt{100} = 10$$\n\nFinal Answer: $$\\boxed{10}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

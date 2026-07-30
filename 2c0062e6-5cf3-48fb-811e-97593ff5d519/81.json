@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "81"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following exhibits the minimum coagulating power for precipitating of positively charged ferric oxide sol?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "KNO₃"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "K₂SO₄"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "K₃PO₄"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "K₄Fe(CN)₆"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a positively charged ferric oxide sol, coagulation is caused mainly by the oppositely charged ions, that is, by anions.\n\nAccording to the Hardy-Schulze rule, the coagulating power of an ion increases with its valency.\n\nThe anions present are:\n- KNO₃ → NO₃⁻\n- K₂SO₄ → SO₄²⁻\n- K₃PO₄ → PO₄³⁻\n- K₄Fe(CN)₆ → [Fe(CN)₆]⁴⁻\n\nTheir coagulating power order is: [Fe(CN)₆]⁴⁻ > PO₄³⁻ > SO₄²⁻ > NO₃⁻.\n\nSo, the minimum coagulating power is shown by the monovalent anion NO₃⁻, which comes from KNO₃.\n\nFinal Answer: $$\\boxed{\\text{KNO}_3}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

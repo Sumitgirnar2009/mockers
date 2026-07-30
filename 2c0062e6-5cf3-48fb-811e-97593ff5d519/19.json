@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "19"
+  },
+  "CorrectAnswer": {
+    "S": "1"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "The minimum phase difference between two simple harmonic motions is\n\n$$x_1 = \\frac{1}{\\sqrt{2}} \\sin \\omega t + \\frac{1}{\\sqrt{2}} \\cos \\omega t$$\n\n$$x_2 = \\sin \\omega t + \\cos \\omega t$$\n\n$\\left[ \\sin \\frac{\\pi}{4} = \\cos \\frac{\\pi}{4} = \\frac{1}{\\sqrt{2}} \\right]$"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "zero"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{\\pi}{3}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{\\pi}{4}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{\\pi}{5}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Simplify $x_1$.\n\n$$x_1 = \\frac{1}{\\sqrt{2}} \\sin \\omega t + \\frac{1}{\\sqrt{2}} \\cos \\omega t$$\n\nUsing $\\sin\\frac{\\pi}{4} = \\cos\\frac{\\pi}{4} = \\frac{1}{\\sqrt{2}}$:\n\n$$x_1 = \\sin\\omega t \\cos\\frac{\\pi}{4} + \\cos\\omega t \\sin\\frac{\\pi}{4} = \\sin\\left(\\omega t + \\frac{\\pi}{4}\\right)$$\n\nStep 2: Simplify $x_2$.\n\n$$x_2 = \\sin \\omega t + \\cos \\omega t = \\sqrt{2} \\sin\\left(\\omega t + \\frac{\\pi}{4}\\right)$$\n\nStep 3: Both $x_1$ and $x_2$ have the same phase $\\omega t + \\frac{\\pi}{4}$. Therefore, the phase difference between them is zero.\n\nFinal Answer: $$\\boxed{\\text{zero}}$$\n\nHence, the correct option is A."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

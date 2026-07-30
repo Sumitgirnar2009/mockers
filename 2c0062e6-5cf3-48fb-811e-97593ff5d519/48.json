@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "48"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In the logic circuit diagram, when all the four inputs, A, B, C, D are 'one' the outputs $Y_1, Y_2, Y_3$ are respectively (1, 1, 0). When the inputs A and C are changed to zero and B and D are still 'one', then the outputs $Y_1, Y_2, Y_3$ are respectively change to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "https://questions-mhtcet.s3.ap-south-1.amazonaws.com/2c0062e6-5cf3-48fb-811e-97593ff5d519/q48.png"
+  },
+  "Option1Stmt": {
+    "S": "$1, 1, 1$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$1, 0, 0$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$0, 1, 0$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$0, 0, 1$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "From the logic circuit, we write the output of each part in Boolean form:\n\n- The first gate is a NOR gate followed by a NOT gate, so the two bars cancel each other:\n  $$Y_1 = \\overline{\\overline{A + B}} = A + B$$\n\n- The second output $Y_2$ comes from an AND gate with inputs $C$ and $D$:\n  $$Y_2 = C \\cdot D$$\n\n- The third output $Y_3$ comes from a NOR gate whose inputs are $Y_1$ and $Y_2$:\n  $$Y_3 = \\overline{Y_1 + Y_2}$$\n\nNow the new inputs are $A = 0, B = 1, C = 0, D = 1$.\n\nSubstitute these values:\n\n$$Y_1 = 0 + 1 = 1$$\n$$Y_2 = 0 \\cdot 1 = 0$$\n$$Y_3 = \\overline{1 + 0} = \\overline{1} = 0$$\n\nThus, $Y_1, Y_2, Y_3 = 1, 0, 0$.\n\nFinal Answer: $$\\boxed{1, 0, 0}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

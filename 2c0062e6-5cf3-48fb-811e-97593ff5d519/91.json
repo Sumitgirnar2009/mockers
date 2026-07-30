@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "91"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of following on oxidation forms propanone?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1-Propanol"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "2-Propanol"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "2-Butanol"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "2-methylbutan-1-ol"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Propanone has the structure: CH₃COCH₃.\n\nIt is a ketone. Ketones are generally formed by oxidation of secondary alcohols.\n\nNow, 2-propanol is: CH₃CH(OH)CH₃. Here, the —OH group is attached to the middle carbon, so it is a secondary alcohol. On oxidation, it gives propanone:\n\nCH₃CH(OH)CH₃ + [O] → CH₃COCH₃ + H₂O\n\nSo, the correct option is: Option B: 2-Propanol.\n\nOther options do not give propanone. 1-propanol is a primary alcohol, so it forms propanal or propanoic acid on oxidation. 2-butanol forms butanone. 2-methylbutan-1-ol is also a primary alcohol."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "30"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A potentiometer wire is 4 m long and potential difference of 2 V is maintained between the ends. The e.m.f. of the cell which balances against a length of 80 cm of the potentiometer wire is"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "0.25 V"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "0.30 V"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "0.40 V"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "0.80 V"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The potential difference across the full potentiometer wire is 2 V and its length is 4 m.\n\nSo, the potential gradient is:\n\n$$k = \\frac{V}{L} = \\frac{2}{4} = 0.5 \\text{ V m}^{-1}$$\n\nThe balancing length is 80 cm.\n\nConvert it into metres:\n\n$$80 \\text{ cm} = 0.80 \\text{ m}$$\n\nThe e.m.f. of the cell is equal to the potential drop along the balancing length:\n\n$$E = k \\cdot l$$\n\n$$E = 0.5 \\times 0.80 = 0.40 \\text{ V}$$\n\nThus, the e.m.f. of the cell is 0.40 V.\n\nFinal Answer: $$\\boxed{0.40 \\text{ V}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

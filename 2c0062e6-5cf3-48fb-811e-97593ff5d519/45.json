@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "45"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In photoelectric effect experiment, if the frequency of incident radiation ($\\nu$) is increased, keeping all other factors constant, the stopping potential, ($\\nu > \\nu_0$) ($\\nu_0$ = threshold frequency)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "decreases"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "remains the same"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "increases"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "becomes zero"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For photoelectric effect, Einstein's photoelectric equation is:\n\n$$h\\nu = h\\nu_0 + K_{\\text{max}}$$\n\nSo, $K_{\\text{max}} = h(\\nu - \\nu_0)$.\n\nThe stopping potential $V_0$ is related to the maximum kinetic energy by $eV_0 = K_{\\text{max}}$.\n\nThus, $eV_0 = h(\\nu - \\nu_0)$ or $V_0 = \\frac{h}{e}(\\nu - \\nu_0)$.\n\nHere, $\\nu_0$ is fixed for a given metal. If the frequency $\\nu$ of incident radiation is increased, then $(\\nu - \\nu_0)$ increases. So the stopping potential also increases.\n\nFinal Answer: $$\\boxed{\\text{increases}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

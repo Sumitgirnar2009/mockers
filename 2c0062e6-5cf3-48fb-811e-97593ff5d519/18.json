@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "18"
+  },
+  "CorrectAnswer": {
+    "S": "2"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A body of mass 0.4 kg performs simple harmonic motion. It experiences a restoring force of 0.4 N when its displacement from the mean position is 4 cm. The force constant and magnitude of acceleration respectively are"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "5 N/m, 0.5 m/s²"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "10 N/m, 1 m/s²"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "15 N/m, 1.5 m/s²"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "20 N/m, 2 m/s²"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Force constant $k$ is given by $F = kx$, where $x$ is the displacement.\n\nGiven $F = 0.4$ N, $x = 4$ cm $= 0.04$ m.\n\n$$k = \\frac{F}{x} = \\frac{0.4}{0.04} = 10 \\text{ N/m}$$\n\nStep 2: Acceleration magnitude $a = \\frac{F}{m}$.\n\nGiven mass $m = 0.4$ kg.\n\n$$a = \\frac{0.4}{0.4} = 1 \\text{ m/s}^2$$\n\nFinal Answer: $$\\boxed{10 \\text{ N/m}, 1 \\text{ m/s}^2}$$\n\nHence, the correct option is B."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

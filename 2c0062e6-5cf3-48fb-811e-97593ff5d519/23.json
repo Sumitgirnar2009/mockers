@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "23"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "To increase the frequency of transverse oscillations of a stretched string by 40%, the tension must be increased by"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "100%"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "40%"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "96%"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "140%"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: Frequency of a stretched string is given by $f \\propto \\sqrt{T}$ (for fixed length and mass per unit length).\n\nStep 2: If frequency increases by 40%, then:\n\n$$f_2 = 1.40 f_1$$\n\nStep 3: Since $\\frac{f_2}{f_1} = \\sqrt{\\frac{T_2}{T_1}}$:\n\n$$1.40 = \\sqrt{\\frac{T_2}{T_1}}$$\n\nSquaring both sides:\n\n$$\\frac{T_2}{T_1} = (1.40)^2 = 1.96$$\n\nStep 4: This means new tension is 196% of the original. Increase = $196\\% - 100\\% = 96\\%$.\n\nFinal Answer: $$\\boxed{96\\%}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

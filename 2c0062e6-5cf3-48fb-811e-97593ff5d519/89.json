@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "89"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "In benzylic halides, the halogen atom is bonded to"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$sp$ hybridized carbon atom."
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$sp^2$ hybridized carbon atom."
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$sp^3$ hybridized carbon atom."
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$dsp^2$ hybridized carbon atom."
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "In benzylic halides, the halogen is attached to a carbon that is directly bonded to the benzene ring. This carbon is saturated (single bonds to halogen, benzene ring, and possibly other groups), so it is $sp^3$ hybridized. For example, in benzyl chloride (C₆H₅CH₂Cl), the CH₂ carbon is $sp^3$.\n\nFinal Answer: $$\\boxed{sp^3 \\text{ hybridized carbon atom.}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

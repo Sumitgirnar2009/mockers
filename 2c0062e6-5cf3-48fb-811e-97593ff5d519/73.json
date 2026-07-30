@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "73"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following colligative properties is useful to determine the molar masses of proteins, polymers or colloids, with the greatest precision?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "Elevation in boiling point"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "Depression in freezing point"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "Osmotic pressure"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "Relative lowering of vapour pressure"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For proteins, polymers, and colloids, the molar masses are very large. So, even if we dissolve a reasonable mass, the number of moles present is very small.\n\nColligative properties depend on the number of solute particles. Because the number of particles is small, changes like elevation in boiling point and depression in freezing point become very small and difficult to measure accurately.\n\nOsmotic pressure is more useful because it can be measured accurately even for dilute solutions. It is given by $\\pi = CRT$ or $\\pi = \\frac{wRT}{MV}$, where $M$ is the molar mass of the solute.\n\nThus, by measuring osmotic pressure, the molar mass of proteins, polymers or colloids can be found with the greatest precision.\n\nFinal Answer: $$\\boxed{\\text{Osmotic pressure}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

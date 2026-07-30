@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "34"
+  },
+  "CorrectAnswer": {
+    "S": "3"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "A thin ring of radius $R$ metre has charge $q$ coulomb uniformly spread on it. The ring rotates about its axis with a constant frequency of $f$ revolution/s. The value of magnetic induction at the centre of the ring in Wb/m² is ($\\mu_0$ = permeability of free space)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "$\\frac{\\mu_0 q}{2 f R}$"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "$\\frac{\\mu_0 q}{2\\pi R}$"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "$\\frac{\\mu_0 q f}{2R}$"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "$\\frac{\\mu_0 q \\pi}{2 f R}$"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "A uniformly charged ring rotating with frequency $f$ constitutes a current. The charge $q$ completes one revolution in time $1/f$ seconds, so the equivalent current is:\n\n$$I = \\frac{q}{T} = qf$$\n\nFor a circular loop of radius $R$ carrying current $I$, the magnetic field at the centre is given by:\n\n$$B = \\frac{\\mu_0 I}{2R}$$\n\nSubstituting $I = qf$:\n\n$$B = \\frac{\\mu_0 q f}{2R}$$\n\nThus, the magnetic induction at the centre is $\\frac{\\mu_0 q f}{2R}$.\n\nFinal Answer: $$\\boxed{\\frac{\\mu_0 q f}{2R}}$$\n\nHence, the correct option is C."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

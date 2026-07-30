@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "95"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Which of the following amines is not represented by formula $C_3H_9N$?"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1° amine"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "2° amine"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "3° amine"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "quaternary ammonium salt"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "The formula C₃H₉N can represent different types of amines depending on how the carbon groups are attached to nitrogen.\n\nFor a 1° amine: CH₃CH₂CH₂NH₂. This is propan-1-amine, and its formula is C₃H₉N.\n\nFor a 2° amine: CH₃NHCH₂CH₃. This is ethylmethylamine, and its formula is also C₃H₉N.\n\nFor a 3° amine: (CH₃)₃N. This is trimethylamine, and its formula is again C₃H₉N.\n\nBut a quaternary ammonium salt has nitrogen bonded to four alkyl groups and carries a positive charge, like: R₄N⁺X⁻. It cannot be represented by the neutral amine formula C₃H₉N.\n\nSo, the correct answer is Option D: quaternary ammonium salt."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

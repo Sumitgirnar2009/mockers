@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "17"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "An ideal gas is expanded adiabatically. How many times has the gas to be expanded to reduce the r.m.s. speed of molecules 3 times? ($\\gamma = 1.5$)"
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "32 times"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "16 times"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "8 times"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "81 times"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "Step 1: The r.m.s. speed of gas molecules is $v_{\\text{rms}} \\propto \\sqrt{T}$.\n\nIf the r.m.s. speed is reduced to $\\frac{1}{3}$ of its original value, then:\n\n$$\\frac{T_2}{T_1} = \\left(\\frac{1}{3}\\right)^2 = \\frac{1}{9}$$\n\nStep 2: For an adiabatic process, $T V^{\\gamma - 1} = \\text{constant}$.\n\nSo, $T_1 V_1^{\\gamma - 1} = T_2 V_2^{\\gamma - 1} \\Rightarrow \\frac{V_2}{V_1} = \\left(\\frac{T_1}{T_2}\\right)^{\\frac{1}{\\gamma - 1}}$.\n\nStep 3: Given $\\gamma = 1.5$, so $\\gamma - 1 = 0.5 = \\frac{1}{2}$.\n\nThus, $\\frac{V_2}{V_1} = \\left(\\frac{T_1}{T_2}\\right)^{\\frac{1}{0.5}} = \\left(9\\right)^2 = 81$.\n\nSo, the gas must be expanded 81 times.\n\nFinal Answer: $$\\boxed{81 \\text{ times}}$$\n\nHence, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}

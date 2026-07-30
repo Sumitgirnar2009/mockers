@@ -1,0 +1,56 @@
+{
+  "quizId": {
+    "S": "2c0062e6-5cf3-48fb-811e-97593ff5d519"
+  },
+  "questionId": {
+    "S": "56"
+  },
+  "CorrectAnswer": {
+    "S": "4"
+  },
+  "FullMarks": {
+    "N": "1"
+  },
+  "NegativeMarks": {
+    "N": "0"
+  },
+  "QuestionStmt": {
+    "S": "Calculate the new pressure of the gas enclosed in a cylinder when it is compressed from 5 L to 2 L at 1 atm and 300 K. The final temperature in this process is 500 K."
+  },
+  "QuestionType": {
+    "S": "MCQSC"
+  },
+  "QuestionImg": {
+    "S": "NA"
+  },
+  "Option1Stmt": {
+    "S": "1.5 atm"
+  },
+  "Option1Img": {
+    "S": "NA"
+  },
+  "Option2Stmt": {
+    "S": "3.12 atm"
+  },
+  "Option2Img": {
+    "S": "NA"
+  },
+  "Option3Stmt": {
+    "S": "2.5 atm"
+  },
+  "Option3Img": {
+    "S": "NA"
+  },
+  "Option4Stmt": {
+    "S": "4.16 atm"
+  },
+  "Option4Img": {
+    "S": "NA"
+  },
+  "Solution": {
+    "S": "For a fixed amount of gas, we use the combined gas law:\n\n$$\\frac{P_1 V_1}{T_1} = \\frac{P_2 V_2}{T_2}$$\n\nGiven: $P_1 = 1$ atm, $V_1 = 5$ L, $T_1 = 300$ K, $V_2 = 2$ L, $T_2 = 500$ K.\n\nSubstitute the values:\n\n$$\\frac{1 \\times 5}{300} = \\frac{P_2 \\times 2}{500}$$\n\nRearranging for $P_2$:\n\n$$P_2 = \\frac{1 \\times 5 \\times 500}{300 \\times 2} = \\frac{2500}{600} = 4.16 \\text{ atm}$$\n\nFinal Answer: $$\\boxed{4.16 \\text{ atm}}$$\n\nHence, the correct option is D."
+  },
+  "SolutionImg": {
+    "S": "NA"
+  }
+}
